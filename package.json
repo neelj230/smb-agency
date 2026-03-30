@@ -1,0 +1,32 @@
+{
+  "name": "smb-agency",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Automated website agency for SMBs — research, generate, deploy, outreach",
+  "scripts": {
+    "prospect": "npx tsx scripts/prospect.ts",
+    "scrape": "npx tsx scripts/scrape.ts",
+    "generate": "npx tsx scripts/generate.ts",
+    "deploy": "npx tsx scripts/deploy.ts",
+    "format": "prettier --write .",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "framer-motion": "^11",
+    "next": "^14",
+    "react": "^18",
+    "react-dom": "^18",
+    "sharp": "^0.33"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "eslint": "^8",
+    "playwright": "^1.45",
+    "prettier": "^3",
+    "prettier-plugin-tailwindcss": "^0.6",
+    "tailwindcss": "^4",
+    "tsx": "^4",
+    "typescript": "^5"
+  }
+}

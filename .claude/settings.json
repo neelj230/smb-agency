@@ -1,0 +1,52 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "npx prettier --write \"$CLAUDE_FILE\" 2>/dev/null || true"
+          }
+        ]
+      }
+    ],
+    "PostCompact": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'Context compacted — re-read CLAUDE.md and the design-system skill for project rules.'"
+          }
+        ]
+      }
+    ]
+  },
+  "permissions": {
+    "allow": [
+      "Bash(npm run build*)",
+      "Bash(npm run dev*)",
+      "Bash(npm install*)",
+      "Bash(npx next*)",
+      "Bash(npx prettier*)",
+      "Bash(npx eslint*)",
+      "Bash(npx playwright*)",
+      "Bash(npx lighthouse*)",
+      "Bash(vercel*)",
+      "Bash(mkdir*)",
+      "Bash(cp*)",
+      "Bash(ls*)",
+      "Bash(cat*)",
+      "Bash(git*)",
+      "Edit(sites/**)",
+      "Edit(packages/**)",
+      "Edit(scripts/**)",
+      "Edit(data/**)",
+      "Write(sites/**)",
+      "Write(packages/**)",
+      "Write(scripts/**)",
+      "Write(data/**)"
+    ]
+  }
+}
