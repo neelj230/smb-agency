@@ -20,7 +20,8 @@
     "react": "^18",
     "react-dom": "^18",
     "resend": "^3",
-    "sharp": "^0.33"
+    "sharp": "^0.33",
+    "vercel": "^50.37.3"
   },
   "devDependencies": {
     "@types/node": "^20",

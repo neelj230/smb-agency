@@ -1,0 +1,4 @@
+sites/*/public/photos/*.webp filter=lfs diff=lfs merge=lfs -text
+data/businesses/*/photos/*.jpg filter=lfs diff=lfs merge=lfs -text
+data/businesses/*/photos/*.webp filter=lfs diff=lfs merge=lfs -text
+sites/*/public/photos/*.jpg filter=lfs diff=lfs merge=lfs -text

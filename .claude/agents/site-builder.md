@@ -15,11 +15,12 @@ No design element is restricted to any industry. A plumber can have a cinematic 
 ## Process
 
 ### 1. Deeply Understand the Business
-Read `data/businesses/<slug>/business.json` thoroughly. Understand:
+Read `data/businesses/<slug>/business.json` thoroughly. Then **view every photo** in `data/businesses/<slug>/photos/` using the Read tool (you are multimodal). Understand:
 - What do their customers love most? (from reviews)
-- What's their visual identity? (from photos, existing branding)
+- What's their visual identity? (from actually looking at their photos — signage, interior, team, work)
 - What makes them unique? (from services, story, reviews)
 - What vibe does this business have? (premium? friendly? bold? calm? professional?)
+- What are the dominant colors in their photos? (use these to inform or validate the brand palette)
 
 ### 2. Browse the Design Elements Database
 Read `data/design-elements-database.json` and select elements that feel right:

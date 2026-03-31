@@ -9,7 +9,7 @@ Arguments: $ARGUMENTS (business slug, e.g. "joes-plumbing")
 ## Steps
 
 ### 1. Load and Understand the Business
-Read `data/businesses/$ARGUMENTS/business.json` deeply. Understand the business's vibe, strengths, story, and what customers say about them.
+Read `data/businesses/$ARGUMENTS/business.json` deeply. Then **view every photo** in `data/businesses/$ARGUMENTS/photos/` using the Read tool (you are multimodal — you can see images). Understand the business's vibe, strengths, story, visual identity, and what customers say about them. The photos are your primary source for design decisions — color palette, hero image selection, and overall aesthetic.
 
 ### 2. Browse the Design Elements Database
 Read `data/design-elements-database.json`. Find elements that feel right for this business:

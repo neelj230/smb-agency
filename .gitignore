@@ -5,7 +5,7 @@ out/
 *.env
 *.env.local
 .DS_Store
-data/businesses/*/photos/
+# Photos tracked via Git LFS
 sites/*/node_modules/
 sites/*/.next/
 sites/*/out/
