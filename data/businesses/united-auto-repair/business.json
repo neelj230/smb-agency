@@ -1,0 +1,133 @@
+{
+  "name": "United Auto Repair",
+  "slug": "united-auto-repair",
+  "category": "auto repair",
+  "address": "6163 Lancaster Ave",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19151",
+  "phone": "(215) 871-8440",
+  "email": "",
+  "website": null,
+  "rating": 4.3,
+  "reviewCount": 178,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "8:00 AM – 4:30 PM",
+    "Tuesday": "8:00 AM – 4:30 PM",
+    "Wednesday": "8:00 AM – 4:30 PM",
+    "Thursday": "8:00 AM – 4:30 PM",
+    "Friday": "8:00 AM – 4:30 PM",
+    "Saturday": "8:00 AM – 3:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "The best in town. I've taken my car there twice, and each time everyone there has been super polite, helping, and patient with all questions regarding my vehicle. They're fast too!\nShout out to Bishop, who was able to fix my caliper and saved me ordering one from the dealer!\nYou can't go wrong with this shop!",
+      "author": "Edgar Landaverde",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-29"
+    },
+    {
+      "text": "I’m second generation of coming here. I gave four stars because the environment/ aesthetic is unwelcoming and stale. The bathroom had cob webs and one spare extra toilet paper. The waiting area chairs has been the same for years.  Why does that matter, because it’s giving after thought.\n\nThe prices have always been good.\n\nVery knowledgeable and helpful staff. Always had the receptionist.\n\nI went in because my windshield wiper fluid isn’t dispensing when commanded and I was referred to the Jeep Dealership for further evaluation.\n\nI did however get two tires and my front brakes replaced. So far so good.",
+      "author": "Javada Hill",
+      "rating": 4,
+      "source": "google",
+      "date": "2025-05-31"
+    },
+    {
+      "text": "No complaints about this place! I highly recommend getting your vehicle serviced here. As a woman I’ve always been treated with respect and did not feel taken advantage of. I’ve also seen how the staff catered to other customers as well. I moved from Philly to DE and will continue to get my vehicle serviced here.",
+      "author": "Kia Bizzle",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-07-20"
+    },
+    {
+      "text": "Did my oli change and inspection the same day that I reach out to them.\nHighly Recommended",
+      "author": "Ra. G.",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-02"
+    },
+    {
+      "text": "They have the best service I've seen ever. I honestly feel like family every time i come here. They are very honest with what needs to be done n very fair prices.",
+      "author": "Spliff Situations",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-11-01"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "United Auto Repair photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "United Auto Repair photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "United Auto Repair photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "United Auto Repair photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "United Auto Repair photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "United Auto Repair photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "United Auto Repair photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "United Auto Repair photo 8",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 178,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.3,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "name": "Sunsilk Tailor",
+  "slug": "sunsilk-tailor",
+  "category": "tailor",
+  "address": "2024 Chestnut St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19103",
+  "phone": "(610) 862-1456",
+  "email": "",
+  "website": "https://sunsilksuits.com/",
+  "rating": 5,
+  "reviewCount": 77,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM – 4:00 PM",
+    "Tuesday": "9:00 AM – 4:00 PM",
+    "Wednesday": "9:00 AM – 4:00 PM",
+    "Thursday": "9:00 AM – 4:00 PM",
+    "Friday": "9:00 AM – 4:00 PM",
+    "Saturday": "9:00 AM – 4:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I had an amazing experience getting my suit here for my senior prom. The suit was PERFECT the fit was exactly how I wanted it, and the quality was top tier. You can tell they really care about the details and making sure everything looks right.\n\nOn top of that, the price was great for what you’re getting. Professional service, great quality, and everything done on time. I couldn’t have asked for a better suit for such an important night. Definitely recommend and will be back",
+      "author": "KyEir G",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-03-03"
+    },
+    {
+      "text": "Kung had me and all the other groomsmen for my brother’s wedding looking sharp! Everything fit perfectly and she even came in beforehand to make sure we all looked perfect for the wedding day. Can’t recommend enough!",
+      "author": "Kyle Dennin",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-03"
+    },
+    {
+      "text": "Kung is our best friend and she made excellent suits for our wedding. We love them and received many compliments from our guests, asking where we had them made. I highly recommended.",
+      "author": "Prinya Sroysont",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-12"
+    },
+    {
+      "text": "We had such a great experience with Sunsilk Tailors! Kung made my husband’s wedding tuxedo and a custom suit, and we couldn’t be happier. The whole process was really fun. We got to pick out every detail, and the fit was perfect. The custom embroidery was such a special touch, too. Highly recommend if you’re looking for something unique and really well made! (Photo credit to Annette Lee Photography)\n\nKung also tailored my mother in laws dresses for the wedding weekend and made sure they were the perfect fit!",
+      "author": "Hannah McShane",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-18"
+    },
+    {
+      "text": "Kung made my tuxedo for my wedding. It came out beautifully and she even made a dinner jacket to change in to. Kung provides great service and has a great selection of designs for whatever you are looking for.",
+      "author": "Michael Garuccio",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-15"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Sunsilk Tailor photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Sunsilk Tailor photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Sunsilk Tailor photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Sunsilk Tailor photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Sunsilk Tailor photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Sunsilk Tailor photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Sunsilk Tailor photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Sunsilk Tailor photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Sunsilk Tailor photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Sunsilk Tailor photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 77,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

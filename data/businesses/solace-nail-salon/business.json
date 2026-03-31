@@ -1,0 +1,143 @@
+{
+  "name": "Solace Nail Salon",
+  "slug": "solace-nail-salon",
+  "category": "nail salon",
+  "address": "6141 Market St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19139",
+  "phone": "(610) 968-9982",
+  "email": "",
+  "website": "http://solacenailsalon.com/?utm_source=gmb&utm_medium=referral",
+  "rating": 4.1,
+  "reviewCount": 92,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Closed",
+    "Tuesday": "10:00 AM – 6:00 PM",
+    "Wednesday": "10:00 AM – 6:00 PM",
+    "Thursday": "10:00 AM – 6:00 PM",
+    "Friday": "10:00 AM – 7:00 PM",
+    "Saturday": "10:00 AM – 7:00 PM",
+    "Sunday": "10:00 AM – 5:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I want to start by saying the person that did the pedicure, did a great job. They took their time and there are no complaints. The acrylic nail service was lacking professionalism and attention to basic detail. The prep for the nail beds and cuticles were rushed and not well done. The adhesive/glue does not feel secure. The polish is untidy. They attempted to upcharge to have the nails at an average length.  Had to settle for the short nails. It could have been a manicure service if that was the case. The person who did the service was not nice, and in my personal opinion rude. The pictures online do not reflect the service received.",
+      "author": "Ashley Menard",
+      "rating": 1,
+      "source": "google",
+      "date": "2025-12-26"
+    },
+    {
+      "text": "I can't believe I've been sleeping on this hidden gem! 2 months ago I decided it was time for a change from my nail salon. I walked into Solace on a humbug, no appointment. The salon is clean and the atmosphere is welcoming. Latty welcomed me and immediately booked me into her next open slot. By the end of my visit I knew I was coming back. My nails/toes were cute and neat. Latti took her time with the details of my designs. She made sure I was happy with the results. It's always good when I can be satisfied while supporting black business. I have returned since my first visit and will be back.",
+      "author": "Wendy Caton",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-26"
+    },
+    {
+      "text": "I am a returning customer, I only go to this salon in Philly. The energy is always great And they always try to accommodate you. The owner/boss she always makes conversation with the customers and is very hands on. I never felt uncomfortable or like they are talking about me although I have felt like that at other places that I have went to. To me the staff gives big sister/mom energy that makes you feel comfortable and confident.\nThe one time I went there, I had just left the doctor’s office from getting an iron infusion so I’ve been sitting all day but I was giving birth soon and needed to get my nails and my toes done. I was very antsy and couldn’t stay still. I wish I knew the lady who did my nails name so I could recommend her personally but anyway She was very patient and kind. She didn’t give no attitude and didn’t get smart, she was very understanding.\n\nIf it was me, I probably would’ve gotten a little frustrated hahaha.\nMy nails always last and I always leave feeling very satisfied. I highly recommend solace nail salon.",
+      "author": "Avian Holmes",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-14"
+    },
+    {
+      "text": "Amazing atmosphere beautiful ppl and the service as you can see 10/10 highly recommend…. The only place you should be getting your nails done",
+      "author": "dee Thompson",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-21"
+    },
+    {
+      "text": "I have been coming here for a few months and I have not been disappointed yet. Mrs.Shelly is who I book with and she is amazing!!!",
+      "author": "Tarshia Whitley",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-22"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Solace Nail Salon photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Solace Nail Salon photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Solace Nail Salon photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Solace Nail Salon photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Solace Nail Salon photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Solace Nail Salon photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Solace Nail Salon photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Solace Nail Salon photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Solace Nail Salon photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Solace Nail Salon photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 92,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.1,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "name": "Rothe Florists & Flower Delivery",
+  "slug": "rothe-florists-flower-delivery",
+  "category": "florist",
+  "address": "7148 Germantown Ave",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19119",
+  "phone": "(215) 247-0832",
+  "email": "",
+  "website": "https://www.rotheflorists.com/?utm_source=google&utm_medium=gmb-website-link&utm_campaign=tmf-gmb",
+  "rating": 4.9,
+  "reviewCount": 460,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM – 4:00 PM",
+    "Tuesday": "9:00 AM – 4:00 PM",
+    "Wednesday": "9:00 AM – 4:00 PM",
+    "Thursday": "9:00 AM – 4:00 PM",
+    "Friday": "9:00 AM – 4:00 PM",
+    "Saturday": "9:00 AM – 2:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I was very happy with the flower arrangement I purchased for Valentine’s Day. The service was efficient and timely, arriving in my requested time frame. I appreciated the reasonable prices on short notice and the quality of the flowers. I also bought chocolates and a candle that were both from local places and packaged neatly.",
+      "author": "Daniel Terbush",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-15"
+    },
+    {
+      "text": "After striking out at a couple of other florists, I visited the Rothe website. I was excited that it would allow me to place an order for the next day. I knew that I wanted to send a peace lily. The website listed a 10\" basket. That sounded great. Now, will the plant arrive on time and be beautiful? Shortly after completing my order. I received a call to confirm the delivery location, which further confirmed timely delivery. It did! The plant was full and beautiful. I  was pleasantly surprised. It was a bit pricey, but anyone, myself included, would have loved to take it home! It was snatched up before I could take a photo.",
+      "author": "Michelle Bennett",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-03-03"
+    },
+    {
+      "text": "This place was awesome! Ordering was simple and my wife loved the flowers. I’ve ordered from many places and none were able to get the flowers delivered on time and to the correct place. Rothe not only did both but they crafted the most beautiful dozen rose bouquet I have ever ordered. Not only will I be using them exclusively for all my future orders but I am passing their info on to all of my friends and co-workers as well. 5 stars, would highly recommend!!!",
+      "author": "Jim Lowther",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-14"
+    },
+    {
+      "text": "This was my first time ever sending flowers long distance, and I couldn’t have chosen a better florist. After reading the reviews, and coming across a positive review left from someone else sending from Ireland, I went ahead and chose Rothe Florists, and I am SO glad I did. The flowers arrived exactly on Valentine’s Day as promised, and they were absolutely beautiful, actually went above and beyond expectations. My boyfriend loved them, and they truly made the whole occasion feel extra special.\n\nThe shop’s communication was quick, clear, reassuring and friendly throughout the whole process. It’s tricky sometimes because your card issuer might mistake and block the transaction for overseas purchases, but the shop owner straight away noticed, and they helped resolve it immediately via email. I was extremely thankful for that. It’s rare to find a shop where the reviews genuinely reflect the service, but here, they absolutely do.\n\nThey definitely would be my go to flower shop from now on. And I can absolutely see why they’re the best. When I’m over visiting, I’ll pop in and get some for myself! I couldn’t recommend them enough. Thank you so much Rothe Florists.\n\nRebekah.",
+      "author": "Weegreens",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-14"
+    },
+    {
+      "text": "I ordered an arrangement, designer's choice, to celebrate my sister-in-law's retirement.  The designer created a beautiful arrangement and Anthony could not have been more kind and helpful taking my order and checking me out at the shop.  I don't order flowers often but when I do, I go to Rothe's!",
+      "author": "Joan Brooks",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-09"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Rothe Florists & Flower Delivery photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Rothe Florists & Flower Delivery photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Rothe Florists & Flower Delivery photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Rothe Florists & Flower Delivery photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Rothe Florists & Flower Delivery photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Rothe Florists & Flower Delivery photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Rothe Florists & Flower Delivery photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Rothe Florists & Flower Delivery photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Rothe Florists & Flower Delivery photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Rothe Florists & Flower Delivery photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 460,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "name": "Mike's Automotive",
+  "slug": "mikes-automotive",
+  "category": "auto repair",
+  "address": "427 N Gross St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19151",
+  "phone": "(215) 471-5111",
+  "email": "",
+  "website": null,
+  "rating": 4.7,
+  "reviewCount": 41,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {},
+  "services": [],
+  "reviews": [
+    {
+      "text": "Let you  going to  Mike's  for over 10 years. Always  fixed my car. I've  never had a problem with my car after he fixed it. He's  worked on 3 cars. Very  professional, nice. They let you know the problem and what the cost is going to be before they work on it. Very respectful too. They know what they are doing. Thanks Mike",
+      "author": "Tracey Cain",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-02-17"
+    },
+    {
+      "text": "Mike is the man!! been around for a very long time well respected and work is outstanding, very knowledgeable and professional. Highly recommend this place of business!",
+      "author": "Lamont Davis",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-06-03"
+    },
+    {
+      "text": "Mike  is an excellent mechanic and has been here for years.. He's very good to work with  gives fast service and is very fair with prices ... Definitely worth going to see for most all needs with cars and trucks !",
+      "author": "Dave D.",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-08-23"
+    },
+    {
+      "text": "Excellent and expert repair! Honest and quick too. Always a pleasure to have my cars serviced here from an inspection to major repairs. Mike does it all and keeps my cars running and on the road, not in the shop!!!",
+      "author": "Joseph Oliva",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-09-17"
+    },
+    {
+      "text": "He’s a man of few words but that dude has allot of knowledge about automobiles in his head. If you need help or info on your car he’ll help you out.He’s been around forever, well respected in the community.",
+      "author": "Amir",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-02-29"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Mike's Automotive photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Mike's Automotive photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Mike's Automotive photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Mike's Automotive photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Mike's Automotive photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Mike's Automotive photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Mike's Automotive photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Mike's Automotive photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Mike's Automotive photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Mike's Automotive photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 41,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.7,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

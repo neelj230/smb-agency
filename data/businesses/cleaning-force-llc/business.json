@@ -1,0 +1,143 @@
+{
+  "name": "Cleaning Force LLC",
+  "slug": "cleaning-force-llc",
+  "category": "cleaning service",
+  "address": "2101 N 63rd St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19151",
+  "phone": "(610) 809-5003",
+  "email": "",
+  "website": "http://cleaningforceco.com/",
+  "rating": 4.6,
+  "reviewCount": 45,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Open 24 hours",
+    "Tuesday": "Open 24 hours",
+    "Wednesday": "Open 24 hours",
+    "Thursday": "Open 24 hours",
+    "Friday": "Open 24 hours",
+    "Saturday": "Open 24 hours",
+    "Sunday": "Open 24 hours"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "BEST CLEANING COMPANY EVER! I can’t rave enough about this company. From the professionalism, to the very detailed services. Being a type A person, I am very particular about my home and how it’s cleaned, Cleaning Force never disappoints. My house is spotless and smells amazing each and every time they come.. I am beyond impressed and pleased with this company.",
+      "author": "Shannon Artis",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-21"
+    },
+    {
+      "text": "If you never have time to clean. Cleaning Force is the perfect solution.  Very reliable and reasonably priced. I’m would definitely recommend the deep cleaning if you like me. lol",
+      "author": "Najee Dow",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-15"
+    },
+    {
+      "text": "I recently hired Cleaning Force LLC for a move-out clean at my rental property, and I couldn't be more satisfied with the results. From start to finish, their service was exceptional.\n\nThe scheduling process was straightforward, and they were flexible in accommodating my timeline. The cleaning team arrived promptly and was professional and courteous throughout the entire process. They came fully prepared with all the necessary equipment and supplies.\n\nWhat truly impressed me was their attention to detail. They tackled every area of the property, from the kitchen and bathrooms to the living spaces, and even the often-neglected corners. I was particularly pleased with how they handled the appliances, ensuring everything was left spotless. The carpets looked fresh and clean, and the floors shined like new.\n\nAn unexpected but delightful surprise was that they even took the initiative to clean the basement, which I hadn't specifically asked for. This extra effort showed their dedication to ensuring that the property was in perfect condition for the next tenants. It was clear they take pride in their work and want to leave no stone unturned.\n\nThe final walkthrough left me confident that I would receive my full security deposit back. Overall, I highly recommend Cleaning Force LLC for any move-out cleaning needs. Their professionalism, thoroughness, and commitment to customer satisfaction make them a standout choice. They truly made my move-out process much easier and stress-free!",
+      "author": "Nateile Justice",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-07-05"
+    },
+    {
+      "text": "I was so impressed with the cleaning service I received from Cleaning Force! My house looks and smells amazing. After having a different company clean my house for over a year I needed a better option to meet my needs and Cleaning Force did just that. I love the customer guarantee they offer, giving me peace of mind that my house will be cleaned efficiently. I highly recommend this company for your cleans as they won’t disappoint!",
+      "author": "Zenia Pearson-Mixson",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-07-06"
+    },
+    {
+      "text": "During my last move I had to leave quickly and didn't have time to give the house a deep cleaning. I was able to book Cleaning Force on less than 48 hours notice, and their website made the booking process quick and simple. I was contacted quickly and maintained great communication leading up to the appointment. The cleaners arrived on time and ready to work and what a great job they did. They did a thorough cleaning of the house and even got the stove and fridge looking better than when I moved in. I am very grateful for Cleaning Force for the friendly, professional service they provided and would recommend them to everyone for their house cleaning needs.",
+      "author": "Joseph Bove",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-02-09"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Cleaning Force LLC photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Cleaning Force LLC photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Cleaning Force LLC photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Cleaning Force LLC photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Cleaning Force LLC photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Cleaning Force LLC photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Cleaning Force LLC photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Cleaning Force LLC photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Cleaning Force LLC photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Cleaning Force LLC photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 45,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.6,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "name": "Boss Plumbing & Heating",
+  "slug": "boss-plumbing-heating",
+  "category": "plumber",
+  "address": "259 W Johnson St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19144",
+  "phone": "(267) 748-4314",
+  "email": "",
+  "website": "https://www.bossplumbingheating.com/",
+  "rating": 4.8,
+  "reviewCount": 227,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Open 24 hours",
+    "Tuesday": "Open 24 hours",
+    "Wednesday": "Open 24 hours",
+    "Thursday": "Open 24 hours",
+    "Friday": "Open 24 hours",
+    "Saturday": "Open 24 hours",
+    "Sunday": "Open 24 hours"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Warren was so knowledgeable of our problem and our neighborhood that he was able to diagnose it over the phone! He was also super responsive to our questions. His team was polite about walking through our house (no basement door) and they got all the work done in one day. We will be using them if we ever need another plumber in the future (knock on wood)",
+      "author": "Erin and Craig",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-24"
+    },
+    {
+      "text": "We had a sewer backup on the weekend during a snow storm.  We have a HomeServ contract for our sewer line so you call them and they get you a licensed plumber to fix the issue.  Because of the weekend and snow storm, everyone refused to come out until they called Warren at Boss Plumbing and Heating.  Warren came out at 5pm on a Sunday in a snow storm and fixed the issue.  He was very professional and did an amazing job. I would highly recommend Boss if you need plumbing help.  Thank you Warren for the help.",
+      "author": "Darren Kline",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-18"
+    },
+    {
+      "text": "You know what's a pretty solid way to ruin your night?  It's 6pm on a Thursday. Your water heater decides it's done and starts flooding your utility room.  Thank the good Lord for Boss Plumbing and Heating!  I called two other plumbers.  One didn't service our area of Manayunk/Roxborough and the other sent me to voicemail.   Warren picked up immediately.  Not an answering service...  him.  He got a guy out in less than an hour to drain the busted water heater.  Showed up the very next morning with a brand new one.  Perfectly installed.  Great pricing, easy online invoicing and payment.  I couldn't be happier.  As homeowners, Boss will be our go-to plumber from now on!",
+      "author": "Andrea McAfee",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-04-11"
+    },
+    {
+      "text": "The people at Boss were lifesavers. Recently bought a house and didn't realize how bad the plumbing/sewage was and they came out promptly and got right on fixing my issue. The price was exactly what they said it would be and were always there when they said they would be. They were super nice to work with and helped me understand what the issue was and fixed it super fast. Made it super easy to work with my insurance too. Highly recommend them.",
+      "author": "Tim Harding",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-07"
+    },
+    {
+      "text": "This company was very helpful and nice also understanding.  They unclog my drain and I still had an issue. They came back out with no problem and unclog my drain again. I appreciate the professionalism that they displayed. Black owned businesses And I will highly recommend them. Thank you Warren",
+      "author": "Tawaya Lewis",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-31"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Boss Plumbing & Heating photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Boss Plumbing & Heating photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Boss Plumbing & Heating photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Boss Plumbing & Heating photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Boss Plumbing & Heating photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Boss Plumbing & Heating photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Boss Plumbing & Heating photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Boss Plumbing & Heating photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Boss Plumbing & Heating photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Boss Plumbing & Heating photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 227,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.8,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

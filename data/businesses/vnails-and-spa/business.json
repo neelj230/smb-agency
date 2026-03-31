@@ -1,0 +1,143 @@
+{
+  "name": "VNails and Spa",
+  "slug": "vnails-and-spa",
+  "category": "nail salon",
+  "address": "5101 Walnut St Unit 3",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19139",
+  "phone": "(215) 852-9475",
+  "email": "",
+  "website": null,
+  "rating": 4.5,
+  "reviewCount": 166,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:30 AM – 6:30 PM",
+    "Tuesday": "9:30 AM – 6:30 PM",
+    "Wednesday": "9:30 AM – 6:30 PM",
+    "Thursday": "9:30 AM – 6:30 PM",
+    "Friday": "9:30 AM – 6:30 PM",
+    "Saturday": "9:00 AM – 4:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Be careful !!! Listed prices does not match. I came there excited to receive service again because the first few times was everything! I told them I wanted spa pedicure they ended up giving me the luxury one without my knowledge. The foot nail tech was a vibe. It wasnt until I was at the nail station with a different nail tech and she said my services was going to cost $215 with the style I wanted Huhhhhh.. so I just went to something simple. My pedi was $80 when i wanted the $60 one. And an short almond shaped fullset with NO POLISH and a heart design on one nail each hand came to $90??? And tried charging me $30 to get an eyebrow wax and chin (no visible hair). This was insane. Total was $180. I Wont be going back",
+      "author": "Dymen Phillips",
+      "rating": 3,
+      "source": "google",
+      "date": "2026-03-05"
+    },
+    {
+      "text": "I had such a wonderful experience at V Nail Salon!  The team so welcoming and professional.  My nail art turned out even better than I imagined-so neat, creative, and stylish. The pedicure was heavenly; my feet feel soft and refreshed, and the whole experience was very relaxing.  The salon is spotless and has a calming atmosphere. I’ve already gotten several compliments on my nails. and I’ll be coming back ❤️",
+      "author": "Tomeka Moore",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-02"
+    },
+    {
+      "text": "I really wanted to like this place. The people working there were lovely and welcoming. But my dip manicure chipped after 1 week, looked \"grown out\" almost immediately because of the space left at the back, and the manicure itself was really only shaping the nails and putting the color on (not a lot of cuticle cleaning, lotion, warm towels, etc that most other places do). I don't get my nails done out often but had some big events coming up over the next 2+ weeks so thought this was a good time. For $65, I expected more.",
+      "author": "Kelsey Jirikils",
+      "rating": 3,
+      "source": "google",
+      "date": "2025-09-08"
+    },
+    {
+      "text": "Everyone that works here is very kind and professional. The salon is clean, trendy and beautiful. Annie had no problem with fixing my pedicure the day following my original appointment. This is the only salon my husband will go too. Don't walk run here and get your nails done😊",
+      "author": "Jamia Williams",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-21"
+    },
+    {
+      "text": "My experience at V Nails and Spa was wonderful! My first time at the salon, and I will definitely be coming back. The salon is clean, bright, stylish and very organized. Wonderful selection of available services. Annie was my nail tech, and she was gentle with a badly broken nail. Quick and efficient service without ever feeling rushed. Can't wait to experience the luxury pedicure!",
+      "author": "Nicole Studioso",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-01"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "VNails and Spa photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "VNails and Spa photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "VNails and Spa photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "VNails and Spa photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "VNails and Spa photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "VNails and Spa photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "VNails and Spa photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "VNails and Spa photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "VNails and Spa photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "VNails and Spa photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 166,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

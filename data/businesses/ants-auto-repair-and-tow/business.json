@@ -1,0 +1,143 @@
+{
+  "name": "Ant’s Auto Repair and Tow",
+  "slug": "ants-auto-repair-and-tow",
+  "category": "auto repair",
+  "address": "2750 N Broad St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19132",
+  "phone": "(267) 774-6361",
+  "email": "",
+  "website": null,
+  "rating": 4.7,
+  "reviewCount": 105,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Open 24 hours",
+    "Tuesday": "Open 24 hours",
+    "Wednesday": "Open 24 hours",
+    "Thursday": "Open 24 hours",
+    "Friday": "Open 24 hours",
+    "Saturday": "Open 24 hours",
+    "Sunday": "Open 24 hours"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I have to give the biggest shoutout to Anthony, because this man is truly one of the smartest, most realistic, and most honest mechanics I’ve ever dealt with in my life.\nI brought my 2002 Jeep Grand Cherokee Laredo in after another shop tried to play me. They gave me an $1,800 estimate JUST for suspension, talking about I needed brand‑new shocks and struts and a whole list of parts my car didn’t even need. Something told me to get a second opinion, and thank God I did.\nFrom the moment I pulled up, Anthony was different.\nHe put my Jeep on the lift, called me over, and actually showed me everything — what was wrong, what wasn’t wrong, and what the other shop flat-out lied about. He told me straight up:\n“Your shocks and struts are more than fine. They tried to rip you off because you’re a woman.”\nAnd he was right.\nNot only did he fix the headlights I originally came for, he also fixed all my brake lights, handled my electrical issues, and basically corrected everything he saw that needed attention. He didn’t upsell me, didn’t exaggerate, didn’t pressure me — he just did the work honestly and explained every step.\nEven the man assisting him was on point.\nTheir teamwork, professionalism, and customer service were 10 stars across the board.\nI left that shop feeling relieved, respected, and confident in my car again.\nIf you want a mechanic you can TRUST, someone who won’t lie, cheat, or take advantage of you, especially as a woman go to Anthony. He’s the real deal.",
+      "author": "Angel Odd",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-22"
+    },
+    {
+      "text": "Car started making loud engine noises over the weekend all of a sudden, it was a Sunday and I needed it to get checked and fixed by the following Saturday. Luckily, Ant's is one of the few places open on that day and he took care of it by taking the car in the day of, diagnosing the issue (exhaust leak) within a few hours, then promised to have it fixed within two days latest as he got the parts. All is said and done, the car's exhaust leak got fixed even earlier than that and was ready to pick up on Monday. I was charged a very reasonable price, and for the quick service, constant communication via text, no hassle, and availability at a time most mechanics wouldn't be, it was a great experience all around.",
+      "author": "Koomi",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-10"
+    },
+    {
+      "text": "Great mechanic! My car started making a scary noise out of nowhere on Friday. Only place that was able to help me and so quickly. Even fixed other things on my car for no extra charge, would 10/10 recommend!!",
+      "author": "Kemi Martins",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-22"
+    },
+    {
+      "text": "Anthony, the mechanic, is great! He is very kind, clear and direct.. service is fast and quality care! I took my car to him yesterday evening and it was done today! I am very happy with the service and time frame!! Prices are reasonable. You won’t regret letting Anthony work on your car.. he makes every customer priority! Rest assured your car is in good hands here! Will definitely be going back in the future!",
+      "author": "Lissette Alvarez",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-08"
+    },
+    {
+      "text": "My vehicle was running out of oil every other day. Luis diagnosed my vehicle and fixed it with in 2 hours ,I love that he kept me informed every step of the way !! He deserves a raise. 10/10 I would Highly recommend",
+      "author": "Danielle Jazz",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-16"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Ant’s Auto Repair and Tow photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Ant’s Auto Repair and Tow photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Ant’s Auto Repair and Tow photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Ant’s Auto Repair and Tow photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Ant’s Auto Repair and Tow photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Ant’s Auto Repair and Tow photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Ant’s Auto Repair and Tow photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Ant’s Auto Repair and Tow photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Ant’s Auto Repair and Tow photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Ant’s Auto Repair and Tow photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 105,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.7,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

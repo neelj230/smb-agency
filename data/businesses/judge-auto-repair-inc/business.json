@@ -1,0 +1,143 @@
+{
+  "name": "Judge Auto Repair Inc",
+  "slug": "judge-auto-repair-inc",
+  "category": "auto repair",
+  "address": "5804 Chestnut St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19139",
+  "phone": "(215) 528-6004",
+  "email": "",
+  "website": null,
+  "rating": 4.5,
+  "reviewCount": 74,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM – 5:30 PM",
+    "Tuesday": "9:00 AM – 5:30 PM",
+    "Wednesday": "9:00 AM – 5:30 PM",
+    "Thursday": "9:00 AM – 5:30 PM",
+    "Friday": "9:00 AM – 5:30 PM",
+    "Saturday": "9:00 AM – 5:30 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "This is the only mechanic I use for my car. I love how fair they are and the prices are super reasonable. They definitely dont try to overcharge you. And my service is fast. Definitely recommend.",
+      "author": "Jinnieliz",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-02"
+    },
+    {
+      "text": "Great service.. Price is much better than dealership",
+      "author": "GM ALAM",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-02-06"
+    },
+    {
+      "text": "Highly knowledgeable and friendly mechanics with great prices. It's the only shop in the area that would even accept my car on a Saturday, and they fixed all issues within an hour. Thank you so much for everything!",
+      "author": "Nicki",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-09-09"
+    },
+    {
+      "text": "Gona is one of the best mechanics I've ever know. So if you want your car fixed right and you want an honest mechanic to do it, then this it. IT IS NOT PRETTY! IT'S A REPAIR GARAGE! SO if you care about nice clean waiting rooms, great customer service and fast service go somewhere else and pay for it. But if you want someone who knows what he's doing, then you got it. Also, Gona will explain what's going on and give you thrifty options or use new parts for your repairs if that's what you prefer you just tell him up front. This shop is for hard working people who love their cars and want to keep them running good, not the boujee or stuck up. And remember, good things come to those who wait.😉",
+      "author": "DEW",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-05-20"
+    },
+    {
+      "text": "great place 10/10 service, very friendly, big thanks to everyone who works there!!",
+      "author": "Anna Bailey",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-03-15"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Judge Auto Repair Inc photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Judge Auto Repair Inc photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Judge Auto Repair Inc photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Judge Auto Repair Inc photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Judge Auto Repair Inc photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Judge Auto Repair Inc photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Judge Auto Repair Inc photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Judge Auto Repair Inc photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Judge Auto Repair Inc photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Judge Auto Repair Inc photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 74,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

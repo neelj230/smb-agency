@@ -1,0 +1,143 @@
+{
+  "name": "Steve’s Old City Cleaners & Tailors",
+  "slug": "steves-old-city-cleaners-tailors",
+  "category": "tailor",
+  "address": "102 Chestnut St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19106",
+  "phone": "(215) 427-2550",
+  "email": "",
+  "website": null,
+  "rating": 4.8,
+  "reviewCount": 107,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Closed",
+    "Tuesday": "9:00 AM – 7:00 PM",
+    "Wednesday": "9:00 AM – 7:00 PM",
+    "Thursday": "9:00 AM – 7:00 PM",
+    "Friday": "9:00 AM – 7:00 PM",
+    "Saturday": "9:00 AM – 3:30 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Steve is amazing his skill and customer service is top tier. Steve is also just an amazing person and very easy to work with. I have had a hard time with tailors in the past but Steve makes sure that my concerns are heard and understands my wants and needs.\n\nIf your in the area I highly recommend you get an appointment with Steve. As someone who needs alterations on an rather large mens wear collection I can say with confidence I will be back!",
+      "author": "Ethan Nguyen",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-21"
+    },
+    {
+      "text": "10/10 AMZING service. I could not recommend Steve’s Old City Tailor enough. Steve was kind, attentive, and his staff was quick to turn around our suit and gown tailoring. My dress needed hemming on 5 layers of fabric, and Steve made sure I was able to try on the fitted gown and have it completed on time. Thank you, Steve!",
+      "author": "Hannah Brusca",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-19"
+    },
+    {
+      "text": "I was recommended to come here by two friends so had high hopes -but I can't in good conscience ignore how poor my experience was.\n\nI had an expensive bridesmaids gown that was jersey material needing to be hemmed. Steve acknowledged the material could be tricky to work with, but assured me they could do the job and emphasized the superior quality of their work to other places, which he said justified the pricing. He said while it wouldn't be perfect, he'd get it as close to the original hemming look as he could. Quality of work was important to me so I didn't hesitate with the quoted cost. This was for my best friend's black tie wedding.\n\nWhen I went to pick up my dress, the hemming job was absolutely horrible. The hem was extremely sloppy - the cut was jagged and the pressed lining wasn't even fully sealed. I was charged $150 for this work and when I went back to them, I was made to feel like this was acceptable and they had told me it was \"a tough material to work with.\" I knew that it wouldn't be exactly as I bought it but if you look at the photos you can make your own judgment. The hemming was not to cut cleanly and had jagged edges like someone to a dull blade to it with no regard to quality.\n\nAfter listening to unapologetic explanations for almost 40 mins when I went back, I was refunded $50. I was told that there was nothing that could really be done to fix this and that no one would be able to see it since it was a floor length gown. I found this behavior to be dismissive of my concerns and felt genuinely gaslit. Given this was days before I had to leave and it didn't seem like I was going to be offered a really solutions, I accepted the money.\n\nI wore the dress as-is and after just one evening, there were peach fuzzes all along the hem--clear signs of poor handling.\n\nWhile they may have done a good job for others, PLEASE be cautious when it comes to the material type. I can't tell you how disappointed I was. I hate leaving negative reviews but I did not feel they took accountability that it was a poor job and was told \"most people wouldn't even blink at that.\"\n\nI truly was so disheartened by this experience and will not be going back. Photos attached of what was given to me and then post wearing it.",
+      "author": "Shamin Jamadar",
+      "rating": 1,
+      "source": "google",
+      "date": "2025-07-14"
+    },
+    {
+      "text": "Steve is super personable, remembers his clients and most importantly, he’s very experienced in his craft. He’s done a really nice job on various clothes I’ve brought him, most recently a custom tux for my wedding that he tightened up with precision.\n\nWhere he stands out (for me) is his helpfulness in guiding you through the right level of tailoring (if you want it). In the past I’ve gone in without a good sense on how a certain pair of formal pants should fit and he’s very good at providing recommendations based on his experience and where he sees trends going. He's been in business for 50 years, but he’s well aligned with ever-changing trends and how people of all age groups might prefer the fit. I haven’t found this level of service elsewhere. I recommend all my friends in the city to go to Steve!",
+      "author": "Greg Becker",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-06"
+    },
+    {
+      "text": "⭐️⭐️⭐️⭐️⭐️ 10/10 Service!!\nI needed a last minute dress alteration, and Steve went above and beyond! He stayed open past closing time just to help me out. You’d expect to feel rushed in that situation, but NOT with Steve! He was so welcoming and kind. My boyfriend and I would honestly come back just to hang out with him! Such a personable and incredibly talented man. Thank you again, Steve!",
+      "author": "Genevieve Nania",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-17"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Steve’s Old City Cleaners & Tailors photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Steve’s Old City Cleaners & Tailors photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Steve’s Old City Cleaners & Tailors photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Steve’s Old City Cleaners & Tailors photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Steve’s Old City Cleaners & Tailors photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Steve’s Old City Cleaners & Tailors photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Steve’s Old City Cleaners & Tailors photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Steve’s Old City Cleaners & Tailors photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Steve’s Old City Cleaners & Tailors photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Steve’s Old City Cleaners & Tailors photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 107,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.8,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

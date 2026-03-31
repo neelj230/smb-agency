@@ -1,0 +1,107 @@
+{
+  "name": "Bright Landscaping",
+  "slug": "bright-landscaping",
+  "category": "landscaper",
+  "address": "5604 Gainor Rd",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19131",
+  "phone": "(267) 351-5557",
+  "email": "",
+  "website": null,
+  "rating": 0,
+  "reviewCount": 0,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "7:00 AM – 3:00 PM",
+    "Tuesday": "7:00 AM – 3:00 PM",
+    "Wednesday": "7:00 AM – 3:00 PM",
+    "Thursday": "7:00 AM – 3:00 PM",
+    "Friday": "7:00 AM – 3:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Bright Landscaping photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Bright Landscaping photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Bright Landscaping photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Bright Landscaping photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Bright Landscaping photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Bright Landscaping photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Bright Landscaping photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Bright Landscaping photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Bright Landscaping photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Bright Landscaping photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 0,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 0,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

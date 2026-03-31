@@ -1,0 +1,138 @@
+{
+  "name": "DJ Tire and Auto Repair",
+  "slug": "dj-tire-and-auto-repair",
+  "category": "auto repair",
+  "address": "6008 Lancaster Ave",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19151",
+  "phone": "(215) 760-8576",
+  "email": "",
+  "website": null,
+  "rating": 4,
+  "reviewCount": 74,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM – 6:00 PM",
+    "Tuesday": "9:00 AM – 6:00 PM",
+    "Wednesday": "9:00 AM – 6:00 PM",
+    "Thursday": "9:00 AM – 6:00 PM",
+    "Friday": "9:00 AM – 6:00 PM",
+    "Saturday": "9:00 AM – 6:00 PM",
+    "Sunday": "9:00 AM – 6:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Polite, Fast, Great Prices.  I saved over $100.   I had a bent rim and supposedly I needed a new tire (as per  Mavis Tires).  I did not need a new tire.  I have been driving the car and monitoring the air pressure in the tire and all is well.  Below are before and after pictures (couldn't get pictures to download)",
+      "author": "Debra “JOYFULDEB” Moore",
+      "rating": 5,
+      "source": "google",
+      "date": "2018-03-25"
+    },
+    {
+      "text": "I had an outstanding experience at DJ Tire and Auto Repair. They took me in immediately with no wait and replaced my two front struts perfectly. Their expertise was evident in the quality of their work, and my car now makes no strange sounds on the road. I highly recommend them for any auto repair needs. Very reasonable prices - Ladies they will not rip you off.  Truly top-notch, no-frills service!",
+      "author": "Fatima A",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-12-28"
+    },
+    {
+      "text": "Impressed with how smoothly it went. Everything was handled professionally.",
+      "author": "Rex Zaid",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-25"
+    },
+    {
+      "text": "Got a tire from them drove 10 mins and went to ihop for breakfast when I came back out tire was flat tried to call multiple times said they would come out and fix my tire they never came, went to the Shop and they had closed an  hour early",
+      "author": "Ren Jewel",
+      "rating": 1,
+      "source": "google",
+      "date": "2025-05-18"
+    },
+    {
+      "text": "I love going to DJ he always up front with everything!!! I remember when I broke down and he came  out his way to come fix my tire. Till this day I still go to him when something is wrong with my car. DJ is the only place I go to and never had a problem with nothing ! Thanks so much!",
+      "author": "Aquarius Yancy",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-09-17"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "DJ Tire and Auto Repair photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "DJ Tire and Auto Repair photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "DJ Tire and Auto Repair photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "DJ Tire and Auto Repair photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "DJ Tire and Auto Repair photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "DJ Tire and Auto Repair photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "DJ Tire and Auto Repair photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "DJ Tire and Auto Repair photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "DJ Tire and Auto Repair photo 9",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 74,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

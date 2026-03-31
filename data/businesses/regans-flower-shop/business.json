@@ -1,0 +1,138 @@
+{
+  "name": "Regan's Flower Shop",
+  "slug": "regans-flower-shop",
+  "category": "florist",
+  "address": "1219 N 52nd St #23",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19131",
+  "phone": "(215) 879-3810",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 7,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "11:00 AM – 6:00 PM",
+    "Tuesday": "11:00 AM – 6:00 PM",
+    "Wednesday": "11:00 AM – 6:00 PM",
+    "Thursday": "11:00 AM – 6:00 PM",
+    "Friday": "11:00 AM – 6:00 PM",
+    "Saturday": "11:00 AM – 6:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "A ton of great plants and at an affordable price! They helped me find the perfect plant for my wife. I’ll definitely be back for more.",
+      "author": "Jair Guardia",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-07"
+    },
+    {
+      "text": "The owner of Regan’s Flower Shop is an exceptionally gifted florist. While visiting her shop on the eve of Thanksgiving; I observed her create  three magnificent arrangements. Each order was  unique, beautiful, and prepared with the utmost care.                                                                   Unhappy with the floral designs in the store catalogue. I what  a  brief conversation Mrs. Regan ; and she quickly gathered some loose flowers, seasonal foliage to constructed a spectacular holiday arrangement for my Thanksgiving dinner table.\nI have the utmost respect for Mrs. Regan’s artistic floral  capabilities, and I encourage others to check her out.",
+      "author": "Theresa Clark",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-08-05"
+    },
+    {
+      "text": "Have been purchasing Regan's Flowers for for almost five years. She does my deceased loved one's bouquet beautifully every time!",
+      "author": "Brenda Graham",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-09-16"
+    },
+    {
+      "text": "A staple in the community. Courteous staff, and healthy plants for decades!",
+      "author": "Afi",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-10-25"
+    },
+    {
+      "text": "Amazingly cheerful service and talented specialist for flower arrangements. Ask for Sylvina. I was a walk-in. She not only accommodated me, but she selected the best flowers and created a beautiful arrangement on the spot, all the while chit-chatting with me as if we were long-time friends!",
+      "author": "Dave McClintock",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-03-14"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Regan's Flower Shop photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Regan's Flower Shop photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Regan's Flower Shop photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Regan's Flower Shop photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Regan's Flower Shop photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Regan's Flower Shop photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Regan's Flower Shop photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Regan's Flower Shop photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Regan's Flower Shop photo 9",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 7,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

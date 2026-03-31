@@ -1,0 +1,143 @@
+{
+  "name": "Roman’s Barbershop",
+  "slug": "romans-barbershop",
+  "category": "barber",
+  "address": "2120 Walnut St First Floor",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19103",
+  "phone": "(445) 234-0403",
+  "email": "",
+  "website": "http://romansphiladelphia.com/",
+  "rating": 4.9,
+  "reviewCount": 127,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM – 7:00 PM",
+    "Tuesday": "9:00 AM – 7:00 PM",
+    "Wednesday": "9:00 AM – 7:00 PM",
+    "Thursday": "9:00 AM – 7:00 PM",
+    "Friday": "9:00 AM – 7:00 PM",
+    "Saturday": "9:00 AM – 5:00 PM",
+    "Sunday": "9:00 AM – 5:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I have only come here twice and I have to say that each time I come the barbershop staff are very welcoming. Super nice and they pay so much attention to detail when they're cutting your hair. I love coming here for the consistency and staff friendliness and they do a fantastic job at cutting your hair.",
+      "author": "Kylar Harvey",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-15"
+    },
+    {
+      "text": "Tried something new today — switched from my usual fade to a mid-partition — and Ryan absolutely nailed it. Super professional, great suggestions, and he paid attention to every detail. Love how clean the cut turned out. Highly recommend!",
+      "author": "Aniket Anilkumar",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-28"
+    },
+    {
+      "text": "These guys are amazing, never had such quality haircuts in my life. Super attentive to what you want. Jeremy and Max have both cut my hair and I have nothing but praise for them both! This place is 10/10!",
+      "author": "Christian Jefferies",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-08"
+    },
+    {
+      "text": "This place is awesome! Great vibes inside, super friendly and laidback service.\n\nMax accommodated my last-minute walk-in and was welcoming and friendly. My haircut looked super fresh and Max gave me some recommendations on how to cut my hair so the sides of my hair don't stick up. He pays attention to the details and really knows what he's doing.\n\nI left looking like a million bucks, will definitely come here for all my haircuts from now on",
+      "author": "Raymond Tang",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-20"
+    },
+    {
+      "text": "I've probably gone through at least 8 different barbers since moving to Philly. None of them could get my cut right. Then I decided to give this place a try, and Ryan gave me what is honestly the best haircut I've ever gotten. I've been coming back ever since. He actually listens, takes his time, and gets it right. Highly recommend.",
+      "author": "Roger Saumure",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-06"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Roman’s Barbershop photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Roman’s Barbershop photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Roman’s Barbershop photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Roman’s Barbershop photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Roman’s Barbershop photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Roman’s Barbershop photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Roman’s Barbershop photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Roman’s Barbershop photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Roman’s Barbershop photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Roman’s Barbershop photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 127,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

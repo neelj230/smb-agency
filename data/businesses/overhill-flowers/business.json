@@ -1,0 +1,143 @@
+{
+  "name": "Overhill Flowers",
+  "slug": "overhill-flowers",
+  "category": "florist",
+  "address": "6231 Lancaster Ave",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19151",
+  "phone": "(215) 473-1842",
+  "email": "",
+  "website": "https://www.overhillflowers.com/",
+  "rating": 4.7,
+  "reviewCount": 18,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM – 12:00 PM",
+    "Tuesday": "9:00 AM – 12:00 PM",
+    "Wednesday": "9:00 AM – 12:00 PM",
+    "Thursday": "9:00 AM – 12:00 PM",
+    "Friday": "9:00 AM – 12:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "We just had our mother's service and Hugh was absolutely wonderful! He helped us tremendously from start to finish. We live far away and were not familiar with the location,  but Hugh guided us so that we felt secure in knowing everything would look realy nice. The arrangement design and the flowers themselves were absolutely GORGEOUS! Thank you for making a difficult day a bit easier.",
+      "author": "Hannah Tighe",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-03-02"
+    },
+    {
+      "text": "Overhill flowers did a great job with my order. From the website to delivery instructions, everything was handled. I surprised my Aunt with these for her birthday and she was all smiles on the phone! Flowers were delivered on time and on her birthday. She absolutely loved them. Thank you! 😊",
+      "author": "Authentically April",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-12"
+    },
+    {
+      "text": "Chosen Generation COGIC enjoy ordering flowers from Overhill. They are always on time with delivery. There staff is kind and professional.  And the flowers and designs excellent. You describe the event or occasion and they never fail at making custom arrangements.",
+      "author": "Barbara Goodson",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-11"
+    },
+    {
+      "text": "I ordered an arrangement this morning (12/11) and it was delivered two hours later.  Thank you for the exceptional service and delivering a beautiful arrangement.",
+      "author": "Greg Sanders",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-12-11"
+    },
+    {
+      "text": "Always have beautiful flower arrangements and a variety of flowers included. I usually ask for the store to create an arrangement rather than pick one off their website and have always been very happy with the outcome. They also listen if you request to exclude or include specific flowers",
+      "author": "Rachel Goeken",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-11-19"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Overhill Flowers photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Overhill Flowers photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Overhill Flowers photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Overhill Flowers photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Overhill Flowers photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Overhill Flowers photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Overhill Flowers photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Overhill Flowers photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Overhill Flowers photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Overhill Flowers photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 18,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.7,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

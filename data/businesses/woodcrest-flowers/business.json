@@ -1,0 +1,138 @@
+{
+  "name": "Woodcrest Flowers",
+  "slug": "woodcrest-flowers",
+  "category": "florist",
+  "address": "N 58th St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19131",
+  "phone": "(267) 323-4549",
+  "email": "",
+  "website": null,
+  "rating": 4.1,
+  "reviewCount": 9,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "7:00 AM – 3:00 PM",
+    "Tuesday": "7:00 AM – 3:00 PM",
+    "Wednesday": "7:00 AM – 3:00 PM",
+    "Thursday": "7:00 AM – 3:00 PM",
+    "Friday": "7:00 AM – 3:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Hey, Woodcrest — thank you so much to everyone at the flower shop! You did such a beautiful job. I needed six elegant bouquets for our employees, and you really came through. Everything was gorgeous, and you helped us out at the last minute — we truly appreciate it. If anyone’s looking for stunning flowers, check out Woodcrest! Wonderful family company and truly great florists.",
+      "author": "Yaithy Blounder",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-15"
+    },
+    {
+      "text": "I was able to order an Orchid Garden from this florist for my mother, and she is an \"Orchid Snob\", and wow, she was impressed, well done, good job, great value for money.",
+      "author": "Lauren",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-19"
+    },
+    {
+      "text": "Our Mother loved roses, and all 10 of her children got together and wanted a rose spectacular, and Woodcrest came through with the most lovely, spectacular, and elegant tribute to our Mother on her celabration of her amazing and selfless life. We are so very thankfull to you and your wonderfull staff of floral artists- Thank you.",
+      "author": "Toji Kamado",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-31"
+    },
+    {
+      "text": "I ordered flowers from Woodcrest Florist because they were close to my brother's home and was apprehensive due to a few bad reviews that are not my experience. I think this is the old location they were talking about because the lady that answered the phone was super nice and accommodating is  a new shop I was told and they did a great job my brother's family was supper impressed and beautiful,",
+      "author": "Diego Garcia",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-06-30"
+    },
+    {
+      "text": "I bought this bouquet for a friend’s birthday, and it was perfect! The red roses were fresh and beautifully arranged with lush greenery and little white flowers.",
+      "author": "Susana Peláez Jiménez",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-07-30"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Woodcrest Flowers photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Woodcrest Flowers photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Woodcrest Flowers photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Woodcrest Flowers photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Woodcrest Flowers photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Woodcrest Flowers photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Woodcrest Flowers photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Woodcrest Flowers photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Woodcrest Flowers photo 9",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 9,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.1,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

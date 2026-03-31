@@ -1,0 +1,92 @@
+{
+  "name": "Poor Richard's Catering",
+  "slug": "poor-richards-catering",
+  "category": "catering",
+  "address": "5070 Parkside Ave",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19131",
+  "phone": "(215) 871-0605",
+  "email": "",
+  "website": "https://poorrichardscatering.com/",
+  "rating": 5,
+  "reviewCount": 9,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "6:00 AM – 2:00 PM",
+    "Tuesday": "6:00 AM – 2:00 PM",
+    "Wednesday": "6:00 AM – 2:00 PM",
+    "Thursday": "6:00 AM – 2:00 PM",
+    "Friday": "6:00 AM – 2:00 PM",
+    "Saturday": "6:00 AM – 2:00 PM",
+    "Sunday": "6:00 AM – 2:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "My company uses Poor Richards Catering all the time. They consistently provide great food with great service. They are on time with delivery and set everything up beautifully. I will continue to use them as long as I have a catering need in Philadelphia. Keep up the good work!",
+      "author": "Peter Cosgrove",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-12-13"
+    },
+    {
+      "text": "Suoer friendly staff. I have used these guys for their sandwich platters on multiple occasions. My clients are always happy and satisfied. Strongly recommend their hot food services as well. The owners are very hands on in the communication process. You will not be disappointed!",
+      "author": "jesse batt",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-07-09"
+    },
+    {
+      "text": "I would recommend this Caterer for any Event.  Can Create whatever you may need Great kitchen Staff, Great Chefs !!! Succulent Eats",
+      "author": "Eve Hudson",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-02-02"
+    },
+    {
+      "text": "Excellent customer service and timely delivery. We use this company almost biweekly for corporate events at KIPP Philadelphia.",
+      "author": "Kaajal Vyas",
+      "rating": 5,
+      "source": "google",
+      "date": "2018-07-02"
+    },
+    {
+      "text": "",
+      "author": "Ramona M. Gaines",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-07-19"
+    }
+  ],
+  "team": [],
+  "photos": [],
+  "stats": [
+    {
+      "value": 9,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "poor"
+  }
+}

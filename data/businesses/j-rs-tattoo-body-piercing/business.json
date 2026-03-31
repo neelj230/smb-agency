@@ -1,0 +1,143 @@
+{
+  "name": "J R's Tattoo & Body Piercing",
+  "slug": "j-rs-tattoo-body-piercing",
+  "category": "tattoo parlor",
+  "address": "6110 Market St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19139",
+  "phone": "(215) 474-5020",
+  "email": "",
+  "website": null,
+  "rating": 4.3,
+  "reviewCount": 161,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Closed",
+    "Tuesday": "4:00 – 10:00 PM",
+    "Wednesday": "Closed",
+    "Thursday": "4:00 – 10:00 PM",
+    "Friday": "4:00 – 10:00 PM",
+    "Saturday": "12:00 – 10:00 PM",
+    "Sunday": "12:00 – 8:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I went to this tattoo shop as a last stop! And honestly it’s the best decision I’ve ever made regarding my piercing. I will NEVER GO ANYWHERE ELSE EVER!!!!! He saved my life and my face! I went to another place first to get my piercing and I came to him to fix what was done to my face. I’m forever grateful!",
+      "author": "Jae “Kake_Kween” Waiters",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-08"
+    },
+    {
+      "text": "Highly recommend this establishment JR's tattoo shop is the best very clean  , clean stations ever needle are fresh out of the packaging  , atmosphere is off the chain  , killer vibe . Yes highly recommend this place . Spider fabulous job again brother I'll be back , I'm felling some more ink .",
+      "author": "Brian W.",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-11"
+    },
+    {
+      "text": "Just got pierced here , was able to do a walk in which was great ! The piercings literally didn’t hurt and still don’t hurt only 3 hours later ,he gave great after care advice. he did a great job overall and is obviously very educated and experienced . Would 100% recommend and I’m sure I’ll be back myself",
+      "author": "Brandi",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-17"
+    },
+    {
+      "text": "Off the chain beautiful staff beautiful atmosphere job on my tattoo beautiful I cannot wait to visit again very soon",
+      "author": "Gwendolyn Dixon",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-06-12"
+    },
+    {
+      "text": "I got a monroe piercing and was but he was very friendly. Will definitely be going for some ink.",
+      "author": "Briana Wilk",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-14"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "J R's Tattoo & Body Piercing photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "J R's Tattoo & Body Piercing photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "J R's Tattoo & Body Piercing photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "J R's Tattoo & Body Piercing photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "J R's Tattoo & Body Piercing photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "J R's Tattoo & Body Piercing photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "J R's Tattoo & Body Piercing photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "J R's Tattoo & Body Piercing photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "J R's Tattoo & Body Piercing photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "J R's Tattoo & Body Piercing photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 161,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.3,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

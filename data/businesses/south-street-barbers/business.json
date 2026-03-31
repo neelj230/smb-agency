@@ -1,0 +1,143 @@
+{
+  "name": "South Street Barbers",
+  "slug": "south-street-barbers",
+  "category": "barber",
+  "address": "1316 South St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19147",
+  "phone": "(267) 273-1445",
+  "email": "",
+  "website": "http://southstreetbarbers1316.booksy.com/",
+  "rating": 4.6,
+  "reviewCount": 419,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Closed",
+    "Tuesday": "9:00 AM – 4:00 PM",
+    "Wednesday": "9:00 AM – 4:30 PM",
+    "Thursday": "9:00 AM – 6:30 PM",
+    "Friday": "9:00 AM – 6:30 PM",
+    "Saturday": "9:00 AM – 6:30 PM",
+    "Sunday": "9:00 AM – 5:30 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I’ve been coming to South Street Barbers for the past 5 or so years. I never had a bad experience. The shop has a nice atmosphere, polite staff, and professionalism. It’s also very clean inside. The owner, Will, does a great job with acknowledging every customer coming in and making sure they are getting taken care of. The shop is also in a good location. Great for getting something to eat afterwards or running errands since there are plenty of stores around.",
+      "author": "Gerald",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-17"
+    },
+    {
+      "text": "One of the best Barber Shop atmospheres in Philly. Not only do Voshon and Will do a great job cutting hair but you also get to receive the great vibes of barbershop talk. The clientele is diverse which lets you know that all of the barbers in the shop can fulfill your hair needs no matter what style you are looking for!",
+      "author": "Lonnie Moore",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-04"
+    },
+    {
+      "text": "Philly gets my stamp of approval for one of the best cuts in the country. Shon was my barber and did an incredible job. He paid attention to the small details and delivered top-quality service. Great conversation with him and the owner too. I’ll definitely be coming back. Whether you’re local or just visiting, this is the place to go for your next cut.",
+      "author": "Cristian Sanchez",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-19"
+    },
+    {
+      "text": "Bryon is a great barber with excellent technical precision and strong attention to detail. Above all, he listens and cuts with confidence. I’ve been coming to him for about two years and have been thoroughly satisfied at every visit. I highly recommend his talent. Overall, South Street Barbers has a great, diverse atmosphere that’s refreshing and truly noteworthy.",
+      "author": "DeShawn Seymore",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-05"
+    },
+    {
+      "text": "Always a wonderful, professional, friendly environment at South Street Barbers. Will is a master of the craft and runs a great shop that is full of experience, highly skilled barbers. He is knowledgeable and creates a welcoming atmosphere for all. Best place in Philly for a cut and best barbers in town.",
+      "author": "Zaire Durant-Young",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-05"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "South Street Barbers photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "South Street Barbers photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "South Street Barbers photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "South Street Barbers photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "South Street Barbers photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "South Street Barbers photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "South Street Barbers photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "South Street Barbers photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "South Street Barbers photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "South Street Barbers photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 419,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.6,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

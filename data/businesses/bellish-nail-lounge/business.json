@@ -1,0 +1,143 @@
+{
+  "name": "Bellish Nail Lounge",
+  "slug": "bellish-nail-lounge",
+  "category": "nail salon",
+  "address": "841 S 52nd St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19143",
+  "phone": "(484) 649-1931",
+  "email": "",
+  "website": "http://bellishnails.booksy.com/",
+  "rating": 5,
+  "reviewCount": 40,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM – 2:00 PM",
+    "Tuesday": "9:00 AM – 5:00 PM",
+    "Wednesday": "9:00 AM – 5:00 PM",
+    "Thursday": "9:00 AM – 5:00 PM",
+    "Friday": "9:00 AM – 5:00 PM",
+    "Saturday": "10:00 AM – 8:00 PM",
+    "Sunday": "10:00 AM – 7:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Taviii did amazing! She executed my brand perfectly on my nails clean, creative, and professional from start to finish. You can tell she takes pride in her work and really listens to what you want. My nails came out exactly how I envisioned them red, bold, and branded just like my Kiss By Chérie gloss 💋 Definitely recommend booking with her if you want quality and style that stands out! Also first time at a black nail salon the 🍒 is popped Brazil lol",
+      "author": "Who Is She",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-25"
+    },
+    {
+      "text": "Let me tell you guys about this AMAZING BLACK OWNED nail salon. I had the pleasure of having the owner do my nails and the other amazing nail tech Tavi. Those ladies give out good vibes and great customer service is always top tier. I absolutely love this salon and their complimentary wine is always a win!🥰",
+      "author": "Felicia C",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-07"
+    },
+    {
+      "text": "Tavii was amazing. She pays attention to detail, takes her time, and really wants to give you exactly what you ask for. I highly recommend her. The owner of the shop is also very sweet and the vibes here are top notch. They offer you drinks, (wine included) and the music choices set the tone. Great atmosphere and work. DO NOT SECOND GUESS IT, BOOK!",
+      "author": "Ebony Dozier",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-01"
+    },
+    {
+      "text": "Brazil was lovely! I had a nail emergency and needed my last acrylic set removed before evening plans and she fit me in and did a quality and thorough job. I'll definitely be back for nail services in the future. Thank you Brazil!",
+      "author": "Claire Trindle",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-08"
+    },
+    {
+      "text": "Brazil was amazing! I'm one of the boring nail girls that just appreciates a clean pink or nude set... This is honestly the best set of acrylics I've had in a very long time. I'm obsessed with my nails and I will be back!!",
+      "author": "Jo Givens",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-06-03"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Bellish Nail Lounge photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Bellish Nail Lounge photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Bellish Nail Lounge photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Bellish Nail Lounge photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Bellish Nail Lounge photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Bellish Nail Lounge photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Bellish Nail Lounge photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Bellish Nail Lounge photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Bellish Nail Lounge photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Bellish Nail Lounge photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 40,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

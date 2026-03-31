@@ -1,0 +1,143 @@
+{
+  "name": "Kim's Cleaners & Tailoring",
+  "slug": "kims-cleaners-tailoring",
+  "category": "tailor",
+  "address": "2008 Sansom St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19103",
+  "phone": "(215) 557-1556",
+  "email": "",
+  "website": null,
+  "rating": 4.6,
+  "reviewCount": 131,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "8:00 AM – 5:30 PM",
+    "Tuesday": "8:00 AM – 5:30 PM",
+    "Wednesday": "8:00 AM – 5:30 PM",
+    "Thursday": "8:00 AM – 5:30 PM",
+    "Friday": "8:00 AM – 5:30 PM",
+    "Saturday": "9:00 AM – 4:30 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I took my rehearsal dinner dress to Kim’s to be hemmed and taken in because of the good reviews. I was charged over $200 for the alterations which I was happy to pay for good work on such an important item. When I got home I noticed a small tear on the hem. Fortunately, it’s not too noticeable, but I’m extremely disappointed given the amount I paid for the work. There are also a few small stains on the back of the dress that weren’t there when I dropped it off (I’ve never worn the dress before). Again, they are not very noticeable, thankfully. I do not recommend taking your important items to this business for alterations.",
+      "author": "Kristin Linn",
+      "rating": 1,
+      "source": "google",
+      "date": "2025-10-17"
+    },
+    {
+      "text": "5/5 stars! Would recommend coming here for all your tailoring needs. I’ve been a customer for 2 years now and have never had any issues. Today, I tried on and took home my wedding dress after two fittings. My dress turned out perfect and I couldn’t be happier! I cannot wait to wear her out on the big day.",
+      "author": "Elisa Sarmiento",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-29"
+    },
+    {
+      "text": "I brought in two suits to Kim’s cleaners to get altered. The owner gave me a thorough evaluation and recommended me to exchange the suit I brought in because it wasn’t the right size. She told me if I brought in a slightly bigger size, she could tailor it to my liking. I exchanged my suit, brought it back, and she took really good care of me and my suits. She custom tailored it to fit me perfectly. The service was high quality and very efficient. 5/5 would recommend.\n\nThank you, Mrs. Kim!",
+      "author": "Stephen Kim",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-16"
+    },
+    {
+      "text": "Mrs Kim is a lovely person, and she is also a professional and excellent tailor!  I went with a dress that didn't fit my height and came up with the idea of ​​cutting the trailing all off. Mrs King said it was a really big challenge, but she pulled it off!  As you can see she cut my dress perfectly. Thanks Mrs Kim!  This is the tailor shop I absolutely recommend!",
+      "author": "Fei Wang",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-12-31"
+    },
+    {
+      "text": "I took 2 formal dresses here this year - one a bridesmaid dress and another a black tie gown. In the case of the black tie gown, I had to wait until 2 weeks before the event to get it taken in. They could have turned me away or charged a rush fee, but they were extremely kind. The work was completed ahead of time in both cases and looked great!",
+      "author": "Christine Spaulding",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-12"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Kim's Cleaners & Tailoring photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Kim's Cleaners & Tailoring photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Kim's Cleaners & Tailoring photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Kim's Cleaners & Tailoring photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Kim's Cleaners & Tailoring photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Kim's Cleaners & Tailoring photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Kim's Cleaners & Tailoring photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Kim's Cleaners & Tailoring photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Kim's Cleaners & Tailoring photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Kim's Cleaners & Tailoring photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 131,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.6,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

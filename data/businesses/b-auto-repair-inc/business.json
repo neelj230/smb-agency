@@ -1,0 +1,133 @@
+{
+  "name": "B Auto Repair Inc",
+  "slug": "b-auto-repair-inc",
+  "category": "auto repair",
+  "address": "1701 N 54th St #7",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19131",
+  "phone": "(215) 477-8575",
+  "email": "",
+  "website": null,
+  "rating": 4.8,
+  "reviewCount": 149,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "8:00 AM – 5:00 PM",
+    "Tuesday": "8:00 AM – 5:00 PM",
+    "Wednesday": "8:00 AM – 5:00 PM",
+    "Thursday": "8:00 AM – 5:00 PM",
+    "Friday": "8:00 AM – 5:00 PM",
+    "Saturday": "8:00 AM – 5:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "On September 9, 2024 we were traveling back from Wildwood, NJ, our car lost a front axle when we hit Phillie. We limped into Wynnfield. We found B Auto Repair. There was a guardian angel with us. Benjamin and his team were wonderful. They got us towed to their garage, had us up in the air, part delivered, dropped what they were doing, had our car repaired, and on the road within 3 hours. The repair bill was very reasonable. If anyone lives with in their community, you are very fortunate to have them to turn to if you are in need of a quality, knowledgeable mechanic team. We're very grateful that we found them and they did not take advantage. A huge thanks to Benjamin and his team.",
+      "author": "Kelly Renee",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-09-17"
+    },
+    {
+      "text": "Ben is definitely trustworthy and charges fair prices for his solid work. He's taken very good care of my Mustang when I needed work done.",
+      "author": "Paul H",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-10"
+    },
+    {
+      "text": "As a young woman who does not know much about cars, this was the FIRST TIME mechanics at an auto shop have ever been kind to me and treated me like I wasn’t beneath them. They were quick, efficient, fair-priced, and very helpful. They took the time to explain everything to me and help me to take care of my car in the future. It is the only enjoyable experience I have ever had at a mechanic. I will be recommending to anyone who needs repairs in the future.",
+      "author": "Paige Martin",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-05-23"
+    },
+    {
+      "text": "Fast, reliable, affordable. What more could you want from a garage? I went in to replace my brakes and rotors. They were able to squeeze me in the same day, while charging half as much as what the Honda Dealership quoted. They did a fantastic job and were super friendly throughout the process. I’ll be a return customer for sure! 10/10 recommend",
+      "author": "Ashley Cook",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-02-01"
+    },
+    {
+      "text": "B Auto Repair is my go-to mechanic in Philly. Benjamin is very honest, communicative, and pleasant to work with. His prices are always very fair, sometimes a fraction of what other shops quote me. He always fixes my car in a timely manner, and works with me when I need a tight turnaround.",
+      "author": "Ian Gaskin",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-07-31"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "B Auto Repair Inc photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "B Auto Repair Inc photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "B Auto Repair Inc photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "B Auto Repair Inc photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "B Auto Repair Inc photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "B Auto Repair Inc photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "B Auto Repair Inc photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "B Auto Repair Inc photo 8",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 149,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.8,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

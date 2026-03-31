@@ -1,0 +1,143 @@
+{
+  "name": "Dave's Artistic Tattoo",
+  "slug": "daves-artistic-tattoo",
+  "category": "tattoo parlor",
+  "address": "5 N 63rd St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19139",
+  "phone": "(215) 471-3113",
+  "email": "",
+  "website": null,
+  "rating": 4.7,
+  "reviewCount": 388,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "1:00 – 7:00 PM",
+    "Tuesday": "12:00 – 8:00 PM",
+    "Wednesday": "12:00 – 8:00 PM",
+    "Thursday": "12:00 – 8:00 PM",
+    "Friday": "12:00 – 8:00 PM",
+    "Saturday": "12:00 – 8:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "This shop deserves 10 stars!\nDave did my daughter Madison’s septum piercing and was absolutely incredible. From the moment we walked in, he made us feel welcomed and comfortable. Madison was nervous, but he talked her through every part of the process in a calm and reassuring way. He explained step-by-step what he was doing and gave clear aftercare instructions, including how to clean it and what signs of infection to watch out for.\n\nHe also tattooed my partner Chenille back in 2023, and the same level of care and professionalism stood out then too. Dave treats you like family — not just another client paying for a service.\nWe’ll definitely be coming back and recommending him to everyone. If you want quality work with an artist who truly cares, go see Dave on Cobbs Creek Parkway!",
+      "author": "aysha steatean",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-08"
+    },
+    {
+      "text": "Dave is great!! I just got my nipples pierced and I’m not scared of much but I was beyond nervous, he was funny, gentle, explained thoroughly how to care/clean it after. I will definitely be back for another piercing soon and I’m asking specifically for Dave!",
+      "author": "Ivy Marie",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-28"
+    },
+    {
+      "text": "I go to Dave for all of my piercings and he always makes you feel comfortable! Dave did my nipple piercings today and he was definitely the right person to go to. He explained everything to me, eased my nerves, and gave me in depth aftercare instructions. Stop here for your next piercing!!",
+      "author": "Khaleh Walker",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-18"
+    },
+    {
+      "text": "I had my industrial piercings yesterday\nAnd Dave was just so quick, kind, and patient the piercing itself was honestly so quick and painless!! Lol I Didnt even realize he was done! Thanks Dave! Blessing to you..praying for you always!!!! Great shop",
+      "author": "Trayonna A Pendleton",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-07"
+    },
+    {
+      "text": "Dave's is great.  I just got my 2nd ear piercing.  Great service, friendly, quick and the price is right.  He distracted me with conversation so didn't have a chance to think about the piercing. I love this spot especially because it is clean. Give Dave a try.",
+      "author": "Margarette Golding",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-15"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Dave's Artistic Tattoo photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Dave's Artistic Tattoo photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Dave's Artistic Tattoo photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Dave's Artistic Tattoo photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Dave's Artistic Tattoo photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Dave's Artistic Tattoo photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Dave's Artistic Tattoo photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Dave's Artistic Tattoo photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Dave's Artistic Tattoo photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Dave's Artistic Tattoo photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 388,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.7,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

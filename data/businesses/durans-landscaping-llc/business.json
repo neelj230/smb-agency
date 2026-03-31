@@ -1,0 +1,143 @@
+{
+  "name": "Duran's LANDSCAPING LLC",
+  "slug": "durans-landscaping-llc",
+  "category": "landscaper",
+  "address": "4832 N Hope St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19120",
+  "phone": "(267) 970-1289",
+  "email": "",
+  "website": "http://duranlandscapingllc.com/",
+  "rating": 4.9,
+  "reviewCount": 40,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM – 5:00 PM",
+    "Tuesday": "9:00 AM – 5:00 PM",
+    "Wednesday": "9:00 AM – 5:00 PM",
+    "Thursday": "9:00 AM – 5:00 PM",
+    "Friday": "9:00 AM – 5:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Gustavo and his team did an excellent job from start to finish! Communication and scheduling was quick and easy, and the pricing was very reasonable. They even completed the work ahead of schedule. Gustavo was incredibly consultative—he really listened to what I wanted and made thoughtful recommendations. The results look absolutely amazing, and I couldn’t be happier. Highly recommend!",
+      "author": "sumit sethi",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-04-02"
+    },
+    {
+      "text": "Gustavo and his crew did a fantastic job laying sod at my home at a reasonable price and quick scheduling -  looks fantastic!  Look forward to working with Duran again",
+      "author": "Scott",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-10-15"
+    },
+    {
+      "text": "Gustavo and his team did an amazing job! I had asked him to extend a drain pipe and also to put in a new bluestone landing at the bottom of our deck steps. He delivered within a week, and it turned out beautifully! And pricing was reasonable. Also very communicative. On top of all of this, he’s a great guy. Highly recommend Duran’s Landscaping!",
+      "author": "Michael Katz",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-09-08"
+    },
+    {
+      "text": "Can’t really say enough about this company they do great work ! Had them do a complete clean out of a driveway behind our auto repair shop remove weeds put weed barrier down with stone looks great. Highly recommended.👍",
+      "author": "Rich DiGrosso",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-12"
+    },
+    {
+      "text": "Gustavo Duran provides first class customer service and support for all our landscaping needs. All labor, materials and services are provided at very reasonable cost. No job is too big or little to address. His advice and recommendations are always on target. Gustavo and his experienced team are recommended highly and without any reservation. Well done!",
+      "author": "Harry J. Gaffney",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-03-24"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Duran's LANDSCAPING LLC photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Duran's LANDSCAPING LLC photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Duran's LANDSCAPING LLC photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Duran's LANDSCAPING LLC photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Duran's LANDSCAPING LLC photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Duran's LANDSCAPING LLC photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Duran's LANDSCAPING LLC photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Duran's LANDSCAPING LLC photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Duran's LANDSCAPING LLC photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Duran's LANDSCAPING LLC photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 40,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

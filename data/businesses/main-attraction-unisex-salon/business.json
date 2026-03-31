@@ -1,0 +1,143 @@
+{
+  "name": "Main Attraction Unisex Salon",
+  "slug": "main-attraction-unisex-salon",
+  "category": "barber",
+  "address": "5610 Lancaster Ave",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19139",
+  "phone": "",
+  "email": "",
+  "website": "http://www.mausalon.com/",
+  "rating": 4.8,
+  "reviewCount": 251,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Closed",
+    "Tuesday": "10:00 AM – 7:00 PM",
+    "Wednesday": "9:00 AM – 8:00 PM",
+    "Thursday": "9:00 AM – 8:00 PM",
+    "Friday": "8:00 AM – 9:00 PM",
+    "Saturday": "7:00 AM – 7:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "This is my third time booking with Sumer Amour, and the experience was just as amazing as the first. The salon is clean, the environment is friendly, and Sumer is truly a great stylist. Highly recommend!",
+      "author": "Desiree James",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-14"
+    },
+    {
+      "text": "I have been a client here for over a decade and I have nothing but great things to say about this establishment. SHIZZ IS THE BEST BARBER IN THE CITY OF PHILADELPHIA…easily. He is professional, creative, innovative and even provides great conversation and laughs as you are being serviced. Main attraction is more than just a salon/barbershop; it is a beacon of creativity, excellence and professionalism in Philly and serves as a place for professionals to come and network as they’re serviced. Do yourself a favor and BOOK.",
+      "author": "Deja Settles",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-03-06"
+    },
+    {
+      "text": "5 stars just got my Locs Retwisted here by Flo I can’t recommend her enough she was absolutely amazing from the second I sat down for my shampoo she took great care of me I felt like a VIP. Thanks Flo 10 / 10 highly recommended",
+      "author": "Shkeem Brown",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-04"
+    },
+    {
+      "text": "⭐️⭐️⭐️⭐️⭐️\nSuleiman is hands down one of the best barbers I’ve been to. He cuts both my wife’s hair and mine, and every experience has been top tier. He’s always on time, incredibly knowledgeable, and really understands how to style hair to fit each person. The hospitality is unmatched — professional, welcoming, and consistent every single visit. Highly recommend Suleiman to anyone looking for quality cuts and great service at Main Attractions.",
+      "author": "Isaiah Gonzalez",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-19"
+    },
+    {
+      "text": "I’ve been getting my hair braided by Crystal for almost two years now. She’s definitely the best in Philly. I literally just show up and she does everything 👸🏽🤴🏾just book @cryscrowned_em",
+      "author": "Manuel Vincent",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-20"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Main Attraction Unisex Salon photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Main Attraction Unisex Salon photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Main Attraction Unisex Salon photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Main Attraction Unisex Salon photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Main Attraction Unisex Salon photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Main Attraction Unisex Salon photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Main Attraction Unisex Salon photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Main Attraction Unisex Salon photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Main Attraction Unisex Salon photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Main Attraction Unisex Salon photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 251,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.8,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

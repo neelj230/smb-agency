@@ -1,0 +1,143 @@
+{
+  "name": "Roses Florist",
+  "slug": "roses-florist",
+  "category": "florist",
+  "address": "36th and Chestnut",
+  "city": "Sheraton University City Hotel",
+  "state": "",
+  "zip": "",
+  "phone": "(215) 387-3440",
+  "email": "",
+  "website": "https://www.uofprosesflorist.com/?utm_source=google&utm_medium=gbp&y_source=1_MjA4OTE5NjMtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
+  "rating": 4.3,
+  "reviewCount": 77,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM – 6:00 PM",
+    "Tuesday": "9:00 AM – 6:00 PM",
+    "Wednesday": "9:00 AM – 6:00 PM",
+    "Thursday": "9:00 AM – 6:00 PM",
+    "Friday": "9:00 AM – 6:00 PM",
+    "Saturday": "10:00 AM – 4:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Maria at Roses’ Florist is a beautiful soul that takes care of you. She made changes to my order that was cat-friendly and based on what she had. She was so kind and communicative. This arrangement was so pretty!",
+      "author": "Erika Lorraine",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-21"
+    },
+    {
+      "text": "Very friendly and family feeling. Nice bouquets and a variety of flowers to build bouquets",
+      "author": "Jacob Stephens",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-14"
+    },
+    {
+      "text": "Called for a dozen roses day before Valentine's day.\n\nWas informed it was $90.\n\nInstead I went to ACME and bought a dozen roses for $25.\n\nI would prefer to support small businesses but not for almost quadruple the price.",
+      "author": "Michael H",
+      "rating": 2,
+      "source": "google",
+      "date": "2026-02-13"
+    },
+    {
+      "text": "Maria was super helpful and friendly! She designed the perfect flower arrangement for my occasion and was respectful of my budget. She made the flower arrangement very quickly too! Thanks so much:)",
+      "author": "Nina De Luna",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-04"
+    },
+    {
+      "text": "Service was incredibly prompt even though I just walked in and the owner helped me pick out flowers and made it look great even tho I wasn't really even sure what I wanted!  She added in some finishing touches after picking the flowers together that made it all go super well together.  Would recommend!",
+      "author": "Spencer B",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-12-10"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Roses Florist photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Roses Florist photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Roses Florist photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Roses Florist photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Roses Florist photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Roses Florist photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Roses Florist photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Roses Florist photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Roses Florist photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Roses Florist photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 77,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.3,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "name": "Maid in Cleaning",
+  "slug": "maid-in-cleaning",
+  "category": "cleaning service",
+  "address": "2449 Golf Rd #22",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19131",
+  "phone": "(800) 782-5802",
+  "email": "",
+  "website": null,
+  "rating": 4.9,
+  "reviewCount": 39,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "7:00 AM – 9:00 PM",
+    "Tuesday": "7:00 AM – 9:00 PM",
+    "Wednesday": "7:00 AM – 9:00 PM",
+    "Thursday": "7:00 AM – 9:00 PM",
+    "Friday": "7:00 AM – 9:00 PM",
+    "Saturday": "7:00 AM – 9:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I called this company a month ago. They took out 250 the next day and when someone was supposed to come on a Saturday in January to clean my house before surgery they called and canceled that day and now a month later still has not returned my calls or my money. They will be reported to the police",
+      "author": "Lisa",
+      "rating": 1,
+      "source": "google",
+      "date": "2026-02-26"
+    },
+    {
+      "text": "I couldn't be happier with the service!\nSophia truly went above and beyond—her attention to detail and dedication were exceptional.\nRosario was fantastic—she handled everything with efficiency and care, and her professionalism and friendly attitude made the experience so enjoyable. She worked quickly and effectively, and we’d absolutely hire her again! Highly recommend them to anyone!",
+      "author": "Kendis Martinez",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-02-09"
+    },
+    {
+      "text": "Jose and his team were fantastic and so friendly! We were extremely happy with their service, and they were a pleasure to work with. Highly recommend them to anyone. Thank you!\nI was so impressed with the way Fatima cleaned; the house looks completely transformed. She did an incredible job.\nAziza was wonderful! She went above and beyond. I’ll definitely be using your service again!",
+      "author": "Celeni Eastman",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-02-04"
+    },
+    {
+      "text": "I can't say I've used many cleaning services, but this company was  top notch. The team was incredibly organized, and they really made the whole process easy. Raya was fantastic, Tiff did an amazing job, and Tracy was just as impressive. They all worked seamlessly together, and my place has never looked better. I'd definitely recommend this cleaning service!",
+      "author": "Charlotte Lee",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-02-02"
+    },
+    {
+      "text": "I had an amazing experience! The team was both professional and personable, ensuring every detail was covered. Fatima was a doll and did a wonderful job. I can say my apartment looked immaculate, like new! Adorno was also exceptional, so warm and wonderful to work with. I can't recommend her enough!",
+      "author": "Ashley Velasco",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-02-06"
+    }
+  ],
+  "team": [],
+  "photos": [],
+  "stats": [
+    {
+      "value": 39,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "poor"
+  }
+}

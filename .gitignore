@@ -9,3 +9,4 @@ data/businesses/*/photos/
 sites/*/node_modules/
 sites/*/.next/
 sites/*/out/
+.env

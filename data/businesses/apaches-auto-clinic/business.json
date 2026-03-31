@@ -1,0 +1,113 @@
+{
+  "name": "Apache's Auto Clinic",
+  "slug": "apaches-auto-clinic",
+  "category": "auto repair",
+  "address": "5727 Haverford Ave #35",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19131",
+  "phone": "(215) 476-6500",
+  "email": "",
+  "website": null,
+  "rating": 4.5,
+  "reviewCount": 28,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM – 5:00 AM",
+    "Tuesday": "9:01 AM – 5:01 AM",
+    "Wednesday": "9:01 AM – 5:01 AM",
+    "Thursday": "9:01 AM – 5:01 AM",
+    "Friday": "9:00 AM – 5:00 AM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Excellent customer service very professional.  First time taking my car, was highly recommended by a friend. I will definitely be using there services again.",
+      "author": "Aesha Richardson",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-03-13"
+    },
+    {
+      "text": "Went for a simple issue at the end of the day on a Friday evening - super fair pricing, and quick service. When I was ready to leave, my car wouldn't start - this was my fault though, I knew my battery was trash, because I had to jump it before I left the house.\nEven though it was the end of their day, at the end of their week, they went above and beyond and went (in the rain) to buy me a new battery. Everyone stayed far past closing to help me, installing the new battery and making sure I was safe to drive home.\nWill ONLY use Apache's from now on. When a mechanic shows you their level of integrity, and it's this high, you know you found the right place!",
+      "author": "karen gambrell",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-03-07"
+    },
+    {
+      "text": "This place is a joke. So unprofessional. Overpriced for the quality of work performed. Don't recommend. Shop around you can get better service and better quality work someplace else. I'm serious dont trust owner. He is a get over.",
+      "author": "Ms Gee",
+      "rating": 1,
+      "source": "google",
+      "date": "2022-09-09"
+    },
+    {
+      "text": "Pretty fair auto repair shop. Had a timing belt assembly repaired in my 07 Chrysler 300 Touring. A guy by the name of Brandon was very informative with the details for my car. Walked me step by step and showed me exactly what was the issue and why it needed to be serviced. He was a little high on the price and aslo forgot to put back the cooling fan. While driving after I picked it up I notice my car started overheating for some odd reason, so I pulled over to lifted up the hood and saw that the fan was not there???? so I took it back asap. He fixed the issue under 20 mins so it wasn't so bad afterwards but yeah I didnt expect it to be as high as it was but he still got the job done.",
+      "author": "Jamal Carter",
+      "rating": 3,
+      "source": "google",
+      "date": "2018-08-22"
+    },
+    {
+      "text": "Very fair pricing with high quality work. Always feel taken care of leaving Apaches.",
+      "author": "ara ishkhanian",
+      "rating": 5,
+      "source": "google",
+      "date": "2017-08-27"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Apache's Auto Clinic photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Apache's Auto Clinic photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Apache's Auto Clinic photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Apache's Auto Clinic photo 4",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 28,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "fair"
+  }
+}

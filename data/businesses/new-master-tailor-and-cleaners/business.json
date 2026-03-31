@@ -1,0 +1,108 @@
+{
+  "name": "New Master tailor and cleaners",
+  "slug": "new-master-tailor-and-cleaners",
+  "category": "tailor",
+  "address": "1620 Spruce St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19103",
+  "phone": "(215) 735-1499",
+  "email": "",
+  "website": null,
+  "rating": 4.3,
+  "reviewCount": 58,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "8:30 AM – 6:00 PM",
+    "Tuesday": "8:30 AM – 6:00 PM",
+    "Wednesday": "8:30 AM – 6:00 PM",
+    "Thursday": "8:30 AM – 6:00 PM",
+    "Friday": "8:30 AM – 6:00 PM",
+    "Saturday": "10:00 AM – 4:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I went to Master Tailor and Cleaners to have the sleeves shortened by the shoulder on my Zegna blazer. The tailor did a flawless job on the alteration. No pulling on the shoulder cap, the alteration looks like it was untouched!  Definitely recommend!",
+      "author": "Anthony Manlapas",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-01"
+    },
+    {
+      "text": "I brought my Japanese selvedge denim to repair the button fly. They're allegedly denim experts. In late November. They told me it would take 3 weeks. I came to pick up from Montgomery County. They did absolutely nothing. Wasted my time and trip to the city.",
+      "author": "David Goldband",
+      "rating": 1,
+      "source": "google",
+      "date": "2025-12-13"
+    },
+    {
+      "text": "They are absolutely amazing people!\n\nI dropped off my wedding dress from Kleinfelds 6 years ago, moved to another state and forgot to pick it up! My husband came back yesterday and didn’t think they would still have it but … miraculously, they kept it for us in pristine condition.\n\nThis was my fault. I didn’t expect them to keep it. I cannot thank the ladies enough for the dedication and care they give to their customers.",
+      "author": "Lannie Le",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-02-15"
+    },
+    {
+      "text": "I recently had my Rag & Bone jeans hemmed and altered at Master Tailor & Cleaner, and they truly exceeded my expectations. For years, I lived above the highly regarded G&G Cleaners in Soho, NYC, and I am very particular about my jeans. G&G handles alterations for major brands in Soho, and Master Tailor matches their quality.\n\nThe staff was friendly, patient, and skilled. They preserved the original hem, completed the alterations swiftly, and got everything right on the first attempt--something that even high-end tailors have struggled with in my experience.\n\nThe pricing was fair, considering the excellent quality of work, and the overall experience was smooth and professional. I will undoubtedly return and wholeheartedly recommend Master Tailor & Cleaner to anyone looking for dependable alterations.",
+      "author": "Bunker Blake",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-02-07"
+    },
+    {
+      "text": "Came in on a Wednesday with a few pieces (tux jacket, pants and shirt) needing to be cleaned and was asked when I needed them by. I responded Friday evening as most laundromats in my experience turn things within ~48 hours. Was charged for a rush job (2x the price) but was NOT told by the attendant. Totally understand different places have different turn times but shady to not explicitly mention that to a customer. Won’t be back.",
+      "author": "George Pazos",
+      "rating": 1,
+      "source": "google",
+      "date": "2025-08-01"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "New Master tailor and cleaners photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "New Master tailor and cleaners photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "New Master tailor and cleaners photo 3",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 58,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.3,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "fair"
+  }
+}

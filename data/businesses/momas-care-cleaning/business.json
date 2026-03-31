@@ -1,0 +1,143 @@
+{
+  "name": "Moma's Care Cleaning",
+  "slug": "momas-care-cleaning",
+  "category": "cleaning service",
+  "address": "6140 Lansdowne Ave",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19151",
+  "phone": "(267) 990-2478",
+  "email": "",
+  "website": "https://www.momascarecleaning.com/",
+  "rating": 4.5,
+  "reviewCount": 55,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Open 24 hours",
+    "Tuesday": "Open 24 hours",
+    "Wednesday": "Open 24 hours",
+    "Thursday": "Open 24 hours",
+    "Friday": "Open 24 hours",
+    "Saturday": "Open 24 hours",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Shoddy cleaning, overpriced and the icing on the cake?…. They left the front and back door open. Stay clear from these fraudsters. They will rip you off, not do the work, and blame you for their incompetence. Don’t believe me? Check out the pics of their “cleaning”.",
+      "author": "Debbie Anderson",
+      "rating": 1,
+      "source": "google",
+      "date": "2022-10-22"
+    },
+    {
+      "text": "I hired Momas cleaning to clean my property.  I was not present and they lied and stated they steamed cleaned carpets and deep cleaned every nook and cranny.  The carpets were not even damp when I checked the following morning.  Never use this company they scam you for your money!!!\n\nResponse to owners comments:\nHopefully someone reading this will not use your services\nI never received a final bill to know that you charged my cc so that is the delay in reaction.  I was told the credit card was only for 50% deposit and that you would send me final invoice - never received to dispute work. I also sent GPS coordinates to you so not sure how you were not able to locate after you confirmed you knew where you were going.\n2. Your bill states deep cleaning and shampooing of all carpets - nothing was completed.\n\n3.The pics you send were of cabinets after I said the cleaning was not complete the next am.  Garage was not cleaned out and many false promises made.  I acknowledge the cabinet cleaning was OK, nothing else.\n\nAmazing that you sound so professional on google yet text me bring it on when I said I would file in court. Public should reconsider when hiring Moma's Care Cleaning.  I hope no one else gets ripped off like I did.",
+      "author": "Elizabeth McGillan",
+      "rating": 1,
+      "source": "google",
+      "date": "2021-11-01"
+    },
+    {
+      "text": "The best cleaning company I have ever used. Came highly recommended by a friend & I was not disappointed at all! Arrived in a timely manner and the team was friendly and attentive to my needs during initial walk through.  Cleaning job was exactly what I ask for and exceeded expectations. I look forward to a long term relationship. My house is sparkling!",
+      "author": "Susan Schuman",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-02-15"
+    },
+    {
+      "text": "The service here was absolutely wonderful. I scheduled a cleaning for the apartment I was moving into (as it wasn't at a level I wanted) and scheduled a cleaning for the apartment I was moving out of. They were wonderful at getting me on the books on a quick turn around which I needed. The crew that came on each day were kind, professional, and did an excellent job. I will absolutely be using them again for any future needs. I cannot speak highly enough about the great work the team did.",
+      "author": "Summer P",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-07-09"
+    },
+    {
+      "text": "I hired Moma’s cleaning service to help my parents after my mom had hip replacement surgery.  From the first call I felt like I was in great hands.  The professionalism and contact were spectacular and the company so easy to work with for my needs.  On the cleaning day my parents couldn’t have been happier with the results.  My mom said “the place sure is clean now”.  They are even considering hiring Moma’s on a regular basis.  I highly recommend this company and especially Jason who is very kind.",
+      "author": "Denise Dalton",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-10-21"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Moma's Care Cleaning photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Moma's Care Cleaning photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Moma's Care Cleaning photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Moma's Care Cleaning photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Moma's Care Cleaning photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Moma's Care Cleaning photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Moma's Care Cleaning photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Moma's Care Cleaning photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Moma's Care Cleaning photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Moma's Care Cleaning photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 55,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

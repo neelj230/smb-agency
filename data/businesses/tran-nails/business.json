@@ -1,0 +1,143 @@
+{
+  "name": "Tran Nails",
+  "slug": "tran-nails",
+  "category": "nail salon",
+  "address": "5244 Market St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19139",
+  "phone": "(215) 474-1881",
+  "email": "",
+  "website": null,
+  "rating": 4.5,
+  "reviewCount": 196,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM – 7:00 PM",
+    "Tuesday": "9:00 AM – 7:00 PM",
+    "Wednesday": "9:00 AM – 7:00 PM",
+    "Thursday": "9:00 AM – 7:00 PM",
+    "Friday": "9:00 AM – 7:00 PM",
+    "Saturday": "9:00 AM – 7:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I heard alot about them. They are good. They are cash only. Kim is great on the eyebrows and lashes. Best to get there early. I went today around 3 and was out by 415.",
+      "author": "EvE Richardson-Lyles",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-04-05"
+    },
+    {
+      "text": "The prices were an absolute rip off !!\nServices were listed : on their full set , refill which is what I got…. Was supposed to be $17 and up gel polish $20 that equals $37 Ok yeah I have long nails 💅 but $55 for the total service was astronomical never again Tran nails never 👎",
+      "author": "Goldie Riles",
+      "rating": 1,
+      "source": "google",
+      "date": "2022-08-25"
+    },
+    {
+      "text": "My polish on my toes looked a mess (a week old)! It wasn't smooth at all! And my heels was not smooth either! But staff very friendly!",
+      "author": "Curtina Arbee",
+      "rating": 1,
+      "source": "google",
+      "date": "2020-08-07"
+    },
+    {
+      "text": "I won’t  go know where but to this salon I love Kim she really cares for her clients she even gives us gifts I get my lashes done only by her plus she only charge $25 dollars and they be professional",
+      "author": "Sonya Sandets",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-06-27"
+    },
+    {
+      "text": "TRAN NAILS IS THE BEST NAIL SALON IN PHILADELPHIA.. ALL THE NAIL TECHNICIANS ARE A1 AND MS KIM IS A WIZARD WITH THE EYEBROWS AND LASHES I LOVE THEM",
+      "author": "Ta-King Allah",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-09-19"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Tran Nails photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Tran Nails photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Tran Nails photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Tran Nails photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Tran Nails photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Tran Nails photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Tran Nails photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Tran Nails photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Tran Nails photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Tran Nails photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 196,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

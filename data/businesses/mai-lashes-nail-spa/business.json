@@ -1,0 +1,143 @@
+{
+  "name": "Mai Lashes & Nail Spa",
+  "slug": "mai-lashes-nail-spa",
+  "category": "nail salon",
+  "address": "2910 S 70th St Unit 3",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19142",
+  "phone": "(267) 969-5262",
+  "email": "",
+  "website": null,
+  "rating": 4.8,
+  "reviewCount": 319,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Closed",
+    "Tuesday": "9:00 AM – 6:30 PM",
+    "Wednesday": "9:00 AM – 6:30 PM",
+    "Thursday": "9:00 AM – 6:30 PM",
+    "Friday": "9:00 AM – 6:30 PM",
+    "Saturday": "9:00 AM – 6:30 PM",
+    "Sunday": "10:30 AM – 4:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I had a wonderful experience here. The builder gel looks amazing and the shape is flawless — exactly how I like it. The tech was gentle and detail-oriented. I’ll definitely return!",
+      "author": "Thanh Mai",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-25"
+    },
+    {
+      "text": "Took my daughter to ger her fingernails done after we just got back in town from Miami so they would be fresh to start the week at school. Tech was available as soon as we arrived and got her out of there with everything she wanted in under 20 minutes.",
+      "author": "Paul Thomas",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-01"
+    },
+    {
+      "text": "my first time here after hearing about this salon and definitely 10/10. i went to Win, she’s very nice and communicates well. i’ll definitely be back !!",
+      "author": "Kayla Dnae",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-04"
+    },
+    {
+      "text": "This is my first time using the service here and I'm quite satisfied with these nails . I recommend everyone to come and try it out 😍",
+      "author": "Quỳnh Anh Lê Trương",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-01"
+    },
+    {
+      "text": "Win did my nails, she was great! The shape was immaculate, and the service was amazing!! Great work, I will definitely be back.",
+      "author": "Astan D",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-28"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Mai Lashes & Nail Spa photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Mai Lashes & Nail Spa photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Mai Lashes & Nail Spa photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Mai Lashes & Nail Spa photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Mai Lashes & Nail Spa photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Mai Lashes & Nail Spa photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Mai Lashes & Nail Spa photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Mai Lashes & Nail Spa photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Mai Lashes & Nail Spa photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Mai Lashes & Nail Spa photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 319,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.8,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

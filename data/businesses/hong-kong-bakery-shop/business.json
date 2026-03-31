@@ -1,0 +1,143 @@
+{
+  "name": "Hong Kong Bakery Shop",
+  "slug": "hong-kong-bakery-shop",
+  "category": "bakery",
+  "address": "917 Race St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19107",
+  "phone": "(215) 925-1288",
+  "email": "",
+  "website": null,
+  "rating": 3.1,
+  "reviewCount": 93,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "7:00 AM – 2:00 AM",
+    "Tuesday": "7:00 AM – 2:00 AM",
+    "Wednesday": "7:00 AM – 2:00 AM",
+    "Thursday": "7:00 AM – 2:00 AM",
+    "Friday": "7:00 AM – 3:00 AM",
+    "Saturday": "7:00 AM – 3:00 AM",
+    "Sunday": "7:30 AM – 2:00 AM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I bought some chinese bun here fews days ago, and it was not the best I ever eaten. They were dry, the filling ( red bean) was hard and not melted. Also, it was only in the center, so it was not soft at all.\nIf you expect amazing soft and well made chinese bun , it's not quite the place...!\nBut the service was really nice, talkative and kind.\n\nAlso my order was wrong. I got the wrong flavor buns.",
+      "author": "Jeanne COUSTIER",
+      "rating": 2,
+      "source": "google",
+      "date": "2025-06-09"
+    },
+    {
+      "text": "Expensive yet bad quality. No idea why it exists at Chinatown while the competition is high. Bread is dry with very little filling. The staff is warm but honestly the service doesn’t matter when the food quality is this low.",
+      "author": "Tom Zhang",
+      "rating": 1,
+      "source": "google",
+      "date": "2025-11-25"
+    },
+    {
+      "text": "Pretty good buns honestly. And cheap too ($2 each). Though I will say that the filling is kinda lacking and concentrated in the middle of the bun so you get inconsistent bites. Owners were friendly though. I bet the food here is gas, super authentic place.",
+      "author": "Dhruv Patel",
+      "rating": 4,
+      "source": "google",
+      "date": "2022-07-16"
+    },
+    {
+      "text": "Coolest bakery. Super raw. Lady up front is incredibly nice. Loved speaking Canto with her. Breads and such aren’t top tier, but service makes up for it, the simple idea of supporting a small business immigrant-owned bakery.",
+      "author": "Kiujoy Jay Kokko",
+      "rating": 4,
+      "source": "google",
+      "date": "2024-12-22"
+    },
+    {
+      "text": "The egg tart was ok but the mochi filled with coconut and peanut was phenomenal (and huge!)",
+      "author": "Jenn Gray",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-03-04"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Hong Kong Bakery Shop photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Hong Kong Bakery Shop photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Hong Kong Bakery Shop photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Hong Kong Bakery Shop photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Hong Kong Bakery Shop photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Hong Kong Bakery Shop photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Hong Kong Bakery Shop photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Hong Kong Bakery Shop photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Hong Kong Bakery Shop photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Hong Kong Bakery Shop photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 93,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 3.1,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

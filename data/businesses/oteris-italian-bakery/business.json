@@ -1,0 +1,143 @@
+{
+  "name": "Oteri's Italian Bakery",
+  "slug": "oteris-italian-bakery",
+  "category": "bakery",
+  "address": "6323 Woodland Ave",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19142",
+  "phone": "(215) 724-0793",
+  "email": "",
+  "website": "http://oterisitalianbakery.com/",
+  "rating": 4.1,
+  "reviewCount": 359,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "7:00 AM – 6:00 PM",
+    "Tuesday": "7:00 AM – 6:00 PM",
+    "Wednesday": "7:00 AM – 6:00 PM",
+    "Thursday": "7:00 AM – 6:00 PM",
+    "Friday": "7:00 AM – 6:00 PM",
+    "Saturday": "7:00 AM – 6:00 PM",
+    "Sunday": "8:00 AM – 3:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Very nice staff and  my purchase was made quickly. I will definitely be returning and we thank you so much for the cake! It was magnificent!",
+      "author": "Ivan The terrible",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-20"
+    },
+    {
+      "text": "Yesterday was my Birthday 10/2\nMy husband went to get me a strawberry shortcake\nOver phone he was told it was one left but when he arrived was told they sold it.\nBut them she went to check amd said she had a extra she found . She put my name on the cake it was such horrible writing  the cake had a Crack from one side to the other when I went to cut it is crumbled up had to use a spatula.\nThe icing was super hard and the cake looked horrible inside. It taste so freezer burned old and dried out I couldn't even cut it without it falling apart.\nWhy would she sell us that old cake. Not even whipped cream it was just hard icing.  One of my guest definitely let me know it didn't taste good.  I'm left with a cake nobody wanted not even me.",
+      "author": "Nisha Chandler",
+      "rating": 1,
+      "source": "google",
+      "date": "2025-10-04"
+    },
+    {
+      "text": "I ordered a specialty cake for my daughter's 21st bday. Her birthday is in January but she put everything off and waited until June so that all of her family members and friends could be there without having to worry about ice and snow. So the cake had to be a big deal.\nI told her we would get a regular cake from the market to save money. When my Son unveiled this cake jaws dropped. Everyone was saying how beautiful it was and asking where we got it from. It was a huge hit. All the phones came out for cake pics and my daughter with the cake pics. It was a magical time and a major part was because of that beautiful cake.\nMy Cousin put it on our family chat and it was loved their too. People who didn't make it there loved it. One of them said, \"That cake is everything. Where did y'all get it from!!\"\nThe cake was worth every single penny.  Thanks Oteri's for all of your hard work. It made my daughter's day amazing and unforgettable.",
+      "author": "Stephanie Thurman",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-06-09"
+    },
+    {
+      "text": "I love it so much the cake was so good 10/10 I will totally order from them again",
+      "author": "Charlie “Pumpkin” Cochran",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-12"
+    },
+    {
+      "text": "Went and ordered my daughter a birthday cake for Saturday 02/21/2026. The icing on a cake was in disarray I had asked for a layer cake and they completely ignore everything I had wanted. Call they said they will give me store credit and I said okay. Arrived at my daughter's birthday party cut the Cake and they did not give me a layer cake they gave me pound. This location did not care about my daughter's birthday or anything else. I have gone to this bakery years ago and I've never had any problem like this I have gotten great customer service a wonderful cake. With that being said yes over the years things change but you still expect to have good customer service and people who care about their job and the people that they are serving. I tried my best to talk to the owners and they ignore that they would not let me talk to the owners",
+      "author": "Patrice Patterson",
+      "rating": 1,
+      "source": "google",
+      "date": "2026-02-24"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Oteri's Italian Bakery photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Oteri's Italian Bakery photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Oteri's Italian Bakery photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Oteri's Italian Bakery photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Oteri's Italian Bakery photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Oteri's Italian Bakery photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Oteri's Italian Bakery photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Oteri's Italian Bakery photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Oteri's Italian Bakery photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Oteri's Italian Bakery photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 359,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.1,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

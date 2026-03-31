@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #1d65d1;
+  --brand-accent: #f3e063;
+  --brand-bg: #f8fafc;
+  --brand-bg-alt: #e6eefa;
+  --brand-text: #081d3a;
+  --brand-muted: #4a6a8a;
+}
+
+::selection {
+  background-color: #1d65d1;
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

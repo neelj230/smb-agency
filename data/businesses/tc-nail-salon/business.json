@@ -1,0 +1,143 @@
+{
+  "name": "T&C Nail salon",
+  "slug": "tc-nail-salon",
+  "category": "nail salon",
+  "address": "5227 Chestnut St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19139",
+  "phone": "(215) 472-4377",
+  "email": "",
+  "website": null,
+  "rating": 4.2,
+  "reviewCount": 133,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM – 5:30 PM",
+    "Tuesday": "9:00 AM – 5:30 PM",
+    "Wednesday": "Closed",
+    "Thursday": "9:00 AM – 5:30 PM",
+    "Friday": "9:00 AM – 5:30 PM",
+    "Saturday": "9:00 AM – 5:30 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I’ve been coming to T&C Nail Salon since I was in high school, over 9 years ago! I’ve always loved their welcoming environment. EVERYONE is very professional and kind.Their work ethic and attention to detail creates thee most beautiful masterpieces I’ve ever seen. I say that to say, the energy you enter the salon with is the energy that will be reciprocated to you. They respect their clients and their business, promoting a space I feel more than comfortable getting serviced at. So comfortable, I can honestly say this is THE BEST NAIL SALON IN WEST PHILLY! I’m flooded with compliments every time I leave the chair!",
+      "author": "D'Aaron Washington",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-11-10"
+    },
+    {
+      "text": "T&C gets me right everything I come. I see Mai every month for a refill and she never disappoints. And the mother does my pedicure to perfection! Give them a try if you’re in the area!",
+      "author": "Cheryl Ford",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-11-11"
+    },
+    {
+      "text": "I highly recommend T&C Nail Salon for anyone looking to be serviced in the Philadelphia Area. I’ve been coming to get serviced here for 9+ years & every single time I’ve have been completely satisfied. All of the employees are friendly & very professional. If want fabulous looking hands and feet or eyebrows please don’t walk…RUN!",
+      "author": "Dalisha Washington",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-11-10"
+    },
+    {
+      "text": "Super aggressive I took my young daughter and the nail was uneven I said something and the lady and her daughter started to be super aggressive over my concern I hate the nailery that wants money but don’t want to be told about what there doing wrong never will come back and do NOT recommend!!! Then they talked in there language afterwards the daughter rolling her eyes smfh super waist of time and money",
+      "author": "Sharnika",
+      "rating": 1,
+      "source": "google",
+      "date": "2026-01-02"
+    },
+    {
+      "text": "I’ve been going here for over 8+ years and everything was okay up until recently. I regularly get my nails + feet done with Anna who sits in the second chair and one day “Mom” asked me if I wanted to come in early as I was standing outside to be the first one in around 8:45 and they open at 9am. I told her I can wait for Anna because she does my ingrown toenails. She said if you want to wait you can and I said you can start that’s fine as the only thing Anna does on my feet is my ingrown I never cared who did my pedicure. She attempted to cut my ingrown (not deep ones) her self and she cut it in a weird way where I still felt it. I told her I would wait for Anna as it was now after 9 am she got mad as if I said she did something wrong and told me she will never do services with me again, I was fine with that and said nothing I patiently waited as she got on the phone and started saying things in her language which I caught on my translator. I kindly got up and asked how much was my pedicure without getting any other services as I did not like how I was treated paid my money and left. No issues. I come back like 4-6 weeks later only for Anna again land I come in and the mom looks at me weird and I guess in her language stating she’s not doing my feet which again I didn’t come for her. So she’s picking people over me, keep in mind I never caused no issues, nothing I sat on my lunch break for an hour and 20 mins no acknowledgments of if I’m next, or when I’ll be next nothing and again I kindly got up and left only this time I will NEVER return. I’m not paying no one who cannot give me respect or kind service even when I was nothing but kind I just want my money worth. Never again!!!",
+      "author": "Devera Rhoades",
+      "rating": 1,
+      "source": "google",
+      "date": "2025-08-01"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "T&C Nail salon photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "T&C Nail salon photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "T&C Nail salon photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "T&C Nail salon photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "T&C Nail salon photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "T&C Nail salon photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "T&C Nail salon photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "T&C Nail salon photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "T&C Nail salon photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "T&C Nail salon photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 133,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.2,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

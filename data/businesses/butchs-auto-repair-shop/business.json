@@ -1,0 +1,123 @@
+{
+  "name": "BUTCH'S AUTO REPAIR SHOP",
+  "slug": "butchs-auto-repair-shop",
+  "category": "auto repair",
+  "address": "217 N Daggett St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19139",
+  "phone": "(215) 471-5694",
+  "email": "",
+  "website": null,
+  "rating": 4.7,
+  "reviewCount": 49,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "8:00 AM – 4:00 PM",
+    "Tuesday": "8:00 AM – 4:00 PM",
+    "Wednesday": "8:00 AM – 4:00 PM",
+    "Thursday": "8:00 AM – 4:00 PM",
+    "Friday": "8:00 AM – 4:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "These folks take incredible care of the machines and people who come through the shop. I've been coming back for 3 years and am always treated with respect, friendliness, and care. These people care about what they do, and it shows in how Mr. Frankie runs the front. My favorite mechanic in the city!",
+      "author": "Karli Oxford-Jordan",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-05"
+    },
+    {
+      "text": "Been here a few times. Won't be returning. For the few of you with dignity, take your money elsewhere.\n\nThe only young guy on staff and the older dude with the accent are mannerly and professional. The older black dude and the owner (whenever he's present) are absolute p/  ricks.",
+      "author": "Farnum",
+      "rating": 1,
+      "source": "google",
+      "date": "2021-06-16"
+    },
+    {
+      "text": "I had the pleasure meeting \"Frank\". I explained my husband usually brings my car. Inspection was due July 1st. I had the day off for dentist appt. Instead of making an appt for my husband to bring it. Frank said, \"Let's do it now\". OMG!!! I felt like I hit the lottery. Frank, gave my car a thorough inspection.\n\nOMGOODNESS!\nThis review above was typed after my 2022 inspection & I forgot to hit enter .",
+      "author": "Acqua Davis",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-07-22"
+    },
+    {
+      "text": "Very friendly, and professional. In and out, clean establishment, not alot of junk cars parked everywhere. Reasonable prices. I'm definitely coming back.",
+      "author": "Cee W.",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-09-29"
+    },
+    {
+      "text": "I have been using the garage for years and have always had the best experiences whether it's is Butch himself or Frank, Anthony, or Saturday Frank, the service and work is top notch. Everyone who I have referred here has thanked me",
+      "author": "Garrett Gallagher",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-01-10"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "BUTCH'S AUTO REPAIR SHOP photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "BUTCH'S AUTO REPAIR SHOP photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "BUTCH'S AUTO REPAIR SHOP photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "BUTCH'S AUTO REPAIR SHOP photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "BUTCH'S AUTO REPAIR SHOP photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "BUTCH'S AUTO REPAIR SHOP photo 6",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 49,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.7,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

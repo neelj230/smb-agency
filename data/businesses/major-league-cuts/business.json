@@ -1,0 +1,143 @@
+{
+  "name": "Major League Cuts",
+  "slug": "major-league-cuts",
+  "category": "barber",
+  "address": "5124 Market St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19139",
+  "phone": "(215) 747-1119",
+  "email": "",
+  "website": null,
+  "rating": 4.5,
+  "reviewCount": 326,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "6:00 AM – 9:00 PM",
+    "Tuesday": "6:00 AM – 9:00 PM",
+    "Wednesday": "6:00 AM – 9:00 PM",
+    "Thursday": "6:00 AM – 9:00 PM",
+    "Friday": "6:00 AM – 9:00 PM",
+    "Saturday": "6:00 AM – 9:00 PM",
+    "Sunday": "7:00 AM – 6:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Clean and comfortable. I've been going to them for years. They take pride in the their appearance. They take almost all payment methods and will have looking and feeling like a million bucks.",
+      "author": "Tyrie Masten",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-07"
+    },
+    {
+      "text": "I've been going here for over 15yrs and it's always been an excellent and professional barbershop! I go to Bryant and he's great. The owner Chuck is a great guy and runs a clean shop 💯",
+      "author": "K “K-Roc” P",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-20"
+    },
+    {
+      "text": "Took my 10 year old son there and was immediately greeted by GEE da barber. He was friendly but mannnn he has skills!! My son loved his service and even more, I loved the cut! Affordable, friendly, and skillful. Don’t get any better. Thanks GEE, we will be back just for you!",
+      "author": "Penny Roll Crafts",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-06-30"
+    },
+    {
+      "text": "Pretty chill shop with laid back barbers. I didn’t give 5 stars only because I’m brand new there so I’m still feeling the vibe out.",
+      "author": "Isaiah Jones",
+      "rating": 4,
+      "source": "google",
+      "date": "2025-08-30"
+    },
+    {
+      "text": "It's official Tiffany House of beauty 2 fl\n5128 market st\nPhila pa 19139 major cuts is 2 doors down",
+      "author": "Tiffany Wooding",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-18"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Major League Cuts photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Major League Cuts photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Major League Cuts photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Major League Cuts photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Major League Cuts photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Major League Cuts photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Major League Cuts photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Major League Cuts photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Major League Cuts photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Major League Cuts photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 326,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

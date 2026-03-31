@@ -1,0 +1,118 @@
+{
+  "name": "Scioli Pat",
+  "slug": "scioli-pat",
+  "category": "tailor",
+  "address": "1744 Passyunk Ave",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19148",
+  "phone": "(215) 334-0990",
+  "email": "",
+  "website": null,
+  "rating": 4.6,
+  "reviewCount": 78,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Closed",
+    "Tuesday": "10:00 AM – 5:00 PM",
+    "Wednesday": "10:00 AM – 5:00 PM",
+    "Thursday": "10:00 AM – 5:00 PM",
+    "Friday": "10:00 AM – 5:00 PM",
+    "Saturday": "10:00 AM – 5:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "If I could give 0 star…\n1. One of the shirts was over ironed/heated so the edge broke. I really hope I had checked when I picked up!\n2. As you can see from the second pic, the stitching for my fix seems really bad. I’m not sure if this means they have really bad skill or they are just not that serious about customer’s stuff and their work.\n3. It took them 3 weeks to do some very easy fixes. They know they are slow so when you finally can pick up all your clothes, the older man will hold your hand and over compliment keeping saying you are really good person, which even makes you some how feel embarrassed if you show any disappointment with their work.\n\nEven the owner seems like a good person, but you have to stay away from this place because of their bad work or at least check your clothes when picking up if you insist on a try…",
+      "author": "Stephen",
+      "rating": 1,
+      "source": "google",
+      "date": "2021-10-17"
+    },
+    {
+      "text": "Amazing customer experience. Got a new suit for a wedding and Pat and Anna tailored it to fit perfectly. When I came to pick it up the first time, I decided that I wanted that pants a little tighter and they did that without any issues. Pat and Anna are wonderful genuine people and I highly recommend getting a suit from them as it will be top quality!",
+      "author": "Matthew Kerrigan",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-01-28"
+    },
+    {
+      "text": "Mr Scioli was recommended to me as I was in need of a nice suit on short notice.  From the second I walked into the establishment, I felt welcome and important. He and his lovely wife Anna, blew me away with the whole process of “How a Man’s Suit should be purchased.”\nI will never step into a big name Department Store or a chain Men’s Clothing Store, as long as I live.  Pat and Anna stole my heart!!!! They are amazing.",
+      "author": "Justin Nappa",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-06-21"
+    },
+    {
+      "text": "Pat and Anna tailored a long green army style coat, which initially looked like a balloon on me due to my small frame. The coat was already quite fashionable but it now hugs my body and looks sensational. It's my winter coat and I get compliments multiple times a day, from men and women. So fun experiencing them working on the rough markup together. Pat is pure old school south philly charm, and Anna politely directs the show. Their services are pricey because you're paying for high quality and attention to detail. In fact, I paid more for the tailoring than I did for the coat! (which I bought from Amazon and was pretty cheap) Fully worth the price. Just brought them two dresses to alter (also bought cheaply, this time from Buffalo Exchange) and I'm excited to see the results.",
+      "author": "Debbie Sonya",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-02-05"
+    },
+    {
+      "text": "Pat and Anna are the best. Really care about the customer and how you look more than anything. A couple months ago I bought a beautiful italian suit from them and had it altered, as well as my own suit altered. Both came out fantastic and they were finished very quickly. I was treated very nicely both times and will absolutely be back. Thanks Pat and Anna!",
+      "author": "Marty Angelina",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-01-14"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Scioli Pat photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Scioli Pat photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Scioli Pat photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Scioli Pat photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Scioli Pat photo 5",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 78,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.6,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

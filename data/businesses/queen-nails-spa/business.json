@@ -1,0 +1,143 @@
+{
+  "name": "Queen Nails & Spa",
+  "slug": "queen-nails-spa",
+  "category": "nail salon",
+  "address": "16 N 3rd St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19106",
+  "phone": "(215) 592-1629",
+  "email": "",
+  "website": "https://queennailsandspapa.com/",
+  "rating": 4.7,
+  "reviewCount": 576,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "10:00 AM – 8:00 PM",
+    "Tuesday": "10:00 AM – 8:00 PM",
+    "Wednesday": "10:00 AM – 8:00 PM",
+    "Thursday": "10:00 AM – 8:00 PM",
+    "Friday": "9:30 AM – 8:00 PM",
+    "Saturday": "9:30 AM – 6:30 PM",
+    "Sunday": "10:00 AM – 5:30 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I’ve been coming to Queen Nails for a few months now after a recommendation from a friend and have never been disappointed! Emily did my last three sets and did a great job each time. She takes her time to make sure I get exactly what I want. They have a huge selection of colors unlike any other salon in the area. I highly recommend Emily!",
+      "author": "Dharma",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-29"
+    },
+    {
+      "text": "No, my nails are literally perfect. The shape is ideal, and the color is gorgeous. The salon is clean, and it helps that they have an online system to make appointments. The first time I went there, I walked in and was seen in about two minutes. I have tried three different stylists, and I enjoy them all. I've had my eyebrows done there, and they also did a great job. They have a great selection of colors and options for your nails.",
+      "author": "Ashley",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-26"
+    },
+    {
+      "text": "I’ve been here 6 times now and it has easily become my favorite place in Philly. I’ve gone to Zet every time and he does a great job, is super meticulous, and efficient. I know every time I come here my nails will look great. If you’re looking for a nail place in Philly I highly suggest coming here!",
+      "author": "Emma Burke",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-17"
+    },
+    {
+      "text": "I worked with Emily, I appreciated that she collaborated with additional techs to get the design I wanted. This was my first time using this salon as I used to drive 1.5 hours into another state to get them done based on quality and loyalty. My nail tech is on extended leave out of the country and I have since received poor service from others. I was complaining to my friend the struggles of finding a quality salon for the type of nails I desire and she stated she comes here. I'm happy that I tried, and am deeply satisfied with the results.",
+      "author": "Tahmia Welch",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-12"
+    },
+    {
+      "text": "I've got my nails done here once before for acrylics and they were great. However, I recently went for a manicure and pedicure and hated my nails.\nThe person I had was sweet but she layered my gel SO many times. They were so bulky and large which made my short natural nails horrid. There were bumps at the top and end of each nail. It looked like I got a blotched builder gel.\nShe also insisted my toes were dry but they weren’t. I had dents from it still being wet when I put my shoes on. And I took an uber so I didn’t walk an absurd amount.\nI had to immediately remove the polish from my toes and nails because it was so bad and ruined. I’m sad to say that it was a complete waste.",
+      "author": "Catherine Nguyen",
+      "rating": 3,
+      "source": "google",
+      "date": "2025-12-11"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Queen Nails & Spa photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Queen Nails & Spa photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Queen Nails & Spa photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Queen Nails & Spa photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Queen Nails & Spa photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Queen Nails & Spa photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Queen Nails & Spa photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Queen Nails & Spa photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Queen Nails & Spa photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Queen Nails & Spa photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 576,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.7,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

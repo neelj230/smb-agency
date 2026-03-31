@@ -1,0 +1,84 @@
+{
+  "name": "Fitzroy's Auto Repair",
+  "slug": "fitzroys-auto-repair",
+  "category": "auto repair",
+  "address": "5100 W Thompson St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19131",
+  "phone": "(215) 473-6565",
+  "email": "",
+  "website": null,
+  "rating": 4.9,
+  "reviewCount": 17,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {},
+  "services": [],
+  "reviews": [
+    {
+      "text": "Best shop around and they say he's the best at electrical work",
+      "author": "mike jones",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-04-22"
+    },
+    {
+      "text": "Service was fantastic,  they explained the scope of work and cost.\nI would recommend them.\nMrs Rudd",
+      "author": "Theresa Terri Rudd",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-04-06"
+    },
+    {
+      "text": "Owner is very wholesome, does a great job and gets the job done!",
+      "author": "Quadeera Burchette",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-07-08"
+    },
+    {
+      "text": "Thank you guys. I am forever grateful!",
+      "author": "Nadra R",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-04-26"
+    },
+    {
+      "text": "Took care of my truck now I'm back on the road .",
+      "author": "Richie Rumble",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-07-08"
+    }
+  ],
+  "team": [],
+  "photos": [],
+  "stats": [
+    {
+      "value": 17,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "poor"
+  }
+}

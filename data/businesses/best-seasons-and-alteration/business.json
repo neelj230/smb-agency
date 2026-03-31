@@ -1,0 +1,113 @@
+{
+  "name": "Best Seasons and alteration",
+  "slug": "best-seasons-and-alteration",
+  "category": "tailor",
+  "address": "239 N 10th St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19107",
+  "phone": "(267) 597-4441",
+  "email": "",
+  "website": null,
+  "rating": 4.3,
+  "reviewCount": 68,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "11:00 AM – 4:00 PM",
+    "Tuesday": "11:00 AM – 4:00 PM",
+    "Wednesday": "11:00 AM – 4:00 PM",
+    "Thursday": "11:00 AM – 4:00 PM",
+    "Friday": "11:00 AM – 4:00 PM",
+    "Saturday": "11:00 AM – 4:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Extremely friendly and excellent work. I've been here multiple times and every time is always quality. Last summer I went in looking to have a dress altered on an extremely tight deadline and she managed to pull it off in 10 days in time for my boyfriend's work formal. I go back to Best Seasons time and time again cause it's cheap, she's friendly and the cats are adorable.",
+      "author": "Noelle Zimmerman",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-18"
+    },
+    {
+      "text": "Highly recommend!  I dropped off a suit jacket, shirt and pants and everything came out perfect and ahead of schedule.  A great price for the quality of work, and for my first time getting a jacket tailored, I was walked through the whole process",
+      "author": "Matthew Lachance",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-30"
+    },
+    {
+      "text": "They did a great job bringing out the hem on my pants. It looks absolutely pristine, it looks like it came like this from the factory. They were pleasant to interact with, inexpensive, and did a great job. I'm very happy. Thanks again!",
+      "author": "Mandarbmax",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-02-03"
+    },
+    {
+      "text": "Extremely rude, with poor customer service. I called to ask for their office hour and the estimate price range for adjusting length for jeans, the lady who picked up calls was so rude, inpatient and with extremely bad attitude, when I asking the price range so I can have enough cash prepared, she’s like: “it could be like $100, I need to see your jeans”. And she talks like I owe her a thousand bucks and kinda yelled at me…when I ask her office hour she kinda ignored my question and ask me when can I come. I mean how can I plan my time without knowing her office hours???When I kinda point it out her attitude issue, she is like “oh go look for other tailors” and hang up the call! Customer service is insanely bad, rude and unprofessional. Not recommend at all.",
+      "author": "Kaleido L",
+      "rating": 1,
+      "source": "google",
+      "date": "2025-09-02"
+    },
+    {
+      "text": "The auntie here sounded really harsh and unwelcoming when I came here today and asked them to alter my shirt. I understand that they wanted me to bring them a fresh shirt and not one that I already have on but I wore it just to come here and show them how short I wanted it and brought an extra shirt to change into after. I told them I can go back wash it dry it and bring it back before they close today but she said I gotta bring back tomorrow. I only came today because I had today off while I work and have classes till late every other day of the week. She insisted that I have to bring it back another day. And the end she told me to go to another alteration on Arch Street?",
+      "author": "An Nguyen",
+      "rating": 1,
+      "source": "google",
+      "date": "2025-09-30"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Best Seasons and alteration photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Best Seasons and alteration photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Best Seasons and alteration photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Best Seasons and alteration photo 4",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 68,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.3,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "fair"
+  }
+}

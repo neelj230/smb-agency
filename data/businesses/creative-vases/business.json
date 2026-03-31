@@ -1,0 +1,143 @@
+{
+  "name": "Creative Vases",
+  "slug": "creative-vases",
+  "category": "florist",
+  "address": "543 S 52nd St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19143",
+  "phone": "(267) 897-1050",
+  "email": "",
+  "website": "https://www.creativevasesflorist.com/?utm_source=google&utm_medium=gbp&y_source=1_MTA2NTIzNDU5Ni03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
+  "rating": 4.8,
+  "reviewCount": 17,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "10:00 AM – 5:00 PM",
+    "Tuesday": "10:00 AM – 5:00 PM",
+    "Wednesday": "10:00 AM – 5:00 PM",
+    "Thursday": "10:00 AM – 5:00 PM",
+    "Friday": "10:00 AM – 5:00 PM",
+    "Saturday": "10:00 AM – 5:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Such a great neighborhood place. I went in to get a bouquet for my mom and she absolutely loved it. The flowers are beautiful even a week later!! Thank you creative vases ❤️",
+      "author": "Jonah Aamodt",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-22"
+    },
+    {
+      "text": "Phenomenal experience! Finally, a floral shop in the community! Fresh flowers and plants are available daily and are reasonably priced. I love everything about this place.",
+      "author": "Satia Johnnson",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-05-25"
+    },
+    {
+      "text": "Decided to pop in treat myself to some roses one day. The young lady who helped me was very friendly and helpful and I absolutely loved my bouquet. They were fresh and smelled wonderful. I’ll be back in two weeks for more.",
+      "author": "Kelly T",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-18"
+    },
+    {
+      "text": "The floral arrangements are gorgeous! A fun and inviting vibe, with a great space for workshops and events. And I love how they support causes like breast cancer awareness - it makes you feel even better about spending here!",
+      "author": "Joanna Winchester",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-09"
+    },
+    {
+      "text": "The most beautiful fresh flowers! It really brightens up my home. It's nice to know I can get fresh flowers in the neighborhood. I will definitely be back❤️",
+      "author": "Edoukou AkaEzoua",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-01-03"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Creative Vases photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Creative Vases photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Creative Vases photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Creative Vases photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Creative Vases photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Creative Vases photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Creative Vases photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Creative Vases photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Creative Vases photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Creative Vases photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 17,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.8,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

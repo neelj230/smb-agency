@@ -1,0 +1,143 @@
+{
+  "name": "PeCa'Le Salon",
+  "slug": "pecale-salon",
+  "category": "nail salon",
+  "address": "457 Fairmount Ave",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19123",
+  "phone": "(267) 975-1437",
+  "email": "",
+  "website": "https://pecalesalon.as.me/",
+  "rating": 5,
+  "reviewCount": 534,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Closed",
+    "Tuesday": "10:00 AM – 7:00 PM",
+    "Wednesday": "10:00 AM – 7:00 PM",
+    "Thursday": "10:00 AM – 7:00 PM",
+    "Friday": "10:00 AM – 7:00 PM",
+    "Saturday": "10:00 AM – 7:00 PM",
+    "Sunday": "10:00 AM – 5:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Absolutely love this nail salon! My soft gel nails came out flawless — beautiful shape, perfect finish, and they last so well. Esther and Aliyah are both amazing at what they do and truly take their time to make sure everything is perfect. On top of their talent, they’re so personable and warm, which makes the whole experience relaxing and fun. You can tell they genuinely care about their clients and their work. Highly recommend! 💅✨",
+      "author": "Aine Muhumuza",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-29"
+    },
+    {
+      "text": "I greatly enjoyed my service at this salon! I booked my first ever Gel X appointment with Esther. She tailored the nail art inspiration (from Pinterest ofc) to exactly what I wanted in the nail set. Esther came with great vibes and even better conversations. This entire salon is overall vibe from chill music to overflowing laughter. I will definitely be back :)!",
+      "author": "Alvalyn Dixon-Gardner",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-22"
+    },
+    {
+      "text": "Found my new nail spot. Easy booking link and I totally respect their cancelation policy and clear communication. They manage expectation with the time length of your appointment and when they were running just 5/10 mins behind they let me know in advance.\n\nMike checked about 6 times throughout my appointment if I liked the length, shape, thickness, color etc…his attention to detail was noticed and super appreciated. Now I’m going to Ester and she is equally as wonderful. She does all my designs and takes her time and makes me feel like she cares about my nails and happiness 🤗!\n\nMoved from DC to Philly and I’m very picky and my expectations were surpassed.\n\nLoved the music. Great people. Walking distance from my house. Check check check. I’ll be back to Mike for these type of sets and Ester (I think) for nail designs. Thank you!!!!",
+      "author": "Justine Hulbert",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-18"
+    },
+    {
+      "text": "I’ve been to this salon multiple times and have always had a great time. Esther and Mike are fantastic; they check in regularly to make sure you’re happy with your design and really pay attention to the details. The vibe of the salon is great, with good music and conversation. My nails always turn out exactly how I want, and I leave feeling relaxed every time. I absolutely recommend this place!",
+      "author": "Elizabeth Abt-Fraioli",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-13"
+    },
+    {
+      "text": "I’ve been to this salon a couple of times now and what stood out to me is the exceptional service. Joy, Mike, and Aliyah are all very friendly and they are great at what they do!! They make you feel so comfortable, make sure to listen to your requests, and are so diligent when working on your nails. This place is definitely different than a lot of the other salons in the area and I definitely recommend it! My nails have never looked better!!",
+      "author": "Naz Argun",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-12"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "PeCa'Le Salon photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "PeCa'Le Salon photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "PeCa'Le Salon photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "PeCa'Le Salon photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "PeCa'Le Salon photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "PeCa'Le Salon photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "PeCa'Le Salon photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "PeCa'Le Salon photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "PeCa'Le Salon photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "PeCa'Le Salon photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 534,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

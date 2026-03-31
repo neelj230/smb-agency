@@ -1,1 +1,59 @@
 business_name,category,slug,address,phone,email,website_url,website_score,google_rating,review_count,photo_count,priority_tier,status,preview_url,outreach_status
+Boss Plumbing & Heating,plumber,boss-plumbing-heating,"259 W Johnson St, Philadelphia, PA 19144, USA",(267) 748-4314,,https://www.bossplumbingheating.com/,0,4.8,227,10,B,scraped,,not_contacted
+Main Attraction Unisex Salon,barber,main-attraction-unisex-salon,"5610 Lancaster Ave, Philadelphia, PA 19139, USA",,,http://www.mausalon.com/,5,4.8,251,10,B,scraped,,not_contacted
+Barbershop Denim,barber,barbershop-denim,"1517 South St, Philadelphia, PA 19146, USA",(267) 930-3980,,http://www.barbershopdenimphilly.com/,35,4.9,528,10,B,scraped,,not_contacted
+June The Barber,barber,june-the-barber,"179 W Berks St, Philadelphia, PA 19122, USA",(215) 403-6860,,https://juniestakz.booksy.com/,35,4.9,137,10,B,scraped,,not_contacted
+Major League Cuts,barber,major-league-cuts,"5124 Market St, Philadelphia, PA 19139, USA",(215) 747-1119,,,0,4.5,326,10,A,scraped,,not_contacted
+Head Game,barber,head-game,"5316 W Girard Ave, Philadelphia, PA 19131, USA",(215) 883-1597,,,0,4.6,61,10,A,scraped,,not_contacted
+Roman’s Barbershop,barber,romans-barbershop,"2120 Walnut St First Floor, Philadelphia, PA 19103, USA",(445) 234-0403,,http://romansphiladelphia.com/,35,4.9,127,10,B,scraped,,not_contacted
+South Street Barbers,barber,south-street-barbers,"1316 South St, Philadelphia, PA 19147, USA",(267) 273-1445,,http://southstreetbarbers1316.booksy.com/,30,4.6,419,10,B,scraped,,not_contacted
+B Auto Repair Inc,auto repair,b-auto-repair-inc,"1701 N 54th St #7, Philadelphia, PA 19131, USA",(215) 477-8575,,,0,4.8,149,8,A,scraped,,not_contacted
+United Auto Repair,auto repair,united-auto-repair,"6163 Lancaster Ave, Philadelphia, PA 19151, USA",(215) 871-8440,,,0,4.3,178,8,A,scraped,,not_contacted
+Apache's Auto Clinic,auto repair,apaches-auto-clinic,"5727 Haverford Ave #35, Philadelphia, PA 19131, USA",(215) 476-6500,,,0,4.5,28,4,A,scraped,,not_contacted
+Lee's Automotive Service,auto repair,lees-automotive-service,"5947 Lancaster Ave, Philadelphia, PA 19151, USA",(215) 879-2883,,,0,4.5,115,5,A,scraped,,not_contacted
+Fitzroy's Auto Repair,auto repair,fitzroys-auto-repair,"5100 W Thompson St, Philadelphia, PA 19131, USA",(215) 473-6565,,,0,4.9,17,0,A,scraped,,not_contacted
+Paco's Auto Repair shop,auto repair,pacos-auto-repair-shop,"5302 Warren St, Philadelphia, PA 19131, USA",(267) 748-7397,,,0,4.8,17,4,A,scraped,,not_contacted
+Judge Auto Repair Inc,auto repair,judge-auto-repair-inc,"5804 Chestnut St, Philadelphia, PA 19139, USA",(215) 528-6004,,,0,4.5,74,10,A,scraped,,not_contacted
+Ant’s Auto Repair and Tow,auto repair,ants-auto-repair-and-tow,"2750 N Broad St, Philadelphia, PA 19132, USA",(267) 774-6361,,,0,4.7,105,10,A,scraped,,not_contacted
+S. Murphy Auto Repair,auto repair,s-murphy-auto-repair,"5539 Chestnut St, Philadelphia, PA 19139, USA",(215) 472-2759,,,0,4.6,199,10,A,scraped,,not_contacted
+Kens Automotive,auto repair,kens-automotive,"341 N 10th St, Philadelphia, PA 19107, USA",(215) 829-9898,,http://kens-automotive.shopgenie.site/,10,4.8,726,10,B,scraped,,not_contacted
+DJ Tire and Auto Repair,auto repair,dj-tire-and-auto-repair,"6008 Lancaster Ave, Philadelphia, PA 19151, USA",(215) 760-8576,,,0,4,74,9,A,scraped,,not_contacted
+BUTCH'S AUTO REPAIR SHOP,auto repair,butchs-auto-repair-shop,"217 N Daggett St, Philadelphia, PA 19139, USA",(215) 471-5694,,,0,4.7,49,6,A,scraped,,not_contacted
+Mike's Automotive,auto repair,mikes-automotive,"427 N Gross St, Philadelphia, PA 19151, USA",(215) 471-5111,,,0,4.7,41,10,A,scraped,,not_contacted
+Duran's LANDSCAPING LLC,landscaper,durans-landscaping-llc,"4832 N Hope St, Philadelphia, PA 19120, USA",(267) 970-1289,,http://duranlandscapingllc.com/,35,4.9,40,10,B,scraped,,not_contacted
+Bright Landscaping,landscaper,bright-landscaping,"5604 Gainor Rd, Philadelphia, PA 19131, USA",(267) 351-5557,,,0,0,0,10,A,scraped,,not_contacted
+Moma's Care Cleaning,cleaning service,momas-care-cleaning,"6140 Lansdowne Ave, Philadelphia, PA 19151, USA",(267) 990-2478,,https://www.momascarecleaning.com/,0,4.5,55,10,B,scraped,,not_contacted
+Cleaning Force LLC,cleaning service,cleaning-force-llc,"2101 N 63rd St, Philadelphia, PA 19151, USA",(610) 809-5003,,http://cleaningforceco.com/,10,4.6,45,10,B,scraped,,not_contacted
+Top Tier Philly Cleaning Company,cleaning service,top-tier-philly-cleaning-company,"370 W Johnson St, Philadelphia, PA 19144, USA",(215) 399-6743,,,0,5,36,2,A,scraped,,not_contacted
+Maid in Cleaning,cleaning service,maid-in-cleaning,"2449 Golf Rd #22, Philadelphia, PA 19131, USA",(800) 782-5802,,,0,4.9,39,0,A,scraped,,not_contacted
+The Bakeshop on Twentieth,bakery,the-bakeshop-on-twentieth,"269 S 20th St, Philadelphia, PA 19103, USA",(215) 644-9714,,https://bakeshopon20th.com/?utm_source=google,10,4.6,433,10,B,scraped,,not_contacted
+Oteri's Italian Bakery,bakery,oteris-italian-bakery,"6323 Woodland Ave, Philadelphia, PA 19142, USA",(215) 724-0793,,http://oterisitalianbakery.com/,20,4.1,359,10,B,scraped,,not_contacted
+Hong Kong Bakery Shop,bakery,hong-kong-bakery-shop,"917 Race St, Philadelphia, PA 19107, USA",(215) 925-1288,,,0,3.1,93,10,A,scraped,,not_contacted
+No Ka Oi Tiki Tattoo,tattoo parlor,no-ka-oi-tiki-tattoo,"610 S 4th St, Philadelphia, PA 19147, USA",(215) 925-1766,,http://www.nokaoitikitattoo.com/,35,4.5,458,10,B,scraped,,not_contacted
+Dave's Artistic Tattoo,tattoo parlor,daves-artistic-tattoo,"5 N 63rd St, Philadelphia, PA 19139, USA",(215) 471-3113,,,0,4.7,388,10,A,scraped,,not_contacted
+J R's Tattoo & Body Piercing,tattoo parlor,j-rs-tattoo-body-piercing,"6110 Market St, Philadelphia, PA 19139, USA",(215) 474-5020,,,0,4.3,161,10,A,scraped,,not_contacted
+VNails and Spa,nail salon,vnails-and-spa,"5101 Walnut St Unit 3, Philadelphia, PA 19139, USA",(215) 852-9475,,,0,4.5,166,10,A,scraped,,not_contacted
+Queen Nails & Spa,nail salon,queen-nails-spa,"16 N 3rd St, Philadelphia, PA 19106, USA",(215) 592-1629,,https://queennailsandspapa.com/,0,4.7,576,10,B,scraped,,not_contacted
+Mai Lashes & Nail Spa,nail salon,mai-lashes-nail-spa,"2910 S 70th St Unit 3, Philadelphia, PA 19142, USA",(267) 969-5262,,,0,4.8,319,10,A,scraped,,not_contacted
+PeCa'Le Salon,nail salon,pecale-salon,"457 Fairmount Ave, Philadelphia, PA 19123, USA",(267) 975-1437,,https://pecalesalon.as.me/,35,5,534,10,B,scraped,,not_contacted
+Solace Nail Salon,nail salon,solace-nail-salon,"6141 Market St, Philadelphia, PA 19139, USA",(610) 968-9982,,http://solacenailsalon.com/?utm_source=gmb&utm_medium=referral,10,4.1,92,10,B,scraped,,not_contacted
+T&C Nail salon,nail salon,tc-nail-salon,"5227 Chestnut St, Philadelphia, PA 19139, USA",(215) 472-4377,,,0,4.2,133,10,A,scraped,,not_contacted
+Blossom LA Nail Bar Center City,nail salon,blossom-la-nail-bar-center-city,"315 S 13th St unit a, Philadelphia, PA 19107, USA",(215) 869-8718,,https://www.blossomlanailbar.com/,10,4.5,299,10,B,scraped,,not_contacted
+Tran Nails,nail salon,tran-nails,"5244 Market St, Philadelphia, PA 19139, USA",(215) 474-1881,,,0,4.5,196,10,A,scraped,,not_contacted
+VIP TT Nails Salon,nail salon,vip-tt-nails-salon,"1985 N 63rd St, Philadelphia, PA 19151, USA",(215) 596-0950,,https://g.co/kgs/DRSozc,25,4.2,126,10,B,scraped,,not_contacted
+Luxe Nail Bar,nail salon,luxe-nail-bar,"212 S 40th St, Philadelphia, PA 19104, USA",(215) 382-0727,,,0,3.7,348,10,A,scraped,,not_contacted
+Bellish Nail Lounge,nail salon,bellish-nail-lounge,"841 S 52nd St, Philadelphia, PA 19143, USA",(484) 649-1931,,http://bellishnails.booksy.com/,30,5,40,10,B,scraped,,not_contacted
+United Tailoring Shop,tailor,united-tailoring-shop,"2303 N Broad St, Philadelphia, PA 19132, USA",(215) 229-7760,,,0,4.9,237,10,A,scraped,,not_contacted
+Sunsilk Tailor,tailor,sunsilk-tailor,"2024 Chestnut St, Philadelphia, PA 19103, USA",(610) 862-1456,,https://sunsilksuits.com/,25,5,77,10,B,scraped,,not_contacted
+Best Seasons and alteration,tailor,best-seasons-and-alteration,"239 N 10th St, Philadelphia, PA 19107, USA",(267) 597-4441,,,0,4.3,68,4,A,scraped,,not_contacted
+Kim's Cleaners & Tailoring,tailor,kims-cleaners-tailoring,"2008 Sansom St, Philadelphia, PA 19103, USA",(215) 557-1556,,,0,4.6,131,10,A,scraped,,not_contacted
+New Master tailor and cleaners,tailor,new-master-tailor-and-cleaners,"1620 Spruce St, Philadelphia, PA 19103, USA",(215) 735-1499,,,0,4.3,58,3,A,scraped,,not_contacted
+Steve’s Old City Cleaners & Tailors,tailor,steves-old-city-cleaners-tailors,"102 Chestnut St, Philadelphia, PA 19106, USA",(215) 427-2550,,,0,4.8,107,10,A,scraped,,not_contacted
+Scioli Pat,tailor,scioli-pat,"1744 Passyunk Ave, Philadelphia, PA 19148, USA",(215) 334-0990,,,0,4.6,78,5,A,scraped,,not_contacted
+Overhill Flowers,florist,overhill-flowers,"6231 Lancaster Ave, Philadelphia, PA 19151, USA",(215) 473-1842,,https://www.overhillflowers.com/,10,4.7,18,10,B,scraped,,not_contacted
+Roses Florist,florist,roses-florist,"36th and Chestnut, Sheraton University City Hotel, 3551 Chestnut St, Philadelphia, PA 19104, USA",(215) 387-3440,,https://www.uofprosesflorist.com/?utm_source=google&utm_medium=gbp&y_source=1_MjA4OTE5NjMtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D,10,4.3,77,10,B,scraped,,not_contacted
+Regan's Flower Shop,florist,regans-flower-shop,"1219 N 52nd St #23, Philadelphia, PA 19131, USA",(215) 879-3810,,,0,5,7,9,A,scraped,,not_contacted
+Rothe Florists & Flower Delivery,florist,rothe-florists-flower-delivery,"7148 Germantown Ave, Philadelphia, PA 19119, USA",(215) 247-0832,,https://www.rotheflorists.com/?utm_source=google&utm_medium=gmb-website-link&utm_campaign=tmf-gmb,10,4.9,460,10,B,scraped,,not_contacted
+Woodcrest Flowers,florist,woodcrest-flowers,"N 58th St, Philadelphia, PA 19131, USA",(267) 323-4549,,,0,4.1,9,9,A,scraped,,not_contacted
+Creative Vases,florist,creative-vases,"543 S 52nd St, Philadelphia, PA 19143, USA",(267) 897-1050,,https://www.creativevasesflorist.com/?utm_source=google&utm_medium=gbp&y_source=1_MTA2NTIzNDU5Ni03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D,10,4.8,17,10,B,scraped,,not_contacted
+Poor Richard's Catering,catering,poor-richards-catering,"5070 Parkside Ave, Philadelphia, PA 19131, USA",(215) 871-0605,,https://poorrichardscatering.com/,0,5,9,0,B,scraped,,not_contacted

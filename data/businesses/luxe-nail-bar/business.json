@@ -1,0 +1,143 @@
+{
+  "name": "Luxe Nail Bar",
+  "slug": "luxe-nail-bar",
+  "category": "nail salon",
+  "address": "212 S 40th St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19104",
+  "phone": "(215) 382-0727",
+  "email": "",
+  "website": null,
+  "rating": 3.7,
+  "reviewCount": 348,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "10:00 AM – 7:00 PM",
+    "Tuesday": "10:00 AM – 7:00 PM",
+    "Wednesday": "10:00 AM – 7:00 PM",
+    "Thursday": "10:00 AM – 8:00 PM",
+    "Friday": "10:00 AM – 8:00 PM",
+    "Saturday": "10:00 AM – 6:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Let me start off by saying I hate leaving negative reviews but I am very disappointed with the results. I have been getting gel x nails (not here) for 4 years and they always last 3-6 weeks. I decided to try this place since I recently moved and the prices looked fair. After one week of having these nails my nail completely cracked in half. THIS HAS NEVER HAPPENED TO ME EVEN WITH EXTREMELY GROWN OUT NAILS. I am very careful with my nails and they are healthy. During my service the nail tech also removed my old gel x set by ripping them off with plyers and a nail- she did not soak them just rubbed some alcohol on and started ripping. I also witnessed her pour the used alcohol back into the bottle- an extremely unhygienic practice. It also appeared like them did not sanitize tools in-between uses on clients. I was going to ignore it and just not return since my set turned out okay. But since my nail completely broke off after one week and $80, I had to let people know. I’m very frustrated and do not recommend going here!",
+      "author": "Anna Walker",
+      "rating": 2,
+      "source": "google",
+      "date": "2025-11-16"
+    },
+    {
+      "text": "Literally the best experience ever. All of the artists are super nice and try to\naccommodate as close as possible to your inspo picture. This salon is my favorite spot in philly and perfect for students because of good prices.",
+      "author": "keerthana tanniru",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-13"
+    },
+    {
+      "text": "I always like getting gel manicures once a month and this nail salon is always extremely quick with service. As soon as I walk in I’m usually served within 5-10 minutes and the nail techs are all really friendly and want to make sure you like your nails. They always come out really clean and nice! I’ve had two male nail techs so far Richard and Kevin and both did an amazing job. I paid $35 for a plain color and the manicure in this pic was $50. Amazing price and great service my nails always come out looking brand new",
+      "author": "Alysha Khem",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-29"
+    },
+    {
+      "text": "Listen I understand that every nail artist has different strengths, some shapes are better than others, but this is actually just playing in my face. The shape is awful, I asked for the color closest to the picture, I was told that they were out of that color so I asked her to pick the one closest to it, and this is what I got. Imma give yall the same advice my momma gave me, if it’s under 4 stars DO NOT GO, there is a reason for it.",
+      "author": "Marina Ordonez",
+      "rating": 1,
+      "source": "google",
+      "date": "2026-02-07"
+    },
+    {
+      "text": "I came in with a clear picture of what I wanted and left with nails that look nothing like it. The shape is awful, uneven, and sloppy. I payed for short nails and was even given a color I didn’t ask for. When I asked them to fix it, they basically did nothing and acted like it wasn’t a problem. Total rip-off and a waste of money. I won’t be coming back and wouldn’t recommend this place to anyone who actually cares about how their nails look.",
+      "author": "Gina Rhone",
+      "rating": 1,
+      "source": "google",
+      "date": "2026-02-07"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Luxe Nail Bar photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Luxe Nail Bar photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Luxe Nail Bar photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Luxe Nail Bar photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Luxe Nail Bar photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Luxe Nail Bar photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Luxe Nail Bar photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Luxe Nail Bar photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Luxe Nail Bar photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Luxe Nail Bar photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 348,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 3.7,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

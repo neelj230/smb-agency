@@ -1,0 +1,113 @@
+{
+  "name": "Paco's Auto Repair shop",
+  "slug": "pacos-auto-repair-shop",
+  "category": "auto repair",
+  "address": "5302 Warren St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19131",
+  "phone": "(267) 748-7397",
+  "email": "",
+  "website": null,
+  "rating": 4.8,
+  "reviewCount": 17,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "7:00 AM – 5:00 PM",
+    "Tuesday": "7:00 AM – 5:00 PM",
+    "Wednesday": "7:00 AM – 5:00 PM",
+    "Thursday": "7:00 AM – 5:00 PM",
+    "Friday": "7:00 AM – 5:00 PM",
+    "Saturday": "7:00 AM – 5:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "They started off good, but kept calling me back for money for this and that.  They talked Spanish the entire time which is rude.  Kept telling me me car was ruin by the last mechanic.  I need to get rid of the car.  They said they fixed the problem but couldn’t make the check engine light go off.  I drove home and before I got all the way there my car started shaking and sounded crazy.  I didn’t want to but took it to the dealership ship and great to say my car is now fixed.  So I guess my car is not ruined.  It had a different code than what they had shown me.  so it seems they fixed one issue and created another one.",
+      "author": "Lorena Bowens",
+      "rating": 2,
+      "source": "google",
+      "date": "2023-10-18"
+    },
+    {
+      "text": "PACO's auto repair shop is the best shop in Philly HANDS DOWN!  My car's motor went out on me. Paco allowed me to tow my car to the shop after hours. Also, he found the perfect motor for my car and completed the repairs quickly. Last but not least, his prices are reasonable. I will not be taking my car to anyone else, and if you do you're missing out!!!",
+      "author": "Kelli Morris",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-11-17"
+    },
+    {
+      "text": "I went there because auto zone said i need a new fuel pump! When i went to paco he run his own test to figure out the problem. He went above and beyond to help me for comfortable and every step he took he informed me what was happening. He also have reasonable prices !!!!!!",
+      "author": "Briana Allen",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-12-22"
+    },
+    {
+      "text": "Paco is THE BEST Mechanic in West Philly. I’m glad he mine Mechanic 👨‍🔧and his prices are so reasonable.. forget the rest Paco the BEST",
+      "author": "Carmen Velazquez",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-11-04"
+    },
+    {
+      "text": "Paco is amazing. I came in with one problem and he fixed multiple I was unaware of. He is very professional and funny. His prices are Hella affordable",
+      "author": "Evelyn Williams",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-07-09"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Paco's Auto Repair shop photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Paco's Auto Repair shop photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Paco's Auto Repair shop photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Paco's Auto Repair shop photo 4",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 17,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.8,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "fair"
+  }
+}

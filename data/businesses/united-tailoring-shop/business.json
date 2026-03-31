@@ -1,0 +1,143 @@
+{
+  "name": "United Tailoring Shop",
+  "slug": "united-tailoring-shop",
+  "category": "tailor",
+  "address": "2303 N Broad St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19132",
+  "phone": "(215) 229-7760",
+  "email": "",
+  "website": null,
+  "rating": 4.9,
+  "reviewCount": 237,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Closed",
+    "Tuesday": "2:00 – 7:00 PM",
+    "Wednesday": "2:00 – 7:00 PM",
+    "Thursday": "2:00 – 7:00 PM",
+    "Friday": "2:00 – 7:00 PM",
+    "Saturday": "2:00 – 7:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Outstanding first-time experience!\nMy husband and I stopped in for the first time and we were so impressed by their friendly, empathetic, and professional service. Rodney was not only talented but also very efficient — the alterations were done quickly and perfectly! You can tell they take real pride in their work. We will definitely be back for any of his future suit needs! If you want to be sharp and have the right fit, then 2303 N Broad Street is it!!! 😉",
+      "author": "Jenn Jones",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-13"
+    },
+    {
+      "text": "Everyone there is SOO nice and they did an INCREDIBLE job tailoring my suit to fit me perfectly (the pink one)! I am very short and have always been between sizes so I needed a lot of alterations done but they were still very affordable. And it only took one week for them to complete it! Perfect on the first try. I will definitely be returning for any future tailoring needs.",
+      "author": "Marisa Montefusco",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-20"
+    },
+    {
+      "text": "Wonderful, wonderful work. Have brought several suits in. Generations of knowledge and craftsmanship paired with kind, friendly customer service: leave United with a timeless look at a reasonable price and a great customer experience. Highly recommend!",
+      "author": "Dylan Forr",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-08"
+    },
+    {
+      "text": "I cannot express my gratitude for this tailor shop!  They are talented, kind, fast and excellently priced. I had a dress that needed ALOT of work for a major major event where I was nominated for an award for costume design. I had to look PERFECT and Ms Chris and her team lined and altered a sequin dress with feather trim in record time. I felt amazing and it was all due to this shop. Thank you thank you thank you!",
+      "author": "Sarah Bacot",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-04"
+    },
+    {
+      "text": "I brought in a corset to get altered and the tailor did an amazing job, got it done in under 10 mins.The owner and her daughter are amazing! Such great customer service. Every time I visited United, I always leave satisfied.",
+      "author": "Jazlyn Reynoso",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-25"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "United Tailoring Shop photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "United Tailoring Shop photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "United Tailoring Shop photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "United Tailoring Shop photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "United Tailoring Shop photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "United Tailoring Shop photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "United Tailoring Shop photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "United Tailoring Shop photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "United Tailoring Shop photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "United Tailoring Shop photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 237,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

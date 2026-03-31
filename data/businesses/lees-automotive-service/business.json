@@ -1,0 +1,118 @@
+{
+  "name": "Lee's Automotive Service",
+  "slug": "lees-automotive-service",
+  "category": "auto repair",
+  "address": "5947 Lancaster Ave",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19151",
+  "phone": "(215) 879-2883",
+  "email": "",
+  "website": null,
+  "rating": 4.5,
+  "reviewCount": 115,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "8:00 AM – 5:00 PM",
+    "Tuesday": "8:00 AM – 5:00 PM",
+    "Wednesday": "8:00 AM – 5:00 PM",
+    "Thursday": "8:00 AM – 5:00 PM",
+    "Friday": "8:00 AM – 5:00 PM",
+    "Saturday": "8:00 AM – 3:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Awesome 👌 fast fair price great customer service",
+      "author": "Jewel Felder-James",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-04"
+    },
+    {
+      "text": "I love going to Mr. Lee auto body hes my new go to mechanic. He helped me when Mavis messed up my oil changed and almost damaged my engine. I thought he was going to charge me an arm and a leg but he was honest and showed how it was a minor problem ( just a screw)and fixed the issue fast. I just went and got my inspection done and Mr. Lee did my inspection fast and effective. I just needed three bulbs replaced which was fast and quick. As a female you have to be careful who you go to and I consider him honest. There a few things to know before you go:\n\n1) If he can not fix the issue he will tell you to go to the dealership this can make people upset but like I said he's honest he's only going to work on what he can fix\n\n2) He does not do appointments\n\n3) If you want him to check your car get there at 8 AM if you come at 8:05 or 8:10 it's to late. He's very time sensitive because he is in high demand\n\n4)Because he is reliable and knows what he's doing he is really in high demand so be patient.\n\nI overall give Mr. Lee 5 stars across the board so try him out.",
+      "author": "Sadeka Wood",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-07-17"
+    },
+    {
+      "text": "I have been going to them for the past 20 years, the service has ALWAYS been good,  reasonable price and on time. Never had a problem!!!",
+      "author": "Cheryl Walker",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-15"
+    },
+    {
+      "text": "Completely useless. Would not install my compressor after having me wait for days because this connector is “broken”.",
+      "author": "David Wisseh",
+      "rating": 1,
+      "source": "google",
+      "date": "2025-06-11"
+    },
+    {
+      "text": "Excellent service: Awesome time management & pricing! ✨️✨️✨️✨️\n2012 Nissan Rogue stays on the road because of Lee's auto 🛺 Thank you 😊",
+      "author": "Vernice W",
+      "rating": 4,
+      "source": "google",
+      "date": "2025-02-24"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Lee's Automotive Service photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Lee's Automotive Service photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Lee's Automotive Service photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Lee's Automotive Service photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Lee's Automotive Service photo 5",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 115,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

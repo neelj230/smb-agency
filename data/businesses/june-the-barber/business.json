@@ -1,0 +1,143 @@
+{
+  "name": "June The Barber",
+  "slug": "june-the-barber",
+  "category": "barber",
+  "address": "179 W Berks St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19122",
+  "phone": "(215) 403-6860",
+  "email": "",
+  "website": "https://juniestakz.booksy.com/",
+  "rating": 4.9,
+  "reviewCount": 137,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Open 24 hours",
+    "Tuesday": "Open 24 hours",
+    "Wednesday": "Open 24 hours",
+    "Thursday": "Open 24 hours",
+    "Friday": "Open 24 hours",
+    "Saturday": "Open 24 hours",
+    "Sunday": "Open 24 hours"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "June did a great job with my cut, and the response time was great as well! I will be bringing my son next week.",
+      "author": "Nastassja",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-04"
+    },
+    {
+      "text": "Time patience and great communication and very understanding and to top it off his work of art (hair cutting) amazing his my son new barber n I love it my son came in looking a mess but wen he left he looked like they young handsome man that he is (book your appointments today) i highly recommend",
+      "author": "Rasheedah Hobson",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-08-17"
+    },
+    {
+      "text": "Very good clean place did a very good job I scheduled my next appointment for my sons hair before he finished would highly recommend my sons hair got cut like 2 weeks ago and still looks fresh",
+      "author": "Brooke DeShong",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-08-16"
+    },
+    {
+      "text": "June is very patient with my boys and he do amazing job by engaging and making sure that they are comfortable with him. He’s a very talented barber stylist and I love going back to him knowing my kids trusts in him. So please if you have a child who don’t like the sounds of clippers or afraid to get a cut you are more than welcome to come to him. His patience is top tier and I would recommend it. Thanks me later.",
+      "author": "Latasha Miller",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-08-16"
+    },
+    {
+      "text": "June is definitely the truth. Excellent service, I’m looking forward to my next appointment. Took his time, and didn’t rush. Great cut!",
+      "author": "Warren",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-06-07"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "June The Barber photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "June The Barber photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "June The Barber photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "June The Barber photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "June The Barber photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "June The Barber photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "June The Barber photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "June The Barber photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "June The Barber photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "June The Barber photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 137,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

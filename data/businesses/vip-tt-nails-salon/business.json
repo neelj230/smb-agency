@@ -1,0 +1,143 @@
+{
+  "name": "VIP TT Nails Salon",
+  "slug": "vip-tt-nails-salon",
+  "category": "nail salon",
+  "address": "1985 N 63rd St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19151",
+  "phone": "(215) 596-0950",
+  "email": "",
+  "website": "https://g.co/kgs/DRSozc",
+  "rating": 4.2,
+  "reviewCount": 126,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM – 6:00 PM",
+    "Tuesday": "9:00 AM – 6:00 PM",
+    "Wednesday": "9:00 AM – 6:00 PM",
+    "Thursday": "9:00 AM – 6:00 PM",
+    "Friday": "9:00 AM – 6:00 PM",
+    "Saturday": "9:00 AM – 6:00 PM",
+    "Sunday": "10:00 AM – 4:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I absolutely care where I spend my money, some nail tech just rush you to get to the next person or job , I want someone who listens and gives you what you want. Because they quick to get upset when you want to complain or correct them. Miley is absolutely the friendliest tech I’ve encountered over the years.🥰😇🥰😇🥰😇🥰😇🥰  PS  my nails are Going on 3 weeks in this photo",
+      "author": "Jill Reeves",
+      "rating": 4,
+      "source": "google",
+      "date": "2025-07-04"
+    },
+    {
+      "text": "I'm too much of a diva for my own good, so I always come in with complicated nail patterns on my phone. Sandy is a pro who is always interested in the design I've come in with, and has always brought my designs to life. I've gotten a lot of compliments on my nails since I started getting them done here.",
+      "author": "J.P. Giambalvo",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-11-21"
+    },
+    {
+      "text": "Get service, and I love my nail esthetic Eva she does a great job with my nail. Nail polish stays in place do not chip, and I see her faithful every two weeks (the nails can last longer than than I just chose to be boujee!). They know the moment I come in the salon, I look for Eva! This is a picture of my nails two weeks after an installation of an overlay. Yes, two weeks! She is impeccable!",
+      "author": "Tina Saraison",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-01-11"
+    },
+    {
+      "text": "So professional and close to home. I cant wait to go back again. They are clean and polite they take they time to treat all the customers very well. I felt like royalty in my chair. 😁",
+      "author": "Antoinette Turner",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-09-16"
+    },
+    {
+      "text": "I come here for convenience only. I don't care for how my nails are polished. I usually don't complain I just ride it out. But this last time the young lady had nail polish, gel nail on my skin. And I'm trying to explain to her before it dries.",
+      "author": "Vernice W",
+      "rating": 2,
+      "source": "google",
+      "date": "2025-02-25"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "VIP TT Nails Salon photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "VIP TT Nails Salon photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "VIP TT Nails Salon photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "VIP TT Nails Salon photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "VIP TT Nails Salon photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "VIP TT Nails Salon photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "VIP TT Nails Salon photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "VIP TT Nails Salon photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "VIP TT Nails Salon photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "VIP TT Nails Salon photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 126,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.2,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

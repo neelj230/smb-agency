@@ -1,0 +1,143 @@
+{
+  "name": "The Bakeshop on Twentieth",
+  "slug": "the-bakeshop-on-twentieth",
+  "category": "bakery",
+  "address": "269 S 20th St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19103",
+  "phone": "(215) 644-9714",
+  "email": "",
+  "website": "https://bakeshopon20th.com/?utm_source=google",
+  "rating": 4.6,
+  "reviewCount": 433,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "8:00 AM – 3:00 PM",
+    "Tuesday": "8:00 AM – 3:00 PM",
+    "Wednesday": "8:00 AM – 3:00 PM",
+    "Thursday": "8:00 AM – 4:00 PM",
+    "Friday": "8:00 AM – 4:00 PM",
+    "Saturday": "8:00 AM – 4:00 PM",
+    "Sunday": "8:00 AM – 3:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Very small space with well priced and delicious sandwiches and baked goods.\n\nI went with a friend for breakfast and we both got (turkey) bacon, egg, and cheese on croissant and loved them. It got pretty crowded with people coming in to pick-up and we were lucky to get seats to sit and eat. Would not recommend counting on dining in but would be perfect to pick something up to eat in Rittenhouse in nice weather.",
+      "author": "Carolyn Steinberg",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-08"
+    },
+    {
+      "text": "Feels like a cozy, small town bakery, but it’s here in the city. The sandwiches and pastries are our main purchases and they are always amazing. The babka buns are a favorite.\nPeaches isn’t allowed to have much from the bakery, but she approves of their fun “hat”. 😊",
+      "author": "Kady",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-26"
+    },
+    {
+      "text": "Love it here! Everyone working there was so nice. They have a great selection of pastries, and their vanilla latte was great!",
+      "author": "Gemma Hurley",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-03-08"
+    },
+    {
+      "text": "The pastries and baked goods here are great. The cookies and bars are sweet but not too sweet. I’m not a fan of scones because they often fall apart and the texture doesn’t suit me. My favorite is babka in any flavor! It is a bit pricey, but the prices are reasonable for bakeries in Rittenhouse.",
+      "author": "Juana Phillips",
+      "rating": 4,
+      "source": "google",
+      "date": "2025-11-24"
+    },
+    {
+      "text": "Yummmmm! I was overwhelmed by the selection of baked goods because they all looked amazing. I went with the sticky bun, can’t go wrong with a classic 😉, and it did not disappoint. The pop tart is another popular treat but I did not try it. My boyfriend had the bacon egg and cheese with avocado, strawberry jelly, and siracha. He enjoyed it thoroughly. Highly recommend!",
+      "author": "Amy Grogan",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-09-28"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "The Bakeshop on Twentieth photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "The Bakeshop on Twentieth photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "The Bakeshop on Twentieth photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "The Bakeshop on Twentieth photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "The Bakeshop on Twentieth photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "The Bakeshop on Twentieth photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "The Bakeshop on Twentieth photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "The Bakeshop on Twentieth photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "The Bakeshop on Twentieth photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "The Bakeshop on Twentieth photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 433,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.6,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

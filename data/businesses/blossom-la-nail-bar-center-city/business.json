@@ -1,0 +1,143 @@
+{
+  "name": "Blossom LA Nail Bar Center City",
+  "slug": "blossom-la-nail-bar-center-city",
+  "category": "nail salon",
+  "address": "315 S 13th St unit a",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19107",
+  "phone": "(215) 869-8718",
+  "email": "",
+  "website": "https://www.blossomlanailbar.com/",
+  "rating": 4.5,
+  "reviewCount": 299,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "10:00 AM – 8:00 PM",
+    "Tuesday": "10:00 AM – 8:00 PM",
+    "Wednesday": "10:00 AM – 8:00 PM",
+    "Thursday": "10:00 AM – 8:00 PM",
+    "Friday": "10:00 AM – 8:00 PM",
+    "Saturday": "9:30 AM – 7:00 PM",
+    "Sunday": "10:00 AM – 6:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I’ve been in twice now and had great experiences with Natalie both times. For one, she does a great job on my nails. They look beautiful and hold up extremely well, and my natural nails were still strong underneath (which is saying a lot because I have weak nails naturally). The service is also amazing. They always make sure you’re comfortable, that you have a beverage, and even have little stands for your phone if you want to watch something during your service. The salon is beautiful and clean and a pleasant space to relax in. I highly recommend! Definitely make an appointment because they get a lot of walk-ins and both times I was there several customers who walked in had to wait (although they were able to accommodate many people as well!)",
+      "author": "sasha ashton",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-16"
+    },
+    {
+      "text": "I have been getting my nails done by Blossom LA Nail Bar for the last year and a half and every visit I leave satisfied. The staff are warm and welcoming, the salon itself is clean and tidy, and the price for the gel manicure I get every time doesn't cost me an arm and a leg. It's a fantastic spot and I recommend stopping in if you're in the area.",
+      "author": "Sal Robinson",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-13"
+    },
+    {
+      "text": "Jan 2026: alleluia! The 9 year old polish is gone!!\n\nUpdate: still have that nail polish from 2017 on display. Gross\n\nStill do a good job. Great massage.\n\nGot a spa pedicure. It was good - she paid extra attention to the rough spots that others ignore and that was appreciated. Place is clean. Good selection of nail polish. They accept all forms of payment but definitely prefer cash. Their light color uniform makes the atmosphere more serene.\n\nMassage was decent but it felt like she was using her nails. That was uncomfortable. They may need to replace some of their gel polish from the holiday 2017 collection.",
+      "author": "Jen Garone",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-24"
+    },
+    {
+      "text": "Arielle did such a beautiful job I’m in love! It was my first time getting Gel X and I wanted something Lunar New Year themed, she did exactly what I asked for, was precise and efficient, and gave great color recommendations. The massage at the end was lovely. There are snacks and free water. The designs cost extra but these are my favorite nails to date, and I can’t wait to come back.",
+      "author": "Cherie Li",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-14"
+    },
+    {
+      "text": "I got my first gel extension done by Arielle and she was honestly so sweet and patient. Her technique is amazing and my nails came out exactly like the reference picture I showed her, perfect. I have never really been satisfied with other nail salons before but she is the first one who actually asked for my opinion and listened to what I wanted. I am so happy with how my nails turned out and I will definitely be coming back to her.",
+      "author": "Ashley H.",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-07"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Blossom LA Nail Bar Center City photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Blossom LA Nail Bar Center City photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Blossom LA Nail Bar Center City photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Blossom LA Nail Bar Center City photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Blossom LA Nail Bar Center City photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Blossom LA Nail Bar Center City photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Blossom LA Nail Bar Center City photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Blossom LA Nail Bar Center City photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Blossom LA Nail Bar Center City photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Blossom LA Nail Bar Center City photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 299,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

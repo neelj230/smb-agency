@@ -1,0 +1,103 @@
+{
+  "name": "Top Tier Philly Cleaning Company",
+  "slug": "top-tier-philly-cleaning-company",
+  "category": "cleaning service",
+  "address": "370 W Johnson St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19144",
+  "phone": "(215) 399-6743",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 36,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "8:00 AM – 5:00 PM",
+    "Tuesday": "8:00 AM – 5:00 PM",
+    "Wednesday": "8:00 AM – 5:00 PM",
+    "Thursday": "8:00 AM – 5:00 PM",
+    "Friday": "8:00 AM – 5:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "We had a great experience with this cleaning service! They come weekly and consistently do an excellent job—everything is spotless every time and exceeds our expectations. Their pricing is very reasonable for the quality of work, and the team is incredibly friendly, professional, and attentive to detail. It’s such a relief to find a service we can trust. We’re so glad we found them!",
+      "author": "Sedef Paquette",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-27"
+    },
+    {
+      "text": "Top Tier Philly Cleaning is professional, punctual, and meticulous—my home has never looked better. The team was courteous, worked quietly, and paid great attention to detail. Outstanding results and excellent value. Highly recommend!",
+      "author": "ingrid2phila",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-14"
+    },
+    {
+      "text": "I would like to say a big Thank you to Sam & Junior Top Tier Philly Cleaning Company!! We met on Wednesday 3/19th for a tour of my home & estimate for cleaning. They scheduled promptly for Friday 3/21st at 8:30 am. They arrived on time and went directly to work! As a military veteran I really appreciate timeliness and professionalism. They both took exceptional care and attention to detail in every space of my home 🏡! They are very friendly, trustworthy, respectful and honest and hardworking individuals. I went for breakfast and came back home as they were finishing up. My home is spotless and very organized and tidy!! Thank you once again guys!! Next time I promise to have your cannolis waiting for you !! Cheers 🧼🧹🫧🧽Andrew Bogert",
+      "author": "Andrew Bogert",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-03-21"
+    },
+    {
+      "text": "I can’t say enough great things about this cleaning service! They are friendly, reliable, and incredibly thorough. The attention to detail is outstanding, and they always go above and beyond to ensure everything is spotless. Scheduling was easy, and they were very flexible with my busy schedule. If you’re looking for a top-notch cleaning service in the Philly area, I highly recommend them!",
+      "author": "David Cordova",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-01-15"
+    },
+    {
+      "text": "A wonderful and trustworthy cleaning team. Sam and Junior were prompt and pleasant on arrival and they made a point to understand my home’s specific needs. Besides doing a thorough job with the clean, they went above and beyond by offering to help with a bit of much-needed reorganization … I would definitely recommend them to anyone!",
+      "author": "Tess Schneider",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-01-16"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Top Tier Philly Cleaning Company photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Top Tier Philly Cleaning Company photo 2",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 36,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "fair"
+  }
+}

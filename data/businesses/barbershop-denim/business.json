@@ -1,0 +1,143 @@
+{
+  "name": "Barbershop Denim",
+  "slug": "barbershop-denim",
+  "category": "barber",
+  "address": "1517 South St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19146",
+  "phone": "(267) 930-3980",
+  "email": "",
+  "website": "http://www.barbershopdenimphilly.com/",
+  "rating": 4.9,
+  "reviewCount": 528,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "10:00 AM – 5:00 PM",
+    "Tuesday": "9:00 AM – 6:30 PM",
+    "Wednesday": "Closed",
+    "Thursday": "9:00 AM – 6:30 PM",
+    "Friday": "9:00 AM – 6:30 PM",
+    "Saturday": "9:00 AM – 4:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "My first time into the barbershop after seeing all the glowing reviews about Chris. The place is a great vibe, great location on South street and Chris is very personable, we had great conversations. I am particular about having my hair cut and Chris delivered. I look forward to making this my ongoing barbershop and appreciated the care Chris takes when cutting hair.",
+      "author": "Michael Davis",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-24"
+    },
+    {
+      "text": "Solid barbershop, great environment and barbers. Chris not only did great cut, but good conversation and a few recommendations for a place get a bite for someone new to the location. Only needed to give him a few details of what I wanted and he got to work. Looking forward to making it my go to spot.",
+      "author": "Brice Vukmanic",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-25"
+    },
+    {
+      "text": "Great haircut, cool space, friendly staff. Cash only, but they do have an ATM in the store. They also offer beverages when you get there, which is another nice touch. Highly recommend",
+      "author": "Jack Tubiello",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-17"
+    },
+    {
+      "text": "Needed a last minute cut and there was an eod opening. Was able to get in with Aryah. Gave a great cut! She and the rest of the staff was very accommodating and very friendly. Will for sure be back.",
+      "author": "Nick",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-05"
+    },
+    {
+      "text": "I asked for a haircut, no extras.  It was bad enough she decided to change my part line to her taste, but at the end she starts “trimming” my eyebrows, to the point that the outer half almost looks shaved.  No asking permission if I wanted it at all, no seeking input as to what she might do, just a quick pass and it was done before I could object.  When I asked her what she thought she was doing, she told me how my eyebrows were way too bushy.  Not sure where she thinks she has the right to impose her personal taste on a customer.  I doubt she would be happy of I cut her hair in a style I liked.  Just a horrible experience today.  I will never go back.",
+      "author": "David Wilkinson",
+      "rating": 1,
+      "source": "google",
+      "date": "2025-12-13"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Barbershop Denim photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Barbershop Denim photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Barbershop Denim photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Barbershop Denim photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Barbershop Denim photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Barbershop Denim photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Barbershop Denim photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Barbershop Denim photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Barbershop Denim photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Barbershop Denim photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 528,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

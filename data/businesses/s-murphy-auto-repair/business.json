@@ -1,0 +1,143 @@
+{
+  "name": "S. Murphy Auto Repair",
+  "slug": "s-murphy-auto-repair",
+  "category": "auto repair",
+  "address": "5539 Chestnut St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19139",
+  "phone": "(215) 472-2759",
+  "email": "",
+  "website": null,
+  "rating": 4.6,
+  "reviewCount": 199,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM – 6:00 PM",
+    "Tuesday": "9:00 AM – 6:00 PM",
+    "Wednesday": "9:00 AM – 6:00 PM",
+    "Thursday": "9:00 AM – 6:00 PM",
+    "Friday": "9:00 AM – 6:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Was recommended here and will definitely pass on the recommendation! Mr Murphy & his crew took really good care of me & my car for the duration they had it. Everything was complete within a timely manner & am very satisfied with their service! They even went the extra mile for me when it was time for me to return the rental as well as making sure I was able to get my window tints back ! 10/10 ! I will be bringing my car here for service from now on!",
+      "author": "Jazzmine Stewart",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-27"
+    },
+    {
+      "text": "This company  did a amazing  job on my car. They crew is so amazing. Thank you so much  for the service.",
+      "author": "Aunyea DAVIS",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-09"
+    },
+    {
+      "text": "So my car got into an accident, they literally tore my back door panel off. I took my car here. I was so upset and confused I didn’t know what to do. Mr. Murphy was so patient with me and guided me through the steps, he taught me what coverage was good for my vehicle and didn’t hit hard with prices. This part I’m embarrassed to say but the inside of my car was filthy anyone with kids know my struggle. When I got my car back I felt as if it was a brand new car not only was my door fixed but my car was completely detailed…. I could have kissed him I was beyond satisfied with the services. Great place!!!!",
+      "author": "Rashidah Elahi",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-02-25"
+    },
+    {
+      "text": "Amazing!! My car came back looking brand new. Amazing customer service, repaired in a timely fashion, and car was cleaned before handed back to me! I highly recommend for any of your car repair needs!!",
+      "author": "Levon Williams",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-01-13"
+    },
+    {
+      "text": "I am very happy with and thankful for the services I received at Murphy's. They not only took care of the repairs but they went to the mat with the insurance company and made sure they  got everything done right. Without their diligence in holding the adjuster accountable, I don't know if I would've been as satisfied. Thanks again for a job well done!",
+      "author": "Rashaad Abdus Sabur",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-05-08"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "S. Murphy Auto Repair photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "S. Murphy Auto Repair photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "S. Murphy Auto Repair photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "S. Murphy Auto Repair photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "S. Murphy Auto Repair photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "S. Murphy Auto Repair photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "S. Murphy Auto Repair photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "S. Murphy Auto Repair photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "S. Murphy Auto Repair photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "S. Murphy Auto Repair photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 199,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.6,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}
