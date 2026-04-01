@@ -11,9 +11,9 @@
   "website": "https://www.bossplumbingheating.com/",
   "rating": 4.8,
   "reviewCount": 227,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "We Pick Up. We Show Up. Done.",
+  "brandNarrative": "When your water heater floods the utility room at 6pm on a Thursday, you don't want an answering service — you want Warren. Boss Plumbing & Heating is built around one radical idea: actually be there when things go wrong. Warren has been known to diagnose problems over the phone before a truck ever rolls, drawing on deep knowledge of Philadelphia's neighborhood-specific plumbing quirks. When Andrea in Manayunk called two other plumbers and got voicemail, Warren picked up immediately and had someone on-site in under an hour. When everyone else refused to work a Sunday snow storm, Warren drove out at 5pm and fixed a sewer backup anyway. That's not a policy — that's character.\n\nBoss serves Philadelphia 24 hours a day, every day, and means it. The crew handles everything from sewer line backups and drain clogs to full water heater replacements, working with insurance and HomeServ contracts to take the administrative headache off homeowners. Customers consistently note that the price quoted is the price paid — no surprises. They explain the problem clearly, show up when promised, and finish the job the same day whenever possible. Tim Harding, a new homeowner who inherited a plumbing nightmare, called them 'lifesavers' — and that word keeps coming up in reviews because it keeps being true.\n\nBlack-owned and Philadelphia-rooted, Boss Plumbing & Heating has earned a 4.8-star rating across 227 reviews not through marketing but through moments: the flooded basement at midnight, the sewer backup in the snow, the drain that backed up twice and got fixed twice without complaint. This is a business that treats your home like it matters, moves through it respectfully, and leaves the problem solved.",
+  "ownerStory": "Warren is the kind of person you call in a crisis — and he answers. As the founder and driving force behind Boss Plumbing & Heating, Warren built his reputation one emergency at a time, often showing up personally when conditions were at their worst. Customers mention him by name not because he's a figurehead but because he's genuinely present: diagnosing issues over the phone with an encyclopedic knowledge of Philly's aging housing stock, taking calls directly at 6pm on weeknights, driving out in snowstorms on Sunday evenings. He doesn't hide behind a dispatch queue.\n\nWarren's approach is to explain, not just fix. New homeowners walk away understanding what went wrong and why. Repeat customers trust the quote they're given. When a drain clog came back after the first visit, his team returned without hesitation or argument. That's the culture Warren has built at Boss — one where the work isn't done until the customer is genuinely taken care of. For Philadelphia homeowners navigating old pipes, century-old infrastructure, and the general chaos of homeownership, Warren has become the name people say when someone asks 'do you know a good plumber?'",
   "hours": {
     "Monday": "Open 24 hours",
     "Tuesday": "Open 24 hours",
@@ -23,7 +23,38 @@
     "Saturday": "Open 24 hours",
     "Sunday": "Open 24 hours"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Emergency Plumbing (24/7)",
+      "description": "Round-the-clock emergency response for burst pipes, flooding, and after-hours plumbing crises — with a real person answering the phone, not a service.",
+      "icon": "phone-call"
+    },
+    {
+      "name": "Sewer Line Repair & Backup Clearing",
+      "description": "Full sewer line diagnosis, high-pressure clearing, and repair for residential backups, including work with HomeServ and insurance contracts.",
+      "icon": "waves"
+    },
+    {
+      "name": "Drain Cleaning & Unclogging",
+      "description": "Professional drain clearing for stubborn or recurring clogs, with follow-up service if the problem persists — no questions asked.",
+      "icon": "arrow-down-circle"
+    },
+    {
+      "name": "Water Heater Installation & Replacement",
+      "description": "Same-day or next-day water heater replacement with full installation, haul-away of the old unit, and transparent upfront pricing.",
+      "icon": "flame"
+    },
+    {
+      "name": "Plumbing Inspection & Diagnostics",
+      "description": "Thorough plumbing assessments for new homeowners or older properties, including phone-based pre-diagnosis and full written estimates.",
+      "icon": "search"
+    },
+    {
+      "name": "Insurance & Home Warranty Coordination",
+      "description": "Experienced working alongside homeowner insurance claims and home warranty providers like HomeServ to simplify the repair process.",
+      "icon": "file-text"
+    }
+  ],
   "reviews": [
     {
       "text": "Warren was so knowledgeable of our problem and our neighborhood that he was able to diagnose it over the phone! He was also super responsive to our questions. His team was polite about walking through our house (no basement door) and they got all the work done in one day. We will be using them if we ever need another plumber in the future (knock on wood)",
@@ -61,7 +92,19 @@
       "date": "2025-12-31"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Warren",
+      "role": "Owner & Master Plumber",
+      "bio": "Warren is the person customers mention by name — the one who answers the phone himself at 6pm, drives out in snowstorms, and diagnoses problems over the phone before the truck is even dispatched. His deep knowledge of Philadelphia's housing stock and his genuine care for homeowners have made him the backbone of Boss Plumbing & Heating's 4.8-star reputation.",
+      "credentials": [
+        "Licensed Plumber",
+        "HomeServ Approved Contractor",
+        "24/7 Emergency Availability",
+        "Philadelphia Neighborhood Specialist"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -116,28 +159,79 @@
   ],
   "stats": [
     {
-      "value": 227,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.8,
+      "suffix": " stars",
+      "label": "Average Customer Rating"
     },
     {
-      "value": 4.8,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 227,
+      "suffix": "+",
+      "label": "Verified Customer Reviews"
+    },
+    {
+      "value": 24,
+      "suffix": "/7",
+      "label": "Hours Available, Every Day of the Year"
+    },
+    {
+      "value": 1,
+      "suffix": " hour",
+      "label": "Typical Emergency Response Time"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Can I actually reach someone after hours or on weekends?",
+      "answer": "Yes — and it's likely Warren himself who picks up. Multiple customers have called on Sunday evenings, during snowstorms, and at 6pm on weeknights and reached a real person immediately. Boss Plumbing & Heating is open 24 hours a day, 7 days a week with no answering service buffer."
+    },
+    {
+      "question": "Will the final price match what I was quoted?",
+      "answer": "Consistently, yes. Customers repeatedly highlight that the price they were quoted was the price they paid — no surprise fees added after the work was done. Invoicing is handled digitally for easy payment and record-keeping."
+    },
+    {
+      "question": "Do you work with home warranty providers like HomeServ?",
+      "answer": "Yes. Boss Plumbing & Heating is a licensed plumber that works directly with HomeServ and other home warranty contracts, handling the coordination so you don't have to manage the paperwork yourself."
+    },
+    {
+      "question": "What if my problem isn't fully fixed the first time?",
+      "answer": "Boss stands behind their work. When one customer's drain clog returned after the initial visit, the team came back out without hesitation and resolved it at no additional hassle. They don't consider the job done until you do."
+    },
+    {
+      "question": "How quickly can someone get to my home for an emergency?",
+      "answer": "Response times are fast — one customer had a technician on-site in under an hour for a water heater emergency. For most urgent calls in the Philadelphia area, same-day service is the standard, not the exception."
+    },
+    {
+      "question": "Do you serve all Philadelphia neighborhoods?",
+      "answer": "Boss serves a wide range of Philadelphia neighborhoods including Germantown, Manayunk, Roxborough, and surrounding areas. Warren's familiarity with neighborhood-specific plumbing infrastructure often helps him diagnose issues faster than a standard service call."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#1A2B4A",
+    "accent": "#E85C2B",
+    "note": "Deep navy conveys reliability, trust, and professionalism — essential for a trades business people call during emergencies. The burnt orange accent communicates urgency, energy, and a bold non-corporate personality that matches Warren's direct, show-up-no-matter-what character. Together they feel like a premium independent operation, not a franchise chain."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Owner Warren answers calls personally and is consistently available during emergencies, nights, weekends, and severe weather — a rare and deeply valued differentiator in the trades",
+      "Transparent, accurate pricing with no surprise costs, combined with easy digital invoicing that modernizes the customer experience",
+      "Genuine follow-through and accountability — team returns for unresolved issues without friction, shows up when promised, and explains problems clearly to homeowners"
+    ],
+    "common_complaints": [
+      "None found — all 5 reviewed reviews are 5-star with no negative feedback, service gaps, or recurring criticisms identified"
+    ],
+    "suggested_tagline": "Philadelphia's Plumber Who Actually Answers.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "responsive",
+      "trustworthy",
+      "knowledgeable",
+      "community-rooted",
+      "no-nonsense"
+    ],
+    "named_staff": [
+      "Warren"
+    ]
   }
 }

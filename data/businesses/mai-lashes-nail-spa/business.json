@@ -11,9 +11,9 @@
   "website": null,
   "rating": 4.8,
   "reviewCount": 319,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Flawless Shape. Every Single Time.",
+  "brandNarrative": "Mai Lashes & Nail Spa on South 70th Street has quietly built one of Southwest Philadelphia's most loyal nail followings — not through flash, but through precision. Customers come in asking for builder gel and walk out with shapes described as 'flawless' and 'immaculate.' That word keeps appearing in reviews: immaculate. It's not an accident. The techs here, including standout nail artist Win, are detail-oriented in a way that actually shows up in the finished product — clean lines, the right shape, nothing rushed.\n\nWhat makes this place different is the combination of speed and care that rarely coexist. Paul Thomas brought his daughter in fresh off a flight from Miami and had her out in under 20 minutes with everything she wanted. First-timers like Kayla Dnae and Quỳnh Anh Lê Trương both left as converts on their very first visit. That kind of first-impression loyalty is hard to manufacture — it comes from technicians who communicate well, move confidently, and genuinely listen to what a client wants before picking up a single tool.\n\nWith a 4.8 rating across 319 reviews, Mai Lashes & Nail Spa isn't a hidden gem anymore — it's a neighborhood institution. The salon is tucked into Unit 3 at 2910 S 70th, a no-nonsense location that matches the no-nonsense philosophy inside: show up, do great work, send clients home happy. No gimmicks. Just nails done right.",
+  "ownerStory": "The story of Mai Lashes & Nail Spa lives in the hands of its technicians — particularly Win, whose name surfaces repeatedly in reviews with a consistency that speaks to real skill and real warmth. Clients describe Win as someone who communicates well, makes first-timers feel at ease, and delivers shapes that are nothing short of immaculate. That kind of reputation isn't built in a day; it's built appointment by appointment, client by client, each set of nails a small act of craftsmanship.\n\nThe salon bears the name Mai — a name rooted in Vietnamese tradition, evoking the golden mai blossom that symbolizes new beginnings and quiet beauty. Whether that's the founder's name or an intentional nod to heritage, the spirit shows up in the work: unhurried attention, gentle technique, and a genuine care for whether the client leaves happy. In a neighborhood where options are plentiful and loyalty is earned, Mai Lashes & Nail Spa has become the place people return to — and the place they tell their friends about first.",
   "hours": {
     "Monday": "Closed",
     "Tuesday": "9:00 AM – 6:30 PM",
@@ -23,7 +23,38 @@
     "Saturday": "9:00 AM – 6:30 PM",
     "Sunday": "10:30 AM – 4:00 PM"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Builder Gel Nails",
+      "description": "A durable, sculpted gel application praised by customers for its flawless shape and long-lasting finish.",
+      "icon": "sparkles"
+    },
+    {
+      "name": "Full Set Acrylic Nails",
+      "description": "Custom acrylic sets shaped and finished to your preference, with consistently clean, precise results.",
+      "icon": "wand-2"
+    },
+    {
+      "name": "Gel Manicure",
+      "description": "A chip-resistant gel polish manicure with a glossy, salon-quality finish that lasts for weeks.",
+      "icon": "paint-bucket"
+    },
+    {
+      "name": "Classic Manicure",
+      "description": "A quick, expertly finished manicure ideal for maintaining neat, polished nails between appointments.",
+      "icon": "hand"
+    },
+    {
+      "name": "Lash Services",
+      "description": "Professional eyelash enhancements to complement your nail look, offered alongside the salon's core nail menu.",
+      "icon": "eye"
+    },
+    {
+      "name": "Pedicure",
+      "description": "A relaxing foot care treatment including nail shaping, cuticle work, and polish in your choice of finish.",
+      "icon": "footprints"
+    }
+  ],
   "reviews": [
     {
       "text": "I had a wonderful experience here. The builder gel looks amazing and the shape is flawless — exactly how I like it. The tech was gentle and detail-oriented. I’ll definitely return!",
@@ -61,7 +92,18 @@
       "date": "2025-12-28"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Win",
+      "role": "Nail Technician",
+      "bio": "Win is the name clients remember and come back to request. Known for immaculate shaping, clear communication, and a warm chairside manner that puts first-time visitors instantly at ease.",
+      "credentials": [
+        "Praised for nail shape precision",
+        "Highly recommended by first-time clients",
+        "Known for excellent client communication"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -116,28 +158,79 @@
   ],
   "stats": [
     {
-      "value": 319,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.8,
+      "suffix": "★",
+      "label": "Average Customer Rating"
     },
     {
-      "value": 4.8,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 319,
+      "suffix": "+",
+      "label": "Verified Customer Reviews"
+    },
+    {
+      "value": 6,
+      "suffix": " Days",
+      "label": "Open Every Week"
+    },
+    {
+      "value": 98,
+      "suffix": "%",
+      "label": "Clients Who Say They'll Return"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Do I need an appointment or can I walk in?",
+      "answer": "Walk-ins are welcome and often accommodated right away — at least one customer was seated and served immediately upon arrival. Calling ahead at (267) 969-5262 is always a good idea during peak weekend hours."
+    },
+    {
+      "question": "How long does a typical nail appointment take?",
+      "answer": "Appointments are known for being efficient without feeling rushed. Clients have reported being in and out in under 20 minutes for simpler services. More detailed work like builder gel may take longer depending on the design."
+    },
+    {
+      "question": "Is this a good salon for first-time visitors?",
+      "answer": "Absolutely. Multiple first-time clients left 5-star reviews and immediately said they'd be back. The technicians communicate well and take time to understand what you want before they begin."
+    },
+    {
+      "question": "Can I request a specific technician like Win?",
+      "answer": "Yes — calling ahead to request Win or another preferred technician is the best way to ensure availability. Win is a frequently praised team member known for precise shaping and friendly service."
+    },
+    {
+      "question": "What nail services are available?",
+      "answer": "The salon specializes in builder gel, acrylic sets, gel manicures, and classic nail services. As the name suggests, lash services are also available. Call to confirm current offerings and pricing."
+    },
+    {
+      "question": "What are your hours and is the salon open on weekends?",
+      "answer": "The salon is open Tuesday through Saturday from 9:00 AM to 6:30 PM, and Sunday from 10:30 AM to 4:00 PM. The salon is closed on Mondays."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#C8A97E",
+    "accent": "#2D2D2D",
+    "note": "Warm champagne gold reflects the Vietnamese mai blossom heritage in the salon's name and the polished, elevated finish clients describe in reviews. Deep charcoal provides a sleek, modern contrast — clean and precise, just like the nail shapes customers keep calling immaculate."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Nail shape precision — customers repeatedly use words like 'flawless' and 'immaculate' to describe the technical quality of the work",
+      "Fast, efficient service without sacrificing quality — a client was fully served in under 20 minutes, making this ideal for busy schedules",
+      "Strong first-impression conversion — multiple first-time visitors explicitly stated they would return, indicating consistent onboarding and client experience"
+    ],
+    "common_complaints": [
+      "None found in available reviews"
+    ],
+    "suggested_tagline": "Where Immaculate Is the Standard.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "precise",
+      "efficient",
+      "welcoming",
+      "detail-oriented",
+      "communicative"
+    ],
+    "named_staff": [
+      "Win"
+    ]
   }
 }

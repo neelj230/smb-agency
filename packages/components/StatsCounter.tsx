@@ -7,7 +7,6 @@ import type { Stat } from './types'
 interface StatsCounterProps {
   heading?: string
   stats: Stat[]
-  /** Dark background with light text, or light background */
   variant?: 'dark' | 'light'
 }
 
@@ -28,22 +27,22 @@ function Counter({ target, prefix, suffix }: { target: number; prefix?: string; 
 }
 
 const fadeInUp = {
-  initial: { opacity: 0, y: 30 },
+  initial: { opacity: 0, y: 40 },
   whileInView: { opacity: 1, y: 0 },
-  viewport: { once: true, margin: '-80px' },
-  transition: { duration: 0.6, ease: 'easeOut' },
+  viewport: { once: true, amount: 0.3 },
+  transition: { duration: 0.5, ease: [0.25, 0.46, 0.45, 0.94] },
 }
 
 export function StatsCounter({ heading, stats, variant = 'dark' }: StatsCounterProps) {
   const isDark = variant === 'dark'
 
   return (
-    <section className={`py-20 px-6 ${isDark ? 'bg-[var(--brand-text)]' : ''}`}>
+    <section className={`py-20 lg:py-28 px-6 ${isDark ? 'bg-[var(--brand-text)]' : ''}`}>
       <div className="max-w-7xl mx-auto">
         {heading && (
           <motion.div {...fadeInUp} className="text-center mb-16">
             <h2
-              className={`font-display text-4xl md:text-5xl font-bold ${isDark ? 'text-white' : 'text-[var(--brand-text)]'}`}
+              className={`font-display text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight ${isDark ? 'text-white' : 'text-[var(--brand-text)]'}`}
             >
               {heading}
             </h2>
@@ -51,19 +50,25 @@ export function StatsCounter({ heading, stats, variant = 'dark' }: StatsCounterP
         )}
         <motion.div
           {...fadeInUp}
-          className={`grid grid-cols-2 lg:grid-cols-${stats.length > 4 ? 4 : stats.length} gap-8 text-center`}
+          className={`grid grid-cols-2 lg:grid-cols-${stats.length > 4 ? 4 : stats.length} gap-12 text-center`}
         >
           {stats.map((stat, i) => (
-            <div key={i}>
+            <motion.div
+              key={i}
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: i * 0.1 }}
+            >
               <p
-                className={`font-display text-4xl md:text-5xl lg:text-6xl font-bold ${isDark ? 'text-white' : 'text-[var(--brand-primary)]'}`}
+                className={`font-display text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight ${isDark ? 'text-white' : 'text-[var(--brand-primary)]'}`}
               >
                 <Counter target={stat.value} prefix={stat.prefix} suffix={stat.suffix} />
               </p>
-              <p className={`mt-2 text-sm md:text-base ${isDark ? 'text-white/60' : 'text-[var(--brand-muted)]'}`}>
+              <p className={`mt-3 text-sm md:text-base tracking-wide ${isDark ? 'text-white/50' : 'text-[var(--brand-muted)]'}`}>
                 {stat.label}
               </p>
-            </div>
+            </motion.div>
           ))}
         </motion.div>
       </div>

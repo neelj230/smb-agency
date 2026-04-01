@@ -11,9 +11,9 @@
   "website": null,
   "rating": 4.5,
   "reviewCount": 196,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Kim's magic hands. Your best look yet.",
+  "brandNarrative": "Tran Nails on Market Street has built a loyal following in West Philadelphia the old-fashioned way — by actually delivering. Customers like Ta-King Allah call it flat out 'the best nail salon in Philadelphia,' and regulars like Sonya Sandets refuse to go anywhere else. The draw isn't flashy decor or a fancy app — it's the people behind the tables, particularly Kim, who has earned near-mythic status among her regulars for her eyebrow shaping and lash work. At $25 for lashes, she's charging neighborhood prices for results that keep clients coming back week after week, sometimes with gifts in hand just because she genuinely cares.\n\nThe salon runs lean and efficient. Cash only, six days a week, open 9 to 7. Reviews note that earlier visits — before the mid-afternoon rush — tend to offer the smoothest experience, with one client walking in around 3 PM and out by 4:15. That kind of turnaround speaks to a staff that knows what they're doing and respects your time. The technicians are described by multiple reviewers as 'A1,' a word that carries real weight in a neighborhood that doesn't throw compliments around lightly.\n\nLike any busy neighborhood salon, Tran Nails isn't without its growing pains. A handful of reviews flag pricing transparency around add-ons for longer nails, and at least one customer left unhappy with a pedicure finish. But the consistency of five-star love — especially around Kim and the overall staff friendliness — tells the fuller story: this is a place where the community shows up, and the staff shows up for them right back.",
+  "ownerStory": "Kim is the heartbeat of Tran Nails. While her title may simply read 'nail technician,' her regulars treat her more like a neighborhood institution. She's the one customers shout out by name in reviews, the one they credit with 'wizard'-level eyebrow shaping and lashes so professional they keep clients loyal for years. She gives gifts to her regulars, charges fair prices, and brings a warmth to her chair that no chain salon can replicate. At $25 for lash services that deliver professional results, she's made beauty accessible without making it feel cheap.\n\nThe culture Kim embodies seems to flow through the whole team at Tran Nails. Every reviewer — even those with complaints — noted that the staff is genuinely friendly. That's not an accident. It's the result of a salon that has chosen people over polish, relationships over revenue maximization. On a stretch of Market Street where businesses come and go, Tran Nails has stayed because the people inside it have stayed true to the neighborhood they serve.",
   "hours": {
     "Monday": "9:00 AM – 7:00 PM",
     "Tuesday": "9:00 AM – 7:00 PM",
@@ -23,7 +23,38 @@
     "Saturday": "9:00 AM – 7:00 PM",
     "Sunday": "Closed"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Full Set Acrylic Nails",
+      "description": "Custom acrylic nail sets starting at competitive neighborhood prices, available in a range of lengths and shapes.",
+      "icon": "sparkles"
+    },
+    {
+      "name": "Nail Refills",
+      "description": "Acrylic fill-ins to keep your set looking fresh, priced from $17 and up depending on length and condition.",
+      "icon": "refresh-cw"
+    },
+    {
+      "name": "Gel Polish",
+      "description": "Long-lasting gel color applied over natural or acrylic nails for a chip-resistant, high-shine finish.",
+      "icon": "droplets"
+    },
+    {
+      "name": "Pedicure",
+      "description": "Foot care service including nail shaping, cuticle work, and polished color for soft, smooth results.",
+      "icon": "footprints"
+    },
+    {
+      "name": "Eyebrow Shaping",
+      "description": "Precision brow shaping performed by Kim, celebrated by regulars as some of the best in West Philadelphia.",
+      "icon": "eye"
+    },
+    {
+      "name": "Eyelash Services",
+      "description": "Professional lash application by Kim starting at just $25, delivering salon-quality results at accessible prices.",
+      "icon": "wand-2"
+    }
+  ],
   "reviews": [
     {
       "text": "I heard alot about them. They are good. They are cash only. Kim is great on the eyebrows and lashes. Best to get there early. I went today around 3 and was out by 415.",
@@ -61,7 +92,18 @@
       "date": "2020-09-19"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Kim",
+      "role": "Senior Nail Technician & Brow and Lash Specialist",
+      "bio": "Kim is the reason customers refuse to go anywhere else. Known for her precision eyebrow shaping and professional lash application — starting at just $25 — she brings genuine care and artistry to every client. Reviewers call her 'a wizard' and say she truly cares about the people in her chair, sometimes even surprising loyal regulars with thoughtful gifts.",
+      "credentials": [
+        "Eyebrow Specialist",
+        "Lash Artist",
+        "Client Favorite"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -116,28 +158,80 @@
   ],
   "stats": [
     {
-      "value": 196,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.5,
+      "suffix": "★",
+      "label": "Average Customer Rating"
     },
     {
-      "value": 4.5,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 196,
+      "suffix": "+",
+      "label": "Google Reviews"
+    },
+    {
+      "value": 6,
+      "suffix": " days",
+      "label": "Open Every Week"
+    },
+    {
+      "value": 25,
+      "suffix": "$",
+      "label": "Starting Price for Lash Services by Kim"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Do you accept credit cards or is it cash only?",
+      "answer": "Tran Nails is a cash-only salon, so be sure to bring cash before your visit. There may be an ATM nearby if you need one."
+    },
+    {
+      "question": "What's the best time to come in to avoid a long wait?",
+      "answer": "Arriving earlier in the day tends to get you in and out faster. One reviewer arrived around 3 PM and was done by 4:15, but mornings right at opening are typically the smoothest."
+    },
+    {
+      "question": "How much does a full set with gel polish cost?",
+      "answer": "A standard full set starts at a base price with gel polish listed from $20 up. Note that longer nail lengths may add to the total — it's worth confirming pricing before the service begins, especially if you have extra-long nails."
+    },
+    {
+      "question": "Who does the eyebrows and lashes, and how much does it cost?",
+      "answer": "Kim is the go-to for both eyebrow shaping and lash services. Lashes start at $25 and reviewers consistently rave about her precision and professionalism. She's one of the most requested staff members in the salon."
+    },
+    {
+      "question": "Are walk-ins welcome or do I need an appointment?",
+      "answer": "Tran Nails operates on a walk-in basis. To get the best experience and shortest wait, arriving early — especially on busy weekday afternoons — is highly recommended by regulars."
+    },
+    {
+      "question": "Is the staff friendly even when it's busy?",
+      "answer": "Across reviews — including those with service complaints — customers consistently praised the staff as very friendly. The welcoming atmosphere is one of the most mentioned qualities of Tran Nails."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#2D2D2D",
+    "accent": "#C9A96E",
+    "note": "Deep charcoal anchors the brand with the no-nonsense, community-trusted personality of the salon — real, grounded, and reliable. The warm gold accent reflects Kim's warmth, the gift-giving, and the golden-touch artistry that keeps regulars loyal. Together they feel neighborhood-authentic without being cheap, elevated without being bougie — exactly what Tran Nails is."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Kim's standout expertise in eyebrows and lashes drives fierce customer loyalty and repeat visits",
+      "Consistently friendly and welcoming staff atmosphere praised even by dissatisfied customers",
+      "Accessible, community-level pricing — especially for lash services at $25 — builds neighborhood trust"
+    ],
+    "common_complaints": [
+      "Pricing transparency issues — customers report being charged more than listed prices, particularly for longer nails",
+      "Inconsistent pedicure quality — at least one reviewer noted unsmooth polish application and inadequate heel care"
+    ],
+    "suggested_tagline": "Your neighborhood salon. Kim's got you.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "warm",
+      "community-rooted",
+      "skilled",
+      "no-frills",
+      "loyal-earning"
+    ],
+    "named_staff": [
+      "Kim"
+    ]
   }
 }

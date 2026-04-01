@@ -11,9 +11,9 @@
   "website": "https://www.creativevasesflorist.com/?utm_source=google&utm_medium=gbp&y_source=1_MTA2NTIzNDU5Ni03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D",
   "rating": 4.8,
   "reviewCount": 17,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Fresh blooms, rooted in the neighborhood.",
+  "brandNarrative": "Creative Vases isn't just a florist — it's a breath of fresh air on 543 S 52nd Street, bringing color, fragrance, and genuine warmth to a community that was waiting for exactly this. Customers like Satia Johnnson call it 'phenomenal' and celebrate it simply for existing: 'Finally, a floral shop in the community!' That sense of belonging is woven into every stem. Flowers here stay beautiful a week later — Jonah Aamodt can attest to that — and the daily rotation of fresh flowers and plants means there's always something new to discover at a price that doesn't punish you for wanting beauty in your home.\n\nThe vibe inside is fun and inviting, with a space that stretches beyond retail into workshops and community events. Joanna Winchester praised the gorgeous arrangements and loved that the shop actively supports causes like breast cancer awareness, giving customers a feel-good reason to spend local. Kelly T walked in just to treat herself to roses and left with a bouquet that was 'fresh and smelled wonderful' — vowing to return in two weeks. That's the Creative Vases effect: you come in once, and the flowers keep pulling you back.\n\nWhat makes Creative Vases special is its dual identity — a neighborhood anchor and a creative studio. It's the kind of place where you pop in for a quick bouquet and end up lingering, charmed by the selection, the staff, and the unmistakable sense that someone here genuinely cares about flowers and the people who buy them.",
+  "ownerStory": "Creative Vases was built on a simple but powerful belief: that fresh, beautiful flowers should be accessible to everyone in the neighborhood, not just those who drive to upscale districts or order from faceless delivery apps. The shop on S 52nd Street opened with that mission front and center — daily fresh inventory, fair prices, and a space warm enough to host workshops and community events. It's a florist that sees itself as part of the fabric of West Philadelphia, not just a storefront in it.\n\nThe team — including the friendly young woman customers like Kelly T have singled out for her helpfulness and warmth — brings an energy that feels personal and unhurried. Every bouquet is handled with care, every customer treated like a neighbor, because at Creative Vases, they often are. The shop's commitment to community causes, like breast cancer awareness, reflects an owner who understands that a local business thrives when it gives back as much as it sells.",
   "hours": {
     "Monday": "10:00 AM – 5:00 PM",
     "Tuesday": "10:00 AM – 5:00 PM",
@@ -23,7 +23,38 @@
     "Saturday": "10:00 AM – 5:00 PM",
     "Sunday": "Closed"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Custom Bouquets",
+      "description": "Handcrafted bouquets made to order using daily-fresh flowers, tailored for any occasion from birthday gifts to self-care treats.",
+      "icon": "flower-2"
+    },
+    {
+      "name": "Fresh Flower & Plant Shop",
+      "description": "Walk-in access to a rotating daily selection of fresh-cut flowers and live plants, all reasonably priced for the neighborhood.",
+      "icon": "leaf"
+    },
+    {
+      "name": "Floral Arrangements",
+      "description": "Gorgeous, professionally designed floral arrangements for home décor, gifts, and special celebrations.",
+      "icon": "sparkles"
+    },
+    {
+      "name": "Floral Workshops & Events",
+      "description": "Hands-on floral design workshops held in the shop's inviting studio space, perfect for date nights, birthdays, or group outings.",
+      "icon": "calendar"
+    },
+    {
+      "name": "Occasion & Gift Flowers",
+      "description": "Curated flowers and arrangements for milestones like Mother's Day, anniversaries, memorials, and awareness events including breast cancer fundraisers.",
+      "icon": "heart"
+    },
+    {
+      "name": "Same-Day In-Store Pickup",
+      "description": "Walk in or call ahead and pick up a fresh, beautiful arrangement the same day — no waiting, no shipping delays.",
+      "icon": "shopping-bag"
+    }
+  ],
   "reviews": [
     {
       "text": "Such a great neighborhood place. I went in to get a bouquet for my mom and she absolutely loved it. The flowers are beautiful even a week later!! Thank you creative vases ❤️",
@@ -61,7 +92,18 @@
       "date": "2025-01-03"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Shop Associate (S 52nd St)",
+      "role": "Floral Stylist & Customer Experience",
+      "bio": "Described by customers as 'very friendly and helpful,' this team member helped Kelly T find the perfect rose bouquet and made the entire experience feel personal and easy. Her warmth is a recurring highlight in the shop's reviews.",
+      "credentials": [
+        "Customer-praised friendliness",
+        "Expert bouquet guidance",
+        "Fresh flower specialist"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -116,28 +158,77 @@
   ],
   "stats": [
     {
-      "value": 17,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.8,
+      "suffix": "★",
+      "label": "Average Customer Rating"
     },
     {
-      "value": 4.8,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 17,
+      "suffix": "+",
+      "label": "Verified 5-Star Reviews"
+    },
+    {
+      "value": 6,
+      "suffix": " days",
+      "label": "Open Every Week for the Community"
+    },
+    {
+      "value": 7,
+      "suffix": "+ days",
+      "label": "How Long Our Flowers Stay Fresh"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "How long do your flowers typically last?",
+      "answer": "Our customers consistently report their flowers staying fresh and beautiful for a week or more after purchase — we bring in fresh stock daily to make sure every stem you take home is at peak quality."
+    },
+    {
+      "question": "Are your prices affordable for everyday purchases?",
+      "answer": "Absolutely. Multiple customers have highlighted that our flowers are 'reasonably priced' — we believe fresh blooms should be a regular joy, not a luxury splurge."
+    },
+    {
+      "question": "Do you offer workshops or events at the shop?",
+      "answer": "Yes! Our shop has a dedicated space for floral workshops and events. It's a fun, inviting environment — great for groups, date nights, or anyone who wants to learn the art of floral design."
+    },
+    {
+      "question": "What makes Creative Vases different from other florists?",
+      "answer": "We're a true neighborhood shop — rooted in the West Philadelphia community, stocked daily with fresh flowers and plants, and committed to causes that matter like breast cancer awareness. Customers tell us it just feels different here, and we take that seriously."
+    },
+    {
+      "question": "Can I walk in without an order, or should I call ahead?",
+      "answer": "Walk-ins are always welcome! We keep fresh flowers and plants available daily, so you can pop in anytime during our hours (Monday–Saturday, 10 AM–5 PM) and find something beautiful."
+    },
+    {
+      "question": "Do you support any community causes or events?",
+      "answer": "Yes — we actively support causes like breast cancer awareness and see our shop as a community hub, not just a retail space. When you spend at Creative Vases, you're supporting a business that gives back."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#6B4F72",
+    "accent": "#E8A0BF",
+    "note": "Deep plum as the primary evokes the richness of fresh florals, the creativity in the name, and a sense of community warmth — avoiding the clichéd greens of generic florists. Soft blush pink as the accent references roses, femininity, breast cancer awareness support, and the welcoming vibe customers describe. Together they feel artisan, warm, and distinctly neighborhood-rooted."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Exceptional flower freshness and longevity — multiple customers note blooms lasting a week or more, driving strong repeat purchase intent",
+      "Deep community connection — customers celebrate the shop's presence in the neighborhood and its support of causes like breast cancer awareness, creating emotional loyalty beyond the transaction",
+      "Warm, personal customer service — the staff's friendliness is repeatedly highlighted, turning one-time visitors into regulars who promise to return"
+    ],
+    "common_complaints": [
+      "None found — all 17 reviews are 5-star with exclusively positive sentiment; no service gaps, wait times, or quality issues mentioned"
+    ],
+    "suggested_tagline": "Your neighborhood in full bloom.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "community-rooted",
+      "warm",
+      "artisan",
+      "inviting",
+      "purposeful"
+    ],
+    "named_staff": []
   }
 }

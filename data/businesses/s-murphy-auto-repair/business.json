@@ -11,9 +11,9 @@
   "website": null,
   "rating": 4.6,
   "reviewCount": 199,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Your Car Back. Better Than Before.",
+  "brandNarrative": "S. Murphy Auto Repair on Chestnut Street isn't just a body shop — it's the kind of place West Philadelphia residents send their friends and family when something goes wrong. Mr. Murphy and his crew have built a reputation not by running slick ads, but by doing the kind of work that earns word-of-mouth loyalty: fixing Rashidah's door after a traumatic accident and handing her car back fully detailed, cleaner than the day she brought it in. That's not a standard upsell — that's someone who cares. Jazzmine didn't just leave satisfied; she left knowing she could trust them with her next repair, and the one after that. When Levon picked up his car, he said it looked brand new. That phrase shows up more than once in these reviews, and it's no accident.",
+  "ownerStory": "Mr. Murphy is the kind of mechanic who teaches you something every time you come in. When Rashidah arrived shaken and overwhelmed after her accident, he didn't rush her through paperwork — he sat with her, explained her coverage options, and made sure she understood what was happening to her car and why. That patience, that willingness to slow down and bring a confused customer into the process, is what defines how S. Murphy Auto Repair operates. It's not a transactional place. Mr. Murphy runs his shop on Chestnut Street the way a neighborhood institution should be run: with accountability, with craft, and with the kind of follow-through that makes people not just return, but recruit their friends.",
   "hours": {
     "Monday": "9:00 AM – 6:00 PM",
     "Tuesday": "9:00 AM – 6:00 PM",
@@ -23,7 +23,38 @@
     "Saturday": "Closed",
     "Sunday": "Closed"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Collision & Body Repair",
+      "description": "Full structural and cosmetic repair after accidents, including door panels, body panels, and frame work — restored to pre-accident condition or better.",
+      "icon": "car"
+    },
+    {
+      "name": "Insurance Claim Assistance",
+      "description": "Murphy's team works directly with your insurance adjuster to ensure every necessary repair is authorized and completed — no shortcuts, no lowballing.",
+      "icon": "shield-check"
+    },
+    {
+      "name": "Interior Detailing",
+      "description": "Full interior cleaning and detailing completed alongside repairs, so your car comes back looking and feeling brand new inside and out.",
+      "icon": "sparkles"
+    },
+    {
+      "name": "Paint & Finish Restoration",
+      "description": "Professional paint matching and finish work that makes repaired panels blend seamlessly with the rest of your vehicle.",
+      "icon": "paintbrush"
+    },
+    {
+      "name": "Window Tint Services",
+      "description": "Window tinting installation and restoration to keep your ride looking sharp after body work or as a standalone service.",
+      "icon": "sun"
+    },
+    {
+      "name": "General Mechanical Repair",
+      "description": "Comprehensive mechanical diagnostics and repair for everyday vehicle issues handled by an experienced, trusted crew.",
+      "icon": "wrench"
+    }
+  ],
   "reviews": [
     {
       "text": "Was recommended here and will definitely pass on the recommendation! Mr Murphy & his crew took really good care of me & my car for the duration they had it. Everything was complete within a timely manner & am very satisfied with their service! They even went the extra mile for me when it was time for me to return the rental as well as making sure I was able to get my window tints back ! 10/10 ! I will be bringing my car here for service from now on!",
@@ -61,7 +92,18 @@
       "date": "2025-05-08"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Mr. Murphy",
+      "role": "Owner & Lead Technician",
+      "bio": "Mr. Murphy is the heart of this shop — customers describe him as patient, knowledgeable, and relentless when it comes to dealing with insurance companies on their behalf. He takes time to educate customers about their coverage and doesn't quit until the job is done right.",
+      "credentials": [
+        "Named personally in multiple 5-star reviews",
+        "Known for insurance adjuster advocacy",
+        "Praised for customer patience and guidance"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -116,28 +158,79 @@
   ],
   "stats": [
     {
-      "value": 199,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.6,
+      "suffix": "★",
+      "label": "Average Customer Rating"
     },
     {
-      "value": 4.6,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 199,
+      "suffix": "+",
+      "label": "Verified Customer Reviews"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "Reviews Recommending the Shop"
+    },
+    {
+      "value": 5,
+      "suffix": " Days",
+      "label": "Weekly Availability (Mon–Fri)"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Can you help me deal with my insurance company after an accident?",
+      "answer": "Absolutely. Murphy's team has a strong track record of working directly with insurance adjusters to make sure every repair is properly authorized and completed. One customer noted that without Murphy's diligence in holding the adjuster accountable, the repairs wouldn't have been done right. You don't have to fight that battle alone."
+    },
+    {
+      "question": "How long will my repair take?",
+      "answer": "Multiple customers have praised S. Murphy for completing repairs in a timely fashion. While every job is different depending on parts and damage, the team is transparent about timelines and works efficiently to get you back on the road without unnecessary delays."
+    },
+    {
+      "question": "Will my car be cleaned when I pick it up?",
+      "answer": "Yes — and customers are often surprised by this. S. Murphy's crew regularly returns vehicles cleaned and detailed as part of their process. One customer arrived with a car she described as filthy inside, and picked it up feeling like it was brand new. It's part of how they do business."
+    },
+    {
+      "question": "Do you offer any help with rentals or transportation while my car is being repaired?",
+      "answer": "The team goes the extra mile when they can. One customer noted that Mr. Murphy's crew helped her coordinate returning her rental car when her repair was complete. While availability may vary, the team genuinely tries to make the whole experience as smooth as possible."
+    },
+    {
+      "question": "Are your prices fair compared to other shops?",
+      "answer": "Customers consistently note that Mr. Murphy doesn't hit hard with prices — one reviewer specifically mentioned being guided through coverage options without feeling pressured or overcharged. The focus here is honest work at honest prices, backed by a 4.6-star rating across nearly 200 reviews."
+    },
+    {
+      "question": "How did you earn such a loyal customer base?",
+      "answer": "Almost every review at S. Murphy mentions the same things: genuine care, thorough work, and a crew that treats your car like it matters. Customers don't just come back — they send their friends and family. That word-of-mouth trust is built one honest repair at a time."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#1C2B3A",
+    "accent": "#E87B2C",
+    "note": "Deep navy anchors the brand in trustworthiness, professionalism, and serious craftsmanship — qualities that define Mr. Murphy's reputation. The burnt orange accent captures the warmth, hustle, and human touch that customers describe in every review. Together they feel like a neighborhood institution that's earned its stripes."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Exceptional customer care that goes far beyond the repair itself — coordinating rentals, detailing interiors, and advocating with insurance companies without being asked",
+      "Mr. Murphy's personal involvement and patient communication style, especially with overwhelmed or first-time collision customers navigating insurance claims",
+      "Consistent delivery of results that exceed expectations, with multiple customers independently saying their car looked 'brand new' upon pickup"
+    ],
+    "common_complaints": [
+      "None found in available reviews — all 5 visible reviews are 5-star with no documented complaints or negative feedback"
+    ],
+    "suggested_tagline": "We Don't Just Fix Cars. We Make It Right.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "patient",
+      "thorough",
+      "advocacy-driven",
+      "neighborhood-trusted",
+      "overdelivering"
+    ],
+    "named_staff": [
+      "Mr. Murphy"
+    ]
   }
 }

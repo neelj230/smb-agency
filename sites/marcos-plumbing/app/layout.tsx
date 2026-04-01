@@ -1,19 +1,21 @@
 import type { Metadata } from 'next'
-import { Figtree, Inter, JetBrains_Mono } from 'next/font/google'
+import { Libre_Baskerville, Source_Sans_3, JetBrains_Mono } from 'next/font/google'
 import { AnalyticsProvider } from '@/integrations/AnalyticsProvider'
 import { SchemaJsonLd } from '@/components/SchemaJsonLd'
 import './globals.css'
 
-const figtree = Figtree({
+const libre_baskerville = Libre_Baskerville({
   subsets: ['latin'],
-  variable: '--font-figtree',
+  variable: '--font-libre-baskerville',
   display: 'swap',
+  weight: ['400', '700'],
 })
 
-const inter = Inter({
+const source_sans_3 = Source_Sans_3({
   subsets: ['latin'],
-  variable: '--font-inter',
+  variable: '--font-source-sans-3',
   display: 'swap',
+  weight: ['300', '400', '600', '700'],
 })
 
 const mono = JetBrains_Mono({
@@ -23,7 +25,7 @@ const mono = JetBrains_Mono({
 })
 
 const businessData = {
-  name: "Marco's Plumbing & Heating",
+  name: 'Marco\'s Plumbing & Heating',
   address: '2847 S Broad St',
   city: 'Philadelphia',
   state: 'PA',
@@ -44,22 +46,12 @@ const businessData = {
 }
 
 export const metadata: Metadata = {
-  title: "Marco's Plumbing & Heating | South Philly's Most Trusted Plumber Since 1998",
-  description:
-    "Marco's Plumbing & Heating — 26+ years serving Philadelphia. Emergency plumbing, drain cleaning, water heater installation, bathroom remodeling, sewer repair, and heating service. Call (215) 555-0142.",
-  keywords: [
-    'plumber philadelphia',
-    'south philly plumber',
-    'emergency plumber',
-    'drain cleaning philadelphia',
-    'water heater installation',
-    'bathroom remodel philadelphia',
-    'sewer repair',
-    'boiler service philadelphia',
-  ],
+  title: 'Marco\'s Plumbing & Heating — plumber in Philadelphia, PA',
+  description: 'Marco\'s Plumbing & Heating is a plumber located in Philadelphia, PA. South Philly\'s Most Trusted Plumber Since 1998',
+  keywords: ['plumber', 'Philadelphia', 'PA', 'Marco\'s Plumbing & Heating'],
   openGraph: {
-    title: "Marco's Plumbing & Heating",
-    description: "South Philly's Most Trusted Plumber Since 1998",
+    title: 'Marco\'s Plumbing & Heating',
+    description: 'Marco\'s Plumbing & Heating is a plumber located in Philadelphia, PA. South Philly\'s Most Trusted Plumber Since 1998',
     type: 'website',
   },
 }
@@ -70,15 +62,15 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${figtree.variable} ${inter.variable} ${mono.variable}`}>
+    <html lang="en" className={`${libre_baskerville.variable} ${source_sans_3.variable} ${mono.variable}`}>
       <head>
         <SchemaJsonLd business={businessData} />
       </head>
       <body
-        className="font-[family-name:var(--font-inter)] antialiased"
+        className="font-[family-name:var(--font-source-sans-3)] antialiased"
         style={
           {
-            '--font-display': 'var(--font-figtree)',
+            '--font-display': 'var(--font-libre-baskerville)',
           } as React.CSSProperties
         }
       >

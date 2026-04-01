@@ -11,9 +11,9 @@
   "website": null,
   "rating": 4.3,
   "reviewCount": 58,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Flawless Fits. Kept With Care.",
+  "brandNarrative": "On a quiet stretch of Spruce Street in Philadelphia's Rittenhouse Square neighborhood, New Master Tailor and Cleaners has built a reputation that goes well beyond a perfectly hemmed pair of jeans. Customers bring their most prized garments here — a Zegna blazer requiring a notoriously difficult shoulder-sleeve shortening, selvedge denim from Japan, Rag & Bone jeans that need an original hem preserved — and they leave genuinely surprised. One reviewer who lived above a celebrated Soho alterations shop that services major fashion brands put it plainly: Master Tailor matches that quality, and gets it right on the first try. That kind of precision, on high-end garments from discerning owners, is the clearest signal of what this shop actually is.\n\nBut the story that says the most about this place involves a wedding dress. A customer dropped it off six years ago, moved out of state, and forgot entirely. When her husband returned to Philadelphia on a long shot, the dress was still there — cleaned, preserved, and waiting. No fanfare, no fee extracted for the trouble. Just the quiet, almost stubborn care that defines how the women who run this shop treat every piece left in their hands. That's not a policy. That's a value system. Customers consistently describe the staff as friendly, patient, and deeply skilled — the kind of people who handle a Kleinfeld's gown with the same attention they'd give a rush alteration on a Tuesday morning.\n\nNew Master Tailor earns its 4.3-star rating the honest way: through consistent craftsmanship on difficult jobs, fair pricing, and a staff that treats garments as if they matter — because to their customers, they do. There are real complaints here too, mostly around communication on pricing and turnaround expectations, which points to a shop so focused on the work itself that the front-of-house conversation sometimes lags behind. For anyone who cares deeply about how their clothes fit and last, this is one of Philadelphia's most capable alterations destinations.",
+  "ownerStory": "No single name surfaces repeatedly in the reviews, but a clear portrait of the people behind New Master Tailor and Cleaners emerges anyway. The shop is run by a team described, with warmth, as 'the ladies' — skilled, dedicated women who have made 1620 Spruce Street a place where even forgotten wedding dresses are held in pristine condition for years, not because anyone asked them to, but because that's simply how they operate. Their work on a shoulder-cap alteration on a Zegna blazer left no trace of the change — a benchmark that separates true tailors from alterations shops — and their ability to preserve an original hem on premium denim puts them in rare company in this city.\n\nThis is a shop shaped by craft more than branding. There's no website, no social presence, no marketing machine — just decades of hands-on skill and a corner of Rittenhouse Square that regular customers quietly protect like a neighborhood secret. The team's patience with particular, high-standards customers, their willingness to take on luxury garments others might turn away, and the almost inexplicable act of storing a stranger's wedding dress for six years without complaint — these are the details that write an owner story better than any biography could.",
   "hours": {
     "Monday": "8:30 AM – 6:00 PM",
     "Tuesday": "8:30 AM – 6:00 PM",
@@ -23,7 +23,38 @@
     "Saturday": "10:00 AM – 4:00 PM",
     "Sunday": "Closed"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Jacket & Blazer Alterations",
+      "description": "Expert restructuring of high-end blazers and suit jackets, including the technically demanding shoulder-sleeve shortening that preserves the natural shoulder cap.",
+      "icon": "shirt"
+    },
+    {
+      "name": "Premium Denim Hemming & Repair",
+      "description": "Skilled hemming and alteration of selvedge and designer denim, with preservation of original hems and hardware for brands like Rag & Bone.",
+      "icon": "scissors"
+    },
+    {
+      "name": "Wedding Dress Preservation & Alterations",
+      "description": "Careful alteration and long-term preservation of bridal gowns, handled with the precision and respect that heirloom garments demand.",
+      "icon": "heart"
+    },
+    {
+      "name": "Dry Cleaning & Garment Care",
+      "description": "Professional cleaning of formal wear including tuxedos, dress shirts, and structured garments, with standard and rush turnaround options available.",
+      "icon": "wind"
+    },
+    {
+      "name": "Pants & Trouser Alterations",
+      "description": "Precise hemming and resizing of trousers across all fabric types, from casual to formal, completed efficiently and correctly on the first attempt.",
+      "icon": "rulers"
+    },
+    {
+      "name": "Garment Repair & Restoration",
+      "description": "Targeted repair work on specific garment components such as button flies, seams, and closures, with particular expertise in specialty fabrics.",
+      "icon": "wrench"
+    }
+  ],
   "reviews": [
     {
       "text": "I went to Master Tailor and Cleaners to have the sleeves shortened by the shoulder on my Zegna blazer. The tailor did a flawless job on the alteration. No pulling on the shoulder cap, the alteration looks like it was untouched!  Definitely recommend!",
@@ -81,28 +112,78 @@
   ],
   "stats": [
     {
-      "value": 58,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.3,
+      "suffix": "★",
+      "label": "Average Customer Rating"
     },
     {
-      "value": 4.3,
+      "value": 58,
+      "suffix": "+",
+      "label": "Verified Customer Reviews"
+    },
+    {
+      "value": 6,
+      "suffix": " Days",
+      "label": "Open Every Week for Walk-Ins"
+    },
+    {
+      "value": 1620,
       "suffix": "",
-      "label": "Google Rating"
+      "label": "Spruce St — Heart of Rittenhouse Square"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Can you handle alterations on high-end or designer garments?",
+      "answer": "Yes — and that's where the shop excels. Customers have brought in Zegna blazers, Rag & Bone jeans, selvedge denim, and Kleinfeld's wedding gowns. The tailors are experienced with luxury fabrics and technically demanding alterations like shoulder-sleeve shortenings that require preserving the shoulder cap."
+    },
+    {
+      "question": "Do you preserve original hems on denim and dress pants?",
+      "answer": "Yes. Preserving the original hem is a standard part of denim alterations here — a detail that even high-end tailors sometimes get wrong. Reviewers specifically praised the team for getting this right on the first try."
+    },
+    {
+      "question": "What is the typical turnaround time for alterations or cleaning?",
+      "answer": "Turnaround varies by service and workload. Standard cleaning can take longer than a typical 48-hour laundromat, so it's worth confirming your timeline when you drop off. Rush service is available but comes at an additional cost — ask the staff to clarify pricing upfront so there are no surprises."
+    },
+    {
+      "question": "How does pricing work, and are rush fees clearly communicated?",
+      "answer": "Pricing is generally considered fair for the quality of work. However, at least one customer was charged a rush fee without being told in advance. We recommend asking for a full price breakdown at drop-off, including whether your requested pickup date triggers a rush rate."
+    },
+    {
+      "question": "Do you store garments if I can't pick them up right away?",
+      "answer": "In at least one remarkable case, the shop held a customer's wedding dress for six full years after it was forgotten — and kept it in pristine condition. While that's not a service to count on indefinitely, it does speak to how carefully garments are treated while in their care."
+    },
+    {
+      "question": "What are your hours and where are you located?",
+      "answer": "New Master Tailor and Cleaners is located at 1620 Spruce Street in Philadelphia's Rittenhouse Square neighborhood. Hours are Monday through Friday, 8:30 AM to 6:00 PM, and Saturday from 10:00 AM to 4:00 PM. The shop is closed on Sundays. Call ahead at (215) 735-1499 to confirm timing for your specific job."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#2C2C2C",
+    "accent": "#B8975A",
+    "note": "Deep charcoal anchors the precision and seriousness of master-level tailoring, while warm gold reflects the luxury garment clients (Zegna, Rag & Bone, Kleinfeld's) and the craftsmanship that earns a premium price. Together they signal expertise without pretension — exactly how reviewers describe the shop."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "fair"
+    "top_3_strengths": [
+      "Exceptional technical skill on difficult, luxury-brand alterations — shoulder-cap restructuring on Zegna, original-hem preservation on selvedge denim, and bridal gown care are cited specifically by multiple reviewers",
+      "Genuine customer care that goes beyond transactional — storing a forgotten wedding dress for six years in pristine condition is a standout example of a team that treats garments as if they personally matter",
+      "First-attempt accuracy and speed on complex alterations, with one reviewer comparing the quality favorably to a top-tier Soho NYC alterations shop that services major fashion brands"
+    ],
+    "common_complaints": [
+      "Lack of transparent communication on rush pricing — at least one customer was charged double without being told at drop-off",
+      "Inconsistent follow-through on repairs — one customer drove from Montgomery County to pick up denim that had not been worked on despite a 3-week wait"
+    ],
+    "suggested_tagline": "Where Luxury Garments Come to Be Fixed Right.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "meticulous",
+      "trustworthy",
+      "quietly exceptional",
+      "old-school craft",
+      "neighborhood anchor"
+    ],
+    "named_staff": []
   }
 }

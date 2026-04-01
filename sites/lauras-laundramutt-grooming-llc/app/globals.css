@@ -1,0 +1,278 @@
+@import "tailwindcss";
+
+/* Scan shared packages for Tailwind classes */
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #00A64C;
+  --brand-accent: #0091a6;
+  --brand-bg: #ffffff;
+  --brand-bg-alt: #e5ede9;
+  --brand-text: #000000;
+  --brand-muted: #000000;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: var(--brand-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+/* Marquee animation for carousels */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Smooth section transitions */
+section, [id] > div {
+  scroll-margin-top: 80px;
+}
+
+/* Focus-visible outlines for accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Mix-blend-mode hover effect for cards */
+.card-hover {
+  position: relative;
+  overflow: hidden;
+}
+.card-hover::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--brand-primary);
+  mix-blend-mode: difference;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.card-hover:hover::after {
+  opacity: 1;
+}
+
+/* Gradient transitions between sections */
+.section-gradient {
+  position: relative;
+}
+.section-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--brand-bg));
+  pointer-events: none;
+}
+
+/* Creative director extras */
+/* ── Laundramutt Brand Fonts ── */
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --font-display: 'Hedvig Letters Serif', serif;
+  --font-body: 'Inter', sans-serif;
+  --brand-primary: #00A64C;
+  --brand-accent: #0091a6;
+  --brand-text: #0f1a13;
+}
+
+body {
+  font-family: var(--font-body);
+  background: #ffffff;
+  color: var(--brand-text);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+}
+
+/* ── Film Grain Overlay ── */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.025;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  mix-blend-mode: hard-light;
+}
+
+/* ── Dot Pattern Background ── */
+.dot-pattern {
+  background-color: #ffffff;
+  background-image: radial-gradient(circle, #00A64C22 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+/* ── Marquee Animation ── */
+.laundramutt-strip {
+  position: relative;
+}
+
+.laundramutt-marquee {
+  display: flex;
+  gap: 2.5rem;
+  white-space: nowrap;
+  animation: laundramutt-scroll 28s linear infinite;
+  width: max-content;
+}
+
+@keyframes laundramutt-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* ── Card hover lift ── */
+[class*="ServiceCard"],
+[class*="service-card"] {
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1),
+              box-shadow 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+}
+[class*="ServiceCard"]:hover,
+[class*="service-card"]:hover {
+  transform: translateY(-5px) scale(1.012);
+  box-shadow: 0 20px 48px rgba(0, 166, 76, 0.13);
+}
+
+/* ── Testimonial card style ── */
+[class*="TestimonialCard"],
+[class*="testimonial-card"] {
+  border-radius: 16px !important;
+  border: 1px solid rgba(0, 145, 166, 0.12) !important;
+}
+
+/* ── FAQ dark overrides ── */
+#faq [class*="Accordion"],
+#faq [class*="accordion"],
+#faq [class*="faq"] {
+  --faq-border: rgba(255,255,255,0.1);
+  --faq-text: #ffffff;
+  border-color: rgba(255,255,255,0.1);
+  color: #ffffff;
+}
+
+#faq [class*="question"],
+#faq [class*="Question"],
+#faq button {
+  color: #ffffff !important;
+}
+
+#faq [class*="answer"],
+#faq [class*="Answer"],
+#faq p {
+  color: rgba(255,255,255,0.75) !important;
+}
+
+/* ── Stats counter dark variant accent ── */
+[class*="StatsCounter"] [class*="value"],
+[class*="stats-counter"] [class*="value"] {
+  color: var(--brand-primary);
+}
+
+/* ── Smooth scroll ── */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ── Navbar accent ── */
+nav a:hover {
+  color: var(--brand-primary) !important;
+  transition: color 0.2s ease;
+}
+
+/* ── Hero overlay for readability ── */
+[class*="HeroSection"] [class*="photo-bg"]::before,
+section#home > div::before {
+  background: linear-gradient(
+    to right,
+    rgba(15, 26, 19, 0.72) 0%,
+    rgba(15, 26, 19, 0.38) 60%,
+    transparent 100%
+  );
+}
+
+/* ── CTA button brand override ── */
+a[href^="tel"],
+button[class*="cta"],
+a[class*="cta"] {
+  background-color: var(--brand-primary) !important;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+}
+a[href^="tel"]:hover,
+button[class*="cta"]:hover,
+a[class*="cta"]:hover {
+  background-color: #008f41 !important;
+  transform: translateY(-1px);
+}
+
+/* ── Gallery masonry spacing ── */
+[class*="ImageGallery"] img {
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+[class*="ImageGallery"] img:hover {
+  transform: scale(1.025);
+  box-shadow: 0 16px 40px rgba(0, 166, 76, 0.18);
+}
+
+/* ── About section text override for dark bg ── */
+#about h2,
+#about h3,
+#about p,
+#about li {
+  color: #ffffff !important;
+}
+
+/* ── Pill decoration hover ── */
+.laundramutt-pill {
+  transition: background 0.2s ease;
+}
+
+/* ── ClickToCall floating button ── */
+[class*="ClickToCall"] {
+  box-shadow: 0 8px 30px rgba(0, 166, 76, 0.4) !important;
+}
+
+/* ── Contact section hours grid ── */
+[class*="ContactSection"] [class*="hours"] dt {
+  font-weight: 600;
+}
+[class*="ContactSection"] [class*="hours"] dd {
+  color: var(--brand-primary);
+}
+
+/* ── Footer dark ── */
+footer {
+  background: #0f1a13 !important;
+  color: rgba(255,255,255,0.8) !important;
+}
+footer a:hover {
+  color: var(--brand-primary) !important;
+}
+
+/* ── Selection color ── */
+::selection {
+  background: #00A64C33;
+  color: var(--brand-text);
+}
+
+        :root {
+          --brand-primary: ${brand.green};
+          --brand-accent: ${brand.teal};
+          --brand-text: ${brand.dark};
+        }
+      

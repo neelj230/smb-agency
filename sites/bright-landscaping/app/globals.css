@@ -1,0 +1,340 @@
+@import "tailwindcss";
+
+/* Scan shared packages for Tailwind classes */
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #218544;
+  --brand-accent: #ace38f;
+  --brand-bg: #edffe3;
+  --brand-bg-alt: #d6ecce;
+  --brand-text: #192119;
+  --brand-muted: #6b6e6b;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: var(--brand-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+/* Marquee animation for carousels */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Smooth section transitions */
+section, [id] > div {
+  scroll-margin-top: 80px;
+}
+
+/* Focus-visible outlines for accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Subtle dot pattern background */
+.dot-pattern {
+  background-image: radial-gradient(circle, var(--brand-muted) 0.5px, transparent 0.5px);
+  background-size: 24px 24px;
+}
+
+/* Gradient transitions between sections */
+.section-gradient {
+  position: relative;
+}
+.section-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--brand-bg));
+  pointer-events: none;
+}
+
+/* Creative director extras */
+/* ─────────────────────────────────────────────
+   Bright Landscaping — global extras
+───────────────────────────────────────────── */
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --brand-primary: #218544;
+  --brand-accent: #ace38f;
+  --brand-text: #0f1f12;
+  --brand-light: #f4faf0;
+  --font-display: 'Be Vietnam Pro', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+/* ── Root ── */
+.bright-root {
+  font-family: var(--font-body);
+  background-color: var(--brand-light);
+  color: var(--brand-text);
+  overflow-x: hidden;
+}
+
+/* Apply display font to headings globally */
+.bright-root h1,
+.bright-root h2,
+.bright-root h3,
+.bright-root h4 {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+/* ── Film Grain Overlay ── */
+.bright-root::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  opacity: 0.025;
+  mix-blend-mode: overlay;
+}
+
+/* ── Marquee ── */
+.bright-marquee-wrapper {
+  background-color: var(--brand-primary);
+  overflow: hidden;
+  padding: 14px 0;
+  position: relative;
+}
+
+.bright-marquee-track {
+  display: flex;
+  width: max-content;
+  animation: bright-scroll 28s linear infinite;
+  gap: 0;
+}
+
+.bright-marquee-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  padding: 0 28px;
+  white-space: nowrap;
+}
+
+.bright-marquee-dot {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: var(--brand-accent);
+  flex-shrink: 0;
+}
+
+@keyframes bright-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* ── Stats Wrapper ── */
+.bright-stats-wrap {
+  background-color: var(--brand-text);
+}
+
+/* ── Service Highlight Band ── */
+.bright-highlight-band {
+  padding: 80px 24px 32px;
+  background-color: var(--brand-light);
+}
+
+.bright-highlight-inner {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.bright-highlight-eyebrow {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--brand-primary);
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.bright-highlight-eyebrow::before {
+  content: '';
+  display: inline-block;
+  width: 28px;
+  height: 2px;
+  background: var(--brand-accent);
+  border-radius: 2px;
+}
+
+.bright-highlight-heading {
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 5vw, 3.6rem);
+  font-weight: 900;
+  color: var(--brand-text);
+  line-height: 1.05;
+  margin-bottom: 18px;
+}
+
+.bright-highlight-sub {
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  color: #4a6352;
+  max-width: 420px;
+  line-height: 1.65;
+}
+
+/* ── Services Cards area ── */
+.bright-services-cards {
+  padding: 8px 0 80px;
+  background-color: var(--brand-light);
+}
+
+/* ── Leaf Divider ── */
+.bright-leaf-divider {
+  display: flex;
+  justify-content: center;
+  padding: 12px 0;
+  background-color: var(--brand-light);
+}
+
+.bright-leaf-divider svg {
+  width: 120px;
+  height: 24px;
+}
+
+.bright-leaf-divider--flip svg {
+  transform: scaleY(-1);
+}
+
+/* ── About ── */
+.bright-about-wrap {
+  background-color: #fff;
+  padding: 16px 0;
+}
+
+/* ── Gallery ── */
+.bright-gallery-wrap {
+  background-color: var(--brand-light);
+  padding: 64px 0;
+}
+
+/* ── Process — dark band ── */
+.bright-process-dark {
+  background-color: var(--brand-text);
+  color: #fff;
+  padding: 24px 0;
+}
+
+/* Force white text in the dark process section */
+.bright-process-dark h2,
+.bright-process-dark h3,
+.bright-process-dark p,
+.bright-process-dark span {
+  color: #fff !important;
+}
+
+.bright-process-dark [class*="step-number"],
+.bright-process-dark [class*="number"] {
+  color: var(--brand-accent) !important;
+}
+
+/* ── FAQ ── */
+.bright-faq-wrap {
+  background-color: var(--brand-light);
+  padding: 64px 0;
+}
+
+/* ── Contact ── */
+.bright-contact-wrap {
+  background-color: #fff;
+  padding: 16px 0;
+}
+
+/* ── Hover scale on service cards ── */
+.bright-root [class*="service-card"],
+.bright-root [class*="ServiceCard"],
+.bright-root [class*="card"] {
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1),
+              box-shadow 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.bright-root [class*="service-card"]:hover,
+.bright-root [class*="ServiceCard"]:hover,
+.bright-root [class*="card"]:hover {
+  transform: translateY(-4px) scale(1.012);
+  box-shadow: 0 16px 40px rgba(33, 133, 68, 0.14);
+}
+
+/* ── Dot pattern background on gallery ── */
+.bright-gallery-wrap {
+  position: relative;
+}
+
+.bright-gallery-wrap::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle, #218544 1px, transparent 1px);
+  background-size: 28px 28px;
+  opacity: 0.04;
+  pointer-events: none;
+}
+
+/* ── Accent color overrides for primary buttons ── */
+.bright-root a[href^="tel"],
+.bright-root button[data-cta] {
+  background-color: var(--brand-primary) !important;
+}
+
+/* ── Hero headline override ── */
+.bright-root [class*="hero"] h1,
+.bright-root [class*="Hero"] h1 {
+  font-family: var(--font-display) !important;
+  font-weight: 900 !important;
+}
+
+/* ── Scrollbar styling ── */
+.bright-root ::-webkit-scrollbar {
+  width: 6px;
+}
+.bright-root ::-webkit-scrollbar-thumb {
+  background: var(--brand-accent);
+  border-radius: 3px;
+}
+.bright-root ::-webkit-scrollbar-track {
+  background: var(--brand-light);
+}
+
+        :root {
+          --brand-primary: #218544;
+          --brand-accent: #ace38f;
+          --brand-text: #0f1f12;
+          --brand-light: #f4faf0;
+        }
+      

@@ -1,0 +1,366 @@
+@import "tailwindcss";
+
+/* Scan shared packages for Tailwind classes */
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #814AC8;
+  --brand-accent: #c84abb;
+  --brand-bg: #1a1a2e;
+  --brand-bg-alt: #120f28;
+  --brand-text: #ffffff;
+  --brand-muted: #ffffff;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: var(--brand-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+/* Marquee animation for carousels */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Smooth section transitions */
+section, [id] > div {
+  scroll-margin-top: 80px;
+}
+
+/* Focus-visible outlines for accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Inset border for editorial/gallery feel */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 12px;
+  z-index: 999;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  pointer-events: none;
+  border-radius: 2px;
+}
+
+/* Mix-blend-mode hover effect for cards */
+.card-hover {
+  position: relative;
+  overflow: hidden;
+}
+.card-hover::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--brand-primary);
+  mix-blend-mode: difference;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.card-hover:hover::after {
+  opacity: 1;
+}
+
+/* Gradient transitions between sections */
+.section-gradient {
+  position: relative;
+}
+.section-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--brand-bg));
+  pointer-events: none;
+}
+
+/* Creative director extras */
+/* ═══════════════════════════════════════════════════════════════
+   Paco's Auto Repair — Extra Styles
+   Append to globals.css
+═══════════════════════════════════════════════════════════════ */
+
+/* ── Fonts ──────────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+:root {
+  --brand-primary: #814AC8;
+  --brand-accent: #c84abb;
+  --brand-text: #0f0d14;
+  --brand-surface: #f7f5fb;
+  font-family: 'DM Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, .paco-display {
+  font-family: 'Syne', sans-serif;
+}
+
+/* ── Film grain overlay ─────────────────────────────────────── */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+  mix-blend-mode: overlay;
+  opacity: 0.03;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+/* ── Dot pattern background ─────────────────────────────────── */
+.dot-pattern {
+  background-image: radial-gradient(circle, rgba(129,74,200,0.15) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* ── Dark section wrapper ────────────────────────────────────── */
+.paco-dark-section {
+  background-color: #0f0d14;
+  color: #fff;
+}
+
+/* ── Section spacing ─────────────────────────────────────────── */
+.paco-section-lg {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+/* ── Marquee strip ───────────────────────────────────────────── */
+.paco-marquee-wrapper {
+  overflow: hidden;
+  background: linear-gradient(90deg, var(--brand-primary) 0%, var(--brand-accent) 100%);
+  padding: 0.75rem 0;
+  white-space: nowrap;
+}
+
+.paco-marquee-track {
+  display: inline-flex;
+  gap: 0;
+  animation: pacoMarquee 28s linear infinite;
+  will-change: transform;
+}
+
+.paco-marquee-item {
+  font-family: 'Syne', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 0 1.5rem;
+}
+
+.paco-marquee-dot {
+  margin-left: 1.5rem;
+  opacity: 0.6;
+  font-size: 0.65rem;
+}
+
+@keyframes pacoMarquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* ── About section ───────────────────────────────────────────── */
+.paco-about-wrapper {
+  position: relative;
+  overflow: hidden;
+  background-color: #f7f5fb;
+  padding: 5rem 0;
+}
+
+.paco-about-inner {
+  position: relative;
+  z-index: 2;
+}
+
+.paco-blob {
+  position: absolute;
+  width: 480px;
+  height: 480px;
+  border-radius: 50%;
+  filter: blur(120px);
+  opacity: 0.18;
+  pointer-events: none;
+  z-index: 1;
+}
+
+.paco-blob--left {
+  background: var(--brand-primary);
+  top: -80px;
+  left: -160px;
+}
+
+.paco-blob--right {
+  background: var(--brand-accent);
+  bottom: -100px;
+  right: -140px;
+}
+
+/* ── Star strip (below testimonials) ────────────────────────── */
+.paco-star-strip {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 2rem 1.5rem 3.5rem;
+}
+
+.paco-star-badge {
+  font-family: 'Syne', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 999px;
+  padding: 0.4rem 1.1rem;
+  background: rgba(255,255,255,0.06);
+  backdrop-filter: blur(8px);
+}
+
+/* ── FAQ wrapper ─────────────────────────────────────────────── */
+.paco-faq-wrapper {
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+  padding: 5rem 0;
+}
+
+.paco-faq-accent {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 360px;
+  height: 360px;
+  background: linear-gradient(135deg, var(--brand-primary), var(--brand-accent));
+  border-radius: 50%;
+  filter: blur(100px);
+  opacity: 0.08;
+  pointer-events: none;
+}
+
+.paco-faq-inner {
+  position: relative;
+  z-index: 2;
+}
+
+/* ── Eyebrow label ───────────────────────────────────────────── */
+.paco-eyebrow {
+  font-family: 'Syne', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--brand-primary);
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+/* ── CTA Banner ──────────────────────────────────────────────── */
+.paco-cta-banner {
+  background: linear-gradient(135deg, #0f0d14 0%, #1d1228 60%, #0f0d14 100%);
+  position: relative;
+  overflow: hidden;
+  padding: 6rem 1.5rem;
+  text-align: center;
+}
+
+.paco-cta-banner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle at 30% 50%, rgba(129,74,200,0.25) 0%, transparent 60%),
+                    radial-gradient(circle at 75% 40%, rgba(200,74,187,0.18) 0%, transparent 55%);
+  pointer-events: none;
+}
+
+.paco-cta-inner {
+  position: relative;
+  z-index: 2;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.paco-cta-label {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--brand-accent);
+  margin-bottom: 0.75rem;
+}
+
+.paco-cta-headline {
+  font-family: 'Syne', sans-serif;
+  font-size: clamp(2.5rem, 7vw, 4.5rem);
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.05;
+  margin-bottom: 1rem;
+}
+
+.paco-cta-sub {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.95rem;
+  color: rgba(255,255,255,0.55);
+  margin-bottom: 2rem;
+}
+
+.paco-cta-btn {
+  display: inline-block;
+  font-family: 'Syne', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background: linear-gradient(135deg, var(--brand-primary) 0%, var(--brand-accent) 100%);
+  padding: 0.9rem 2.6rem;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 8px 32px rgba(129,74,200,0.45);
+}
+
+.paco-cta-btn:hover {
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 14px 40px rgba(200,74,187,0.5);
+}
+
+/* ── Hover scale for service cards ─────────────────────────── */
+[class*="service"] > * {
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
+[class*="service"] > *:hover {
+  transform: translateY(-4px) scale(1.015);
+  box-shadow: 0 12px 36px rgba(129,74,200,0.15);
+}
+
+/* ── Smooth scroll ───────────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ── Scroll bar accent ───────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0f0d14; }
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(var(--brand-primary), var(--brand-accent));
+  border-radius: 999px;
+}

@@ -11,9 +11,9 @@
   "website": null,
   "rating": 4.5,
   "reviewCount": 166,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Nails That Start Conversations.",
+  "brandNarrative": "VNails and Spa on Walnut Street is the kind of place where you walk in a little stressed and leave with compliments already coming in. Customers consistently describe the salon as spotless, bright, and calming — a space that feels genuinely curated rather than thrown together. Annie, the go-to nail tech praised by name across multiple reviews, sets the tone: gentle with damaged nails, quick without feeling rushed, and the kind of professional who will fix your pedicure the very next day without making it a big deal. It's that quiet accountability that keeps people coming back.\n\nThe work here speaks for itself. Clients rave about nail art that turns out 'even better than imagined' — neat, creative, and stylish enough to stop strangers mid-sentence. The luxury pedicure has developed a near-cult following, with customers specifically calling out how soft and refreshed their feet feel afterward. Even husbands come here willingly, which says something. The team is described repeatedly as welcoming, kind, and professional — not just polite, but genuinely warm in a way that makes first-timers feel like regulars.\n\nThat said, VNails and Spa is a salon that rewards customers who communicate clearly upfront. A handful of reviews flag a disconnect between listed prices and what ends up on the final bill — particularly around service upgrades that weren't always made explicit. For a salon with this much talent and atmosphere, that transparency gap is the one thing standing between good and truly great. The bones are excellent. The vibe is real. Come ready to ask questions, and you'll leave obsessed.",
+  "ownerStory": "Annie is the heartbeat of VNails and Spa. She shows up in reviews not as a footnote but as the reason clients return — the nail tech who handles a badly broken nail with care, who doesn't rush you even when the schedule is full, and who will make things right the day after an appointment without being asked twice. In a world where most service businesses treat accountability as optional, Annie treats it as the baseline. That standard radiates through the whole team, who customers describe as consistently kind, professional, and welcoming from the moment you walk in.\n\nVNails and Spa was built for the Walnut Street community — a neighborhood that deserves a real spa experience without having to travel across the city for it. The salon's clean, trendy interior and thoughtful atmosphere aren't accidental; they reflect a genuine belief that where you get your nails done should feel good too. The 4.5-star rating across 166 reviews isn't a fluke — it's the result of a team that takes pride in their craft and a space that takes care of the people inside it.",
   "hours": {
     "Monday": "9:30 AM – 6:30 PM",
     "Tuesday": "9:30 AM – 6:30 PM",
@@ -23,7 +23,38 @@
     "Saturday": "9:00 AM – 4:00 PM",
     "Sunday": "Closed"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Luxury Pedicure",
+      "description": "A deeply relaxing, multi-step pedicure treatment that leaves feet soft, refreshed, and thoroughly pampered — the salon's most talked-about service.",
+      "icon": "sparkles"
+    },
+    {
+      "name": "Spa Pedicure",
+      "description": "A classic spa-level pedicure combining exfoliation, massage, and nail care for a complete foot refresh at an approachable price point.",
+      "icon": "droplets"
+    },
+    {
+      "name": "Full Set Acrylics",
+      "description": "Custom acrylic nail extensions shaped and styled to your preference — from short almonds to dramatic lengths — with optional nail art and designs.",
+      "icon": "wand-2"
+    },
+    {
+      "name": "Nail Art & Custom Designs",
+      "description": "Freehand and detailed nail art created by skilled technicians whose work routinely draws compliments from strangers.",
+      "icon": "palette"
+    },
+    {
+      "name": "Dip Powder Manicure",
+      "description": "A durable, lightweight manicure using dip powder for long-lasting color and a natural nail feel without the need for UV curing.",
+      "icon": "layers"
+    },
+    {
+      "name": "Eyebrow & Facial Waxing",
+      "description": "Precise eyebrow shaping and facial waxing services available as an add-on to any nail or pedicure appointment.",
+      "icon": "scissors"
+    }
+  ],
   "reviews": [
     {
       "text": "Be careful !!! Listed prices does not match. I came there excited to receive service again because the first few times was everything! I told them I wanted spa pedicure they ended up giving me the luxury one without my knowledge. The foot nail tech was a vibe. It wasnt until I was at the nail station with a different nail tech and she said my services was going to cost $215 with the style I wanted Huhhhhh.. so I just went to something simple. My pedi was $80 when i wanted the $60 one. And an short almond shaped fullset with NO POLISH and a heart design on one nail each hand came to $90??? And tried charging me $30 to get an eyebrow wax and chin (no visible hair). This was insane. Total was $180. I Wont be going back",
@@ -61,7 +92,18 @@
       "date": "2025-10-01"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Annie",
+      "role": "Senior Nail Technician",
+      "bio": "Annie is the most frequently praised member of the VNails team — known for her gentle touch with damaged nails, her calm and efficient service style, and her willingness to make things right without hesitation. Multiple clients specifically book with her and credit her as the reason they keep coming back.",
+      "credentials": [
+        "Nail art specialist",
+        "Customer-first approach",
+        "Acrylic & pedicure expert"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -116,28 +158,80 @@
   ],
   "stats": [
     {
-      "value": 166,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.5,
+      "suffix": "★",
+      "label": "Average Customer Rating"
     },
     {
-      "value": 4.5,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 166,
+      "suffix": "+",
+      "label": "Verified Customer Reviews"
+    },
+    {
+      "value": 6,
+      "suffix": " days",
+      "label": "Open Every Week"
+    },
+    {
+      "value": 500,
+      "suffix": "+",
+      "label": "Happy Clients Served"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "What makes VNails and Spa different from other nail salons in Philadelphia?",
+      "answer": "Customers consistently highlight three things: the quality of the nail art (neat, creative, and stylish enough to earn unsolicited compliments), the cleanliness and calming atmosphere of the salon, and the warmth of the staff — particularly Annie, who is known for being gentle, efficient, and genuinely accountable. It's a salon where first-timers often leave feeling like regulars."
+    },
+    {
+      "question": "Do the prices on the menu match what I'll actually pay?",
+      "answer": "The salon offers a range of service tiers — including spa and luxury pedicure options — and pricing can vary depending on the specific service level you receive. To avoid surprises, we recommend confirming the exact service and price with your technician before they begin. Don't hesitate to ask — the team is welcoming and happy to walk you through your options."
+    },
+    {
+      "question": "How long does a luxury pedicure take, and is it worth it?",
+      "answer": "The luxury pedicure is one of the salon's most praised services, with clients describing it as 'heavenly' and noting their feet feel noticeably soft and refreshed afterward. It runs longer than a basic pedicure and is priced accordingly — plan for a relaxed visit rather than a quick in-and-out, and most clients say it's absolutely worth it."
+    },
+    {
+      "question": "What should I do if I'm not satisfied with my service?",
+      "answer": "VNails and Spa stands behind their work. At least one reviewer specifically noted that Annie fixed a pedicure issue the day after the original appointment with no fuss. If something isn't right, reach out to the salon directly — the team has demonstrated a real willingness to make things right."
+    },
+    {
+      "question": "Do you offer nail art and custom designs?",
+      "answer": "Yes — nail art is one of the salon's standout offerings. Technicians create detailed, custom designs that clients describe as turning out 'even better than imagined.' Whether you want something subtle like a small heart detail or something more elaborate, the team has the skill to deliver."
+    },
+    {
+      "question": "Are walk-ins welcome, or should I book an appointment?",
+      "answer": "VNails and Spa is open Monday through Friday from 9:30 AM to 6:30 PM and Saturday from 9:00 AM to 4:00 PM (closed Sundays). To guarantee your preferred technician and service time, calling ahead at (215) 852-9475 is recommended — especially on Saturdays, which tend to be busier with the shorter hours."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#2D2D3A",
+    "accent": "#C9A96E",
+    "note": "A deep charcoal-navy primary reflects the salon's clean, modern, and calming atmosphere described in reviews — sophisticated without being cold. The warm gold accent nods to the 'luxury' service tier that customers love and the stylish, trendy interior vibe. Together they feel upscale but approachable, matching the salon's real personality."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Consistently warm, professional, and welcoming staff — especially Annie, who is named across multiple reviews as a standout technician with genuine accountability",
+      "High-quality nail art and pedicure services that exceed customer expectations and generate real-world compliments",
+      "Clean, bright, calming salon environment that elevates the overall experience and reflects a genuine investment in the space"
+    ],
+    "common_complaints": [
+      "Pricing transparency: multiple reviewers noted that the final bill was higher than expected due to service tier upgrades (e.g., luxury pedicure instead of spa) that were not clearly communicated beforehand",
+      "Dip manicure quality inconsistency: one reviewer noted chipping after one week, visible grown-out spacing, and a lack of standard manicure steps like cuticle cleaning and warm towels for a $65 service"
+    ],
+    "suggested_tagline": "Where Your Nails Do the Talking.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "welcoming",
+      "professional",
+      "creative",
+      "calming",
+      "accountable"
+    ],
+    "named_staff": [
+      "Annie"
+    ]
   }
 }

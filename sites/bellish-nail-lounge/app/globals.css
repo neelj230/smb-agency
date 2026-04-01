@@ -1,0 +1,382 @@
+@import "tailwindcss";
+
+/* Scan shared packages for Tailwind classes */
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #f4e6da;
+  --brand-accent: #84b9ef;
+  --brand-bg: #1a1615;
+  --brand-bg-alt: #181312;
+  --brand-text: #111111;
+  --brand-muted: #666666;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: var(--brand-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+/* Marquee animation for carousels */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Smooth section transitions */
+section, [id] > div {
+  scroll-margin-top: 80px;
+}
+
+/* Focus-visible outlines for accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Inset border for editorial/gallery feel */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 12px;
+  z-index: 999;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  pointer-events: none;
+  border-radius: 2px;
+}
+
+/* Film grain overlay for warm analog feel */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+  mix-blend-mode: hard-light;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+/* Gradient transitions between sections */
+.section-gradient {
+  position: relative;
+}
+.section-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--brand-bg));
+  pointer-events: none;
+}
+
+/* Creative director extras */
+/* ─────────────────────────────────────────────────────────────────────────────
+   Bellish Nail Lounge — custom CSS extras
+   Append to globals.css
+───────────────────────────────────────────────────────────────────────────── */
+
+/* Brand tokens */
+:root {
+  --bellish-cream:   #f4e6da;
+  --bellish-blue:    #84b9ef;
+  --bellish-dark:    #1a1410;
+  --bellish-dark-2:  #231c16;
+  --bellish-mid:     #3a2e26;
+  --bellish-text:    #1a1410;
+}
+
+/* ── Film-grain overlay ── */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
+  mix-blend-mode: overlay;
+  opacity: 0.028;
+}
+
+/* ── Picture-frame inset ── */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 10px;
+  pointer-events: none;
+  z-index: 9998;
+  border: 1px solid rgba(132, 185, 239, 0.12);
+  border-radius: 4px;
+}
+
+/* ── Hero wrapper ── */
+.bellish-hero-wrapper {
+  position: relative;
+}
+
+/* ── Floating badge ── */
+.bellish-badge {
+  position: absolute;
+  bottom: 2.5rem;
+  right: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: rgba(244, 230, 218, 0.15);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(244, 230, 218, 0.3);
+  border-radius: 100px;
+  padding: 0.55rem 1.1rem;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  z-index: 20;
+  pointer-events: none;
+}
+
+.bellish-badge__star {
+  color: var(--bellish-blue);
+  font-size: 0.9rem;
+}
+
+/* ── Marquee ticker ── */
+.bellish-ticker {
+  overflow: hidden;
+  background: var(--bellish-dark);
+  padding: 0.85rem 0;
+  border-top: 1px solid rgba(132, 185, 239, 0.18);
+  border-bottom: 1px solid rgba(132, 185, 239, 0.18);
+}
+
+.bellish-ticker__track {
+  display: flex;
+  white-space: nowrap;
+  will-change: transform;
+}
+
+.bellish-ticker__item {
+  display: inline-block;
+  padding: 0 2rem;
+  font-family: 'Instrument Serif', Georgia, serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  color: var(--bellish-cream);
+  opacity: 0.85;
+  text-transform: uppercase;
+}
+
+/* ── Dark band (stats) ── */
+.bellish-dark-band {
+  background: var(--bellish-dark);
+  padding: 4rem 0;
+}
+
+/* ── About wrapper ── */
+.bellish-about-wrapper {
+  background: var(--bellish-cream);
+  padding: 6rem 0;
+}
+
+/* ── Services wrapper ── */
+.bellish-services-wrapper {
+  background: #fdf6f0;
+  padding: 6rem 0;
+  position: relative;
+}
+
+.bellish-services-wrapper::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(132, 185, 239, 0.3), transparent);
+}
+
+/* ── Gallery dark section ── */
+.bellish-gallery-dark {
+  background: var(--bellish-dark-2);
+  padding: 6rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.bellish-gallery-dark::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(132, 185, 239, 0.25), transparent);
+}
+
+/* Decorative blob behind gallery */
+.bellish-gallery-blob {
+  position: absolute;
+  top: -200px;
+  right: -200px;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(132, 185, 239, 0.07) 0%, transparent 70%);
+  pointer-events: none;
+  will-change: transform;
+}
+
+/* ── Reviews wrapper ── */
+.bellish-reviews-wrapper {
+  background: var(--bellish-cream);
+  padding: 6rem 0;
+}
+
+/* ── FAQ dark section ── */
+.bellish-faq-dark {
+  background: var(--bellish-dark);
+  padding: 6rem 0;
+  position: relative;
+}
+
+.bellish-faq-dark::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(132, 185, 239, 0.2), transparent);
+}
+
+/* Override accordion text for dark bg */
+.bellish-faq-dark h2,
+.bellish-faq-dark h3,
+.bellish-faq-dark p,
+.bellish-faq-dark button,
+.bellish-faq-dark [role="button"],
+.bellish-faq-dark summary,
+.bellish-faq-dark div {
+  color: var(--bellish-cream);
+}
+
+.bellish-faq-dark [data-state="open"],
+.bellish-faq-dark [aria-expanded="true"] {
+  color: var(--bellish-blue);
+}
+
+/* ── Contact wrapper ── */
+.bellish-contact-wrapper {
+  background: #fdf6f0;
+  padding: 6rem 0;
+}
+
+/* ── Wave divider ── */
+.bellish-wave {
+  line-height: 0;
+  overflow: hidden;
+}
+
+.bellish-wave svg {
+  display: block;
+  width: 100%;
+  height: 60px;
+}
+
+/* ── Dot-pattern texture on services ── */
+.bellish-services-wrapper {
+  background-image: radial-gradient(rgba(132, 185, 239, 0.12) 1px, transparent 1px);
+  background-size: 28px 28px;
+  background-color: #fdf6f0;
+}
+
+/* ── Card hover scale ── */
+.bellish-services-wrapper [class*="card"],
+.bellish-services-wrapper [class*="Card"],
+.bellish-reviews-wrapper [class*="card"],
+.bellish-reviews-wrapper [class*="Card"] {
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.3s ease;
+}
+
+.bellish-services-wrapper [class*="card"]:hover,
+.bellish-services-wrapper [class*="Card"]:hover,
+.bellish-reviews-wrapper [class*="card"]:hover,
+.bellish-reviews-wrapper [class*="Card"]:hover {
+  transform: translateY(-4px) scale(1.015);
+  box-shadow: 0 20px 48px rgba(26, 20, 16, 0.1);
+}
+
+/* ── Typography overrides ── */
+.bellish-dark-band h2,
+.bellish-dark-band h3,
+.bellish-dark-band p,
+.bellish-dark-band span {
+  color: var(--bellish-cream);
+}
+
+.bellish-gallery-dark h2,
+.bellish-gallery-dark p {
+  color: var(--bellish-cream);
+}
+
+/* ── Accent color for headings on dark ── */
+.bellish-dark-band [class*="accent"],
+.bellish-gallery-dark [class*="accent"],
+.bellish-faq-dark [class*="accent"] {
+  color: var(--bellish-blue);
+}
+
+/* ── Booksy CTA button pulse ── */
+@keyframes bellish-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(132, 185, 239, 0.35); }
+  50%       { box-shadow: 0 0 0 12px rgba(132, 185, 239, 0); }
+}
+
+a[href*="booksy"] {
+  animation: bellish-pulse 2.8s ease-in-out infinite;
+}
+
+/* ── Smooth scroll ── */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ── Responsive: hide badge on small screens ── */
+@media (max-width: 640px) {
+  .bellish-badge {
+    bottom: 1.25rem;
+    right: 1rem;
+    font-size: 0.7rem;
+    padding: 0.4rem 0.8rem;
+  }
+
+  .bellish-ticker__item {
+    padding: 0 1.25rem;
+    font-size: 0.78rem;
+  }
+
+  .bellish-about-wrapper,
+  .bellish-services-wrapper,
+  .bellish-reviews-wrapper,
+  .bellish-contact-wrapper,
+  .bellish-gallery-dark,
+  .bellish-faq-dark,
+  .bellish-dark-band {
+    padding: 4rem 0;
+  }
+}

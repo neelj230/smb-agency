@@ -1,20 +1,21 @@
 @import "tailwindcss";
 
+/* Scan shared packages for Tailwind classes */
 @source "../../../packages/components/**/*.{ts,tsx}";
 @source "../../../packages/integrations/**/*.{ts,tsx}";
 
 :root {
-  --brand-primary: #1d65d1;
-  --brand-accent: #f3e063;
-  --brand-bg: #f8fafc;
-  --brand-bg-alt: #e6eefa;
-  --brand-text: #081d3a;
-  --brand-muted: #4a6a8a;
+  --brand-primary: #156cc2;
+  --brand-accent: #0ea158;
+  --brand-bg: #f4f1ee;
+  --brand-bg-alt: #dcddde;
+  --brand-text: #1a1a1a;
+  --brand-muted: #1a1a1a;
 }
 
 ::selection {
-  background-color: #1d65d1;
-  color: white;
+  background-color: var(--brand-primary);
+  color: var(--brand-bg);
 }
 
 html {
@@ -22,15 +23,254 @@ html {
 }
 
 body {
-  background: var(--brand-bg);
+  background-color: var(--brand-bg);
   color: var(--brand-text);
 }
 
+/* Marquee animation for carousels */
 @keyframes marquee {
-  0% {
-    transform: translateX(0%);
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Smooth section transitions */
+section, [id] > div {
+  scroll-margin-top: 80px;
+}
+
+/* Focus-visible outlines for accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Inset border for editorial/gallery feel */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 12px;
+  z-index: 999;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  pointer-events: none;
+  border-radius: 2px;
+}
+
+/* Gradient transitions between sections */
+.section-gradient {
+  position: relative;
+}
+.section-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--brand-bg));
+  pointer-events: none;
+}
+
+/* Creative director extras */
+/* ─── Google Fonts ─────────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;600;700&display=swap');
+
+/* ─── Brand tokens ─────────────────────────────────────────────────── */
+:root {
+  --brand-primary: #156cc2;
+  --brand-accent:  #0ea158;
+  --brand-dark:    #0f1923;
+  --brand-text:    #1a1f2e;
+  --brand-muted:   #64748b;
+  --brand-bg:      #f7f8fa;
+}
+
+/* ─── Base typography ──────────────────────────────────────────────── */
+.marcos-page {
+  font-family: 'Source Sans 3', sans-serif;
+  color: var(--brand-text);
+  background: #fff;
+}
+
+.marcos-page h1,
+.marcos-page h2,
+.marcos-page h3,
+.marcos-page h4 {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+}
+
+/* ─── Film grain overlay ────────────────────────────────────────────── */
+.marcos-page::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+  opacity: 0.028;
+  mix-blend-mode: hard-light;
+}
+
+/* ─── Dot pattern ───────────────────────────────────────────────────── */
+.dot-pattern {
+  background-image: radial-gradient(rgba(255,255,255,0.08) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+/* ─── Scrolling trust bar ───────────────────────────────────────────── */
+.trust-bar-wrapper {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.trust-bar-track {
+  display: flex;
+  width: max-content;
+  animation: trustScroll 30s linear infinite;
+  gap: 0;
+}
+
+.trust-bar-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0 2.5rem;
+  color: rgba(255,255,255,0.92);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.trust-bar-dot {
+  font-size: 0.55rem;
+  flex-shrink: 0;
+}
+
+@keyframes trustScroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* ─── Emergency banner pipe decorations ────────────────────────────── */
+.emergency-banner {
+  position: relative;
+}
+
+.pipe-deco {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 180px;
+  height: 6px;
+  background: rgba(255,255,255,0.07);
+  border-radius: 3px;
+}
+
+.pipe-deco::before,
+.pipe-deco::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255,255,255,0.07);
+  border-radius: 3px;
+}
+
+.pipe-deco::before {
+  width: 100%;
+  height: 18px;
+  top: -14px;
+}
+
+.pipe-deco::after {
+  width: 60%;
+  height: 10px;
+  top: 10px;
+}
+
+.pipe-deco--left  { left: 2vw; }
+.pipe-deco--right { right: 2vw; transform: translateY(-50%) scaleX(-1); }
+
+@media (max-width: 900px) {
+  .pipe-deco { display: none; }
+}
+
+/* ─── Emergency CTA button hover ───────────────────────────────────── */
+.emergency-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 36px rgba(0,0,0,0.28) !important;
+}
+
+/* ─── Gallery dark section heading color fix ────────────────────────── */
+.marcos-page section[style*="0f1923"] h2,
+.marcos-page div[style*="0f1923"] h2 {
+  color: #fff;
+}
+
+/* ─── Stagger fade-up for service cards ─────────────────────────────── */
+.marcos-page [data-service-card] {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.marcos-page [data-service-card]:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(21,108,194,0.12);
+}
+
+/* ─── Gallery eyebrow label ─────────────────────────────────────────── */
+.gallery-eyebrow {
+  display: block;
+}
+
+/* ─── Stats dark section refinements ────────────────────────────────── */
+.marcos-page div[style*="0f1923"] {
+  border-top: 1px solid rgba(255,255,255,0.04);
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+
+/* ─── Picture frame on hero ─────────────────────────────────────────── */
+.marcos-page section#home::before {
+  content: '';
+  position: absolute;
+  inset: 12px;
+  border: 1px solid rgba(255,255,255,0.08);
+  pointer-events: none;
+  z-index: 5;
+}
+
+.marcos-page section#home {
+  position: relative;
+}
+
+/* ─── Accent divider gradient ────────────────────────────────────────── */
+.marcos-page div[style*="linear-gradient"] {
+  position: relative;
+}
+
+/* ─── FAQ section heading ────────────────────────────────────────────── */
+.marcos-page section#faq h2 {
+  color: var(--brand-text);
+}
+
+/* ─── Footer brand color ─────────────────────────────────────────────── */
+.marcos-page footer a:hover {
+  color: var(--brand-accent);
+  transition: color 0.2s;
+}
+
+/* ─── Smooth scroll ──────────────────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ─── Mobile trust bar speed ─────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .trust-bar-track {
+    animation-duration: 18s;
   }
-  100% {
-    transform: translateX(-50%);
+  .trust-bar-item {
+    padding: 0 1.5rem;
   }
 }

@@ -1,0 +1,190 @@
+{
+  "name": "Sheldon N Berger Tax Service",
+  "slug": "sheldon-n-berger-tax-service",
+  "category": "accounting firm",
+  "address": "832 SE 60th Ave",
+  "city": "Hillsboro",
+  "state": "OR",
+  "zip": "97123",
+  "phone": "(971) 227-1334",
+  "email": "",
+  "website": null,
+  "rating": 3.9,
+  "reviewCount": 32,
+  "tagline": "Real Answers. Real Refunds. Real Simple.",
+  "brandNarrative": "Sheldon N Berger Tax Service is the kind of place that feels like a well-kept secret among Hillsboro locals — where one visit turns first-timers into loyal regulars. Customers like Jhen Smith and Debbie describe walking in for the first time and immediately feeling at ease, thanks to Sheldon's patient, detailed explanations and genuinely warm demeanor. He doesn't rush you through the process — he walks you through every line, every question, every detail, until you actually understand what's happening with your money. That's a rare thing in tax prep, and clients notice it immediately.",
+  "ownerStory": "Sheldon Berger built his tax practice on a simple conviction: that people deserve to understand their own financial situation, not just sign at the bottom of a form someone else filled out. Operating out of his Hillsboro office on SE 60th Ave, Sheldon has made himself available six days a week — evenings included — so that working families, self-employed folks, and anyone who's fallen behind on filing can access real professional help without rearranging their entire schedule. His clients don't describe him as a preparer; they describe him as a guide. Someone who explains every detail, fields every question without impatience, and makes a typically stressful annual ritual feel genuinely manageable. That's the business he set out to build, and by all accounts, it's exactly what he's delivered.",
+  "hours": {
+    "Monday": "8:00 AM – 7:00 PM",
+    "Tuesday": "8:00 AM – 7:00 PM",
+    "Wednesday": "8:00 AM – 7:00 PM",
+    "Thursday": "8:00 AM – 7:00 PM",
+    "Friday": "8:00 AM – 7:00 PM",
+    "Saturday": "8:00 AM – 4:00 PM",
+    "Sunday": "11:00 AM – 4:00 PM"
+  },
+  "services": [
+    {
+      "name": "Individual Tax Return Preparation",
+      "description": "Personal federal and state tax return filing with thorough review of your financial situation to maximize your refund and minimize what you owe.",
+      "icon": "file-text"
+    },
+    {
+      "name": "Multi-Year Back Tax Filing",
+      "description": "Catch up on multiple years of unfiled returns efficiently — Sheldon has completed two years of returns in a single appointment.",
+      "icon": "calendar-check"
+    },
+    {
+      "name": "Tax Situation Assessment",
+      "description": "A detailed review of your income, deductions, and withholdings to identify errors, missed credits, and opportunities before filing.",
+      "icon": "search"
+    },
+    {
+      "name": "TurboTax & DIY Override Review",
+      "description": "Already tried filing yourself and got a number that doesn't look right? Sheldon reviews self-prepared returns and corrects costly mistakes.",
+      "icon": "refresh-cw"
+    },
+    {
+      "name": "Self-Employed & Small Business Taxes",
+      "description": "Tax preparation tailored to freelancers, contractors, and small business owners navigating deductions, quarterly estimates, and business income.",
+      "icon": "briefcase"
+    },
+    {
+      "name": "Tax Guidance & Planning Consultation",
+      "description": "One-on-one sessions to explain your tax situation in plain language and help you make smarter financial decisions throughout the year.",
+      "icon": "message-circle"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Sheldon was amazing to work with. He provided valuable guidance and was very pleasant during our meeting! His rate was very reasonable and we will definitely be using him for our taxes going forward!",
+      "author": "Anthony Mendoza",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-04-14"
+    },
+    {
+      "text": "It was my first time filing with Sheldon N Berger and it was such a great experience. Such a really nice guy, explaining every single details and very accommodating with our questions. The fee is also very much reasonable compared to the other commercialized preparers. I definitely recommend this place, no doubt!",
+      "author": "Jhen Smith",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-03-27"
+    },
+    {
+      "text": "So happy to have the pleasure of meeting Sheldon today.\nOur new go to tax professional from now on. Very nice man.\n\nThank you Sheldon! for your help with taxes.\n\nSee you next year! 😊",
+      "author": "Debbie",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-04-05"
+    },
+    {
+      "text": "Sheldon exceeded my expectations! He filed two years of tax returns for me in one night. Not only was he super efficient- he was professional, easy to talk to, and very well priced! I will be returning next year and highly recommend his services.",
+      "author": "Kathrine Helms",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-04-29"
+    },
+    {
+      "text": "Tried filing my taxes on TurboTax this year (as I’ve always done) and I was projected to owe thousands. After a visit to Sheldon, he was able to assess my tax situation and I’m now receiving a return of several hundred. I was amazed at how much value I got for such an affordable cost. I would definitely recommend Sheldon as the first place to stop if you’re looking for help on your taxes.",
+      "author": "Joshua Hascall",
+      "rating": 5,
+      "source": "google",
+      "date": "2018-01-27"
+    }
+  ],
+  "team": [
+    {
+      "name": "Sheldon Berger",
+      "role": "Tax Preparer & Owner",
+      "bio": "Described by clients as patient, thorough, and genuinely pleasant to work with, Sheldon takes the time to explain every detail of your return and has a proven track record of turning expected tax bills into refunds. His rates are consistently praised as fair and far below commercial chain preparers.",
+      "credentials": [
+        "Tax Preparer",
+        "Individual & Business Tax Filing",
+        "Multi-Year Return Specialist"
+      ]
+    }
+  ],
+  "photos": [],
+  "stats": [
+    {
+      "value": 32,
+      "suffix": "",
+      "label": "Verified Customer Reviews"
+    },
+    {
+      "value": 3.9,
+      "suffix": "★",
+      "label": "Average Star Rating"
+    },
+    {
+      "value": 6,
+      "suffix": " Days",
+      "label": "Available Every Week Including Evenings"
+    },
+    {
+      "value": 1,
+      "suffix": " Night",
+      "label": "To File Multiple Years of Returns"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How does Sheldon's pricing compare to places like H&R Block or TurboTax?",
+      "answer": "Multiple clients specifically call out the pricing as 'very reasonable' and significantly lower than commercial tax preparation chains. You get one-on-one attention from an experienced preparer at a cost that surprises most first-time clients in the best way."
+    },
+    {
+      "question": "I tried filing on TurboTax and it says I owe money — can Sheldon help?",
+      "answer": "Absolutely. One client came in projected to owe thousands through TurboTax and left with a refund of several hundred dollars after Sheldon assessed the full tax situation. A professional review often finds deductions and credits that software misses."
+    },
+    {
+      "question": "What if I haven't filed taxes in more than one year?",
+      "answer": "Sheldon handles multi-year back filing and has completed two years of returns in a single appointment. Don't let fear of being behind stop you from getting current — he makes the process straightforward and judgment-free."
+    },
+    {
+      "question": "What are the office hours and do I need an appointment?",
+      "answer": "Sheldon is available Monday through Friday 8 AM to 7 PM, Saturday 8 AM to 4 PM, and Sunday 11 AM to 4 PM. The extended evening and weekend hours make it easy to fit a visit around a busy work schedule. Call (971) 227-1334 to arrange your visit."
+    },
+    {
+      "question": "Will Sheldon actually explain my taxes or just hand me papers to sign?",
+      "answer": "Explaining is one of the things clients praise most. Jhen Smith noted he explained 'every single detail' and was very accommodating with questions. First-timers and long-time filers alike leave saying they actually understand their return for the first time."
+    },
+    {
+      "question": "Is this a good option for someone filing for the first time?",
+      "answer": "Several first-time filers have reviewed Sheldon and described the experience as welcoming, easy to navigate, and pressure-free. He's patient with questions and makes sure you understand exactly what's being filed on your behalf before anything is submitted."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#1B3A5C",
+    "accent": "#2EAF7D",
+    "note": "Deep navy signals trust, expertise, and financial credibility — the colors of someone you hand your sensitive documents to without hesitation. The emerald green accent reflects the money-back results clients actually receive, and adds an approachable, optimistic energy that matches Sheldon's warm and down-to-earth personality. Together they feel professional but not corporate — exactly like the business itself."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Consistently delivers better financial outcomes than DIY software — clients who expected tax bills leave with refunds",
+      "Sheldon's personal warmth, patience, and detailed explanations turn first-time visitors into loyal annual clients",
+      "Highly competitive, transparent pricing compared to national chain tax preparers"
+    ],
+    "common_complaints": [
+      "No website presence makes discovery and appointment booking difficult for new clients",
+      "Overall rating of 3.9 suggests some mixed experiences not represented in the available 5-star reviews",
+      "No listed services or team info online creates friction for prospective clients researching before calling"
+    ],
+    "suggested_tagline": "Your Refund Is Bigger Than You Think.",
+    "photo_quality": "poor",
+    "personality_keywords": [
+      "warm",
+      "patient",
+      "thorough",
+      "approachable",
+      "results-driven"
+    ],
+    "named_staff": [
+      "Sheldon Berger"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

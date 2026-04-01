@@ -1,0 +1,309 @@
+@import "tailwindcss";
+
+/* Scan shared packages for Tailwind classes */
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #00A64C;
+  --brand-accent: #0091a6;
+  --brand-bg: #ffffff;
+  --brand-bg-alt: #e5ede9;
+  --brand-text: #000000;
+  --brand-muted: #000000;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: var(--brand-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+/* Marquee animation for carousels */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Smooth section transitions */
+section, [id] > div {
+  scroll-margin-top: 80px;
+}
+
+/* Focus-visible outlines for accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Inset border for editorial/gallery feel */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 12px;
+  z-index: 999;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  pointer-events: none;
+  border-radius: 2px;
+}
+
+/* Film grain overlay for warm analog feel */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+  mix-blend-mode: hard-light;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+/* Gradient transitions between sections */
+.section-gradient {
+  position: relative;
+}
+.section-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--brand-bg));
+  pointer-events: none;
+}
+
+/* Creative director extras */
+/* ── Overhill Flowers — Custom CSS ─────────────────────────────────────────── */
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600&display=swap');
+
+/* Brand tokens */
+:root {
+  --brand-primary: #00A64C;
+  --brand-accent: #0091a6;
+  --brand-text: #1a1a1a;
+  --brand-cream: #faf7f2;
+  --brand-cream-dark: #f0ebe1;
+  --brand-leaf: #e8f5ee;
+}
+
+/* Base typography */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: var(--brand-text);
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Instrument Serif', serif;
+}
+
+/* ── Film grain overlay ───────────────────────────────────────────────────── */
+.overhill-grain {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  opacity: 0.025;
+  mix-blend-mode: overlay;
+}
+
+/* ── Marquee strip ────────────────────────────────────────────────────────── */
+.overhill-marquee-root {
+  background-color: var(--brand-primary);
+  overflow: hidden;
+  padding: 0.75rem 0;
+  white-space: nowrap;
+}
+
+.overhill-marquee-track {
+  display: inline-flex;
+  animation: overhill-scroll 28s linear infinite;
+  will-change: transform;
+}
+
+.overhill-marquee-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 0 2rem;
+}
+
+.overhill-marquee-dot {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.55);
+  flex-shrink: 0;
+}
+
+@keyframes overhill-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* ── Tagline banner ───────────────────────────────────────────────────────── */
+.overhill-tagline-wrap {
+  background-color: var(--brand-cream);
+  padding: 4rem 1.5rem;
+}
+
+.overhill-tagline-banner {
+  max-width: 860px;
+  margin: 0 auto;
+  border: 1px solid rgba(0, 166, 76, 0.25);
+  border-radius: 2px;
+  padding: 2.5rem 3rem;
+  background: #ffffff;
+  box-shadow: 0 2px 32px rgba(0, 166, 76, 0.06);
+  position: relative;
+}
+
+.overhill-tagline-banner::before {
+  content: '';
+  position: absolute;
+  inset: 6px;
+  border: 1px solid rgba(0, 166, 76, 0.1);
+  border-radius: 1px;
+  pointer-events: none;
+}
+
+.overhill-tagline-inner {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.overhill-tagline-leaf {
+  font-size: 1.2rem;
+  color: var(--brand-primary);
+  flex-shrink: 0;
+}
+
+.overhill-tagline-text {
+  font-family: 'Instrument Serif', serif;
+  font-style: italic;
+  font-size: clamp(1.3rem, 3vw, 2rem);
+  color: var(--brand-text);
+  text-align: center;
+  line-height: 1.35;
+  margin: 0;
+}
+
+/* ── Section helpers ──────────────────────────────────────────────────────── */
+.overhill-section-pad {
+  padding: 5rem 1.5rem;
+}
+
+.overhill-section-light {
+  background-color: #ffffff;
+}
+
+.overhill-section-cream {
+  background-color: var(--brand-cream);
+}
+
+/* ── Dark gallery band ────────────────────────────────────────────────────── */
+.overhill-dark-band {
+  background-color: #111410;
+  color: #ffffff;
+  padding: 5rem 0;
+}
+
+.overhill-dark-band h2,
+.overhill-dark-band h3 {
+  color: #ffffff;
+}
+
+/* ── FAQ dark section ─────────────────────────────────────────────────────── */
+.overhill-faq-dark {
+  background-color: #0d1a12;
+  color: #ffffff;
+}
+
+.overhill-faq-dark h2,
+.overhill-faq-dark h3,
+.overhill-faq-dark p {
+  color: #f0f7f3;
+}
+
+.overhill-faq-dark button {
+  color: #f0f7f3 !important;
+  border-color: rgba(255,255,255,0.12) !important;
+}
+
+.overhill-faq-dark button:hover {
+  background-color: rgba(0, 166, 76, 0.12) !important;
+}
+
+.overhill-faq-dark [data-state="open"],
+.overhill-faq-dark [aria-expanded="true"] {
+  color: var(--brand-primary) !important;
+}
+
+/* ── Dot pattern accent ───────────────────────────────────────────────────── */
+.dot-pattern {
+  background-image: radial-gradient(circle, rgba(0, 166, 76, 0.15) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+/* ── Glass card utility ───────────────────────────────────────────────────── */
+.glass {
+  backdrop-filter: blur(14px) saturate(1.4);
+  -webkit-backdrop-filter: blur(14px) saturate(1.4);
+  background: rgba(255, 255, 255, 0.62);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+/* ── Hover scale for cards ────────────────────────────────────────────────── */
+.overhill-hover-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.overhill-hover-card:hover {
+  transform: translateY(-4px) scale(1.015);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.1);
+}
+
+/* ── Picture-frame border on hero ────────────────────────────────────────── */
+.overhill-hero-frame::before {
+  content: '';
+  position: absolute;
+  inset: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  pointer-events: none;
+  z-index: 10;
+}
+
+/* ── Responsive tweaks ────────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .overhill-tagline-banner {
+    padding: 1.75rem 1.25rem;
+  }
+  .overhill-tagline-inner {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .overhill-section-pad {
+    padding: 3.5rem 1rem;
+  }
+}

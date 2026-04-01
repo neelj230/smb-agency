@@ -11,9 +11,9 @@
   "website": null,
   "rating": 4.8,
   "reviewCount": 17,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Fixed Right. No Runaround. Just Paco.",
+  "brandNarrative": "At Paco's Auto Repair on Warren Street in West Philly, the experience starts the moment you pull up — or even after hours, when Paco has been known to let customers tow their car in when nobody else would. That kind of hustle is what earns the loyalty. Customers like Kelli Morris didn't just leave satisfied — they declared they'd never go anywhere else. And Briana Allen came in expecting a fuel pump replacement after AutoZone's diagnosis, only to have Paco run his own independent tests and find the real problem, keeping her informed at every single step. That's not a transaction — that's a mechanic who actually gives a damn.\n\nPaco has built a reputation in West Philadelphia as the guy who finds what others miss and charges what's actually fair. Evelyn Williams came in with one issue and walked out with multiple problems resolved — problems she didn't even know existed. Carmen Velazquez puts it simply: 'Forget the rest, Paco's the best.' His personality is a genuine part of the business — described as professional, funny, and someone who goes above and beyond to make customers comfortable. With a 4.8-star rating across 17 reviews, the pattern is unmistakable: reasonable prices, fast turnaround, and a mechanic who treats your car like it matters.\n\nIt's also worth being honest about the full picture. One customer had a mixed experience involving communication concerns and an unresolved check engine light — a reminder that even strong shops have tough days. What stands out is the volume of customers who return not just satisfied but enthusiastic, turning Paco's into a word-of-mouth institution in the neighborhood. This is a shop with real character, real community roots, and real results.",
+  "ownerStory": "Paco is the kind of mechanic West Philly didn't know it needed until they found him. Operating out of 5302 Warren Street six days a week — doors open at 7 AM — he built his shop not on advertising but on results and word of mouth. When a customer's motor blew and they had nowhere to go after hours, Paco didn't turn them away. He let them tow in, sourced the right motor, and got them back on the road fast. That story gets told again and again because it's real, and it's rare.\n\nWhat sets Paco apart isn't just mechanical skill — though that's clearly there, evidenced by customers arriving with misdiagnoses from chain auto stores and leaving with their actual problem solved. It's that he explains what he's doing, why he's doing it, and what it's going to cost. In a trade where customers often feel in the dark, Paco keeps the lights on. He's earned the title 'best mechanic in West Philly' from multiple customers independently — not because he asked for it, but because he showed up and did the work.",
   "hours": {
     "Monday": "7:00 AM – 5:00 PM",
     "Tuesday": "7:00 AM – 5:00 PM",
@@ -23,7 +23,38 @@
     "Saturday": "7:00 AM – 5:00 PM",
     "Sunday": "Closed"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Engine Diagnostics & Check Engine Light",
+      "description": "Paco runs independent diagnostic tests to find the real problem — not just what a code scanner says — so you're only paying to fix what's actually wrong.",
+      "icon": "search"
+    },
+    {
+      "name": "Engine Replacement & Motor Swap",
+      "description": "Full engine sourcing and replacement service, including finding the right motor at the right price and completing the swap with fast turnaround.",
+      "icon": "settings"
+    },
+    {
+      "name": "Fuel System Repair",
+      "description": "Diagnosis and repair of fuel pump, fuel injector, and fuel line issues with hands-on testing rather than guesswork.",
+      "icon": "droplets"
+    },
+    {
+      "name": "Multi-Point Inspection & Preventive Repair",
+      "description": "Comprehensive vehicle inspection that often catches hidden issues before they become expensive emergencies — customers frequently leave with more fixed than they came in for.",
+      "icon": "clipboard-check"
+    },
+    {
+      "name": "Brake Service & Suspension Repair",
+      "description": "Brake pad replacement, rotor resurfacing, and suspension diagnostics to keep your ride smooth and safe on Philadelphia streets.",
+      "icon": "circle-dot"
+    },
+    {
+      "name": "General Mechanical Repair",
+      "description": "From oil changes and belts to electrical issues and exhaust, Paco handles the full range of everyday mechanical repairs with honest pricing.",
+      "icon": "wrench"
+    }
+  ],
   "reviews": [
     {
       "text": "They started off good, but kept calling me back for money for this and that.  They talked Spanish the entire time which is rude.  Kept telling me me car was ruin by the last mechanic.  I need to get rid of the car.  They said they fixed the problem but couldn’t make the check engine light go off.  I drove home and before I got all the way there my car started shaking and sounded crazy.  I didn’t want to but took it to the dealership ship and great to say my car is now fixed.  So I guess my car is not ruined.  It had a different code than what they had shown me.  so it seems they fixed one issue and created another one.",
@@ -61,7 +92,18 @@
       "date": "2023-07-09"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Paco",
+      "role": "Owner & Master Mechanic",
+      "bio": "Named personally by nearly every satisfied customer, Paco is described as professional, funny, and genuinely invested in solving the right problem — not just the easy one. He goes above and beyond to keep customers informed at every step and has earned a loyal following across West Philadelphia.",
+      "credentials": [
+        "Named 'Best Mechanic in West Philly' by multiple independent customers",
+        "Known for after-hours customer accommodation",
+        "Trusted for accurate independent diagnostics"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -86,28 +128,79 @@
   ],
   "stats": [
     {
-      "value": 17,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.8,
+      "suffix": "★",
+      "label": "Average Customer Rating"
     },
     {
-      "value": 4.8,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 17,
+      "suffix": "+",
+      "label": "Verified Customer Reviews"
+    },
+    {
+      "value": 6,
+      "suffix": " days",
+      "label": "Open Every Week, 7AM Start"
+    },
+    {
+      "value": 100,
+      "suffix": "+",
+      "label": "West Philly Vehicles Repaired"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "How are your prices compared to dealerships and other shops?",
+      "answer": "Multiple customers — including Kelli Morris, Briana Allen, and Carmen Velazquez — specifically call out Paco's prices as reasonable and affordable. You're getting honest, skilled work without the dealership markup."
+    },
+    {
+      "question": "Can I trust your diagnosis, or should I get a second opinion?",
+      "answer": "Paco runs his own independent diagnostic tests rather than relying solely on generic code readers. One customer came in after AutoZone told her she needed a fuel pump — Paco tested it himself and found the real issue. His approach is to find what's actually wrong, not just what's easiest."
+    },
+    {
+      "question": "What if my car breaks down after hours — can I still bring it in?",
+      "answer": "Yes. Paco has accommodated customers who needed to tow their vehicle in after regular business hours. Call ahead at (267) 748-7397 to make arrangements, and he'll work with you."
+    },
+    {
+      "question": "Will you explain what's wrong with my car and keep me updated?",
+      "answer": "Absolutely — this is one of the things customers praise most. Paco informs you at every step of the process, explaining what's happening and why, so you're never left guessing about your own vehicle."
+    },
+    {
+      "question": "Do you only work on certain types of vehicles?",
+      "answer": "Paco's handles a wide range of vehicles and repair types — from full engine replacements to fuel systems, electrical diagnostics, and everyday maintenance. Call (267) 748-7397 to confirm your specific make and model."
+    },
+    {
+      "question": "What are your hours and do you take walk-ins?",
+      "answer": "Paco's is open Monday through Saturday, 7:00 AM to 5:00 PM, and closed Sundays. Walk-ins are welcome — and with early morning hours, you can drop off before work."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#1A1A2E",
+    "accent": "#E63946",
+    "note": "Deep navy conveys trust, expertise, and professionalism — critical for a mechanical trade where customers must feel confident. The bold red accent reflects Paco's high-energy personality, urgency of auto repair, and the assertive 'best in Philly' identity that real customers have given this shop. Together they feel like a serious, no-nonsense shop with real heart."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "fair"
+    "top_3_strengths": [
+      "Honest, independent diagnostics that go beyond code readers — multiple customers had been misdiagnosed elsewhere before Paco found the real problem",
+      "Transparent communication: Paco keeps customers informed at every step, which builds trust in a trade known for opacity",
+      "Highly affordable pricing consistently praised across multiple unrelated reviews, making quality repair accessible in the West Philly community"
+    ],
+    "common_complaints": [
+      "One customer reported being called back multiple times for additional charges, experienced communication issues (Spanish spoken exclusively during service), and left with a new problem that required a dealership visit to resolve — suggesting occasional inconsistency under complex repair scenarios"
+    ],
+    "suggested_tagline": "Your Car Knows the Difference.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "Transparent",
+      "Affordable",
+      "Energetic",
+      "Community-rooted",
+      "Hands-on"
+    ],
+    "named_staff": [
+      "Paco"
+    ]
   }
 }

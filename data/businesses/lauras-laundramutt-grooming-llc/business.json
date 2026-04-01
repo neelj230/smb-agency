@@ -1,0 +1,250 @@
+{
+  "name": "Laura's Laundramutt Grooming LLC",
+  "slug": "lauras-laundramutt-grooming-llc",
+  "category": "pet groomer",
+  "address": "1705 25th St SE",
+  "city": "Salem",
+  "state": "OR",
+  "zip": "97302",
+  "phone": "(503) 967-6116",
+  "email": "",
+  "website": null,
+  "rating": 4.7,
+  "reviewCount": 125,
+  "tagline": "Fresh Pups, Happy Tails, Real People.",
+  "brandNarrative": "Laura's Laundramutt Grooming isn't your average clip-and-go operation. Tucked into Salem's south side, this grooming shop has quietly built a loyal following of dog owners who keep coming back — not just because the prices are fair, but because their dogs actually like it here. Groomers like Ariel and Carol treat every dog as a regular, texting owners updates mid-appointment and accommodating everything from standard poodle styling to deshedding a pomsky without tacking on surprise fees. When a customer notes that their two 70-pound dogs have been coming here 'for years' and that 'the dogs like her,' that's not a transaction — that's a relationship.\n\nThe shop offers something increasingly rare in the grooming world: transparency and warmth at the same time. Customers rave about competitive pricing, quick appointment availability, and the kind of results that make you stop and look twice at your own dog. Whether it's a full groom on a long-haired large breed or a quick deshed add-on, the team here doesn't nickel-and-dime you — and that consistency has earned them a 4.7-star rating across 125 reviews.\n\nBut Laundramutt isn't only for the full-service crowd. Their self-serve wash stations have their own devoted fans — owners who want to handle bath time themselves with professional-grade tubs, hoses, and soap machines that actually work. One flat rate for dogs over 15 pounds? That kind of straightforward pricing signals something bigger: this is a place run by people who genuinely want dog owners to succeed, however they choose to show up.",
+  "ownerStory": "The name says it all: Laundramutt. It's playful, a little cheeky, and completely unpretentious — which is exactly the spirit Laura brought to 1705 25th St SE when she built this grooming space from the ground up. Laura's vision wasn't to create a luxury spa with a waitlist six weeks long. It was to make professional dog grooming and self-serve bathing genuinely accessible to Salem pet owners, without the sticker shock or the attitude. The result is a shop where groomers like Ariel and Carol feel empowered to build real relationships with their four-legged clients — texting owners updates, accommodating special requests, and remembering that every dog has its own personality.\n\nThe business has even grown through a location change without losing a single loyal customer — a testament to the trust the team has built one groom at a time. Laura's Laundramutt is the kind of neighborhood gem that doesn't need a flashy website to keep the appointments full. Word of mouth, wagging tails, and a refreshingly honest pricing model do all the work.",
+  "hours": {
+    "Monday": "Closed",
+    "Tuesday": "9:00 AM – 4:00 PM",
+    "Wednesday": "9:00 AM – 4:00 PM",
+    "Thursday": "9:00 AM – 4:00 PM",
+    "Friday": "9:00 AM – 4:00 PM",
+    "Saturday": "9:00 AM – 4:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Full Grooming Service",
+      "description": "Complete bath, dry, haircut, and styling tailored to your dog's breed and coat type — from poodle cuts to double-coat management.",
+      "icon": "scissors"
+    },
+    {
+      "name": "Deshedding Treatment",
+      "description": "A targeted deshedding add-on that removes loose undercoat without the inflated pricing you'll find elsewhere — available for all coat types including pomsky and long-haired breeds.",
+      "icon": "wind"
+    },
+    {
+      "name": "Nail Trimming",
+      "description": "Precise nail trimming performed by experienced groomers to keep your dog comfortable and moving well.",
+      "icon": "cut"
+    },
+    {
+      "name": "Self-Serve Dog Wash",
+      "description": "Professional-grade bathing stations with tubs, hoses, and soap machines at one flat rate — perfect for hands-on owners who want pro tools without the pro price tag.",
+      "icon": "droplets"
+    },
+    {
+      "name": "Large Breed Grooming",
+      "description": "Specialized grooming for dogs 70 pounds and up, with groomers experienced in handling big dogs gently and efficiently.",
+      "icon": "dog"
+    },
+    {
+      "name": "Breed-Specific Styling",
+      "description": "Expert styling for breeds with precise grooming standards — including poodles, pomskies, and other coated breeds — done by groomers who know the difference.",
+      "icon": "sparkles"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Best price I found in the area. They got me in quickly and don’t charge crazy amounts to add a deshed for my pomsky. The groom was great and my dog is fresh and clean. I would definitely recommend and will for sure use them again!",
+      "author": "Dezi Roberts",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-31"
+    },
+    {
+      "text": "They just changed locations, but we've taken our 2 larger dogs (both over 70lb) for years. Carol is our groomer. She does a great job. The dogs like her. She communicates with updates via text. Both dogs, one long hair and one short, come back in great condition. I'd definitely recommend.",
+      "author": "Jamiere Abney",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-24"
+    },
+    {
+      "text": "The best doggie grooming place in salem as far as i'm concerned. Ariel is the best. She's always accommodating and my dogs love her.",
+      "author": "Lori Guidicatti-Evans",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-16"
+    },
+    {
+      "text": "My dog doesn’t require grooming. I am giving a GREAT review for the washtubs , hoses and soaps machines. Everything works perfectly. Easy to wash your dog. One price for all sizes which is great for any dog over 15 pounds and up..",
+      "author": "Susan Egan",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-08"
+    },
+    {
+      "text": "We absolutely love Ariel for our standard poodle! We have been going here for a little over a year and have always left happy!",
+      "author": "Chelsie Gutierrez-Garcia",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-09"
+    }
+  ],
+  "team": [
+    {
+      "name": "Ariel",
+      "role": "Lead Groomer",
+      "bio": "Ariel has cultivated a devoted client base at Laundramutt, with customers specifically requesting her by name. She's known for being accommodating, building genuine bonds with dogs, and consistently delivering results that keep owners coming back for over a year at a time.",
+      "credentials": [
+        "Specialist in standard poodle styling",
+        "Known for accommodating scheduling",
+        "Dogs and owners love her equally"
+      ]
+    },
+    {
+      "name": "Carol",
+      "role": "Senior Groomer",
+      "bio": "Carol is the go-to groomer for large-breed families, handling dogs over 70 pounds with ease and care. She keeps owners in the loop with text updates throughout the appointment and has earned years of loyalty from multi-dog households.",
+      "credentials": [
+        "Large breed specialist",
+        "Communicates via text updates",
+        "Years of repeat client relationships"
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Professional groomer trimming white dog's nails with scissors in salon",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Storefront of Laura's Laundramutt dog grooming and self-serve bathing business",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Colorful framed watercolor painting of a smiling corgi dog with vibrant rainbow hues",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Professional grooming facility interior with bathing tubs, blue mats, and grooming stations",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Pet grooming and self-serve dog wash business storefront with phone number displayed",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "White poodle dog indoors with grooming supplies visible in background",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Happy golden-brown and white dog smiling at camera on concrete floor indoors",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Interior of a fitness studio with exercise equipment and blue mats on floor",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Professional groomer styling a black and white poodle at grooming salon",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Dog grooming salon window display with three stylized dog portraits and teal lettering",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 4.7,
+      "suffix": "★",
+      "label": "Average Customer Rating"
+    },
+    {
+      "value": 125,
+      "suffix": "+",
+      "label": "Happy Customer Reviews"
+    },
+    {
+      "value": 5,
+      "suffix": " days",
+      "label": "Open Tue–Sat for Your Convenience"
+    },
+    {
+      "value": 2,
+      "suffix": " ways",
+      "label": "To Groom — Full Service or Self-Serve"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How are your prices compared to other groomers in Salem?",
+      "answer": "Customers consistently call us one of the best-priced options in the area. We don't charge inflated fees for add-ons like deshedding, and our self-serve wash stations are a flat rate for dogs over 15 pounds regardless of size — no surprises at checkout."
+    },
+    {
+      "question": "Can you groom large dogs over 70 pounds?",
+      "answer": "Absolutely. Our groomer Carol specializes in large breeds and has years of experience handling dogs well over 70 pounds — both long-haired and short-coated. Big dogs are welcome here."
+    },
+    {
+      "question": "How do I know what's happening with my dog during their appointment?",
+      "answer": "Our groomers like Carol keep owners updated via text throughout the grooming session, so you're never left wondering. We treat your dog like a regular — because after a few visits, they usually are."
+    },
+    {
+      "question": "Do you offer self-serve dog washing, or is it full-service only?",
+      "answer": "Both! We have professional self-serve bathing stations with tubs, hoses, and soap machines that are easy to use and well-maintained. One flat price covers all dogs over 15 pounds. Great for owners who want to stay hands-on."
+    },
+    {
+      "question": "How quickly can I get an appointment?",
+      "answer": "We pride ourselves on getting new clients in quickly. Unlike some grooming salons with weeks-long waits, customers frequently mention how fast we were able to accommodate them — call us at (503) 967-6116 to check availability."
+    },
+    {
+      "question": "What breeds and coat types do you work with?",
+      "answer": "We groom a wide range of breeds — from standard poodles and pomskies to short-haired large breeds. Whether your dog needs a precision cut, a deshedding treatment, or just a thorough bath, our groomers have the experience to handle it."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#2E7D6B",
+    "accent": "#F4A83A",
+    "note": "Teal/green primary reflects the teal lettering visible in the salon's window display and evokes cleanliness, calm, and nature — ideal for a pet grooming brand. Warm amber accent mirrors the golden-brown dogs in their photos and the colorful corgi watercolor art inside, adding approachable warmth and playfulness without going juvenile."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Transparent, competitive pricing with no surprise upcharges — consistently praised across reviews for deshedding add-ons and self-serve flat-rate bathing",
+      "Named groomers Ariel and Carol have built deep personal relationships with repeat clients, including large-breed households who have returned for years",
+      "Dual-service model (full grooming + self-serve wash stations) serves a wider range of pet owners than typical single-format grooming salons"
+    ],
+    "common_complaints": [
+      "None found in available reviews — all 5 sampled reviews are 5-star with no negative feedback or service concerns raised"
+    ],
+    "suggested_tagline": "Your Dog Deserves a Groomer Who Remembers Their Name.",
+    "photo_quality": "good",
+    "personality_keywords": [
+      "Approachable",
+      "Unpretentious",
+      "Reliable",
+      "Warm",
+      "Community-rooted"
+    ],
+    "named_staff": [
+      "Ariel",
+      "Carol"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

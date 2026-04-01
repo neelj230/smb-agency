@@ -11,9 +11,9 @@
   "website": null,
   "rating": 4.3,
   "reviewCount": 68,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Perfect Fit, Friendly Cats Included.",
+  "brandNarrative": "Tucked into a row of North 10th Street storefronts in Philadelphia's Chinatown-adjacent edge, Best Seasons and Alteration is the kind of neighborhood tailor that regulars return to not just because the price is right, but because the work is genuinely impressive. Customers rave about hems that look 'like they came from the factory,' suits finished ahead of schedule, and tight-deadline miracles — like a formal dress altered in just 10 days for a work event. The shop runs a tight but focused schedule, Monday through Saturday from 11 to 4, and in that window, the work that comes out speaks for itself.\n\nWhat sets Best Seasons apart from the average alteration shop is the texture of the experience itself. Regulars describe being walked through the entire tailoring process for the first time, treated warmly, and welcomed back time and again. There's even a pair of shop cats that have earned their own mention in reviews — a small but telling detail about the kind of unhurried, personal atmosphere this place cultivates. It's not a production line; it's a craftsperson's studio where your clothes get real attention.\n\nThe shop's reputation is built on three pillars that come up again and again in customer feedback: affordability, quality of craft, and a genuine warmth with repeat visitors. First-timers getting a jacket tailored are guided through the process; long-time customers know they can walk in with a tight deadline and leave trusting the work will be done. At a 4.3 rating across 68 reviews, the consensus is clear — when the experience is good here, it's really good.",
+  "ownerStory": "No name is mentioned in the reviews, but the person behind the counter at Best Seasons is unmistakably central to its identity. Customers describe her as 'extremely friendly,' patient with first-timers, and skilled enough to rescue a formal dress in under two weeks flat. She's built a loyal following in Philadelphia's competitive alteration market not through advertising, but through quiet consistency — affordable prices, precise work, and the kind of personal attention that makes customers feel like their clothes actually matter. The shop cats lounging in the space aren't incidental; they're a reflection of the environment she's created: lived-in, warm, and genuinely unpretentious.\n\nThat said, like any small one-person operation running on tight hours and high craft standards, there are moments when the pressure of the business shows at the seams. A handful of customers have noted sharp phone interactions and communication gaps around policies. It's the friction that can come when a skilled craftsperson is also the scheduler, the customer service rep, and the sole tailor — all at once, every day. The core of Best Seasons remains a person who can make your clothes fit beautifully, and who has earned the loyalty of dozens of Philadelphians who keep coming back.",
   "hours": {
     "Monday": "11:00 AM – 4:00 PM",
     "Tuesday": "11:00 AM – 4:00 PM",
@@ -23,7 +23,38 @@
     "Saturday": "11:00 AM – 4:00 PM",
     "Sunday": "Closed"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Dress Alterations",
+      "description": "Professional reshaping and fitting of formal and casual dresses, including rush turnarounds for events and formals.",
+      "icon": "sparkles"
+    },
+    {
+      "name": "Suit & Jacket Tailoring",
+      "description": "Precise tapering, hemming, and fitting of suit jackets and blazers, with full guidance for first-time tailoring customers.",
+      "icon": "briefcase"
+    },
+    {
+      "name": "Pants & Jean Hemming",
+      "description": "Expert hem adjustments for trousers and denim that finish cleanly enough to look factory-original.",
+      "icon": "scissors"
+    },
+    {
+      "name": "Shirt Alterations",
+      "description": "Length and fit adjustments for dress shirts and casual tops to achieve a clean, custom silhouette.",
+      "icon": "shirt"
+    },
+    {
+      "name": "Rush Alterations",
+      "description": "Expedited turnaround service for time-sensitive events, completed ahead of deadline when at all possible.",
+      "icon": "clock"
+    },
+    {
+      "name": "General Clothing Alterations",
+      "description": "Comprehensive take-in, let-out, and repair services for a wide range of garments across seasons and styles.",
+      "icon": "needle"
+    }
+  ],
   "reviews": [
     {
       "text": "Extremely friendly and excellent work. I've been here multiple times and every time is always quality. Last summer I went in looking to have a dress altered on an extremely tight deadline and she managed to pull it off in 10 days in time for my boyfriend's work formal. I go back to Best Seasons time and time again cause it's cheap, she's friendly and the cats are adorable.",
@@ -86,28 +117,78 @@
   ],
   "stats": [
     {
-      "value": 68,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.3,
+      "suffix": "★",
+      "label": "Average Customer Rating"
     },
     {
-      "value": 4.3,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 68,
+      "suffix": "+",
+      "label": "Customer Reviews"
+    },
+    {
+      "value": 6,
+      "suffix": " days",
+      "label": "Days a Week We're Open"
+    },
+    {
+      "value": 10,
+      "suffix": " days",
+      "label": "Fastest Documented Rush Turnaround"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "What kinds of alterations do you do?",
+      "answer": "Best Seasons handles a wide range of alterations including dress reshaping, suit and jacket tailoring, pants and jean hemming, and shirt length adjustments. Customers have had everything from formal gowns to everyday denim altered here with great results."
+    },
+    {
+      "question": "How fast can you turn around an alteration?",
+      "answer": "Turnaround times vary by job complexity, but customers have reported work completed ahead of schedule. In one case, a formal dress was completed within 10 days on a tight deadline. It's always worth calling to discuss your timeline."
+    },
+    {
+      "question": "How much does an alteration cost?",
+      "answer": "Pricing is consistently described by customers as affordable and great value for the quality of work. Exact pricing depends on the garment and the alteration needed, so it's best to bring your item in for an assessment — pricing is tailored (pun intended) to the specific job."
+    },
+    {
+      "question": "Do I need an appointment, or can I walk in?",
+      "answer": "The shop operates Monday through Saturday, 11 AM to 4 PM, and is closed Sundays. Walk-ins are welcome during those hours. If you're planning a trip, calling ahead ensures you're prepared for any garment preparation requirements (like bringing a freshly laundered item)."
+    },
+    {
+      "question": "Is this a good place for first-time tailoring customers?",
+      "answer": "Absolutely. Multiple reviewers specifically noted being walked through the entire process when getting something tailored for the first time. The shop is welcoming to customers who are new to tailoring and want to understand what's happening with their clothes."
+    },
+    {
+      "question": "What should I bring when I come in?",
+      "answer": "Bring the garment you want altered, and if possible, wear or bring the shoes or undergarments you'll be pairing with it for accurate fitting. For hygiene reasons, the shop may ask that garments be freshly laundered before drop-off, so it's worth confirming when you call."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#2C3E50",
+    "accent": "#C9A84C",
+    "note": "Deep charcoal navy evokes precision tailoring and professional craft, while warm gold reflects the boutique quality and value customers describe — neither cheap nor flashy, just beautifully made."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "fair"
+    "top_3_strengths": [
+      "Exceptional quality of work — multiple reviewers note results that look factory-original or better than expected, particularly on hems, suits, and formal dresses",
+      "Affordability with quality — the combination of low prices and high craft is the single most repeated theme across positive reviews",
+      "Reliability and trust — customers are repeat visitors specifically because deadlines are met, often ahead of schedule, and results are consistently good"
+    ],
+    "common_complaints": [
+      "Phone and in-person communication can feel abrupt or unwelcoming, particularly for new customers asking basic questions about pricing or hours",
+      "Strict garment preparation policies (e.g., requiring freshly laundered items) are not communicated proactively, leading to friction for first-time visitors"
+    ],
+    "suggested_tagline": "Tailored Right. Priced Fair. Come Back Every Time.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "skilled",
+      "affordable",
+      "deadline-driven",
+      "warm with regulars",
+      "no-nonsense"
+    ],
+    "named_staff": []
   }
 }

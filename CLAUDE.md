@@ -34,6 +34,62 @@ Automated website agency for SMBs & mid-market companies. Generates stunning Nex
 - Components go in `packages/components/` and are shared across all sites
 - Each generated site is a standalone Next.js project in `sites/<business-slug>/`
 
+## Generation Architecture
+
+### How Site Generation Works
+The generation pipeline (`packages/generator/`) creates a complete Next.js site for each business. The key principle: **Claude acts as the creative director**, not a template assembler.
+
+### Pipeline Flow
+```
+1. loadBusiness()       → Raw scraped data (reviews, photos, services, hours)
+2. enrichBusiness()     → AI fills gaps (services, FAQ, team, tagline, brand colors)
+3. analyzeVibe()        → Scores business across 20+ vibes (warm, bold, premium, etc.)
+4. selectDesign()       → Picks font pairing + color palette from database
+5. creativeDirector()   → Claude writes page.tsx as a CREATIVE ACT (see below)
+6. generateGlobalsCss() → Brand colors + CSS recipes from creative output
+7. generateLayout()     → Fonts, metadata, Schema.org
+8. qualityChecks()      → Content length validation + build check
+```
+
+### The Creative Director (Step 5) — THIS IS THE CORE
+Instead of mechanical template assembly, Claude generates each page.tsx like an artist composing a unique site. Claude receives:
+- Business data + vibe analysis
+- The design database elements relevant to this business's vibe
+- All available component props/variants
+- CSS recipe implementations to choose from
+- Example page.tsx files as style references
+- Strict content rules (word limits, no AI-sounding copy)
+
+Claude decides per-site:
+- Which 5-7 sections to include (not all 11 every time)
+- Section ordering for narrative flow
+- Which sections get dark backgrounds
+- Custom CSS classes and inline styles for visual texture
+- Animation approach per section
+- How to use photos creatively
+- Spacing and layout rhythm
+
+### Content Quality Rules (CRITICAL)
+- **Headlines**: Max 5 words. Factual, not dramatic. No "premier", "trusted", "exceptional".
+- **About story**: Max 3 sentences / 75 words. ONE concrete detail from reviews.
+- **Section headings**: Max 3 words. No "Our ___" patterns.
+- **Reviews**: Filter out empty text. Truncate at 280 chars. Minimum 3 valid reviews.
+- **Team section**: Only include if 2+ members have real photo URLs.
+- **No FounderQuote section**: Always produces AI walls of text. Remove it.
+- **All copy must sound like a human wrote it**, not an AI marketing blog.
+
+### What Makes Each Site Unique
+The design database (`data/design-elements-database.json`) has 185 elements. For each business, the creative director selects a unique combination:
+- 1 of 27 font pairings
+- 1 of 28 color palettes
+- 1 of 6+ hero variants (photo-bg, split, dark-bold, blurred-reveal, etc.)
+- Dark vs light per section (dark stats, dark testimonials = premium feel)
+- 1-3 CSS recipes (film-grain, picture-frame, dot-pattern, mix-blend-hover, glass-effect)
+- Component variants (grid vs alternating services, featured vs scroll testimonials)
+- Section composition (5-7 sections, different order per business)
+
+No two sites should have the same combination.
+
 ## Design System — The Database
 
 The design system is `data/design-elements-database.json`. It contains 177+ design elements from 55+ analyzed sites across these categories:
@@ -135,8 +191,12 @@ The design system is `data/design-elements-database.json`. It contains 177+ desi
 - Data files: `business.json` per business in `data/businesses/<slug>/`
 
 ## Key Files
-- `data/design-elements-database.json` — The design portfolio (fonts, colors, heroes, sections, animations, etc.)
-- `packages/components/` — Shared React components
+- `data/design-elements-database.json` — The design portfolio (185 elements: fonts, colors, heroes, sections, animations, interactions, layouts)
+- `packages/components/` — Shared React components (HeroSection, ServiceCards, TestimonialCarousel, etc.)
+- `packages/generator/` — Site generation pipeline (enrichment → vibe → design → creative director → file generation)
+- `packages/generator/creativeDirector.ts` — Claude-as-artist page generation (the core creative engine)
+- `packages/generator/contentEnricher.ts` — AI enrichment of business data (services, FAQ, team, tagline)
+- `packages/generator/designSelector.ts` — Font/color/hero selection from design database
 - `sites/<slug>/` — Generated sites (one Next.js project per business)
 - `.claude/agents/` — Subagent specifications
 - `.claude/commands/` — Slash command definitions

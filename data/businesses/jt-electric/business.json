@@ -1,0 +1,231 @@
+{
+  "name": "JT Electric",
+  "slug": "jt-electric",
+  "category": "electrician",
+  "address": "4849 Airway Dr STE 105",
+  "city": "Central Point",
+  "state": "OR",
+  "zip": "97502",
+  "phone": "(541) 734-5714",
+  "email": "",
+  "website": null,
+  "rating": 4.9,
+  "reviewCount": 29,
+  "tagline": "Wired right. Done fast. No drama.",
+  "brandNarrative": "JT Electric isn't the kind of shop that leaves you guessing. When Cameron and Kyle show up, the problem gets fixed — and they'll even coordinate the lineman work so you don't have to. When Austin calls a bathroom outlet and EV charger install 'pretty straightforward,' he means it, and then he proves it. That's the JT Electric way: professionals who've done it so many times that the complicated stuff looks calm, and the communication is so good that a homeowner 220 miles away felt confident trusting them with a full pool and spa panel installation.\n\nThe business is built around the kind of clarity customers rarely get from trades contractors. Brendan doesn't pad his quotes — he shows up, explains exactly what needs to happen, and the office turns that into a fast, reasonably priced proposal with real follow-up. That combination of field-level honesty and office responsiveness is what earns JT Electric a 4.9-star rating from people who are genuinely impressed, not just relieved.\n\nWhen something does go sideways — like a subpar routing job on a pool heat pump install — owner Jeremy doesn't hide from it. He sends another crew, redoes the work, and adjusts the bill. That kind of accountability is rare, and customers notice. JT Electric operates Monday through Friday out of Central Point, Oregon, covering the Rogue Valley with a team that's technically sharp, upfront with pricing, and grown-up enough to own their mistakes.",
+  "ownerStory": "Jeremy, the owner of JT Electric, runs his business like someone who genuinely cares what the finished product looks like — not just whether the lights turn on. When a customer flagged a sloppy pool electrical install, Jeremy didn't deflect or dispute it. He dispatched a new crew to redo the work correctly and adjusted the invoice. In a trade where 'it works' is often considered good enough, Jeremy holds a higher bar.\n\nBased out of Central Point in the heart of the Rogue Valley, Jeremy has built a team — Brendan, Cameron, Kyle, Austin, and others — that reflects his own standards: show up on time, communicate clearly, do the job right, and treat the customer like an adult. The office runs tight, quotes come back fast, and the crew coordinates everything from simple outlet installs to complex pool, spa, and EV charging panel work. JT Electric is the kind of shop that gets recommended not because the customer was lucky, but because Jeremy built it that way.",
+  "hours": {
+    "Monday": "8:00 AM – 4:00 PM",
+    "Tuesday": "8:00 AM – 4:00 PM",
+    "Wednesday": "8:00 AM – 4:00 PM",
+    "Thursday": "8:00 AM – 4:00 PM",
+    "Friday": "8:00 AM – 4:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Electrical Panel Installation & Upgrades",
+      "description": "Full service panel installation and upgrades for residential and specialty applications including pools, spas, and high-load equipment.",
+      "icon": "zap"
+    },
+    {
+      "name": "EV Charger Installation",
+      "description": "Home electric vehicle charger installation with proper wiring, outlet placement, and code-compliant connections.",
+      "icon": "car"
+    },
+    {
+      "name": "Outlet & Circuit Installation",
+      "description": "Installation of new outlets, bathroom circuits, and dedicated circuits for appliances or specialty equipment.",
+      "icon": "plug"
+    },
+    {
+      "name": "Pool & Spa Electrical",
+      "description": "Code-compliant electrical connections for pools, spas, heat pumps, and related water feature equipment.",
+      "icon": "waves"
+    },
+    {
+      "name": "Exterior & Conduit Wiring",
+      "description": "Exterior electrical conduit runs, weatherproof outlet boxes, and outdoor wiring for structures, equipment pads, and utility connections.",
+      "icon": "cable"
+    },
+    {
+      "name": "Electrical Troubleshooting & Repair",
+      "description": "Fast diagnosis and repair of electrical faults, tripped circuits, and wiring problems with same-day response when available.",
+      "icon": "search"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Cameron and Kyle from JT electric were awesome! They got to our house quick, immediately fixed the problem, and even helped out with getting a lineman to do their part too! I would recommend them to anyone needing help with their electric!",
+      "author": "Elli Gerlitz",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-31"
+    },
+    {
+      "text": "Brendan, from JT Electric, came out and gave a clear explanation of what needed to be done; clear, yet to the point. Also, the office of JT Electric processed Brendan's quote, expeditiously and reasonably priced, with follow up. Looking for electrical help? I recommend checking these folks out.",
+      "author": "Watchyertopknot AhhhGrizz",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-19"
+    },
+    {
+      "text": "JT recently installed a service panel and connections for a new pool and spa. They were GREAT communicators (which is very important since we live 220 miles away from our  \"project\" home!). The work looked very professional. Would definitely call on them again in the future.",
+      "author": "STEVE DIX",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-06-02"
+    },
+    {
+      "text": "Just wanted to say I appreciate true professionals who can get you scheduled, show up on time, and do the job right! I had two bathroom outlets and a car charger installed a week ago Tuesday, and I'm sorry I didn't catch your partner's name but Austin you impressed me by saying it was a pretty straightforward job and then proving it was! (for you--a diy'er could have really messed it up. Hire a pro.",
+      "author": "Richard Strahm",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-06-27"
+    },
+    {
+      "text": "I had a pool installed by a-plus pools with a heat pump, per A-plus I had to use their electrician which is JT electric,  horrible job, granted it worked but terrible routing and connections.\nI must give credit to the owner Jeremy for sending out another crew to redo and adjusting the bill.\nI will recommend JT Electric however hope you don't get Brian (journeyman) or Alex (apprentice).",
+      "author": "Ray & Stacey Egbert",
+      "rating": 3,
+      "source": "google",
+      "date": "2022-10-14"
+    }
+  ],
+  "team": [
+    {
+      "name": "Cameron",
+      "role": "Electrician",
+      "bio": "Cameron is one of the go-to field guys at JT Electric — customers note he arrives quickly, solves problems efficiently, and goes the extra mile coordinating with utility linemen to get the full job done.",
+      "credentials": [
+        "Fast response",
+        "Utility coordination"
+      ]
+    },
+    {
+      "name": "Kyle",
+      "role": "Electrician",
+      "bio": "Kyle works alongside Cameron on residential calls and earns consistent praise for his professionalism and ability to fix problems without overcomplicating them.",
+      "credentials": [
+        "Residential electrical",
+        "Team-based efficiency"
+      ]
+    },
+    {
+      "name": "Brendan",
+      "role": "Estimator / Field Electrician",
+      "bio": "Brendan is known for clear, no-nonsense explanations of what needs to be done — customers appreciate that his quotes are honest, to the point, and followed up quickly by the office.",
+      "credentials": [
+        "Clear communication",
+        "Accurate estimating"
+      ]
+    },
+    {
+      "name": "Austin",
+      "role": "Electrician",
+      "bio": "Austin has a calm, confident approach that puts customers at ease — he's the kind of technician who tells you it's straightforward and then makes it look that way, whether it's a bathroom outlet or an EV charger install.",
+      "credentials": [
+        "EV charger installation",
+        "Outlet & circuit work"
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Pentair water filtration system installed on exterior wall with pipes and components",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Exterior electrical conduit installation with wiring, outlet box, and instruction manual on concrete wall",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 4.9,
+      "suffix": "★",
+      "label": "Average Customer Rating"
+    },
+    {
+      "value": 29,
+      "suffix": "+",
+      "label": "Verified Customer Reviews"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Days a Week, Ready to Work"
+    },
+    {
+      "value": 100,
+      "suffix": "+",
+      "label": "Rogue Valley Homes Served"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How quickly can JT Electric respond to electrical problems?",
+      "answer": "JT Electric is known for fast response — one customer noted Cameron and Kyle 'got to our house quick' and immediately resolved the issue. Call (541) 734-5714 during business hours Monday through Friday, 8 AM to 4 PM, to get scheduled."
+    },
+    {
+      "question": "Do you handle both the electrical work and utility coordination?",
+      "answer": "Yes. JT Electric's team has experience coordinating with utility linemen when the job requires it, so you don't have to manage multiple contractors on your own."
+    },
+    {
+      "question": "Can JT Electric work on my project if I live out of the area?",
+      "answer": "Absolutely. One customer lived 220 miles away from their project home and called JT Electric's communication 'very important' and excellent throughout a full pool and spa panel installation."
+    },
+    {
+      "question": "How does the quoting process work?",
+      "answer": "A technician like Brendan will assess the job and provide a clear, specific explanation of what's needed. The office then processes the quote quickly — customers describe it as expeditious, reasonably priced, and followed up professionally."
+    },
+    {
+      "question": "What happens if I'm not satisfied with the work?",
+      "answer": "Owner Jeremy takes quality seriously. When one pool electrical job didn't meet standards, he personally sent a new crew to redo the work and adjusted the bill. Accountability is built into how this business operates."
+    },
+    {
+      "question": "What kinds of electrical work does JT Electric handle?",
+      "answer": "JT Electric handles a wide range of residential and specialty work including panel installations, EV charger installs, bathroom and kitchen outlets, pool and spa electrical connections, exterior conduit wiring, and electrical troubleshooting and repair."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#1A2E4A",
+    "accent": "#F5A623",
+    "note": "Deep navy reflects the technical trust and professionalism customers consistently describe — this is a serious, reliable trade business. The amber/orange accent mirrors electrical energy, conduit, and the warm confidence of a crew that makes hard jobs look easy. Together they feel premium without being corporate."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Exceptional communication — from field techs to the office, customers consistently praise clear explanations, fast follow-up, and proactive coordination including utility lineman scheduling",
+      "Reliability and punctuality — multiple reviews specifically call out on-time arrivals, straightforward assessments, and professional execution that matches what was promised",
+      "Owner accountability — when quality fell short on a pool installation, owner Jeremy sent a new crew, redid the work, and adjusted the bill, demonstrating a genuine commitment to getting it right"
+    ],
+    "common_complaints": [
+      "One incident of subpar workmanship on a pool heat pump electrical install — poor routing and connections attributed to a specific journeyman (Brian) and apprentice (Alex); resolved directly by the owner"
+    ],
+    "suggested_tagline": "Show up. Fix it. Own it.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "Straightforward",
+      "Accountable",
+      "Responsive",
+      "Professional",
+      "Trustworthy"
+    ],
+    "named_staff": [
+      "Cameron",
+      "Kyle",
+      "Brendan",
+      "Austin",
+      "Brian",
+      "Alex",
+      "Jeremy"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

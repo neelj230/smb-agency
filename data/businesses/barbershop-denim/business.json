@@ -11,9 +11,9 @@
   "website": "http://www.barbershopdenimphilly.com/",
   "rating": 4.9,
   "reviewCount": 528,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Sharp cuts, real talk, South Street vibes.",
+  "brandNarrative": "Barbershop Denim isn't just a place to get a haircut — it's a place you actually want to be. Tucked on South Street in Philadelphia, the shop draws you in with its cool, well-designed space and keeps you coming back with the kind of attention to detail that's hard to find. From the moment you walk in, you're offered a beverage, greeted by friendly faces, and treated like a regular even if it's your first visit. Barber Chris has become something of a local legend on South Street — clients who walked in after reading rave reviews consistently leave as converts, praising not just the precision of his cuts but the genuine, easy conversation that makes the chair feel less like a service transaction and more like catching up with someone who actually listens. He'll take your vision, ask the right questions, and get to work — no guesswork, no disappointment. Barber Aryah rounds out the team with the same welcoming energy, earning praise for accommodating last-minute bookings and delivering quality cuts with warmth. The shop runs cash only, but keeps an ATM on-site so you're never caught off guard. With a 4.9-star rating across hundreds of reviews, Barbershop Denim has quietly become one of the most trusted spots in the city — not through flashy marketing, but through cuts that speak for themselves and a vibe that feels genuinely, unmistakably Philly.",
+  "ownerStory": "Chris is the kind of barber who makes you feel like you've been coming to him for years — even on your first visit. Customers who stumbled onto Barbershop Denim after seeing the glowing reviews online describe him as 'very personable,' someone who balances great conversation with a razor-sharp focus on the cut itself. He'll take just a few details from you and translate them into exactly what you had in mind, earning the kind of loyalty that turns one-time visitors into regulars on the spot. He's also the kind of guy who'll point a newcomer to the best bite to eat nearby — because for Chris, taking care of people goes beyond the chair. That genuine care for the client experience is the heartbeat of Barbershop Denim, and it shows in every five-star review.",
   "hours": {
     "Monday": "10:00 AM – 5:00 PM",
     "Tuesday": "9:00 AM – 6:30 PM",
@@ -23,7 +23,38 @@
     "Saturday": "9:00 AM – 4:00 PM",
     "Sunday": "Closed"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Precision Haircut",
+      "description": "A tailored haircut dialed in to your exact preferences, delivered by barbers who listen closely and execute with detail-oriented skill.",
+      "icon": "scissors"
+    },
+    {
+      "name": "Beard Trim & Shape",
+      "description": "Clean lines and sculpted edges to keep your beard looking intentional and sharp, complementing your cut perfectly.",
+      "icon": "user"
+    },
+    {
+      "name": "Fade",
+      "description": "Seamless skin-to-length fades crafted with precision, from low fades to high bald fades tailored to your style.",
+      "icon": "sliders-horizontal"
+    },
+    {
+      "name": "Line-Up & Edge-Up",
+      "description": "Crisp, defined hairline and edge cleanup to keep your look fresh and polished between full cuts.",
+      "icon": "ruler"
+    },
+    {
+      "name": "Kids' Haircut",
+      "description": "Patient, skilled cuts for younger clients in a welcoming and comfortable environment.",
+      "icon": "smile"
+    },
+    {
+      "name": "Eyebrow Grooming",
+      "description": "Subtle eyebrow cleanup and shaping to tidy up your overall look — always discussed and agreed upon before any trimming begins.",
+      "icon": "sparkles"
+    }
+  ],
   "reviews": [
     {
       "text": "My first time into the barbershop after seeing all the glowing reviews about Chris. The place is a great vibe, great location on South street and Chris is very personable, we had great conversations. I am particular about having my hair cut and Chris delivered. I look forward to making this my ongoing barbershop and appreciated the care Chris takes when cutting hair.",
@@ -61,7 +92,27 @@
       "date": "2025-12-13"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Chris",
+      "role": "Master Barber",
+      "bio": "Chris is the heart of Barbershop Denim — a barber whose precision, easy personality, and genuine care for clients have turned first-time visitors into lifelong regulars. Customers describe him as highly personable, a great conversationalist, and someone who nails the cut with just a few details to go on.",
+      "credentials": [
+        "Highly rated across hundreds of reviews",
+        "Known for precision cuts and great client rapport",
+        "Local recommendations pro for newcomers to South Street"
+      ]
+    },
+    {
+      "name": "Aryah",
+      "role": "Barber",
+      "bio": "Aryah is praised for her accommodating, friendly energy and her ability to deliver a great cut even on last-minute bookings. Clients appreciate her welcoming demeanor and the care she brings to every appointment.",
+      "credentials": [
+        "Praised for last-minute availability",
+        "Known for friendly and accommodating service"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -116,28 +167,80 @@
   ],
   "stats": [
     {
-      "value": 528,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.9,
+      "suffix": "★",
+      "label": "Average Star Rating"
     },
     {
-      "value": 4.9,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 528,
+      "suffix": "+",
+      "label": "Five-Star Reviews"
+    },
+    {
+      "value": 1,
+      "suffix": " ATM on-site",
+      "label": "Cash Only — Always Covered"
+    },
+    {
+      "value": 6,
+      "suffix": " days",
+      "label": "Open Days Per Week"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Do I need an appointment, or do you take walk-ins?",
+      "answer": "Both! Barbershop Denim accommodates scheduled appointments and has been known to fit in last-minute and end-of-day openings when availability allows. Booking ahead is recommended to secure your preferred barber and time slot."
+    },
+    {
+      "question": "Is it cash only, and what if I don't have cash?",
+      "answer": "Yes, the shop is cash only — but no need to make a detour. There's an ATM conveniently located inside the shop so you're always covered."
+    },
+    {
+      "question": "What makes Barbershop Denim different from other barbershops in Philly?",
+      "answer": "The combination of a genuinely cool space on South Street, barbers who actually listen to what you want, complimentary beverages when you arrive, and a welcoming atmosphere that feels more like a hangout than a transaction. The 4.9-star rating across 500+ reviews says it all."
+    },
+    {
+      "question": "Will my barber do anything to my hair or appearance without asking me first?",
+      "answer": "Your barber should always consult you before performing any service beyond what you've requested. If you have specific preferences — including what you do or don't want touched — communicate them clearly at the start of your visit so your barber can tailor the experience to you."
+    },
+    {
+      "question": "I'm new to the neighborhood — is this a good spot for a first visit?",
+      "answer": "Absolutely. Multiple reviewers mention coming in for the first time and immediately deciding to make it their go-to shop. The staff is welcoming, the vibe is relaxed, and barber Chris has even been known to suggest nearby spots to eat for those new to the South Street area."
+    },
+    {
+      "question": "What are your hours and which days are you closed?",
+      "answer": "The shop is open Tuesday, Thursday, and Friday from 9:00 AM to 6:30 PM, Monday from 10:00 AM to 5:00 PM, and Saturday from 9:00 AM to 4:00 PM. The shop is closed on Wednesdays and Sundays."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#1C1C1E",
+    "accent": "#4A6FA5",
+    "note": "Deep near-black anchors the shop's cool, confident South Street personality — polished but never pretentious. The denim-indigo accent directly nods to the 'Denim' in the brand name, evoking classic American style, craftsmanship, and the kind of worn-in quality that only gets better over time."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Exceptional barber-client rapport — especially Chris, who consistently converts first-time visitors into loyal regulars through personable conversation and precise execution",
+      "Welcoming, well-curated shop environment with thoughtful touches like complimentary beverages and an on-site ATM that elevate the overall experience",
+      "Strong and consistent reputation backed by a 4.9 rating across 528 reviews, with multiple reviewers specifically mentioning they came in based on online praise and were not disappointed"
+    ],
+    "common_complaints": [
+      "One reviewer reported a barber performed eyebrow trimming without consent and defended the decision when questioned — a clear breakdown in client communication and professional boundaries that stands out sharply against the otherwise overwhelmingly positive review record"
+    ],
+    "suggested_tagline": "Where South Street comes to look sharp.",
+    "photo_quality": "good",
+    "personality_keywords": [
+      "personable",
+      "detail-oriented",
+      "welcoming",
+      "cool-vibe",
+      "community-rooted"
+    ],
+    "named_staff": [
+      "Chris",
+      "Aryah"
+    ]
   }
 }

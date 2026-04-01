@@ -11,9 +11,9 @@
   "website": null,
   "rating": 4.5,
   "reviewCount": 115,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Honest hands. Fast fixes. No games.",
+  "brandNarrative": "Lee's Automotive Service on Lancaster Avenue isn't the flashiest shop in Philadelphia — and that's exactly the point. For over 20 years, customers like Cheryl Walker have returned again and again because the work is solid, the prices are fair, and Mr. Lee tells you the truth even when it's not what you want to hear. That kind of loyalty isn't bought with marketing — it's earned one honest repair at a time. When Sadeka Wood came in after Mavis botched her oil change and nearly wrecked her engine, Mr. Lee didn't upsell her into a panic. He showed her the problem — a single loose screw — fixed it fast, and sent her on her way. That's the Lee's difference.\n\nMr. Lee runs a tight, no-nonsense operation with a simple philosophy: show up early, be patient, and trust the process. He doesn't take appointments — if you want his attention, you're there at 8 AM. That discipline reflects a man who respects his own time and yours. He's in high enough demand that regulars literally advise newcomers to arrive before 8:05 AM or risk missing their window. A mechanic so trusted that customers coordinate their schedules around him isn't a coincidence — it's a reputation built repair by repair, inspection by inspection.\n\nFrom PA state inspections and bulb replacements to diagnosing engine issues caused by other shops' mistakes, Lee's covers the real, everyday needs of West Philadelphia drivers. The shop is especially trusted by women navigating an industry that often takes advantage of them — multiple reviewers highlight Mr. Lee's transparency and willingness to explain problems in plain terms. His 4.5-star rating across 115 reviews, with zero upsells and no-frills honesty as the business model, says everything you need to know.",
+  "ownerStory": "Mr. Lee has been turning wrenches on Lancaster Avenue long enough that some of his customers have been coming to him for two decades. He's not a salesman — he's a mechanic's mechanic, the kind of guy who will look at your car, tell you exactly what's wrong, fix what he can, and send you to the dealership for what he can't. That last part might surprise people used to shops that'll take your money regardless, but it's exactly that honesty that's made him a West Philly institution. He runs the shop on his own terms: no appointments, first come first served, 8 AM sharp — because when you're this good, the line forms early.\n\nThe story of Lee's Automotive is really the story of one man's refusal to cut corners. When a customer came in rattled after another shop nearly destroyed her engine, Mr. Lee didn't see a payday — he saw a neighbor who needed help. He diagnosed it as a minor fix, showed her the evidence, and charged her accordingly. That moment — repeated in different forms across 115 reviews and 20-plus years — is what Lee's is built on. Not volume, not upsells, not gimmicks. Just honest work, fair prices, and a packed schedule because Philadelphia knows where to go when it matters.",
   "hours": {
     "Monday": "8:00 AM – 5:00 PM",
     "Tuesday": "8:00 AM – 5:00 PM",
@@ -23,7 +23,38 @@
     "Saturday": "8:00 AM – 3:00 PM",
     "Sunday": "Closed"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "PA State Vehicle Inspection",
+      "description": "Fast, no-nonsense Pennsylvania state inspections with same-day turnaround and transparent reporting of any required fixes.",
+      "icon": "clipboard-check"
+    },
+    {
+      "name": "Oil Change & Engine Diagnostics",
+      "description": "Accurate oil changes and post-service engine diagnostics to catch and correct mistakes made elsewhere before they cause serious damage.",
+      "icon": "droplets"
+    },
+    {
+      "name": "Brake Service & Repair",
+      "description": "Inspection, pad replacement, and brake system repair to keep your vehicle stopping safely on Philadelphia's demanding streets.",
+      "icon": "circle-stop"
+    },
+    {
+      "name": "Electrical & Lighting Repair",
+      "description": "Bulb replacement, wiring checks, and electrical diagnostics handled quickly so small issues don't become inspection failures.",
+      "icon": "zap"
+    },
+    {
+      "name": "AC & Compressor Service",
+      "description": "Air conditioning system inspection and compressor installation to keep your cabin comfortable year-round.",
+      "icon": "wind"
+    },
+    {
+      "name": "General Mechanical Repair",
+      "description": "Honest, skilled repairs across a wide range of mechanical issues — and straight talk about what's beyond the shop's scope.",
+      "icon": "wrench"
+    }
+  ],
   "reviews": [
     {
       "text": "Awesome 👌 fast fair price great customer service",
@@ -61,7 +92,19 @@
       "date": "2025-02-24"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Mr. Lee",
+      "role": "Owner & Lead Mechanic",
+      "bio": "Mr. Lee is the heart of this shop — a straight-talking, deeply skilled mechanic who has earned a loyal West Philadelphia following over 20-plus years. Customers praise his honesty, speed, and willingness to explain problems clearly, especially to drivers who've been taken advantage of elsewhere.",
+      "credentials": [
+        "20+ years of hands-on mechanical experience",
+        "Trusted by customers across multiple decades",
+        "Known for transparent, no-upsell diagnostics",
+        "PA State Vehicle Inspection certified"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -91,28 +134,80 @@
   ],
   "stats": [
     {
-      "value": 115,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.5,
+      "suffix": "★",
+      "label": "Average Customer Rating"
     },
     {
-      "value": 4.5,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 115,
+      "suffix": "+",
+      "label": "Verified Customer Reviews"
+    },
+    {
+      "value": 20,
+      "suffix": "+ Years",
+      "label": "Serving West Philadelphia"
+    },
+    {
+      "value": 6,
+      "suffix": " Days",
+      "label": "Open Every Week, Mon–Sat"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Do you take appointments?",
+      "answer": "No — Lee's operates on a first-come, first-served basis only. If you want your car seen, plan to arrive right at 8 AM when the shop opens. Mr. Lee is in high demand, and the early spots fill up fast."
+    },
+    {
+      "question": "What if my car has a problem Lee's can't fix?",
+      "answer": "Mr. Lee will tell you directly and honestly. If a repair is outside what the shop handles, he'll recommend you go to the dealership rather than take your money for a job he isn't set up to do. That transparency is one of the things customers trust most about him."
+    },
+    {
+      "question": "Are the prices fair for the quality of work?",
+      "answer": "Consistently, yes. Customers repeatedly highlight fair, reasonable pricing — including a case where Mr. Lee diagnosed what another shop caused as a major problem and fixed it for the cost of a single screw. You won't get upsold here."
+    },
+    {
+      "question": "Is Lee's a good choice for women who've had bad experiences at other shops?",
+      "answer": "Many of Lee's most loyal customers are women who specifically cite his honesty and willingness to explain issues clearly. He shows you the problem, explains it in plain terms, and charges you accordingly — no intimidation, no inflated estimates."
+    },
+    {
+      "question": "How long does a typical repair or inspection take?",
+      "answer": "Speed is one of Mr. Lee's signatures. Inspections, bulb replacements, and minor repairs are routinely completed the same morning. Customers consistently mention fast turnaround as one of the top reasons they keep coming back."
+    },
+    {
+      "question": "The shop is busy — how long might I have to wait?",
+      "answer": "Patience helps. Mr. Lee's reputation means the shop stays busy, and walk-ins are handled in order. Getting there at or before 8 AM gives you the best shot at a quick turnaround. Regulars say the wait is always worth it."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#1B2A3B",
+    "accent": "#E87722",
+    "note": "Deep navy conveys trust, reliability, and no-nonsense competence — the core of Mr. Lee's reputation. Burnt orange as an accent reflects energy, hard work, and the warmth of a neighborhood shop that genuinely cares. Together they feel grounded and honest without being corporate or flashy, which matches the shop's personality exactly."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Radical honesty — Mr. Lee tells customers exactly what's wrong, what he can fix, and when to go elsewhere, building exceptional trust",
+      "Speed and efficiency — same-day repairs and fast inspections are mentioned across multiple reviews as a defining quality",
+      "Fair, transparent pricing — customers consistently feel they are charged fairly and never upsold, even when problems turn out to be minor"
+    ],
+    "common_complaints": [
+      "No appointment system creates early-morning pressure and potential frustration for customers who arrive slightly late",
+      "One customer reported Mr. Lee declined to install a compressor due to a broken connector, leaving them without a resolution"
+    ],
+    "suggested_tagline": "Show up at 8. Leave with answers.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "Honest",
+      "No-nonsense",
+      "Trustworthy",
+      "In-demand",
+      "Neighborhood institution"
+    ],
+    "named_staff": [
+      "Mr. Lee"
+    ]
   }
 }

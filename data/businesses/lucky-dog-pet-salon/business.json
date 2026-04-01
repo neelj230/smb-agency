@@ -1,0 +1,252 @@
+{
+  "name": "Lucky Dog Pet Salon",
+  "slug": "lucky-dog-pet-salon",
+  "category": "pet groomer",
+  "address": "622 Crater Lake Ave",
+  "city": "Medford",
+  "state": "OR",
+  "zip": "97504",
+  "phone": "(541) 245-2949",
+  "email": "",
+  "website": null,
+  "rating": 4.5,
+  "reviewCount": 168,
+  "tagline": "Where Stinky Beasts Leave Looking Royal",
+  "brandNarrative": "Lucky Dog Pet Salon is Medford's best-kept secret — the grooming equivalent of a beloved hole-in-the-wall café, where the vibe is warm, the skills are sharp, and your pet actually wants to come back. Owner Courtney and groomer Kendra have built something rare: a salon where anxious dogs stop shaking at drop-off, where a stinky, barking beast named Rick James walks out looking like a 'doggie prince,' and where a big fluffy cat gets two patient baths without complaint. This isn't a factory operation — it's a tight, talented crew that genuinely knows animals.\n\nWhat sets Lucky Dog apart is how the team handles the hard cases. Dogs that 'usually hate being groomed' suddenly have no problems here. A teacup chihuahua who fights nail trims everywhere else let Courtney finish the job — dew claw included — in under five minutes. Customers with multiple pets of all sizes trust Kendra with their whole crew on a regular schedule, not because it's convenient, but because their dogs made it clear they preferred her. That kind of loyalty doesn't come from a fancy lobby — it comes from genuine animal instinct and care.\n\nLucky Dog also serves cats, which most salons quietly avoid. From Persian show cats to fluffy, double-bath-requiring divas, Courtney's team handles felines with the same calm confidence they bring to every dog. Walk-ins are welcomed without attitude, prices stay affordable, and the communication is consistently called out as a strength. On Crater Lake Ave, this little salon punches well above its weight.",
+  "ownerStory": "Courtney is the kind of groomer who stops mid-appointment to trim a walk-in's teacup chihuahua nails — and does it so gently the dog barely flinches. She built Lucky Dog Pet Salon not around a brand aesthetic but around a simple belief: that animals deserve to feel safe, not just clean. Customers describe her as welcoming, expert, and unhurried, someone who treats your pet like a client worth knowing, not a ticket to process. She handles cats and dogs with equal confidence, and her reputation for calm handling of difficult or anxious animals has made her a word-of-mouth staple in Medford.\n\nAlongside her, groomer Kendra has cultivated her own loyal following — the kind where regulars book specifically for her, bring multiple dogs at once, and credit her with transforming their pets' attitudes toward grooming entirely. Together, Courtney and Kendra have created a two-person powerhouse on Crater Lake Ave that feels nothing like a chain and everything like a neighborhood institution.",
+  "hours": {
+    "Monday": "9:00 AM – 5:00 PM",
+    "Tuesday": "9:00 AM – 5:00 PM",
+    "Wednesday": "9:00 AM – 5:00 PM",
+    "Thursday": "9:00 AM – 5:00 PM",
+    "Friday": "9:00 AM – 5:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Full Groom & Style",
+      "description": "Complete bath, blow-dry, breed-appropriate trim, and finishing touches that leave your dog looking their absolute best.",
+      "icon": "scissors"
+    },
+    {
+      "name": "Nail Trim & Dew Claw Care",
+      "description": "Precise nail trimming including dew claws, handled with calm technique that even the most resistant dogs tolerate.",
+      "icon": "pointer"
+    },
+    {
+      "name": "Anal Gland Expression",
+      "description": "Professional anal gland relief performed safely and efficiently as a standalone or add-on service.",
+      "icon": "heart-pulse"
+    },
+    {
+      "name": "Cat Grooming & Bathing",
+      "description": "Full grooming services for cats including baths, blow-dry, and coat care — including multi-bath sessions for long or heavily-coated breeds.",
+      "icon": "cat"
+    },
+    {
+      "name": "Bath & Brush-Out",
+      "description": "Deep cleansing bath, ear cleaning, and thorough brush-out to detangle and refresh your dog's coat between full grooms.",
+      "icon": "sparkles"
+    },
+    {
+      "name": "Walk-In Nail & Quick Services",
+      "description": "Fast, no-fuss walk-in nail trims and minor grooming needs completed while you wait — no appointment required.",
+      "icon": "zap"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "List is like your little hole in the wall \"café\" but for your dog grooming need! The owner is so welcoming and inviting on top of being an expert at what she does. I was a walk-in customer and she stopped what she was doing to do my teacup chihuahua nails in a matter of mins and even got the dew claw \" what would have taken me weeks to accomplish took her less than 5 min\" my dog felt so comfortable that she barley even fought her. She also did the annual glands on my other dog. If your look for a groomer this gal and her crew the real deal!",
+      "author": "Dawn Robinson",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-03-04"
+    },
+    {
+      "text": "We have been to ☘️ lucky dog ☘️ a few times and they are efficient, welcoming and have great communication.\nOur dog RJ (Rick James) is a stinky beast sometimes and after his grooming appointment he always looks like a doggie prince. 👑\nThank you Courtney and team for dealing with his excessive barking! 🐕",
+      "author": "Selisha brunner",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-28"
+    },
+    {
+      "text": "Courtney bathed my big fluffy kitty, she even had to give her two separate baths. She did such a great job, I'll definitely be recommending them to peers & coming back in the future.",
+      "author": "Erica C",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-31"
+    },
+    {
+      "text": "Courtney took such good care of our little girl. She usually hates being groomed, but everytime she has gone she has had no problems! And looks fabulous!!",
+      "author": "Jessica Morton",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-12-20"
+    },
+    {
+      "text": "I have 3 babies (small, medium and Ex-large). I take them in regularly to see Kendra for nails, wash, and a trim. My babies love coming in to see her. We've gone elsewhere in the past and my babies made it clear they didn't like going there (they would act up when I dropped them off and be start shaking). At lucky dog, we've never had that happen. My big dog can be a handful but they take such good care of my babies! Their prices are affordable and the staff are just wonderfully amazing!",
+      "author": "Mia Tilton",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-05-26"
+    }
+  ],
+  "team": [
+    {
+      "name": "Courtney",
+      "role": "Owner & Lead Groomer",
+      "bio": "Courtney is the heart of Lucky Dog — described by customers as welcoming, expert, and exceptionally calm with anxious or difficult animals. She handles everything from teacup chihuahuas to big fluffy cats, and her ability to make nervous pets feel at ease is what keeps customers coming back.",
+      "credentials": [
+        "Expert nail care including dew claws",
+        "Cat grooming specialist",
+        "Walk-in friendly",
+        "Anal gland expression"
+      ]
+    },
+    {
+      "name": "Kendra",
+      "role": "Senior Groomer",
+      "bio": "Kendra has earned a devoted following of multi-pet households who book specifically for her — customers credit her with completely changing how their dogs feel about grooming. She handles small, medium, and extra-large dogs with equal skill and consistent care.",
+      "credentials": [
+        "Multi-dog appointment specialist",
+        "Full groom and trim",
+        "Nail care and bathing",
+        "Anxiety-sensitive handling"
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Apricot poodle wearing skeleton-patterned bandana in indoor setting",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "White fluffy dog wearing colorful toy collar held by man indoors",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Small white Shih Tzu dog wearing purple and green collar bow, looking upward",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Groomed Standard Poodle standing on table at professional dog grooming salon",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Black and white cat with yellow eyes sitting on beige rug indoors",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Cream-colored Goldendoodle lying on dark speckled floor against beige wall",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Persian cat with white and gray fur sitting in car seat",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Adorable Shih Tzu puppy wearing gray and white scarf, smiling at camera",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Black and white cat lying on teal patterned bedding, looking at camera",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "White fluffy dog with red heart tag sitting by window indoors",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 4.5,
+      "suffix": "★",
+      "label": "Average Customer Rating"
+    },
+    {
+      "value": 168,
+      "suffix": "+",
+      "label": "Verified Reviews"
+    },
+    {
+      "value": 2,
+      "suffix": " species",
+      "label": "Dogs & Cats Both Welcome"
+    },
+    {
+      "value": 5,
+      "suffix": " days",
+      "label": "Open Monday Through Friday"
+    }
+  ],
+  "faq": [
+    {
+      "question": "My dog hates being groomed and gets really anxious. Can you help?",
+      "answer": "Yes — this is actually one of Lucky Dog's strongest suits. Multiple customers report that dogs who shook, barked, or fought at other salons are calm and cooperative here. Courtney and Kendra use gentle, patient handling that animals respond to. Even challenging cases like excessive barkers and resistant nail-trim dogs have been handled successfully."
+    },
+    {
+      "question": "Do you groom cats as well as dogs?",
+      "answer": "Absolutely. Lucky Dog is one of the few salons in the area that grooms cats, including long-haired and heavily-coated breeds that may need multiple baths. Courtney has been specifically praised for her cat grooming work, so your feline is in very capable hands."
+    },
+    {
+      "question": "Do you accept walk-ins?",
+      "answer": "Yes, walk-ins are welcome when the schedule allows. One customer walked in with a teacup chihuahua needing a nail trim and dew claw care, and Courtney stopped to help her on the spot. It's always worth calling ahead, but the team does their best to accommodate."
+    },
+    {
+      "question": "How are your prices compared to other groomers?",
+      "answer": "Lucky Dog is consistently described as affordable by customers, especially given the quality of work. Customers with multiple dogs of different sizes report being able to bring all their pets regularly without it breaking the bank."
+    },
+    {
+      "question": "Can you handle large or difficult dogs?",
+      "answer": "Yes. Kendra in particular has a loyal following of large-dog owners. One customer brings an extra-large dog described as 'a handful,' and credits Kendra with handling him beautifully every time. The team is experienced with all sizes and temperaments."
+    },
+    {
+      "question": "What are your hours and how do I book an appointment?",
+      "answer": "Lucky Dog is open Monday through Friday, 9:00 AM to 5:00 PM, and is closed on weekends. To book, give them a call at (541) 245-2949 — they don't currently have online booking, so a quick phone call is the best way to get on the schedule."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#4A7C59",
+    "accent": "#F4A84B",
+    "note": "Forest green reflects the Pacific Northwest Medford setting and the natural, no-fuss character of the salon — grounded and trustworthy, not flashy. Warm amber-gold as the accent captures the 'lucky' warmth, the bandana-and-bow personality seen in the photos, and the sunshine energy customers describe when they talk about Courtney and Kendra. Together they feel like a neighborhood gem, not a corporate chain."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Exceptional handling of anxious, fearful, or difficult animals — dogs that fight grooming elsewhere are calm here, which is the single most emotionally resonant theme across reviews",
+      "Highly personal, welcoming atmosphere led by named staff (Courtney and Kendra) who build genuine loyalty — customers return specifically for individual groomers and bring multiple pets",
+      "Breadth of services including cat grooming, walk-ins, anal gland expression, and nail trims that other salons skip — makes Lucky Dog a one-stop resource for unusual or inconvenient needs"
+    ],
+    "common_complaints": [
+      "None found in the provided reviews — all five reviewed are 5-star with no negative feedback noted"
+    ],
+    "suggested_tagline": "Your Pet's Favorite Appointment",
+    "photo_quality": "good",
+    "personality_keywords": [
+      "warm",
+      "expert",
+      "calm",
+      "unpretentious",
+      "animal-intuitive"
+    ],
+    "named_staff": [
+      "Courtney",
+      "Kendra"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

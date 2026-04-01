@@ -1,0 +1,373 @@
+@import "tailwindcss";
+
+/* Scan shared packages for Tailwind classes */
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #156cc2;
+  --brand-accent: #0ea158;
+  --brand-bg: #f4f1ee;
+  --brand-bg-alt: #dcddde;
+  --brand-text: #1a1a1a;
+  --brand-muted: #1a1a1a;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: var(--brand-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+/* Marquee animation for carousels */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Smooth section transitions */
+section, [id] > div {
+  scroll-margin-top: 80px;
+}
+
+/* Focus-visible outlines for accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Inset border for editorial/gallery feel */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 12px;
+  z-index: 999;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  pointer-events: none;
+  border-radius: 2px;
+}
+
+/* Gradient transitions between sections */
+.section-gradient {
+  position: relative;
+}
+.section-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--brand-bg));
+  pointer-events: none;
+}
+
+/* Creative director extras */
+/* ─────────────────────────────────────────────
+   BRAND TOKENS
+───────────────────────────────────────────── */
+:root {
+  --brand-primary: #156cc2;
+  --brand-accent:  #0ea158;
+  --brand-text:    #0d1b2a;
+  --brand-muted:   #f4f7fb;
+  --brand-border:  rgba(21, 108, 194, 0.12);
+  --font-display: 'Hedvig Letters Serif', Georgia, serif;
+  --font-body:    'Inter', system-ui, sans-serif;
+}
+
+/* ─────────────────────────────────────────────
+   GOOGLE FONTS IMPORT
+───────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Inter:wght@400;500;600&display=swap');
+
+body {
+  font-family: var(--font-body);
+  background: #fff;
+  color: var(--brand-text);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+}
+
+/* ─────────────────────────────────────────────
+   DOT PATTERN BACKGROUND
+───────────────────────────────────────────── */
+.dot-pattern {
+  background-image: radial-gradient(circle, rgba(21,108,194,0.10) 1px, transparent 1px);
+  background-size: 22px 22px;
+  background-color: #f8fbff;
+}
+
+/* ─────────────────────────────────────────────
+   TRUST BAND
+───────────────────────────────────────────── */
+.trust-band {
+  background: var(--brand-primary);
+  overflow: hidden;
+  padding: 0;
+}
+
+.trust-band__inner {
+  display: flex;
+  gap: 0;
+  width: max-content;
+  animation: trust-scroll 28s linear infinite;
+}
+
+.trust-band__item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 13px 36px;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.92);
+  white-space: nowrap;
+  border-right: 1px solid rgba(255,255,255,0.18);
+}
+
+.trust-band__icon {
+  font-size: 1rem;
+}
+
+@keyframes trust-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* ─────────────────────────────────────────────
+   ABOUT WRAPPER — light, generous padding
+───────────────────────────────────────────── */
+.about-wrapper {
+  background: #ffffff;
+  padding: 5rem 0 4rem;
+}
+
+/* ─────────────────────────────────────────────
+   SERVICES WRAPPER
+───────────────────────────────────────────── */
+.services-wrapper {
+  padding: 5rem 0 6rem;
+}
+
+/* ─────────────────────────────────────────────
+   PROCESS STRIP — dark section
+───────────────────────────────────────────── */
+.process-strip {
+  background: var(--brand-text);
+  color: #fff;
+  padding: 6rem 1.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.process-strip::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 70% 50%, rgba(21,108,194,0.18) 0%, transparent 65%);
+  pointer-events: none;
+}
+
+.process-strip__container {
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.process-strip__eyebrow {
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--brand-accent);
+  margin-bottom: 0.6rem;
+}
+
+.process-strip__heading {
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 3.5rem;
+  line-height: 1.2;
+}
+
+.process-strip__steps {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.process-strip__card {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 16px;
+  padding: 2rem 1.75rem;
+  transition: background 0.25s ease, border-color 0.25s ease, transform 0.25s ease;
+}
+
+.process-strip__card:hover {
+  background: rgba(255,255,255,0.09);
+  border-color: rgba(21,108,194,0.5);
+  transform: translateY(-4px);
+}
+
+.process-strip__num {
+  display: block;
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: var(--brand-accent);
+  margin-bottom: 0.85rem;
+}
+
+.process-strip__title {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 0.65rem;
+  line-height: 1.3;
+}
+
+.process-strip__body {
+  font-family: var(--font-body);
+  font-size: 0.88rem;
+  color: rgba(255,255,255,0.62);
+  line-height: 1.65;
+}
+
+/* ─────────────────────────────────────────────
+   REVIEWS WRAPPER
+───────────────────────────────────────────── */
+.reviews-wrapper {
+  background: #ffffff;
+  padding: 5rem 0 4rem;
+}
+
+/* ─────────────────────────────────────────────
+   FAQ WRAPPER
+───────────────────────────────────────────── */
+.faq-wrapper {
+  padding: 5.5rem 0 6rem;
+}
+
+/* ─────────────────────────────────────────────
+   CTA BANNER
+───────────────────────────────────────────── */
+.cta-banner {
+  background: linear-gradient(135deg, var(--brand-primary) 0%, #0d4f96 100%);
+  padding: 5rem 1.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-banner::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  pointer-events: none;
+}
+
+.cta-banner__inner {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+}
+
+.cta-banner__text {
+  flex: 1;
+  min-width: 220px;
+}
+
+.cta-banner__heading {
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 3.5vw, 2.4rem);
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 0.45rem;
+  line-height: 1.2;
+}
+
+.cta-banner__sub {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: rgba(255,255,255,0.75);
+  line-height: 1.5;
+}
+
+.cta-banner__btn {
+  display: inline-block;
+  background: #fff;
+  color: var(--brand-primary);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 1rem 2.25rem;
+  border-radius: 50px;
+  text-decoration: none;
+  white-space: nowrap;
+  letter-spacing: 0.01em;
+  box-shadow: 0 8px 28px rgba(0,0,0,0.18);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  flex-shrink: 0;
+}
+
+.cta-banner__btn:hover {
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 14px 36px rgba(0,0,0,0.22);
+  background: var(--brand-accent);
+  color: #fff;
+}
+
+/* ─────────────────────────────────────────────
+   GLASS EFFECT UTILITY
+───────────────────────────────────────────── */
+.glass {
+  backdrop-filter: blur(12px) saturate(1.6);
+  -webkit-backdrop-filter: blur(12px) saturate(1.6);
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.22);
+}
+
+/* ─────────────────────────────────────────────
+   RESPONSIVE TWEAKS
+───────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .process-strip__steps {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-banner__inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .trust-band__item {
+    padding: 13px 24px;
+  }
+}

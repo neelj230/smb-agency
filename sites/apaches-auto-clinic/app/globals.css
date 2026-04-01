@@ -1,0 +1,345 @@
+@import "tailwindcss";
+
+/* Scan shared packages for Tailwind classes */
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #156cc2;
+  --brand-accent: #0ea158;
+  --brand-bg: #f4f1ee;
+  --brand-bg-alt: #dcddde;
+  --brand-text: #1a1a1a;
+  --brand-muted: #1a1a1a;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: var(--brand-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+/* Marquee animation for carousels */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Smooth section transitions */
+section, [id] > div {
+  scroll-margin-top: 80px;
+}
+
+/* Focus-visible outlines for accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Subtle dot pattern background */
+.dot-pattern {
+  background-image: radial-gradient(circle, var(--brand-muted) 0.5px, transparent 0.5px);
+  background-size: 24px 24px;
+}
+
+/* Gradient transitions between sections */
+.section-gradient {
+  position: relative;
+}
+.section-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--brand-bg));
+  pointer-events: none;
+}
+
+/* Creative director extras */
+/* ─────────────────────────────────────────────────────
+   Apache's Auto Clinic — Custom CSS
+───────────────────────────────────────────────────── */
+
+/* ── Fonts ── */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --brand-primary: #156cc2;
+  --brand-accent: #0ea158;
+  --brand-text: #111827;
+  --brand-bg: #f8f7f4;
+  --brand-off-white: #f2f0ec;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: var(--brand-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Figtree', sans-serif;
+  letter-spacing: -0.02em;
+}
+
+/* ── Film grain overlay (subtle warmth) ── */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
+  mix-blend-mode: overlay;
+  opacity: 0.025;
+}
+
+/* ── Section label pill ── */
+.apache-section-label {
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  background-color: rgba(21, 108, 194, 0.1);
+  color: var(--brand-primary);
+  border: 1px solid rgba(21, 108, 194, 0.2);
+  padding: 0.3rem 0.85rem;
+  border-radius: 999px;
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+}
+
+@media (min-width: 768px) {
+  .apache-section-label {
+    margin-left: 2rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .apache-section-label {
+    margin-left: calc((100vw - 1280px) / 2 + 2rem);
+  }
+}
+
+.apache-section-label--light {
+  background-color: rgba(255, 255, 255, 0.12);
+  color: rgba(255, 255, 255, 0.85);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* ── Section wrappers ── */
+.apache-section {
+  position: relative;
+}
+
+.apache-section--light {
+  background-color: #ffffff;
+}
+
+.apache-section--off-white {
+  background-color: var(--brand-off-white);
+}
+
+/* ── Dark bands ── */
+.apache-dark-band {
+  background-color: var(--brand-text);
+  color: #ffffff;
+  position: relative;
+}
+
+.apache-dark-band--accent {
+  background: linear-gradient(135deg, #0f1e35 0%, #0d2240 60%, #0a1f2e 100%);
+}
+
+/* Dot pattern on dark band */
+.apache-dark-band::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size: 28px 28px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.apache-dark-band > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* ── Trust bar ── */
+.apache-trust-bar {
+  background-color: var(--brand-primary);
+  padding: 0.9rem 1.5rem;
+  overflow: hidden;
+}
+
+.apache-trust-bar__inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem 2.5rem;
+}
+
+.apache-trust-bar__item {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.apache-trust-bar__icon {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.apache-trust-bar__label {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.92);
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+  .apache-trust-bar__inner {
+    gap: 0.45rem 1.5rem;
+  }
+  .apache-trust-bar__label {
+    font-size: 0.72rem;
+  }
+}
+
+/* ── Dot pattern utility ── */
+.dot-pattern {
+  background-image: radial-gradient(rgba(21, 108, 194, 0.08) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* ── Glass card utility ── */
+.glass {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 1rem;
+}
+
+/* ── Hover scale for cards (applied to child card elements) ── */
+.apache-section [class*="card"],
+.apache-section [class*="Card"] {
+  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.25s ease;
+}
+
+.apache-section [class*="card"]:hover,
+.apache-section [class*="Card"]:hover {
+  transform: translateY(-4px) scale(1.015);
+  box-shadow: 0 16px 40px rgba(21, 108, 194, 0.12);
+}
+
+/* ── Smooth scroll ── */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ── Accent color overrides for FAQ accordion, links ── */
+a {
+  color: var(--brand-primary);
+}
+
+a:hover {
+  color: var(--brand-accent);
+}
+
+/* ── Process steps icon color ── */
+.apache-dark-band [class*="step"] {
+  color: #ffffff;
+}
+
+/* ── Section padding consistency ── */
+.apache-section > *:not(.apache-section-label) {
+  padding-top: 0;
+}
+
+/* ── Fade-up animation (for any manually animated elements) ── */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-up {
+  animation: fadeUp 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* ── Subtle gradient section transitions ── */
+.apache-section--light + .apache-dark-band {
+  border-top: none;
+}
+
+.apache-dark-band + .apache-section--light {
+  border-top: none;
+}
+
+/* ── Footer text tweak ── */
+footer {
+  font-family: 'Inter', sans-serif;
+}
+
+/* ── Stat counter number styles ── */
+[class*="stat"] [class*="value"],
+[class*="Stat"] [class*="value"] {
+  font-family: 'Figtree', sans-serif;
+  font-weight: 800;
+}
+
+/* ── Tagline badge in hero (if rendered) ── */
+[class*="rating"],
+[class*="Rating"] {
+  font-family: 'Inter', sans-serif;
+}
+
+/* ── CTA button brand color refinement ── */
+[class*="cta"],
+[class*="Cta"],
+button[class*="primary"],
+a[class*="primary"] {
+  background-color: var(--brand-primary) !important;
+  border-color: var(--brand-primary) !important;
+}
+
+[class*="cta"]:hover,
+[class*="Cta"]:hover,
+button[class*="primary"]:hover,
+a[class*="primary"]:hover {
+  background-color: #1160a8 !important;
+  border-color: #1160a8 !important;
+}
+
+        :root {
+          --brand-primary: #156cc2;
+          --brand-accent: #0ea158;
+          --brand-text: #111827;
+        }
+      

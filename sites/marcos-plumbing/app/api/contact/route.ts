@@ -2,25 +2,39 @@ import { NextResponse } from 'next/server'
 
 export async function POST(request: Request) {
   try {
-    const data = await request.json()
-
-    const { name, email, phone, message } = data
+    const body = await request.json()
+    const { name, email, phone, message } = body
 
     if (!name || !email || !message) {
       return NextResponse.json(
-        { error: 'Name, email, and message are required.' },
+        { error: 'Name, email, and message are required' },
         { status: 400 }
       )
     }
 
-    // In production, this calls sendContactEmail from @/integrations/actions/contact
-    // For static export / proof-of-concept, we log and return success
-    console.log('Contact form submission:', { name, email, phone, message })
+    // Log the submission (replace with Resend in production)
+    console.log('Contact form submission:', {
+      business: 'Marco\'s Plumbing & Heating',
+      name,
+      email,
+      phone,
+      message,
+      timestamp: new Date().toISOString(),
+    })
+
+    // TODO: Uncomment when Resend is configured
+    // const resend = new Resend(process.env.RESEND_API_KEY)
+    // await resend.emails.send({
+    //   from: 'website@yourdomain.com',
+    //   to: 'info@marcosplumbing.com',
+    //   subject: `New inquiry from ${name}`,
+    //   text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone || 'N/A'}\nMessage: ${message}`,
+    // })
 
     return NextResponse.json({ success: true })
   } catch {
     return NextResponse.json(
-      { error: 'Failed to process contact form.' },
+      { error: 'Failed to submit form' },
       { status: 500 }
     )
   }

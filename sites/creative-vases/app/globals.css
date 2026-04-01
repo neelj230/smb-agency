@@ -1,0 +1,388 @@
+@import "tailwindcss";
+
+/* Scan shared packages for Tailwind classes */
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #c4a355;
+  --brand-accent: #9bc455;
+  --brand-bg: #fff8ed;
+  --brand-bg-alt: #efe6d8;
+  --brand-text: #21201b;
+  --brand-muted: #6b6558;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: var(--brand-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+/* Marquee animation for carousels */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Smooth section transitions */
+section, [id] > div {
+  scroll-margin-top: 80px;
+}
+
+/* Focus-visible outlines for accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Inset border for editorial/gallery feel */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 12px;
+  z-index: 999;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  pointer-events: none;
+  border-radius: 2px;
+}
+
+/* Film grain overlay for warm analog feel */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+  mix-blend-mode: hard-light;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+/* Mix-blend-mode hover effect for cards */
+.card-hover {
+  position: relative;
+  overflow: hidden;
+}
+.card-hover::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--brand-primary);
+  mix-blend-mode: difference;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.card-hover:hover::after {
+  opacity: 1;
+}
+
+/* Gradient transitions between sections */
+.section-gradient {
+  position: relative;
+}
+.section-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--brand-bg));
+  pointer-events: none;
+}
+
+/* Creative director extras */
+/* ─────────────────────────────────────────────────────────
+   Creative Vases — Custom CSS
+   ───────────────────────────────────────────────────────── */
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Inter:wght@300;400;500;600&display=swap');
+
+/* Brand tokens */
+:root {
+  --brand-gold: #c4a355;
+  --brand-green: #9bc455;
+  --brand-cream: #fdf9f2;
+  --brand-warm: #faf7f2;
+  --brand-dark: #1a1a14;
+  --brand-text: #1a1a14;
+  --font-display: 'Bricolage Grotesque', sans-serif;
+  --font-body: 'Inter', sans-serif;
+}
+
+/* Typography override */
+h1, h2, h3, h4, h5 {
+  font-family: var(--font-display) !important;
+  letter-spacing: -0.02em;
+}
+
+body {
+  font-family: var(--font-body) !important;
+  background-color: var(--brand-cream);
+}
+
+/* ── Film grain overlay ── */
+.cv-grain-overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.028;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  mix-blend-mode: overlay;
+}
+
+/* ── Hero wrapper ── */
+.cv-hero-wrapper {
+  position: relative;
+}
+
+/* Floating tags */
+.cv-hero-tags {
+  position: absolute;
+  bottom: 2.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  z-index: 20;
+  pointer-events: none;
+}
+
+.cv-floating-tag {
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--brand-dark);
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0,0,0,0.08);
+  white-space: nowrap;
+  animation-delay: var(--delay, 0s);
+}
+
+/* ── Marquee section ── */
+.cv-marquee-section {
+  overflow: hidden;
+  padding: 0.9rem 0;
+}
+
+.cv-marquee-wrapper {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
+
+.cv-marquee-track {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  white-space: nowrap;
+  animation: cv-scroll 35s linear infinite;
+  will-change: transform;
+}
+
+.cv-marquee-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 0 2.2rem;
+  flex-shrink: 0;
+}
+
+.cv-marquee-dot {
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+@keyframes cv-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* ── Section color contexts ── */
+.cv-section-warm {
+  background: var(--brand-warm);
+  position: relative;
+}
+
+.cv-section-cream {
+  background: var(--brand-cream);
+  position: relative;
+}
+
+.cv-section-dark {
+  background: var(--brand-dark);
+  color: #fff;
+  position: relative;
+}
+
+.cv-section-dark h2,
+.cv-section-dark h3,
+.cv-section-dark p,
+.cv-section-dark span,
+.cv-section-dark li {
+  color: inherit;
+}
+
+/* ── Section inner ── */
+.cv-section-inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 5rem 1.5rem;
+}
+
+.cv-about-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem 4rem;
+}
+
+.cv-faq-inner {
+  max-width: 900px;
+}
+
+/* ── Stats wrapper ── */
+.cv-stats-wrapper {
+  background: var(--brand-dark);
+  position: relative;
+  z-index: 2;
+}
+
+/* ── Section label pill ── */
+.cv-section-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--brand-dark);
+  background: rgba(196, 163, 85, 0.12);
+  padding: 0.35rem 1rem;
+  border-radius: 999px;
+  margin-bottom: 1.5rem;
+  border: 1px solid rgba(196, 163, 85, 0.25);
+}
+
+.cv-section-label-light {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-family: var(--font-body);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #fff;
+  background: rgba(155, 196, 85, 0.14);
+  padding: 0.35rem 1rem;
+  border-radius: 999px;
+  margin-bottom: 1.5rem;
+  border: 1px solid rgba(155, 196, 85, 0.25);
+}
+
+/* ── Dark section heading override ── */
+.cv-section-dark h2 {
+  color: #fff !important;
+}
+
+/* ── Card hover polish ── */
+[class*="service-card"],
+[class*="ServiceCard"],
+[class*="card"] {
+  transition: transform 0.28s cubic-bezier(0.34, 1.56, 0.64, 1),
+              box-shadow 0.28s ease !important;
+}
+
+[class*="service-card"]:hover,
+[class*="ServiceCard"]:hover,
+[class*="card"]:hover {
+  transform: translateY(-4px) scale(1.015) !important;
+  box-shadow: 0 20px 60px rgba(196, 163, 85, 0.18) !important;
+}
+
+/* ── Testimonial warm tint ── */
+[class*="testimonial"],
+[class*="Testimonial"] {
+  --tw-ring-color: rgba(196, 163, 85, 0.2);
+}
+
+/* ── FAQ dark context ── */
+.cv-section-dark [class*="accordion"],
+.cv-section-dark [class*="Accordion"],
+.cv-section-dark [class*="faq"],
+.cv-section-dark [class*="FAQ"] {
+  --faq-border: rgba(255,255,255,0.1);
+  border-color: rgba(255,255,255,0.1) !important;
+}
+
+.cv-section-dark [class*="accordion"] button,
+.cv-section-dark [class*="Accordion"] button {
+  color: #fff !important;
+}
+
+/* ── Dot pattern background (subtle) ── */
+.dot-pattern {
+  background-image: radial-gradient(circle, rgba(196,163,85,0.12) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+/* ── Scrollbar styling ── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--brand-cream);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--brand-gold);
+  border-radius: 99px;
+}
+
+/* ── Selection color ── */
+::selection {
+  background: rgba(196, 163, 85, 0.3);
+  color: var(--brand-dark);
+}
+
+/* ── Responsive tweaks ── */
+@media (max-width: 768px) {
+  .cv-hero-tags {
+    bottom: 1rem;
+    gap: 0.5rem;
+  }
+
+  .cv-floating-tag {
+    font-size: 0.7rem;
+    padding: 0.35rem 0.75rem;
+  }
+
+  .cv-section-inner {
+    padding: 3.5rem 1.25rem;
+  }
+}

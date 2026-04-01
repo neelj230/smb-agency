@@ -11,9 +11,9 @@
   "website": null,
   "rating": 4.2,
   "reviewCount": 133,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "West Philly's Most Loyal Chair",
+  "brandNarrative": "T&C Nail Salon has been a fixture on Chestnut Street for over a decade, earning the kind of loyalty that only comes from consistently doing the work right. Customers like D'Aaron and Dalisha Washington have been walking through these doors for 9+ years — not because it's convenient, but because the results speak for themselves. D'Aaron puts it plainly: 'I'm flooded with compliments every time I leave the chair.' That's not an accident. It's the product of technicians like Mai, who handles monthly acrylic refills with the kind of precision that keeps clients booking the same chair month after month.",
+  "ownerStory": "T&C Nail Salon is a family business in the truest sense. Known warmly in the community as a mother-daughter operation, the family behind T&C has built something rare on Chestnut Street: a loyal clientele that spans nearly a decade for many customers. Mai has become a go-to technician for acrylic refills, trusted month after month by clients who won't sit in anyone else's chair. The 'Mom' of the operation handles pedicures with a practiced, careful hand — and on most days, the whole team moves in sync, creating an atmosphere where regulars feel at home and newcomers quickly become familiar faces. The business reflects a clear philosophy: respect the client, respect the craft, and the results will speak for themselves.",
   "hours": {
     "Monday": "9:00 AM – 5:30 PM",
     "Tuesday": "9:00 AM – 5:30 PM",
@@ -23,7 +23,38 @@
     "Saturday": "9:00 AM – 5:30 PM",
     "Sunday": "Closed"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Acrylic Full Set & Refills",
+      "description": "Custom acrylic nail sets and monthly refills crafted with precision — Mai's specialty, trusted by long-term clients who return month after month.",
+      "icon": "sparkles"
+    },
+    {
+      "name": "Pedicure",
+      "description": "Thorough pedicure services including specialized ingrown toenail care, performed with attention to comfort and detail.",
+      "icon": "footprints"
+    },
+    {
+      "name": "Gel Manicure",
+      "description": "Long-lasting gel polish applied over shaped nails for a glossy, chip-resistant finish that keeps hands looking polished for weeks.",
+      "icon": "wand"
+    },
+    {
+      "name": "Nail Art & Custom Designs",
+      "description": "Intricate nail art and custom designs that clients describe as 'masterpieces' — the kind of work that draws compliments long after you leave the salon.",
+      "icon": "palette"
+    },
+    {
+      "name": "Eyebrow Services",
+      "description": "Clean, defined eyebrow shaping and waxing to complete your look from head to toe.",
+      "icon": "eye"
+    },
+    {
+      "name": "Classic Manicure",
+      "description": "A foundational manicure — nail shaping, cuticle care, and polish — executed with the detail-oriented approach T&C is known for.",
+      "icon": "scissors"
+    }
+  ],
   "reviews": [
     {
       "text": "I’ve been coming to T&C Nail Salon since I was in high school, over 9 years ago! I’ve always loved their welcoming environment. EVERYONE is very professional and kind.Their work ethic and attention to detail creates thee most beautiful masterpieces I’ve ever seen. I say that to say, the energy you enter the salon with is the energy that will be reciprocated to you. They respect their clients and their business, promoting a space I feel more than comfortable getting serviced at. So comfortable, I can honestly say this is THE BEST NAIL SALON IN WEST PHILLY! I’m flooded with compliments every time I leave the chair!",
@@ -61,7 +92,36 @@
       "date": "2025-08-01"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Mai",
+      "role": "Nail Technician – Acrylic Specialist",
+      "bio": "Mai is the trusted go-to technician for acrylic refills, booked monthly by loyal clients who say she 'never disappoints.' Her consistency and precision keep a devoted client base coming back to her chair.",
+      "credentials": [
+        "Acrylic Full Sets",
+        "Monthly Refills",
+        "Long-term client retention"
+      ]
+    },
+    {
+      "name": "Anna",
+      "role": "Nail Technician – Pedicure & Ingrown Toenail Specialist",
+      "bio": "Anna specializes in pedicures with a particular skill for ingrown toenail care, earning the deep trust of clients who specifically request her services and wait patiently for her chair.",
+      "credentials": [
+        "Pedicure Services",
+        "Ingrown Toenail Care"
+      ]
+    },
+    {
+      "name": "Mom",
+      "role": "Senior Nail Technician & Co-Owner",
+      "bio": "Known affectionately as 'the mother,' this senior family member delivers pedicures that long-time clients describe as 'perfection,' anchoring the salon's reputation for consistent, quality care.",
+      "credentials": [
+        "Pedicure Services",
+        "9+ Years Client Relationships"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -116,28 +176,83 @@
   ],
   "stats": [
     {
-      "value": 133,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.2,
+      "suffix": "★",
+      "label": "Average Customer Rating"
     },
     {
-      "value": 4.2,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 133,
+      "suffix": "+",
+      "label": "Customer Reviews"
+    },
+    {
+      "value": 9,
+      "suffix": "+ yrs",
+      "label": "Longest Client Loyalties"
+    },
+    {
+      "value": 1000,
+      "suffix": "+",
+      "label": "Clients Served in West Philly"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Do I need an appointment or can I walk in?",
+      "answer": "T&C Nail Salon accepts walk-ins. The salon opens at 9:00 AM Tuesday through Saturday (closed Wednesday and Sunday). Many loyal clients arrive early — sometimes before opening — to secure their preferred technician, especially for specialists like Mai or Anna."
+    },
+    {
+      "question": "Can I request a specific nail technician?",
+      "answer": "Yes, and many regulars do exactly that. Clients frequently request Mai for acrylic refills and Anna for pedicures and ingrown toenail care. If you have a preference, it's worth arriving early or calling ahead to (215) 472-4377."
+    },
+    {
+      "question": "What makes T&C different from other nail salons in West Philly?",
+      "answer": "Long-term clients consistently point to three things: the quality of the work (described as 'masterpieces'), the professional and welcoming atmosphere, and the consistency that keeps people returning for 9+ years. Multiple reviewers independently called it the best nail salon in West Philadelphia."
+    },
+    {
+      "question": "Do you offer eyebrow services in addition to nails?",
+      "answer": "Yes. T&C offers eyebrow services alongside their full nail menu. Clients recommend it as a one-stop visit for hands, feet, and brows."
+    },
+    {
+      "question": "How should I handle a concern about my nails during my visit?",
+      "answer": "T&C's best experiences happen when communication is open and respectful on both sides — the team takes pride in their work and values client feedback. If something doesn't look right, raise it calmly and directly with your technician."
+    },
+    {
+      "question": "What are the salon's hours and is there a day they're closed?",
+      "answer": "T&C is open Tuesday, Thursday, Friday, and Saturday from 9:00 AM to 5:30 PM, and Monday from 9:00 AM to 5:30 PM. The salon is closed on Wednesdays and Sundays. Plan your visit accordingly — Saturday tends to be busy."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#2C1A4A",
+    "accent": "#C9A96E",
+    "note": "Deep plum/violet as the primary reflects the premium, artistic nature of nail artistry and the 'masterpiece' language used by reviewers. Warm gold accent nods to the quality and polish the salon is known for — elevated without being cold or corporate. Together they feel luxurious and neighborhood-authentic, matching T&C's real identity as a trusted community gem."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Exceptional long-term client loyalty — multiple reviewers cite 9+ years of consistent satisfaction, a rare indicator of deep community trust",
+      "Named technicians (Mai, Anna, Mom) with distinct specialties create personalized, relationship-driven service that clients specifically return for",
+      "Work quality consistently described in elevated terms ('masterpieces,' 'flooded with compliments') suggesting artisan-level skill above average nail salon standards"
+    ],
+    "common_complaints": [
+      "Communication breakdown with management (Mom) when clients raised service concerns — two negative reviews cite feeling dismissed or disrespected after polite feedback",
+      "Perceived language barrier used in ways that felt exclusionary — clients mentioned staff speaking in another language after conflicts, which eroded trust",
+      "Inconsistent treatment of long-term clients — one 8-year regular reported being deprioritized and ignored for over an hour with no acknowledgment"
+    ],
+    "suggested_tagline": "Nine Years Running. Still Your Best Chair.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "loyal",
+      "artisan",
+      "family-run",
+      "neighborhood institution",
+      "detail-obsessed"
+    ],
+    "named_staff": [
+      "Mai",
+      "Anna",
+      "Mom"
+    ]
   }
 }

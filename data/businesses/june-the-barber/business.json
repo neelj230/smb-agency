@@ -11,9 +11,9 @@
   "website": "https://juniestakz.booksy.com/",
   "rating": 4.9,
   "reviewCount": 137,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Fresh cuts, fearless kids, zero rush.",
+  "brandNarrative": "June The Barber isn't just a place to get a haircut — it's where nervous kids walk in looking 'a mess' and leave looking like the young, handsome men they were always meant to be. Located at 179 W Berks St in Philadelphia's Norris Square neighborhood, June has built a reputation that parents trust completely, and children actually feel safe in. Rasheedah Hobson said it plainly: her son came in looking a mess and left looking like the young man he is. That transformation — not just of hair, but of confidence — is what June delivers every single time.",
+  "ownerStory": "June is the kind of barber you find yourself recommending before your kid is even out of the chair. Multiple parents have booked their next appointment while the current cut was still in progress — that's the level of trust he earns. His patience with children who are afraid of clippers isn't a technique, it's a genuine quality that comes through in every session. As Latasha Miller put it, his patience is 'top tier,' and for kids who've had bad experiences elsewhere, June becomes the barber who changes everything. He communicates clearly, takes his time without rushing, and treats every client — young or grown — like they matter. Warren summed it up simply: 'June is definitely the truth.'",
   "hours": {
     "Monday": "Open 24 hours",
     "Tuesday": "Open 24 hours",
@@ -23,7 +23,38 @@
     "Saturday": "Open 24 hours",
     "Sunday": "Open 24 hours"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Kids Haircut",
+      "description": "A patient, child-friendly cut tailored for boys who may be nervous about clippers or new to the barbershop experience.",
+      "icon": "scissors"
+    },
+    {
+      "name": "Men's Haircut & Style",
+      "description": "A precision cut with clean lines and personal attention, taking the time to get it exactly right without rushing.",
+      "icon": "user"
+    },
+    {
+      "name": "Shape-Up & Edge Work",
+      "description": "Crisp, defined edges that keep your look sharp and fresh for weeks after the appointment.",
+      "icon": "pen-tool"
+    },
+    {
+      "name": "Fade",
+      "description": "Seamless taper and fade cuts customized to each client's head shape and style preference.",
+      "icon": "layers"
+    },
+    {
+      "name": "First-Time Cut (New Clients)",
+      "description": "An introductory appointment designed to build comfort and trust, especially for kids trying a new barber for the first time.",
+      "icon": "star"
+    },
+    {
+      "name": "Same-Day & Flexible Booking",
+      "description": "Appointment scheduling through Booksy with fast response times and flexible availability, including evenings and weekends.",
+      "icon": "calendar"
+    }
+  ],
   "reviews": [
     {
       "text": "June did a great job with my cut, and the response time was great as well! I will be bringing my son next week.",
@@ -61,7 +92,20 @@
       "date": "2025-06-07"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "June",
+      "role": "Master Barber & Owner",
+      "bio": "June is known across Philadelphia for his extraordinary patience with children, clean precision cuts, and ability to make even the most nervous first-timer feel completely at ease. Parents book their next appointment before the current one is finished — that's the kind of trust he earns.",
+      "credentials": [
+        "Exceptional patience with children",
+        "Precision fade and shape-up work",
+        "Strong client communication",
+        "Fast booking response time",
+        "Cuts that stay fresh for weeks"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -116,28 +160,79 @@
   ],
   "stats": [
     {
-      "value": 137,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.9,
+      "suffix": "★",
+      "label": "Average Rating on Booksy"
     },
     {
-      "value": 4.9,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 137,
+      "suffix": "+",
+      "label": "Verified Customer Reviews"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "5-Star Reviews in Sample"
+    },
+    {
+      "value": 7,
+      "suffix": " days",
+      "label": "Available Every Day of the Week"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Is June good with kids who are scared of clippers?",
+      "answer": "Absolutely. Multiple parents specifically praise June for his patience and ability to calm anxious children. As one mom put it, if your child doesn't like the sounds of clippers or is afraid to get a cut, June is exactly where you should go. His patience is, in her words, 'top tier.'"
+    },
+    {
+      "question": "How do I book an appointment?",
+      "answer": "You can book directly through Booksy at juniestakz.booksy.com. June is known for fast response times after booking, so you won't be left waiting for a confirmation."
+    },
+    {
+      "question": "How long does a cut stay looking fresh?",
+      "answer": "Customers have noted their sons' cuts still looked clean and fresh up to two weeks after the appointment — a sign of precise, quality work."
+    },
+    {
+      "question": "Does June rush through appointments?",
+      "answer": "Not at all. Both parents and adult clients consistently highlight that June takes his time with every cut and never rushes — making sure the result is exactly right before you leave."
+    },
+    {
+      "question": "Is this a good place for my son's first barbershop experience?",
+      "answer": "Yes — June is widely recommended for first-timers, especially boys who have had bad experiences elsewhere or are nervous about haircuts. He focuses on building comfort and trust before and during the cut."
+    },
+    {
+      "question": "Does June cut adult hair as well, or just kids?",
+      "answer": "June cuts both kids and adults. Adult clients like Warren have praised the excellent service, quality cuts, and relaxed pace just as enthusiastically as the parents who bring their sons."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#1A1A2E",
+    "accent": "#C9A84C",
+    "note": "Deep navy-black anchors the brand with a premium, confident barbershop aesthetic. Gold accent reflects the quality, craftsmanship, and 'art' language customers use to describe June's cuts — elevating this beyond a basic shop into a trusted, skilled trade."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Exceptional patience and comfort with children and nervous first-time clients — this is the most cited and emotionally resonant differentiator across reviews",
+      "Precision and quality that lasts — multiple parents note cuts staying fresh for up to two weeks, signaling real technical skill",
+      "Strong communication and trust-building — parents and adult clients alike highlight June's responsiveness, understanding, and ability to engage meaningfully with clients"
+    ],
+    "common_complaints": [
+      "None found — all sampled reviews are 5-star with no negative feedback, complaints, or constructive criticism present"
+    ],
+    "suggested_tagline": "Where nervous kids become confident young men.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "patient",
+      "precise",
+      "trustworthy",
+      "warm",
+      "artful"
+    ],
+    "named_staff": [
+      "June"
+    ]
   }
 }

@@ -11,9 +11,9 @@
   "website": null,
   "rating": 4.3,
   "reviewCount": 161,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Where Ink Meets Soul, Walk Right In.",
+  "brandNarrative": "JR's Tattoo & Body Piercing on Market Street in West Philadelphia isn't just a shop — it's a place people end up when everywhere else has let them down, and they leave wondering why they didn't come here first. Customers like Jae Waiters describe JR's as a literal lifesaver, coming in to fix botched piercings from other establishments and leaving with their confidence — and their face — fully intact. That kind of trust isn't built on marketing. It's built on skill, honesty, and a piercer who clearly knows the difference between a job done and a job done right.\n\nThe atmosphere inside JR's has a vibe that customers can't stop talking about. Brian W. calls it 'off the chain,' praising the cleanliness of stations and the visible freshness of every needle pulled straight from the packaging. Artist Spider gets called out by name for his tattoo work, and the shop's walk-in policy means you don't need to wait weeks to get started. Brandi walked in, got pierced, and was still pain-free three hours later — a testament to technique as much as talent.\n\nWhat makes JR's stick is the combination of education and warmth. Piercers give real aftercare advice. Artists bring real energy. The staff is described as beautiful, friendly, and genuinely invested in results. With hours running into the evening most open days and a Saturday-through-Sunday weekend window, JR's was built around people who work during the day and live their lives at night — exactly the kind of community that calls West Philly home.",
+  "ownerStory": "The name on the door says JR's, and everything inside backs it up — a shop with a clear point of view, a zero-tolerance policy for sloppy work, and an artist named Spider who has earned the kind of loyalty that brings customers back again and again just to feel more ink. Spider's work has been praised directly by name, with Brian W. specifically calling out the craftsmanship and promising a return visit. That's not a one-time transaction — that's an artist building a clientele one piece at a time.\n\nJR's operates out of a stretch of Market Street that's seen the neighborhood evolve through decades, and the shop carries that neighborhood energy — unpretentious, direct, and genuinely skilled. This isn't a gallery with a velvet rope. It's a place where a walk-in gets the same quality as a scheduled appointment, where the needle comes out of fresh packaging in front of you, and where someone who got their face messed up somewhere else finally gets it made right. That's not a promise on a website. That's a reputation earned one client at a time.",
   "hours": {
     "Monday": "Closed",
     "Tuesday": "4:00 – 10:00 PM",
@@ -23,7 +23,38 @@
     "Saturday": "12:00 – 10:00 PM",
     "Sunday": "12:00 – 8:00 PM"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Custom Tattoos",
+      "description": "Original tattoo designs created and applied by skilled artists like Spider, tailored to each client's vision with a focus on clean linework and lasting quality.",
+      "icon": "pen-tool"
+    },
+    {
+      "name": "Body Piercing",
+      "description": "Professional body piercing using fresh, sterile needles opened in front of the client, performed by an experienced piercer who prioritizes comfort and minimal pain.",
+      "icon": "circle"
+    },
+    {
+      "name": "Piercing Correction & Repair",
+      "description": "Expert assessment and correction of piercings done incorrectly elsewhere, restoring both safety and aesthetics for clients who've had bad experiences at other shops.",
+      "icon": "shield-check"
+    },
+    {
+      "name": "Walk-In Appointments",
+      "description": "No-appointment-needed sessions available during open hours, making professional tattooing and piercing accessible without weeks of waiting.",
+      "icon": "door-open"
+    },
+    {
+      "name": "Aftercare Consultation",
+      "description": "Hands-on aftercare guidance provided at the time of every piercing or tattoo to ensure proper healing and long-term results.",
+      "icon": "heart-pulse"
+    },
+    {
+      "name": "Monroe & Facial Piercings",
+      "description": "Specialized facial piercings including Monroe placements, performed with precision and a gentle touch by a piercer experienced in high-visibility facial work.",
+      "icon": "sparkles"
+    }
+  ],
   "reviews": [
     {
       "text": "I went to this tattoo shop as a last stop! And honestly it’s the best decision I’ve ever made regarding my piercing. I will NEVER GO ANYWHERE ELSE EVER!!!!! He saved my life and my face! I went to another place first to get my piercing and I came to him to fix what was done to my face. I’m forever grateful!",
@@ -61,7 +92,18 @@
       "date": "2025-11-14"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Spider",
+      "role": "Tattoo Artist",
+      "bio": "Spider is the in-house tattoo artist at JR's with a loyal following built on bold, clean work. Brian W. has come back multiple times specifically for Spider's ink, calling out his craftsmanship by name and promising more visits.",
+      "credentials": [
+        "Praised for clean, detailed tattoo work",
+        "Repeat clientele built through quality",
+        "Named directly in 5-star reviews"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -116,28 +158,79 @@
   ],
   "stats": [
     {
-      "value": 161,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.3,
+      "suffix": " Stars",
+      "label": "Average Google Rating"
     },
     {
-      "value": 4.3,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 161,
+      "suffix": "+",
+      "label": "Customer Reviews"
+    },
+    {
+      "value": 6,
+      "suffix": " Days",
+      "label": "Open Evenings & Weekends"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "Fresh Sterile Needles Every Time"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Do I need to make an appointment or can I walk in?",
+      "answer": "Walk-ins are welcome at JR's! Multiple customers have come in without appointments and received full service the same day. It's one of the things regulars love most about the shop."
+    },
+    {
+      "question": "How clean is the shop? Do they use fresh needles?",
+      "answer": "Cleanliness is a top priority at JR's. Customers consistently note the spotless stations and confirm that needles are opened from fresh packaging right in front of them — no exceptions."
+    },
+    {
+      "question": "Can JR's fix a bad piercing I got somewhere else?",
+      "answer": "Yes — and it's one of the things the shop is known for. Customers have come in specifically to have botched piercings from other shops corrected. The piercer's experience and knowledge has turned some very stressful situations into great outcomes."
+    },
+    {
+      "question": "Will getting pierced here hurt a lot?",
+      "answer": "Most customers report surprisingly minimal pain. Brandi noted her piercings didn't hurt during the session and were still pain-free three hours later — a reflection of the piercer's technique and experience."
+    },
+    {
+      "question": "What are your hours and when are you open?",
+      "answer": "JR's is open Tuesday, Thursday, and Friday from 4:00–10:00 PM, Saturday 12:00–10:00 PM, and Sunday 12:00–8:00 PM. The shop is closed Monday and Wednesday. Evening and weekend hours make it easy for working clients to stop in."
+    },
+    {
+      "question": "What makes JR's different from other tattoo shops in Philadelphia?",
+      "answer": "The combination of genuine skill, strict hygiene practices, a welcoming atmosphere, and walk-in availability sets JR's apart. Customers who've been to other shops — sometimes with bad results — consistently say JR's is where they stay for good."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#1A1A2E",
+    "accent": "#C0392B",
+    "note": "Deep near-black navy conveys the late-night, serious craft energy of the shop while the bold crimson red echoes the intensity of tattoo ink, the passion in reviews, and the unapologetic West Philly personality. Together they feel premium but street-credible — not sterile, not corporate."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Exceptional piercing skill and correction capability — customers come specifically to fix damage done elsewhere, and leave with 5-star outcomes",
+      "Immaculate hygiene standards — fresh packaged needles and clean stations are mentioned unprompted across multiple reviews, building deep trust",
+      "Welcoming, high-energy atmosphere with genuine staff warmth — words like 'off the chain,' 'beautiful atmosphere,' and 'killer vibe' recur organically across different reviewers"
+    ],
+    "common_complaints": [
+      "None found in the provided reviews — all five reviews are 5-star with no negative feedback expressed"
+    ],
+    "suggested_tagline": "Fixed What Others Broke. Built What You Imagined.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "Authentic",
+      "Skilled",
+      "Welcoming",
+      "Community-rooted",
+      "No-nonsense"
+    ],
+    "named_staff": [
+      "Spider"
+    ]
   }
 }

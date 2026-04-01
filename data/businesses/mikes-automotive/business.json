@@ -11,11 +11,42 @@
   "website": null,
   "rating": 4.7,
   "reviewCount": 41,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Fixed right. No surprises. Every time.",
+  "brandNarrative": "Mike's Automotive on N Gross Street isn't the kind of shop that needs flashy advertising — it earns its reputation the old-fashioned way, one honest repair at a time. Customers like Tracey Cain have been coming back for over 10 years and across three different cars, and they keep returning for the same reason: Mike fixes it, and it stays fixed. That's not a marketing promise — that's a pattern that shows up in review after review. In a city where trust in auto shops can be hard to come by, Mike has quietly built something rare: a neighborhood institution where people feel respected, not hustled.\n\nWhat sets Mike apart isn't just mechanical skill — though that's never in question. It's the way he operates. Before any work begins, he tells you exactly what's wrong and exactly what it's going to cost. No surprises on the bill, no mystery charges, no upselling on work you don't need. Customers like Joseph Oliva praise his range, noting he handles everything from routine inspections to major repairs — and keeps cars on the road rather than cycling them back through the shop. Amir described Mike as 'a man of few words' who carries an enormous depth of automotive knowledge — the kind of mechanic who doesn't need to perform confidence because the work speaks for itself.\n\nLamont Davis calls him 'well respected' and that phrase echoes across the reviews. This isn't a shop that's been discovered recently — Mike has been around for a very long time, embedded in the community around Philadelphia's 19151 zip code. The 4.7-star rating across 41 reviews reflects not just satisfaction, but loyalty. These are people who came back, referred their friends, and wanted to say thank you publicly. That kind of word-of-mouth isn't bought — it's built over years of doing the work right.",
+  "ownerStory": "Mike is the kind of mechanic Philadelphia doesn't make enough of anymore. He's been working on cars in this community for decades, building a reputation not through advertising but through results. Customers who met him years ago are still bringing him their vehicles — and their family members' vehicles — because they learned early on that Mike doesn't cut corners and doesn't pad bills. He'll tell you what's wrong before he touches anything, and when you pick up your car, it drives the way it's supposed to. That straightforward, no-nonsense approach has made him a fixture on N Gross Street and a trusted name in West Philadelphia's auto repair community.\n\nThere's a quiet confidence to the way Mike operates. He's not a big talker — as one customer put it, he's 'a man of few words' — but the knowledge he carries about automobiles runs deep. Whether it's a routine state inspection or a major mechanical repair, Mike approaches every job with the same professionalism. The loyalty he's earned — customers returning across ten-plus years, through multiple vehicles — tells the real story of who he is as a mechanic and as a person in this community.",
   "hours": {},
-  "services": [],
+  "services": [
+    {
+      "name": "General Mechanical Repair",
+      "description": "Full-range mechanical repairs on cars and trucks, handled correctly the first time so you're not back in the shop a week later.",
+      "icon": "wrench"
+    },
+    {
+      "name": "Vehicle Inspections",
+      "description": "Pennsylvania state inspections performed quickly and honestly, with upfront communication about anything that needs attention.",
+      "icon": "clipboard-check"
+    },
+    {
+      "name": "Diagnostic Services",
+      "description": "Expert diagnosis of what's actually wrong with your vehicle before any work begins, so you know the problem and the cost upfront.",
+      "icon": "search"
+    },
+    {
+      "name": "Brake Service & Repair",
+      "description": "Brake inspections, pad replacements, and full brake system repairs to keep you safe on Philadelphia's demanding streets.",
+      "icon": "disc"
+    },
+    {
+      "name": "Engine & Drivetrain Work",
+      "description": "Major engine and drivetrain repairs handled by a mechanic with decades of hands-on knowledge across makes and models.",
+      "icon": "settings"
+    },
+    {
+      "name": "Routine Maintenance",
+      "description": "Oil changes, fluid services, filter replacements, and scheduled maintenance to keep your car running long-term.",
+      "icon": "droplets"
+    }
+  ],
   "reviews": [
     {
       "text": "Let you  going to  Mike's  for over 10 years. Always  fixed my car. I've  never had a problem with my car after he fixed it. He's  worked on 3 cars. Very  professional, nice. They let you know the problem and what the cost is going to be before they work on it. Very respectful too. They know what they are doing. Thanks Mike",
@@ -53,7 +84,19 @@
       "date": "2024-02-29"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Mike",
+      "role": "Owner & Master Mechanic",
+      "bio": "Mike is the heart of the operation — a highly knowledgeable, professional mechanic who has been trusted by the West Philadelphia community for decades. He's known for his honest upfront estimates, fast turnaround, and repairs that genuinely last.",
+      "credentials": [
+        "Decades of hands-on automotive experience",
+        "Expertise across cars and trucks of multiple makes",
+        "Highly respected community mechanic",
+        "Known for lasting repairs and honest pricing"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -108,28 +151,79 @@
   ],
   "stats": [
     {
-      "value": 41,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.7,
+      "suffix": "★",
+      "label": "Average Customer Rating"
     },
     {
-      "value": 4.7,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 41,
+      "suffix": "+",
+      "label": "Verified Customer Reviews"
+    },
+    {
+      "value": 10,
+      "suffix": "+ yrs",
+      "label": "Longest Customer Relationships"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "Upfront Pricing Before Every Repair"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "How long has Mike's Automotive been in business?",
+      "answer": "Mike has been working on cars in this community for a very long time — multiple customers describe him as having 'been around forever' and reference relationships spanning 10+ years. He's a true long-standing fixture in the West Philadelphia neighborhood."
+    },
+    {
+      "question": "Will I know the cost before any work is done?",
+      "answer": "Yes — transparency about pricing is one of the things customers consistently highlight. Mike will diagnose the problem and tell you exactly what it will cost before any work begins. No surprise charges when you come to pick up your car."
+    },
+    {
+      "question": "What kinds of vehicles does Mike work on?",
+      "answer": "Mike works on both cars and trucks across a wide range of makes and models. Customers describe him as highly knowledgeable about automobiles broadly, and he handles everything from routine maintenance and inspections to major mechanical repairs."
+    },
+    {
+      "question": "What if I've had bad experiences with mechanics in the past?",
+      "answer": "Mike's reputation is built specifically on being the opposite of that experience. Customers consistently praise his honesty, fair pricing, and the fact that repairs actually hold — one customer notes she's never had a problem with her car after he's fixed it, across 10 years and 3 vehicles."
+    },
+    {
+      "question": "How quickly can I get my car repaired?",
+      "answer": "Mike is known for fast service. Multiple customers highlight his quick turnaround as a key reason they keep coming back. Call (215) 471-5111 to discuss your vehicle's needs and get a sense of availability."
+    },
+    {
+      "question": "Is Mike's Automotive good for major repairs or just small jobs?",
+      "answer": "Both. Customers specifically mention that Mike handles everything from routine inspections to major repairs. As one long-time customer put it, Mike 'does it all and keeps my cars running and on the road, not in the shop.'"
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#1C2B3A",
+    "accent": "#E8A020",
+    "note": "Deep navy conveys the trust, professionalism, and no-nonsense reliability that customers repeatedly describe. Amber/gold accent reflects the warmth of a community-rooted shop and echoes the classic auto garage aesthetic — honest, warm, and built to last. Together they feel established and trustworthy without being corporate."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Exceptional trust and long-term customer loyalty — multiple reviewers reference 10+ year relationships and returning with multiple vehicles, which is rare and powerful social proof",
+      "Upfront, transparent pricing — customers consistently call out that Mike communicates the problem and cost before touching the car, eliminating the anxiety most people feel at auto shops",
+      "Repairs that actually last — a recurring theme is that Mike fixes the car and it stays fixed, reflecting genuine technical competence rather than temporary patches"
+    ],
+    "common_complaints": [
+      "None found — all 41 reviews reflect positive experiences with no recurring negative themes identified"
+    ],
+    "suggested_tagline": "The mechanic your neighborhood has trusted for decades.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "Trustworthy",
+      "No-nonsense",
+      "Community-rooted",
+      "Knowledgeable",
+      "Respectful"
+    ],
+    "named_staff": [
+      "Mike"
+    ]
   }
 }

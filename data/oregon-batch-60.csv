@@ -1,0 +1,61 @@
+business_name,category,source_city,slug,address,phone,email,website_url,website_score,google_rating,review_count,photo_count,priority_tier,status,preview_url,outreach_status
+Our Spot,cafe,"Portland, Oregon",our-spot,"1816 S River Dr, Portland, OR 97201, USA",,,,0,4.8,130,10,A,new,,not_contacted
+Cafe Soleil,cafe,"Ashland, Oregon",cafe-soleil,"250 E Wagner St, Talent, OR 97540, USA",,,,0,4.9,117,10,A,new,,not_contacted
+Little Espresso Shop,cafe,"Ashland, Oregon",little-espresso-shop,"515 Clover Ln, Ashland, OR 97520, USA",,,,0,4.8,48,10,A,new,,not_contacted
+JT Electric,electrician,"Medford, Oregon",jt-electric,"4849 Airway Dr STE 105, Central Point, OR 97502, USA",(541) 734-5714,,,0,4.9,29,2,A,new,,not_contacted
+Claws and Paws Pet Resort,daycare,"Corvallis, Oregon",claws-and-paws-pet-resort,"862 NW Oak Ave, Corvallis, OR 97330, USA",(541) 223-3608,,,0,5,18,10,A,new,,not_contacted
+Eugene Heating and Air Conditioning,hvac contractor,"Eugene, Oregon",eugene-heating-and-air-conditioning,"2130 W 7th Ave, Eugene, OR 97402, USA",(541) 234-4801,,,0,4.9,17,1,A,new,,not_contacted
+"Willpower Electric, LLC",electrician,"Medford, Oregon",willpower-electric-llc,"24 Ehrman Way, Medford, OR 97501, USA",(541) 535-3965,,,0,4.8,16,10,A,new,,not_contacted
+Cozy Cottage Child Care,daycare,"Salem, Oregon",cozy-cottage-child-care,"882 20th St NE, Salem, OR 97301, USA",(503) 371-4841,,,0,4.6,13,10,A,new,,not_contacted
+Studio 49 Photography,photography studio,"Bend, Oregon",studio-49-photography,"20240 Reed Ln Apt 148, Bend, OR 97702, USA",(541) 331-6494,,,0,4,13,10,A,new,,not_contacted
+Early Learning Center,daycare,"Salem, Oregon",early-learning-center,"765 14th St NE, Salem, OR 97301, USA",(503) 391-4964,,,0,5,8,0,A,new,,not_contacted
+Patty's Little Minions Childcare LLC,daycare,"Salem, Oregon",pattys-little-minions-childcare-llc,"4807 Camelot Ct NE, Salem, OR 97301, USA",(503) 881-3580,,,0,5,7,10,A,new,,not_contacted
+Real Learning LLC,tutoring service,"Eugene, Oregon",real-learning-llc,"5593 Edna Way, Eugene, OR 97402, USA",(541) 636-4435,,,0,5,7,2,A,new,,not_contacted
+Little Village Learning Center,daycare,"Salem, Oregon",little-village-learning-center,"445 High St SE #140, Salem, OR 97301, USA",(503) 363-3866,,,0,5,5,0,A,new,,not_contacted
+Current Electric,electrician,"Medford, Oregon",current-electric,"2508 Jackson Drive, Medford, OR 97504, USA",(541) 210-0677,,,0,5,5,3,A,new,,not_contacted
+The Ark Veterinary Clinic,vet,"Eugene, Oregon",the-ark-veterinary-clinic,"4965 Barger Dr, Eugene, OR 97402, USA",(541) 689-7881,,https://www.thearkclinic.com/?utm_source=gmb&utm_medium=organic&y_source=1_MTE2Njg5MDUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D,0,4.7,814,10,B,new,,not_contacted
+Dore Law Firm,law firm,"Portland, Oregon",dore-law-firm,"4511 SE 63rd Ave Suite E, Portland, OR 97206, USA",(503) 683-3642,,http://www.blakedore.com/,0,4.9,363,2,B,new,,not_contacted
+BCK Attorneys at Law,law firm,"Portland, Oregon",bck-attorneys-at-law,"2722 NE 33rd Ave, Portland, OR 97212, USA",(503) 238-9720,,http://www.bckattorneys.com/,0,5,169,4,B,new,,not_contacted
+Amazon Park Animal Clinic,vet,"Eugene, Oregon",amazon-park-animal-clinic,"725 E 25th Ave, Eugene, OR 97405, USA",(541) 485-0161,,http://amazonparkvet.com/,0,4.4,136,10,B,new,,not_contacted
+Miranda Kelton Photography | Portrait Studio,photography studio,"Bend, Oregon",miranda-kelton-photography-portrait-studio,"20370 Empire Ave Suite C2, Bend, OR 97703, USA",(971) 337-0516,,https://www.mirandakelton.com/,0,5,128,10,B,new,,not_contacted
+PureFit Lagree Studio,fitness studio,"Bend, Oregon",purefit-lagree-studio,"20370 Empire Ave Suite #C1 Suite C-1, Bend, OR 97703, USA",(541) 480-5020,,http://www.purefitlagreestudioor.com/,0,5,80,10,B,new,,not_contacted
+Low Voltage NW,electrician,"Salem, Oregon",low-voltage-nw,"2837 22nd St SE #155, Salem, OR 97302, USA",(971) 273-7117,,https://www.lowvoltagenw.com/?utm_source=GMBlisting&utm_medium=organic,0,4.8,44,10,B,new,,not_contacted
+Mark Thesing Inc,law firm,"Lake Oswego, Oregon",mark-thesing-inc,"4248 Galewood St, Lake Oswego, OR 97035, USA",(503) 313-8520,,https://www.deniedclaim.net/,0,4.9,31,1,B,new,,not_contacted
+Quedi HVAC Solutions Eugene,hvac contractor,"Eugene, Oregon",quedi-hvac-solutions-eugene,"42 W 13th Ave, Eugene, OR 97401, USA",(541) 824-0693,,http://quedihvacsolutionseugene.online/,0,5,16,0,B,new,,not_contacted
+Pacific Northwest Pilates,pilates studio,"Portland, Oregon",pacific-northwest-pilates,"5201 SW Westgate Dr #114, Portland, OR 97221, USA",(503) 292-4409,,https://www.pacificnorthwestpilates.com/,0,5,10,10,B,new,,not_contacted
+Farmhouse Kitchen Thai Cuisine | Pearl District,restaurant,"Portland, Oregon",farmhouse-kitchen-thai-cuisine-pearl-district,"121 NW 9th Ave, Portland, OR 97209, USA",(971) 754-4966,,https://farmhousethai.com/pearl-district?utm_source=google,10,4.9,7480,10,B,new,,not_contacted
+Vida Baking,cafe,"Ashland, Oregon",vida-baking,"149 N Pioneer St, Ashland, OR 97520, USA",(541) 708-0562,,https://vidabaking.com/?utm_source=google,10,4.8,430,10,B,new,,not_contacted
+The Society Cafe,cafe,"Portland, Oregon",the-society-cafe,"203 NW 3rd Ave Suite 100, Portland, OR 97209, USA",(503) 445-0444,,https://thesocietyhotel.com/cafe/?utm_source=Google%20Maps%20-%20Locl.io&utm_medium=Website%20Button&utm_campaign=Locl.io%202019,10,4.6,347,10,B,new,,not_contacted
+Portland Cà Phê,cafe,"Portland, Oregon",portland-c-ph,"2601 NE Martin Luther King Jr Blvd, Portland, OR 97212, USA",,,http://www.portlandcaphe.com/,10,4.6,177,10,B,new,,not_contacted
+MOT Photography,photography studio,"Bend, Oregon",mot-photography,"19671 Hollygrape St, Bend, OR 97702, USA",(503) 830-1113,,https://www.motphotography.com/,10,5,145,10,B,new,,not_contacted
+Chenoweth Law Group LLC,law firm,"Portland, Oregon",chenoweth-law-group-llc,"510 SW 5th Ave Fourth Floor, Portland, OR 97204, USA",(503) 446-6261,,https://www.chenowethlaw.com/?npcmp=dir:local:3262352:97204,10,4.3,91,2,B,new,,not_contacted
+DISTINCT ELECTRIC,electrician,"Salem, Oregon",distinct-electric,"4742 Liberty Rd S #219, Salem, OR 97302, USA",(503) 586-9355,,http://distinctelectricsalem.com/,10,5,33,2,B,new,,not_contacted
+Wolfe Consulting LLC,accounting firm,"Lake Oswego, Oregon",wolfe-consulting-llc,"4248 Galewood St, Lake Oswego, OR 97035, USA",(503) 631-9200,,http://www.wolfeadvisors.cpa/,10,4.5,23,10,B,new,,not_contacted
+Mathnasium,tutoring service,"Eugene, Oregon",mathnasium,"1733 Pearl St ste a, Eugene, OR 97401, USA",(541) 357-5386,,https://www.mathnasium.com/math-centers/eugene?utm_source=Google+&utm_medium=Listing&utm_campaign=Google+Business+Profile,10,4.6,19,10,B,new,,not_contacted
+Northside Electric,electrician,"Salem, Oregon",northside-electric,"2920 22nd St SE, Salem, OR 97302, USA",(503) 585-4879,,http://www.northsideelectric.com/,30,4.7,199,10,B,new,,not_contacted
+Law Office of Jimmy Namgyal,law firm,"Lake Oswego, Oregon",law-office-of-jimmy-namgyal,"4500 Kruse Way, Lake Oswego, OR 97035, USA",(503) 726-1077,,http://www.namgyallaw.com/,30,5,32,2,B,new,,not_contacted
+Core Pilates PDX,pilates studio,"Portland, Oregon",core-pilates-pdx,"1401 SW Alder St, Portland, OR 97205, USA",(503) 222-7011,,http://corepilatespdx.com/,30,5,5,5,B,new,,not_contacted
+Rugrats THCC,daycare,"Corvallis, Oregon",rugrats-thcc,"1630 NW Maple Ave, Corvallis, OR 97330, USA",(541) 207-8754,,https://www.rugratschildcare.com/,35,4.2,12,0,B,new,,not_contacted
+Springwater Pilates,pilates studio,"Portland, Oregon",springwater-pilates,"6210 SE Milwaukie Ave, Portland, OR 97202, USA",(503) 816-5125,,http://www.springwaterpilates.com/,40,4.9,17,9,C,new,,not_contacted
+Agro Accounting CPA,accounting firm,"Portland, Oregon",agro-accounting-cpa,"555 SE Martin Luther King Jr Blvd Suite 105, Portland, OR 97214, USA",(971) 266-6101,,https://agroaccounting.com/,40,5,4,2,C,new,,not_contacted
+Reichlein Troy CPA,accounting firm,"Lake Oswego, Oregon",reichlein-troy-cpa,"420 2nd St, Lake Oswego, OR 97034, USA",(503) 653-9592,,http://www.reichleincpa.com/,40,4.3,4,0,C,new,,not_contacted
+Wild Goose Cafe & Bar,cafe,"Ashland, Oregon",wild-goose-cafe-bar,"2365 Ashland St, Ashland, OR 97520, USA",(541) 488-4103,,http://www.wildgoosecafe.com/,45,4.3,735,10,C,new,,not_contacted
+Lovejoy Dental,dentist,"Portland, Oregon",lovejoy-dental,"930 NW 14th Ave #220, Portland, OR 97209, USA",(503) 889-8632,,http://lovejoy-dental.com/,45,4.9,683,10,C,new,,not_contacted
+Right On Accounting LLC,accounting firm,"Portland, Oregon",right-on-accounting-llc,"7831 SE Stark St #206, Portland, OR 97215, USA",(503) 719-6040,,http://www.rightonaccounting.com/,45,5,14,0,C,new,,not_contacted
+Kern & Thompson,accounting firm,"Portland, Oregon",kern-thompson,"1800 SW 1st Ave, Portland, OR 97201, USA",(503) 222-3338,,http://www.kern-thompson.com/,45,4,3,0,C,new,,not_contacted
+Ruby's,cafe,"Ashland, Oregon",rubys,"163 N Pioneer St, Ashland, OR 97520, USA",(541) 488-7717,,http://www.rubysneighborhoodrestaurant.com/,50,4.5,1117,10,C,new,,not_contacted
+Little Bird Childcare | West Salem,daycare,"Salem, Oregon",little-bird-childcare-west-salem,"550 Taggart Dr, Salem, OR 97304, USA",,,http://www.littlebirdchildcare.com/west-salem,50,4.4,22,10,C,new,,not_contacted
+Neumann Curtis CPAs,accounting firm,"Portland, Oregon",neumann-curtis-cpas,"121 SW Morrison St #1520, Portland, OR 97204, USA",(503) 200-2507,,https://www.neumanncurtis.com/,50,4.9,11,10,C,new,,not_contacted
+Bridgeport Law Group,law firm,"Lake Oswego, Oregon",bridgeport-law-group,"17040 Pilkington Rd #200, Lake Oswego, OR 97035, USA",(503) 620-0114,,http://www.bridgeportlawgroup.com/,50,5,4,8,C,new,,not_contacted
+Growing Minds Childcare,daycare,"Salem, Oregon",growing-minds-childcare,"3365 Marietta St SE, Salem, OR 97317, USA",(971) 375-4329,,https://gmchildcare.com/,50,5,3,10,C,new,,not_contacted
+Luc Lac Vietnamese Kitchen,restaurant,"Portland, Oregon",luc-lac-vietnamese-kitchen,"835 SW 2nd Ave, Portland, OR 97204, USA",(503) 222-0047,,http://www.luclackitchen.com/,55,4.4,6669,10,C,new,,not_contacted
+Q Street Animal Hospital,vet,"Eugene, Oregon",q-street-animal-hospital,"235 Q St, Springfield, OR 97477, USA",(541) 746-8491,,http://qstreetanimalhospital.com/,55,4.7,722,10,C,new,,not_contacted
+Brothers' Restaurant,cafe,"Ashland, Oregon",brothers-restaurant,"95 N Main St, Ashland, OR 97520, USA",(541) 482-9671,,http://www.brothersrestaurant.net/,55,4.5,692,10,C,new,,not_contacted
+Bridgetown Moving & Storage,moving company,"Beaverton, Oregon",bridgetown-moving-storage,"3620 NW St Helens Rd, Portland, OR 97210, USA",(503) 664-4477,,http://www.bridgetown-moving.com/,55,4.8,454,10,C,new,,not_contacted
+ZAP ELECTRIC LLC,electrician,"Salem, Oregon",zap-electric-llc,"3634 Candlewood Ct NE, Keizer, OR 97303, USA",(503) 409-0407,,http://www.zapelectricsalem.com/,55,4.9,194,10,C,new,,not_contacted
+Edgewood Animal Clinic,vet,"Eugene, Oregon",edgewood-animal-clinic,"4010 Donald St, Eugene, OR 97405, USA",(541) 341-6558,,http://edgewoodanimalclinic.com/,55,4.7,176,10,C,new,,not_contacted
+Hannah Turner Photography,photography studio,"Bend, Oregon",hannah-turner-photography,"150 NE Hawthorne Ave Suite 120, Bend, OR 97701, USA",(541) 508-8605,,http://www.hannahturnerphoto.com/,55,5,100,10,C,new,,not_contacted
+Precious Cargo Preschool & Childcare - River Rd S,daycare,"Salem, Oregon",precious-cargo-preschool-childcare-river-rd-s,"2955 River Rd S, Salem, OR 97302, USA",(503) 683-8926,,http://preciouscargopreschoolandchildcare.com/,55,4.5,16,5,C,new,,not_contacted
+"Pacific Electrical Contractors, Inc.",electrician,"Medford, Oregon",pacific-electrical-contractors-inc,"4150 Washburn Way, Klamath Falls, OR 97603, USA",(541) 887-2544,,http://pacificelectrical.com/,55,4.5,15,10,C,new,,not_contacted
+Four Daughters Photography,photography studio,"Bend, Oregon",four-daughters-photography,"115 NW Oregon Ave # 20, Bend, OR 97703, USA",(541) 815-3958,,http://www.fourdaughtersphotography.com/,55,5,8,10,C,new,,not_contacted
+Little Bird Childcare - Vista House,daycare,"Salem, Oregon",little-bird-childcare-vista-house,"669 Vista Ave SE, Salem, OR 97302, USA",(503) 914-9599,,https://www.littlebirdchildcare.com/,55,5,4,1,C,new,,not_contacted

@@ -11,9 +11,9 @@
   "website": "https://www.blossomlanailbar.com/",
   "rating": 4.5,
   "reviewCount": 299,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Where your nails finally get it right.",
+  "brandNarrative": "Blossom LA Nail Bar Center City isn't just a nail salon — it's the kind of place where customers keep coming back because, for once, someone actually listened. Tucked into 315 S 13th St in the heart of Philadelphia, this serene, light-filled space has earned its 4.5-star reputation through a combination of genuine craftsmanship and real hospitality. Staff hand you a beverage when you sit down, prop a little stand up for your phone, and make sure you're comfortable before they ever touch your hands. It's the small things that reviewers notice — and remember. One loyal client has been returning for over a year and a half, every single visit leaving satisfied. Another came in for her first Gel X set, Lunar New Year-themed, and walked out calling them her favorite nails ever.",
+  "ownerStory": "The character of Blossom LA Nail Bar Center City is best understood through the technicians who define it. Natalie and Arielle aren't interchangeable service workers — they're artists with loyal clients who book specifically for them, trust them with intricate designs, and credit them with outcomes other salons couldn't deliver. Natalie has clients with naturally weak nails who leave with strong, beautiful results that hold up. Arielle takes on first-time Gel X clients requesting custom holiday art and executes the vision with precision and efficiency. Together, they represent what this salon stands for: a place where skill and attentiveness aren't a bonus — they're the standard. The team's warmth, the clean space, the complimentary snacks and water, the phone stands — none of it feels like corporate polish. It feels like a crew of people who genuinely care whether you leave happy.",
   "hours": {
     "Monday": "10:00 AM – 8:00 PM",
     "Tuesday": "10:00 AM – 8:00 PM",
@@ -23,7 +23,38 @@
     "Saturday": "9:30 AM – 7:00 PM",
     "Sunday": "10:00 AM – 6:00 PM"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Gel Manicure",
+      "description": "Long-lasting gel color applied with care — reviewers note clean results that don't cost an arm and a leg, with strong natural nails underneath.",
+      "icon": "sparkles"
+    },
+    {
+      "name": "Gel X Extensions",
+      "description": "Full nail extensions using Gel X technique, ideal for length and custom nail art — Arielle is a client favorite for first-timers and regulars alike.",
+      "icon": "wand-2"
+    },
+    {
+      "name": "Custom Nail Art",
+      "description": "Intricate, design-forward nail art — from Lunar New Year themes to reference-photo-matched sets — executed with precision and creative input.",
+      "icon": "palette"
+    },
+    {
+      "name": "Spa Pedicure",
+      "description": "A relaxing pedicure with focused attention on rough spots others skip, paired with a massage and a thorough, calming experience.",
+      "icon": "heart"
+    },
+    {
+      "name": "Classic Manicure",
+      "description": "A clean, polished manicure with a strong selection of nail polish colors and a soothing massage component to round out your visit.",
+      "icon": "scissors"
+    },
+    {
+      "name": "Nail Strengthening Treatment",
+      "description": "Targeted care for clients with weak or damaged natural nails — Natalie's clients specifically note improved nail strength over time.",
+      "icon": "shield"
+    }
+  ],
   "reviews": [
     {
       "text": "I’ve been in twice now and had great experiences with Natalie both times. For one, she does a great job on my nails. They look beautiful and hold up extremely well, and my natural nails were still strong underneath (which is saying a lot because I have weak nails naturally). The service is also amazing. They always make sure you’re comfortable, that you have a beverage, and even have little stands for your phone if you want to watch something during your service. The salon is beautiful and clean and a pleasant space to relax in. I highly recommend! Definitely make an appointment because they get a lot of walk-ins and both times I was there several customers who walked in had to wait (although they were able to accommodate many people as well!)",
@@ -61,7 +92,28 @@
       "date": "2025-11-07"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Natalie",
+      "role": "Nail Technician",
+      "bio": "Natalie has built a loyal following for her ability to deliver beautiful, long-lasting results while keeping natural nails healthy — a rare combination that keeps clients booking her again and again, especially those with naturally weak nails.",
+      "credentials": [
+        "Gel Manicure Specialist",
+        "Natural Nail Care",
+        "Repeat Client Favorite"
+      ]
+    },
+    {
+      "name": "Arielle",
+      "role": "Nail Technician & Nail Artist",
+      "bio": "Arielle is known for her patience, her precise technique, and her genuine collaborative approach — she asks what you want, listens carefully, and delivers results that match your vision, from custom Lunar New Year art to first-time Gel X extensions.",
+      "credentials": [
+        "Gel X Extensions",
+        "Custom Nail Art",
+        "First-Timer Specialist"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -116,28 +168,82 @@
   ],
   "stats": [
     {
-      "value": 299,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.5,
+      "suffix": "★",
+      "label": "Average Rating"
     },
     {
-      "value": 4.5,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 299,
+      "suffix": "+",
+      "label": "Customer Reviews"
+    },
+    {
+      "value": 1.5,
+      "suffix": "+ yrs",
+      "label": "Avg. Client Loyalty (per reviewer)"
+    },
+    {
+      "value": 7,
+      "suffix": " days",
+      "label": "Open Every Day of the Week"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Do I need to make an appointment or can I walk in?",
+      "answer": "Appointments are strongly recommended. The salon is popular and walk-ins are welcome, but multiple reviewers noted that walk-in customers sometimes had to wait — booking ahead guarantees your spot and preferred technician."
+    },
+    {
+      "question": "Can I request a specific technician like Natalie or Arielle?",
+      "answer": "Yes — and regulars highly recommend it. Both Natalie and Arielle have devoted clients who book specifically for them. If you have a preferred technician, mention it when booking."
+    },
+    {
+      "question": "What makes Blossom LA different from other nail salons in Philly?",
+      "answer": "Clients consistently highlight that the staff actually asks what you want and listens — something that sounds basic but is surprisingly rare. Add in complimentary beverages, phone stands, a serene clean environment, and technicians who preserve your natural nail health, and it's a notch above."
+    },
+    {
+      "question": "Do you do custom nail art and specialty designs?",
+      "answer": "Absolutely. Arielle in particular is celebrated for executing detailed, theme-based nail art — from Lunar New Year designs to reference-photo-matched sets. Custom designs may cost extra but clients consistently say it's worth it."
+    },
+    {
+      "question": "What forms of payment do you accept?",
+      "answer": "Blossom LA accepts all forms of payment, though reviewers note they prefer cash — it's worth bringing some if you can."
+    },
+    {
+      "question": "Is the salon clean and comfortable?",
+      "answer": "Multiple reviewers specifically call out the salon's cleanliness, tidy environment, and calming aesthetic — staff wear light-colored uniforms that add to the serene atmosphere. Comfort is a clear priority, from the physical space to the beverages and phone stands offered during your service."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#C8A2C8",
+    "accent": "#F7E8F0",
+    "note": "Soft lilac primary evokes the 'blossom' brand name and the serene, spa-like atmosphere reviewers describe — feminine without being loud. The blush-pink accent mirrors the clean, light-toned salon aesthetic and the light uniforms staff wear, reinforcing calm and approachability."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Technician skill and attentiveness — staff like Natalie and Arielle listen to clients, match reference photos, and preserve natural nail health, which drives strong repeat loyalty",
+      "Atmosphere and hospitality — complimentary beverages, phone stands, clean serene space, and light uniforms create a distinctly elevated, comfortable experience",
+      "Consistent quality and value — clients return for over a year and a half citing reliable results at fair price points, particularly for gel manicures"
+    ],
+    "common_complaints": [
+      "One reviewer noted outdated gel polish from a 2017 holiday collection being kept on display for years (mentioned in a 2026 update as finally resolved)",
+      "Pedicure massage technique felt uncomfortable for one client — noted it felt like technician was using nails rather than hands",
+      "Walk-in wait times during busy periods, though the salon accommodates many without appointments"
+    ],
+    "suggested_tagline": "Nails done right. Every single time.",
+    "photo_quality": "good",
+    "personality_keywords": [
+      "attentive",
+      "serene",
+      "precise",
+      "welcoming",
+      "artistic"
+    ],
+    "named_staff": [
+      "Natalie",
+      "Arielle"
+    ]
   }
 }

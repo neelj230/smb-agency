@@ -1,0 +1,338 @@
+@import "tailwindcss";
+
+/* Scan shared packages for Tailwind classes */
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #1B3A2D;
+  --brand-accent: #004055;
+  --brand-bg: #f5f5f0;
+  --brand-bg-alt: #ddded9;
+  --brand-text: #1a1a1a;
+  --brand-muted: #666666;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: var(--brand-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+/* Marquee animation for carousels */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Smooth section transitions */
+section, [id] > div {
+  scroll-margin-top: 80px;
+}
+
+/* Focus-visible outlines for accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Inset border for editorial/gallery feel */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 12px;
+  z-index: 999;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  pointer-events: none;
+  border-radius: 2px;
+}
+
+/* Gradient transitions between sections */
+.section-gradient {
+  position: relative;
+}
+.section-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--brand-bg));
+  pointer-events: none;
+}
+
+/* Creative director extras */
+/* ── OC ELECTRIC — GLOBAL EXTRAS ─────────────────────────────────────────── */
+
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Inter:wght@300;400;500;600&display=swap');
+
+:root {
+  --brand-primary: #1B3A2D;
+  --brand-accent: #004055;
+  --brand-text: #0f1f18;
+  --brand-gold: #C8963E;
+  --font-display: 'Hedvig Letters Serif', Georgia, serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background: #fafaf8;
+  color: #1a1a1a;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+}
+
+/* ── DOT PATTERN ─────────────────────────────────────────────────────────── */
+.dot-pattern {
+  background-image: radial-gradient(circle, rgba(27, 58, 45, 0.12) 1px, transparent 1px);
+  background-size: 22px 22px;
+  background-color: #f5f5f2;
+}
+
+/* ── TRUST STRIP ──────────────────────────────────────────────────────────── */
+.oc-trust-strip {
+  background-color: var(--brand-primary);
+  color: #a8c5b5;
+  overflow: hidden;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255,255,255,0.06);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+
+.oc-trust-track {
+  display: flex;
+  gap: 0;
+  width: max-content;
+  animation: oc-marquee 28s linear infinite;
+}
+
+.oc-trust-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+  font-size: 0.72rem;
+  font-family: var(--font-body);
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0 36px;
+  color: #a8c5b5;
+}
+
+.oc-trust-bolt {
+  color: var(--brand-gold);
+  flex-shrink: 0;
+}
+
+@keyframes oc-marquee {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* ── BOLT DIVIDER ─────────────────────────────────────────────────────────── */
+.oc-bolt-divider {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  justify-content: center;
+  padding: 32px 0 8px;
+  color: var(--brand-primary);
+}
+
+.oc-bolt-divider--light {
+  color: var(--brand-gold);
+}
+
+.oc-bolt-line {
+  display: block;
+  width: 60px;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.3;
+}
+
+/* ── SECTION WRAPPERS ────────────────────────────────────────────────────── */
+.oc-services-wrapper {
+  padding: 0 0 80px;
+}
+
+.oc-section-label {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.oc-eyebrow {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--brand-primary);
+  border-bottom: 2px solid var(--brand-gold);
+  padding-bottom: 4px;
+}
+
+.oc-about-wrapper {
+  padding: 20px 0 20px;
+}
+
+.oc-reviews-wrapper {
+  background: #fafaf8;
+  padding: 0 0 60px;
+}
+
+.oc-gallery-wrapper {
+  padding: 60px 0;
+}
+
+.oc-faq-wrapper {
+  padding: 0 0 80px;
+}
+
+/* ── CTA BAND ─────────────────────────────────────────────────────────────── */
+.oc-cta-band {
+  background-color: var(--brand-accent);
+  background-image:
+    radial-gradient(ellipse at 20% 50%, rgba(27, 58, 45, 0.6) 0%, transparent 60%),
+    radial-gradient(ellipse at 80% 50%, rgba(0, 0, 0, 0.3) 0%, transparent 60%);
+  padding: 100px 24px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.oc-cta-band::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle, rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-size: 28px 28px;
+  pointer-events: none;
+}
+
+.oc-cta-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.oc-cta-eyebrow {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--brand-gold);
+  margin-bottom: 16px;
+}
+
+.oc-cta-heading {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  color: #ffffff;
+  line-height: 1.15;
+  margin-bottom: 18px;
+  font-weight: 400;
+}
+
+.oc-cta-sub {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: rgba(255,255,255,0.55);
+  margin-bottom: 40px;
+  letter-spacing: 0.02em;
+}
+
+.oc-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--brand-gold);
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 16px 40px;
+  border-radius: 2px;
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 24px rgba(200, 150, 62, 0.35);
+}
+
+.oc-cta-btn:hover {
+  background: #b8852e;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 32px rgba(200, 150, 62, 0.45);
+}
+
+/* ── FILM GRAIN OVERLAY ─────────────────────────────────────────────────── */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 128px 128px;
+  opacity: 0.025;
+  mix-blend-mode: overlay;
+}
+
+/* ── DARK SECTION OVERRIDES ─────────────────────────────────────────────── */
+.bg-\[\#0f1f18\] h2,
+.bg-\[\#0f1f18\] h3,
+.bg-\[\#0f1f18\] p {
+  color: inherit;
+}
+
+/* ── CARD HOVER ─────────────────────────────────────────────────────────── */
+[class*="service-card"],
+[class*="ServiceCard"] {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+[class*="service-card"]:hover,
+[class*="ServiceCard"]:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(27, 58, 45, 0.12);
+}
+
+/* ── SCROLLBAR ──────────────────────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f0ede8;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--brand-primary);
+  border-radius: 3px;
+}
+
+        :root {
+          --brand-primary: #1B3A2D;
+          --brand-accent: #004055;
+          --brand-text: #0f1f18;
+          --brand-gold: #C8963E;
+        }
+      

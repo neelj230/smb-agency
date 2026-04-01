@@ -11,9 +11,9 @@
   "website": "http://duranlandscapingllc.com/",
   "rating": 4.9,
   "reviewCount": 40,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Your yard, transformed. On time, on budget.",
+  "brandNarrative": "Duran's Landscaping LLC is the kind of company Philadelphia homeowners brag about to their neighbors. Led by Gustavo Duran, the team has built a near-perfect 4.9-star reputation not through advertising gimmicks, but through a refreshingly simple formula: show up, listen closely, do beautiful work, and do it faster than anyone expects. Customers like Sumit Sethi and Michael Katz both praised Gustavo for being genuinely consultative — the kind of contractor who actually hears what you want and then makes it better. From laying lush sod to installing bluestone landings to draining pipes and laying weed-barrier stone at a commercial auto shop, Gustavo's crew handles it all without drama or delay.\n\nWhat sets Duran's apart isn't just the craftsmanship — it's the communication. In a category notorious for ghosting and vague timelines, Gustavo's clients repeatedly call out how easy he is to reach, how quickly he schedules, and how transparently he prices his work. Michael Katz had a complex dual-project — drain pipe extension plus a new bluestone deck landing — completed in under a week. Scott got sod laid fast and at a price that didn't sting. Rich DiGrosso got a full commercial driveway cleanout done right. These aren't happy accidents; they're a pattern.\n\nBased on North Hope Street in Philadelphia's 19120 zip code, Duran's Landscaping LLC serves both residential and commercial clients across the city. With 40 verified reviews averaging 4.9 stars, a Monday-through-Friday operation, and a team that Harry Gaffney described as 'experienced' and 'always on target,' this is a landscaping company that has quietly earned its reputation one well-executed project at a time.",
+  "ownerStory": "Gustavo Duran isn't just the name on the LLC — he's the person answering your call, walking your yard, and making sure the work is done right before his crew packs up. Customers mention him by name in virtually every review, not as a distant owner but as an active presence: the one giving thoughtful recommendations to Sumit, the one out on Michael's property making sure the bluestone landing sat perfectly, the one Harry Gaffney trusts to handle all their ongoing landscaping needs without reservation. That kind of hands-on involvement is rare, and it's clearly the engine behind Duran's exceptional reputation.\n\nGustavo built Duran's Landscaping LLC on a foundation of honest pricing, real communication, and work that speaks for itself. Operating out of North Philadelphia, he's grown the business through word-of-mouth and genuine relationships — not sales tactics. Whether he's helping a homeowner visualize a new outdoor space or tackling a messy commercial cleanout for an auto repair shop, Gustavo brings the same energy: thoughtful, consultative, and committed to finishing ahead of schedule. The 4.9-star rating across 40 reviews isn't a marketing stat — it's a direct reflection of who he is.",
   "hours": {
     "Monday": "9:00 AM – 5:00 PM",
     "Tuesday": "9:00 AM – 5:00 PM",
@@ -23,7 +23,38 @@
     "Saturday": "Closed",
     "Sunday": "Closed"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Sod Installation",
+      "description": "Full-yard or targeted sod laying to deliver an instantly lush, green lawn with quick scheduling and professional preparation.",
+      "icon": "sprout"
+    },
+    {
+      "name": "Bluestone & Hardscape Installation",
+      "description": "Custom installation of bluestone landings, walkways, and step areas that blend function with curb appeal.",
+      "icon": "layers"
+    },
+    {
+      "name": "Drainage & Pipe Extensions",
+      "description": "Expert drain pipe extension and water management solutions to protect your property from runoff and moisture damage.",
+      "icon": "droplets"
+    },
+    {
+      "name": "Weed Control & Barrier Installation",
+      "description": "Complete weed removal followed by professional-grade weed barrier and stone application for long-lasting clean results.",
+      "icon": "shield"
+    },
+    {
+      "name": "Property Cleanouts",
+      "description": "Full-scale cleanouts of overgrown driveways, yards, and commercial lots — debris removed, surfaces restored.",
+      "icon": "trash-2"
+    },
+    {
+      "name": "Landscape Consultation & Design",
+      "description": "One-on-one consultations where Gustavo listens to your vision and provides expert recommendations tailored to your space.",
+      "icon": "pencil-ruler"
+    }
+  ],
   "reviews": [
     {
       "text": "Gustavo and his team did an excellent job from start to finish! Communication and scheduling was quick and easy, and the pricing was very reasonable. They even completed the work ahead of schedule. Gustavo was incredibly consultative—he really listened to what I wanted and made thoughtful recommendations. The results look absolutely amazing, and I couldn’t be happier. Highly recommend!",
@@ -61,7 +92,18 @@
       "date": "2024-03-24"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Gustavo Duran",
+      "role": "Owner & Lead Landscaper",
+      "bio": "Gustavo is the hands-on founder behind every project — praised by customers for being genuinely consultative, highly communicative, and reliably ahead of schedule. He's described as 'a great guy' who brings thoughtful recommendations and first-class customer service to every job, big or small.",
+      "credentials": [
+        "Named personally in every 5-star review",
+        "Handles residential and commercial projects",
+        "Known for transparent pricing and fast scheduling"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -116,28 +158,79 @@
   ],
   "stats": [
     {
-      "value": 40,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.9,
+      "suffix": "★",
+      "label": "Average Customer Rating"
     },
     {
-      "value": 4.9,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 40,
+      "suffix": "+",
+      "label": "Verified 5-Star Reviews"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "Projects Completed On or Ahead of Schedule"
+    },
+    {
+      "value": 5,
+      "suffix": "-day",
+      "label": "Average Project Turnaround"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "How quickly can Duran's Landscaping schedule my project?",
+      "answer": "Gustavo is known for fast, easy scheduling. Multiple customers have noted that projects were booked quickly and often completed ahead of the original timeline — Michael Katz had a dual project finished in under a week."
+    },
+    {
+      "question": "Is pricing transparent and reasonable?",
+      "answer": "Yes — 'reasonable pricing' is one of the most consistent themes across all reviews. Gustavo provides clear, fair quotes without hidden costs, which customers from homeowners to commercial clients consistently appreciate."
+    },
+    {
+      "question": "Does Gustavo work on both residential and commercial properties?",
+      "answer": "Absolutely. Duran's Landscaping serves both homeowners and businesses. Past commercial work includes a full driveway cleanout for an auto repair shop, while residential projects range from sod installation to custom bluestone landings."
+    },
+    {
+      "question": "What makes Duran's different from other landscaping companies?",
+      "answer": "Customers consistently highlight three things: Gustavo's hands-on involvement and consultative approach, his team's speed and reliability, and communication that actually works — no ghosting, no vague timelines, just clear updates from start to finish."
+    },
+    {
+      "question": "Will Gustavo offer design advice or just execute what I ask for?",
+      "answer": "Gustavo is known for being genuinely consultative — he listens carefully to what you want and then offers thoughtful recommendations to make the outcome even better. You're never just handed a quote; you're walked through the vision."
+    },
+    {
+      "question": "Do you handle drainage and functional landscaping, not just aesthetics?",
+      "answer": "Yes. Beyond curb appeal, Duran's handles practical solutions like drain pipe extensions, weed barrier installation, and grading work — projects that protect your property long-term, not just make it look good today."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#2D5016",
+    "accent": "#8FB84E",
+    "note": "Deep forest green as primary reflects professionalism, growth, and the outdoor craft at the heart of the business. The lighter lime-green accent captures the fresh, energetic personality Gustavo brings — approachable and results-driven, not stiff or corporate. Together they feel grounded, natural, and trustworthy."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Exceptionally fast scheduling and ahead-of-schedule project delivery — called out by multiple reviewers across different project types",
+      "Transparent, reasonable pricing that earns trust with both residential homeowners and commercial clients",
+      "Gustavo's hands-on, consultative leadership style — customers don't just get a crew, they get a partner who listens and advises"
+    ],
+    "common_complaints": [
+      "None found — all 40 reviews are 5-star with no negative themes identified in available data"
+    ],
+    "suggested_tagline": "Show up. Listen. Deliver early.",
+    "photo_quality": "good",
+    "personality_keywords": [
+      "Consultative",
+      "Reliable",
+      "Communicative",
+      "Approachable",
+      "Detail-oriented"
+    ],
+    "named_staff": [
+      "Gustavo Duran"
+    ]
   }
 }

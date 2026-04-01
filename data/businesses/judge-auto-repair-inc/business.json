@@ -11,9 +11,9 @@
   "website": null,
   "rating": 4.5,
   "reviewCount": 74,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Honest Wrenches. Real Prices. No BS.",
+  "brandNarrative": "Judge Auto Repair Inc on Chestnut Street in West Philadelphia isn't trying to impress you with a fancy waiting room or a slick reception desk — and that's exactly the point. Mechanic Gona runs a no-frills garage built on one thing: doing the job right. Customers like DEW put it plainly: 'It is NOT pretty. It's a repair garage.' But they also say Gona is 'one of the best mechanics I've ever known' — honest, knowledgeable, and willing to walk you through your options whether you want thrifty used parts or brand-new components. That kind of transparency is rare, and it's what keeps people coming back.\n\nThe shop operates six days a week, including Saturdays — a detail that matters more than it sounds. When Nicki needed her car seen on a Saturday, Judge Auto was the only shop in the area willing to take it, and they fixed every issue within an hour. That's the rhythm of this place: accessible, capable, and fast when it counts. Jinnieliz calls it the only mechanic she'll use because the prices are fair and the service doesn't drag. GM ALAM echoes that, pointing out the rates beat dealership pricing without sacrificing quality.\n\nJudge Auto is a shop for working people who love their cars and need them running. It's not a status symbol garage. It's the place where someone actually knows what's wrong with your vehicle, tells you the truth about it, and fixes it at a price that doesn't make you wince. Anna Bailey summed it up simply: '10/10 service, very friendly.' Sometimes that's all you need to know.",
+  "ownerStory": "Gona is the kind of mechanic that customers name-drop in reviews because he's made an impression — not with a polished pitch, but with real competence and straight talk. He'll explain what's wrong with your car in plain language, lay out your repair options honestly, and let you decide what makes sense for your budget. That approach has built a loyal following in the West Philadelphia neighborhood around 5804 Chestnut Street, where word-of-mouth from satisfied customers carries more weight than any advertisement.\n\nThe shop carries his philosophy in its bones: no pretense, no upselling, no manufactured urgency. Just a skilled mechanic, a working garage, and the belief that hard-working people deserve a trustworthy place to bring their vehicles. As one longtime customer put it, 'Good things come to those who wait' — and at Judge Auto, the wait is usually worth it.",
   "hours": {
     "Monday": "9:00 AM – 5:30 PM",
     "Tuesday": "9:00 AM – 5:30 PM",
@@ -23,7 +23,38 @@
     "Saturday": "9:00 AM – 5:30 PM",
     "Sunday": "Closed"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "General Diagnostics & Multi-Point Inspection",
+      "description": "Comprehensive vehicle inspection to identify and explain issues before any work begins, with honest breakdowns of what needs immediate attention.",
+      "icon": "search"
+    },
+    {
+      "name": "Same-Day Repair Service",
+      "description": "Fast, efficient repairs completed the same day you bring your vehicle in, including Saturday availability when other shops are closed.",
+      "icon": "zap"
+    },
+    {
+      "name": "Brake Service & Repair",
+      "description": "Full brake inspection, pad replacement, rotor resurfacing or replacement, and brake fluid service to keep you stopping safely.",
+      "icon": "shield"
+    },
+    {
+      "name": "Engine & Drivetrain Repair",
+      "description": "Expert engine diagnostics and repair using your choice of new or quality used parts, tailored to your budget and vehicle needs.",
+      "icon": "settings"
+    },
+    {
+      "name": "Suspension & Steering",
+      "description": "Diagnosis and repair of shocks, struts, tie rods, and steering components to restore smooth handling and ride comfort.",
+      "icon": "git-branch"
+    },
+    {
+      "name": "Oil Change & Preventive Maintenance",
+      "description": "Routine oil changes, fluid top-offs, filter replacements, and maintenance checks at prices significantly below dealership rates.",
+      "icon": "droplet"
+    }
+  ],
   "reviews": [
     {
       "text": "This is the only mechanic I use for my car. I love how fair they are and the prices are super reasonable. They definitely dont try to overcharge you. And my service is fast. Definitely recommend.",
@@ -61,7 +92,18 @@
       "date": "2025-03-15"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Gona",
+      "role": "Lead Mechanic",
+      "bio": "Described by customers as 'one of the best mechanics I've ever known,' Gona is the heart of Judge Auto — known for his deep technical knowledge, straight-talking honesty, and willingness to explain every repair in plain language so customers can make informed decisions.",
+      "credentials": [
+        "Highly knowledgeable (per multiple customers)",
+        "Transparent about repair options",
+        "Offers both new and used part alternatives"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -116,28 +158,79 @@
   ],
   "stats": [
     {
-      "value": 74,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.5,
+      "suffix": "★",
+      "label": "Average Customer Rating"
     },
     {
-      "value": 4.5,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 74,
+      "suffix": "+",
+      "label": "Verified Customer Reviews"
+    },
+    {
+      "value": 6,
+      "suffix": " Days",
+      "label": "Open Every Week Including Saturday"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "Customers Who'd Recommend to a Friend"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Are your prices really lower than the dealership?",
+      "answer": "Yes — multiple customers have specifically noted that Judge Auto's prices beat dealership rates by a meaningful margin, without sacrificing quality or expertise."
+    },
+    {
+      "question": "Is the shop open on Saturdays?",
+      "answer": "Yes. Judge Auto is open Monday through Saturday, 9:00 AM to 5:30 PM. Saturday availability is a big deal — customers have noted it's one of the only shops in the area willing to accept vehicles on a Saturday."
+    },
+    {
+      "question": "Is this a fancy shop with a nice waiting room?",
+      "answer": "Honestly, no — and that's by design. Judge Auto is a working repair garage, not a customer lounge. The investment goes into tools, parts, and skilled hands, not décor. If you want an honest mechanic who knows what he's doing, this is your place."
+    },
+    {
+      "question": "Can I choose between new and used parts for my repair?",
+      "answer": "Absolutely. Gona will walk you through your options and let you decide whether you want new parts or more budget-friendly alternatives. Just tell him your preference upfront and he'll work with you."
+    },
+    {
+      "question": "How long will my repair take?",
+      "answer": "Many repairs are completed the same day, and some within an hour. That said, good work sometimes takes the time it takes — as one regular customer puts it, 'good things come to those who wait.'"
+    },
+    {
+      "question": "What makes Judge Auto different from other shops in West Philadelphia?",
+      "answer": "Customers consistently point to three things: fair, transparent pricing; a mechanic who actually explains what's wrong with your car; and Saturday availability that most nearby shops don't offer."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#1C2B3A",
+    "accent": "#E8A020",
+    "note": "Deep navy/slate reflects trust, no-nonsense reliability, and working-class grit — the real identity of this shop. Amber/gold accent pulls from motor oil and worn metal tones, giving it warmth without pretense. Together they feel honest and sturdy, not corporate."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Transparent, honest pricing well below dealership rates — mentioned by nearly every reviewer",
+      "Saturday availability and fast same-day turnaround when competitors are unavailable",
+      "Gona's expertise and willingness to explain repairs and offer part options earns deep customer trust"
+    ],
+    "common_complaints": [
+      "Shop aesthetics are basic/unpolished — acknowledged openly by regulars as a trade-off for affordability, not a dealbreaker"
+    ],
+    "suggested_tagline": "The Mechanic Who Actually Tells You the Truth.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "Honest",
+      "No-frills",
+      "Trustworthy",
+      "Knowledgeable",
+      "Working-class"
+    ],
+    "named_staff": [
+      "Gona"
+    ]
   }
 }

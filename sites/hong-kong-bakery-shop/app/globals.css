@@ -1,0 +1,363 @@
+@import "tailwindcss";
+
+/* Scan shared packages for Tailwind classes */
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #FF7A27;
+  --brand-accent: #f4ff27;
+  --brand-bg: #ffffff;
+  --brand-bg-alt: #f2ebe7;
+  --brand-text: #000000;
+  --brand-muted: #000000;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: var(--brand-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+/* Marquee animation for carousels */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Smooth section transitions */
+section, [id] > div {
+  scroll-margin-top: 80px;
+}
+
+/* Focus-visible outlines for accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Film grain overlay for warm analog feel */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+  mix-blend-mode: hard-light;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+/* Gradient transitions between sections */
+.section-gradient {
+  position: relative;
+}
+.section-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--brand-bg));
+  pointer-events: none;
+}
+
+/* Creative director extras */
+/* ── Hong Kong Bakery — Custom Styles ──────────────────────── */
+
+/* Brand tokens */
+:root {
+  --hkb-orange: #FF7A27;
+  --hkb-yellow: #f4ff27;
+  --hkb-dark: #1a1008;
+  --hkb-dark-mid: #261508;
+  --hkb-cream: #fdf8f2;
+  --hkb-text: #2b1500;
+  --brand-primary: #FF7A27;
+  --brand-accent: #f4ff27;
+}
+
+/* Film grain overlay */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  opacity: 0.025;
+  mix-blend-mode: hard-light;
+}
+
+/* Dot pattern utility */
+.dot-pattern {
+  background-image: radial-gradient(circle, rgba(255,122,39,0.12) 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+/* ── Scrolling Banner ─────────────────────────────────────── */
+.hkb-banner-wrap {
+  background-color: var(--hkb-orange);
+  overflow: hidden;
+  width: 100%;
+  padding: 14px 0;
+  position: relative;
+  z-index: 10;
+  border-top: 2px solid rgba(255,255,255,0.15);
+  border-bottom: 2px solid rgba(255,255,255,0.15);
+}
+
+.hkb-banner-track {
+  display: flex;
+  width: max-content;
+  animation: hkb-scroll 28s linear infinite;
+  gap: 0;
+}
+
+.hkb-banner-item {
+  font-family: 'Figtree', sans-serif;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  color: #fff;
+  white-space: nowrap;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-transform: uppercase;
+}
+
+.hkb-banner-item::after {
+  content: '·';
+  margin-left: 32px;
+  opacity: 0.5;
+}
+
+@keyframes hkb-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.hkb-banner-wrap:hover .hkb-banner-track {
+  animation-play-state: paused;
+}
+
+/* ── Stats Wrap ──────────────────────────────────────────── */
+.hkb-stats-wrap {
+  padding: 0;
+}
+
+/* ── Section Labels ──────────────────────────────────────── */
+.hkb-section-label {
+  text-align: center;
+  padding: 64px 24px 24px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.hkb-section-label--light {
+  padding-bottom: 16px;
+}
+
+.hkb-section-title {
+  font-family: 'Figtree', sans-serif;
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 900;
+  color: var(--hkb-text);
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  margin: 8px 0 10px;
+}
+
+.hkb-section-sub {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  color: #6b5240;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ── Pills ───────────────────────────────────────────────── */
+.hkb-pill {
+  display: inline-block;
+  background: rgba(255,122,39,0.12);
+  color: var(--hkb-orange);
+  font-family: 'Figtree', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 5px 14px;
+  border-radius: 100px;
+  border: 1.5px solid rgba(255,122,39,0.3);
+}
+
+.hkb-pill--accent {
+  background: rgba(244,255,39,0.15);
+  color: #7a7a00;
+  border-color: rgba(244,255,39,0.6);
+}
+
+.hkb-pill--light {
+  background: rgba(255,255,255,0.1);
+  color: var(--hkb-yellow);
+  border-color: rgba(244,255,39,0.4);
+}
+
+/* ── About ───────────────────────────────────────────────── */
+.hkb-about-wrap {
+  background-color: var(--hkb-cream);
+  padding: 16px 0 48px;
+}
+
+/* ── Services ────────────────────────────────────────────── */
+.hkb-services-wrap {
+  background-color: #fffaf5;
+  padding-bottom: 64px;
+}
+
+/* ── Gallery ─────────────────────────────────────────────── */
+.hkb-gallery-wrap {
+  background-color: #fff;
+  padding-bottom: 64px;
+}
+
+/* ── Reviews Dark Section ─────────────────────────────────── */
+.hkb-reviews-dark {
+  background-color: var(--hkb-dark);
+  padding: 0 0 64px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hkb-reviews-dark::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 30% 50%, rgba(255,122,39,0.12) 0%, transparent 65%),
+              radial-gradient(ellipse at 75% 20%, rgba(244,255,39,0.06) 0%, transparent 55%);
+  pointer-events: none;
+}
+
+.hkb-reviews-dark .hkb-section-label {
+  position: relative;
+  z-index: 1;
+}
+
+/* ── FAQ ─────────────────────────────────────────────────── */
+.hkb-faq-wrap {
+  background-color: var(--hkb-cream);
+  padding-bottom: 64px;
+}
+
+.hkb-faq-inner {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* ── Contact ─────────────────────────────────────────────── */
+.hkb-contact-wrap {
+  background-color: #fff;
+  padding-bottom: 64px;
+}
+
+/* ── Floating Tags (decorative) ───────────────────────────── */
+.hkb-floating-tag {
+  background: rgba(255,255,255,0.95);
+  border: 1.5px solid rgba(255,122,39,0.25);
+  border-radius: 12px;
+  padding: 8px 14px;
+  font-family: 'Figtree', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--hkb-text);
+  box-shadow: 0 4px 20px rgba(255,122,39,0.12);
+  backdrop-filter: blur(8px);
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+/* ── Service Card Hover Enhancement ──────────────────────── */
+[class*='service'] article,
+[class*='card'] article {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+[class*='service'] article:hover,
+[class*='card'] article:hover {
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 12px 40px rgba(255,122,39,0.14);
+}
+
+/* ── Global Typography Overrides ─────────────────────────── */
+h1, h2, h3 {
+  font-family: 'Figtree', sans-serif !important;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #fffaf5;
+}
+
+/* Make sure nav blends in warmly */
+nav {
+  border-bottom: 1px solid rgba(255,122,39,0.1) !important;
+}
+
+/* CTA button accent ring */
+a[href^="tel"],
+button {
+  transition: all 0.2s ease;
+}
+
+/* Hero overlay warmth */
+section[id="home"] {
+  position: relative;
+}
+
+/* Smooth section transitions */
+section {
+  position: relative;
+}
+
+/* Glass utility */
+.glass {
+  background: rgba(255,255,255,0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.4);
+}
+
+/* Responsive: tighten padding on mobile */
+@media (max-width: 640px) {
+  .hkb-section-label {
+    padding-top: 48px;
+    padding-bottom: 16px;
+  }
+
+  .hkb-section-title {
+    font-size: 1.9rem;
+  }
+
+  .hkb-banner-item {
+    font-size: 0.82rem;
+    padding: 0 20px;
+  }
+}
+
+        :root {
+          --brand-primary: ${BRAND};
+          --brand-accent: ${ACCENT};
+        }
+      

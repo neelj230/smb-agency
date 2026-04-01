@@ -1,0 +1,240 @@
+{
+  "name": "Claws and Paws Pet Resort",
+  "slug": "claws-and-paws-pet-resort",
+  "category": "daycare",
+  "address": "862 NW Oak Ave",
+  "city": "Corvallis",
+  "state": "OR",
+  "zip": "97330",
+  "phone": "(541) 223-3608",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 18,
+  "tagline": "Where every dog comes home worn out happy.",
+  "brandNarrative": "Claws and Paws Pet Resort isn't your typical kennel — it's Nick's home, and that makes all the difference. Dogs who come through the door at 862 NW Oak Ave aren't crated in a commercial facility; they're lounging in a real living room, romping in a securely fenced backyard, and going on actual walks through Corvallis trails and drives around town. Customers like Tracy S. say their dogs come home 'worn out and happy,' making evenings peaceful — and that's exactly the point. This is dog care designed around how dogs actually thrive: in a home, with people who love them.",
+  "ownerStory": "Nick — the heart and sole operator behind Claws and Paws Pet Resort — didn't set out to build a business in the traditional sense. He opened his home in Corvallis to dogs who needed somewhere safe, stimulating, and genuinely loving while their families were away. Every reviewer mentions him by name, and every reviewer says the same thing: he clearly loves dogs. He walks them on wooded trails and wetland boardwalks, plays fetch in the backyard, takes them on car rides, and treats each dog like it belongs there. Whether it's Mollie the regular daycare attendee or Luna the visiting dwarf German shepherd passing through on vacation, Nick remembers them, cares for them, and sends their families video proof that everything is okay.",
+  "hours": {
+    "Monday": "6:30 AM – 7:00 PM",
+    "Tuesday": "6:30 AM – 7:00 PM",
+    "Wednesday": "6:30 AM – 7:00 PM",
+    "Thursday": "6:30 AM – 7:00 PM",
+    "Friday": "6:30 AM – 7:00 PM",
+    "Saturday": "8:00 AM – 5:00 PM",
+    "Sunday": "8:00 AM – 5:00 PM"
+  },
+  "services": [
+    {
+      "name": "Dog Daycare",
+      "description": "Full-day in-home daycare at Nick's house with backyard playtime, walks, and social time with other dogs in a comfortable home setting.",
+      "icon": "sun"
+    },
+    {
+      "name": "Overnight Boarding",
+      "description": "Multi-night boarding in a real home environment where dogs sleep, play, and are supervised around the clock by Nick personally.",
+      "icon": "moon"
+    },
+    {
+      "name": "Backyard Play Sessions",
+      "description": "Supervised group play in a securely fenced backyard with toys, other dogs, and plenty of room to run and socialize.",
+      "icon": "trees"
+    },
+    {
+      "name": "Trail Walks & Outdoor Adventures",
+      "description": "On-leash group walks along Corvallis trails, forest paths, and wetland boardwalks to keep dogs active and mentally stimulated.",
+      "icon": "footprints"
+    },
+    {
+      "name": "Photo & Video Updates",
+      "description": "Real-time photos and videos sent directly to pet parents during every stay so you always know your dog is safe and having fun.",
+      "icon": "camera"
+    },
+    {
+      "name": "Cat-Friendly Socialization",
+      "description": "For dogs who need it, gentle introduction to Nick's resident kitten helps build calm, confident behavior around cats.",
+      "icon": "cat"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Nick loves every dog who comes through his doors. His doggie daycare is ran out of his home which helps the dogs themselves feel more comfortable. He takes them on walks and drives and lots of play time in the backyard too.\nWhen Mollie comes home she is worn out and happy. Making our evenings together peaceful. Highly recommend!",
+      "author": "Tracy S",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-16"
+    },
+    {
+      "text": "I just started taking my young, heeler mix brothers to Nick and they've settled right in! I just picked them up after boarding them for 2 nights, and they were happy, healthy and ready to go home to bed! He's even introducing them to his kitten which is fine with me.\nClaws and Paws is my new go to place for daycare and boarding.\nClaws and Paws is my new",
+      "author": "Jennifer Scotti",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-05"
+    },
+    {
+      "text": "My mid size (40lbs) retriever mix loves staying here anytime I am out of town. Nick is super friendly and responsive to messages and I am grateful that he is so flexible with my schedule!! He clearly loves dogs and treats them so well. Backyard is securely fenced and a good size for the pups. He sends videos and pictures when he watches my dog which I really appreciate. Highly recommend!!",
+      "author": "Emily Werner",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-07-11"
+    },
+    {
+      "text": "Luna our dwarf German shepherd stayed here for the weekend while we visited friends here on vacation and she had a great time!  He sent a video of her running and playing with the other dogs and text us updates.  Thank you Nick for taking such good care of our baby.",
+      "author": "Sarah Scar",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-07-07"
+    },
+    {
+      "text": "Nick is a great dog sitter...was very attentive to our boy Maxx and we appreciate how caring he is with him...highly recommend for doggie daycare / boarding",
+      "author": "Judy Jensen",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-25"
+    }
+  ],
+  "team": [
+    {
+      "name": "Nick",
+      "role": "Owner & Primary Caregiver",
+      "bio": "Nick is the sole heart behind Claws and Paws — every reviewer mentions him by name. He's known for his genuine love of dogs, quick communication, flexible scheduling, and personal touches like sending videos and photos during every single stay.",
+      "credentials": [
+        "Named personally in 100% of reviews",
+        "Flexible scheduling for working pet parents",
+        "Sends real-time photo and video updates",
+        "Experienced with mixed breeds, large dogs, and multi-pet households"
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Vibrant pop art style illustration of happy dog wearing blue collar and yellow bell",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Person walking four dogs on a wooden boardwalk trail through natural wetland vegetation.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Black dog with white chest holding yellow tennis ball on patterned blanket indoors",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Young man smiling on couch with black and white husky dog indoors",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Person holding dog treats while three black and tan dogs eagerly reach upward outdoors",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Person caring for multiple dogs in a sunny backyard setting",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Two people and a dog posing at Multnomah Falls with bridge and waterfall behind them",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Person walking with multiple dogs on a shaded forest trail path.",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Group of dogs playing together in a fenced backyard with toys and trees",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Four happy dogs sitting together on pavement, looking up at camera with tongues out",
+      "category": "team"
+    }
+  ],
+  "stats": [
+    {
+      "value": 5,
+      "suffix": "★",
+      "label": "Perfect Rating Across All Reviews"
+    },
+    {
+      "value": 18,
+      "suffix": "+",
+      "label": "Verified Five-Star Reviews"
+    },
+    {
+      "value": 7,
+      "suffix": " days",
+      "label": "Open Every Day of the Week"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "Reviewers Recommend Claws and Paws"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is this a commercial kennel or a home-based daycare?",
+      "answer": "Claws and Paws is run out of Nick's home in Corvallis, which is intentional. Dogs are far more comfortable in a real home environment than a commercial kennel — they sleep on furniture, play in a fenced backyard, and get one-on-one attention rather than being crated in a facility."
+    },
+    {
+      "question": "Will I get updates while my dog is staying with Nick?",
+      "answer": "Absolutely. Nick is known for sending photos, videos, and text updates throughout every stay. Multiple customers have specifically called this out as one of the things they love most — you'll never be left wondering how your dog is doing."
+    },
+    {
+      "question": "Do you accept dogs of all sizes?",
+      "answer": "Yes! Past guests have included a 40-pound retriever mix, heeler-mix brothers, a dwarf German shepherd, and a large husky. Nick welcomes dogs of varying sizes and temperaments and introduces them thoughtfully to the group."
+    },
+    {
+      "question": "Can my dog board for multiple nights?",
+      "answer": "Yes, overnight and multi-night boarding is available. Jennifer Scotti's dogs boarded for two full nights and came home 'happy, healthy, and ready to go home to bed.' It's a great option for weekend trips or longer travel."
+    },
+    {
+      "question": "Is the yard safe and secure?",
+      "answer": "Yes — multiple reviewers specifically mention the backyard is securely fenced and a good size for dogs to run and play freely. Supervised group play happens there daily."
+    },
+    {
+      "question": "How flexible is Nick with drop-off and pick-up times?",
+      "answer": "Very. Nick is open Monday through Friday from 6:30 AM to 7:00 PM and weekends from 8:00 AM to 5:00 PM. Multiple customers praise his flexibility with scheduling, especially for working pet parents with irregular hours."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#3B7A57",
+    "accent": "#F5A623",
+    "note": "Forest green reflects the outdoor trail walks, natural wetlands, and backyard play that define this business's active, nature-connected personality. Warm amber/golden yellow mirrors the energy of happy dogs, tennis balls, and sunlit backyards seen throughout the photo set — and signals approachability, warmth, and trust, which are the core emotional drivers in every customer review."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Nick's personal, home-based care model makes dogs feel genuinely comfortable — multiple reviewers contrast this warmth with impersonal commercial kennels",
+      "Proactive communication via photos, videos, and text updates builds deep trust with pet parents and is cited by nearly every reviewer as a standout quality",
+      "Exceptional flexibility and responsiveness — Nick accommodates varied schedules and temperaments, earning loyalty from repeat customers and first-time visitors alike"
+    ],
+    "common_complaints": [
+      "None found — all 18 reviews are five stars with no negative feedback, complaints, or suggested improvements"
+    ],
+    "suggested_tagline": "Nick's house. Your dog's happy place.",
+    "photo_quality": "good",
+    "personality_keywords": [
+      "Warm",
+      "Attentive",
+      "Adventurous",
+      "Trustworthy",
+      "Genuine"
+    ],
+    "named_staff": [
+      "Nick"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

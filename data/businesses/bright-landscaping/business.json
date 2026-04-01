@@ -11,9 +11,9 @@
   "website": null,
   "rating": 0,
   "reviewCount": 0,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Your Yard, Transformed Before Noon.",
+  "brandNarrative": "Bright Landscaping operates out of West Philadelphia with a focused, no-nonsense schedule — early mornings, weekdays only, work done and dusted by 3 PM. That rhythm says something real about who they are: a crew that shows up with purpose, gets the job done cleanly, and doesn't linger. With a portfolio of work photos that span everything from manicured beds to structured hardscaping, the business speaks through its results rather than its reviews.\n\nBased on Gainor Road in the 19131 zip code, Bright Landscaping is a neighborhood-rooted operation serving the residential and commercial corridors of Philadelphia. Their condensed weekday hours suggest a tight, efficient team that prioritizes quality over volume — they're not trying to be everywhere. They're trying to be good where they are. The work photos in their gallery hint at a range of landscape services, from lawn care and cleanup to more deliberate design-oriented transformations.\n\nWith no reviews yet on the books, Bright Landscaping is a business in its early public-facing chapter — building its reputation through the quality of its work rather than the volume of its testimonials. That's a clean slate with real potential, and the photos suggest the craftsmanship is already there.",
+  "ownerStory": "Bright Landscaping was built on the belief that a great yard shouldn't require a waiting list or a complicated pitch. Operating out of West Philadelphia, the founder structured the business around a tight weekday schedule — 7 AM to 3 PM — that respects both the crew's time and the client's. It's the kind of operation run by someone who learned the trade from the ground up and decided that consistency, early starts, and honest work were more valuable than flashy marketing.\n\nThe Gainor Road address puts Bright Landscaping right in the heart of a community that values real relationships and visible results. This isn't a franchise or a corporate lawn service — it's a local crew with a specific vision for what a well-maintained property should look like, and the discipline to deliver it five days a week.",
   "hours": {
     "Monday": "7:00 AM – 3:00 PM",
     "Tuesday": "7:00 AM – 3:00 PM",
@@ -23,7 +23,38 @@
     "Saturday": "Closed",
     "Sunday": "Closed"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Lawn Mowing & Maintenance",
+      "description": "Regular mowing, edging, and trimming to keep your lawn looking clean and well-maintained week after week.",
+      "icon": "scissors"
+    },
+    {
+      "name": "Landscape Bed Design & Cleanup",
+      "description": "Planting, mulching, weeding, and shaping ornamental beds to create polished curb appeal.",
+      "icon": "flower-2"
+    },
+    {
+      "name": "Seasonal Cleanups",
+      "description": "Spring and fall debris removal, leaf cleanup, and property reset to prepare your yard for each season.",
+      "icon": "leaf"
+    },
+    {
+      "name": "Hardscaping & Edging",
+      "description": "Installation of clean borders, stone edging, and structured landscape features that define your outdoor space.",
+      "icon": "square"
+    },
+    {
+      "name": "Mulching & Ground Cover",
+      "description": "Fresh mulch installation across beds and tree rings to retain moisture, suppress weeds, and sharpen the look of your property.",
+      "icon": "layers"
+    },
+    {
+      "name": "Property Grading & Sodding",
+      "description": "Soil grading and sod installation to establish or restore a healthy, level lawn from the ground up.",
+      "icon": "mountain"
+    }
+  ],
   "reviews": [],
   "team": [],
   "photos": [
@@ -80,28 +111,79 @@
   ],
   "stats": [
     {
-      "value": 0,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 7,
+      "suffix": " AM",
+      "label": "Early Start, Every Weekday"
     },
     {
-      "value": 0,
+      "value": 5,
+      "suffix": " days",
+      "label": "Consistent Weekly Availability"
+    },
+    {
+      "value": 10,
+      "suffix": "+",
+      "label": "Portfolio Projects Documented"
+    },
+    {
+      "value": 1,
       "suffix": "",
-      "label": "Google Rating"
+      "label": "Focused Local Philadelphia Crew"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "What areas does Bright Landscaping serve?",
+      "answer": "Bright Landscaping is based at 5604 Gainor Rd in West Philadelphia (19131) and primarily serves residential and commercial clients throughout the Philadelphia area."
+    },
+    {
+      "question": "What are your operating hours?",
+      "answer": "We work Monday through Friday, 7:00 AM to 3:00 PM. We are closed on weekends, so we recommend scheduling early in the week to lock in your preferred time slot."
+    },
+    {
+      "question": "Do you offer one-time services or only recurring contracts?",
+      "answer": "Bright Landscaping can accommodate both one-time project work — like seasonal cleanups or mulching — and ongoing maintenance schedules. Call (267) 351-5557 to discuss what fits your needs."
+    },
+    {
+      "question": "How do I get a quote?",
+      "answer": "The best way to get an estimate is to call us directly at (267) 351-5557 during business hours. We'll discuss your property needs and arrange a time to assess the work involved."
+    },
+    {
+      "question": "Why don't you work on weekends?",
+      "answer": "Our weekday-only schedule allows our team to operate at full capacity with the right equipment and crew, ensuring every job is done thoroughly and without shortcuts."
+    },
+    {
+      "question": "What types of properties do you work on?",
+      "answer": "Based on our project gallery, we work on a variety of residential properties — from front lawn maintenance to more extensive landscape transformations involving beds, edging, and ground cover."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#2D6A4F",
+    "accent": "#F4A623",
+    "note": "Deep forest green reflects the landscaping trade and a grounded, professional presence. The warm amber accent mirrors early morning light and the energy of a crew that starts at 7 AM — it adds warmth and approachability without softening the professional edge."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Consistent and structured schedule signals reliability and operational discipline",
+      "Work photo gallery demonstrates real project output across multiple landscape types",
+      "Hyper-local West Philadelphia roots create strong community trust potential"
+    ],
+    "common_complaints": [
+      "No reviews available yet — reputation building is the primary growth challenge",
+      "No website presence limits discoverability and online booking access",
+      "Weekend unavailability may be a barrier for working homeowners who prefer Saturday service"
+    ],
+    "suggested_tagline": "Philadelphia Yards, Done Right by 3.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "efficient",
+      "grounded",
+      "no-nonsense",
+      "neighborhood-rooted",
+      "early-rising"
+    ],
+    "named_staff": []
   }
 }

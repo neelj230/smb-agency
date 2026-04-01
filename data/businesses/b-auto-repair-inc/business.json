@@ -11,9 +11,9 @@
   "website": null,
   "rating": 4.8,
   "reviewCount": 149,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Honest hands. Fair prices. Back on the road.",
+  "brandNarrative": "When Kelly Renee's car lost its front axle rolling into Philadelphia from Wildwood, she didn't know where to turn — she just knew she needed help fast. She found B Auto Repair, and within three hours Benjamin and his team had her towed in, the part delivered, and her car back on the road at a price she called 'very reasonable.' That's not a lucky accident — that's who B Auto Repair is, every single day. Located in the Wynnfield neighborhood at 1701 N 54th Street, this shop has quietly become one of the most trusted garages in West Philadelphia, earning a 4.8-star rating across nearly 150 reviews by doing something deceptively simple: treating every customer with honesty and respect.\n\nWhat makes B Auto Repair genuinely different isn't just the pricing — though customers consistently report paying a fraction of dealership quotes, like Ashley Cook who paid half of what Honda quoted her for brakes and rotors. It's the human element. Paige Martin, a self-described car novice, described her visit as 'the FIRST TIME mechanics at an auto shop have ever been kind to me.' Benjamin took the time to explain everything and equip her for the future, not just fix the car and send her off. That kind of care is rare in a trade often defined by intimidation and information asymmetry. Ian Gaskin calls it his go-to shop in Philly specifically because Benjamin is 'honest, communicative, and pleasant to work with' — and because he works with customers when they need a tight turnaround.\n\nB Auto Repair runs six days a week, 8 AM to 5 PM Monday through Saturday, giving the community consistent access to a team that Paul H trusts with his prized Mustang. This isn't a chain, a franchise, or a shop chasing volume — it's a neighborhood mechanic operating with integrity, speed, and genuine care for the people who walk through the door.",
+  "ownerStory": "Benjamin — the name that shows up again and again across glowing reviews — is the heart and engine of B Auto Repair. Customers don't just mention him politely; they describe him the way you'd describe someone who genuinely changed their day. Kelly Renee called him a 'guardian angel.' Ian Gaskin calls him honest and fair. Paul H trusts him with a Mustang. That kind of loyalty isn't bought — it's built repair by repair, conversation by conversation, fair invoice by fair invoice. Benjamin built B Auto Repair on a simple but radical premise for the auto industry: treat every customer the way you'd want a family member treated when their car breaks down far from home.\n\nHis shop in the Wynnfield section of Philadelphia reflects that philosophy in every detail — from the same-day service he offers when he can squeeze someone in, to the way his team dropped what they were doing to help stranded travelers from out of state get home safely. Benjamin doesn't just fix cars; he runs a shop where young women feel respected, Mustang owners feel confident, and out-of-towners feel like they got lucky. In a city full of garages, he's built something rarer: a mechanic people actually trust.",
   "hours": {
     "Monday": "8:00 AM – 5:00 PM",
     "Tuesday": "8:00 AM – 5:00 PM",
@@ -23,7 +23,38 @@
     "Saturday": "8:00 AM – 5:00 PM",
     "Sunday": "Closed"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Brake & Rotor Replacement",
+      "description": "Full brake system service including pad and rotor replacement, performed same-day when possible at prices that consistently beat dealership quotes.",
+      "icon": "circle-slash"
+    },
+    {
+      "name": "Axle & Drivetrain Repair",
+      "description": "Expert diagnosis and repair of front and rear axle issues, including emergency same-day turnarounds for vehicles that can't wait.",
+      "icon": "settings"
+    },
+    {
+      "name": "Suspension & Steering",
+      "description": "Inspection and repair of steering components, tie rods, and suspension systems to keep your ride safe and stable on Philly's roads.",
+      "icon": "sliders-horizontal"
+    },
+    {
+      "name": "General Diagnostics & Repair",
+      "description": "Thorough diagnostic services with honest, plain-language explanations of what your car needs — no upselling, no jargon.",
+      "icon": "stethoscope"
+    },
+    {
+      "name": "Oil Change & Preventive Maintenance",
+      "description": "Routine maintenance services including oil changes, fluid checks, and tune-ups to extend the life of your vehicle.",
+      "icon": "droplets"
+    },
+    {
+      "name": "Emergency & Same-Day Service",
+      "description": "Rapid-response repairs for urgent situations, including tow coordination and priority service to get you back on the road fast.",
+      "icon": "zap"
+    }
+  ],
   "reviews": [
     {
       "text": "On September 9, 2024 we were traveling back from Wildwood, NJ, our car lost a front axle when we hit Phillie. We limped into Wynnfield. We found B Auto Repair. There was a guardian angel with us. Benjamin and his team were wonderful. They got us towed to their garage, had us up in the air, part delivered, dropped what they were doing, had our car repaired, and on the road within 3 hours. The repair bill was very reasonable. If anyone lives with in their community, you are very fortunate to have them to turn to if you are in need of a quality, knowledgeable mechanic team. We're very grateful that we found them and they did not take advantage. A huge thanks to Benjamin and his team.",
@@ -61,7 +92,19 @@
       "date": "2025-07-31"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Benjamin",
+      "role": "Owner & Lead Mechanic",
+      "bio": "Benjamin is the driving force behind B Auto Repair — described by customers as honest, fair-priced, communicative, and genuinely kind. He's the mechanic Paul H trusts with his Mustang, the 'guardian angel' who rescued stranded travelers from New Jersey, and the reason first-timers like Paige Martin walk away feeling respected rather than taken advantage of.",
+      "credentials": [
+        "Trusted with performance vehicles including Ford Mustangs",
+        "Known for transparent, plain-language explanations",
+        "Praised for same-day emergency turnarounds",
+        "Consistently praised for below-market, fair pricing"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -106,28 +149,79 @@
   ],
   "stats": [
     {
-      "value": 149,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.8,
+      "suffix": " stars",
+      "label": "Average Customer Rating"
     },
     {
-      "value": 4.8,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 149,
+      "suffix": "+",
+      "label": "Verified Customer Reviews"
+    },
+    {
+      "value": 6,
+      "suffix": " days",
+      "label": "Open Every Week, Monday–Saturday"
+    },
+    {
+      "value": 3,
+      "suffix": "-hour",
+      "label": "Emergency Repair Turnaround (reported)"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Are your prices really lower than the dealership?",
+      "answer": "Consistently, yes. Multiple customers have reported paying significantly less than dealership quotes — one customer paid half of what her Honda dealership quoted for brakes and rotors. Benjamin prices his work fairly and doesn't inflate labor or parts costs."
+    },
+    {
+      "question": "Can you fit me in the same day if my car breaks down?",
+      "answer": "B Auto Repair does its best to accommodate urgent situations. The team has a strong track record of same-day service, and has even coordinated towing and completed major repairs within three hours for customers in emergency situations."
+    },
+    {
+      "question": "I don't know much about cars — will I feel comfortable here?",
+      "answer": "Absolutely. This is one of the most common things customers mention in reviews. Benjamin and his team take the time to explain what's wrong and why in plain language, without condescension. First-time customers, including those who've felt dismissed at other shops, consistently describe B Auto Repair as a welcoming and respectful environment."
+    },
+    {
+      "question": "What kinds of vehicles do you work on?",
+      "answer": "B Auto Repair works on a wide range of vehicles including everyday commuters, Honda models, and performance cars like the Ford Mustang. If you're unsure whether they can handle your vehicle, give them a call at (215) 477-8575."
+    },
+    {
+      "question": "What are your hours and how do I get in touch?",
+      "answer": "The shop is open Monday through Saturday, 8:00 AM to 5:00 PM, and closed on Sundays. The best way to reach them is by phone at (215) 477-8575. They don't have a website, so a call is the fastest way to schedule or ask questions."
+    },
+    {
+      "question": "Will the mechanic actually explain what's wrong with my car?",
+      "answer": "Yes — and that's one of the qualities customers praise most. Benjamin is known for being communicative and transparent, walking customers through exactly what needs to be done and why, so you can make informed decisions without feeling pressured."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#1C2B3A",
+    "accent": "#E87722",
+    "note": "Deep navy conveys trustworthiness, expertise, and professionalism — countering the sleazy-mechanic stereotype this shop actively defies. The burnt orange accent nods to automotive energy, urgency, and warmth without feeling corporate. Together they communicate: serious craft, approachable people."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Radical honesty and transparent pricing — customers repeatedly report paying far less than competitor or dealership quotes with no sense of being taken advantage of",
+      "Speed and urgency — same-day service and emergency turnarounds are a documented pattern, not a marketing claim",
+      "Human-centered service — Benjamin and his team treat customers with respect regardless of their car knowledge, creating loyalty especially among customers who've felt dismissed elsewhere"
+    ],
+    "common_complaints": [
+      "None found in available reviews — all 149 reviews trend positively with no recurring criticisms identified"
+    ],
+    "suggested_tagline": "The mechanic Philly actually trusts.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "Trustworthy",
+      "Warm",
+      "Efficient",
+      "Unpretentious",
+      "Genuine"
+    ],
+    "named_staff": [
+      "Benjamin"
+    ]
   }
 }

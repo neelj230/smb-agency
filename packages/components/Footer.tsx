@@ -21,22 +21,22 @@ export function Footer({ business, links, socialLinks }: FooterProps) {
   const year = new Date().getFullYear()
 
   return (
-    <footer className="bg-[var(--brand-text)] text-white py-16 px-6">
+    <footer className="bg-[var(--brand-text)] text-white py-20 lg:py-24 px-6">
       <div className="max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-3 gap-12">
+        <div className="grid md:grid-cols-3 gap-16">
           {/* Business Info */}
           <div>
-            <h3 className="font-display text-xl font-bold mb-4">{business.name}</h3>
-            <div className="space-y-2 text-white/60 text-sm">
+            <h3 className="font-display text-2xl font-bold mb-6">{business.name}</h3>
+            <div className="space-y-2.5 text-white/50 text-sm">
               <p>{business.address}</p>
               <p>
                 {business.city}, {business.state} {business.zip}
               </p>
-              <a href={`tel:${business.phone}`} className="block hover:text-white transition-colors">
+              <a href={`tel:${business.phone}`} className="block hover:text-white transition-colors duration-200">
                 {business.phone}
               </a>
               {business.email && (
-                <a href={`mailto:${business.email}`} className="block hover:text-white transition-colors">
+                <a href={`mailto:${business.email}`} className="block hover:text-white transition-colors duration-200">
                   {business.email}
                 </a>
               )}
@@ -46,13 +46,13 @@ export function Footer({ business, links, socialLinks }: FooterProps) {
           {/* Quick Links */}
           {links && links.length > 0 && (
             <div>
-              <h3 className="font-display text-lg font-semibold mb-4">Quick Links</h3>
-              <div className="space-y-2">
+              <h3 className="font-display text-lg font-semibold mb-6">Quick Links</h3>
+              <div className="space-y-3">
                 {links.map((link) => (
                   <a
                     key={link.href}
                     href={link.href}
-                    className="block text-white/60 text-sm hover:text-white transition-colors"
+                    className="block text-white/50 text-sm hover:text-white transition-colors duration-200"
                   >
                     {link.label}
                   </a>
@@ -64,7 +64,7 @@ export function Footer({ business, links, socialLinks }: FooterProps) {
           {/* Social Links */}
           {socialLinks && Object.keys(socialLinks).length > 0 && (
             <div>
-              <h3 className="font-display text-lg font-semibold mb-4">Follow Us</h3>
+              <h3 className="font-display text-lg font-semibold mb-6">Follow Us</h3>
               <div className="flex gap-3">
                 {Object.entries(socialLinks).map(([platform, url]) => {
                   if (!url) return null
@@ -76,7 +76,7 @@ export function Footer({ business, links, socialLinks }: FooterProps) {
                       href={url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-[var(--brand-primary)] transition-colors"
+                      className="w-11 h-11 rounded-full bg-white/10 flex items-center justify-center hover:bg-[var(--brand-primary)] hover:scale-110 transition-all duration-200"
                       aria-label={platform}
                     >
                       <Icon className="w-5 h-5" />
@@ -88,7 +88,7 @@ export function Footer({ business, links, socialLinks }: FooterProps) {
           )}
         </div>
 
-        <div className="mt-12 pt-8 border-t border-white/10 text-center text-white/40 text-sm">
+        <div className="mt-16 pt-8 border-t border-white/10 text-center text-white/30 text-sm">
           <p>&copy; {year} {business.name}. All rights reserved.</p>
         </div>
       </div>

@@ -11,9 +11,9 @@
   "website": null,
   "rating": 4.3,
   "reviewCount": 178,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Fixed Right. Treated Like Family.",
+  "brandNarrative": "United Auto Repair on Lancaster Ave isn't just a shop — it's a neighborhood institution. Customers like Javada Hill have been coming here across generations, and regulars like Kia Bizzle drive all the way from Delaware rather than find someone closer. That kind of loyalty doesn't come from convenience — it comes from a staff that treats every customer with patience, honesty, and genuine care. Whether you're a woman worried about being taken advantage of, or someone with a hundred questions about your vehicle, the team here meets you where you are and gives it to you straight.",
+  "ownerStory": "United Auto Repair has been part of the West Philadelphia community long enough that second-generation customers walk through the door. The shop runs on a simple philosophy: do the work right, charge a fair price, and treat everyone like a person — not a job ticket. The front desk has always had a receptionist ready to greet you, and technicians like Bishop bring a level of craftsmanship and resourcefulness that's increasingly rare. The hours are focused — Monday through Saturday, no late nights — because this team values doing things with care over doing things fast for volume. What you get is a shop with a soul, where the staff remembers your face and your car.",
   "hours": {
     "Monday": "8:00 AM – 4:30 PM",
     "Tuesday": "8:00 AM – 4:30 PM",
@@ -23,7 +23,38 @@
     "Saturday": "8:00 AM – 3:00 PM",
     "Sunday": "Closed"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Brake Repair & Caliper Service",
+      "description": "Full brake system diagnostics and repair including calipers, pads, and rotors — often sourced and fixed in-house to save you dealer prices.",
+      "icon": "disc"
+    },
+    {
+      "name": "Oil Change",
+      "description": "Fast, same-day oil changes using quality fluids — in and out without an appointment headache.",
+      "icon": "droplets"
+    },
+    {
+      "name": "State Vehicle Inspection",
+      "description": "Pennsylvania state inspections completed the same day you call, keeping you legal and road-ready.",
+      "icon": "clipboard-check"
+    },
+    {
+      "name": "Tire Sales & Installation",
+      "description": "New tire sourcing and installation with competitive pricing and same-day turnaround.",
+      "icon": "circle"
+    },
+    {
+      "name": "Windshield Wiper & Fluid System Repair",
+      "description": "Diagnosis and repair of wiper fluid dispensing systems and wiper assemblies to restore full visibility.",
+      "icon": "wind"
+    },
+    {
+      "name": "General Diagnostic & Vehicle Assessment",
+      "description": "Honest, thorough vehicle assessments where the team tells you exactly what's needed — and what isn't.",
+      "icon": "search"
+    }
+  ],
   "reviews": [
     {
       "text": "The best in town. I've taken my car there twice, and each time everyone there has been super polite, helping, and patient with all questions regarding my vehicle. They're fast too!\nShout out to Bishop, who was able to fix my caliper and saved me ordering one from the dealer!\nYou can't go wrong with this shop!",
@@ -61,7 +92,17 @@
       "date": "2023-11-01"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Bishop",
+      "role": "Lead Technician",
+      "bio": "Bishop is the kind of mechanic customers shout out by name. He saved one customer from an expensive dealer order by repairing a brake caliper on the spot — exactly the resourceful, cost-conscious work ethic that defines this shop.",
+      "credentials": [
+        "Brake & caliper repair specialist",
+        "In-house parts fabrication & sourcing"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -106,28 +147,79 @@
   ],
   "stats": [
     {
-      "value": 178,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.3,
+      "suffix": "★",
+      "label": "Average Customer Rating"
     },
     {
-      "value": 4.3,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 178,
+      "suffix": "+",
+      "label": "Verified Customer Reviews"
+    },
+    {
+      "value": 2,
+      "suffix": " Generations",
+      "label": "Of Loyal Neighborhood Customers"
+    },
+    {
+      "value": 6,
+      "suffix": " Days",
+      "label": "A Week, Including Saturdays"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Do I need an appointment, or can I walk in?",
+      "answer": "United Auto Repair is known for same-day service — customers have called in the morning and had their oil change and inspection done that same day. Call ahead at (215) 871-8440 to confirm availability, but walk-ins are welcomed when the schedule allows."
+    },
+    {
+      "question": "Will I be treated fairly as a woman bringing in my car alone?",
+      "answer": "Absolutely. Multiple female customers have specifically called out that they've always been treated with respect and never felt taken advantage of. That's a standard the staff holds consistently — not just occasionally."
+    },
+    {
+      "question": "Are your prices competitive compared to dealerships?",
+      "answer": "Yes — and that's one of the most consistent things customers mention. The team actively works to save you money, including repairing parts in-house rather than sending you to a dealer for an expensive replacement."
+    },
+    {
+      "question": "How fast is the turnaround on common repairs?",
+      "answer": "Most standard services — oil changes, inspections, brake jobs, tire installations — are completed the same day. The shop is known for being fast without cutting corners."
+    },
+    {
+      "question": "What are your hours and do you work on Saturdays?",
+      "answer": "Yes, United Auto Repair is open Saturday 8:00 AM to 3:00 PM, making it accessible for customers who work weekdays. Monday through Friday hours are 8:00 AM to 4:30 PM. The shop is closed Sundays."
+    },
+    {
+      "question": "Is this a shop that's been around long enough to trust?",
+      "answer": "Long enough that some customers are second-generation — their parents brought cars here, and now they do too. That kind of multi-generational loyalty in a neighborhood like West Philadelphia says everything about the shop's consistency and character."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#1C2B3A",
+    "accent": "#E8A020",
+    "note": "Deep navy signals trust, reliability, and professionalism — the kind of no-nonsense credibility this shop has earned over generations. The amber/gold accent reflects the warmth and family feel customers describe, plus it echoes the visual language of motor oil, classic signage, and honest trade work. Together they feel grounded, West Philly real, and far from corporate."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Genuine community trust built over multiple generations — customers return by choice, not convenience, even driving from out of state",
+      "Technically skilled, resourceful staff (especially Bishop) who solve problems in-house and save customers real money versus dealer alternatives",
+      "Consistently respectful and honest service culture that makes all customers — especially women — feel safe and not taken advantage of"
+    ],
+    "common_complaints": [
+      "Waiting area and interior aesthetic is dated and unwelcoming — same chairs for years, cobwebs in the bathroom, minimal upkeep on customer-facing spaces"
+    ],
+    "suggested_tagline": "Your Neighborhood Shop. No Dealership Drama.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "trustworthy",
+      "community-rooted",
+      "no-nonsense",
+      "warm",
+      "resourceful"
+    ],
+    "named_staff": [
+      "Bishop"
+    ]
   }
 }

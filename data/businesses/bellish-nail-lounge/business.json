@@ -11,9 +11,9 @@
   "website": "http://bellishnails.booksy.com/",
   "rating": 5,
   "reviewCount": 40,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Bold nails. Black-owned. Pure vibes.",
+  "brandNarrative": "Bellish Nail Lounge isn't just a nail salon — it's a whole experience. Tucked into West Philadelphia at 841 S 52nd St, this Black-owned lounge has built a devoted following by doing what most salons won't: actually listening. Clients walk in with a vision and walk out with exactly that — whether it's a branded red-and-bold set inspired by a lip gloss line, a clean nude acrylic set that feels like the best one in years, or a nail emergency handled with grace and speed. Complimentary wine is on deck, the music sets the tone before you even sit down, and the energy in the room is something customers consistently describe as 'top notch vibes' — not a marketing phrase, but the words of real clients who came back to write about it.\n\nAt the center of it all are two names that keep appearing in reviews: Brazil, the owner, and Tavi (also spelled Tavii or Taviii by adoring clients). Brazil has a warmth that makes first-timers feel immediately at ease — clients describe her as 'very sweet' with customer service that is 'always top tier.' Tavi is the detail-obsessed technician who will study your reference, channel your brand aesthetic onto your nails, and deliver work that clients call clean, creative, and professional from start to finish. Together, they've created a space where first-timers announce it's their 'first time at a Black nail salon' and leave raving about the cherry on top.\n\nBellish operates on Booksy, keeping bookings seamless and the experience intentional. With a perfect 5-star rating across 40 reviews, the lounge has clearly found its rhythm: quality work, real conversation, a glass of wine, and nails that make you obsessed the moment you look down.",
+  "ownerStory": "Brazil built Bellish Nail Lounge with the kind of energy that makes clients feel like they're visiting a friend who just happens to be exceptionally talented. As the owner and practicing nail technician, she personally takes on clients — and the reviews show it. When Claire needed a last-minute acrylic removal before evening plans, Brazil fit her in and delivered a 'quality and thorough job.' When Jo came in wanting nothing fancy, just a clean pink set, she left calling it the best acrylics she'd had in a very long time. Brazil's approach isn't about upselling or rushing — it's about reading the client in front of her and giving them exactly what they came for.\n\nShe's also built a team that mirrors her values. Tavi, her co-technician, brings the same attentiveness and artistry, earning the kind of praise that makes clients call her out by name in every review she's touched. The complimentary wine, the music curation, the warm atmosphere — none of that happens by accident. Brazil has deliberately crafted a lounge that centers Black women, celebrates bold style, and raises the bar for what a neighborhood nail salon can feel like.",
   "hours": {
     "Monday": "9:00 AM – 2:00 PM",
     "Tuesday": "9:00 AM – 5:00 PM",
@@ -23,7 +23,38 @@
     "Saturday": "10:00 AM – 8:00 PM",
     "Sunday": "10:00 AM – 7:00 PM"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Acrylic Full Set",
+      "description": "Custom acrylic nail sets built to your shape and style — from clean pink-and-nude classics to bold, branded statement looks.",
+      "icon": "sparkles"
+    },
+    {
+      "name": "Acrylic Removal",
+      "description": "Safe, thorough removal of existing acrylic sets, including same-day emergency appointments when available.",
+      "icon": "scissors"
+    },
+    {
+      "name": "Nail Art & Custom Design",
+      "description": "Highly detailed, personalized nail art executed to match your vision, aesthetic, or brand — brought to life by Tavi's creative precision.",
+      "icon": "palette"
+    },
+    {
+      "name": "Gel Manicure",
+      "description": "Long-lasting gel polish applied over natural nails for a flawless, chip-resistant finish in any color.",
+      "icon": "droplets"
+    },
+    {
+      "name": "Classic Manicure",
+      "description": "A clean, polished manicure with shaping, cuticle care, and your choice of polish — perfect for those who appreciate understated elegance.",
+      "icon": "hand"
+    },
+    {
+      "name": "Lounge Experience Add-On",
+      "description": "Complimentary wine and curated music to elevate your appointment into a full self-care lounge experience.",
+      "icon": "wine"
+    }
+  ],
   "reviews": [
     {
       "text": "Taviii did amazing! She executed my brand perfectly on my nails clean, creative, and professional from start to finish. You can tell she takes pride in her work and really listens to what you want. My nails came out exactly how I envisioned them red, bold, and branded just like my Kiss By Chérie gloss 💋 Definitely recommend booking with her if you want quality and style that stands out! Also first time at a black nail salon the 🍒 is popped Brazil lol",
@@ -61,7 +92,30 @@
       "date": "2025-06-03"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Brazil",
+      "role": "Owner & Nail Technician",
+      "bio": "Brazil is the heart of Bellish — a warm, skilled owner who personally takes on clients and has a gift for making every person feel seen and cared for. Clients describe her as 'very sweet' with customer service that is 'always top tier,' and she's known for fitting in nail emergencies and delivering quality every single time.",
+      "credentials": [
+        "Black-owned business founder",
+        "Full acrylic sets",
+        "Nail removal specialist",
+        "Lounge experience curator"
+      ]
+    },
+    {
+      "name": "Tavi",
+      "role": "Nail Technician & Nail Artist",
+      "bio": "Tavi is the detail-obsessed creative on the Bellish team — praised by clients for her ability to execute visions precisely, from branded nail concepts to intricate custom designs. She takes her time, listens deeply, and delivers work that clients describe as 'clean, creative, and professional from start to finish.'",
+      "credentials": [
+        "Custom nail art specialist",
+        "Brand-inspired nail design",
+        "Attention to detail",
+        "Client vision execution"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -116,28 +170,82 @@
   ],
   "stats": [
     {
-      "value": 40,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 5,
+      "suffix": "★",
+      "label": "Perfect Rating on Google"
     },
     {
-      "value": 5,
+      "value": 40,
+      "suffix": "+",
+      "label": "Verified 5-Star Reviews"
+    },
+    {
+      "value": 2,
       "suffix": "",
-      "label": "Google Rating"
+      "label": "Expert Nail Technicians on Staff"
+    },
+    {
+      "value": 7,
+      "suffix": " days",
+      "label": "Open Every Day of the Week"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Do I need to book an appointment in advance?",
+      "answer": "Yes — Bellish Nail Lounge operates by appointment through Booksy at bellishnails.booksy.com. Booking ahead ensures you get your preferred technician and time slot. That said, Brazil has been known to accommodate nail emergencies when her schedule allows, so it's always worth reaching out."
+    },
+    {
+      "question": "What makes Bellish different from other nail salons in Philadelphia?",
+      "answer": "Bellish is a Black-owned nail lounge that prioritizes real listening, personalized results, and an elevated atmosphere. Clients consistently highlight the complimentary wine, the curated music, and the fact that both Brazil and Tavi take genuine time with each client — no rushing, no guessing. The 5-star rating across 40 reviews speaks for itself."
+    },
+    {
+      "question": "Can I bring a reference photo or specific design concept?",
+      "answer": "Absolutely — and you should. Tavi in particular is known for executing client visions with precision, including branded concepts and custom aesthetics. The more specific your reference, the better the result. Clients who came in with clear ideas left saying their nails came out 'exactly how I envisioned them.'"
+    },
+    {
+      "question": "Is complimentary wine really included?",
+      "answer": "Yes! Multiple reviewers specifically mention the complimentary wine as a highlight of their visit. It's part of the lounge experience Brazil has intentionally created — a little something that turns a nail appointment into genuine self-care time."
+    },
+    {
+      "question": "What types of nail services does Bellish offer?",
+      "answer": "Based on client reviews, Bellish specializes in acrylic full sets, custom nail art, acrylic removal, and both classic and gel manicures. Tavi handles detailed creative work while Brazil covers the full range of services. Check the Booksy profile for the most current menu and pricing."
+    },
+    {
+      "question": "What are the hours, and is Saturday a good day to visit?",
+      "answer": "Bellish is open Monday through Friday with Monday having shorter hours (9 AM–2 PM). The weekend hours are generous — Saturday 10 AM to 8 PM and Sunday 10 AM to 7 PM — making it a great spot for a weekend treat. Book early as weekend slots tend to fill up."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#1A1A1A",
+    "accent": "#C8102E",
+    "note": "Deep black reflects the lounge's sleek, Black-owned identity and sophistication, while the bold red is pulled directly from client reviews — one client's entire nail concept was 'red, bold, and branded.' Together they project confidence, style, and unapologetic personality — exactly what Bellish delivers."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Exceptional personalization — both Brazil and Tavi are consistently praised for listening carefully and executing exactly what clients envision, leading to zero disappointment mentions across all reviews",
+      "Atmosphere and experience design — complimentary wine, curated music, and warm energy are called out in nearly every review, setting Bellish apart from transactional nail salons",
+      "Trust and representation — being a Black-owned nail lounge in West Philadelphia resonates deeply with clients, with multiple reviewers specifically celebrating and recommending it on those grounds"
+    ],
+    "common_complaints": [
+      "None found — all 40 reviews are 5-star and no negative themes, wait time issues, or service complaints appear in the available review data"
+    ],
+    "suggested_tagline": "Where your vision becomes the vibe.",
+    "photo_quality": "good",
+    "personality_keywords": [
+      "vibrant",
+      "meticulous",
+      "warm",
+      "empowering",
+      "elevated"
+    ],
+    "named_staff": [
+      "Brazil",
+      "Tavi",
+      "Tavii",
+      "Taviii"
+    ]
   }
 }

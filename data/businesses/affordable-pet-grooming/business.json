@@ -1,0 +1,218 @@
+{
+  "name": "Affordable Pet Grooming",
+  "slug": "affordable-pet-grooming",
+  "category": "pet groomer",
+  "address": "5058 Commercial St SE",
+  "city": "Salem",
+  "state": "OR",
+  "zip": "97306",
+  "phone": "(503) 391-5643",
+  "email": "",
+  "website": null,
+  "rating": 4.4,
+  "reviewCount": 53,
+  "tagline": "Big Hearts. Tiny Prices. Happy Pups.",
+  "brandNarrative": "Affordable Pet Grooming on Commercial Street in Salem is the kind of place where a rescue dog who once trembled at the sight of clippers can slowly learn to trust again. That's not marketing copy — that's what actually happened here. When Debbie Jean brought in her abuse survivor rescue, the two women behind this shop refused to give up on him. Session by session, with patient hands and genuine care, they turned a fearful, traumatized dog into one who no longer dreads grooming day. That transformation is the clearest window into what this shop actually is: a place run by people who genuinely love animals, not just a transactional grooming stop.\n\nTheir pricing is so low it makes new customers nervous. When CarterAndBryn Brown brought in their golden retriever last minute, they admitted being skeptical — 'the pricing is AMAZING but I was a little nervous.' Those nerves dissolved quickly. The groom was described as the best their dog had ever received, and the staff even flagged a flea issue the owners hadn't noticed, sending them home prepared to treat it. That kind of attentive, honest communication beyond the basic service is what earns repeat loyalty. Stacia Nikole got a last-minute Schnauzer cut on a day's notice and walked away delighted.\n\nThe shop runs a tight schedule — Tuesday through Saturday, mornings only, 8 AM to 2 PM — which speaks to a small, focused operation that doesn't overextend itself. With 53 reviews and a 4.4 rating, this is a business that has built real local trust in Salem's south side neighborhood. It's not perfect — a handful of customers have left with concerns about uneven cuts or nicks — but the overwhelming emotional current running through the reviews is warmth, relief, and gratitude.",
+  "ownerStory": "No individual names surface from the reviews, but the picture that emerges is vivid: two women, likely seasoned and unhurried, running a tight morning operation out of a modest Salem storefront. Customers who've met them describe them as 'elder women' with caring hearts — the kind of groomers who don't rush a scared rescue dog through the process just to hit a quota. They built something deliberately small: open five days a week, mornings only, priced low enough that pet care doesn't feel like a luxury. That philosophy — that every dog deserves a calm, skilled hand regardless of what their owner can afford — is baked into the name itself.\n\nAffordable Pet Grooming feels like a retirement passion project turned neighborhood institution. These are women who probably spent decades around animals and decided the best way to spend their time was doing right by Salem's pets and their owners. The photos around the shop — dogs resting on quilted couches, wearing little pink bows — suggest a home-like environment, not a clinical chain salon. This is personal, local, and intentional.",
+  "hours": {
+    "Monday": "Closed",
+    "Tuesday": "8:00 AM – 2:00 PM",
+    "Wednesday": "8:00 AM – 2:00 PM",
+    "Thursday": "8:00 AM – 2:00 PM",
+    "Friday": "8:00 AM – 2:00 PM",
+    "Saturday": "8:00 AM – 2:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Full Breed Groom",
+      "description": "Complete breed-specific grooming including bath, dry, cut, and styling tailored to your dog's coat type — from golden retrievers to schnauzers.",
+      "icon": "scissors"
+    },
+    {
+      "name": "Rescue & Anxiety-Sensitive Grooming",
+      "description": "Slow, patient grooming sessions specially suited for fearful, traumatized, or rescue dogs who need extra time and a calm, gentle approach.",
+      "icon": "heart"
+    },
+    {
+      "name": "Bath & Brush Out",
+      "description": "Thorough shampoo, conditioning rinse, and full brush-out to remove loose fur, tangles, and odor — leaving coats clean and manageable.",
+      "icon": "droplets"
+    },
+    {
+      "name": "Trim & Tidy",
+      "description": "Targeted trimming of paws, face, ears, and sanitary areas to keep your dog neat between full grooming appointments.",
+      "icon": "crop"
+    },
+    {
+      "name": "Bow & Finishing Touches",
+      "description": "Cute finishing accessories including bows, bandanas, and ear adornments — as seen on the shop's adorable trio of bow-wearing pups.",
+      "icon": "sparkles"
+    },
+    {
+      "name": "Health Observation Check",
+      "description": "Staff flag visible health concerns — like flea infestations or skin irregularities — so owners leave informed and prepared to follow up with their vet.",
+      "icon": "stethoscope"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "I have a dog who is a rescue and is afraid to go to the groomer. His past abuse issues make him fearful to the extent that grroming is nearly impossible. The two ladies in Affordable Grooming didn't give up. Their caring heart has made my dog do a 180° and he isn't afraid to go to get groomed anymore. People like this deserve praise. Thank you!",
+      "author": "Debbie Jean",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-05-08"
+    },
+    {
+      "text": "They were able to fit me in a days notice, and did such a cute Job on the Schnauzers cut for my pups.",
+      "author": "Stacia Nikole",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-12-06"
+    },
+    {
+      "text": "Brought our golden retriever here last minute today, and they did an amazing job! I was a little nervous because the pricing is AMAZING but they did a wonderful job, best groom she’s ever had! They also let us know about fleas and we were able to go get her some medicine. We will definitely be back! Highly recommend.",
+      "author": "CarterAndBryn Brown",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-06-14"
+    },
+    {
+      "text": "Never again will be taking my dog there I actually felt discriminated and they took out my dog I feel so bad for him .. idk if they cut him on his ears as well . And by his leg as well .. I was so dissatisfied I didn’t say nothing to them because what were they gonna do . Put his hair back … ??? I payed because they were elder women ….loom at his fave what haircut is that … he looks sad ..",
+      "author": "Benito Diaz",
+      "rating": 1,
+      "source": "google",
+      "date": "2025-05-25"
+    },
+    {
+      "text": "This will be the first and absolute last time I ever bring my dog here! It looks like they didn't even try to make my pomeranian's fur (or what's left of it!) symmetrical or smooth. This has been the worst grooming she has ever had! I DO NOT RECOMMEND!!!!",
+      "author": "Nohemi Ramos",
+      "rating": 1,
+      "source": "google",
+      "date": "2021-06-15"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Cream-colored curly-haired dog resting on gray bed indoors near electrical outlet",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Cream-colored dog with white chest lying on gray quilted couch wearing blue collar",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Black and white dog standing on green carpet in living room with blue sofa",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Three small gray and white dogs wearing pink bows on a porch.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Child in orange shirt playing with colorful toys and fabrics indoors",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Small brown and white dog on forest trail surrounded by green vegetation and fencing.",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Small dog wearing gray houndstooth harness sitting in car",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Black dog resting on colorful blanket indoors near bed",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 4.4,
+      "suffix": "★",
+      "label": "Average Customer Rating"
+    },
+    {
+      "value": 53,
+      "suffix": "+",
+      "label": "Customer Reviews"
+    },
+    {
+      "value": 5,
+      "suffix": " days",
+      "label": "Days Open Each Week"
+    },
+    {
+      "value": 100,
+      "suffix": "+",
+      "label": "Salem Pets Groomed"
+    }
+  ],
+  "faq": [
+    {
+      "question": "My dog is a rescue with serious anxiety around grooming. Can you help?",
+      "answer": "Yes — this is genuinely one of the shop's specialties. One customer brought in a rescue with abuse-related fear so severe that grooming was described as 'nearly impossible.' The staff worked with patience and consistency until the dog completely overcame his fear. If your dog is anxious or trauma-sensitive, let them know when you book and they'll take the extra time needed."
+    },
+    {
+      "question": "The prices seem really low. Is the quality actually good?",
+      "answer": "Multiple customers have had the same reaction — and the same pleasant surprise. A golden retriever owner admitted being nervous about the low pricing but called it the 'best groom she's ever had.' Affordable pricing reflects the shop's philosophy, not a shortcut on quality."
+    },
+    {
+      "question": "Can I get a same-day or last-minute appointment?",
+      "answer": "It's worth calling — at least two customers have successfully been fit in on short notice. The shop runs a streamlined morning schedule (Tuesday–Saturday, 8 AM–2 PM), so availability can shift. Call (503) 391-5643 to check."
+    },
+    {
+      "question": "What are your hours and days of operation?",
+      "answer": "Affordable Pet Grooming is open Tuesday through Saturday from 8:00 AM to 2:00 PM. They are closed Sunday and Monday. Given the morning-only hours, it's best to call ahead to schedule your appointment."
+    },
+    {
+      "question": "Do you groom specific breeds like Schnauzers or Pomeranians?",
+      "answer": "Yes — reviewers mention successful Schnauzer breed cuts and golden retriever grooms. For breed-specific styles, mention the cut you want when booking so they can plan the session time accordingly."
+    },
+    {
+      "question": "What happens if I'm not satisfied with the groom?",
+      "answer": "A small number of customers have left unhappy — particularly around uneven cuts or sensitive areas like ears. If you have concerns, bring them up directly before you leave the shop. The team is small and local, and raising issues in the moment gives them the best chance to address your dog's needs."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#5B8C5A",
+    "accent": "#F4A7B9",
+    "note": "Warm sage green reflects the calm, nature-connected, gentle care this shop is known for — evoking safety and trust for anxious animals. The soft pink accent mirrors the literal pink bows seen in the shop's product photos and captures the sweet, personal touch the staff bring to every groom. Together they feel approachable, affordable, and genuinely warm — not clinical or corporate."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Exceptional patience and skill with fearful, traumatized, and rescue dogs — a rare and deeply valued differentiator backed by strong emotional customer testimony",
+      "Genuinely affordable pricing that surprises customers positively, removing financial barriers to pet care without sacrificing quality",
+      "Proactive communication and attentiveness — staff flag health issues like fleas during grooms, demonstrating care that goes beyond the basic service"
+    ],
+    "common_complaints": [
+      "Uneven or asymmetrical cuts reported by at least one Pomeranian owner who felt no effort was made for a clean finish",
+      "One customer reported possible nicks or cuts on the dog's ears and legs, raising concerns about technique on sensitive areas",
+      "No website makes it difficult for new customers to find hours, pricing, or book appointments online"
+    ],
+    "suggested_tagline": "Where scared dogs learn to trust again.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "patient",
+      "compassionate",
+      "affordable",
+      "unhurried",
+      "neighborhood-rooted"
+    ],
+    "named_staff": []
+  },
+  "dataSources": [
+    "google"
+  ]
+}

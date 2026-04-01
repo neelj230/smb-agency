@@ -1,0 +1,396 @@
+@import "tailwindcss";
+
+/* Scan shared packages for Tailwind classes */
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #1e64e6;
+  --brand-accent: #f6e304;
+  --brand-bg: #f0f4fa;
+  --brand-bg-alt: #d8e0ec;
+  --brand-text: #081d3a;
+  --brand-muted: #4e5c71;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: var(--brand-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+/* Marquee animation for carousels */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Smooth section transitions */
+section, [id] > div {
+  scroll-margin-top: 80px;
+}
+
+/* Focus-visible outlines for accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Inset border for editorial/gallery feel */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 12px;
+  z-index: 999;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  pointer-events: none;
+  border-radius: 2px;
+}
+
+/* Gradient transitions between sections */
+.section-gradient {
+  position: relative;
+}
+.section-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--brand-bg));
+  pointer-events: none;
+}
+
+/* Creative director extras */
+/* ── Cleaning Force LLC — custom styles ─────────────────────── */
+
+/* Brand token shortcuts */
+:root {
+  --cf-blue: #1e64e6;
+  --cf-yellow: #f6e304;
+  --cf-dark: #0d1117;
+  --cf-dark-2: #161c28;
+  --cf-light: #f5f7fc;
+  --cf-text: #1a1f2e;
+}
+
+/* ── Film grain overlay ──────────────────────────────────────── */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 180px 180px;
+  opacity: 0.025;
+  mix-blend-mode: overlay;
+}
+
+/* ── Dot pattern ─────────────────────────────────────────────── */
+.dot-pattern {
+  background-image: radial-gradient(circle, #c8d7f5 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* ── Dark section wrap ───────────────────────────────────────── */
+.cf-dark-wrap {
+  background: var(--cf-dark);
+  color: #fff;
+}
+
+.cf-faq-wrap {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* ── Section scaffolding ─────────────────────────────────────── */
+.cf-section-padded {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.cf-section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.cf-section-header--light .cf-section-title {
+  color: #fff;
+}
+
+.cf-section-title {
+  font-family: 'Carattere', cursive;
+  font-size: clamp(2.6rem, 5vw, 4.2rem);
+  font-weight: 400;
+  color: var(--cf-text);
+  line-height: 1.1;
+  margin: 0.25rem 0 0.75rem;
+}
+
+.cf-section-sub {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.05rem;
+  color: #5a6378;
+  max-width: 520px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* ── Overline label ──────────────────────────────────────────── */
+.cf-overline {
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--cf-blue);
+  background: rgba(30, 100, 230, 0.08);
+  padding: 0.3rem 0.85rem;
+  border-radius: 999px;
+}
+
+.cf-overline--yellow {
+  color: var(--cf-yellow);
+  background: rgba(246, 227, 4, 0.12);
+}
+
+/* ── Marquee strip ───────────────────────────────────────────── */
+.cf-marquee-wrapper {
+  background: var(--cf-blue);
+  overflow: hidden;
+  width: 100%;
+  padding: 0.65rem 0;
+  position: relative;
+  z-index: 10;
+}
+
+.cf-marquee-track {
+  display: flex;
+  gap: 0;
+  width: max-content;
+  animation: cf-scroll 28s linear infinite;
+}
+
+.cf-marquee-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 0 1.6rem;
+  white-space: nowrap;
+}
+
+.cf-marquee-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--cf-yellow);
+  flex-shrink: 0;
+}
+
+@keyframes cf-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* ── Trust badges ────────────────────────────────────────────── */
+.cf-trust-section {
+  background: var(--cf-light);
+  padding: 2rem 1rem;
+  border-bottom: 1px solid #e2e8f4;
+}
+
+.cf-trust-strip {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cf-trust-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  background: #fff;
+  border: 1.5px solid #e0e8f6;
+  border-radius: 999px;
+  padding: 0.5rem 1.25rem;
+  box-shadow: 0 2px 12px rgba(30, 100, 230, 0.06);
+  transition: box-shadow 0.25s, transform 0.25s;
+}
+
+.cf-trust-badge:hover {
+  box-shadow: 0 6px 24px rgba(30, 100, 230, 0.13);
+  transform: translateY(-2px);
+}
+
+.cf-trust-icon {
+  font-size: 1.15rem;
+  line-height: 1;
+}
+
+.cf-trust-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--cf-text);
+  white-space: nowrap;
+}
+
+/* ── Yellow accent bar ───────────────────────────────────────── */
+.cf-accent-bar-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 2.5rem 1rem;
+  background: #fff;
+}
+
+.cf-accent-bar {
+  width: min(480px, 80vw);
+  height: 3px;
+  background: linear-gradient(90deg, var(--cf-blue) 0%, var(--cf-yellow) 100%);
+  border-radius: 999px;
+}
+
+/* ── Pull quote section ──────────────────────────────────────── */
+.cf-pullquote-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 420px;
+}
+
+@media (max-width: 768px) {
+  .cf-pullquote-section {
+    grid-template-columns: 1fr;
+  }
+  .cf-pullquote-photo-col {
+    height: 260px;
+  }
+}
+
+.cf-pullquote-inner {
+  background: var(--cf-yellow);
+  padding: 4rem 3rem 4rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cf-pullquote-mark {
+  font-family: 'Carattere', cursive;
+  font-size: 8rem;
+  line-height: 0.6;
+  color: rgba(0, 0, 0, 0.18);
+  margin-bottom: 1rem;
+  user-select: none;
+}
+
+.cf-pullquote-text {
+  font-family: 'Carattere', cursive;
+  font-size: clamp(1.55rem, 2.4vw, 2.1rem);
+  line-height: 1.35;
+  color: var(--cf-text);
+  margin: 0 0 1.25rem;
+  font-weight: 400;
+}
+
+.cf-pullquote-attr {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.cf-pullquote-photo-col {
+  overflow: hidden;
+  position: relative;
+}
+
+.cf-pullquote-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.6s ease;
+}
+
+.cf-pullquote-photo-col:hover .cf-pullquote-photo {
+  transform: scale(1.04);
+}
+
+/* ── Framer Motion section transitions ───────────────────────── */
+section {
+  position: relative;
+}
+
+/* ── Hero overlay refinement ─────────────────────────────────── */
+/* Strengthen hero legibility */
+[data-variant="photo-bg"] .hero-overlay,
+.hero-photo-bg::before {
+  background: linear-gradient(
+    120deg,
+    rgba(13, 17, 23, 0.72) 0%,
+    rgba(30, 100, 230, 0.35) 100%
+  );
+}
+
+/* ── Dark section FAQ overrides ──────────────────────────────── */
+.cf-dark-wrap [data-component="faq"] button,
+.cf-dark-wrap .faq-question,
+.cf-dark-wrap details summary {
+  color: #e8edf7;
+}
+
+.cf-dark-wrap [data-component="faq"] [data-state="closed"],
+.cf-dark-wrap .faq-item {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+/* ── Responsive tweaks ───────────────────────────────────────── */
+@media (max-width: 640px) {
+  .cf-section-padded {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .cf-pullquote-inner {
+    padding: 2.5rem 1.75rem;
+  }
+
+  .cf-pullquote-mark {
+    font-size: 5rem;
+  }
+}
+
+/* ── Hover glow on service cards ─────────────────────────────── */
+[data-component="service-card"]:hover,
+.service-card:hover {
+  box-shadow: 0 12px 40px rgba(30, 100, 230, 0.15);
+  transform: translateY(-4px);
+}
+
+/* ── Smooth scrolling ────────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
+}

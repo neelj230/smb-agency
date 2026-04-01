@@ -1,0 +1,234 @@
+@import "tailwindcss";
+
+/* Scan shared packages for Tailwind classes */
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #00A64C;
+  --brand-accent: #0091a6;
+  --brand-bg: #ffffff;
+  --brand-bg-alt: #e5ede9;
+  --brand-text: #000000;
+  --brand-muted: #000000;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: var(--brand-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+/* Marquee animation for carousels */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Smooth section transitions */
+section, [id] > div {
+  scroll-margin-top: 80px;
+}
+
+/* Focus-visible outlines for accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Subtle dot pattern background */
+.dot-pattern {
+  background-image: radial-gradient(circle, var(--brand-muted) 0.5px, transparent 0.5px);
+  background-size: 24px 24px;
+}
+
+/* Gradient transitions between sections */
+.section-gradient {
+  position: relative;
+}
+.section-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--brand-bg));
+  pointer-events: none;
+}
+
+/* Creative director extras */
+/* ── Brand tokens ─────────────────────────────────────────────────── */
+:root {
+  --brand-primary: #00A64C;
+  --brand-accent: #0091a6;
+  --brand-text: #0f1f14;
+}
+
+/* ── Film-grain overlay — subtle warmth ───────────────────────────── */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
+  opacity: 0.025;
+  mix-blend-mode: hard-light;
+}
+
+/* ── Dot pattern background ────────────────────────────────────────── */
+.dot-pattern-bg {
+  background-color: #ffffff;
+  background-image: radial-gradient(circle, #00A64C22 1px, transparent 1px);
+  background-size: 22px 22px;
+}
+
+/* ── Tagline pill strip ─────────────────────────────────────────────── */
+.apg-tagline-strip {
+  background: var(--brand-primary);
+  overflow: hidden;
+  padding: 0.75rem 0;
+}
+
+.apg-tagline-inner {
+  display: flex;
+  gap: 1rem;
+  padding: 0 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.apg-tagline-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: rgba(255, 255, 255, 0.18);
+  color: #ffffff;
+  font-family: 'Figtree', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.35rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  white-space: nowrap;
+  transition: background 0.2s ease;
+}
+
+.apg-tagline-pill:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* ── Section padding utility ────────────────────────────────────────── */
+.apg-section-pad {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media (max-width: 768px) {
+  .apg-section-pad {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+}
+
+/* ── About band — green left accent bar ─────────────────────────────── */
+.apg-about-band {
+  position: relative;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.apg-about-accent-bar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 6px;
+  background: linear-gradient(180deg, var(--brand-primary) 0%, var(--brand-accent) 100%);
+  border-radius: 0 4px 4px 0;
+}
+
+/* ── FAQ band — soft teal tint ──────────────────────────────────────── */
+.apg-faq-band {
+  background: linear-gradient(135deg, #f0fbf5 0%, #e8f7fb 100%);
+}
+
+/* ── Glass card utility (optional use on overlays) ──────────────────── */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(14px) saturate(180%);
+  -webkit-backdrop-filter: blur(14px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-radius: 16px;
+}
+
+/* ── Hover scale on cards ───────────────────────────────────────────── */
+.hover-scale-card {
+  transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.28s ease;
+}
+.hover-scale-card:hover {
+  transform: scale(1.025) translateY(-4px);
+  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.12);
+}
+
+/* ── Dark section heading color override ────────────────────────────── */
+.bg-\[var\(--brand-text\)\] h2,
+.bg-\[var\(--brand-text\)\] h3 {
+  color: #ffffff;
+}
+
+.bg-\[var\(--brand-text\)\] p {
+  color: rgba(255, 255, 255, 0.78);
+}
+
+/* ── Smooth scroll ──────────────────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ── Figtree display font accents ───────────────────────────────────── */
+h1, h2, h3, h4 {
+  font-family: 'Figtree', sans-serif;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* ── Stats counter accent color in dark variant ─────────────────────── */
+.bg-\[var\(--brand-text\)\] [class*="stat"] span,
+.bg-\[var\(--brand-text\)\] [class*="value"] {
+  color: var(--brand-primary);
+}
+
+/* ── Picture-frame editorial border ────────────────────────────────── */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 10px;
+  pointer-events: none;
+  z-index: 9998;
+  border: 1px solid rgba(0, 166, 76, 0.07);
+  border-radius: 4px;
+}
+
+        :root {
+          --brand-primary: #00A64C;
+          --brand-accent: #0091a6;
+          --brand-text: #0f1f14;
+        }
+      

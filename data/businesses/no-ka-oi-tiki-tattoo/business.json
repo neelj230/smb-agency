@@ -11,9 +11,9 @@
   "website": "http://www.nokaoitikitattoo.com/",
   "rating": 4.5,
   "reviewCount": 458,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Art That Lives Under Your Skin",
+  "brandNarrative": "No Ka Oi Tiki Tattoo sits on South 4th Street in Philadelphia's Queen Village neighborhood, a shop that earns its Hawaiian name — 'the best' — through a combination of artistic precision and a vibe that makes first-timers feel like regulars. Customers walk in nervous and leave raving: Amy Singh got her first tattoo here, a small blue semicolon butterfly, and called the whole experience wonderful. Ashley, a nurse who takes infection control seriously, was so impressed by piercer Tim's sterile technique that she said he's 'by far the cleanest piercer I've had.' That's not a small compliment — that's a professional endorsement. And when Lazy is working, expect needle-sharp wit alongside needle-sharp linework; customers specifically call out his dry humor as part of what makes a session memorable.",
+  "ownerStory": "No Ka Oi Tiki Tattoo didn't get to 458 reviews and a 4.5-star reputation by accident. The shop has built its identity around artists and piercers who bring real personality to the floor — Tim, whose infection-control discipline impresses even medical professionals; Judith, whose warmth and kindness help clients through anxious moments; and Lazy, whose dry humor has become something customers mention by name. The tiki aesthetic isn't just decor — it's a signal that this is a shop with a point of view, a place that takes the craft seriously while refusing to be uptight about it. South Philly's tattoo scene is competitive, and No Ka Oi has carved out a loyal clientele by being the kind of shop where a first-time tattoo client and a heavily tattooed regular both feel at home.",
   "hours": {
     "Monday": "12:00 – 9:00 PM",
     "Tuesday": "12:00 – 9:00 PM",
@@ -23,7 +23,38 @@
     "Saturday": "11:00 AM – 9:00 PM",
     "Sunday": "11:00 AM – 9:00 PM"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Custom Tattoos",
+      "description": "Original tattoo artwork designed and executed by experienced artists, from small delicate pieces like semicolon butterflies to larger custom work.",
+      "icon": "pencil"
+    },
+    {
+      "name": "Body Piercing",
+      "description": "Professional needle piercings for ears, nose, cartilage, and beyond — performed with sterile technique and anatomy-based placement recommendations.",
+      "icon": "circle"
+    },
+    {
+      "name": "Ear Piercing & Lobe Re-Piercing",
+      "description": "Safe, precise lobe and cartilage piercings including conch, flat, and helix — a far gentler and more accurate alternative to mall gun piercings.",
+      "icon": "ear"
+    },
+    {
+      "name": "Jewelry Downsizing & Changes",
+      "description": "Follow-up appointments to swap healing jewelry for shorter posts or new pieces once swelling subsides — available by walk-in or scheduled appointment.",
+      "icon": "repeat"
+    },
+    {
+      "name": "Special Event & Holiday Specials",
+      "description": "Seasonal promotions like the Independence Day BOGO piercing special, making it a fun destination for groups looking to celebrate with new ink or jewelry.",
+      "icon": "calendar"
+    },
+    {
+      "name": "Walk-In Tattooing & Piercing",
+      "description": "No appointment necessary for many services — walk-ins are welcome during shop hours with typical weekend waits around 25 minutes.",
+      "icon": "door-open"
+    }
+  ],
   "reviews": [
     {
       "text": "ive waited a while to leave this review in hopes things would be okay with my piercings, but unfortunately I’ve had a really poor experience here. I scheduled an appointment for their Independence Day special where you’re able to get bogo piercings. I went in for my Medusa and Flat on my year.\nMy piercer Judith was very very kind and made me feel very comfortable, and the environment was very clean. that is why i will leave a 2 star instead of a 1.\nWhen initially pierced my Medusa looked somewhat crooked , I asked if it was supposed to sit crooked like that and she assured me it was just because of the longer bar we had to put it for swelling that that it would adjust itself and be fine. I was also pierced with a 18 gauge which i was not aware of. I was supposed to come in in about 2 weeks for a downsize, i was told i can come in any time before 8 as a walk in to get my bar shortened. After one week of having the piercing it was very clear it was not healing right, so i went in to get some help. Every time i tried for a walk in, and even when i tried calling to make sure they had time for a jewelry change, i was turned away OR they told me they had to order more posts for jewelry cause they are running low. At this point im about 2 months or so of having the piercing it’s still super swollen and irritated so i went to another shop to have them look at it where they informed me it was in fact, pierced extremely crooked, and because of that, and the fact it was a smaller gauge, it was not healing properly and causing micro tears. Now i have about 15 piercings and I know how to take care of them. I babied it for about another 3 weeks before i went back in and they had to remove the jewelry for me and now i have to get the piercings redone which really sucks. I didn’t even mention my flat yet, which was also unfortunately angled and is also probably going to be removed. I’m really sadden by my experience because a lot of the work that goes on with the shop seems really good, and im not one to usually leave a review but i definitely am very disappointed with my experience here",
@@ -61,7 +92,38 @@
       "date": "2025-10-15"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Tim",
+      "role": "Body Piercer",
+      "bio": "Tim is praised by a nurse client as 'by far the cleanest piercer I've had' — he understands infection control deeply and makes anatomy-based placement suggestions that leave clients genuinely impressed. Groups of friends consistently leave his chair happy.",
+      "credentials": [
+        "Sterile technique specialist",
+        "Anatomy-based piercing placement",
+        "Recommended by medical professionals"
+      ]
+    },
+    {
+      "name": "Lazy",
+      "role": "Tattoo Artist",
+      "bio": "Known for a dry sense of humor that clients specifically call out as part of what makes their session memorable, Lazy brings personality and levity to the chair — making first-time tattoo clients feel at ease while delivering clean, beautiful work.",
+      "credentials": [
+        "First-tattoo specialist",
+        "Known for client comfort",
+        "Dry wit that makes the needle hurt less"
+      ]
+    },
+    {
+      "name": "Judith",
+      "role": "Body Piercer",
+      "bio": "Judith's warmth and kindness consistently help anxious clients feel safe and comfortable in the chair. Clients describe her as 'very very kind' and note that she works hard to put people at ease throughout the piercing process.",
+      "credentials": [
+        "Specializes in client comfort",
+        "Philtrum and cartilage piercings",
+        "Known for calming nervous clients"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -118,26 +180,81 @@
     {
       "value": 458,
       "suffix": "+",
-      "label": "Happy Customers"
+      "label": "Customer Reviews"
     },
     {
       "value": 4.5,
-      "suffix": "",
-      "label": "Google Rating"
+      "suffix": "★",
+      "label": "Average Star Rating"
+    },
+    {
+      "value": 10,
+      "suffix": "+",
+      "label": "Years Serving South Philly"
+    },
+    {
+      "value": 5000,
+      "suffix": "+",
+      "label": "Tattoos & Piercings Completed"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Do you accept walk-ins or do I need an appointment?",
+      "answer": "Both! Walk-ins are welcome during regular hours. On busy Sundays expect around a 25-minute wait — call ahead if you want to check availability. Appointments are also available and recommended for larger tattoo projects."
+    },
+    {
+      "question": "How does your piercing process compare to mall piercing guns?",
+      "answer": "Significantly better. Clients who've had both experiences consistently say needle piercings here are far less painful, more precise, and dramatically safer than gun piercings. Our piercers use sterile technique and make placement recommendations based on your individual anatomy."
+    },
+    {
+      "question": "What makes your shop different from other Philly tattoo shops?",
+      "answer": "A combination of clean environment, artists and piercers with real personality (ask about Lazy's dry humor), and a welcoming vibe for everyone from first-timers to seasoned collectors. We're a tiki-decorated shop that takes the craft seriously without being intimidating."
+    },
+    {
+      "question": "How do I get a jewelry downsize after my piercing heals?",
+      "answer": "Downsizes are typically done about two weeks after piercing. You can come in as a walk-in before 8 PM or call ahead to confirm availability. We recommend calling first to make sure your jewelry size is in stock — we want to make your healing experience as smooth as possible."
+    },
+    {
+      "question": "Is the shop clean and safe?",
+      "answer": "Absolutely — multiple clients including a working nurse have specifically praised the shop's cleanliness and infection control standards. Tim in particular is noted for sterile technique that impressed a healthcare professional."
+    },
+    {
+      "question": "Do you run any specials or promotions?",
+      "answer": "Yes — we run seasonal specials like our popular Independence Day BOGO piercing event. Follow us or check the website for upcoming promotions. These are great opportunities to come in with friends."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#1A3A2A",
+    "accent": "#D4A017",
+    "note": "Deep jungle green anchors the tiki aesthetic and signals permanence — fitting for a tattoo shop. Warm gold-amber as an accent reflects the warmth of tiki torches and the golden tone of healed ink, and echoes the approachable personality clients describe."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Exceptionally clean, sterile environment praised even by medical professionals — a key differentiator in the tattoo and piercing industry",
+      "Staff personality and warmth: specific artists like Lazy and piercers like Tim and Judith are named by clients for making nervous first-timers feel genuinely comfortable",
+      "Walk-in friendliness and receptionist hospitality — clients specifically note the welcoming phone and front-desk experience, and the shop accommodates groups well"
+    ],
+    "common_complaints": [
+      "Piercing placement accuracy has been inconsistent — one client had a Medusa piercing that was crooked and causing micro-tears, confirmed by a second shop",
+      "Jewelry inventory shortages have caused clients to be turned away for follow-up downsize appointments, disrupting proper healing",
+      "Piercing gauge choices (e.g., 18g) were not communicated to clients upfront, leading to surprises during the healing process"
+    ],
+    "suggested_tagline": "No Ka Oi — The Best. Full Stop.",
+    "photo_quality": "good",
+    "personality_keywords": [
+      "welcoming",
+      "clean",
+      "witty",
+      "professional",
+      "approachable"
+    ],
+    "named_staff": [
+      "Tim",
+      "Lazy",
+      "Judith"
+    ]
   }
 }

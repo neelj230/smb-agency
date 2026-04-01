@@ -1,0 +1,331 @@
+@import "tailwindcss";
+
+/* Scan shared packages for Tailwind classes */
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #1e64e6;
+  --brand-accent: #f6e304;
+  --brand-bg: #f0f4fa;
+  --brand-bg-alt: #d8e0ec;
+  --brand-text: #081d3a;
+  --brand-muted: #4e5c71;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: var(--brand-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+/* Marquee animation for carousels */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Smooth section transitions */
+section, [id] > div {
+  scroll-margin-top: 80px;
+}
+
+/* Focus-visible outlines for accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Mix-blend-mode hover effect for cards */
+.card-hover {
+  position: relative;
+  overflow: hidden;
+}
+.card-hover::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--brand-primary);
+  mix-blend-mode: difference;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.card-hover:hover::after {
+  opacity: 1;
+}
+
+/* Gradient transitions between sections */
+.section-gradient {
+  position: relative;
+}
+.section-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--brand-bg));
+  pointer-events: none;
+}
+
+/* Creative director extras */
+/* ─── Lee's Automotive — Custom CSS ─────────────────────────────────────── */
+
+/* Brand tokens */
+:root {
+  --brand-primary: #1e64e6;
+  --brand-accent:  #f6e304;
+  --brand-text:    #0f172a;
+  --brand-muted:   #f1f5f9;
+}
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+/* Typography */
+h1, h2, h3, h4, .font-display {
+  font-family: 'Syne', sans-serif;
+}
+body, p, li, span, button, a {
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* ── Film-grain overlay ────────────────────────────────────────────────── */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 180px 180px;
+  opacity: 0.028;
+  mix-blend-mode: hard-light;
+}
+
+/* ── Marquee strip (below hero) ────────────────────────────────────────── */
+.lees-marquee-strip {
+  background-color: var(--brand-primary);
+  color: #fff;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 0.65rem 0;
+}
+
+.lees-marquee-track {
+  display: inline-flex;
+  animation: leesScroll 28s linear infinite;
+}
+
+.lees-marquee-item {
+  font-family: 'Syne', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0 1.5rem;
+  opacity: 0.88;
+}
+
+@keyframes leesScroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* ── Services section label ────────────────────────────────────────────── */
+.lees-section-services {
+  position: relative;
+}
+
+.lees-section-label {
+  display: none; /* hidden — heading inside component handles it */
+}
+
+/* ── About wrapper — relative for badge ───────────────────────────────── */
+.lees-about-wrapper {
+  position: relative;
+  overflow: visible;
+}
+
+/* ── Floating honest badge ─────────────────────────────────────────────── */
+.lees-honest-badge {
+  position: absolute;
+  top: 2.5rem;
+  right: clamp(1rem, 5vw, 8rem);
+  z-index: 10;
+  animation: leesFloatBadge 4s ease-in-out infinite;
+  pointer-events: none;
+}
+
+.lees-honest-badge-inner {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--brand-accent);
+  color: var(--brand-text);
+  font-family: 'Syne', sans-serif;
+  font-weight: 800;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.55rem 1.1rem 0.55rem 0.9rem;
+  border-radius: 999px;
+  box-shadow: 0 6px 28px rgba(246, 227, 4, 0.45);
+}
+
+.lees-honest-badge-star {
+  font-size: 1rem;
+  color: var(--brand-primary);
+}
+
+@keyframes leesFloatBadge {
+  0%, 100% { transform: translateY(0px) rotate(-2deg); }
+  50%       { transform: translateY(-8px) rotate(2deg); }
+}
+
+@media (max-width: 768px) {
+  .lees-honest-badge {
+    display: none;
+  }
+}
+
+/* ── Yellow band ────────────────────────────────────────────────────────── */
+.lees-yellow-band {
+  background-color: var(--brand-accent);
+  padding: 0.9rem 0;
+  overflow: hidden;
+}
+
+.lees-yellow-band-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.lees-yellow-band-text {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 0.82rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--brand-text);
+}
+
+.lees-yellow-band-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: var(--brand-primary);
+  flex-shrink: 0;
+}
+
+@media (max-width: 600px) {
+  .lees-yellow-band-dot {
+    display: none;
+  }
+  .lees-yellow-band-inner {
+    gap: 0.4rem 0.8rem;
+  }
+}
+
+/* ── Reviews section ─────────────────────────────────────────────────── */
+.lees-section-reviews {
+  background-color: var(--brand-text);
+}
+
+/* ── FAQ section ──────────────────────────────────────────────────────── */
+.lees-section-faq {
+  background-color: var(--brand-muted);
+}
+
+/* ── Dot pattern helper ──────────────────────────────────────────────── */
+.dot-pattern {
+  background-image: radial-gradient(circle, rgba(30, 100, 230, 0.12) 1.5px, transparent 1.5px);
+  background-size: 24px 24px;
+}
+
+/* ── Glass effect helper ─────────────────────────────────────────────── */
+.glass {
+  backdrop-filter: blur(14px) saturate(180%);
+  -webkit-backdrop-filter: blur(14px) saturate(180%);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+/* ── Hover-scale cards ───────────────────────────────────────────────── */
+.hover-scale-card {
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.25s ease;
+}
+.hover-scale-card:hover {
+  transform: scale(1.03) translateY(-3px);
+  box-shadow: 0 18px 48px rgba(30, 100, 230, 0.16);
+}
+
+/* ── Fade-up animation for below-fold sections ──────────────────────── */
+@keyframes leesFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(28px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.lees-fade-up {
+  animation: leesFadeUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+/* ── Accent underline for headings ──────────────────────────────────── */
+.lees-underline-accent {
+  position: relative;
+  display: inline-block;
+}
+.lees-underline-accent::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: var(--brand-accent);
+  border-radius: 2px;
+}
+
+/* ── Scrollbar styling ───────────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--brand-primary);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1450b8;
+}
+
+        :root {
+          --brand-primary: #1e64e6;
+          --brand-accent: #f6e304;
+          --brand-text: #0f172a;
+        }
+      

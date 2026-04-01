@@ -1,0 +1,332 @@
+@import "tailwindcss";
+
+/* Scan shared packages for Tailwind classes */
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #1C4A96;
+  --brand-accent: #3400b2;
+  --brand-bg: #ffffff;
+  --brand-bg-alt: #e6e9ec;
+  --brand-text: #000000;
+  --brand-muted: #000000;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: var(--brand-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+/* Marquee animation for carousels */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Smooth section transitions */
+section, [id] > div {
+  scroll-margin-top: 80px;
+}
+
+/* Focus-visible outlines for accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Inset border for editorial/gallery feel */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 12px;
+  z-index: 999;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  pointer-events: none;
+  border-radius: 2px;
+}
+
+/* Gradient transitions between sections */
+.section-gradient {
+  position: relative;
+}
+.section-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--brand-bg));
+  pointer-events: none;
+}
+
+/* Creative director extras */
+/* ─────────────────────────────────────────────
+   June The Barber — Custom CSS
+   ───────────────────────────────────────────── */
+
+/* Brand tokens */
+:root {
+  --june-blue: #1C4A96;
+  --june-violet: #3400b2;
+  --june-ink: #0d1117;
+  --june-cream: #f5f2ee;
+  --june-warm-white: #fafaf8;
+  --june-muted: #6b7280;
+}
+
+/* ── Root wrapper ── */
+.june-root {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--june-warm-white);
+  color: var(--june-ink);
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* ── Film grain overlay ── */
+.june-grain-overlay {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  opacity: 0.028;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 200px 200px;
+  mix-blend-mode: multiply;
+}
+
+/* ── Hero wrapper ── */
+.june-hero-wrapper {
+  position: relative;
+}
+
+/* ── Floating badge ── */
+.june-badge {
+  position: absolute;
+  bottom: 2.5rem;
+  right: 2rem;
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 999px;
+  padding: 0.5rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.1rem;
+  z-index: 20;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+}
+
+.june-badge-stars {
+  font-size: 0.85rem;
+  color: #fbbf24;
+  letter-spacing: 0.05em;
+  line-height: 1;
+}
+
+.june-badge-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.85);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* ── Marquee section ── */
+.june-marquee-section {
+  background-color: var(--june-blue);
+  overflow: hidden;
+  padding: 0.9rem 0;
+  position: relative;
+  z-index: 10;
+}
+
+.june-marquee-wrapper {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
+
+.june-marquee-track {
+  display: flex;
+  white-space: nowrap;
+  animation: june-scroll 28s linear infinite;
+  will-change: transform;
+}
+
+@keyframes june-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.june-marquee-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: 'Playfair Display', serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.88);
+  padding: 0 1.5rem;
+}
+
+.june-marquee-dot {
+  color: rgba(255, 255, 255, 0.35);
+  font-size: 1.1rem;
+}
+
+/* ── Dark section ── */
+.june-dark-section {
+  background-color: var(--june-ink);
+  color: #fff;
+  padding: 5rem 0;
+  position: relative;
+}
+
+.june-dark-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 20% 50%, rgba(52, 0, 178, 0.12) 0%, transparent 60%),
+              radial-gradient(ellipse at 80% 20%, rgba(28, 74, 150, 0.1) 0%, transparent 55%);
+  pointer-events: none;
+}
+
+.june-testimonials-dark {
+  padding: 5rem 0 6rem;
+}
+
+.june-contact-dark {
+  padding: 5rem 0;
+}
+
+/* ── Section label ── */
+.june-section-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  padding: 0 2rem;
+}
+
+.june-section-label-line {
+  flex: 1;
+  max-width: 80px;
+  height: 1px;
+  background: currentColor;
+  opacity: 0.18;
+}
+
+.june-section-label-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  opacity: 0.5;
+}
+
+/* ── About wrapper ── */
+.june-about-wrapper {
+  background-color: var(--june-cream);
+  padding: 5rem 0;
+}
+
+/* ── Services wrapper ── */
+.june-services-wrapper {
+  background-color: var(--june-warm-white);
+  padding: 5rem 0;
+  position: relative;
+}
+
+.june-services-wrapper::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 50% 0%, rgba(28, 74, 150, 0.04) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+/* ── Gallery wrapper ── */
+.june-gallery-wrapper {
+  background-color: var(--june-cream);
+  padding: 5rem 0;
+}
+
+/* ── FAQ wrapper ── */
+.june-faq-wrapper {
+  background-color: var(--june-warm-white);
+  padding: 5rem 0;
+}
+
+/* ── Dot pattern utility ── */
+.dot-pattern {
+  background-image: radial-gradient(rgba(28, 74, 150, 0.1) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* ── Smooth hover cards ── */
+.june-root [class*="card"],
+.june-root [class*="Card"] {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.june-root [class*="card"]:hover,
+.june-root [class*="Card"]:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 32px rgba(28, 74, 150, 0.12);
+}
+
+/* ── Responsive badge ── */
+@media (max-width: 640px) {
+  .june-badge {
+    bottom: 1.5rem;
+    right: 1rem;
+  }
+
+  .june-dark-section {
+    padding: 3.5rem 0;
+  }
+
+  .june-about-wrapper,
+  .june-services-wrapper,
+  .june-gallery-wrapper,
+  .june-faq-wrapper {
+    padding: 3.5rem 0;
+  }
+}
+
+/* ── Playfair Display for headings within components ── */
+.june-root h1,
+.june-root h2,
+.june-root h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+/* ── CTA button brand override ── */
+.june-root a[href*="booksy"] {
+  background-color: var(--june-blue) !important;
+}
+
+.june-root a[href*="booksy"]:hover {
+  background-color: var(--june-violet) !important;
+}

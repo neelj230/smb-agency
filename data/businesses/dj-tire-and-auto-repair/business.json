@@ -11,9 +11,9 @@
   "website": null,
   "rating": 4,
   "reviewCount": 74,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Straight talk, fair prices, fixed right.",
+  "brandNarrative": "DJ Tire and Auto Repair on Lancaster Ave isn't the flashiest shop in Philadelphia — and that's exactly the point. Customers come here because DJ tells it straight. When Debra was told by a national chain that she needed a brand-new tire, DJ looked at her bent rim, fixed what was actually broken, and sent her home $100 richer. That kind of honest diagnosis is rare, and regulars know it. Fatima put it plainly: 'Ladies, they will not rip you off.' In a world of upsells and unnecessary repairs, that's a statement worth its weight in lug nuts.\n\nThe shop runs seven days a week, 9 to 6, because car trouble doesn't respect the weekend. DJ has been known to leave the shop entirely to come fix a customer's tire on the side of the road — a detail that Aquarius Yancy still talks about years later. That's not a policy, that's character. The work itself is no-frills and professional: strut replacements that silence road noise, tire repairs that hold, rim work done right. Customers consistently note the speed and lack of waiting around.\n\nWith 74 reviews and a 4-star rating built on word-of-mouth and repeat visits, DJ Tire and Auto Repair has earned real loyalty in the West Philadelphia community. It's a neighborhood shop that competes not on marketing but on doing the job honestly, quickly, and at a price that doesn't sting. That's the whole formula — and it works.",
+  "ownerStory": "DJ is the kind of mechanic people name specifically when they recommend the shop — not 'those guys on Lancaster' but 'DJ.' He's upfront about what your car actually needs versus what someone else told you it needed, which has earned him customers who wouldn't think of going anywhere else. Aquarius Yancy broke down and DJ came out personally to fix the tire. That's not a service offering, that's who DJ is. He built a seven-days-a-week operation not because the hours look good on a listing, but because his customers need a shop that's there when life gets inconvenient.\n\nRunning a no-frills auto repair shop in West Philadelphia means competing against national chains with ad budgets and waiting rooms with TVs. DJ competes with transparency and follow-through. The repeat customers, the 'I only go to him' testimonials, and the women who feel safe bringing their cars in without getting taken advantage of — that's the reputation DJ has built one honest repair at a time.",
   "hours": {
     "Monday": "9:00 AM – 6:00 PM",
     "Tuesday": "9:00 AM – 6:00 PM",
@@ -23,7 +23,38 @@
     "Saturday": "9:00 AM – 6:00 PM",
     "Sunday": "9:00 AM – 6:00 PM"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Tire Repair & Replacement",
+      "description": "Patch, plug, or replace tires with honest diagnosis — no upselling you into a new tire when a repair will do.",
+      "icon": "circle"
+    },
+    {
+      "name": "Rim & Wheel Repair",
+      "description": "Fix bent or damaged rims to restore a proper seal and save you the cost of unnecessary tire replacement.",
+      "icon": "settings"
+    },
+    {
+      "name": "Strut & Suspension Repair",
+      "description": "Replace worn front or rear struts to eliminate road noise and restore smooth, stable handling.",
+      "icon": "car"
+    },
+    {
+      "name": "Roadside Assistance",
+      "description": "When you're stuck, DJ has been known to come out personally to get you back on the road.",
+      "icon": "map-pin"
+    },
+    {
+      "name": "Brake Service",
+      "description": "Inspection, pad replacement, and rotor work to keep your stopping power reliable and safe.",
+      "icon": "shield"
+    },
+    {
+      "name": "General Auto Repair",
+      "description": "Diagnostics and mechanical repairs handled professionally with upfront pricing and no surprise charges.",
+      "icon": "wrench"
+    }
+  ],
   "reviews": [
     {
       "text": "Polite, Fast, Great Prices.  I saved over $100.   I had a bent rim and supposedly I needed a new tire (as per  Mavis Tires).  I did not need a new tire.  I have been driving the car and monitoring the air pressure in the tire and all is well.  Below are before and after pictures (couldn't get pictures to download)",
@@ -61,7 +92,19 @@
       "date": "2024-09-17"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "DJ",
+      "role": "Owner & Lead Mechanic",
+      "bio": "DJ is the face, the hands, and the heart of the shop. Customers trust him because he tells them exactly what their car needs — nothing more, nothing less — and he's been known to leave the shop to help a stranded customer personally.",
+      "credentials": [
+        "Honest diagnostics",
+        "Roadside assistance",
+        "Community trusted",
+        "7-days available"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -111,28 +154,79 @@
   ],
   "stats": [
     {
-      "value": 74,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4,
+      "suffix": "★",
+      "label": "Average Customer Rating"
     },
     {
-      "value": 4,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 74,
+      "suffix": "+",
+      "label": "Customer Reviews"
+    },
+    {
+      "value": 7,
+      "suffix": " days",
+      "label": "Open Every Day of the Week"
+    },
+    {
+      "value": 100,
+      "suffix": "+",
+      "label": "Saved for One Customer vs. Chain Shop"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Will you try to sell me repairs I don't actually need?",
+      "answer": "No — and that's one of the most common things customers say about DJ. One customer was told by a national chain she needed a brand-new tire; DJ fixed her bent rim and she saved over $100. You get an honest assessment, every time."
+    },
+    {
+      "question": "Is this a good shop for women who are worried about being taken advantage of?",
+      "answer": "Absolutely. Multiple female customers have specifically called this out — Fatima wrote 'Ladies, they will not rip you off.' DJ's straight-talk approach means you'll know exactly what's wrong and what it costs before any work begins."
+    },
+    {
+      "question": "Are you open on weekends?",
+      "answer": "Yes — DJ Tire and Auto Repair is open seven days a week, Monday through Sunday, 9:00 AM to 6:00 PM. Car problems don't wait for Monday and neither do we."
+    },
+    {
+      "question": "How long will I have to wait when I come in?",
+      "answer": "Most customers report fast turnaround with little to no wait. Fatima noted she was taken in immediately with no wait for a two-front-strut replacement. That said, calling ahead at (215) 760-8576 is always a good idea."
+    },
+    {
+      "question": "Do you offer any kind of roadside help if I break down nearby?",
+      "answer": "DJ has personally gone out of his way to help stranded customers — it's not a formal subscription service, but it speaks to how he runs the shop. If you're in a bind, call the shop and ask."
+    },
+    {
+      "question": "What if I have a problem with the work after I leave?",
+      "answer": "If there's an issue, the right move is to call the shop directly at (215) 760-8576 and address it promptly. One review flagged a communication gap when a tire went flat shortly after purchase — reaching out quickly and in person gives you the best chance of a fast resolution."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#1A1A2E",
+    "accent": "#E63946",
+    "note": "Deep navy anchors the shop's no-nonsense, trustworthy character — this isn't a flashy chain, it's serious work done right. The bold red accent captures the urgency and energy of auto repair, plus the passion DJ brings to his community. Together they feel honest, tough, and local — not corporate."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Radical honesty — DJ diagnoses what's actually wrong and doesn't upsell, saving customers money vs. national chains",
+      "Personal, community-rooted service — DJ has physically gone out to help stranded customers, creating fierce loyalty",
+      "Fair, transparent pricing that's specifically called out as trustworthy by female customers who often feel targeted elsewhere"
+    ],
+    "common_complaints": [
+      "One incident of closing early without notice and not following through on a promise to come fix a flat tire — suggests occasional communication or reliability gaps"
+    ],
+    "suggested_tagline": "Your neighborhood mechanic, no nonsense included.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "Honest",
+      "Community-rooted",
+      "No-frills",
+      "Trustworthy",
+      "Responsive"
+    ],
+    "named_staff": [
+      "DJ"
+    ]
   }
 }

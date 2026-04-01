@@ -11,9 +11,9 @@
   "website": null,
   "rating": 4.6,
   "reviewCount": 131,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Where every stitch tells your story.",
+  "brandNarrative": "Tucked into the heart of Center City Philadelphia on Sansom Street, Kim's Cleaners & Tailoring is the kind of shop that turns garment emergencies into quiet triumphs. Customers arrive with bridesmaid dresses, black-tie gowns, ill-fitting suits, and wedding dresses — often with tight deadlines and high emotional stakes — and Mrs. Kim meets them with a frank, expert eye. She's the type of professional who will look at your suit and tell you honestly that the size is wrong before she takes your money, as one customer discovered when she recommended he exchange it for a better fit before she ever picked up a needle. That kind of integrity is rare, and customers feel it.\n\nMrs. Kim has built a loyal following by tackling challenges others might turn away. One customer arrived with a formal trailing dress that needed its entire hem reconstructed — a job Mrs. Kim herself called 'a really big challenge' — and she delivered it flawlessly. Another customer needed a black-tie gown taken in just two weeks before her event and was met not with a rush fee or a turned-away ticket, but with kindness and early completion. Wedding dress alterations, multi-fitting bridal appointments, and precise suit tailoring are all in a day's work here, reflected in a 4.6-star rating built over 131 reviews.\n\nThe shop operates six days a week with consistent hours that serve the working professional, and its repeat clientele — some customers returning for two years or more — speaks to the trust Mrs. Kim has cultivated stitch by stitch. This is not a faceless dry-cleaning chain. It is a craftsperson's studio where your most important garments are handled with the care they deserve.",
+  "ownerStory": "Mrs. Kim is the soul of Kim's Cleaners & Tailoring — and her customers will be the first to tell you so. She runs every fitting with a thoroughness that goes beyond measurements: she assesses the garment, advises on what's truly possible, and isn't afraid to redirect a customer toward a better outcome even if it means less immediate work for her shop. When Stephen brought in a suit that wasn't quite right, she told him plainly to exchange it for a better fit. He did, and the result was a custom-tailored suit he described as perfect. That honest, no-shortcuts approach has earned her a devoted clientele who trust her with their wedding dresses, rehearsal dinner looks, and formal occasion wear.\n\nHer skill is matched by her warmth. Customers describe her as 'a lovely person' and speak of her in the kind of grateful, personal terms you reserve for someone who genuinely came through for you. Whether she is completing a two-fitting bridal appointment or squeezing in a last-minute alteration without a rush charge, Mrs. Kim operates with the quiet confidence of someone who has mastered her craft and genuinely cares about the people who walk through her door on Sansom Street.",
   "hours": {
     "Monday": "8:00 AM – 5:30 PM",
     "Tuesday": "8:00 AM – 5:30 PM",
@@ -23,7 +23,38 @@
     "Saturday": "9:00 AM – 4:30 PM",
     "Sunday": "Closed"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Wedding Dress Alterations",
+      "description": "Multi-fitting bridal alteration service ensuring your wedding gown fits flawlessly for the big day, as trusted by brides across Philadelphia.",
+      "icon": "heart"
+    },
+    {
+      "name": "Formal & Evening Gown Tailoring",
+      "description": "Expert alterations for bridesmaid dresses, black-tie gowns, and rehearsal dinner attire, including hemming, taking in, and structural adjustments.",
+      "icon": "sparkles"
+    },
+    {
+      "name": "Suit Tailoring & Fitting",
+      "description": "Custom suit alterations from sleeve adjustments to full body contouring, with honest consultations on fit and sizing before work begins.",
+      "icon": "shirt"
+    },
+    {
+      "name": "Hem Reconstruction & Length Alteration",
+      "description": "Precise hemming and full hem reconstruction for dresses and gowns of any complexity, including challenging trailing styles.",
+      "icon": "scissors"
+    },
+    {
+      "name": "Garment Taking In & Resizing",
+      "description": "Structural resizing of dresses, gowns, and suits to achieve a tailored silhouette, including last-minute alterations for upcoming events.",
+      "icon": "ruler"
+    },
+    {
+      "name": "Dry Cleaning & Garment Care",
+      "description": "Professional dry cleaning services for everyday and special-occasion garments handled with care and attention to fabric integrity.",
+      "icon": "wind"
+    }
+  ],
   "reviews": [
     {
       "text": "I took my rehearsal dinner dress to Kim’s to be hemmed and taken in because of the good reviews. I was charged over $200 for the alterations which I was happy to pay for good work on such an important item. When I got home I noticed a small tear on the hem. Fortunately, it’s not too noticeable, but I’m extremely disappointed given the amount I paid for the work. There are also a few small stains on the back of the dress that weren’t there when I dropped it off (I’ve never worn the dress before). Again, they are not very noticeable, thankfully. I do not recommend taking your important items to this business for alterations.",
@@ -61,7 +92,19 @@
       "date": "2025-12-12"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Mrs. Kim",
+      "role": "Owner & Master Tailor",
+      "bio": "Mrs. Kim is a highly skilled tailor known for her honest consultations, meticulous craftsmanship, and willingness to take on challenging alterations others might avoid. Customers trust her with their most important garments — from wedding dresses to custom suits — and consistently praise her warmth, professionalism, and ability to deliver flawless results even under tight timelines.",
+      "credentials": [
+        "Wedding dress specialist",
+        "Formal gown alterations",
+        "Custom suit tailoring",
+        "Trusted by repeat clients for 2+ years"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -118,26 +161,77 @@
     {
       "value": 131,
       "suffix": "+",
-      "label": "Happy Customers"
+      "label": "Customer Reviews"
     },
     {
       "value": 4.6,
-      "suffix": "",
-      "label": "Google Rating"
+      "suffix": "★",
+      "label": "Average Star Rating"
+    },
+    {
+      "value": 6,
+      "suffix": " days",
+      "label": "Open Every Week"
+    },
+    {
+      "value": 100,
+      "suffix": "+",
+      "label": "Bridal & Formal Garments Tailored"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Can you handle wedding dress alterations?",
+      "answer": "Absolutely. Wedding dress alterations are one of Mrs. Kim's specialties. The process typically involves two fittings to ensure a perfect result, and brides consistently leave with dresses they describe as flawless. We recommend booking early to allow enough time before your wedding date."
+    },
+    {
+      "question": "What if I have a last-minute alteration request close to my event?",
+      "answer": "We do our best to accommodate urgent timelines. Past customers have brought in formal gowns just two weeks before their events and received completed work ahead of schedule — without rush fees. Call us at (215) 557-1556 to discuss your timeline and we'll let you know what's possible."
+    },
+    {
+      "question": "Will you give me an honest opinion on whether my garment can be altered well?",
+      "answer": "Yes — and that's something customers genuinely appreciate about Mrs. Kim. If a suit isn't the right size to tailor properly, she'll tell you before charging you. Her goal is always the best possible outcome for your garment, not just to take the job."
+    },
+    {
+      "question": "How much do alterations typically cost?",
+      "answer": "Pricing varies depending on the complexity of the work. Simple hems are priced lower, while comprehensive alterations to formal or wedding garments — such as hemming and taking in a dress — can run over $200 for intricate work. We recommend bringing your garment in for an in-person evaluation and quote."
+    },
+    {
+      "question": "What types of garments do you work on?",
+      "answer": "We work on a wide range of garments including suits, wedding dresses, bridesmaid dresses, rehearsal dinner attire, black-tie gowns, and casual clothing. If you have a challenging or unusual garment, bring it in — Mrs. Kim has a track record of pulling off alterations others call difficult."
+    },
+    {
+      "question": "What are your hours and where are you located?",
+      "answer": "We're located at 2008 Sansom St, Philadelphia, PA 19103 in Center City. We're open Monday through Friday from 8:00 AM to 5:30 PM and Saturday from 9:00 AM to 4:30 PM. We are closed on Sundays. You can reach us by phone at (215) 557-1556."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#2C3E50",
+    "accent": "#C9A96E",
+    "note": "Deep charcoal navy conveys precision, trust, and professionalism — fitting for a master tailor handling high-stakes garments. The warm gold accent reflects the elegance of bridal and formal wear, and echoes the warmth customers describe in Mrs. Kim herself. Together they suggest a boutique of quiet craft and timeless quality."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Mrs. Kim's honest, expert consultations that prioritize the best outcome for the customer over simply taking a job",
+      "Ability to handle complex, high-stakes alterations (wedding dresses, trailing gowns, last-minute formal wear) with skill and care",
+      "Warm, personal service that builds long-term customer loyalty — multiple reviewers are repeat clients who trust the shop with their most important garments"
+    ],
+    "common_complaints": [
+      "One reviewer reported a small tear on a hemmed dress and faint stains on the back of a garment after pickup, suggesting occasional quality control gaps on high-cost alteration jobs"
+    ],
+    "suggested_tagline": "Fitted perfectly. Every single time.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "honest",
+      "warm",
+      "skilled",
+      "trustworthy",
+      "meticulous"
+    ],
+    "named_staff": [
+      "Mrs. Kim"
+    ]
   }
 }

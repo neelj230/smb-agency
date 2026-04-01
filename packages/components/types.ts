@@ -37,7 +37,7 @@ export interface Review {
   text: string
   author: string
   rating: number
-  source: 'google' | 'yelp'
+  source: 'google' | 'yelp' | 'facebook'
   date?: string
 }
 

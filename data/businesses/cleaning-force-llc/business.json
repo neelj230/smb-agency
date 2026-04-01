@@ -11,9 +11,9 @@
   "website": "http://cleaningforceco.com/",
   "rating": 4.6,
   "reviewCount": 45,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Spotless Every Time. No Exceptions.",
+  "brandNarrative": "Cleaning Force LLC isn't just a cleaning company — it's the answer to the nagging feeling that your home deserves better. Based in Philadelphia, PA, they've built a reputation among type-A homeowners, busy professionals, and landlords who don't have time to settle for 'good enough.' Customers like Shannon Artis put it bluntly: 'BEST CLEANING COMPANY EVER' — and she's the kind of person who notices when something isn't right. When your toughest critics become your loudest fans, you're doing something right.\n\nWhat separates Cleaning Force from the competition isn't just a mop and a checklist — it's the details no one asked for. During a move-out clean for Nateile Justice, the team went ahead and cleaned the basement without being asked, leaving the property so immaculate she walked away confident she'd get her full security deposit back. Joseph Bove booked them on less than 48 hours notice and watched them restore a stove and fridge to better-than-move-in condition. Zenia Pearson-Mixson had used another cleaning company for over a year before switching — and hasn't looked back since. That kind of loyalty isn't bought; it's earned one spotless room at a time.\n\nAvailable 24 hours a day, seven days a week, Cleaning Force operates on the simple belief that a clean home shouldn't be a luxury or a logistical headache. Their online booking is fast, their communication is proactive, and their crews arrive on time and fully equipped. Whether it's a recurring home clean, a move-out deep clean, or a last-minute rescue job, they show up ready — and they leave every space smelling amazing.",
+  "ownerStory": "Cleaning Force LLC was built on a frustration most people share but few do anything about: the experience of hiring a cleaning service and still feeling like something was missed. The founders of Cleaning Force set out to build a company where attention to detail wasn't a selling point — it was the baseline. Operating out of Philadelphia's 19151 corridor, they created a team culture where going beyond the scope of work is the norm, not the exception. That ethos shows up in every review — in the basement that got cleaned without being asked, in the fridge that looked better than when a tenant first moved in, in the house that smells amazing every single time.\n\nWhat the business has become is a reflection of that founding philosophy: reliable enough to book in under 48 hours, thorough enough to satisfy the most particular homeowners, and consistent enough that customers abandon their previous cleaning services to switch. With a 4.6-star rating across dozens of real customer experiences, Cleaning Force has earned its reputation not through marketing language, but through the kind of work that makes people pick up the phone and tell their friends.",
   "hours": {
     "Monday": "Open 24 hours",
     "Tuesday": "Open 24 hours",
@@ -23,7 +23,38 @@
     "Saturday": "Open 24 hours",
     "Sunday": "Open 24 hours"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Deep Cleaning",
+      "description": "A comprehensive top-to-bottom clean covering every room, appliance, corner, and surface — perfect for first-time clients or homes that need a serious reset.",
+      "icon": "sparkles"
+    },
+    {
+      "name": "Move-Out Cleaning",
+      "description": "Detailed move-out cleans designed to leave rental properties spotless, help tenants recover security deposits, and prepare homes for the next occupant.",
+      "icon": "door-open"
+    },
+    {
+      "name": "Recurring Home Cleaning",
+      "description": "Scheduled weekly, bi-weekly, or monthly cleans that keep your home consistently spotless so you never have to think about it.",
+      "icon": "calendar-check"
+    },
+    {
+      "name": "Appliance & Kitchen Cleaning",
+      "description": "Focused cleaning of stovetops, ovens, refrigerators, and kitchen surfaces — restored to better-than-new condition using professional-grade supplies.",
+      "icon": "utensils"
+    },
+    {
+      "name": "Move-In Cleaning",
+      "description": "Thorough pre-move-in cleans that ensure your new space is sanitized, fresh, and truly ready for you to call home from day one.",
+      "icon": "home"
+    },
+    {
+      "name": "Last-Minute & Emergency Cleaning",
+      "description": "Rapid-response cleaning bookable with less than 48 hours notice — available 24/7 for situations that can't wait.",
+      "icon": "zap"
+    }
+  ],
   "reviews": [
     {
       "text": "BEST CLEANING COMPANY EVER! I can’t rave enough about this company. From the professionalism, to the very detailed services. Being a type A person, I am very particular about my home and how it’s cleaned, Cleaning Force never disappoints. My house is spotless and smells amazing each and every time they come.. I am beyond impressed and pleased with this company.",
@@ -116,28 +147,77 @@
   ],
   "stats": [
     {
-      "value": 45,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.6,
+      "suffix": "★",
+      "label": "Average Customer Rating"
     },
     {
-      "value": 4.6,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 45,
+      "suffix": "+",
+      "label": "Verified Customer Reviews"
+    },
+    {
+      "value": 24,
+      "suffix": "/7",
+      "label": "Hours Available, Every Day"
+    },
+    {
+      "value": 48,
+      "suffix": "hr",
+      "label": "Fast Booking Turnaround"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "How quickly can you schedule a cleaning?",
+      "answer": "Cleaning Force can accommodate bookings with less than 48 hours notice. Their online booking system is fast and straightforward, and a team member will follow up quickly to confirm your appointment and maintain communication leading up to the clean."
+    },
+    {
+      "question": "What makes Cleaning Force different from other cleaning companies?",
+      "answer": "Customers consistently highlight three things: attention to detail that goes beyond what's asked (including areas like basements that weren't even specified), punctual and fully-equipped crews, and results that leave homes looking and smelling noticeably better than before. Multiple customers have switched from other services and say they won't go back."
+    },
+    {
+      "question": "Do you offer a satisfaction guarantee?",
+      "answer": "Yes. Cleaning Force offers a customer satisfaction guarantee, giving clients peace of mind that their space will be cleaned to a high standard. If something isn't right, they make it right."
+    },
+    {
+      "question": "What does your move-out cleaning include?",
+      "answer": "Move-out cleans cover all rooms including kitchens, bathrooms, living spaces, appliances (inside and out), floors, carpets, and often areas like basements — even without being specifically asked. The goal is to leave the property in the best possible condition for the next occupant and help tenants recover their full security deposit."
+    },
+    {
+      "question": "Do your cleaners bring their own supplies and equipment?",
+      "answer": "Yes. The Cleaning Force team arrives fully prepared with all necessary equipment and cleaning supplies. You don't need to provide anything — just access to your space."
+    },
+    {
+      "question": "Are you available on weekends and after hours?",
+      "answer": "Yes. Cleaning Force is open 24 hours a day, 7 days a week, including weekends and holidays. Whether you need an early morning clean, an evening appointment, or an emergency same-day service, they're available to accommodate your schedule."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#1B4FD8",
+    "accent": "#38D9A9",
+    "note": "Deep professional blue conveys trust, reliability, and the kind of systematic thoroughness customers rave about — grounded and dependable. The fresh teal accent reflects cleanliness, freshness, and the 'amazing smell' customers mention repeatedly. Together they feel modern and credible without being cold or clinical."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Exceptional attention to detail — crews routinely clean areas beyond the scope requested, like basements and appliance interiors, without being asked",
+      "Highly reliable logistics — on-time arrivals, fast booking (under 48 hours), proactive communication, and 24/7 availability build strong customer confidence",
+      "Consistent results that retain and convert customers — multiple reviewers explicitly switched from prior cleaning services and report Cleaning Force as a clear upgrade"
+    ],
+    "common_complaints": [
+      "None found in available reviews — all 5 sampled reviews are 5-star with no negative feedback noted"
+    ],
+    "suggested_tagline": "We Clean What Others Miss.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "thorough",
+      "reliable",
+      "detail-obsessed",
+      "responsive",
+      "professional"
+    ],
+    "named_staff": []
   }
 }

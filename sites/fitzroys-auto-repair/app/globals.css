@@ -1,0 +1,194 @@
+@import "tailwindcss";
+
+/* Scan shared packages for Tailwind classes */
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #156cc2;
+  --brand-accent: #0ea158;
+  --brand-bg: #f4f1ee;
+  --brand-bg-alt: #dcddde;
+  --brand-text: #1a1a1a;
+  --brand-muted: #1a1a1a;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: var(--brand-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+/* Marquee animation for carousels */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Smooth section transitions */
+section, [id] > div {
+  scroll-margin-top: 80px;
+}
+
+/* Focus-visible outlines for accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Inset border for editorial/gallery feel */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 12px;
+  z-index: 999;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  pointer-events: none;
+  border-radius: 2px;
+}
+
+/* Gradient transitions between sections */
+.section-gradient {
+  position: relative;
+}
+.section-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--brand-bg));
+  pointer-events: none;
+}
+
+/* Creative director extras */
+/* ─── Fitzroy's Auto Repair — extra CSS ─────────────────────────── */
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap');
+
+/* Brand tokens */
+:root {
+  --brand-primary: #156cc2;
+  --brand-accent: #0ea158;
+  --brand-text: #0d1a2e;
+}
+
+/* Typography defaults */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Figtree', sans-serif;
+}
+
+/* ── Trust strip scroll animation ────────────────────────────────── */
+.fitzroy-trust-strip {
+  position: relative;
+}
+
+.fitzroy-trust-inner {
+  display: flex;
+  animation: fitzroy-scroll 30s linear infinite;
+  width: max-content;
+}
+
+.fitzroy-trust-strip:hover .fitzroy-trust-inner {
+  animation-play-state: paused;
+}
+
+@keyframes fitzroy-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* ── Dot pattern background ──────────────────────────────────────── */
+.dot-pattern {
+  background-image: radial-gradient(circle, #156cc220 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* ── Glass card utility ───────────────────────────────────────────── */
+.glass {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+/* ── Film grain overlay ──────────────────────────────────────────── */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 128px 128px;
+  mix-blend-mode: overlay;
+  opacity: 0.025;
+}
+
+/* ── Section gradient dividers ───────────────────────────────────── */
+.section-gradient {
+  position: relative;
+}
+.section-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background: linear-gradient(to bottom, transparent, rgba(255,255,255,0.6));
+  pointer-events: none;
+}
+
+/* ── Hover scale for cards ────────────────────────────────────────── */
+.hover-scale {
+  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.25s ease;
+}
+.hover-scale:hover {
+  transform: scale(1.025);
+  box-shadow: 0 16px 40px rgba(21, 108, 194, 0.15);
+}
+
+/* ── Picture frame editorial border ─────────────────────────────── */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 10px;
+  border: 1px solid rgba(21, 108, 194, 0.05);
+  pointer-events: none;
+  z-index: 9998;
+  border-radius: 4px;
+}
+
+/* ── Scroll smooth ───────────────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ── Custom selection color ──────────────────────────────────────── */
+::selection {
+  background: #156cc233;
+  color: #0d1a2e;
+}
+
+        :root {
+          --brand-primary: ${BRAND};
+          --brand-accent: ${ACCENT};
+          --brand-text: #0d1a2e;
+        }
+      

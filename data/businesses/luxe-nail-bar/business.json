@@ -11,9 +11,9 @@
   "website": null,
   "rating": 3.7,
   "reviewCount": 348,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Fresh Set, Fair Price, Walk In.",
+  "brandNarrative": "Luxe Nail Bar on 212 S 40th Street sits at the heart of West Philadelphia's University City neighborhood, and it shows in the clientele — students, locals, and regulars who return month after month for a gel manicure that doesn't break the bank. Techs like Richard and Kevin have earned loyal fans for their friendly chair-side manner and their commitment to making sure you leave happy. Alysha, a monthly regular, notes she's seated within five to ten minutes of walking in, pays $35–$50 for clean, polished results, and calls the experience 'brand new' every time. For the budget-conscious nail lover who wants fast, friendly, and consistent, Luxe delivers a dependable ritual.\n\nThe salon has built a word-of-mouth following among students who appreciate honest pricing — a rarity in a category where costs can spiral fast. Keerthana calls it 'literally the best experience ever' and praises the artists for working closely with inspiration pictures to get as close as possible to what you envision. That collaborative, accommodating energy is real, and it's what keeps a sizable chunk of the 348 reviewers coming back. Thursday and Friday hours extend to 8 PM, making it one of the few local spots accessible after a full class or work day.\n\nLike many independent salons, Luxe Nail Bar carries a mixed record — and the honest version of this business includes that tension. Some clients have reported inconsistency in nail shape, color matching, and application technique, and a handful of hygiene concerns have been raised in reviews. The 3.7 rating reflects a salon with real highs and real room to grow. The best version of a visit here is fast, affordable, and genuinely satisfying — and many customers find exactly that.",
+  "ownerStory": "Luxe Nail Bar grew out of a simple idea: that professional nail care in University City shouldn't require a luxury price tag or a week-long wait. The team — anchored by techs like Richard and Kevin, who have become recognizable names in the reviews — built something that students and neighborhood residents could call their own standing appointment. The name 'Luxe' isn't ironic; it's aspirational. The goal was always to make people feel like they got something premium even when the price says otherwise.\n\nThe salon's character is shaped as much by its regulars as by its staff. It's the kind of place where a monthly gel manicure becomes a rhythm, where the tech remembers you like your nails clean and short, and where the extended Thursday and Friday hours signal that the people running this place understand their community's schedule. There's work still to be done — consistency across every chair, and tightening up the details that separate a good visit from a great one — but the foundation of warmth, speed, and fair pricing is genuinely there.",
   "hours": {
     "Monday": "10:00 AM – 7:00 PM",
     "Tuesday": "10:00 AM – 7:00 PM",
@@ -23,7 +23,38 @@
     "Saturday": "10:00 AM – 6:00 PM",
     "Sunday": "Closed"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Gel Manicure",
+      "description": "Long-lasting gel color applied over your natural nails for a clean, glossy finish starting at $35.",
+      "icon": "sparkles"
+    },
+    {
+      "name": "Gel-X Full Set",
+      "description": "Soft gel nail extensions applied over tips for added length and strength without acrylic.",
+      "icon": "wand-2"
+    },
+    {
+      "name": "Classic Manicure",
+      "description": "Traditional manicure with shaping, cuticle care, and your choice of polish color.",
+      "icon": "hand"
+    },
+    {
+      "name": "Nail Art & Custom Designs",
+      "description": "Custom nail art created to match your inspiration photo, from minimalist accents to detailed looks.",
+      "icon": "paintbrush"
+    },
+    {
+      "name": "Pedicure",
+      "description": "Relaxing foot soak, exfoliation, and polish in a full pedicure service.",
+      "icon": "footprints"
+    },
+    {
+      "name": "Nail Repair",
+      "description": "Single nail repair or fill service to fix breaks and maintain your existing set.",
+      "icon": "wrench"
+    }
+  ],
   "reviews": [
     {
       "text": "Let me start off by saying I hate leaving negative reviews but I am very disappointed with the results. I have been getting gel x nails (not here) for 4 years and they always last 3-6 weeks. I decided to try this place since I recently moved and the prices looked fair. After one week of having these nails my nail completely cracked in half. THIS HAS NEVER HAPPENED TO ME EVEN WITH EXTREMELY GROWN OUT NAILS. I am very careful with my nails and they are healthy. During my service the nail tech also removed my old gel x set by ripping them off with plyers and a nail- she did not soak them just rubbed some alcohol on and started ripping. I also witnessed her pour the used alcohol back into the bottle- an extremely unhygienic practice. It also appeared like them did not sanitize tools in-between uses on clients. I was going to ignore it and just not return since my set turned out okay. But since my nail completely broke off after one week and $80, I had to let people know. I’m very frustrated and do not recommend going here!",
@@ -61,7 +92,26 @@
       "date": "2026-02-07"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Richard",
+      "role": "Nail Technician",
+      "bio": "Richard is a customer favorite praised for friendly, attentive service and consistently clean gel manicure results. Regulars specifically request him by name.",
+      "credentials": [
+        "Gel Manicure Specialist",
+        "Customer Favorite"
+      ]
+    },
+    {
+      "name": "Kevin",
+      "role": "Nail Technician",
+      "bio": "Kevin is known for his approachable manner and precise application, earning repeat clients who trust him with their monthly nail appointments.",
+      "credentials": [
+        "Gel Manicure Specialist",
+        "Repeat Client Favorite"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -118,26 +168,81 @@
     {
       "value": 348,
       "suffix": "+",
-      "label": "Happy Customers"
+      "label": "Customer Reviews"
     },
     {
       "value": 3.7,
-      "suffix": "",
-      "label": "Google Rating"
+      "suffix": "★",
+      "label": "Average Rating"
+    },
+    {
+      "value": 6,
+      "suffix": " days",
+      "label": "Open Per Week"
+    },
+    {
+      "value": 35,
+      "suffix": "+",
+      "label": "Gel Manicure Starting Price"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "How long will I wait before being seen?",
+      "answer": "Most walk-in customers report being seated within 5–10 minutes of arriving, making Luxe Nail Bar one of the faster turnaround salons in the University City area."
+    },
+    {
+      "question": "What are the prices for a gel manicure?",
+      "answer": "Gel manicures start at around $35 for a single color and run up to $50 or more for custom or detailed looks — pricing that reviewers consistently call fair and student-friendly."
+    },
+    {
+      "question": "Can I bring an inspiration picture for nail art?",
+      "answer": "Yes — the team actively works with inspiration photos and will try to match your look as closely as possible, including color and shape preferences."
+    },
+    {
+      "question": "Are there specific nail techs I should request?",
+      "answer": "Richard and Kevin are both named by satisfied customers for their quality work and friendly approach. If you have a preference, you can ask for them when you arrive."
+    },
+    {
+      "question": "What should I know about hygiene and tool sanitation?",
+      "answer": "Some past reviewers have raised concerns about sanitation practices. It's always reasonable to ask your tech about tool sterilization before your service begins."
+    },
+    {
+      "question": "Is the salon open late or on weekends?",
+      "answer": "Yes — Luxe Nail Bar is open until 8 PM on Thursdays and Fridays, and until 6 PM on Saturdays. The salon is closed on Sundays."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#1C1C2E",
+    "accent": "#C9A96E",
+    "note": "Deep navy conveys the 'Luxe' premium positioning the brand aspires to, while warm champagne gold echoes polish, glamour, and the accessible luxury the salon tries to deliver at student-friendly prices."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Fast walk-in service with minimal wait times (5–10 minutes reported by regulars)",
+      "Competitive, student-friendly pricing ($35–$50 for gel manicures) in a high foot-traffic university neighborhood",
+      "Friendly, personable nail techs (Richard and Kevin specifically praised by name for great results and warm demeanor)"
+    ],
+    "common_complaints": [
+      "Inconsistent nail shaping and color matching — some clients received shapes and colors they did not request",
+      "Concerns about hygiene and sanitation practices, including tool reuse and improper product handling",
+      "Poor application durability — at least one client reported a gel-x nail cracking in half after only one week",
+      "Inadequate response when clients asked for corrections — staff reportedly dismissed concerns rather than fixing issues"
+    ],
+    "suggested_tagline": "Your Monthly Refresh, Without the Markup.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "accessible",
+      "fast-paced",
+      "neighborhood staple",
+      "student-friendly",
+      "inconsistent"
+    ],
+    "named_staff": [
+      "Richard",
+      "Kevin"
+    ]
   }
 }

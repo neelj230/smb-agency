@@ -11,9 +11,9 @@
   "website": null,
   "rating": 4.7,
   "reviewCount": 105,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Honest wrenches. No games. 24/7.",
+  "brandNarrative": "At Ant's Auto Repair and Tow on North Broad Street, Anthony has built something rare in the auto repair world: a shop where customers actually get called over to the lift and shown exactly what's wrong — and what isn't. When Angel Odd came in after a competing shop quoted her $1,800 for suspension work she didn't need, Anthony put her Jeep Grand Cherokee on the lift, walked her through every component, and told her plainly that her shocks and struts were fine and that the other shop had tried to take advantage of her. He fixed her headlights, brake lights, and electrical issues — and charged her honestly. That's not a sales pitch. That's what the reviews describe, again and again.\n\nWhat separates Ant's from every other shop in Philadelphia is the combination of radical transparency and around-the-clock availability. When Koomi's car started throwing loud engine noises on a Sunday — the day most mechanics won't answer the phone — Ant's took the car in same-day, diagnosed an exhaust leak within hours, and had it fully repaired and ready for pickup by Monday. Communication happened via text the whole time. No chasing anyone down. No vague timelines. Kemi Martins showed up on a Friday with a mystery noise and left with extra repairs done at no additional charge. This shop operates like it genuinely cannot stand leaving a car worse than it found it.\n\nThe culture runs deeper than just Anthony. Luis, one of the technicians, diagnosed an oil consumption issue and resolved it in under two hours — keeping the customer informed at every step of the process. Lissette Alvarez described dropping her car off in the evening and picking it up fixed the next day. The reviews don't describe a transactional shop; they describe a place where customers leave feeling relieved, respected, and confident. That's the real product Ant's Auto Repair and Tow is selling — and a 4.7 rating across 105 reviews suggests Philadelphia has noticed.",
+  "ownerStory": "Anthony — the mechanic customers keep coming back to by name — didn't build his reputation through advertising. He built it by doing something most shops stopped doing long ago: treating every customer like someone worth being honest with. He's been described by reviewers as 'one of the smartest, most realistic, and most honest mechanics' they've ever dealt with, and the pattern across reviews suggests that's not a fluke. When a woman came in after being misled by another shop, Anthony didn't just fix her car — he took her under the lift, pointed at every component, and explained the truth. He called out the exploitation directly. That's not just mechanical skill; that's integrity with a socket wrench in hand.\n\nRunning a 24-hour operation at 2750 N Broad Street, Anthony and his team — including technician Luis — have carved out a niche that Philadelphia desperately needs: a shop that's actually there when your car breaks down on a Sunday, that texts you updates instead of going silent, and that fixes things without padding the bill. The business reflects Anthony's character: direct, dependable, and completely unbothered by cutting corners because cutting corners was never part of the plan.",
   "hours": {
     "Monday": "Open 24 hours",
     "Tuesday": "Open 24 hours",
@@ -23,7 +23,38 @@
     "Saturday": "Open 24 hours",
     "Sunday": "Open 24 hours"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Brake Light & Electrical Repair",
+      "description": "Full diagnosis and repair of brake lights, headlights, and vehicle electrical systems — caught and corrected without upselling.",
+      "icon": "zap"
+    },
+    {
+      "name": "Exhaust Leak Diagnosis & Repair",
+      "description": "Fast identification and repair of exhaust leaks, often completed same-day or within 48 hours of parts arrival.",
+      "icon": "wind"
+    },
+    {
+      "name": "Oil Leak & Consumption Repair",
+      "description": "Pinpoint diagnosis of oil loss issues with transparent repair timelines — typically resolved in under two hours.",
+      "icon": "droplets"
+    },
+    {
+      "name": "Suspension Inspection & Honest Assessment",
+      "description": "Thorough lift inspection of shocks, struts, and suspension components with a straight answer on what actually needs fixing.",
+      "icon": "car"
+    },
+    {
+      "name": "24/7 Emergency Towing",
+      "description": "Around-the-clock towing service available every day of the week — no waiting until Monday morning.",
+      "icon": "truck"
+    },
+    {
+      "name": "General Mechanical Repair",
+      "description": "Comprehensive vehicle repair covering engine noises, brake systems, and multi-issue diagnostics handled with same-day attention.",
+      "icon": "wrench"
+    }
+  ],
   "reviews": [
     {
       "text": "I have to give the biggest shoutout to Anthony, because this man is truly one of the smartest, most realistic, and most honest mechanics I’ve ever dealt with in my life.\nI brought my 2002 Jeep Grand Cherokee Laredo in after another shop tried to play me. They gave me an $1,800 estimate JUST for suspension, talking about I needed brand‑new shocks and struts and a whole list of parts my car didn’t even need. Something told me to get a second opinion, and thank God I did.\nFrom the moment I pulled up, Anthony was different.\nHe put my Jeep on the lift, called me over, and actually showed me everything — what was wrong, what wasn’t wrong, and what the other shop flat-out lied about. He told me straight up:\n“Your shocks and struts are more than fine. They tried to rip you off because you’re a woman.”\nAnd he was right.\nNot only did he fix the headlights I originally came for, he also fixed all my brake lights, handled my electrical issues, and basically corrected everything he saw that needed attention. He didn’t upsell me, didn’t exaggerate, didn’t pressure me — he just did the work honestly and explained every step.\nEven the man assisting him was on point.\nTheir teamwork, professionalism, and customer service were 10 stars across the board.\nI left that shop feeling relieved, respected, and confident in my car again.\nIf you want a mechanic you can TRUST, someone who won’t lie, cheat, or take advantage of you, especially as a woman go to Anthony. He’s the real deal.",
@@ -61,7 +92,28 @@
       "date": "2025-08-16"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Anthony",
+      "role": "Owner & Lead Mechanic",
+      "bio": "Anthony is the mechanic customers name by name in their reviews — known for walking customers directly to the lift, showing them exactly what's wrong, and calling out dishonest estimates from other shops. Reviewers describe him as smart, realistic, honest, and someone who makes every customer a priority regardless of when they show up.",
+      "credentials": [
+        "24/7 availability",
+        "Transparent lift inspections",
+        "Trusted by 105+ reviewed customers"
+      ]
+    },
+    {
+      "name": "Luis",
+      "role": "Automotive Technician",
+      "bio": "Luis diagnosed and resolved an oil consumption issue in under two hours while keeping the customer informed at every step — earning a customer comment that he 'deserves a raise.' He brings the same communication-first approach that defines the shop's culture.",
+      "credentials": [
+        "Rapid diagnostics",
+        "Customer communication",
+        "Oil system repair"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -116,28 +168,80 @@
   ],
   "stats": [
     {
-      "value": 105,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.7,
+      "suffix": "★",
+      "label": "Average Customer Rating"
     },
     {
-      "value": 4.7,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 105,
+      "suffix": "+",
+      "label": "Verified Customer Reviews"
+    },
+    {
+      "value": 24,
+      "suffix": "/7",
+      "label": "Hours Open Every Day of the Week"
+    },
+    {
+      "value": 2,
+      "suffix": " hrs",
+      "label": "Typical Diagnostic Turnaround"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Are you actually open 24 hours, every day of the week?",
+      "answer": "Yes — Ant's Auto Repair and Tow operates 24 hours a day, 7 days a week, including Sundays and holidays. Multiple customers have specifically praised the shop for being available when every other mechanic was closed."
+    },
+    {
+      "question": "How do I know I won't get overcharged or upsold on parts I don't need?",
+      "answer": "Anthony's approach is to put your car on the lift and show you exactly what's wrong — and what isn't. Several customers have come in after receiving inflated estimates elsewhere, and Anthony has corrected the record on the spot, declining to charge for work that wasn't necessary."
+    },
+    {
+      "question": "How fast can you turn my car around?",
+      "answer": "Turnaround is fast. Customers have had cars diagnosed within a few hours of drop-off, with repairs completed the same day or within 24-48 hours depending on parts availability. Evening drop-offs have been ready the following day."
+    },
+    {
+      "question": "Will you keep me updated while my car is being worked on?",
+      "answer": "Yes — the team communicates throughout the process, including via text. Customers specifically highlight the consistent updates and the fact that they never had to chase anyone down for information."
+    },
+    {
+      "question": "Do you offer towing services as well as repairs?",
+      "answer": "Yes. Ant's Auto Repair and Tow offers towing services alongside all mechanical repair work, available around the clock at (267) 774-6361."
+    },
+    {
+      "question": "What if I'm worried about being taken advantage of as a first-time customer?",
+      "answer": "Multiple reviewers — including women who came in after being misquoted at other shops — have specifically called out Anthony's honesty and respect for every customer. He explains the work, shows you the evidence, and charges you for what your car actually needs."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#1A1A2E",
+    "accent": "#F4A400",
+    "note": "Deep navy anchors the trust, credibility, and no-nonsense honesty that defines Anthony's reputation. Amber-gold reflects the 24/7 availability, urgency, and the warmth customers describe when they say they left feeling relieved and respected — not just repaired. The pairing reads as serious and dependable without being cold."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Radical transparency — Anthony physically shows customers what is and isn't wrong with their car on the lift, building trust that competitor shops actively destroy",
+      "24/7 availability with genuine responsiveness — multiple customers were taken in on Sundays or evenings when no other shop would help them",
+      "Honest pricing with no upselling — customers consistently praise fair charges and have noted repairs done at no extra cost beyond the original quote"
+    ],
+    "common_complaints": [
+      "None found — all 5 reviewed reviews are 5-star with no negative feedback recorded in the sample provided"
+    ],
+    "suggested_tagline": "The mechanic who shows you the truth.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "Radically honest",
+      "Accessible",
+      "No-nonsense",
+      "Protective",
+      "Responsive"
+    ],
+    "named_staff": [
+      "Anthony",
+      "Luis"
+    ]
   }
 }

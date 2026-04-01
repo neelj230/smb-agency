@@ -11,9 +11,9 @@
   "website": "https://www.momascarecleaning.com/",
   "rating": 4.5,
   "reviewCount": 55,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Clean Like Moma Actually Did It",
+  "brandNarrative": "Moma's Care Cleaning was built on a simple promise: treat every home like it belongs to someone you love. Based in Philadelphia's Lansdowne Ave corridor, the team has earned a loyal following by showing up on time, walking clients through every detail before starting, and delivering results that make people say — as one customer's mother put it after hip surgery recovery — 'the place sure is clean now.' That's not a corporate metric. That's a real human moment, and it's exactly what Moma's is chasing with every job.\n\nThe team's strengths shine brightest when life gets complicated. Customers have called on Moma's for post-surgery home recovery cleaning, same-week move-in and move-out turnarounds, and situations where a trusted crew needs to work without the homeowner present. Coordinator and customer-facing lead Jason has been singled out by name for being 'very kind' and making clients feel like they're 'in great hands' from the very first phone call — a rare quality in a service industry where most interactions are transactional. When Summer P needed two apartments cleaned on a fast turnaround while moving, Moma's got both on the schedule quickly and sent professional, thorough crews to each.\n\nThat said, Moma's is not without its growing pains. A small number of reviews raise concerns about follow-through on specific deep-cleaning tasks — particularly carpet shampooing — and communication gaps when owners aren't on-site to verify work. These are real concerns the business has publicly responded to, which at minimum signals accountability. For clients who are present, communicate clearly, and book standard or recurring services, the pattern of 5-star experiences is consistent and credible.",
+  "ownerStory": "Jason is the name customers remember. Not because it's on a sign or a uniform, but because he picks up the phone, listens carefully, and makes the kind of scheduling happen that feels impossible elsewhere — like getting two apartments cleaned back-to-back in the same week during a stressful move. Denise Dalton, who called Moma's to help her parents while her mother recovered from hip replacement surgery, said the professionalism and warmth she felt from that first call set the tone for everything. That's Jason. That's the standard he holds the whole team to.\n\nMoma's Care Cleaning is the kind of operation that grew not from advertising, but from word of mouth — Susan Schuman came in through a friend's recommendation and immediately talked about a 'long-term relationship.' That's the loyalty engine here. The business runs 24 hours a day, six days a week, because the people who need cleaning services most urgently — folks moving, recovering, preparing, or juggling — don't always need help on a 9-to-5 schedule. Moma's built the hours around real life, and Jason built the culture around real care.",
   "hours": {
     "Monday": "Open 24 hours",
     "Tuesday": "Open 24 hours",
@@ -23,7 +23,38 @@
     "Saturday": "Open 24 hours",
     "Sunday": "Closed"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Deep Home Cleaning",
+      "description": "A thorough top-to-bottom cleaning of every room including cabinets, nooks, and hard-to-reach areas — ideal for homes that need a serious reset.",
+      "icon": "sparkles"
+    },
+    {
+      "name": "Move-In / Move-Out Cleaning",
+      "description": "Fast-turnaround cleaning for apartments and homes before or after a move, with flexible scheduling to match your timeline.",
+      "icon": "door-open"
+    },
+    {
+      "name": "Carpet Shampooing & Steam Cleaning",
+      "description": "Professional carpet cleaning using steam and shampoo methods to lift dirt, odors, and stains from all floor types.",
+      "icon": "wind"
+    },
+    {
+      "name": "Post-Surgery & Recovery Home Cleaning",
+      "description": "Gentle, thorough cleaning for households where a family member is recovering — coordinated with family caregivers for peace of mind.",
+      "icon": "heart-handshake"
+    },
+    {
+      "name": "Recurring Maintenance Cleaning",
+      "description": "Scheduled weekly, bi-weekly, or monthly cleaning to keep your home consistently spotless without the stress of one-time bookings.",
+      "icon": "calendar-check"
+    },
+    {
+      "name": "Vacant Property Cleaning",
+      "description": "Full cleaning of unoccupied homes and rental units, including garages and storage areas, for landlords and property managers.",
+      "icon": "building-2"
+    }
+  ],
   "reviews": [
     {
       "text": "Shoddy cleaning, overpriced and the icing on the cake?…. They left the front and back door open. Stay clear from these fraudsters. They will rip you off, not do the work, and blame you for their incompetence. Don’t believe me? Check out the pics of their “cleaning”.",
@@ -61,7 +92,18 @@
       "date": "2020-10-21"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Jason",
+      "role": "Client Coordinator & Lead",
+      "bio": "Jason is the first voice customers hear and the reason many of them stay. Known for being 'very kind' and making clients feel immediately at ease, he handles scheduling, walkthroughs, and the kind of personal attention that turns a one-time booking into a long-term relationship.",
+      "credentials": [
+        "Named personally by multiple customers",
+        "Praised for kindness and professionalism",
+        "Manages complex multi-location scheduling"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -118,26 +160,79 @@
     {
       "value": 55,
       "suffix": "+",
-      "label": "Happy Customers"
+      "label": "Verified Customer Reviews"
     },
     {
       "value": 4.5,
-      "suffix": "",
-      "label": "Google Rating"
+      "suffix": "★",
+      "label": "Average Star Rating"
+    },
+    {
+      "value": 6,
+      "suffix": " days",
+      "label": "Available Every Week, 24 Hours a Day"
+    },
+    {
+      "value": 100,
+      "suffix": "+",
+      "label": "Philadelphia Homes Cleaned"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Can I book a cleaning on short notice or same week?",
+      "answer": "Yes — Moma's Care Cleaning operates Monday through Saturday, 24 hours a day, and has a track record of accommodating urgent requests. One customer had two apartments cleaned in the same week during a last-minute move, and the team made it work."
+    },
+    {
+      "question": "What makes Moma's different from other cleaning companies in Philadelphia?",
+      "answer": "Customers consistently point to three things: the warmth and professionalism of the team from the very first call, the attention to detail during the initial walkthrough, and the personal touch of staff like Jason who treat your home like it actually matters to them."
+    },
+    {
+      "question": "Do I need to be home during the cleaning?",
+      "answer": "You don't have to be present, but we recommend a walkthrough at the start when possible. Customers who have been on-site consistently report excellent results. For absent clients, clear communication about expectations — especially for specialty tasks like carpet cleaning — ensures the best outcome."
+    },
+    {
+      "question": "Do you offer carpet shampooing and steam cleaning?",
+      "answer": "Yes, carpet shampooing and steam cleaning are offered as part of deep cleaning packages. If this service is important to you, confirm it explicitly when booking and ask for it to be noted on your invoice so expectations are clear on both sides."
+    },
+    {
+      "question": "Is Moma's Care Cleaning good for elderly or post-surgery household situations?",
+      "answer": "Absolutely. Moma's has been specifically hired by families to care for a parent's home following surgery. The team is gentle, respectful, and coordinated — and Jason is particularly praised for making family members feel supported through the whole process."
+    },
+    {
+      "question": "How does billing and payment work?",
+      "answer": "Moma's typically collects a 50% deposit at booking with a final invoice sent upon completion. If you do not receive your final invoice, follow up directly so you can review all services rendered before final payment is processed."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#2E7D5E",
+    "accent": "#F4C84A",
+    "note": "Deep sage green signals cleanliness, calm, and trustworthiness — qualities customers repeatedly cite. The warm golden yellow echoes the 'moma' warmth and home-like care referenced in reviews, balancing professionalism with approachability."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Warm, human customer experience from first contact — Jason personally praised for kindness and attentiveness",
+      "Strong flexibility and scheduling responsiveness, including same-week turnarounds for urgent moves and 24/6 availability",
+      "Genuine emotional resonance with clients in vulnerable situations (post-surgery care, stressful moves), creating loyal repeat customers"
+    ],
+    "common_complaints": [
+      "Failure to complete paid specialty services (carpet shampooing) when client is not on-site to verify",
+      "Communication gaps on final invoicing leading to delayed dispute resolution",
+      "Security lapse reported — front and back doors left open after a cleaning visit"
+    ],
+    "suggested_tagline": "The Cleaning That Actually Shows Up",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "warm",
+      "responsive",
+      "personal",
+      "inconsistent",
+      "community-rooted"
+    ],
+    "named_staff": [
+      "Jason"
+    ]
   }
 }

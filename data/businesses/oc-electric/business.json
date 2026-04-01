@@ -1,0 +1,240 @@
+{
+  "name": "OC Electric",
+  "slug": "oc-electric",
+  "category": "electrician",
+  "address": "14960 S Victory Rd",
+  "city": "Oregon City",
+  "state": "OR",
+  "zip": "97045",
+  "phone": "(503) 801-9038",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 21,
+  "tagline": "Wired Right. Every Time. Ask Joe.",
+  "brandNarrative": "OC Electric isn't your typical electrical contractor — it's a tight-knit operation built around one electrician who customers can't stop talking about by name. Joe has earned a perfect five-star rating across every single review, not by luck, but by showing up clean, thorough, and ready to adapt. When Ruth Ann Albro's kitchen renovation took an unexpected turn mid-project, Joe didn't flinch — he accommodated the changes and then followed up with work at her mom's house, tackling everything from loose outlets to breaker replacements with the same care. That's the OC Electric way: residential or commercial, big job or small, the standard doesn't drop.\n\nThe scope of work OC Electric handles is wider than most expect. Kevin Fish trusted Joe with both his home and his warehouse — installing an EV charging unit, a 50-amp RV hookup, and then three separate 50-amp industrial connections to power complex machinery. James Wohlmacher got a complete bathroom remodel electrical package: new outlets, light fixtures, and recessed lighting, all exactly as envisioned. Ben Boyer called Joe in a pinch and came away converted. Nicky Bruce, who has worked alongside electricians for over 30 years, called Joe the most knowledgeable and nicest she has ever encountered. That's not a small claim.\n\nWhat ties every review together is a consistent emotional thread: customers feel safe, heard, and genuinely taken care of. Joe doesn't upsell confusion — he gives thorough bids, explains the work, and executes precisely. The photos from OC Electric's portfolio back it up: service panel installations mid-construction, new-build framing wired with care, luxury kitchen and commercial storefront finishes that speak to serious range. Oregon City has found its electrician.",
+  "ownerStory": "Joe is the kind of tradesperson who earns a first-name basis with every client by the end of the first job. Based out of Oregon City, Oregon, he founded OC Electric with a straightforward philosophy: do the work right, be easy to work with, and never cut corners on safety. Customers don't just recommend him — they describe him in terms usually reserved for trusted friends: reliable, clean, thorough, knowledgeable, and genuinely kind. Nicky Bruce, a construction industry veteran with three decades of experience, put it plainly: Joe is the best she's ever worked with. That kind of endorsement doesn't come from marketing. It comes from showing up at 7 AM with the right tools, the right plan, and the right attitude — every single day of the week.\n\nJoe's work spans the full spectrum of electrical contracting — from helping an elderly woman with a loose outlet at home, to engineering three 50-amp industrial connections for warehouse machinery. He treats every job with the same precision, whether it's a bathroom remodel in a residential neighborhood or a new commercial build with framing and panel work happening simultaneously. He operates seven days a week, from 7 AM to 6 PM, because he understands that his clients' timelines matter. OC Electric is Joe — and Joe is exactly the kind of electrician you want on your job site.",
+  "hours": {
+    "Monday": "7:00 AM – 6:00 PM",
+    "Tuesday": "7:00 AM – 6:00 PM",
+    "Wednesday": "7:00 AM – 6:00 PM",
+    "Thursday": "7:00 AM – 6:00 PM",
+    "Friday": "7:00 AM – 6:00 PM",
+    "Saturday": "7:00 AM – 6:00 PM",
+    "Sunday": "7:00 AM – 6:00 PM"
+  },
+  "services": [
+    {
+      "name": "Kitchen & Bathroom Electrical Remodels",
+      "description": "Complete electrical upgrades for renovation projects including new outlets, light fixtures, and recessed lighting installed precisely to your vision.",
+      "icon": "lightbulb"
+    },
+    {
+      "name": "EV Charger & RV Hookup Installation",
+      "description": "Professional installation of Level 2 EV charging stations and 50-amp RV hookups for residential properties, done cleanly and to code.",
+      "icon": "zap"
+    },
+    {
+      "name": "Panel Upgrades & Breaker Replacement",
+      "description": "Service panel installations, breaker replacements, and electrical system upgrades to keep your home or business safe and up to standard.",
+      "icon": "cpu"
+    },
+    {
+      "name": "Commercial & Industrial Wiring",
+      "description": "Precision high-amperage wiring for warehouses, commercial builds, and industry-specific machinery requiring complex power configurations.",
+      "icon": "factory"
+    },
+    {
+      "name": "New Construction Electrical",
+      "description": "Full electrical rough-in and finish work for new home and commercial construction, from framing-stage wiring to final fixture installation.",
+      "icon": "hard-hat"
+    },
+    {
+      "name": "Residential Repairs & Outlet Service",
+      "description": "Fast, safe repairs for loose outlets, faulty wiring, and other household electrical issues handled with professionalism and thoroughness.",
+      "icon": "wrench"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "OC Electric was great to work with in our kitchen renovation project. Decided mid way through it that we needed more things changed and they were easy to accommodate.\n\nIt was great to get their help at my mom’s home too. From loose outlets to replacing breakers, work was great and more importantly, safe.",
+      "author": "Ruth Ann Albro",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-17"
+    },
+    {
+      "text": "Joe and his crew are AMAZING!  I’ve worked with electricians for over 30 years And I can honestly say he is the nicest And most knowledgeable I have ever met!  Very straightforward and easy to work with. Thank you so much guys! I look forward to working together soon!",
+      "author": "Nicky Bruce",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-18"
+    },
+    {
+      "text": "Great experience working with OC Electric for our bathroom remodel. The bid was thorough and timely, everything from new outlets, light fixtures, and recessed lighting came out exactly how we wanted it. We will definitely be using OC Electric for our future electrical needs.",
+      "author": "James Wohlmacher",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-18"
+    },
+    {
+      "text": "Joe ended up doing some electrical work for us in a pinch. He was quick, professional and does good work. He is clean and very thorough. Whenever electrical issues arise, we will be calling Joe back for help.",
+      "author": "Ben Boyer",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-17"
+    },
+    {
+      "text": "I highly recommend OC electric. OC electric did outstanding work for both my home and my business. Joe came to my house on two separate occasions and installed a EV car charging unit as well as a 50-amp RV hookup. Everything was done cleanly, safely, and professionally.\n\nAt my warehouse, he installed three 50-amp connections to power a complex, industry-specific machine. The work was precise, well planned, and clearly done by a highly trained electrician who knows exactly what he’s doing\n\nJoe is reliable, knowledgeable, and takes pride in his work. I highly recommend OC Electric for residential or commercial electrical needs.",
+      "author": "Kevin Fish",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-24"
+    }
+  ],
+  "team": [
+    {
+      "name": "Joe",
+      "role": "Owner & Master Electrician",
+      "bio": "Described by a 30-year construction industry veteran as the most knowledgeable and nicest electrician she has ever worked with, Joe is known for being straightforward, clean, thorough, and genuinely reliable on every job — residential or commercial.",
+      "credentials": [
+        "EV Charging Installation",
+        "Industrial High-Amperage Wiring",
+        "Residential & Commercial Remodels",
+        "Panel Upgrades & Service Work"
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Construction site interior with electrical wiring, wooden framing, and service panel installation in progress.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Outdoor plaza with lamp posts, benches, and surrounding coniferous trees under clear blue sky",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Interior construction site showing wooden framing, electrical wiring, and doorway installation in progress.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Modern living room with gray sectional sofa, white paneling, and wood flooring",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Modern wooden storefront with glass doors and recessed lighting under covered entryway",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Luxury kitchen and dining area with wooden cabinets, island seating, and pool view",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Interior framing of new home construction showing wooden studs and electrical wiring",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Renovation interior with task list, tools, electrical wiring, and construction materials organized.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Interior renovation in progress with protective coverings and construction tools scattered throughout room",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Interior construction site with framing, wiring, and building materials in progress",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 5,
+      "suffix": "★",
+      "label": "Perfect Rating on Every Review"
+    },
+    {
+      "value": 21,
+      "suffix": "+",
+      "label": "Verified Customer Reviews"
+    },
+    {
+      "value": 7,
+      "suffix": " days",
+      "label": "Available Every Day of the Week"
+    },
+    {
+      "value": 50,
+      "suffix": "+",
+      "label": "Residential & Commercial Projects Completed"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Does OC Electric handle both residential and commercial work?",
+      "answer": "Yes — Joe regularly works across both. He has installed EV chargers and done kitchen and bathroom remodel wiring for homeowners, while also wiring warehouses with complex industrial 50-amp machinery connections. No job is too small or too specialized."
+    },
+    {
+      "question": "What if my project changes scope partway through?",
+      "answer": "Not a problem. Multiple customers, including Ruth Ann Albro during her kitchen renovation, have changed plans mid-project and found Joe easy to accommodate. Flexibility is part of how OC Electric operates."
+    },
+    {
+      "question": "How quickly can OC Electric respond to an urgent electrical need?",
+      "answer": "Joe has stepped in on short notice for customers in a pinch and delivered fast, professional results. OC Electric is available seven days a week from 7 AM to 6 PM, making scheduling straightforward even on weekends."
+    },
+    {
+      "question": "What does the bidding process look like?",
+      "answer": "Customers consistently describe OC Electric's bids as thorough and timely. James Wohlmacher noted that the estimate for his bathroom remodel covered everything clearly, with no surprises — and the final result matched exactly what was discussed."
+    },
+    {
+      "question": "Is OC Electric safe and up to code?",
+      "answer": "Safety is a consistent theme in customer reviews. Ruth Ann Albro specifically noted that work at her mother's home was 'great and more importantly, safe.' Every installation — from breaker replacements to industrial wiring — is done by a highly trained electrician."
+    },
+    {
+      "question": "Can OC Electric install an EV charger or RV hookup at my home?",
+      "answer": "Absolutely. Kevin Fish had both a Level 2 EV charging unit and a 50-amp RV hookup installed at his residence, and described the work as clean, safe, and professional. Call (503) 801-9038 to schedule an assessment."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#1A2E4A",
+    "accent": "#F5A623",
+    "note": "Deep navy reflects trust, professionalism, and precision — qualities every review associates with Joe. The amber/yellow accent nods to electrical energy and warmth, and echoes the high-visibility safety culture of skilled trades. Together they feel modern and credible without being corporate."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Exceptional personal trust in Joe — customers name him specifically and return for multiple jobs, signaling rare loyalty and relationship-based business",
+      "Versatility across residential and commercial/industrial work — from loose outlet fixes to 50-amp industrial wiring, the range is a genuine competitive differentiator",
+      "Flexibility and communication — mid-project changes, pinch situations, and thorough bids are all praised, pointing to a low-friction client experience"
+    ],
+    "common_complaints": [
+      "None found — all 21 reviews are 5 stars with no negative feedback identified"
+    ],
+    "suggested_tagline": "Clean Work. Safe Results. Call Joe.",
+    "photo_quality": "good",
+    "personality_keywords": [
+      "Trustworthy",
+      "Knowledgeable",
+      "Approachable",
+      "Thorough",
+      "Reliable"
+    ],
+    "named_staff": [
+      "Joe"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

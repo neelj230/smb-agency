@@ -1,0 +1,190 @@
+{
+  "name": "Larry McGinnis Heating & Air Conditioning",
+  "slug": "larry-mcginnis-heating-air-conditioning",
+  "category": "hvac contractor",
+  "address": "1156 Anderson Pl SE",
+  "city": "Albany",
+  "state": "OR",
+  "zip": "97322",
+  "phone": "(541) 928-0460",
+  "email": "",
+  "website": null,
+  "rating": 4.9,
+  "reviewCount": 34,
+  "tagline": "Real Help. Real Fast. No Arm, No Leg.",
+  "brandNarrative": "When Albany, Oregon hit the hottest day in recorded history and the AC quit, Cathie Myers didn't wait days for a tech — Larry McGinnis showed up that Sunday afternoon, diagnosed a bad capacitor, fixed it fast, and even taught her how to prevent it from happening again. That's not a fluke. That's a pattern. Larry worked a Saturday on Memorial Day weekend to install Danielle Stelmach's AC. He rearranged his schedule to come a day early for Brenda Webb because her dog with lymphoma was suffering in the heat. This is a business that treats emergencies like emergencies — not like a scheduling inconvenience.\n\nWhat separates Larry McGinnis Heating & Air Conditioning from the big outfits isn't just speed — it's the refreshing honesty. David Brown called for an estimate after two competitors quoted $3,500 and told him replacement was the only option. Larry fixed a burned wire during the estimate itself and charged $75. The AC ran strong for four more years after that. When Dustin Burgess's 12-year-old heat pump failed, Larry's bid came in dramatically more reasonable than anyone else's and the job was done within days. Customers don't just leave reviews here — they refer friends, property managers refer clients, and property investors build long-term relationships.\n\nLarry's technician Jason is cut from the same cloth — when David Brown's home furnace failed, Larry diagnosed it remotely from a photo of the model number, discovered he had the part on hand, and had Jason dispatched and the furnace restored within three hours of the initial call. This is old-school craftsmanship paired with genuine responsiveness: the kind of HVAC service that Albany residents used to have to move away from to find.",
+  "ownerStory": "Larry McGinnis is the kind of contractor who picks up the phone on a Sunday during a historic heatwave and doesn't charge you like it's an emergency — because to him, getting your family comfortable again is just the job. He's been operating out of Albany, Oregon long enough to build a reputation that travels by word of mouth: friends texting friends his personal number, property managers quietly passing along his contact to other investors, neighbors flagging down each other across driveways. He's professional without being stiff, knowledgeable without talking over your head, and consistently described by customers as someone who's genuinely easy to talk to.\n\nWhat Larry built isn't a company that scales by hiring salespeople and padding quotes — it's a tight, trusted operation where he and his technician Jason handle calls with the kind of responsiveness and ethics that larger companies can't replicate. He'll tell you when your unit can be saved. He'll fix the problem during the estimate if he can. He'll show up for a dying dog. He'll have the part in the truck. And when it's time to replace, his quotes come in thousands below the competition. Albany doesn't have Larry McGinnis because they got lucky — they have him because he's exactly who this community needed.",
+  "hours": {},
+  "services": [
+    {
+      "name": "AC Repair & Emergency Service",
+      "description": "Same-day and weekend emergency air conditioning repairs, including capacitor replacement, electrical diagnostics, and cooling restoration — even on holidays.",
+      "icon": "zap"
+    },
+    {
+      "name": "Heat Pump Installation & Replacement",
+      "description": "Full heat pump system replacement with energy-efficient equipment and competitive pricing that routinely comes in thousands below larger competitors.",
+      "icon": "thermometer"
+    },
+    {
+      "name": "Furnace Repair & Diagnostics",
+      "description": "Fast furnace troubleshooting including remote diagnosis, same-day part sourcing, and rapid restoration — David Brown had heat back within three hours of his call.",
+      "icon": "flame"
+    },
+    {
+      "name": "AC Installation",
+      "description": "New air conditioning system installation scheduled promptly, including weekend installs, when other companies are booked out for months.",
+      "icon": "wind"
+    },
+    {
+      "name": "HVAC System Estimates & Honest Assessments",
+      "description": "Straightforward second opinions and replacement estimates — Larry will tell you if your unit can be repaired rather than pushing an unnecessary replacement.",
+      "icon": "clipboard-check"
+    },
+    {
+      "name": "Preventive Maintenance & Unit Optimization",
+      "description": "Tune-up services to keep aging systems running efficiently, including showing homeowners how to cool down and maintain their units to prevent future failures.",
+      "icon": "settings"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Larry is outstanding!  He installed my AC on a Saturday on Memorial Day weekend.  He is professional, easy to talk to, and very happy.  I will absolutely call him again if I have any issues with my HVAC.",
+      "author": "Danielle Stelmach",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-10-15"
+    },
+    {
+      "text": "Larry came out on a Sunday afternoon on the hottest day in recorded history when our AC stopped working. He was professional, knowledgeable and friendly. He fixed the problem quickly (it was a bad capacitor) and showed us how to cool down the unit to prevent it from happening again.  AND he didn't charge us an arm and a leg. We highly recommend him.",
+      "author": "Cathie Myers",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-06-28"
+    },
+    {
+      "text": "Our AC unit has not been cooling our house and we are planning to replace.  I have been scheduling estimates from many different companies and everyone is months out for installation.   When I called Larry he immediately knew what the problem was with ours and said he could come out and get it running better to keep us comfortable until we can get a new unit.  I scheduled to have him come on a Monday morning, but we have a dog who is dying from Lymphoma and the heat in our house is making her uncomfortable.   I called Larry back and explained our situation and asked if he could come sooner.  He came the next morning and fixed our AC.  The charge was way below what I expected and he gave us a quote for a new system that is thousands less than others.  We are so impressed and highly recommend.",
+      "author": "Brenda Webb",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-08-06"
+    },
+    {
+      "text": "Our 12 year old heat pump failed and I was complaining to a friend about it. My friend recommended I give Larry a call and gave me his number. Larry's bid was way more reasonable and he was very responsive when I called with questions and scheduled me just a few days later to do the work. Glad to have a nice new system and looking forward to lower electricity bills with the more efficient equipment. I would recommend Larry McGinnis to anyone looking for an HVAC guy.",
+      "author": "Dustin Burgess",
+      "rating": 5,
+      "source": "google",
+      "date": "2017-03-04"
+    },
+    {
+      "text": "12.4.2020 Larry McGinnis HVAC and his tech  Jason are SUPERB.   I have gotten extremely timely and ETHICAL service with Larry McGinnis Heating & Air Conditioning.  I started using them a few years ago on the recommendation of another property manager and I am glad I did!  At one point I called them for an estimate to deal with  the  malfunctioning AC in a rental house where I had gotten two bids in the $3500 range where I was told replacement was the only option.   Larry fixed a burned wire while doing the inspection/estimate and charged $75!!!   The AC has been running strong 4 more years so far!  Recently my home furnace went out and I got LUCKY....I called Larry and described the problem and sent him a photo of the model number of the furnace....he called back a few minutes later,  he happened to have the correct part on hand and the tech just happened to be available while waiting for parts on another job....we got our furnace back within 3 hours of it going out!   We trust Larry!    David Brown  ION Enterprises LLC",
+      "author": "David Brown",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-12-08"
+    }
+  ],
+  "team": [
+    {
+      "name": "Larry McGinnis",
+      "role": "Owner & Lead HVAC Technician",
+      "bio": "Larry is described by customers as professional, knowledgeable, friendly, and ethical — the kind of contractor who diagnoses problems over the phone, shows up on holidays, and charges fair prices without ever overselling. He personally handles calls, estimates, and installations across Albany and the surrounding area.",
+      "credentials": [
+        "Licensed HVAC Contractor",
+        "Heat Pump Installation Specialist",
+        "Emergency & Weekend Service Available"
+      ]
+    },
+    {
+      "name": "Jason",
+      "role": "HVAC Technician",
+      "bio": "Jason is Larry's trusted field technician, praised by property manager David Brown for delivering superb, timely service — including a same-day furnace repair that had a home's heat restored within three hours of the initial call.",
+      "credentials": [
+        "HVAC Field Technician",
+        "Rapid Response Repairs"
+      ]
+    }
+  ],
+  "photos": [],
+  "stats": [
+    {
+      "value": 4.9,
+      "suffix": "★",
+      "label": "Average Customer Rating"
+    },
+    {
+      "value": 34,
+      "suffix": "+",
+      "label": "Verified Customer Reviews"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "5-Star Reviews from Named Customers"
+    },
+    {
+      "value": 3,
+      "suffix": " hrs",
+      "label": "Fastest Furnace Restoration on Record"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Do you offer emergency or weekend HVAC service?",
+      "answer": "Yes — and this is one of the things customers praise most about Larry. He has responded on Sundays during record-breaking heatwaves, installed AC on Memorial Day weekend Saturdays, and rearranged his schedule for urgent situations. If you have a genuine emergency, call (541) 928-0460 and explain your situation."
+    },
+    {
+      "question": "How does your pricing compare to other HVAC companies?",
+      "answer": "Multiple customers report that Larry's pricing is dramatically lower than competitors — one customer received quotes of $3,500 from two other companies and Larry repaired the unit for $75. Another found Larry's heat pump replacement bid to be far more reasonable than others, and a third said Larry's new system quote came in thousands less than other estimates. You won't be pressured into unnecessary replacements."
+    },
+    {
+      "question": "How quickly can you schedule an appointment?",
+      "answer": "While many larger HVAC companies in the area are booked months out, Larry typically schedules within a few days — and often same-day or next-day for urgent situations. Dustin Burgess had his heat pump replaced just days after calling."
+    },
+    {
+      "question": "Will you tell me honestly if my unit needs to be replaced or if it can be repaired?",
+      "answer": "Absolutely — Larry is known for his honesty. He has fixed units that competitors said needed full replacement, sometimes during the estimate visit itself. If repair makes sense, he'll repair it. If replacement is the better long-term value, he'll tell you that too and quote you a fair price."
+    },
+    {
+      "question": "Do you work on both heating and cooling systems?",
+      "answer": "Yes. Larry McGinnis Heating & Air Conditioning handles the full range — central air conditioning, heat pumps, and furnaces — for both repairs and full system replacements. He also works with residential rental properties and investment properties."
+    },
+    {
+      "question": "How do most customers find you?",
+      "answer": "Almost entirely through word of mouth and personal referrals. Customers consistently say a friend, neighbor, or fellow property manager gave them Larry's number directly. That kind of trust-based referral network is built over years of honest, high-quality work."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#1B3A5C",
+    "accent": "#E8732A",
+    "note": "Deep navy reflects reliability, trust, and the kind of steady professionalism Larry is known for — not flashy, just solid. The warm orange accent captures the urgency and warmth of emergency response and heating services, and contrasts the cool-toned HVAC category with human energy. Together they feel like a contractor you'd actually trust in your home."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Exceptional emergency and weekend availability — Larry shows up when others won't, including holidays and during historic weather events",
+      "Dramatically lower pricing and radical honesty — multiple customers report savings of hundreds to thousands versus competitors, and Larry repairs when others push replacement",
+      "Personal responsiveness and genuine compassion — rearranging schedules for urgent situations like a sick pet, responding within hours, and diagnosing problems remotely before arriving"
+    ],
+    "common_complaints": [
+      "None found — all 34 reviews are 5-star with no negative themes, service gaps, or recurring criticisms identified"
+    ],
+    "suggested_tagline": "The HVAC Guy Albany Actually Trusts",
+    "photo_quality": "poor",
+    "personality_keywords": [
+      "Trustworthy",
+      "Responsive",
+      "Honest",
+      "Compassionate",
+      "Unpretentious"
+    ],
+    "named_staff": [
+      "Larry McGinnis",
+      "Jason"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

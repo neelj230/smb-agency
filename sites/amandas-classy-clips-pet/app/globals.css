@@ -1,0 +1,302 @@
+@import "tailwindcss";
+
+/* Scan shared packages for Tailwind classes */
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #1B3A2D;
+  --brand-accent: #004055;
+  --brand-bg: #f5f5f0;
+  --brand-bg-alt: #ddded9;
+  --brand-text: #1a1a1a;
+  --brand-muted: #666666;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: var(--brand-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+/* Marquee animation for carousels */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Smooth section transitions */
+section, [id] > div {
+  scroll-margin-top: 80px;
+}
+
+/* Focus-visible outlines for accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Mix-blend-mode hover effect for cards */
+.card-hover {
+  position: relative;
+  overflow: hidden;
+}
+.card-hover::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--brand-primary);
+  mix-blend-mode: difference;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.card-hover:hover::after {
+  opacity: 1;
+}
+
+/* Gradient transitions between sections */
+.section-gradient {
+  position: relative;
+}
+.section-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--brand-bg));
+  pointer-events: none;
+}
+
+/* Creative director extras */
+/* ─── Brand font import ─────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* ─── Root tokens ────────────────────────────────────────────────────── */
+:root {
+  --brand-primary: #1B3A2D;
+  --brand-accent: #004055;
+  --font-display: 'Pinyon Script', cursive;
+  --font-body: 'Inter', sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ─── Film grain overlay ─────────────────────────────────────────────── */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-size: 200px 200px;
+  mix-blend-mode: overlay;
+  opacity: 0.025;
+}
+
+/* ─── Section padding helpers ────────────────────────────────────────── */
+.section-pad {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.section-pad-tight {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/* ─── Dot pattern background ─────────────────────────────────────────── */
+.dot-pattern-section {
+  background-color: #ffffff;
+  background-image: radial-gradient(circle, #1B3A2D18 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* ─── Tagline banner ─────────────────────────────────────────────────── */
+.tagline-banner {
+  position: relative;
+  padding: 4.5rem 1.5rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tagline-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  position: relative;
+  z-index: 2;
+}
+
+.tagline-text {
+  font-family: var(--font-body);
+  font-size: clamp(2rem, 5vw, 3.75rem);
+  font-weight: 300;
+  color: #e8e0d4;
+  letter-spacing: 0.04em;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.tagline-word {
+  display: inline;
+}
+
+.tagline-word--script {
+  font-family: var(--font-display);
+  font-size: clamp(2.8rem, 7vw, 5.5rem);
+  color: #c8b89a;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+}
+
+.tagline-rule {
+  width: 80px;
+  height: 1px;
+  background: rgba(200, 184, 154, 0.4);
+}
+
+/* Decorative paw accents on tagline banner */
+.paw-accent {
+  width: 48px;
+  height: 48px;
+  opacity: 0.08;
+}
+
+.tagline-paw {
+  position: absolute;
+  pointer-events: none;
+}
+
+.tagline-paw--left {
+  left: 6%;
+  top: 50%;
+  transform: translateY(-50%) rotate(-20deg);
+  width: 120px;
+  height: 120px;
+  color: #c8b89a;
+  opacity: 0.06;
+}
+
+.tagline-paw--right {
+  right: 6%;
+  top: 50%;
+  transform: translateY(-50%) rotate(15deg);
+  width: 96px;
+  height: 96px;
+  color: #c8b89a;
+  opacity: 0.06;
+}
+
+/* ─── Scrolling label strip ──────────────────────────────────────────── */
+.scroll-strip {
+  overflow: hidden;
+  padding: 0.75rem 0;
+  white-space: nowrap;
+}
+
+.scroll-strip-track {
+  display: inline-flex;
+  gap: 0;
+}
+
+.scroll-strip-item {
+  display: inline-block;
+  padding: 0 2.5rem;
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* ─── Headings — display font treatment ──────────────────────────────── */
+h1, h2 {
+  font-family: var(--font-body);
+}
+
+/* Make section headings use the Pinyon Script accent for extra elegance */
+.classy-display-heading {
+  font-family: var(--font-display);
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  color: var(--brand-primary);
+  line-height: 1.1;
+}
+
+/* ─── Card hover polish ──────────────────────────────────────────────── */
+.service-card,
+[class*="card"] {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.service-card:hover,
+[class*="card"]:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(27, 58, 45, 0.14);
+}
+
+/* ─── Glass effect utility ───────────────────────────────────────────── */
+.glass {
+  backdrop-filter: blur(12px) saturate(1.4);
+  -webkit-backdrop-filter: blur(12px) saturate(1.4);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 12px;
+}
+
+/* ─── Ensure dark section testimonial text is readable ───────────────── */
+[style*="background: #1B3A2D"] *,
+[style*="background:#1B3A2D"] * {
+  --tw-prose-body: #e8e0d4;
+}
+
+/* ─── CTA / button accent overrides ─────────────────────────────────── */
+a[href^="tel"] {
+  transition: opacity 0.2s ease;
+}
+a[href^="tel"]:hover {
+  opacity: 0.85;
+}
+
+/* ─── Smooth scrolling ───────────────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ─── Responsive tweaks ──────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .section-pad {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .tagline-banner {
+    padding: 3rem 1rem;
+  }
+  .tagline-paw--left,
+  .tagline-paw--right {
+    display: none;
+  }
+}
+
+        :root {
+          --brand-primary: ${PRIMARY};
+          --brand-accent: ${ACCENT};
+          --brand-text: ${PRIMARY};
+        }
+      

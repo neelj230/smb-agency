@@ -1,0 +1,252 @@
+@import "tailwindcss";
+
+/* Scan shared packages for Tailwind classes */
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #1e64e6;
+  --brand-accent: #f6e304;
+  --brand-bg: #f0f4fa;
+  --brand-bg-alt: #d8e0ec;
+  --brand-text: #081d3a;
+  --brand-muted: #4e5c71;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: var(--brand-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+/* Marquee animation for carousels */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Smooth section transitions */
+section, [id] > div {
+  scroll-margin-top: 80px;
+}
+
+/* Focus-visible outlines for accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Subtle dot pattern background */
+.dot-pattern {
+  background-image: radial-gradient(circle, var(--brand-muted) 0.5px, transparent 0.5px);
+  background-size: 24px 24px;
+}
+
+/* Gradient transitions between sections */
+.section-gradient {
+  position: relative;
+}
+.section-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--brand-bg));
+  pointer-events: none;
+}
+
+/* Creative director extras */
+/* ─────────────────────────────────────────────────────────────
+   HEAD GAME — custom CSS extras
+   ───────────────────────────────────────────────────────────── */
+
+/* Brand tokens */
+:root {
+  --hg-blue: #1e64e6;
+  --hg-yellow: #f6e304;
+  --hg-dark: #111111;
+  --hg-mid: #1c1c1c;
+  --hg-border: rgba(255,255,255,0.08);
+}
+
+/* ── Film grain overlay ──────────────────────────────────────── */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 128px 128px;
+  mix-blend-mode: hard-light;
+  opacity: 0.025;
+}
+
+/* ── Dot pattern texture ─────────────────────────────────────── */
+.dot-pattern {
+  background-image: radial-gradient(circle, #c8c8c8 1px, transparent 1px);
+  background-size: 24px 24px;
+  background-color: #f7f7f5;
+}
+
+/* ── Marquee ticker ──────────────────────────────────────────── */
+.hg-ticker-wrap {
+  background-color: var(--hg-yellow);
+  overflow: hidden;
+  padding: 14px 0;
+  border-top: 2px solid var(--hg-dark);
+  border-bottom: 2px solid var(--hg-dark);
+  position: relative;
+  z-index: 10;
+}
+
+.hg-ticker-inner {
+  display: flex;
+  width: max-content;
+  animation: hg-ticker-scroll 35s linear infinite;
+  white-space: nowrap;
+}
+
+.hg-ticker-item {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: var(--hg-dark);
+  padding: 0 2rem;
+  text-transform: uppercase;
+}
+
+.hg-ticker-dot {
+  margin-left: 2rem;
+  color: var(--hg-blue);
+}
+
+@keyframes hg-ticker-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* ── About section spacing ───────────────────────────────────── */
+.hg-about-wrap {
+  background-color: #ffffff;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* ── Services section ────────────────────────────────────────── */
+.hg-services-wrap {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+/* ── Trust badge strip ───────────────────────────────────────── */
+.hg-trust-strip {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0;
+  background-color: var(--hg-blue);
+  padding: 1.25rem 2rem;
+  border-top: 3px solid var(--hg-yellow);
+  border-bottom: 3px solid var(--hg-yellow);
+}
+
+.hg-trust-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.5rem;
+  border-right: 1px solid rgba(255,255,255,0.2);
+  color: white;
+}
+
+.hg-trust-badge:last-child {
+  border-right: none;
+}
+
+.hg-trust-icon {
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.hg-trust-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.92);
+}
+
+@media (max-width: 640px) {
+  .hg-trust-badge {
+    border-right: none;
+    padding: 0.5rem 1rem;
+  }
+  .hg-trust-strip {
+    gap: 0.25rem;
+  }
+}
+
+/* ── Reviews section ─────────────────────────────────────────── */
+.hg-reviews-wrap {
+  background-color: #ffffff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* ── FAQ section ─────────────────────────────────────────────── */
+.hg-faq-wrap {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+/* ── Accent highlight on headings ────────────────────────────── */
+h1 strong,
+h2 strong {
+  color: var(--hg-blue);
+}
+
+/* ── Hover scale on cards ────────────────────────────────────── */
+[class*="service-card"],
+[class*="ServiceCard"],
+.hg-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+[class*="service-card"]:hover,
+[class*="ServiceCard"]:hover,
+.hg-card:hover {
+  transform: translateY(-4px) scale(1.015);
+  box-shadow: 0 16px 40px rgba(30, 100, 230, 0.12);
+}
+
+/* ── Scrollbar branding ──────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f0f0ee;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--hg-blue);
+  border-radius: 99px;
+}
+
+/* ── Selection color ─────────────────────────────────────────── */
+::selection {
+  background: var(--hg-yellow);
+  color: var(--hg-dark);
+}

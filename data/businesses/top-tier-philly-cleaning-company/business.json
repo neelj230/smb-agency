@@ -11,9 +11,9 @@
   "website": null,
   "rating": 5,
   "reviewCount": 36,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Spotless Homes. Real People. Zero Stress.",
+  "brandNarrative": "Top Tier Philly Cleaning Company isn't just another cleaning service — it's the team Philadelphia homeowners actually trust to hand their keys to. Sam and Junior, the duo behind every clean, have built a reputation on the kind of professionalism that surprises people. Andrew Bogert, a military veteran, put it plainly: they showed up at 8:30 AM sharp, went straight to work, and left his home 'spotless and very organized.' That's not a coincidence — that's character. Tess Schneider noted they made a point to understand her home's specific needs before ever picking up a sponge, and then went further by helping with reorganization no one asked them to do. That's the Top Tier difference: they treat every room like it matters, because to them, it does.\n\nWhat keeps clients coming back week after week — and writing five-star reviews without being asked — is the combination of meticulous attention to detail and a genuinely warm, low-pressure experience. Sedef Paquette has them in weekly and says the results 'exceed expectations every time.' Ingrid noted her home had 'never looked better,' and praised the team for working quietly and courteously throughout. In a city full of transactional service experiences, Top Tier delivers something rarer: reliability you can feel, from people who clearly take pride in the work.\n\nPriced fairly for the quality they deliver, and flexible enough to work around busy Philadelphia schedules, Top Tier Philly Cleaning operates Monday through Friday out of the Germantown neighborhood — bringing the same level of care to rowhouses, family homes, and everything in between. With a perfect 5-star rating across 36 reviews and not a single complaint on record, this is a business that has quietly earned its name.",
+  "ownerStory": "Sam and Junior are the heartbeat of Top Tier Philly Cleaning — and if you read through the reviews, their names come up again and again, always paired with words like trustworthy, honest, respectful, and hardworking. They're not a faceless company sending rotating strangers into your home. They're the guys who show up on time, introduce themselves, ask the right questions, and then get to work. Andrew Bogert — a veteran who knows what real professionalism looks like — said meeting Sam and Junior felt like finding people he could genuinely trust, and he left for breakfast mid-clean without a second thought. That kind of confidence isn't built through marketing. It's built through showing up, doing the job right, and treating every client's home like it's their own.\n\nBased in Philadelphia's Germantown neighborhood, Sam and Junior built Top Tier on a simple belief: that cleaning done right is a genuine service to someone's life, not just a chore for hire. Tess Schneider captured it well when she called them 'a wonderful and trustworthy cleaning team' — and that word, trustworthy, is the throughline in nearly every review they've ever received. They're not just cleaning homes. They're giving people back their time, their peace of mind, and a front door they're proud to walk through.",
   "hours": {
     "Monday": "8:00 AM – 5:00 PM",
     "Tuesday": "8:00 AM – 5:00 PM",
@@ -23,7 +23,38 @@
     "Saturday": "Closed",
     "Sunday": "Closed"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Weekly Recurring Cleaning",
+      "description": "Consistent, scheduled weekly cleaning that keeps your home spotless without you lifting a finger — the same reliable team every visit.",
+      "icon": "calendar-check"
+    },
+    {
+      "name": "Deep Home Cleaning",
+      "description": "A thorough, top-to-bottom clean covering every room with meticulous attention to detail, ideal for first-time clients or seasonal refreshes.",
+      "icon": "sparkles"
+    },
+    {
+      "name": "Home Organization & Tidying",
+      "description": "Beyond cleaning, the team helps reorganize cluttered spaces to make your home feel truly ordered and functional — often offered at no extra charge.",
+      "icon": "layout-grid"
+    },
+    {
+      "name": "Move-In / Move-Out Cleaning",
+      "description": "Complete cleaning of a property before you arrive or after you leave, ensuring every surface is fresh and ready for the next chapter.",
+      "icon": "door-open"
+    },
+    {
+      "name": "Custom Cleaning Consultation",
+      "description": "A walkthrough of your home to understand its specific needs before any cleaning begins — because every house is different and deserves a tailored approach.",
+      "icon": "clipboard-list"
+    },
+    {
+      "name": "One-Time Cleaning",
+      "description": "A flexible, no-commitment single clean for guests, special occasions, or whenever life gets ahead of you and you need a reliable reset.",
+      "icon": "check-circle"
+    }
+  ],
   "reviews": [
     {
       "text": "We had a great experience with this cleaning service! They come weekly and consistently do an excellent job—everything is spotless every time and exceeds our expectations. Their pricing is very reasonable for the quality of work, and the team is incredibly friendly, professional, and attentive to detail. It’s such a relief to find a service we can trust. We’re so glad we found them!",
@@ -61,7 +92,28 @@
       "date": "2025-01-16"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Sam",
+      "role": "Co-Founder & Lead Cleaner",
+      "bio": "Sam is known for punctuality, professionalism, and an eye for detail that clients notice immediately. He takes time to understand each home before starting work, and his friendly, honest approach has made him a trusted presence in Philadelphia households.",
+      "credentials": [
+        "Punctual & reliable",
+        "Trustworthy & honest",
+        "Attention to detail praised by multiple clients"
+      ]
+    },
+    {
+      "name": "Junior",
+      "role": "Co-Founder & Lead Cleaner",
+      "bio": "Junior brings warmth, hard work, and quiet professionalism to every clean. Clients like Andrew Bogert specifically called him out for exceptional care in every space of the home, and his respectful, thorough approach has earned consistent five-star praise.",
+      "credentials": [
+        "Hardworking & respectful",
+        "Meticulous in every room",
+        "Trusted by military veteran clientele"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -76,28 +128,80 @@
   ],
   "stats": [
     {
-      "value": 36,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 5,
+      "suffix": "★",
+      "label": "Perfect Rating on Google"
     },
     {
-      "value": 5,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 36,
+      "suffix": "+",
+      "label": "Verified 5-Star Reviews"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "Five-Star Review Rate"
+    },
+    {
+      "value": 8,
+      "suffix": "AM",
+      "label": "On-Time Arrival, Every Time"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Who actually shows up to clean my home?",
+      "answer": "Sam and Junior, the founders of Top Tier Philly Cleaning, personally handle the majority of cleans. You're not getting a rotating roster of strangers — you're getting the same trusted team who knows your home and your preferences."
+    },
+    {
+      "question": "How do I know I can trust someone in my home?",
+      "answer": "Multiple clients, including a military veteran, have specifically praised Sam and Junior as trustworthy, honest, and respectful. One client left for breakfast mid-clean and came home to a spotless house. That level of trust is something they've earned — review by review."
+    },
+    {
+      "question": "What does a typical cleaning include?",
+      "answer": "Top Tier handles thorough cleaning of every room in your home with attention to detail in each space. They also offer light reorganization as needed, going above and beyond what most cleaning services include in a standard visit."
+    },
+    {
+      "question": "How quickly can you schedule a cleaning?",
+      "answer": "Very quickly. Andrew Bogert had a home tour and estimate on Wednesday and was scheduled for a cleaning by Friday morning at 8:30 AM. Same-week scheduling is often available."
+    },
+    {
+      "question": "Is the pricing reasonable for the quality?",
+      "answer": "Multiple reviewers specifically called out the pricing as 'very reasonable' and an 'excellent value' for the quality of work delivered. You get a meticulous, professional clean without premium agency pricing."
+    },
+    {
+      "question": "Do you offer recurring cleaning services?",
+      "answer": "Yes — weekly recurring cleaning is one of their most popular services. Clients like Sedef Paquette have used them on a weekly basis and report that the quality is consistently excellent every single visit."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#1B4F72",
+    "accent": "#A8D5E2",
+    "note": "Deep navy conveys the trust, professionalism, and reliability that reviewers praise repeatedly. The soft sky-blue accent reflects cleanliness, freshness, and the light feeling of a spotless home — without the sterile coldness of pure white. This palette feels premium but approachable, matching Sam and Junior's friendly-yet-professional personality."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "fair"
+    "top_3_strengths": [
+      "Exceptional personal trustworthiness — clients leave their homes unattended mid-clean, a rare and powerful signal of earned confidence",
+      "Consistent punctuality and professionalism — on-time arrival and immediate, focused work ethic praised across multiple independent reviews",
+      "Genuine above-and-beyond service — team regularly helps with reorganization and personalized care that exceeds standard cleaning expectations"
+    ],
+    "common_complaints": [
+      "None found — all 36 reviews are 5-star with zero negative feedback identified"
+    ],
+    "suggested_tagline": "Philadelphia Homes, Cleaned Like They're Ours",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "Trustworthy",
+      "Meticulous",
+      "Punctual",
+      "Warm",
+      "Hardworking"
+    ],
+    "named_staff": [
+      "Sam",
+      "Junior"
+    ]
   }
 }

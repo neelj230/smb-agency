@@ -1,0 +1,250 @@
+{
+  "name": "Pickles Paw Spa",
+  "slug": "pickles-paw-spa",
+  "category": "pet groomer",
+  "address": "828 S Central Ave suite #7",
+  "city": "Medford",
+  "state": "OR",
+  "zip": "97501",
+  "phone": "(541) 500-1037",
+  "email": "",
+  "website": null,
+  "rating": 4.8,
+  "reviewCount": 39,
+  "tagline": "Where Every Pup Leaves Prettier",
+  "brandNarrative": "Pickles Paw Spa isn't just a grooming appointment — it's a place where dogs are genuinely loved. Customers like Madeleine Herzog don't take their dogs anywhere else, and it's easy to see why: the team here has a knack for making pets feel at ease while delivering cuts that turn heads. Teddy walked out with a mohawk and a complimentary bandanna, and that kind of thoughtful, personality-driven finishing touch is exactly what sets Pickles apart from a standard clip-and-go shop. With a 4.8-star rating built on loyal, repeat clients, this Medford spa has earned a reputation built on trust, not just technique.\n\nThe story of Pickles Paw Spa is really a story about people following their groomers. Customers have tracked Sarah Donato and Sabrina across multiple locations — one even through a devastating shop fire — because the bond between groomer and pet is real here. Linda Willett followed Sarah for years before cheering her on as she opened her own spa. Lynette has followed Sabrina through two locations since her shop burned down, describing the relationship as one built on years of genuine care. That level of loyalty doesn't come from a good shampoo — it comes from groomers who remember your dog, understand their quirks, and treat every visit like it matters.\n\nLocated in suite #7 at 828 S Central Ave in Medford, Oregon, Pickles Paw Spa operates six days a week, keeping focused hours that prioritize quality over volume. The spa's warm, colorful aesthetic — bandannas, bright blankets, playful setups — reflects a team that genuinely enjoys what they do. McKenna Sullivan noted the time efficiency and quality in the same breath, which is rare and tells you something: this team has their rhythm down.",
+  "ownerStory": "Sarah Donato built her reputation one dog at a time, clip by clip, across multiple grooming stops before finally planting her flag with Pickles Paw Spa. Her loyal client Linda Willett put it simply: 'She is an amazing groomer, a hard worker and a great gal.' Sarah's clients didn't just follow her — they celebrated when she finally opened her own place, because they knew she'd earned it. Owning a spa means she sets the standard now, and everything from the complimentary bandannas to the mohawks on request reflects a groomer who takes real pride in her craft.\n\nAlongside Sarah, Sabrina brings her own fierce following to the Pickles team. Her clients have followed her through job changes and even through the trauma of losing her own shop to a fire — a testament to the kind of trust that only grows when someone truly cares for your animals over many years. Together, Sarah and Sabrina represent the heart of what Pickles Paw Spa is: a place built by groomers who love dogs, for owners who love their dogs just as much.",
+  "hours": {
+    "Monday": "9:00 AM – 4:00 PM",
+    "Tuesday": "9:00 AM – 4:00 PM",
+    "Wednesday": "9:00 AM – 4:00 PM",
+    "Thursday": "9:00 AM – 4:00 PM",
+    "Friday": "9:00 AM – 4:00 PM",
+    "Saturday": "9:00 AM – 4:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Full Groom & Breed Cut",
+      "description": "A complete grooming session including bath, blow-dry, and a breed-appropriate or custom cut tailored to your dog's style — mohawks welcome.",
+      "icon": "scissors"
+    },
+    {
+      "name": "Puppy's First Groom",
+      "description": "A gentle, stress-free introduction to grooming designed to help young pups build positive associations with the spa experience.",
+      "icon": "heart"
+    },
+    {
+      "name": "Bath & Brush Out",
+      "description": "A thorough shampoo, conditioner, blow-dry, and full brush-out to remove loose fur and leave coats clean and healthy.",
+      "icon": "droplets"
+    },
+    {
+      "name": "Ear Cleaning & Inspection",
+      "description": "Careful ear cleaning and visual inspection to keep ears healthy and catch early signs of irritation or infection.",
+      "icon": "search"
+    },
+    {
+      "name": "Nail Trim & Paw Care",
+      "description": "Nail clipping, filing, and paw pad check to keep your dog comfortable on their feet between full groom visits.",
+      "icon": "footprints"
+    },
+    {
+      "name": "Finishing & Bandanna Styling",
+      "description": "Every groom is finished with a complimentary colorful bandanna and optional styling touches that send your pup out looking their absolute best.",
+      "icon": "sparkles"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "This really is a great spot, and I don’t take Teddy anywhere else. You can tell they all love dogs and I feel like Teddy is in great hands! They also do a great job on his cut too - they gave him a mohawk and he looks so cute in the complementary bandanna they gave him! Thank you!!",
+      "author": "Madeleine Herzog",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-09"
+    },
+    {
+      "text": "I have followed Sarah Donato wherever her clippers landed. I was so incredibly happy for her when she was able to purchase her own doggy spa!  She is an amazing groomer, a hard worker and a great gal. If you’re looking for a groomer I would highly suggest Pickles Paw Spa.",
+      "author": "Linda Willett",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-10"
+    },
+    {
+      "text": "Wonderful place. Very time efficient and quality service. Friendly staff & my puppy looked so adorable when I picked him up (: Definitely recommend (:",
+      "author": "McKenna Sullivan",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-20"
+    },
+    {
+      "text": "Sabrina had her own shop, but it burned down.  Sabrina has been taking care of my dogs for many years.\n\nSince the fire i have followed Sabrina to two other locations.  Sabrina has been so wonderful with my dogs.  We all love her and how she cares for us. We would follow Sabrina anywhere.",
+      "author": "Lynette",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-07-03"
+    },
+    {
+      "text": "Sabrina isn’t friendly or welcoming at all. She honestly gave me slight anxiety coming here after awhile. She was great at grooming at fist then her work got super sloppy.  I’ll be finding a new groomer who can offer great customer service.",
+      "author": "J G",
+      "rating": 1,
+      "source": "google",
+      "date": "2026-02-14"
+    }
+  ],
+  "team": [
+    {
+      "name": "Sarah Donato",
+      "role": "Owner & Lead Groomer",
+      "bio": "Sarah built a devoted following across multiple grooming locations before opening Pickles Paw Spa. Described by longtime clients as an amazing groomer, a hard worker, and a genuinely great person — her clientele followed her here and wouldn't think of going anywhere else.",
+      "credentials": [
+        "Owner-operator",
+        "Longtime professional groomer",
+        "Known for creative styling and custom cuts"
+      ]
+    },
+    {
+      "name": "Sabrina",
+      "role": "Senior Groomer",
+      "bio": "Sabrina has years of experience building deep, lasting relationships with pet families — so much so that clients have followed her through multiple job changes and even a shop fire. Her gentle, caring approach to dogs has earned her a loyal following that considers her part of the family.",
+      "credentials": [
+        "Multi-year client relationships",
+        "Former shop owner",
+        "Trusted with long-term pet care"
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Corgi dog sitting on tile floor, looking up at camera with tongue out",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Senior black dog sitting in car back seat wearing colorful bandana",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Dark dog wearing pink collar lying on colorful blankets indoors",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Black dog with pink collar looking up at camera on outdoor path",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Close-up of dog's ear wound being examined by veterinarian during medical inspection",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Brown long-haired dog with tongue out, held in someone's hands indoors",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Black dog wearing colorful bandana sitting on gravel ground outdoors",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Black service dog in pink training vest looking at camera indoors",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Black dog wearing red collar sitting in car interior with wet windows",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Black and white dog playing with brown toy on green carpet floor indoors",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 4.8,
+      "suffix": "★",
+      "label": "Average Star Rating"
+    },
+    {
+      "value": 39,
+      "suffix": "+",
+      "label": "Verified Customer Reviews"
+    },
+    {
+      "value": 6,
+      "suffix": " days",
+      "label": "Open Every Week"
+    },
+    {
+      "value": 100,
+      "suffix": "+",
+      "label": "Happy Pups Groomed"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Do you offer custom styling like mohawks or special cuts?",
+      "answer": "Absolutely. Our groomers love getting creative — one happy client's dog walked out with a mohawk and a complimentary bandanna to match. Just let us know what you have in mind at drop-off and we'll make it happen."
+    },
+    {
+      "question": "What's included in a standard grooming appointment?",
+      "answer": "A full groom typically includes a bath, blow-dry, breed or custom cut, ear cleaning, nail trim, and our signature finishing touch: a complimentary colorful bandanna. We want your pup to leave looking and feeling their best."
+    },
+    {
+      "question": "Is this a good place for first-time or nervous dogs?",
+      "answer": "Yes — our team genuinely loves dogs, and that comes through in how they handle animals. Clients regularly comment that they feel their pets are in great hands, and we take extra care with anxious or first-time visitors."
+    },
+    {
+      "question": "How far in advance do I need to book?",
+      "answer": "We recommend calling ahead to secure your preferred time slot. You can reach us at (541) 500-1037. We're open Monday through Saturday, 9 AM to 4 PM, so there's flexibility throughout the week."
+    },
+    {
+      "question": "Who are the groomers at Pickles Paw Spa?",
+      "answer": "The spa is owned and operated by Sarah Donato, a highly regarded groomer with a loyal following built over many years. Sabrina is also part of the team, bringing her own dedicated client base and years of experience caring for dogs of all breeds and temperaments."
+    },
+    {
+      "question": "What if I have a senior or special-needs dog?",
+      "answer": "We have experience with dogs of all ages and needs. Our team is attentive and patient, and we adjust our approach to make every dog — including seniors and those with health considerations — as comfortable as possible throughout their visit."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#5B8C5A",
+    "accent": "#F4A261",
+    "note": "Earthy sage green reflects a warm, nature-loving pet care vibe — trustworthy and calm. The warm amber-orange accent mirrors the colorful bandannas and playful energy described in reviews, giving the brand a fun, approachable personality without feeling clinical or corporate."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Deeply loyal customer base — multiple reviewers have followed individual groomers across locations and even through a shop fire, indicating extraordinary personal trust",
+      "Creative, personality-driven grooming with finishing touches like custom cuts and complimentary bandannas that delight owners and make dogs look memorable",
+      "Efficient, friendly service that balances quality with timeliness — reviewers praise both the results and the experience without trade-off"
+    ],
+    "common_complaints": [
+      "One reviewer noted that grooming quality declined over time and cited a lack of warmth from groomer Sabrina, suggesting consistency and customer service standards may need monitoring as the team grows"
+    ],
+    "suggested_tagline": "Groomed with Love. Finished with Flair.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "Loyal",
+      "Warm",
+      "Creative",
+      "Trustworthy",
+      "Playful"
+    ],
+    "named_staff": [
+      "Sarah Donato",
+      "Sabrina"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

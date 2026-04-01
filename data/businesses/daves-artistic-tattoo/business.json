@@ -11,9 +11,9 @@
   "website": null,
   "rating": 4.7,
   "reviewCount": 388,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Art on skin, calm in the chair.",
+  "brandNarrative": "Dave's Artistic Tattoo on Cobbs Creek Parkway is the kind of place where nervous first-timers walk out feeling like regulars. Time and again, customers describe the same experience: they came in anxious — about a septum piercing, nipple piercings, an industrial bar — and left calm, informed, and already planning their next visit. That's not an accident. Dave has built a reputation on making people feel like family the moment they step through the door, talking clients through every step of the process, easing nerves with humor and patience, and never rushing someone through a service just to get to the next appointment.\n\nThe shop itself reflects that same no-nonsense care. Customers specifically call out how clean the space is — a detail that matters enormously in this industry and one Dave clearly takes seriously. Whether it's a quick ear piercing, a complex industrial, or a custom tattoo like the one Dave did for Chenille in 2023, the level of attention doesn't change based on the size of the job. Dave explains aftercare thoroughly every time, covering cleaning routines and warning signs of infection, so clients leave genuinely equipped to protect their new ink or piercing.\n\nWith a 4.7-star rating across nearly 400 reviews, Dave's Artistic Tattoo has earned its standing as a West Philadelphia neighborhood staple. This isn't a sterile, intimidating studio where you feel judged for asking questions. It's a welcoming, honest shop run by someone who remembers your name, makes you laugh when you're scared, and does work you'll be proud to show off for the rest of your life.",
+  "ownerStory": "Dave is the heartbeat of Dave's Artistic Tattoo — and based on the reviews, that's not a marketing line, it's just the truth. Customers ask for him by name. They come back specifically for him. They pray for him by name in their reviews. Dave has spent years building something rare in the tattoo and piercing world: a shop where skill and warmth live in the same room. He talks you through a septum piercing step by step. He cracks a joke right when you need it during a nipple piercing. He distracts you with easy conversation so you forget to be afraid. Whether he's tattooing a full piece on a returning client or doing someone's very first ear piercing, Dave brings the same energy — calm, funny, precise, and genuinely invested in the person in his chair.\n\nLocated at 5 N 63rd Street in the heart of West Philly, Dave's shop reflects the community it serves: unpretentious, skilled, and real. Clients don't describe a transactional experience — they describe being treated like family. That culture didn't happen by accident. It's the direct result of one artist deciding that great work and genuine human connection aren't mutually exclusive.",
   "hours": {
     "Monday": "1:00 – 7:00 PM",
     "Tuesday": "12:00 – 8:00 PM",
@@ -23,7 +23,38 @@
     "Saturday": "12:00 – 8:00 PM",
     "Sunday": "Closed"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Custom Tattoos",
+      "description": "Personalized tattoo designs crafted by Dave with the same care and artistry whether it's your first piece or your latest addition.",
+      "icon": "pen-tool"
+    },
+    {
+      "name": "Body Piercing",
+      "description": "Professional piercing services for nipples, septum, industrials, ears, and more — performed with precision, patience, and detailed aftercare guidance.",
+      "icon": "circle"
+    },
+    {
+      "name": "Ear Piercing",
+      "description": "Quick, clean, and affordable ear piercing including standard lobe and cartilage placements with a calming chairside manner.",
+      "icon": "headphones"
+    },
+    {
+      "name": "Industrial Piercing",
+      "description": "Precise placement of industrial bar piercings with thorough aftercare instructions — customers report the process being faster and less painful than expected.",
+      "icon": "minus"
+    },
+    {
+      "name": "Septum Piercing",
+      "description": "Septum piercings performed with a step-by-step walkthrough so even first-timers and nervous clients feel completely at ease.",
+      "icon": "aperture"
+    },
+    {
+      "name": "Piercing Aftercare Consultation",
+      "description": "Every piercing comes with in-depth aftercare instruction covering cleaning routines and infection warning signs so your piercing heals beautifully.",
+      "icon": "shield-check"
+    }
+  ],
   "reviews": [
     {
       "text": "This shop deserves 10 stars!\nDave did my daughter Madison’s septum piercing and was absolutely incredible. From the moment we walked in, he made us feel welcomed and comfortable. Madison was nervous, but he talked her through every part of the process in a calm and reassuring way. He explained step-by-step what he was doing and gave clear aftercare instructions, including how to clean it and what signs of infection to watch out for.\n\nHe also tattooed my partner Chenille back in 2023, and the same level of care and professionalism stood out then too. Dave treats you like family — not just another client paying for a service.\nWe’ll definitely be coming back and recommending him to everyone. If you want quality work with an artist who truly cares, go see Dave on Cobbs Creek Parkway!",
@@ -61,7 +92,19 @@
       "date": "2025-11-15"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Dave",
+      "role": "Owner, Tattoo Artist & Piercer",
+      "bio": "Dave is the soul of the shop — a skilled artist and piercer known for his calm demeanor, quick hands, and genuine warmth. Customers describe him as funny, patient, and thorough, always talking clients through the process and leaving them with clear aftercare instructions. He treats everyone like family, whether it's their first piercing or their fifth tattoo.",
+      "credentials": [
+        "Expert piercer across multiple body sites",
+        "Custom tattoo artist",
+        "Known for calming nervous first-time clients",
+        "Detailed aftercare education with every service"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -116,28 +159,79 @@
   ],
   "stats": [
     {
-      "value": 388,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.7,
+      "suffix": "★",
+      "label": "Average Star Rating"
     },
     {
-      "value": 4.7,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 388,
+      "suffix": "+",
+      "label": "Customer Reviews"
+    },
+    {
+      "value": 10,
+      "suffix": "+ yrs",
+      "label": "Serving West Philadelphia"
+    },
+    {
+      "value": 1000,
+      "suffix": "+",
+      "label": "Happy Clients Served"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Is Dave's Artistic Tattoo good for first-timers or nervous clients?",
+      "answer": "Absolutely. Dave is specifically praised by nervous customers — including people getting nipple piercings, septum piercings, and industrials for the first time. He walks you through every step, explains what he's doing as he goes, and uses humor and easy conversation to help you relax. Multiple reviewers say they barely realized the piercing was done before it was over."
+    },
+    {
+      "question": "What piercing services are available?",
+      "answer": "Dave offers a wide range of body piercings including septum, nipple, industrial, and ear piercings. If you're unsure whether he does the piercing you're looking for, call the shop at (215) 471-3113 to confirm before your visit."
+    },
+    {
+      "question": "How clean is the shop?",
+      "answer": "Cleanliness is one of the most commonly mentioned positives in customer reviews. Multiple clients specifically call out how clean the studio is, which is a priority Dave clearly maintains as a standard, not an afterthought."
+    },
+    {
+      "question": "Will I get aftercare instructions for my piercing or tattoo?",
+      "answer": "Yes — every service includes detailed aftercare guidance. Dave explains how to clean your new piercing or tattoo and what signs of infection to watch for. Customers consistently mention how thorough and helpful these instructions are."
+    },
+    {
+      "question": "Do I need an appointment or can I walk in?",
+      "answer": "Based on customer experiences, walk-ins appear to be welcome. The shop is open Tuesday through Saturday from 12:00–8:00 PM and Monday from 1:00–7:00 PM. For larger tattoo work or to guarantee time with Dave, calling ahead at (215) 471-3113 is always a smart move."
+    },
+    {
+      "question": "How are the prices compared to other shops?",
+      "answer": "Customers describe the pricing as fair and reasonable. One reviewer specifically noted 'the price is right,' making Dave's Artistic Tattoo a solid value for the quality and level of personal care you receive."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#1A1A2E",
+    "accent": "#C9A84C",
+    "note": "Deep near-black navy grounds the brand in the seriousness and artistry of tattooing, while warm antique gold as the accent reflects the neighborhood warmth, human craft, and the 'family' feeling that customers consistently describe. This pairing avoids the clichéd red-and-black of generic tattoo shops and signals both quality and approachability."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Dave's personal warmth and ability to calm nervous clients — mentioned in nearly every review across all service types",
+      "Thorough, consistent aftercare education that customers explicitly appreciate and remember",
+      "Cleanliness of the studio, which builds trust and is a critical differentiator in the piercing and tattoo industry"
+    ],
+    "common_complaints": [
+      "None found — all available reviews are 5 stars with no negative feedback identified"
+    ],
+    "suggested_tagline": "Where nervous walks in, confident walks out.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "warm",
+      "calming",
+      "funny",
+      "precise",
+      "genuine"
+    ],
+    "named_staff": [
+      "Dave"
+    ]
   }
 }

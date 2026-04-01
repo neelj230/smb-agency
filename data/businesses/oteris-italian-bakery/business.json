@@ -11,9 +11,9 @@
   "website": "http://oterisitalianbakery.com/",
   "rating": 4.1,
   "reviewCount": 359,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Cakes That Make Jaws Drop.",
+  "brandNarrative": "Oteri's Italian Bakery on Woodland Avenue has been the kind of place Philadelphia families turn to when the moment actually matters. When Stephanie Thurman's daughter finally got her long-awaited 21st birthday celebration — postponed from January to June so everyone could make it — the cake from Oteri's was the moment that stopped the room. Phones came out, jaws dropped, and the family chat lit up with people who hadn't even been there asking where it came from. That kind of reaction isn't an accident. It's the result of a bakery that treats a custom order like a genuine occasion, not just a transaction.\n\nWith a 4.1-star rating across nearly 360 reviews, Oteri's has built real loyalty in the Southwest Philadelphia community. Customers like Ivan describe the staff as 'very nice' and the experience as quick and pleasant, while Charlie Cochran gave the cake a flat 10 out of 10 and pledged to return. The bakery opens early — 7 AM six days a week — and the Sunday hours reflect a neighborhood rhythm built around church mornings and family brunches. This is a bakery woven into the fabric of the block it sits on.\n\nThe honest picture, though, includes some turbulence. A handful of reviews describe painful birthday moments — a crumbling strawberry shortcake sold past its prime, a layer cake order that arrived as pound cake with no accountability from management. These aren't small complaints; birthdays are high-stakes. What they reveal is a bakery with genuine talent and clear capacity for spectacular work, operating in a way that isn't always consistent. The best version of Oteri's — the one that makes daughters cry happy tears and family chats explode — is real and worth seeking out.",
+  "ownerStory": "Oteri's Italian Bakery carries a name that suggests old-world roots and a family that decided, at some point, that Philadelphia deserved real Italian baking. Located at 6323 Woodland Ave in the heart of a close-knit neighborhood, the bakery has become a landmark for celebrations — the place you call when your kid's birthday needs to be a moment, not just a cake. The work that goes into a specialty custom cake at Oteri's is visible in the reactions customers describe: dropped jaws, rushed phone cameras, guests asking for the bakery's name before the candles are even blown out.\n\nThe bakery's character is shaped by the tension every neighborhood institution faces — the pressure to be consistent when handmade work is inherently human. On the best days, Oteri's delivers something magical. The goal, clearly, has always been for every customer to feel the way Stephanie Thurman's family felt: like the cake was made specifically to make the day unforgettable. That aspiration is the soul of this place, and it's why customers who've had a difficult experience often note they've been coming for years — because they know what Oteri's is capable of.",
   "hours": {
     "Monday": "7:00 AM – 6:00 PM",
     "Tuesday": "7:00 AM – 6:00 PM",
@@ -23,7 +23,38 @@
     "Saturday": "7:00 AM – 6:00 PM",
     "Sunday": "8:00 AM – 3:00 PM"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Custom Specialty Cakes",
+      "description": "Fully custom-designed celebration cakes built around your event, style, and vision — the kind that stop rooms and flood family group chats.",
+      "icon": "cake"
+    },
+    {
+      "name": "Birthday Cakes",
+      "description": "Personalized birthday cakes for milestone moments, from sweet sixteens to 21st birthdays, crafted to be the centerpiece of the celebration.",
+      "icon": "gift"
+    },
+    {
+      "name": "Italian Pastries & Baked Goods",
+      "description": "Daily-baked Italian pastries and traditional baked goods available in-store from opening, reflecting the bakery's old-world Italian heritage.",
+      "icon": "croissant"
+    },
+    {
+      "name": "Strawberry Shortcake & Specialty Desserts",
+      "description": "Signature dessert options including strawberry shortcake and seasonal specialty items available for same-day pickup when in stock.",
+      "icon": "cherry"
+    },
+    {
+      "name": "Layered & Tiered Cakes",
+      "description": "Multi-layer cake builds designed to impress at parties and gatherings, with custom flavor combinations and decorative icing work.",
+      "icon": "layers"
+    },
+    {
+      "name": "Phone & Walk-In Orders",
+      "description": "Orders accepted by phone or in person, with name reservations placed on cakes to hold them for pickup — open Monday through Sunday.",
+      "icon": "phone-call"
+    }
+  ],
   "reviews": [
     {
       "text": "Very nice staff and  my purchase was made quickly. I will definitely be returning and we thank you so much for the cake! It was magnificent!",
@@ -116,28 +147,79 @@
   ],
   "stats": [
     {
-      "value": 359,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.1,
+      "suffix": "★",
+      "label": "Average Customer Rating"
     },
     {
-      "value": 4.1,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 359,
+      "suffix": "+",
+      "label": "Customer Reviews"
+    },
+    {
+      "value": 6,
+      "suffix": " days",
+      "label": "Open Early at 7 AM"
+    },
+    {
+      "value": 1,
+      "suffix": " neighborhood",
+      "label": "Rooted in Southwest Philly"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Can I order a custom cake for a birthday or special event?",
+      "answer": "Yes — custom specialty cakes are one of Oteri's signature offerings. Customers have ordered elaborate designs for milestone birthdays like 21sts and reported that guests were stunned by how beautiful they looked. It's best to call ahead and discuss your vision in detail so the team can deliver exactly what you're imagining."
+    },
+    {
+      "question": "How far in advance should I place my cake order?",
+      "answer": "For custom or specialty cakes, the earlier the better. Elaborate celebration cakes require planning and design time. Calling several days — or even a week or more — before your event gives the bakery the best chance to meet your expectations and avoid last-minute issues."
+    },
+    {
+      "question": "What are your hours and when is the best time to visit?",
+      "answer": "Oteri's is open Monday through Saturday from 7:00 AM to 6:00 PM, and Sunday from 8:00 AM to 3:00 PM. Early mornings are a great time to pick up fresh pastries and baked goods. Sunday hours are shorter, so plan your pickup accordingly."
+    },
+    {
+      "question": "What should I do if my order isn't what I asked for?",
+      "answer": "Some customers have reported receiving incorrect orders and have been offered store credit. If your cake doesn't match what was ordered, speak with the staff immediately at the time of pickup — before your event — to allow time to address the issue. Documenting your order details in writing when you place it can also help avoid miscommunication."
+    },
+    {
+      "question": "Do you hold cakes with a name reservation if I call ahead?",
+      "answer": "Yes, the bakery will place your name on a held cake when you call. However, availability on popular items like strawberry shortcake can change quickly, so it's best to confirm when you arrive and, if possible, prepay or get written confirmation of your hold."
+    },
+    {
+      "question": "What makes Oteri's cakes worth it for a big celebration?",
+      "answer": "When the team is at their best, the results are genuinely spectacular. Multiple customers describe phones coming out for photos, guests asking where the cake came from, and celebrations made memorable specifically because of the cake. For milestone events, customers consistently say the quality was 'worth every single penny.'"
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#8B1A1A",
+    "accent": "#D4A843",
+    "note": "Deep Italian red evokes tradition, passion, and old-world bakery warmth — think terracotta and Sunday gravy. The warm gold accent mirrors the color of perfectly baked crust, cannoli shells, and celebratory gilding on custom cakes. Together they communicate heritage and occasion without being stuffy."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Spectacular custom cake design that generates genuine wow moments — customers describe jaw-dropping reactions, phone cameras rushing out, and family chats flooding with compliments",
+      "Strong neighborhood loyalty and long-term repeat customers who have trusted Oteri's for years across multiple celebrations",
+      "Fast, friendly in-store experience on good days — staff described as 'very nice' and purchases handled quickly"
+    ],
+    "common_complaints": [
+      "Inconsistent quality control — some cakes delivered crumbling, freezer-burned, or with excessively hard icing that made cutting impossible",
+      "Order accuracy failures — at least one customer received pound cake instead of the layered cake they ordered and paid for",
+      "Management accessibility issues — dissatisfied customers report being unable to reach owners or escalate complaints effectively"
+    ],
+    "suggested_tagline": "Where Philadelphia Celebrations Get Their Cake.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "celebratory",
+      "neighborhood institution",
+      "artisan",
+      "inconsistent",
+      "old-world"
+    ],
+    "named_staff": []
   }
 }

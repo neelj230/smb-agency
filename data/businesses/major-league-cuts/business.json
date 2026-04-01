@@ -11,9 +11,9 @@
   "website": null,
   "rating": 4.5,
   "reviewCount": 326,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Look Like a Million. Feel Like It Too.",
+  "brandNarrative": "Major League Cuts on Market Street isn't just a barbershop — it's a West Philadelphia institution. With doors open as early as 6 AM six days a week, this shop runs on the rhythm of the neighborhood, serving everyone from working men catching a cut before the shift to fathers bringing their sons in for their first real barbershop experience. The shop is run by owner Chuck, who customers describe as a genuinely great guy who keeps things clean, professional, and consistently excellent. After 15-plus years of loyal clientele, the reputation here isn't built on hype — it's built on showing up every single day and delivering.\n\nThe barbers at Major League Cuts each bring something distinct to the chair. Bryant has earned a devoted following among long-term regulars who trust nobody else with their shape-up. GEE da barber has been called out specifically for his friendliness and standout skill — one parent brought her 10-year-old son in for the first time and left raving about both the experience and the cut. These aren't just technicians — they're personalities who make every client feel welcomed and valued from the moment they walk through the door. The shop accepts almost all payment methods, keeping the experience seamless and stress-free.\n\nWhat keeps people coming back to Major League Cuts for over a decade isn't just sharp fades or clean lines — it's the atmosphere. Customers describe it as chill, laid-back, and comfortable, but never sloppy or unprofessional. The shop takes visible pride in its appearance and its craft, and that pride shows in every cut that walks out the door. With a 4.5-star rating across 326 reviews, this is a place that has quietly earned major league status in a neighborhood that demands authenticity.",
+  "ownerStory": "Chuck, the owner of Major League Cuts, has built something rare on Market Street: a barbershop where loyalty is measured in decades, not visits. Longtime customers speak about him with genuine warmth — not just as a business owner, but as someone who sets the tone for how the whole shop operates. He keeps the space clean, the team professional, and the energy right. That consistency doesn't happen by accident. It comes from someone who treats the craft seriously and treats every person who walks through the door like they matter.\n\nUnder Chuck's ownership, Major League Cuts has become a cornerstone of the West Philly community, staying open long hours — 6 AM to 9 PM Monday through Saturday — to make sure working people, parents, and everyone in between can always get a cut when they need one. He's cultivated a team that reflects his values: skilled barbers like Bryant and GEE who are as known for their personalities as their precision. Chuck doesn't just run a barbershop — he runs a neighborhood staple.",
   "hours": {
     "Monday": "6:00 AM – 9:00 PM",
     "Tuesday": "6:00 AM – 9:00 PM",
@@ -23,7 +23,38 @@
     "Saturday": "6:00 AM – 9:00 PM",
     "Sunday": "7:00 AM – 6:00 PM"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Precision Haircut & Shape-Up",
+      "description": "A full barbershop haircut with razor-sharp line detailing and edge work, tailored to your style.",
+      "icon": "scissors"
+    },
+    {
+      "name": "Kids' Haircut",
+      "description": "A welcoming, patient barbershop experience designed for children, with skilled cuts that parents and kids both love.",
+      "icon": "smile"
+    },
+    {
+      "name": "Fade & Taper",
+      "description": "Seamless low, mid, or high fades with precise tapering for a clean, polished finish.",
+      "icon": "sliders"
+    },
+    {
+      "name": "Beard Trim & Line-Up",
+      "description": "Expert beard shaping and trimming to keep your facial hair sharp and well-defined.",
+      "icon": "align-center"
+    },
+    {
+      "name": "Hot Towel Shave",
+      "description": "A classic straight-razor shave with hot towel treatment for a smooth, close finish.",
+      "icon": "wind"
+    },
+    {
+      "name": "Hair Design & Custom Cuts",
+      "description": "Creative custom hair designs and signature cuts for clients who want something beyond the basics.",
+      "icon": "pen-tool"
+    }
+  ],
   "reviews": [
     {
       "text": "Clean and comfortable. I've been going to them for years. They take pride in the their appearance. They take almost all payment methods and will have looking and feeling like a million bucks.",
@@ -61,7 +92,38 @@
       "date": "2025-11-18"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Chuck",
+      "role": "Owner & Master Barber",
+      "bio": "Chuck is the heart of Major League Cuts — a great guy who runs a clean, professional shop and has built a loyal community of clients that spans over 15 years. His leadership sets the standard for everything that happens inside these walls.",
+      "credentials": [
+        "Owner & Founder",
+        "15+ Years in Business",
+        "Community Trusted"
+      ]
+    },
+    {
+      "name": "Bryant",
+      "role": "Senior Barber",
+      "bio": "Bryant is a go-to barber for long-term regulars who trust no one else with their cut. His consistency and professionalism have earned him a devoted clientele that keeps coming back year after year.",
+      "credentials": [
+        "Long-Term Client Favorite",
+        "Precision Cuts",
+        "15+ Years at Major League Cuts"
+      ]
+    },
+    {
+      "name": "GEE da Barber",
+      "role": "Barber",
+      "bio": "GEE is known for his infectious friendliness and undeniable skill — the kind of barber who makes first-timers feel instantly at home, from young kids to adults. Parents specifically seek him out for their children's cuts.",
+      "credentials": [
+        "Kids' Cuts Specialist",
+        "Customer Favorite",
+        "Highly Skilled"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -116,28 +178,81 @@
   ],
   "stats": [
     {
-      "value": 326,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.5,
+      "suffix": "★",
+      "label": "Average Customer Rating"
     },
     {
-      "value": 4.5,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 326,
+      "suffix": "+",
+      "label": "Customer Reviews"
+    },
+    {
+      "value": 15,
+      "suffix": "+ yrs",
+      "label": "Serving West Philadelphia"
+    },
+    {
+      "value": 6,
+      "suffix": " AM",
+      "label": "Open Early, 6 Days a Week"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "What are your hours and do I need an appointment?",
+      "answer": "Major League Cuts is open Monday through Saturday from 6:00 AM to 9:00 PM, and Sunday from 7:00 AM to 6:00 PM. The early morning hours are perfect for clients who need a cut before work. Call ahead at (215) 747-1119 to check wait times or ask about your preferred barber's availability."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "The shop accepts almost all payment methods, so you won't need to worry about stopping at an ATM before your visit. Cash, card, and digital payments are all welcome."
+    },
+    {
+      "question": "Is this a good shop for kids?",
+      "answer": "Absolutely. GEE da barber is especially well-loved by parents bringing their children in for cuts. Customers describe him as friendly, skilled, and great at making kids feel comfortable in the chair. The whole shop has a laid-back, welcoming vibe."
+    },
+    {
+      "question": "Can I request a specific barber?",
+      "answer": "Yes — many regulars come specifically for Bryant or GEE. If you have a preferred barber, it's always a good idea to call ahead at (215) 747-1119 to confirm their schedule and minimize your wait."
+    },
+    {
+      "question": "What makes Major League Cuts different from other shops in the area?",
+      "answer": "Customers consistently point to three things: the cleanliness of the shop, the professionalism of the barbers, and the long-term relationships they build here. Many clients have been coming for 10 to 15-plus years. That kind of loyalty doesn't come from good marketing — it comes from consistently great cuts and a genuine community atmosphere."
+    },
+    {
+      "question": "I'm new to the shop — what should I expect?",
+      "answer": "New clients describe the shop as chill and laid-back with friendly, skilled barbers. You'll be greeted and taken care of. If you're unsure who to sit with, any barber on the floor will give you a quality cut — and you can always ask around for recommendations once you're in the door."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#1A1A2E",
+    "accent": "#C8972B",
+    "note": "Deep navy-black conveys professionalism, authority, and the 'major league' prestige of the brand name. The gold accent reflects the 'million bucks' feeling customers describe — premium quality without pretension, rooted in a real neighborhood."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Exceptional long-term customer loyalty — multiple reviewers have been clients for 10-15+ years, indicating consistent quality and relationship-building that is extremely rare in the service industry",
+      "Strong individual barber reputations — staff members Bryant and GEE are called out by name with specific praise, showing that personal connections drive retention and word-of-mouth referrals",
+      "Accessible hours and inclusive environment — 6 AM openings six days a week and a welcoming atmosphere for all ages (including kids) make the shop a practical and comfortable choice for the whole community"
+    ],
+    "common_complaints": [
+      "No complaints found in the provided reviews — one reviewer withheld a 5th star only because they were brand new and still getting a feel for the shop, which is not a complaint about quality or service"
+    ],
+    "suggested_tagline": "West Philly's Freshest Cut, Every Single Day.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "Professional",
+      "Community-rooted",
+      "Laid-back",
+      "Skilled",
+      "Welcoming"
+    ],
+    "named_staff": [
+      "Chuck (Owner)",
+      "Bryant",
+      "GEE da Barber"
+    ]
   }
 }

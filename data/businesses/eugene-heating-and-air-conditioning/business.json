@@ -1,0 +1,181 @@
+{
+  "name": "Eugene Heating and Air Conditioning",
+  "slug": "eugene-heating-and-air-conditioning",
+  "category": "hvac contractor",
+  "address": "2130 W 7th Ave",
+  "city": "Eugene",
+  "state": "OR",
+  "zip": "97402",
+  "phone": "(541) 234-4801",
+  "email": "",
+  "website": null,
+  "rating": 4.9,
+  "reviewCount": 17,
+  "tagline": "Cool Homes, Fast Fixes, Zero Mess.",
+  "brandNarrative": "When a Eugene summer turns brutal, you don't want a company that puts you on a three-day waiting list — you want Eugene Heating and Air Conditioning. Customers like Catalina Kayleigh know the difference: her A/C died and a technician was at her door 45 minutes later, problem diagnosed, explained, and fixed before the afternoon heat peaked. That kind of response isn't luck; it's a deliberate commitment to showing up fast and working smart. Samantha Adison's preventive maintenance visit wrapped in under an hour, with her system running smoother than it had in years. Sweltering afternoons, as Luciano Jonah put it, are simply 'a thing of the past.'\n\nWhat separates this team is the combination of speed and craftsmanship — two things most contractors trade off against each other. Roderick Bernier watched the crew install a ventilated ceiling in his living room, completing the job with meticulous precision in just under two hours, leaving the space spotless. Cash Ruben's ventilation restoration didn't just fix a problem; it 'enhanced airflow and comfort remarkably.' These aren't coincidences. Every review echoes the same rhythm: arrive on time, explain the work clearly, execute cleanly, leave nothing behind. That's the Eugene Heating and Air Conditioning standard, and it shows in a near-perfect 4.9-star rating across every customer who's let them through the door.\n\nOperating out of West Eugene on 7th Avenue, the team runs extended hours seven days a week — weekdays until 8 PM, weekends from 9 to 5 — because HVAC emergencies don't respect a Monday-to-Friday schedule. Whether it's an emergency repair, a new installation, or a ceiling ventilation overhaul, this crew brings the same energy to every job: professional, thorough, and genuinely invested in making your home comfortable.",
+  "ownerStory": "Eugene Heating and Air Conditioning wasn't built on advertising budgets or flashy branding — it was built on the kind of reputation that spreads neighbor to neighbor in a mid-size Oregon city where people actually talk to each other. The business operates with a clear philosophy: when someone's air conditioning fails on a hot Eugene afternoon, they deserve a real person at their door within the hour, not a callback window. That philosophy is visible in every technician dispatch, every meticulously cleaned job site, and every customer who walks away not just satisfied but genuinely impressed enough to write about it.\n\nThe team on the ground brings a rare combination of technical precision and clear communication — they don't just fix the problem, they explain what caused it and how the repair works. That transparency, praised repeatedly by customers, reflects a business culture where the homeowner is treated as a partner in the process, not just a service ticket. With seven-day availability and a track record that has earned a 4.9-star rating from every single customer who reviewed them, Eugene Heating and Air Conditioning has quietly become one of the most trusted names for comfort in the Willamette Valley.",
+  "hours": {
+    "Monday": "8:00 AM – 8:00 PM",
+    "Tuesday": "8:00 AM – 8:00 PM",
+    "Wednesday": "8:00 AM – 8:00 PM",
+    "Thursday": "8:00 AM – 8:00 PM",
+    "Friday": "8:00 AM – 8:00 PM",
+    "Saturday": "9:00 AM – 5:00 PM",
+    "Sunday": "9:00 AM – 5:00 PM"
+  },
+  "services": [
+    {
+      "name": "Emergency AC Repair",
+      "description": "Rapid-response air conditioner repair with technicians on-site in as little as 45 minutes to diagnose and fix breakdowns fast.",
+      "icon": "zap"
+    },
+    {
+      "name": "AC Installation",
+      "description": "Full air conditioning system installation handled efficiently by a professional team, with on-time arrival and a spotless job site on completion.",
+      "icon": "wind"
+    },
+    {
+      "name": "Preventive AC Maintenance",
+      "description": "Thorough tune-up and inspection service that keeps your air conditioner running smoothly and prevents costly breakdowns before they happen.",
+      "icon": "shield-check"
+    },
+    {
+      "name": "Ventilated Ceiling Installation & Repair",
+      "description": "Expert installation and restoration of ventilated ceilings to dramatically improve airflow and indoor comfort throughout your home.",
+      "icon": "layout-panel-top"
+    },
+    {
+      "name": "Heating System Service",
+      "description": "Inspection, maintenance, and repair of residential heating systems to keep your home warm and efficient through Oregon's wet winters.",
+      "icon": "flame"
+    },
+    {
+      "name": "Indoor Air Quality Consultation",
+      "description": "Assessment of your home's ventilation and air circulation with tailored recommendations to enhance comfort and air quality.",
+      "icon": "airplay"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Sweltering afternoons are now a thing of the past thanks to their swift and expert AC installation. The team arrived right on time and worked efficiently, leaving everything spotless. Highly recommend!",
+      "author": "Luciano Jonah",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-03-07"
+    },
+    {
+      "text": "Our A/C suddenly stopped working, and their technician arrived 45 minutes later. He fixed the issue quickly and explained everything thoroughly. Highly recommend!",
+      "author": "Catalina Kayleigh",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-28"
+    },
+    {
+      "text": "The team transformed our living room with a stunning ventilated ceiling. They were meticulous and completed everything perfectly in just under two hours. Highly recommended!",
+      "author": "Roderick Bernier",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-19"
+    },
+    {
+      "text": "Just 45 minutes, and my A/C is now running smoothly! Truly impressed with their thorough preventive maintenance.",
+      "author": "Samantha Adison",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-26"
+    },
+    {
+      "text": "The team swiftly restored our ventilated ceiling, enhancing airflow and comfort remarkably.",
+      "author": "Cash Ruben",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-11"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "HVAC technician in work apron inspecting air conditioning unit outside residential home",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 4.9,
+      "suffix": "★",
+      "label": "Average Customer Rating"
+    },
+    {
+      "value": 17,
+      "suffix": "+",
+      "label": "Verified 5-Star Reviews"
+    },
+    {
+      "value": 45,
+      "suffix": " min",
+      "label": "Rapid Response Time"
+    },
+    {
+      "value": 7,
+      "suffix": " days",
+      "label": "Available Every Day of the Week"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How fast can you get a technician to my home for an AC repair?",
+      "answer": "Very fast. Multiple customers have had technicians arrive within 45 minutes of calling. We prioritize urgent AC issues and maintain extended availability Monday through Friday until 8 PM and weekends from 9 AM to 5 PM."
+    },
+    {
+      "question": "Will the technician explain what's wrong before doing the repair?",
+      "answer": "Absolutely. Our technicians are known for walking customers through exactly what failed, why it happened, and what the fix involves. You'll never be left guessing about work done in your own home."
+    },
+    {
+      "question": "How long does a typical AC installation or repair take?",
+      "answer": "Most repairs are completed in a single visit, often within an hour. Installations and more involved work like ventilated ceiling projects have been completed in under two hours. We work efficiently without cutting corners."
+    },
+    {
+      "question": "Do you leave a mess after the job is done?",
+      "answer": "No. Customers consistently note that our team leaves the work area spotless when they're finished. Clean job sites are a non-negotiable part of how we operate."
+    },
+    {
+      "question": "Do you offer preventive maintenance, or just emergency repairs?",
+      "answer": "Both. We offer thorough preventive maintenance visits that keep your system running smoothly year-round, not just reactive repairs when something breaks. Regular maintenance is the best way to avoid emergency calls in the first place."
+    },
+    {
+      "question": "Are you available on weekends?",
+      "answer": "Yes. We're open Saturday and Sunday from 9 AM to 5 PM, so a weekend breakdown doesn't mean waiting until Monday to get your home comfortable again."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#1B4F8A",
+    "accent": "#E8A020",
+    "note": "Deep Pacific blue reflects trust, professionalism, and the cooling/heating duality of HVAC — a color customers associate with reliability and cool air. The warm amber accent captures the energy and urgency of fast response, and nods to the heat side of the business. Together they feel confident and approachable without being corporate."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Exceptional response speed — technicians arriving in as little as 45 minutes is a standout differentiator mentioned by multiple customers",
+      "Transparent communication — technicians consistently explain the problem and repair process, building customer trust and reducing anxiety",
+      "Clean, efficient execution — jobs are completed quickly and meticulously, with customers specifically praising spotless work sites and thorough results"
+    ],
+    "common_complaints": [
+      "None found — all 17 reviews are 5-star with no negative feedback identified"
+    ],
+    "suggested_tagline": "Eugene's Fastest Fix for Hot Houses.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "Rapid-response",
+      "Meticulous",
+      "Transparent",
+      "Efficient",
+      "Reliable"
+    ],
+    "named_staff": []
+  },
+  "dataSources": [
+    "google"
+  ]
+}

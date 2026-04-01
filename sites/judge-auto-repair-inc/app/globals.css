@@ -1,0 +1,307 @@
+@import "tailwindcss";
+
+/* Scan shared packages for Tailwind classes */
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #1B3A2D;
+  --brand-accent: #004055;
+  --brand-bg: #f5f5f0;
+  --brand-bg-alt: #ddded9;
+  --brand-text: #1a1a1a;
+  --brand-muted: #666666;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: var(--brand-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+/* Marquee animation for carousels */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Smooth section transitions */
+section, [id] > div {
+  scroll-margin-top: 80px;
+}
+
+/* Focus-visible outlines for accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Subtle dot pattern background */
+.dot-pattern {
+  background-image: radial-gradient(circle, var(--brand-muted) 0.5px, transparent 0.5px);
+  background-size: 24px 24px;
+}
+
+/* Gradient transitions between sections */
+.section-gradient {
+  position: relative;
+}
+.section-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--brand-bg));
+  pointer-events: none;
+}
+
+/* Creative director extras */
+/* ─── Judge Auto Repair — Custom CSS ─────────────────────────────────────── */
+
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Inter:wght@400;500;600&display=swap');
+
+/* ─── Root tokens ─────────────────────────────────────────────────────────── */
+:root {
+  --brand-primary: #1B3A2D;
+  --brand-accent: #004055;
+  --brand-text: #1B3A2D;
+  --brand-bg: #F8F5F0;
+  --brand-warm: #F2EDE4;
+  --brand-gold: #C8943A;
+}
+
+/* ─── Base ────────────────────────────────────────────────────────────────── */
+.judge-page {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+  position: relative;
+  overflow-x: hidden;
+}
+
+.judge-page h1,
+.judge-page h2,
+.judge-page h3,
+.judge-page h4 {
+  font-family: 'Hedvig Letters Serif', Georgia, serif;
+}
+
+/* ─── Film grain overlay ──────────────────────────────────────────────────── */
+.film-grain-overlay {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 180px 180px;
+  mix-blend-mode: overlay;
+  opacity: 0.025;
+}
+
+/* ─── Section wrappers ────────────────────────────────────────────────────── */
+.section-light {
+  background-color: #ffffff;
+  padding: 5rem 0;
+}
+
+.section-warm {
+  background-color: var(--brand-warm);
+  padding: 5rem 0;
+}
+
+.section-faq {
+  background-color: #ffffff;
+  padding: 5rem 0;
+}
+
+/* ─── Trust bar ───────────────────────────────────────────────────────────── */
+.trust-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem 1.25rem;
+  padding: 1.5rem 2rem;
+  background-color: var(--brand-primary);
+  border-bottom: 2px solid rgba(200, 148, 58, 0.35);
+}
+
+.trust-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 999px;
+  padding: 0.35rem 1rem;
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(4px);
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.trust-pill:hover {
+  background: rgba(255, 255, 255, 0.13);
+  transform: translateY(-1px);
+}
+
+.trust-emoji {
+  font-size: 0.95rem;
+  line-height: 1;
+}
+
+/* ─── Tagline break section ───────────────────────────────────────────────── */
+.tagline-break {
+  position: relative;
+  background-color: var(--brand-accent);
+  padding: 6rem 2rem;
+  overflow: hidden;
+  text-align: center;
+}
+
+.tagline-break__dot-pattern {
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle, rgba(255,255,255,0.07) 1px, transparent 1px);
+  background-size: 24px 24px;
+  pointer-events: none;
+}
+
+.tagline-break__inner {
+  position: relative;
+  z-index: 1;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.tagline-break__eyebrow {
+  display: inline-block;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--brand-gold);
+  margin-bottom: 1.25rem;
+  border: 1px solid rgba(200, 148, 58, 0.4);
+  border-radius: 999px;
+  padding: 0.3rem 1rem;
+}
+
+.tagline-break__headline {
+  font-family: 'Hedvig Letters Serif', Georgia, serif;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 400;
+  line-height: 1.2;
+  color: #ffffff;
+  margin: 0 0 1.25rem;
+  letter-spacing: -0.01em;
+}
+
+.tagline-break__sub {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.65);
+  font-style: italic;
+  max-width: 420px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* ─── Dot pattern utility class ──────────────────────────────────────────── */
+.dot-pattern {
+  background-image: radial-gradient(circle, rgba(27, 58, 45, 0.08) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* ─── Glass effect ────────────────────────────────────────────────────────── */
+.glass {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 1rem;
+}
+
+/* ─── Section gradient transitions ───────────────────────────────────────── */
+.section-gradient {
+  position: relative;
+}
+.section-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background: linear-gradient(to bottom, transparent, var(--brand-bg));
+  pointer-events: none;
+}
+
+/* ─── Hover scale cards ───────────────────────────────────────────────────── */
+.judge-page [class*="card"],
+.judge-page [class*="Card"],
+.judge-page article {
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+}
+.judge-page [class*="card"]:hover,
+.judge-page [class*="Card"]:hover,
+.judge-page article:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 36px rgba(27, 58, 45, 0.12);
+}
+
+/* ─── Scrollbar ───────────────────────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--brand-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--brand-primary);
+  border-radius: 3px;
+}
+
+/* ─── Selection color ─────────────────────────────────────────────────────── */
+::selection {
+  background: var(--brand-primary);
+  color: #fff;
+}
+
+/* ─── Responsive tweaks ───────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .trust-bar {
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+  .tagline-break {
+    padding: 4rem 1.5rem;
+  }
+  .section-light,
+  .section-warm,
+  .section-faq {
+    padding: 3.5rem 0;
+  }
+}
+
+        :root {
+          --brand-primary: #1B3A2D;
+          --brand-accent: #004055;
+          --brand-text: #1B3A2D;
+          --brand-bg: #F8F5F0;
+        }
+      

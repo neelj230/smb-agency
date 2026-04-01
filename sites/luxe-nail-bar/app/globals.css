@@ -1,0 +1,312 @@
+@import "tailwindcss";
+
+/* Scan shared packages for Tailwind classes */
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #1B3A2D;
+  --brand-accent: #004055;
+  --brand-bg: #f5f5f0;
+  --brand-bg-alt: #ddded9;
+  --brand-text: #1a1a1a;
+  --brand-muted: #666666;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: var(--brand-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+/* Marquee animation for carousels */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Smooth section transitions */
+section, [id] > div {
+  scroll-margin-top: 80px;
+}
+
+/* Focus-visible outlines for accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Subtle dot pattern background */
+.dot-pattern {
+  background-image: radial-gradient(circle, var(--brand-muted) 0.5px, transparent 0.5px);
+  background-size: 24px 24px;
+}
+
+/* Gradient transitions between sections */
+.section-gradient {
+  position: relative;
+}
+.section-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--brand-bg));
+  pointer-events: none;
+}
+
+/* Creative director extras */
+/* ─────────────────────────────────────────────────────────────
+   Luxe Nail Bar — extra CSS
+   Append to globals.css
+───────────────────────────────────────────────────────────── */
+
+/* Brand tokens */
+:root {
+  --luxe-green:  #1B3A2D;
+  --luxe-teal:   #004055;
+  --luxe-cream:  #F6F3EE;
+  --luxe-sand:   #EDE9E1;
+  --luxe-white:  #FFFFFF;
+  --luxe-text:   #1B3A2D;
+  --luxe-muted:  #5a6b60;
+
+  --font-display: 'Hedvig Letters Serif', Georgia, serif;
+  --font-body:    'Inter', system-ui, sans-serif;
+}
+
+/* Google Font import */
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Inter:wght@300;400;500;600&display=swap');
+
+/* ── Film-grain overlay ──────────────────────────────────── */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  mix-blend-mode: hard-light;
+  opacity: 0.025;
+}
+
+/* ── Picture-frame border ───────────────────────────────── */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 10px;
+  border: 1px solid rgba(27, 58, 45, 0.07);
+  pointer-events: none;
+  z-index: 9998;
+  border-radius: 2px;
+}
+
+/* ── Typography helpers ─────────────────────────────────── */
+.luxe-eyebrow {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--luxe-teal);
+  margin-bottom: 0.6rem;
+  display: block;
+}
+
+.luxe-eyebrow--light {
+  color: rgba(246, 243, 238, 0.6);
+}
+
+.luxe-heading {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  font-weight: 400;
+  line-height: 1.1;
+  color: var(--luxe-green);
+  letter-spacing: -0.02em;
+}
+
+.luxe-heading--light {
+  color: var(--luxe-cream);
+}
+
+.luxe-subtext {
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--luxe-muted);
+  max-width: 52ch;
+}
+
+/* ── Layout containers ──────────────────────────────────── */
+.luxe-container {
+  width: 100%;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding-inline: clamp(1.25rem, 5vw, 3rem);
+}
+
+.luxe-container--narrow {
+  max-width: 760px;
+}
+
+/* ── Section backgrounds ────────────────────────────────── */
+.luxe-section-light {
+  background-color: var(--luxe-white);
+}
+
+.luxe-section-cream {
+  background-color: var(--luxe-cream);
+}
+
+.luxe-section-dark {
+  background-color: var(--luxe-green);
+  color: var(--luxe-cream);
+}
+
+/* Make dark-section child components inherit readable colors */
+.luxe-section-dark h2,
+.luxe-section-dark h3,
+.luxe-section-dark p,
+.luxe-section-dark li {
+  color: var(--luxe-cream);
+}
+
+/* ── Stats wrapper — green strip ───────────────────────── */
+.luxe-stats-wrapper {
+  background-color: var(--luxe-teal);
+}
+
+/* ── Marquee track ──────────────────────────────────────── */
+.luxe-marquee-track {
+  background-color: var(--luxe-green);
+  overflow: hidden;
+  white-space: nowrap;
+  padding-block: 0.65rem;
+  border-top: 1px solid rgba(246, 243, 238, 0.12);
+  border-bottom: 1px solid rgba(246, 243, 238, 0.12);
+}
+
+.luxe-marquee-inner {
+  display: inline-flex;
+  align-items: center;
+  gap: 0;
+  animation: luxe-scroll 32s linear infinite;
+  will-change: transform;
+}
+
+.luxe-marquee-item {
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(246, 243, 238, 0.7);
+  padding-inline: 2rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-shrink: 0;
+}
+
+.luxe-marquee-dot {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: rgba(246, 243, 238, 0.35);
+  flex-shrink: 0;
+}
+
+@keyframes luxe-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-33.333%); }
+}
+
+/* ── Dot-pattern texture for cream sections ─────────────── */
+.luxe-section-cream {
+  background-image:
+    radial-gradient(circle, rgba(27,58,45,0.08) 1px, transparent 1px);
+  background-size: 22px 22px;
+  background-position: 0 0;
+}
+
+/* ── Card hover scale ───────────────────────────────────── */
+.luxe-card-hover {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.luxe-card-hover:hover {
+  transform: translateY(-4px) scale(1.015);
+  box-shadow: 0 20px 48px rgba(27, 58, 45, 0.14);
+}
+
+/* ── Process step styling override ─────────────────────── */
+.luxe-section-light .step-number {
+  background-color: var(--luxe-green);
+  color: var(--luxe-cream);
+  font-family: var(--font-display);
+}
+
+/* ── FAQ accordion dark override ───────────────────────── */
+.luxe-section-dark details summary,
+.luxe-section-dark details p {
+  color: var(--luxe-cream) !important;
+}
+
+.luxe-section-dark details {
+  border-color: rgba(246, 243, 238, 0.18) !important;
+}
+
+/* ── Contact section dark override ─────────────────────── */
+.luxe-section-dark [data-contact] h3,
+.luxe-section-dark [data-contact] label,
+.luxe-section-dark [data-contact] span {
+  color: var(--luxe-cream);
+}
+
+/* ── Responsive tweaks ──────────────────────────────────── */
+@media (max-width: 640px) {
+  .luxe-heading {
+    font-size: 2rem;
+  }
+
+  body::before {
+    inset: 0;
+    border: none;
+  }
+}
+
+/* ── Smooth scroll ──────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ── Focus ring ─────────────────────────────────────────── */
+*:focus-visible {
+  outline: 2px solid var(--luxe-teal);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+
+/* ── Selection color ────────────────────────────────────── */
+::selection {
+  background-color: var(--luxe-green);
+  color: var(--luxe-cream);
+}
+
+        :root {
+          --brand-primary: ${BRAND};
+          --brand-accent: ${ACCENT};
+          --brand-text: ${BRAND};
+        }
+      

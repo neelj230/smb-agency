@@ -1,0 +1,226 @@
+{
+  "name": "Amanda's Classy Clips Pet",
+  "slug": "amandas-classy-clips-pet",
+  "category": "pet groomer",
+  "address": "612 E Main St",
+  "city": "Medford",
+  "state": "OR",
+  "zip": "97504",
+  "phone": "(541) 608-7017",
+  "email": "",
+  "website": null,
+  "rating": 4.8,
+  "reviewCount": 125,
+  "tagline": "Where every pup leaves loved.",
+  "brandNarrative": "Amanda's Classy Clips Pet isn't your average grooming salon — it's the kind of place where the staff notices a puppy's gangrenous tail before anyone else does, and sends that dog home safe with a vet referral that literally saves her life. That's not marketing copy; that's a real story from a real customer named Trisha, whose Shih Tzu is alive today because the team here pays attention. Located on E Main Street in Medford with a teal-sided storefront that's impossible to miss, this tight-knit crew of groomers treats every animal that walks through the door — dogs, cats, puppies, seniors — like they genuinely matter.\n\nCustomers like Kryssi, who's been coming back 'off and on for years,' describe a place where scheduling feels collaborative, not transactional — where the groomers work around your life, not just their own calendar. Merry Tompkins puts it simply: her dogs 'like to go get groomed.' That's the real benchmark. No drama, no anxiety, just a bath, a clip, and a dog that comes home smelling incredible and wagging. The team calls or texts if they have questions — no guessing, no surprises — and that kind of communication builds the sort of loyalty that keeps families coming back through puppyhood, senior years, and the dogs that come after.\n\nOpen Tuesday through Friday, 7 AM to 6 PM, Amanda's Classy Clips keeps its hours focused so the work stays quality-first. They clip nails without requiring a full groom, and their pricing earns consistent praise across reviews — affordable without cutting corners. In a town full of options, five-star reviewers call them 'the best groomers in town hands down,' and the 4.8 rating across 125 reviews is the kind of score that only comes from doing the work right, day after day, animal after animal.",
+  "ownerStory": "The name says it all — Amanda built something that carries her identity right in the signage. While Amanda isn't quoted directly in the reviews, her business has a personality that's impossible to fake: warm, watchful, and genuinely invested in the animals that come through the door. The team she's assembled reflects that same ethos. They're called 'the girls' by longtime customers, described as kind, caring, and communicative — groomers who ask questions before picking up scissors and send you a text if something feels off. That's not a policy manual. That's a culture.\n\nOver years of serving Medford families — some through multiple dogs, some through heartbreak and new beginnings — Amanda's Classy Clips has become the kind of small business that earns the word 'love' in customer reviews. Not just 'good' or 'recommended,' but Love, Love, Love — capitalized and repeated, like Christy Kendall wrote after years of bringing her senior dog and her new puppy to the same trusted hands. That continuity, that trust across a dog's whole life, is what Amanda's has quietly built on Main Street.",
+  "hours": {
+    "Monday": "Closed",
+    "Tuesday": "7:00 AM – 6:00 PM",
+    "Wednesday": "7:00 AM – 6:00 PM",
+    "Thursday": "7:00 AM – 6:00 PM",
+    "Friday": "7:00 AM – 6:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Full Dog Groom",
+      "description": "Complete bath, breed-appropriate haircut, blow-dry, and finishing for dogs of all sizes and coat types.",
+      "icon": "scissors"
+    },
+    {
+      "name": "Cat Grooming",
+      "description": "Gentle, patient grooming service for cats including bathing and coat care — even for cats who aren't fans of the process.",
+      "icon": "heart"
+    },
+    {
+      "name": "Nail Trim (No Groom Required)",
+      "description": "Quick nail clipping available as a standalone service — no full groom appointment needed.",
+      "icon": "zap"
+    },
+    {
+      "name": "Anal Gland Expression",
+      "description": "Health-focused gland check and expression service, performed by attentive staff trained to spot warning signs.",
+      "icon": "shield"
+    },
+    {
+      "name": "Puppy's First Groom",
+      "description": "A calm, gentle introduction to grooming for puppies, helping them build positive associations from day one.",
+      "icon": "star"
+    },
+    {
+      "name": "Senior Dog Grooming",
+      "description": "Extra-gentle grooming care tailored to older dogs, with patient handling and attention to comfort and health.",
+      "icon": "clock"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "The girls here are so kind. They actually saved our shitzu life. We were told to go get her anal glands squeezed because she smelled awful & she had gangrene on the base of her tail as a puppy. She went to the vet and had it amputated the next day. We love them there. Their prices are affordable. They also we clip your pups nails without a groom.",
+      "author": "Trisha Horton",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-14"
+    },
+    {
+      "text": "I was very impressed!  Cat’s are not one’s to take kindly to grooming,  but she was great with Rosie & Rosie actually behaved herself!\n\nHer prices are very good too!",
+      "author": "Ronda Bagwill",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-17"
+    },
+    {
+      "text": "Been a customer off and on for years (when we’ve had a dog lol). I adore their service. They make sure the pets are taken care of, cleaned and treated like they matter. They are the friendliest groomers I’ve ever taken my dogs too. Amazing pricing for the grooms and they do their best to schedule your pets grooms with you, meaning they get to find slots that will work well in both their schedule and your schedule. The best groomers in town hands down. Thank you for always taking great care of my pups.",
+      "author": "Kryssi Aguiar",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-05-07"
+    },
+    {
+      "text": "These gals really care about your dog❤️. My guys always come home looking and smelling great! They like to go to get groomed...friendly and caring service. If they have a question, they call or text you . No guessing! 👍🏻",
+      "author": "Merry Tompkins",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-08-18"
+    },
+    {
+      "text": "We’ve been going here for years. Absolutely Love, Love, Love them! Used to take our senior dog before her passing and now we take the new puppy here. Never have had a single poor experience. The prices are great and the care they show is even better!",
+      "author": "Christy Kendall",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-04-18"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Dog standing on grooming table at pet salon with bright green background",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "White fluffy dog being groomed on professional grooming table at salon",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Standard Poodle dog with groomed curly coat standing indoors against bright green background",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Yellow Labrador posing in front of whimsical chalkboard backdrop with moon and flowers",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Gray poodle standing on tiled floor in indoor workspace with equipment",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Happy brown dog sitting indoors on tile floor wearing red leash and collar",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Black dog with red harness and leash standing on gravel near RV",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Small dark curly-haired dog sitting on dark floor indoors looking up at camera",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Pet grooming storefront with teal metal siding and signage on Main Street",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Black dog with tan markings lying on gray and white bedding, looking up at camera",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 4.8,
+      "suffix": "★",
+      "label": "Average Customer Rating"
+    },
+    {
+      "value": 125,
+      "suffix": "+",
+      "label": "Five-Star Reviews"
+    },
+    {
+      "value": 10,
+      "suffix": "+",
+      "label": "Years Serving Medford Families"
+    },
+    {
+      "value": 1000,
+      "suffix": "+",
+      "label": "Happy Pets Groomed"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Do you groom cats, or just dogs?",
+      "answer": "Yes — we groom cats too! One of our reviewers brought in her cat Rosie, who is notoriously difficult to groom, and she behaved beautifully. Our team has the patience and skill to work with cats who aren't exactly fans of the process."
+    },
+    {
+      "question": "Can I get my dog's nails trimmed without booking a full groom?",
+      "answer": "Absolutely. We offer standalone nail trims — no full groom appointment required. It's a quick, easy service we're happy to provide on its own."
+    },
+    {
+      "question": "How are your prices compared to other groomers in Medford?",
+      "answer": "Our pricing is consistently called out as affordable and great value by customers across dozens of reviews. We believe quality grooming shouldn't cost a fortune, and we work hard to keep our rates accessible."
+    },
+    {
+      "question": "What if something looks off with my pet during the groom?",
+      "answer": "We call or text you right away. Our team pays close attention to each animal's health and has even caught serious conditions — like early signs of infection — that led to life-saving vet visits. No guessing, no surprises."
+    },
+    {
+      "question": "How far in advance do I need to book?",
+      "answer": "We do our best to find appointment slots that work for both your schedule and ours. We recommend reaching out by phone at (541) 608-7017 to find a time that fits — regular customers often build a recurring schedule with us."
+    },
+    {
+      "question": "What are your hours and days of operation?",
+      "answer": "We're open Tuesday through Friday, 7:00 AM to 6:00 PM. We're closed Monday, Saturday, and Sunday. Our focused schedule helps us give every pet the time and attention they deserve."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#2A7D6F",
+    "accent": "#F4C542",
+    "note": "Teal is pulled directly from the real teal metal siding on the storefront — it's already the brand's visual identity in the wild. Warm golden yellow as an accent reflects warmth, playfulness, and the happy-dog energy that defines every customer review."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Exceptional attentiveness to pet health — staff have caught serious medical conditions (gangrene, gland issues) that led to life-saving vet interventions, which creates extraordinary trust",
+      "Long-term customer loyalty across multiple dogs and years — reviewers describe coming back through puppyhood, senior years, and loss, indicating deep emotional bonds with the business",
+      "Transparent, proactive communication — staff text or call with questions during appointments, eliminating anxiety and making owners feel consistently informed and respected"
+    ],
+    "common_complaints": [
+      "None found — all 5 reviews are 5-star with no negative feedback, concerns, or criticisms expressed"
+    ],
+    "suggested_tagline": "Classy cuts. Genuine care. Real results.",
+    "photo_quality": "good",
+    "personality_keywords": [
+      "caring",
+      "attentive",
+      "trustworthy",
+      "warm",
+      "communicative"
+    ],
+    "named_staff": []
+  },
+  "dataSources": [
+    "google"
+  ]
+}

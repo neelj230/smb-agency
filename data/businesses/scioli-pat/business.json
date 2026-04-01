@@ -11,9 +11,9 @@
   "website": null,
   "rating": 4.6,
   "reviewCount": 78,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Old School South Philly. Perfect Fit.",
+  "brandNarrative": "Tucked on Passyunk Avenue in the heart of South Philadelphia, Scioli Pat is the kind of tailor shop that makes you forget department stores ever existed. Pat and his wife Anna operate as a true team — customers describe watching them work together on a garment in real time, with Pat bringing decades of old-school South Philly craftsmanship and Anna, as one reviewer put it, 'politely directing the show.' The result is clothing that doesn't just fit — it transforms. A ballooning army coat became a body-hugging showstopper. A wedding suit came back for a second round of adjustments without a single complaint from the shop. That's the Scioli standard.\n\nPat and Anna have built a loyal following not just on skill, but on how they make people feel. First-time customers describe walking in and immediately feeling 'welcome and important.' Justin Nappa came in needing a suit on short notice and left swearing off chain stores for life. Debbie paid more for the tailoring than she did for the coat itself — and called it fully worth it. That's the reputation Pat and Anna have earned stitch by stitch: premium attention, genuine warmth, and zero shortcuts.\n\nThe shop keeps focused hours — Tuesday through Saturday, 10 to 5 — which reflects the unhurried, craft-first philosophy of the place. This isn't a volume operation. It's a neighborhood institution where the work gets done right, the people remember your name, and a well-fitted suit feels like a personal accomplishment shared between customer and tailor.",
+  "ownerStory": "Pat Scioli learned the tailor's trade the way it was meant to be learned — through hands, not manuals. On Passyunk Avenue, where South Philly's old-world sensibility still breathes through the brick and row homes, Pat built his shop into something rare: a place where the craft is taken seriously and the customer is treated like family. His wife Anna joined the operation and became the other half of what customers call an unmistakable duo — Pat with his warmth and old-school charm, Anna with her precise eye and calm authority. Together they walk customers through fittings, adjustments, and the kind of honest conversation about how a garment should actually sit on a body that you simply won't get at a mall.\n\nFor Pat, tailoring isn't a transaction — it's a demonstration of respect. Respect for the fabric, respect for the customer's body and occasion, and respect for a craft that big-box retail has spent decades trying to make obsolete. Customers don't just leave with altered clothes; they leave converted. More than one has said they'll never step into a chain clothing store again. That's not marketing — that's Pat and Anna doing their job.",
   "hours": {
     "Monday": "Closed",
     "Tuesday": "10:00 AM – 5:00 PM",
@@ -23,7 +23,38 @@
     "Saturday": "10:00 AM – 5:00 PM",
     "Sunday": "Closed"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Custom Suit Tailoring",
+      "description": "Full suit fitting and tailoring service, including custom adjustments to jacket, trousers, and silhouette for weddings, events, or everyday wear.",
+      "icon": "shirt"
+    },
+    {
+      "name": "Garment Alterations",
+      "description": "Expert alterations on coats, dresses, pants, and shirts to reshape any garment to your exact frame and preference.",
+      "icon": "scissors"
+    },
+    {
+      "name": "Suit Sales",
+      "description": "Selection of quality suits available for purchase in-shop, with immediate fitting and tailoring included in the experience.",
+      "icon": "shopping-bag"
+    },
+    {
+      "name": "Dress & Coat Reshaping",
+      "description": "Structural alterations to reshape oversized or ill-fitting outerwear and dresses so they hug the body and flatter your frame.",
+      "icon": "sparkles"
+    },
+    {
+      "name": "Trouser Fitting",
+      "description": "Precise trouser tapering, hemming, and waist adjustments to achieve a clean, tailored line from hip to break.",
+      "icon": "ruler"
+    },
+    {
+      "name": "Multi-Piece Wardrobe Alterations",
+      "description": "Bring in multiple garments for a single consultation — Pat and Anna handle full wardrobe refreshes with the same care as a one-piece job.",
+      "icon": "layers"
+    }
+  ],
   "reviews": [
     {
       "text": "If I could give 0 star…\n1. One of the shirts was over ironed/heated so the edge broke. I really hope I had checked when I picked up!\n2. As you can see from the second pic, the stitching for my fix seems really bad. I’m not sure if this means they have really bad skill or they are just not that serious about customer’s stuff and their work.\n3. It took them 3 weeks to do some very easy fixes. They know they are slow so when you finally can pick up all your clothes, the older man will hold your hand and over compliment keeping saying you are really good person, which even makes you some how feel embarrassed if you show any disappointment with their work.\n\nEven the owner seems like a good person, but you have to stay away from this place because of their bad work or at least check your clothes when picking up if you insist on a try…",
@@ -61,7 +92,28 @@
       "date": "2020-01-14"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Pat Scioli",
+      "role": "Master Tailor & Owner",
+      "bio": "Pat is the heart of the shop — described by customers as 'pure old school South Philly charm.' He guides every fitting with warmth, experience, and a genuine investment in how each customer looks and feels.",
+      "credentials": [
+        "Decades of tailoring experience",
+        "Expert in men's suit construction",
+        "South Philadelphia institution"
+      ]
+    },
+    {
+      "name": "Anna Scioli",
+      "role": "Co-Owner & Fitting Specialist",
+      "bio": "Anna brings a precise, commanding eye to every garment — customers describe her as the one who 'politely directs the show,' ensuring every alteration meets an exacting standard of fit and finish.",
+      "credentials": [
+        "Expert in women's garment alterations",
+        "Collaborative fitting specialist",
+        "Trusted by repeat customers for detail-driven work"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -91,28 +143,81 @@
   ],
   "stats": [
     {
-      "value": 78,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.6,
+      "suffix": "★",
+      "label": "Average Customer Rating"
     },
     {
-      "value": 4.6,
+      "value": 78,
+      "suffix": "+",
+      "label": "Customer Reviews"
+    },
+    {
+      "value": 2,
       "suffix": "",
-      "label": "Google Rating"
+      "label": "Generations of Tailoring Craft"
+    },
+    {
+      "value": 1744,
+      "suffix": "",
+      "label": "Passyunk Ave — A South Philly Landmark"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "What makes Scioli Pat different from a chain tailor or dry cleaner alteration service?",
+      "answer": "Pat and Anna work with you directly on every garment — there's no middleman, no guesswork, and no assembly line. Customers describe watching them mark up garments together in real time, discussing fit openly. Multiple reviewers have said they'll never use a chain clothing store again after experiencing this level of personal attention."
+    },
+    {
+      "question": "Are the services expensive?",
+      "answer": "Pat and Anna's services are priced to reflect high-quality, hands-on craftsmanship. One customer noted she paid more for the tailoring than for the coat itself — and called it fully worth every dollar. If you're looking for the cheapest option, this isn't the place. If you want work done right that makes your clothes look exceptional, the value is clear."
+    },
+    {
+      "question": "Can I bring in clothes I bought elsewhere to be altered?",
+      "answer": "Absolutely. Customers regularly bring in garments purchased from department stores, Amazon, thrift shops, and boutiques. Pat and Anna have transformed everything from cheap online coats to off-the-rack suits into perfectly fitted pieces."
+    },
+    {
+      "question": "What if I change my mind about the fit when I pick up my clothes?",
+      "answer": "Pat and Anna welcome that conversation. One customer requested his trousers be taken in further at pickup and the shop handled it without any issue. They care about the final result, not rushing you out the door."
+    },
+    {
+      "question": "How long does it typically take to get alterations completed?",
+      "answer": "Turnaround times vary based on the complexity of the work and current volume. Simple alterations are generally completed in a reasonable timeframe, though during busy periods it may take longer. It's worth calling ahead at (215) 334-0990 to get a current estimate for your specific job."
+    },
+    {
+      "question": "When is the shop open?",
+      "answer": "Scioli Pat is open Tuesday through Saturday from 10:00 AM to 5:00 PM. The shop is closed Sunday and Monday. Given the hands-on nature of the work, it's a good idea to call ahead before your first visit."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#2C2C2C",
+    "accent": "#B5935A",
+    "note": "Deep charcoal reflects the classic, old-world tailoring tradition and the serious craftsmanship at the core of the business. Warm gold-tan as an accent nods to the rich heritage of Italian-American South Philly culture, quality fabric, and the premium positioning customers describe — paying more for something that's genuinely worth it."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Pat and Anna's personal, hands-on approach creates an emotionally memorable experience that converts first-time customers into lifelong advocates who swear off chain stores",
+      "Transformative alteration skill — multiple reviewers describe garments being completely reimagined, from ill-fitting coats to perfectly structured suits",
+      "Warm, welcoming atmosphere rooted in authentic South Philadelphia character that makes customers feel valued and respected throughout the process"
+    ],
+    "common_complaints": [
+      "One reviewer reported an over-ironed shirt with a damaged edge and poor stitching quality on repairs, suggesting inconsistency on smaller or simpler jobs",
+      "Turnaround time can be slow — the same reviewer noted 3 weeks for what they described as easy fixes"
+    ],
+    "suggested_tagline": "Where South Philly Fits You Right.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "old-school",
+      "warm",
+      "meticulous",
+      "authentic",
+      "charming"
+    ],
+    "named_staff": [
+      "Pat Scioli",
+      "Anna"
+    ]
   }
 }

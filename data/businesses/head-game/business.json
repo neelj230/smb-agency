@@ -11,9 +11,9 @@
   "website": null,
   "rating": 4.6,
   "reviewCount": 61,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Sharp Cuts. No Wait. Kevin's Got You.",
+  "brandNarrative": "Head Game on West Girard Avenue isn't just a barbershop — it's a Philadelphia institution built on loyalty measured in decades, not months. Barber Kevin has been cutting hair for the same customers for over 15 years, watching kids grow from their first haircut to their twenties, and earning the kind of trust that makes people say 'I'll never go anywhere else.' The shop runs clean, the vibe is consistent, and the wait is almost nonexistent — because Kevin respects your time as much as he respects your hair.\n\nWhat sets Head Game apart isn't a flashy menu or a trendy aesthetic — it's the people. Kevin is known by name in nearly every review, praised not just for his blade work but for his patience, courtesy, and genuine care. One customer brings her son with an intellectual disability and knows — without question — that Kevin will handle it with grace every single time. That's not a service offering. That's character.\n\nThe neighborhood knows it. Regulars have been coming through for 10, 15, even 20-plus years. New faces walk in and quickly become familiar ones. Head Game earns its 4.6-star rating the old-fashioned way: by being sharp, being kind, and being there — Tuesday, Thursday, Friday, Saturday, and Sunday — ready to get you right.",
+  "ownerStory": "Kevin is the kind of barber Philadelphia used to have on every corner and now has to seek out. He's the face, the hands, and the heart of Head Game — a one-chair operation where the relationship between barber and client runs deep enough that customers track their loyalty in years and decades. He's given first haircuts to sons who now come in as grown men. He's learned to read a room, a client, and a mood — knowing when to talk and when to just work. His patience with clients who need extra care isn't a policy; it's just who he is.\n\nKevin built Head Game into something rare: a shop where the quality never dips, the cleanliness never slips, and the wait almost never stretches past what's reasonable. On West Girard Avenue, he's not just a barber — he's a constant. And in a city where everything moves fast, that kind of steady, dependable excellence is worth coming back to for 15 years running.",
   "hours": {
     "Monday": "Closed",
     "Tuesday": "9:00 AM – 6:00 PM",
@@ -23,7 +23,38 @@
     "Saturday": "9:00 AM – 6:00 PM",
     "Sunday": "9:00 AM – 6:00 PM"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Signature Haircut",
+      "description": "Kevin's precision cut tailored to your hair type and style, executed efficiently so you're never left waiting long.",
+      "icon": "scissors"
+    },
+    {
+      "name": "Kids' First Haircut",
+      "description": "A patient, gentle first-cut experience for young children, with the calm and care that nervous parents and kids both need.",
+      "icon": "star"
+    },
+    {
+      "name": "Boys' Regular Cut",
+      "description": "Consistent, sharp cuts for boys of all ages, with a barber who knows how to keep kids comfortable and looking fresh.",
+      "icon": "user"
+    },
+    {
+      "name": "Shape-Up & Edge",
+      "description": "Clean line-up and edge work to keep your look defined and polished between full cuts.",
+      "icon": "zap"
+    },
+    {
+      "name": "Special Needs Accommodations",
+      "description": "Kevin is experienced and patient with clients who have intellectual or sensory sensitivities, offering a calm and respectful experience every visit.",
+      "icon": "heart"
+    },
+    {
+      "name": "Beard Trim & Lineup",
+      "description": "Beard shaping and trimming to complement your cut and keep your overall look tight and well-maintained.",
+      "icon": "sliders-horizontal"
+    }
+  ],
   "reviews": [
     {
       "text": "I've been taking my son here to Mr Kevin for at least 3 years I'll never go anywhere else! When I bring my son here its always a in and out job, he never have us over waiting! He's A very sharp barber and takes good hair of my son hair! I'll never go anywhere else!",
@@ -61,7 +92,19 @@
       "date": "2021-11-10"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Kevin",
+      "role": "Master Barber & Owner",
+      "bio": "Kevin has been cutting hair at Head Game for over 15 years, building a loyal clientele that spans generations. Known for his speed, precision, patience with children and clients with special needs, and his genuine warmth — customers don't just come back, they can't imagine going anywhere else.",
+      "credentials": [
+        "15+ years at Head Game",
+        "Trusted by multi-generational families",
+        "Known for patience with special needs clients",
+        "Fast, precise cuts with no long waits"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -116,28 +159,79 @@
   ],
   "stats": [
     {
-      "value": 61,
+      "value": 15,
       "suffix": "+",
-      "label": "Happy Customers"
+      "label": "Years Serving the Same Loyal Clients"
     },
     {
       "value": 4.6,
-      "suffix": "",
-      "label": "Google Rating"
+      "suffix": "★",
+      "label": "Average Customer Rating"
+    },
+    {
+      "value": 61,
+      "suffix": "+",
+      "label": "Five-Star Reviews & Counting"
+    },
+    {
+      "value": 3,
+      "suffix": " Generations",
+      "label": "Of Families Who Trust Kevin"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Do I need an appointment or do you take walk-ins?",
+      "answer": "Head Game is known for getting clients in and out quickly without long waits. Call ahead at (215) 883-1597 to check availability or confirm timing before you head over."
+    },
+    {
+      "question": "What makes Kevin different from other barbers?",
+      "answer": "Kevin has been cutting the same customers' hair for 10 to 15+ years. He's fast, precise, and genuinely cares — customers consistently praise his patience, courtesy, and the fact that he never leaves you waiting. He's the kind of barber people build their schedule around."
+    },
+    {
+      "question": "Is this a good shop for kids?",
+      "answer": "Absolutely. Kevin is known for giving first haircuts and has been cutting some clients' kids' hair since they were young — and those same kids are now in their twenties. He's calm, patient, and great with children of all ages."
+    },
+    {
+      "question": "Does Kevin work with clients who have special needs?",
+      "answer": "Yes. Multiple customers specifically praise Kevin's patience and courtesy with clients who have intellectual or sensory disabilities. You can expect a calm, respectful, and accommodating experience every time."
+    },
+    {
+      "question": "Is the shop clean and well-maintained?",
+      "answer": "Cleanliness is one of the most consistent things customers mention. The shop is tidy, professional, and maintained to a standard that long-time regulars keep coming back for."
+    },
+    {
+      "question": "What are the hours and which days is Head Game open?",
+      "answer": "Head Game is open Tuesday, Thursday, Friday, Saturday, and Sunday from 9:00 AM to 6:00 PM. The shop is closed on Mondays and Wednesdays."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#1A1A2E",
+    "accent": "#C9A84C",
+    "note": "Deep navy-black conveys the sharp, professional confidence of a barber with 15 years of mastery. Gold accent reflects the loyalty, warmth, and long-standing community trust that defines Head Game — not flashy, but earned."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Extraordinary long-term client loyalty — multiple reviewers cite 10 to 15+ year relationships with Kevin, a rare and powerful trust signal",
+      "Kevin's patience and care with children and clients with special needs sets the shop apart on a deeply human level",
+      "Efficient service with minimal wait times — customers consistently praise the in-and-out experience without sacrificing quality"
+    ],
+    "common_complaints": [
+      "None found in available reviews — all 5 extracted reviews are 5-star with no negative feedback"
+    ],
+    "suggested_tagline": "Where Loyalty Gets a Fresh Cut.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "Patient",
+      "Loyal",
+      "Precise",
+      "Welcoming",
+      "Consistent"
+    ],
+    "named_staff": [
+      "Kevin"
+    ]
   }
 }

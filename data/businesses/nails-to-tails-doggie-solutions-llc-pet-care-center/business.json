@@ -1,0 +1,258 @@
+{
+  "name": "Nails To Tails & Doggie Solutions LLC pet care center",
+  "slug": "nails-to-tails-doggie-solutions-llc-pet-care-center",
+  "category": "pet groomer",
+  "address": "2191 Kings Hwy",
+  "city": "Medford",
+  "state": "OR",
+  "zip": "97501",
+  "phone": "(541) 500-1775",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 41,
+  "tagline": "Pampered Pets. Every Nail. Every Tail.",
+  "brandNarrative": "Nails To Tails & Doggie Solutions isn't just a grooming salon — it's the place Medford pet owners turn to when other groomers fall short. When Carol's Shih Tzu came back from a big-box store looking rough and shaken, groomer Cody didn't just clean up the cut — she took extra time letting the pup acclimate to the building and the other dogs before picking up a single scissor. That kind of patience isn't a policy. It's a personality. From show dogs to senior pups to heavy-shedding German Shepherd-Husky mixes, the team here treats every coat like it matters — because to their clients, it absolutely does.\n\nThe groomers at Nails To Tails are known by name, and that's not an accident. Ashley earns raves for making senior dogs look and feel amazing. Crystal has built a loyal following around dogs like Manny, whose owner says he's always happy leaving her chair — a detail that speaks volumes about how the salon handles anxious or sensitive animals. One reviewer even brings in a show dog named Ruby, trusting the team to deliver competition-ready grooming results. That's the kind of confidence you only extend to people who've earned it, repeatedly.\n\nOpen seven days a week from 9 AM to 6 PM, Nails To Tails operates out of a full pet care center on Kings Highway in Medford — complete with indoor play space, agility tunnels, and what looks like a genuinely joyful environment for dogs and their people. The photos say it all: dogs relaxed on couches, playing near the entrance, sitting proud in bow ties. This is a place where pets don't just get groomed. They get treated like the personalities they are.",
+  "ownerStory": "The name says it all: Nails To Tails. It's a promise that no detail gets skipped — from the first trim to the final fluff. The team built around that promise includes groomers like Crystal, Ashley, and Cody, each of whom has developed their own devoted client base through consistency, care, and the kind of hands-on skill that nervous pet owners recognize instantly. Cody's approach with a newly relocated client's anxious Shih Tzu — methodically easing her into the space before any grooming began — reflects a philosophy the whole shop seems to share: the dog's comfort comes first, and the rest follows naturally.\n\nNails To Tails has quietly become one of the most trusted pet care destinations in the Rogue Valley, earning a perfect 5-star rating across 41 reviews — not through marketing, but through results that speak for themselves. Whether it's a silky-smooth blowout on a high-shedding working dog or a show-ready finish on a grooming competition regular, the team delivers. And they do it every day of the week, for every kind of dog (and cat) that walks through the door.",
+  "hours": {
+    "Monday": "9:00 AM – 6:00 PM",
+    "Tuesday": "9:00 AM – 6:00 PM",
+    "Wednesday": "9:00 AM – 6:00 PM",
+    "Thursday": "9:00 AM – 6:00 PM",
+    "Friday": "9:00 AM – 6:00 PM",
+    "Saturday": "9:00 AM – 6:00 PM",
+    "Sunday": "9:00 AM – 6:00 PM"
+  },
+  "services": [
+    {
+      "name": "Full Groom & Style",
+      "description": "Complete breed-specific grooming including bath, blow-dry, cut, and finishing touches — delivered to show-quality standards.",
+      "icon": "scissors"
+    },
+    {
+      "name": "Bath & Blowout",
+      "description": "Deep cleansing bath followed by professional blow-dry that leaves even heavy double coats soft, silky, and shed-reduced.",
+      "icon": "wind"
+    },
+    {
+      "name": "Nail Trim & Paw Care",
+      "description": "Precise nail trimming for dogs and cats of all sizes and temperaments, keeping paws healthy and comfortable.",
+      "icon": "paw-print"
+    },
+    {
+      "name": "Senior Pet Grooming",
+      "description": "Gentle, patient grooming sessions tailored to older dogs who need extra time, care, and comfort throughout the process.",
+      "icon": "heart"
+    },
+    {
+      "name": "Anxiety-Friendly Grooming",
+      "description": "Slow-introduction grooming for nervous or reactive pets, including acclimation time with the space and other animals before any grooming begins.",
+      "icon": "shield"
+    },
+    {
+      "name": "Indoor Doggie Play & Socialization",
+      "description": "A safe, supervised indoor play area with agility equipment and tunnels where dogs can socialize, play, and burn energy.",
+      "icon": "play"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "I have to say, I've been very pleased with Nails to Tails when they groom my show girl, Ruby. I know she's going to be pampered and groomed to perfection. Nails to Tails is always a winner!",
+      "author": "Christine Parker",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-12"
+    },
+    {
+      "text": "Ashley did a fantastic job with my senior dog! He looks amazing! I will definitely bring him back. Nails to Tails is the best!",
+      "author": "Laina Morris",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-06-14"
+    },
+    {
+      "text": "I absolutely love Crystal! She is so good with my dog Manny ❤️ She always makes him look so handsome and he is  always happy with her. So glad we found her!",
+      "author": "Karen Bergren",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-01-20"
+    },
+    {
+      "text": "I just moved to the area from NY and took my Shih Tzu for a full groom at a big box store. She got spooked, they couldn't give her full service and she ended up looking awful. I brought her to Nails and Tails and Cody did an awesome job cleaning up the mess. She took extra time to make sure my dog acclimated to the building and other pups. I will definitely get her groomed here in the future!",
+      "author": "Carol Kamph",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-17"
+    },
+    {
+      "text": "Took my German Shepard husky mix dog here. She's 9 y/o. The amount of hair she sheds could supply a platoon a full set of winter coats. After her bath and blow out, her hair was soft like silk, nails were trimmed, and she smelt like a new dog.",
+      "author": "MrJdub454",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-03"
+    }
+  ],
+  "team": [
+    {
+      "name": "Crystal",
+      "role": "Pet Groomer",
+      "bio": "Crystal has built a fiercely loyal clientele — dogs like Manny leave her chair looking handsome and, just as importantly, genuinely happy. Her calm, consistent energy makes her a go-to for owners whose pets have strong personalities.",
+      "credentials": [
+        "Known for happy, relaxed dogs post-groom",
+        "Trusted by repeat long-term clients"
+      ]
+    },
+    {
+      "name": "Ashley",
+      "role": "Pet Groomer",
+      "bio": "Ashley is praised for delivering stunning results on senior dogs, combining technical skill with the patience older pets require. Clients say their dogs look amazing and come back ready to return.",
+      "credentials": [
+        "Specializes in senior dog grooming",
+        "Highly recommended by first-time clients"
+      ]
+    },
+    {
+      "name": "Cody",
+      "role": "Pet Groomer",
+      "bio": "Cody is the groomer you call when another salon has let your pet down. She took the time to help a newly relocated client's anxious Shih Tzu acclimate to the environment before grooming — turning a stressful situation into a success story.",
+      "credentials": [
+        "Skilled at rehabilitating bad groom experiences",
+        "Patient acclimation approach for nervous pets"
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Dogs playing in indoor facility with agility equipment and tunnels.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Dark curly-haired dog sitting indoors wearing a collar with ID tag",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Small tan and white Chihuahua wearing red plaid pajamas on tile floor",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Light-colored dog being shown at competition with handler holding number six",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Black cat wearing blue collar with bell pendant indoors",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Close-up of a boxer dog's face with mouth open, looking directly at camera.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "White fluffy dog wearing purple tie sitting on floral wingback chair",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Fluffy white dog with tongue out relaxing on couch with blankets",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Two dogs playing inside a business entrance near glass doors and windows",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Black poodle with pink collar and bell tag sitting on rocky forest ground",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 5,
+      "suffix": "★",
+      "label": "Perfect Rating on Google"
+    },
+    {
+      "value": 41,
+      "suffix": "+",
+      "label": "Five-Star Reviews"
+    },
+    {
+      "value": 7,
+      "suffix": " days",
+      "label": "Open Every Day of the Week"
+    },
+    {
+      "value": 3,
+      "suffix": "+",
+      "label": "Named Groomers Trusted by Clients"
+    }
+  ],
+  "faq": [
+    {
+      "question": "My dog had a bad experience at another groomer. Can you help?",
+      "answer": "Absolutely — this is one of the things Nails To Tails does best. Groomer Cody is known for taking extra time to let anxious or previously frightened pets acclimate to the space and other animals before any grooming begins. We don't rush the process."
+    },
+    {
+      "question": "Do you groom show dogs?",
+      "answer": "Yes! Several of our groomers have experience delivering competition-quality results. Christine Parker brings her show dog Ruby here regularly and calls the results 'groomed to perfection' — so you can trust us with your show girl too."
+    },
+    {
+      "question": "Can you handle heavy shedders and double-coated breeds?",
+      "answer": "We sure can. One happy customer brought in a 9-year-old German Shepherd-Husky mix — a legendary shedder — and left with a dog whose coat felt 'soft like silk' after her bath and blowout. We have the tools and technique for high-maintenance coats."
+    },
+    {
+      "question": "Do you groom senior dogs?",
+      "answer": "Yes, and we take it seriously. Groomer Ashley specializes in gentle handling for older dogs who may need a slower pace or extra care. Clients consistently say their senior pets look amazing and come back stress-free."
+    },
+    {
+      "question": "Are you open on weekends?",
+      "answer": "We're open seven days a week, Monday through Sunday, from 9:00 AM to 6:00 PM. Because your pet's grooming needs don't take the weekend off."
+    },
+    {
+      "question": "Do you care for cats as well as dogs?",
+      "answer": "Yes! Our photos show happy cats in our care — including a black cat with a blue bell collar who looks perfectly at home. We welcome cats alongside our canine clients."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#4A7C59",
+    "accent": "#D4A843",
+    "note": "Earthy forest green reflects the outdoor Pacific Northwest setting visible in photos (black poodle on rocky forest ground) and the natural, wholesome care ethos. Warm amber gold nods to the warmth and premium pampering that show-dog clients and loyal regulars describe — polished but approachable, not sterile or corporate."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Named, trusted groomers with loyal personal followings — Crystal, Ashley, and Cody each have repeat clients who request them by name, creating a boutique-within-a-salon dynamic that big-box competitors cannot replicate",
+      "Exceptional handling of anxious, sensitive, and special-needs pets — multiple reviews highlight patience, acclimation time, and gentle technique that rescue dogs, senior pets, and previously traumatized animals respond to positively",
+      "Breadth of clientele handled with equal excellence — from show dogs requiring competition-grade finishing to heavily shedding working breeds to small nervous Chihuahuas, the team adapts technique and tone to each animal"
+    ],
+    "common_complaints": [
+      "None found — all 41 reviews are 5-star with no negative feedback, complaints, or service gaps identified in available review data"
+    ],
+    "suggested_tagline": "Where Every Dog Leaves Happy.",
+    "photo_quality": "good",
+    "personality_keywords": [
+      "patient",
+      "skilled",
+      "warm",
+      "trustworthy",
+      "detail-obsessed"
+    ],
+    "named_staff": [
+      "Crystal",
+      "Ashley",
+      "Cody"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

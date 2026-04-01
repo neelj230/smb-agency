@@ -11,9 +11,9 @@
   "website": "http://kens-automotive.shopgenie.site/",
   "rating": 4.8,
   "reviewCount": 726,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Real Talk, Real Repairs, Real Philly.",
+  "brandNarrative": "Ken's Automotive on North 10th Street has built something rare in Philadelphia: a neighborhood shop with a 4.8-star reputation across over 726 reviews, where customers like William Perry trade in their Lexus dealership headaches for a genuinely human experience. Regulars come in for annual state inspections, oil changes, and tire work, and staff like the front desk team are praised for being 'friendly, knowledgeable, and efficient' — able to schedule appointments quickly and turn around quality work on time. Kaitlin Petersen put it plainly after her visit: 'They've earned a lifelong customer from me,' crediting the shop for explaining costs upfront, offering cost-effective alternatives, and going above and beyond to diagnose her car properly. That kind of honesty is the shop's real product.\n\nThe shop's strengths are most visible in the day-to-day: no appointment lag, transparent pricing conversations before work begins, and a staff that takes time to walk customers through their options rather than just handing them a bill. Ginny Christensen captured the vibe best — 'it's fun to walk into the place' — which is not something most people say about auto repair shops. The physical space on N 10th St has an exterior and working bays that reflect a serious, active operation, with photos showing hands-on mechanical work across multiple service bays.\n\nThat said, Ken's Automotive is not without its rough edges. Some customers have raised concerns about communication consistency and billing transparency — specifically around tire replacements where the scope of work (3 vs. 4 tires) wasn't clearly confirmed, and service turnaround times that occasionally stretch longer than expected. The shop's best version shows up when the right staff member is behind the desk: patient, upfront, and genuinely focused on the customer in front of them. That version — the one that earns five-star loyalty from four-year regulars and first-timers alike — is what Ken's Automotive is at its core.",
+  "ownerStory": "Ken's Automotive has the bones of a shop built on personal reputation. Located in the heart of Philadelphia at 341 N 10th Street, it's the kind of place that gets passed along by word of mouth — William Perry found it through a close family member, and that referral pattern runs through the shop's review history. The business operates Monday through Friday, 8 AM to 6 PM, keeping business hours that reflect a team-first, sustainable operation rather than a volume-at-all-costs churn shop. The staff who show up at their best — explaining options, catching extra issues during routine visits, taking the time to help a customer understand what's actually wrong with their car — are the living expression of what Ken's was built to be.\n\nThe name on the sign carries weight in this neighborhood. When the shop delivers on its promise, customers don't just leave satisfied — they come back for years, they send their families, and they call it 'a breath of fresh air.' The challenge, as with any shop that grows through reputation, is making sure that original spirit stays consistent across every interaction, every invoice, and every customer who walks through the door speaking any language. The foundation is clearly there. The reviews — 726 of them — say so.",
   "hours": {
     "Monday": "8:00 AM – 6:00 PM",
     "Tuesday": "8:00 AM – 6:00 PM",
@@ -23,7 +23,38 @@
     "Saturday": "Closed",
     "Sunday": "Closed"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Pennsylvania State Inspection",
+      "description": "Official PA safety and emissions inspection with fast scheduling and same-week sticker turnaround.",
+      "icon": "clipboard-check"
+    },
+    {
+      "name": "Oil Change",
+      "description": "Full oil and filter service with a multi-point visual check to catch issues before they become problems.",
+      "icon": "droplets"
+    },
+    {
+      "name": "Tire Replacement & Repair",
+      "description": "Tire mounting, balancing, nail repair, and full replacement with brand options and upfront pricing.",
+      "icon": "circle"
+    },
+    {
+      "name": "Brake Service",
+      "description": "Brake pad, rotor, and caliper inspection and replacement to keep your stopping power reliable.",
+      "icon": "octagon"
+    },
+    {
+      "name": "Diagnostic & Maintenance Check",
+      "description": "Full vehicle health assessment with staff who explain findings and walk you through repair options and costs.",
+      "icon": "scan"
+    },
+    {
+      "name": "Battery Service",
+      "description": "Battery testing, replacement, and post-replacement drive cycle guidance for emissions readiness.",
+      "icon": "battery-charging"
+    }
+  ],
   "reviews": [
     {
       "text": "Yesterday my second time coming here, the first time was great! That mechanic was amazing and helpful. This second time around the staff at the front desk were rude / dismissive. I called ahead in the morning for an oil change & they said they had time to take me. They proceeded to take 5 hours to complete it. A women came into the shop right after me who seemed to mainly speak Mandarin Chinese. The front desk staff refused to help navigate any form of communication with her (one of the guys kept repeating “Google translate” and then would turned away from her right after ).  When she began to try to speak clearer English, they said they can’t help and to come back some other time because the still couldn’t understand her. When she left they began laughing and saying things like “do I look Chinese to you, go somewhere else”. There was another customer in the store along with me while all this was happening. When I came back to get my vehicle at 4:30pm they told me there was a nail in my tire but because it was so late in the day at that point they wouldn’t be able to replace the tire so they went ahead and put my spare on without asking because it would be dangerous for me to drive with it. They said the nail that was in there must have came out on its own when they showed me a picture of the whole.\nThen they told me to give them a call Monday if I want to replace the spare donut on my car and they will order a new tire for me. They did come out out to my car to clean off some dried pink substance that wasn’t there when I brought it in which was good of them but otherwise awful feelings about what happened all around.",
@@ -116,28 +147,79 @@
   ],
   "stats": [
     {
-      "value": 726,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.8,
+      "suffix": " stars",
+      "label": "Average Google Rating"
     },
     {
-      "value": 4.8,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 726,
+      "suffix": "+",
+      "label": "Customer Reviews"
+    },
+    {
+      "value": 5,
+      "suffix": " days",
+      "label": "Weekly Availability (Mon–Fri)"
+    },
+    {
+      "value": 4,
+      "suffix": "+ years",
+      "label": "Loyalty Span of Repeat Customers"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "How quickly can I get an appointment?",
+      "answer": "Ken's Automotive is known for fast scheduling — most customers report being seen within a day or two, and same-day availability for services like oil changes is common. Call ahead at (215) 829-9898 to confirm availability."
+    },
+    {
+      "question": "Will you explain the costs before doing any work?",
+      "answer": "Yes — multiple customers highlight upfront pricing as one of Ken's biggest strengths. Staff walk you through costs and options before work begins, and will often suggest more cost-effective alternatives when available."
+    },
+    {
+      "question": "Do you service luxury vehicles like Lexus or European makes?",
+      "answer": "Absolutely. Ken's services a wide range of vehicles including luxury makes. Customers specifically mention bringing Lexus vehicles here as a better alternative to dealership service centers."
+    },
+    {
+      "question": "What happens if you find additional issues during my service?",
+      "answer": "The team performs visual checks during routine services and will flag anything they find — like a nail in a tire or worn components — and discuss your options before taking action. They aim to keep you informed, not surprised."
+    },
+    {
+      "question": "Do you handle PA state inspections and emissions?",
+      "answer": "Yes, state inspections are one of the shop's most reviewed services. Note that if you've recently replaced your battery, you may need to drive the vehicle beforehand to generate sufficient emissions data — the team can advise you on this."
+    },
+    {
+      "question": "What are your hours and do you have weekend availability?",
+      "answer": "Ken's Automotive is open Monday through Friday, 8:00 AM to 6:00 PM. The shop is closed on Saturdays and Sundays, so plan accordingly for weekday drop-offs or pickups."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#1A1A2E",
+    "accent": "#E63946",
+    "note": "Deep navy conveys trust, precision, and a no-nonsense Philly work ethic. The bold red accent captures the shop's energy and urgency — a color that shows up in brake lines, warning lights, and the kind of straight-talking service Ken's is known for at its best."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Fast scheduling and efficient turnaround praised consistently across reviews",
+      "Staff praised for transparent, upfront cost explanations and genuine diagnostic helpfulness",
+      "Strong word-of-mouth loyalty — customers return for years and refer family members"
+    ],
+    "common_complaints": [
+      "Inconsistent front desk experience — some staff described as rude or dismissive",
+      "Billing transparency issues around scope of work (e.g., 3 vs. 4 tires not clearly communicated)",
+      "Unusually long wait times on some visits despite advance scheduling (5-hour oil change reported)"
+    ],
+    "suggested_tagline": "Your Car Knows the Difference.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "neighborhood-rooted",
+      "efficient",
+      "upfront",
+      "inconsistent",
+      "trusted-by-referral"
+    ],
+    "named_staff": []
   }
 }

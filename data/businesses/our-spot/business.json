@@ -1,0 +1,143 @@
+{
+  "name": "Our Spot",
+  "slug": "our-spot",
+  "category": "cafe",
+  "address": "1816 S River Dr",
+  "city": "Portland",
+  "state": "OR",
+  "zip": "97201",
+  "phone": "",
+  "email": "",
+  "website": null,
+  "rating": 4.8,
+  "reviewCount": 130,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "7:00 AM – 3:00 PM",
+    "Tuesday": "7:00 AM – 3:00 PM",
+    "Wednesday": "7:00 AM – 3:00 PM",
+    "Thursday": "7:00 AM – 3:00 PM",
+    "Friday": "7:00 AM – 3:00 PM",
+    "Saturday": "8:00 AM – 4:00 PM",
+    "Sunday": "8:00 AM – 4:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "What a dreamy “hidden” gem! I absolutely love this Cafe! The reusable jar I got will be put to great use! The real plants, cozy fun decor and music make the place so lively! Barista was extremely personable!",
+      "author": "Katie Sterba",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-21"
+    },
+    {
+      "text": "It was Christmas eve day when I stopped in. This beautiful gem of a coffee shop is right on the waterfront. It backs up to a beautiful little park and is part of the waterfront path.\nIt’s vegan with unusual special milks they make, like pumpkin/hazelnut milk! So delicious. And NO waste, currently they use glass containers for your coffee. GENIUS!!! Soon moving to compostable cups.\nI had forgotten to take pics and when I went back to return my glass - I realized it was Christmas Day. Of course it was closed.\nPS VEGAN pastries are fab.\nA perfect stop on your walk!",
+      "author": "Theresa Kusak-Smith",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-30"
+    },
+    {
+      "text": "Lovely coffee shop, amazing chai and matcha. Tasty baked goods! Serve their drinks in jars! You return the jar you get $1 back!!",
+      "author": "Maria Stoimenova",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-12"
+    },
+    {
+      "text": "Cute spot for sitting outside in the sun by the waterfront. When Sasha is working the coffee is hot, not burned, perfectly hot and delicious. I've loved my lattes from her every time. I appreciate the house made nut milk - made and delivered by the previous owner who was a really friendly guy. It's rare to get house made milk anywhere these days, so that's a treat. I'm a big fan of the Califa oatmilk and wish they carried this over their brand of choice, Minor Figures, which imo is one of the worst on the market. I've been telling friends about this place and we've met up at Our Spot several times in the last few weeks and while we're in agreement regarding the location and cute cafe, the coffees haven't been consistent enough to satisfy. It's definitely worth checking this place out, if only for the nut milk but a heads-up, parking closeby is challenging and pricey, so it's really disappointing to go through all that + end up with a lukewarm coffee that doesn't taste good.",
+      "author": "Carmel Breathnach",
+      "rating": 3,
+      "source": "google",
+      "date": "2025-04-17"
+    },
+    {
+      "text": "I gotta join the others and give it 5 stars! First, it's the cutest, and the littlest coffee shop ever. It's nestled by the waterfront, public restrooms (decent ones too) and a garden, very convenient. My iced vanilla latte was really tasty.  It was quite expensive, but worth it. It was nice to have coffee in a glass cup plus a cute glass straw. Also the ice was nice (iced coffee people will understand), It's the little things! Highly recommend.",
+      "author": "Alesya Kos",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-10-07"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Our Spot photo 1",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Our Spot photo 2",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Our Spot photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Our Spot photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Our Spot photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Our Spot photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Our Spot photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Our Spot photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Our Spot photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Our Spot photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 130,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.8,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": "To be extracted from existing branding"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  }
+}

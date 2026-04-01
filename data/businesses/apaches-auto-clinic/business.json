@@ -11,9 +11,9 @@
   "website": null,
   "rating": 4.5,
   "reviewCount": 28,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Real mechanics. Real integrity. No shortcuts.",
+  "brandNarrative": "Apache's Auto Clinic on Haverford Avenue isn't the flashiest shop in Philadelphia — and that's exactly the point. What customers keep coming back for is something harder to find than a good price: mechanics who actually give a damn. Karen Gambrell found that out the hard way on a rainy Friday evening when her car wouldn't start after a routine repair. The Apache's team — already at the end of their week — walked out into the rain, bought her a new battery, stayed past closing, and made sure she got home safe. That's not a policy. That's character.\n\nBrandon, one of the shop's go-to technicians, has built a reputation for transparency. Customers like Jamal Carter note that he walks you step by step through the problem, shows you what's wrong under the hood, and explains why the work needs to be done — no smoke and mirrors. First-timers like Aesha Richardson, who came in on a friend's recommendation, leave as converts. The shop carries a 4.5-star rating across 28 reviews, and the praise is remarkably consistent: fair pricing, professional treatment, and a team that treats your car like it matters.\n\nThere have been bumps — a forgotten cooling fan here, a pricing disagreement there — but what stands out is how the shop responds: quickly, without argument, and with the work done right the second time. Apache's doesn't pretend to be perfect. It just shows up honestly, and in West Philadelphia, that earns loyalty that no advertising budget can buy.",
+  "ownerStory": "The soul of Apache's Auto Clinic lives in its people, and Brandon is a name that comes up when customers talk about what makes this place different. He's the kind of mechanic who doesn't just fix your car — he educates you about it. Pull up with a timing belt problem on your 2007 Chrysler 300 and he won't just hand you a bill. He'll show you the worn components, explain the failure chain, and make sure you leave understanding what was done and why. That kind of transparency is rare in an industry built on information asymmetry, and it's what keeps West Philly residents referring their friends.\n\nApache's Auto Clinic has planted its roots at 5727 Haverford Ave, running Monday through Friday for the working people of the neighborhood — the ones who can't afford to wait a week for an appointment or get gouged at a dealership. The shop's identity isn't built on marketing slogans. It's built on moments: staying late in the rain to get someone home safe, catching an overheating issue before it becomes an engine replacement, making a first-timer feel like a regular. That's the Apache's way.",
   "hours": {
     "Monday": "9:00 AM – 5:00 AM",
     "Tuesday": "9:01 AM – 5:01 AM",
@@ -23,7 +23,38 @@
     "Saturday": "Closed",
     "Sunday": "Closed"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Timing Belt & Engine Assembly",
+      "description": "Full timing belt replacement and engine assembly service with transparent diagnostics — technicians show you exactly what failed and why before any work begins.",
+      "icon": "settings"
+    },
+    {
+      "name": "Battery Replacement",
+      "description": "Same-day battery testing, sourcing, and installation — the team has been known to go out and purchase a battery on the spot to get a stranded customer safely back on the road.",
+      "icon": "zap"
+    },
+    {
+      "name": "Cooling System Repair",
+      "description": "Diagnosis and repair of overheating issues, cooling fan replacement, and radiator service to keep your engine running at safe operating temperatures.",
+      "icon": "thermometer"
+    },
+    {
+      "name": "General Diagnostics & Inspection",
+      "description": "Comprehensive vehicle inspection with a walkthrough explanation of findings — no guesswork, no upsells, just an honest breakdown of what your car actually needs.",
+      "icon": "search"
+    },
+    {
+      "name": "Brake Service",
+      "description": "Brake pad, rotor, and caliper inspection and replacement for reliable stopping power, performed with the same honest pricing the shop is known for.",
+      "icon": "disc"
+    },
+    {
+      "name": "Oil Change & Preventive Maintenance",
+      "description": "Quick, fairly priced oil changes and routine maintenance to keep your vehicle running reliably between major repairs.",
+      "icon": "droplets"
+    }
+  ],
   "reviews": [
     {
       "text": "Excellent customer service very professional.  First time taking my car, was highly recommended by a friend. I will definitely be using there services again.",
@@ -61,7 +92,18 @@
       "date": "2017-08-27"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Brandon",
+      "role": "Lead Technician",
+      "bio": "Brandon is known for his step-by-step transparency — he walks customers directly to the vehicle, shows them the problem firsthand, and explains every detail before touching a tool. Customers describe him as informative and thorough, the kind of mechanic who turns a stressful repair into an education.",
+      "credentials": [
+        "Timing belt & engine assembly specialist",
+        "Customer-trusted diagnostics",
+        "Transparent repair walkthroughs"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -86,28 +128,81 @@
   ],
   "stats": [
     {
-      "value": 28,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.5,
+      "suffix": "★",
+      "label": "Average Customer Rating"
     },
     {
-      "value": 4.5,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 28,
+      "suffix": "+",
+      "label": "Verified Customer Reviews"
+    },
+    {
+      "value": 5,
+      "suffix": "-day",
+      "label": "Week Availability (Mon–Fri)"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "Commitment to Honest Repairs"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "How do I know I can trust the pricing at Apache's?",
+      "answer": "Multiple customers describe Apache's pricing as 'super fair' and consistent with or better than competitors in the area. Technician Brandon is known for explaining costs in detail before work begins, so there are no surprise charges when you pick up your car."
+    },
+    {
+      "question": "What happens if something is missed during my repair?",
+      "answer": "Apache's stands behind their work. One customer noticed an issue after leaving and returned immediately — the team corrected it in under 20 minutes at no additional charge. They take accountability seriously and move fast to make it right."
+    },
+    {
+      "question": "Will the technician explain what's wrong with my car in plain language?",
+      "answer": "Yes — Brandon in particular has been praised for walking customers through exactly what the problem is, showing them the affected parts, and explaining why the repair is necessary. You won't leave confused about what was done to your vehicle."
+    },
+    {
+      "question": "Do you take walk-ins or do I need an appointment?",
+      "answer": "Apache's is known for accommodating customers with quick turnaround, including same-day service for straightforward jobs. Call ahead at (215) 476-6500 to confirm availability, especially for larger repairs."
+    },
+    {
+      "question": "What are your hours and do you work on weekends?",
+      "answer": "Apache's is open Monday through Friday, 9:00 AM to 5:00 PM. The shop is closed on Saturdays and Sundays. Notably, the team has been known to stay past closing time when a customer needs help — as one Friday-evening customer discovered when they stayed late in the rain to install her battery."
+    },
+    {
+      "question": "Is this a good shop if I'm bringing my car here for the first time?",
+      "answer": "Absolutely. Several first-time customers came in through word-of-mouth referrals and left as loyal regulars. The professional, no-pressure atmosphere and honest communication make it easy to feel comfortable, even if it's your first visit."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#1A1A2E",
+    "accent": "#E63946",
+    "note": "Deep navy anchors the brand in trustworthiness and mechanical seriousness — the kind of shop that doesn't cut corners. The bold red accent reflects Apache's passionate, above-and-beyond service culture: staying late in the rain, fixing mistakes immediately, going the extra mile. Together they feel credible and human, not corporate."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "fair"
+    "top_3_strengths": [
+      "Exceptional above-and-beyond service — staff stayed late on a rainy Friday to buy and install a battery for a stranded customer, embodying genuine integrity",
+      "Transparent, educational communication — Brandon walks customers through problems in person and explains repairs step by step, building real trust",
+      "Strong word-of-mouth reputation — multiple customers arrived by referral and converted to loyal regulars after their first visit"
+    ],
+    "common_complaints": [
+      "Pricing perceived as slightly high by at least one customer on a larger repair job (timing belt assembly)",
+      "One instance of a part (cooling fan) not reinstalled after a repair, requiring the customer to return — though resolved quickly",
+      "One strongly negative review citing unprofessionalism and distrust of the owner, suggesting inconsistency in service experiences"
+    ],
+    "suggested_tagline": "We stay late. We get it right.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "Integrity-driven",
+      "Transparent",
+      "Community-rooted",
+      "Above-and-beyond",
+      "Accountable"
+    ],
+    "named_staff": [
+      "Brandon"
+    ]
   }
 }

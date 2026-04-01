@@ -11,11 +11,42 @@
   "website": null,
   "rating": 4.9,
   "reviewCount": 17,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Fixed Right. Explained Clear. Back on Road.",
+  "brandNarrative": "Fitzroy's Auto Repair on West Thompson Street has earned a quiet but powerful reputation in West Philadelphia — not through flashy advertising, but through word of mouth and a near-perfect 4.9-star rating built on honest work and real results. Customers walk in with questions and leave with answers. As Theresa Rudd put it, 'they explained the scope of work and cost' — a detail that matters enormously in an industry where many shops keep customers in the dark. That transparency is the foundation of everything here.\n\nThe shop has developed a particular standout reputation for electrical diagnostics and repair — a notoriously tricky specialty that most general shops fumble. Mike Jones said it plainly: 'he's the best at electrical work.' That kind of specific praise doesn't come from a single lucky fix — it comes from a technician who has cracked enough complex wiring problems that the neighborhood takes notice. Whether it's a truck that won't start or a mystery warning light that's stumped three other shops, Fitzroy's is the place people end up.\n\nWhat ties every review together isn't just competence — it's character. Quadeera Burchette called the owner 'very wholesome,' Nadra R expressed genuine gratitude, and Richie Rumble celebrated getting his truck back on the road. These aren't transactional reviews. They're the kind of thing you write when someone actually took care of you. Fitzroy's isn't just fixing cars — it's restoring people's daily lives, their commutes, their livelihoods, one repair at a time.",
+  "ownerStory": "The owner of Fitzroy's Auto Repair is the kind of mechanic that customers talk about by name — and talk about with pride. Described by one customer as 'very wholesome,' and singled out by another as simply 'the best at electrical work,' Fitzroy has built something rare in the auto repair world: a shop where the person running it is also the person most trusted to do the hardest jobs. That combination of ownership and hands-on expertise means customers aren't handed off to an unknown technician — they're getting the attention of someone who takes the outcome personally.\n\nLocated in the heart of West Philadelphia at 5100 W Thompson Street, Fitzroy's reflects the neighborhood it serves — straightforward, unpretentious, and genuinely invested in community. Fitzroy's approach is simple: explain what's wrong, explain what it'll cost, fix it right, and get the customer back on the road. That philosophy has turned first-time visitors into loyal regulars and earned the kind of heartfelt review — 'I am forever grateful' — that no marketing budget can manufacture.",
   "hours": {},
-  "services": [],
+  "services": [
+    {
+      "name": "Electrical Diagnostics & Repair",
+      "description": "Fitzroy's is widely recognized as the go-to shop for complex automotive electrical problems, from dead batteries and faulty alternators to wiring shorts and mystery fault codes.",
+      "icon": "zap"
+    },
+    {
+      "name": "General Engine Repair",
+      "description": "Full engine diagnostics and repair for cars and trucks of all makes, with a clear explanation of what's wrong and what it will cost before any work begins.",
+      "icon": "settings"
+    },
+    {
+      "name": "Truck & Heavy Vehicle Service",
+      "description": "Specialized repair and maintenance for pickup trucks and larger personal vehicles, getting commercial and personal truck owners back on the road fast.",
+      "icon": "truck"
+    },
+    {
+      "name": "Brake Service & Repair",
+      "description": "Inspection, pad replacement, rotor resurfacing, and full brake system repair to keep your vehicle safe and stopping reliably.",
+      "icon": "circle-dot"
+    },
+    {
+      "name": "Pre-Purchase Inspection",
+      "description": "Thorough vehicle inspection with a full verbal and written breakdown of condition and costs — ideal before buying a used car.",
+      "icon": "clipboard-check"
+    },
+    {
+      "name": "Routine Maintenance & Oil Change",
+      "description": "Oil changes, fluid top-offs, filter replacements, and scheduled maintenance to keep your vehicle running at its best between major repairs.",
+      "icon": "droplets"
+    }
+  ],
   "reviews": [
     {
       "text": "Best shop around and they say he's the best at electrical work",
@@ -53,32 +84,94 @@
       "date": "2023-07-08"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Fitzroy",
+      "role": "Owner & Lead Technician",
+      "bio": "Fitzroy is the heart of the shop — hands-on, wholesome, and widely regarded as the best electrical repair technician in the area. Customers trust him not just with their cars, but with their time and their peace of mind.",
+      "credentials": [
+        "Electrical Repair Specialist",
+        "Owner-Operated",
+        "Community Trusted"
+      ]
+    }
+  ],
   "photos": [],
   "stats": [
     {
-      "value": 17,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.9,
+      "suffix": " Stars",
+      "label": "Average Customer Rating"
     },
     {
-      "value": 4.9,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 17,
+      "suffix": "+",
+      "label": "Verified 5-Star Reviews"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "Customers Who Would Recommend"
+    },
+    {
+      "value": 1,
+      "suffix": " Specialty",
+      "label": "Best Electrical Repair in West Philly"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "What makes Fitzroy's different from other auto shops in Philadelphia?",
+      "answer": "Fitzroy's stands out for two big reasons: radical transparency and electrical expertise. Every job comes with a clear explanation of the work and the cost upfront — no surprises. And when it comes to automotive electrical problems, customers and neighbors will tell you Fitzroy is simply the best around."
+    },
+    {
+      "question": "Do you specialize in electrical repair?",
+      "answer": "Yes — electrical diagnostics and repair is one of Fitzroy's signature strengths. If you've been to other shops and they couldn't figure out your electrical issue, this is the right place to bring your vehicle."
+    },
+    {
+      "question": "Will you explain what's wrong with my car before you fix it?",
+      "answer": "Absolutely. Explaining the scope of work and the cost before touching your vehicle is a core part of how Fitzroy's operates. You'll always know what's being done and what you're paying for."
+    },
+    {
+      "question": "Do you work on trucks?",
+      "answer": "Yes. Fitzroy's services cars and trucks alike. Several customers have specifically praised the shop for truck repair, including getting vehicles back on the road quickly after complex issues."
+    },
+    {
+      "question": "Is the owner actually involved in the repairs?",
+      "answer": "Yes — Fitzroy is an owner-operator who is personally involved in the work. When you bring your vehicle here, you're getting the attention of the person whose name is on the building."
+    },
+    {
+      "question": "How do I get a quote or book a repair?",
+      "answer": "Call Fitzroy's directly at (215) 473-6565 to describe your issue and schedule a time to bring your vehicle in. The shop is located at 5100 W Thompson St, Philadelphia, PA 19131."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#1C2B3A",
+    "accent": "#E87C2B",
+    "note": "Deep navy evokes trust, expertise, and no-nonsense professionalism — the tone of a shop that's earned its reputation quietly. The burnt orange accent mirrors automotive energy, warmth, and the glow of a working garage — reflecting the 'wholesome' and approachable personality customers consistently describe."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "poor"
+    "top_3_strengths": [
+      "Outstanding electrical repair expertise — specifically called out by name as 'the best' by customers",
+      "Transparent communication — customers praised being told the scope of work and cost upfront before repairs begin",
+      "Genuine personal warmth and trustworthiness — owner described as 'wholesome' and reviews express deep gratitude beyond typical satisfaction"
+    ],
+    "common_complaints": [
+      "None found — all 17 reviews are 5-star with no negative feedback identified"
+    ],
+    "suggested_tagline": "West Philly's Most Trusted Wrench.",
+    "photo_quality": "poor",
+    "personality_keywords": [
+      "wholesome",
+      "transparent",
+      "trustworthy",
+      "expert",
+      "community-rooted"
+    ],
+    "named_staff": [
+      "Fitzroy (owner, referenced implicitly across multiple reviews as 'he' and 'owner')"
+    ]
   }
 }

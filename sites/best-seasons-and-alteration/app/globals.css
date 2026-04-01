@@ -1,0 +1,227 @@
+@import "tailwindcss";
+
+/* Scan shared packages for Tailwind classes */
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #1e64e6;
+  --brand-accent: #f6e304;
+  --brand-bg: #f0f4fa;
+  --brand-bg-alt: #d8e0ec;
+  --brand-text: #081d3a;
+  --brand-muted: #4e5c71;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: var(--brand-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+/* Marquee animation for carousels */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Smooth section transitions */
+section, [id] > div {
+  scroll-margin-top: 80px;
+}
+
+/* Focus-visible outlines for accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Inset border for editorial/gallery feel */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 12px;
+  z-index: 999;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  pointer-events: none;
+  border-radius: 2px;
+}
+
+/* Gradient transitions between sections */
+.section-gradient {
+  position: relative;
+}
+.section-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--brand-bg));
+  pointer-events: none;
+}
+
+/* Creative director extras */
+/* ── Brand tokens ─────────────────────────────────────────────────────────── */
+:root {
+  --brand-primary: #1e64e6;
+  --brand-accent: #f6e304;
+  --brand-text: #0a0a0a;
+  --brand-muted: #666;
+}
+
+/* ── Fonts ────────────────────────────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+.font-display {
+  font-family: 'Figtree', sans-serif;
+}
+
+/* ── Dot pattern background ───────────────────────────────────────────────── */
+.dot-pattern {
+  background-color: #fafafa;
+  background-image: radial-gradient(circle, #c8d4e8 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* ── Film grain overlay ───────────────────────────────────────────────────── */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 128px 128px;
+  opacity: 0.025;
+  mix-blend-mode: hard-light;
+}
+
+/* ── Marquee strip ────────────────────────────────────────────────────────── */
+.marquee-strip {
+  border-top: 1px solid rgba(0,0,0,0.06);
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+/* ── Glass cards ──────────────────────────────────────────────────────────── */
+.glass {
+  background: rgba(255,255,255,0.06);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 16px;
+}
+
+/* ── Service card hover lift ──────────────────────────────────────────────── */
+[data-service-card]:hover,
+.service-card:hover {
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 20px 40px -12px rgba(30, 100, 230, 0.18);
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1),
+              box-shadow 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* ── Section heading accent underline ────────────────────────────────────── */
+.heading-accent {
+  position: relative;
+  display: inline-block;
+}
+.heading-accent::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: var(--brand-accent);
+  border-radius: 2px;
+}
+
+/* ── Gradient accent divider ─────────────────────────────────────────────── */
+.gradient-divider {
+  height: 2px;
+  background: linear-gradient(90deg, #1e64e6 0%, #f6e304 50%, #1e64e6 100%);
+}
+
+/* ── Dark section FAQ text overrides ────────────────────────────────────── */
+#faq [data-accordion-item] {
+  border-color: rgba(255,255,255,0.1) !important;
+}
+#faq [data-accordion-trigger] {
+  color: white !important;
+}
+#faq [data-accordion-content] {
+  color: rgba(255,255,255,0.7) !important;
+}
+
+/* ── About section dark override ─────────────────────────────────────────── */
+#about h2,
+#about h3,
+#about p,
+#about span {
+  color: white;
+}
+#about .text-gray-600,
+#about .text-gray-500,
+#about .text-muted {
+  color: rgba(255,255,255,0.65) !important;
+}
+
+/* ── Smooth scroll ────────────────────────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ── Stats dark section accent ───────────────────────────────────────────── */
+#stats [data-stat-value] {
+  color: var(--brand-accent) !important;
+}
+
+/* ── CTA button pulse ────────────────────────────────────────────────────── */
+@keyframes cta-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(30, 100, 230, 0.4); }
+  50%       { box-shadow: 0 0 0 10px rgba(30, 100, 230, 0); }
+}
+.cta-pulse {
+  animation: cta-pulse 2.5s ease-in-out infinite;
+}
+
+/* ── Testimonial card styles ─────────────────────────────────────────────── */
+[data-testimonial-card] {
+  border-left: 3px solid var(--brand-accent) !important;
+}
+
+/* ── Footer dark ─────────────────────────────────────────────────────────── */
+footer {
+  background: #070a10 !important;
+  color: rgba(255,255,255,0.7) !important;
+}
+footer a:hover {
+  color: var(--brand-accent) !important;
+}
+
+/* ── Picture frame editorial feel ───────────────────────────────────────── */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 10px;
+  pointer-events: none;
+  z-index: 9998;
+  border: 1px solid rgba(0,0,0,0.04);
+  border-radius: 2px;
+}

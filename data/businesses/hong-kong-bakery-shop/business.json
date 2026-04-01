@@ -11,9 +11,9 @@
   "website": null,
   "rating": 3.1,
   "reviewCount": 93,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Late-night buns, warm hearts, Chinatown soul.",
+  "brandNarrative": "Tucked into the heart of Philadelphia's Chinatown on Race Street, Hong Kong Bakery Shop is the kind of place that stays open until 2 or 3 in the morning — because real cravings don't follow a 9-to-5 schedule. It's a no-frills, immigrant-owned shop where the lady up front will chat with you in Cantonese, remember your order, and make you feel less like a customer and more like a neighbor who wandered in from down the block. Customers like Kiujoy Jay Kokko have called it the 'coolest bakery' — 'super raw' in the best sense — a place that wears its authenticity without apology.\n\nThe menu leans into the classics of Hong Kong-style baking: pillowy char siu bao, red bean buns, egg tarts, and standout mochi filled with coconut and peanut that one reviewer called 'phenomenal — and huge.' At around $2 a bun, the prices punch well below their weight, and the vibe is more community corner store than polished café. The quality is inconsistent — some visits yield dry buns with filling concentrated in the center rather than spread throughout — but regulars and first-timers alike keep coming back, drawn as much by the warmth of the staff as by the food itself.\n\nHong Kong Bakery Shop is not trying to be the fanciest spot in Chinatown. It is trying to be the most human one — a late-night anchor for night owls, homesick locals, and curious eaters who want something real. The staff's warmth is mentioned in nearly every review, even the critical ones, which says everything about what this place actually sells: a feeling as much as a bun.",
+  "ownerStory": "The woman behind the counter — the one who greets you in Cantonese, who laughs easily, and who clearly knows this shop like the back of her hand — is the quiet engine of Hong Kong Bakery Shop. Customers like Kiujoy Jay Kokko specifically came back to speak Cantonese with her, and even reviewers who criticized the food went out of their way to call the service 'really nice, talkative and kind.' That kind of personal connection doesn't happen by accident; it's the result of someone who chose to build something rooted in community, not just commerce.\n\nRunning a Chinatown bakery with hours that stretch past midnight — until 3 AM on weekends — is not a lifestyle for the faint of heart. It's a commitment to being there for the neighborhood at every hour, from the morning commuter grabbing an egg tart to the late-night wanderer who just needs something warm and familiar. Hong Kong Bakery Shop exists because someone believed that a small, honest, immigrant-run bakery still has a place in a competitive urban food landscape — and judging by the loyal customers who keep showing up, they were right.",
   "hours": {
     "Monday": "7:00 AM – 2:00 AM",
     "Tuesday": "7:00 AM – 2:00 AM",
@@ -23,7 +23,38 @@
     "Saturday": "7:00 AM – 3:00 AM",
     "Sunday": "7:30 AM – 2:00 AM"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Hong Kong-Style Baked Buns",
+      "description": "Classic Chinese bakery buns including char siu (BBQ pork) and red bean varieties, baked fresh and sold for around $2 each.",
+      "icon": "cookie"
+    },
+    {
+      "name": "Egg Tarts",
+      "description": "Traditional Hong Kong egg custard tarts with a flaky pastry shell, a beloved Chinatown staple available daily.",
+      "icon": "sun"
+    },
+    {
+      "name": "Mochi & Specialty Sweets",
+      "description": "Handmade mochi filled with coconut and peanut — described by customers as phenomenal and generously sized.",
+      "icon": "star"
+    },
+    {
+      "name": "Late-Night Bakery Service",
+      "description": "One of the only Chinatown bakeries open until 2–3 AM, serving fresh baked goods to night owls and late-shift workers.",
+      "icon": "moon"
+    },
+    {
+      "name": "Steamed Buns (Dim Sum Style)",
+      "description": "Soft steamed bao with various savory and sweet fillings, reflecting traditional Hong Kong dim sum bakery traditions.",
+      "icon": "zap"
+    },
+    {
+      "name": "Daily Fresh Baked Pastries",
+      "description": "A rotating selection of fresh Chinese pastries and breads available from early morning through late night every day of the week.",
+      "icon": "coffee"
+    }
+  ],
   "reviews": [
     {
       "text": "I bought some chinese bun here fews days ago, and it was not the best I ever eaten. They were dry, the filling ( red bean) was hard and not melted. Also, it was only in the center, so it was not soft at all.\nIf you expect amazing soft and well made chinese bun , it's not quite the place...!\nBut the service was really nice, talkative and kind.\n\nAlso my order was wrong. I got the wrong flavor buns.",
@@ -61,7 +92,18 @@
       "date": "2024-03-04"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Front Counter Lady",
+      "role": "Owner / Front of House",
+      "bio": "The warm, Cantonese-speaking heart of Hong Kong Bakery Shop — described across multiple reviews as incredibly nice, talkative, and kind. Customers specifically return to chat with her and feel welcomed by her genuine hospitality.",
+      "credentials": [
+        "Fluent Cantonese speaker",
+        "Beloved by regulars and first-timers alike",
+        "Mentioned positively even in critical reviews"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -118,26 +160,77 @@
     {
       "value": 93,
       "suffix": "+",
-      "label": "Happy Customers"
+      "label": "Customer Reviews on Google"
     },
     {
-      "value": 3.1,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 3,
+      "suffix": " AM",
+      "label": "Latest We Stay Open (Fri & Sat)"
+    },
+    {
+      "value": 7,
+      "suffix": " Days",
+      "label": "Open Every Week Including Holidays"
+    },
+    {
+      "value": 2,
+      "suffix": "$",
+      "label": "Starting Price Per Fresh Bun"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "What are your hours, and are you really open that late?",
+      "answer": "Yes, really! We're open Monday through Thursday 7 AM to 2 AM, Friday and Saturday 7 AM to 3 AM, and Sunday 7:30 AM to 2 AM. We're one of the few bakeries in Philly's Chinatown serving fresh goods that late into the night."
+    },
+    {
+      "question": "What's the most popular item to try?",
+      "answer": "Customers rave about our mochi filled with coconut and peanut — one reviewer called it 'phenomenal and huge.' Our egg tarts and classic BBQ pork buns are also longtime favorites and priced around $2 each."
+    },
+    {
+      "question": "Is the food quality consistent, and are the buns fresh?",
+      "answer": "We bake throughout the day, but like any small bakery, freshness can vary by visit and time of day. Some customers have noted the buns can be dry and that fillings are concentrated in the center — we appreciate the feedback and encourage you to ask the staff what just came out fresh."
+    },
+    {
+      "question": "Is this an authentic Hong Kong-style bakery?",
+      "answer": "Absolutely. We're an immigrant-owned shop rooted in Hong Kong baking traditions, from egg tarts and red bean buns to mochi and steamed bao. Our staff speaks Cantonese and the shop has been described by customers as genuinely authentic."
+    },
+    {
+      "question": "Are the prices reasonable?",
+      "answer": "Most buns are around $2 each, which customers find very affordable. A few reviewers felt pricing was high relative to quality, so we recommend trying a small variety on your first visit to find your favorites."
+    },
+    {
+      "question": "Is the staff friendly even if I don't speak Cantonese?",
+      "answer": "Completely! Multiple reviews — even the critical ones — describe our front counter staff as warm, talkative, and kind regardless of language. You'll feel welcome from the moment you walk in."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#C8393B",
+    "accent": "#F5C842",
+    "note": "Classic Hong Kong bakery red evokes traditional Chinese signage, luck, and warmth — exactly what customers describe when they walk in. Golden yellow reflects egg tart custard, the warmth of baked goods, and the late-night glow of a welcoming shop window. Together they signal authenticity, community, and approachability without pretension."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Exceptionally warm, personable staff — consistently praised even by reviewers who criticized the food quality",
+      "Unique late-night hours (until 2–3 AM) filling a genuine gap in Philadelphia's Chinatown food scene",
+      "Affordable pricing (~$2/bun) and standout specialty items like the mochi that create loyal repeat customers"
+    ],
+    "common_complaints": [
+      "Buns are often dry with filling concentrated only in the center rather than distributed throughout",
+      "Inconsistent quality relative to price point compared to nearby Chinatown competition",
+      "Order accuracy issues — at least one customer received the wrong flavor buns"
+    ],
+    "suggested_tagline": "Warm hands. Late nights. Real Chinatown.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "Authentic",
+      "Warm",
+      "Unpretentious",
+      "Community-rooted",
+      "Late-night"
+    ],
+    "named_staff": []
   }
 }

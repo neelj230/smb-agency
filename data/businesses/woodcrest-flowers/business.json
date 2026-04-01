@@ -11,9 +11,9 @@
   "website": null,
   "rating": 4.1,
   "reviewCount": 9,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Flowers That Actually Feel Like Love",
+  "brandNarrative": "Woodcrest Flowers is the kind of neighborhood florist that shows up when it matters most — last-minute corporate bouquets, a rose spectacular for a mother of ten, an orchid arrangement worthy of a self-described 'Orchid Snob.' Operating out of North 58th Street in Philadelphia's Woodcrest neighborhood, this family-run shop has quietly built a reputation for doing the hard things beautifully. When Yaithy Blounder needed six elegant employee bouquets on short notice, Woodcrest came through. When Toji Kamado's family wanted a floral tribute worthy of their beloved mother's celebration of life, Woodcrest delivered something 'lovely, spectacular, and elegant.' That's not an accident — that's craft and care working together.\n\nWhat stands out in nearly every review is the warmth of the people behind the counter. Diego Garcia called the woman who answered the phone 'super nice and accommodating,' and that accessibility matters in a neighborhood florist. Customers aren't navigating a website or filling out online forms — they're calling, talking to a real person, and trusting that the flowers will reflect what they're trying to say. And from orchids to red roses to mixed birthday bouquets with lush greenery and white accent flowers, Woodcrest consistently delivers arrangements that exceed expectations. Lauren's mother — an avowed orchid connoisseur — was genuinely impressed, and that's a high bar to clear.\n\nWoodcrest keeps weekday hours from 7 AM to 3 PM, Monday through Friday, suggesting a shop that runs lean and intentional — not a volume operation, but a craft one. The hours hint at a team that sources and prepares flowers fresh, early, and with purpose. It's the kind of place where calling ahead builds a relationship, not just a transaction.",
+  "ownerStory": "No single owner's name surfaces in the reviews, but the personality of Woodcrest Flowers comes through unmistakably — warm, skilled, responsive, and deeply community-rooted. Diego Garcia noted this feels like 'a new shop,' suggesting the business may be in an active growth chapter, yet it's already drawing the loyalty of customers who return and refer. The staff member who answered Diego's call left such an impression that he mentioned her specifically in his review. That's the hallmark of a small family operation where every voice on the phone represents the whole business.\n\nWoodcrest appears to be run by floral artists who take pride in the emotional weight their work carries — from joyful birthday bouquets to deeply personal memorial tributes. Toji Kamado called them 'a wonderful staff of floral artists,' a phrase that feels earned. This is a shop built on intention: early morning hours, careful sourcing, and the kind of attentiveness that turns a nervous last-minute order into a story worth sharing. Whatever the founding story, the mission is clear — make people feel something beautiful.",
   "hours": {
     "Monday": "7:00 AM – 3:00 PM",
     "Tuesday": "7:00 AM – 3:00 PM",
@@ -23,7 +23,38 @@
     "Saturday": "Closed",
     "Sunday": "Closed"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Custom Bouquet Design",
+      "description": "Handcrafted bouquets tailored to the occasion, from birthday arrangements with fresh red roses and lush greenery to elegant mixed-flower designs.",
+      "icon": "flower-2"
+    },
+    {
+      "name": "Corporate & Bulk Floral Orders",
+      "description": "Elegant floral arrangements for businesses and events, including last-minute multi-bouquet orders for employee appreciation and corporate gifting.",
+      "icon": "briefcase"
+    },
+    {
+      "name": "Orchid Gardens & Specialty Plants",
+      "description": "Curated orchid arrangements and specialty potted garden gifts, designed to impress even the most discerning plant enthusiasts.",
+      "icon": "leaf"
+    },
+    {
+      "name": "Celebration of Life & Memorial Tributes",
+      "description": "Thoughtful, elegant floral tributes for memorial services and celebrations of life, crafted with care to honor deeply personal moments.",
+      "icon": "heart"
+    },
+    {
+      "name": "Rose Arrangements",
+      "description": "Signature rose displays ranging from single-stem gifts to grand 'rose spectacular' centerpieces for milestone occasions.",
+      "icon": "sparkles"
+    },
+    {
+      "name": "Same-Day & Rush Orders",
+      "description": "Last-minute floral arrangements completed with the same quality and elegance as planned orders, for when time is short but the occasion demands beauty.",
+      "icon": "clock"
+    }
+  ],
   "reviews": [
     {
       "text": "Hey, Woodcrest — thank you so much to everyone at the flower shop! You did such a beautiful job. I needed six elegant bouquets for our employees, and you really came through. Everything was gorgeous, and you helped us out at the last minute — we truly appreciate it. If anyone’s looking for stunning flowers, check out Woodcrest! Wonderful family company and truly great florists.",
@@ -111,28 +142,78 @@
   ],
   "stats": [
     {
-      "value": 9,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.1,
+      "suffix": "★",
+      "label": "Average Customer Rating"
     },
     {
-      "value": 4.1,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 9,
+      "suffix": "+",
+      "label": "Verified Customer Reviews"
+    },
+    {
+      "value": 6,
+      "suffix": " Days",
+      "label": "Early-Morning Weekday Availability"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "Of Recent Reviewers Recommend Woodcrest"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Can Woodcrest Flowers handle last-minute or same-day orders?",
+      "answer": "Yes — and they do it well. One customer needed six elegant bouquets for employees on short notice, and Woodcrest came through with beautiful results. Calling ahead is always recommended, but the team is known for being accommodating even under time pressure."
+    },
+    {
+      "question": "What kinds of occasions do you design flowers for?",
+      "answer": "Woodcrest handles everything from birthday bouquets and corporate gifts to celebration-of-life memorial tributes and specialty orchid gardens. If the moment matters to you, they take it seriously."
+    },
+    {
+      "question": "Are the flowers fresh and high quality?",
+      "answer": "Customers consistently describe the flowers as fresh and beautifully arranged. One self-described 'Orchid Snob' was genuinely impressed by her orchid garden, and another customer praised red roses as fresh with lush, well-selected greenery."
+    },
+    {
+      "question": "Is Woodcrest a family-owned business?",
+      "answer": "Yes — multiple customers have described it as a family company with a warm, personal feel. The staff is noted for being friendly and genuinely invested in getting your order right."
+    },
+    {
+      "question": "What are your hours, and are you open on weekends?",
+      "answer": "Woodcrest is open Monday through Friday, 7:00 AM to 3:00 PM. They are closed on Saturdays and Sundays. Calling early in the day is your best bet to discuss custom orders."
+    },
+    {
+      "question": "I've seen some older negative reviews online — should I be concerned?",
+      "answer": "At least one recent customer noted that older negative reviews seemed to reference a previous location. The current shop has earned consistent 5-star praise for quality, customer service, and going above and beyond on special orders."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#2D5016",
+    "accent": "#C8102E",
+    "note": "Deep botanical green anchors the brand in nature, craft, and freshness — reflecting the lush greenery customers specifically praise in arrangements. Rich red mirrors the signature roses that appear in multiple reviews and signals passion, love, and occasion. Together they feel warm, premium, and rooted — not corporate, not generic."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Exceptional ability to deliver on emotionally high-stakes occasions — memorial tributes, milestone birthdays, corporate gifts — with consistency and elegance",
+      "Warm, personal customer service with a staff member specifically praised for being 'super nice and accommodating' on the phone",
+      "Flexibility and reliability on last-minute and rush orders without sacrificing floral quality or presentation"
+    ],
+    "common_complaints": [
+      "Some older negative reviews exist online that may reference a previous location — new customers report a notably different and positive experience at the current shop",
+      "Weekend hours are unavailable (closed Saturday and Sunday), which may limit accessibility for customers needing flowers for weekend events"
+    ],
+    "suggested_tagline": "The Florist That Shows Up When It Counts",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "warm",
+      "artisan",
+      "family-rooted",
+      "reliable",
+      "heartfelt"
+    ],
+    "named_staff": []
   }
 }

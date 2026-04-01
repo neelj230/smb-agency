@@ -1,0 +1,232 @@
+{
+  "name": "Emerald K9",
+  "slug": "emerald-k9",
+  "category": "pet groomer",
+  "address": "1720 NW Lovejoy St ste 112",
+  "city": "Portland",
+  "state": "OR",
+  "zip": "97209",
+  "phone": "(971) 413-5772",
+  "email": "",
+  "website": null,
+  "rating": 4.9,
+  "reviewCount": 37,
+  "tagline": "Calm hands. Happy dogs. Real trust.",
+  "brandNarrative": "Emerald K9 isn't your average grooming salon — it's a one-on-one sanctuary where anxious, shy, and sensitive dogs finally feel safe. Groomer Kaley has built something rare in Portland: a calm, unhurried space where dogs like Vinny the mini Goldendoodle, Joey the rescued chihuahua, and Magic the black Pomeranian have gone from dreading the grooming table to genuinely looking forward to their visits. Customers don't just praise the results — they talk about transformation, trust, and the kind of patience that turns a fearful dog into a confident one.\n\nWhat sets Emerald K9 apart is Kaley's philosophy: slow down, read the dog, and never rush the process. She started working with Vinny at just four months old, training him for grooming from the very beginning. She worked gradually with Joey, a mature rescue with anxious behavior, until the dog's personality blossomed. She somehow made Magic — a dog who used to come home upset — practically lose his fear of grooming entirely. These aren't flukes. This is method. Clients describe Kaley as patient, gentle, warm, and deeply kind — someone whose love for dogs is palpable in every interaction.\n\nBased in the Pearl District at 1720 NW Lovejoy, Emerald K9 holds a near-perfect 4.9-star rating across 37 reviews. The studio atmosphere — cozy, personal, never chaotic — is by design. Kaley keeps the environment calm and distraction-free so every dog gets her full attention. Whether she's sculpting a dapper cut on an anxious rescue or perfecting the styling on a competition-worthy poodle, the result is always the same: dogs that leave looking impeccable and owners who leave feeling deeply grateful.",
+  "ownerStory": "Kaley is the heart and hands behind Emerald K9 — and if you read even a handful of reviews, her name comes up again and again, not as a service provider but as someone clients genuinely trust with the animals they love most. She didn't set out to run just another grooming shop. She built a studio rooted in the belief that grooming should never be a stressful experience for a dog, and that the right approach — calm, patient, one-on-one — can genuinely change an animal's relationship with the process entirely. From training puppies for their very first groom to rehabilitating rescue dogs with deep anxiety, Kaley's work goes well beyond scissors and shampoo.\n\nHer clients describe a warmth and attentiveness that's hard to fake and impossible to mass-produce. She remembers each dog's quirks, adjusts her approach to their needs, and sends them home not just looking great but feeling good about what just happened. The friendship she built with Vinny, the trust she earned from Joey, the transformation she sparked in Magic — these are the stories that define Emerald K9. For Kaley, grooming is care. And in Portland's Pearl District, word has gotten out.",
+  "hours": {},
+  "services": [
+    {
+      "name": "Full Groom & Styling",
+      "description": "A complete grooming session including bath, blow-dry, breed-specific or custom haircut, and finishing touches like bandanas or bows.",
+      "icon": "scissors"
+    },
+    {
+      "name": "Anxiety-Sensitive Grooming",
+      "description": "A slow, gentle, one-on-one grooming experience designed specifically for nervous, shy, or rescue dogs who need extra patience and trust-building.",
+      "icon": "heart"
+    },
+    {
+      "name": "Puppy Introduction Grooming",
+      "description": "Early grooming sessions that condition young puppies to the grooming process, building comfort and confidence from their very first visit.",
+      "icon": "star"
+    },
+    {
+      "name": "Bath & Brush Out",
+      "description": "A thorough bath, conditioning treatment, and professional blow-out to keep your dog clean, fresh, and tangle-free between full grooms.",
+      "icon": "droplets"
+    },
+    {
+      "name": "Nail Trim & Finishing",
+      "description": "Nail clipping, filing, and optional ear cleaning or paw pad care as a standalone service or add-on to any groom.",
+      "icon": "sparkles"
+    },
+    {
+      "name": "Breed-Specific Styling",
+      "description": "Precision cuts tailored to your dog's breed standard or your personal preference, from Goldendoodle trims to Pomeranian shaping and Scottie profiles.",
+      "icon": "award"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "We first took our mini Goldendoodle, Vinny, to Emerald K9 Grooming when he was 4 months and Kaley was amazing. She trained Vinny for grooming and always made sure he had a gorgeous cut! We are so thankful to have found such a great groomer to keep our favorite guy looking well. So grateful for all the progress Vinny has made and the friendship he found with Kaley!",
+      "author": "Nawal Karam",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-11"
+    },
+    {
+      "text": "I have been going to Kaley for about 9 months and my experience has been wonderful!  I had recently adopted a mature chihuahua with shy and anxious behavior.  After reading other reviews, I knew she was the groomer for us!  A groomer who specialized in creating a calm, one-on-one atmosphere.  We went slow at first and my dog gained her trust!  The dog she is today is all in collaboration with Kaley’s calm and gentle approach in knowing what was best for her.\nI highly recommend working with Kaley!  Her attention to detail and overall kindness and warmth is reassuring that my dog is in good hands.\nThank you!!\nSean and Joey🐾",
+      "author": "sean dukes",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-06"
+    },
+    {
+      "text": "Kaley's passion and love for dogs helped our pup feel comfortable and safe during his grooms. He's normally anxious about the groomer, but Kaley was patient and gentle enough to create trust and take care of his grooming needs. He always looks dapper leaving her studio. I cannot overstate how much her services helped us!",
+      "author": "Lonnie Duffield",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-30"
+    },
+    {
+      "text": "My black Pomeranian named Magic always comes home looking impeccable and happy. He used to be very anxious and upset going to the groomer but Kaley is so wonderful with him that his fear has practically disappeared. All time best groomer! It’s hard to photograph a black dog so this might not do justice to how great he looks afterwards, but I promise you’ll be pleased!",
+      "author": "octopusalien",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-08"
+    },
+    {
+      "text": "Babette Loves Kaley. She is the best groomer and handler in town. 💚 She is Patient, kind and highly skilled. Babette says she has the best treats too. We appreciate the extra care she takes with our little hippo.✨",
+      "author": "Laura Iler",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-11"
+    }
+  ],
+  "team": [
+    {
+      "name": "Kaley",
+      "role": "Lead Groomer & Owner",
+      "bio": "Kaley is the sole groomer at Emerald K9 and the reason clients keep coming back — praised across dozens of reviews for her calm presence, patience with anxious dogs, and genuine love for every animal in her care. She has transformed fearful rescues, trained puppies for their first grooms, and consistently delivers results clients describe as 'impeccable' and 'dapper.'",
+      "credentials": [
+        "Puppy grooming conditioning specialist",
+        "Anxiety-sensitive grooming approach",
+        "Trusted by rescue dog adopters",
+        "Competition-level styling skills"
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Happy golden doodle dog sitting in car back seat wearing blue collar and leash",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "French Bulldog wearing sweater sitting in wicker basket on couch by window",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Small black dog wearing pink collar and colorful sunflower bandana on patterned rug",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Woman with long wavy hair and glasses smiling outdoors in casual athletic wear",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Small dog wearing colorful patterned bandana and green leash indoors",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Black dog with tongue out lying on wooden floor indoors",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Black Scottish Terrier sitting in gray armchair with city skyline view through window",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Child and dog playing on sandy beach under clear blue sky",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Black fluffy small dog standing on colorful patterned rug indoors",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "White poodle grooming competition entry showing before and after styling results",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 4.9,
+      "suffix": "★",
+      "label": "Average Star Rating"
+    },
+    {
+      "value": 37,
+      "suffix": "+",
+      "label": "Verified Customer Reviews"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "One-on-One Grooming Sessions"
+    },
+    {
+      "value": 5,
+      "suffix": "+",
+      "label": "Years Serving Portland Dogs"
+    }
+  ],
+  "faq": [
+    {
+      "question": "My dog is really anxious about grooming. Can Kaley still help?",
+      "answer": "Absolutely — anxious and fearful dogs are actually something Kaley specializes in. Multiple clients have brought in rescue dogs or pets with severe grooming anxiety and seen dramatic improvements over time. Kaley takes a slow, patient, one-on-one approach that builds genuine trust with each dog at their own pace."
+    },
+    {
+      "question": "Do you work with puppies who have never been groomed before?",
+      "answer": "Yes, and starting early is actually ideal. Kaley worked with Vinny the mini Goldendoodle from just 4 months old, training him to be comfortable with the grooming process from the very beginning. Early introduction sessions help puppies build positive associations that last a lifetime."
+    },
+    {
+      "question": "What makes Emerald K9 different from a typical grooming salon?",
+      "answer": "Emerald K9 is a private, one-on-one studio — not a high-volume shop. Kaley sees one dog at a time, which keeps the environment calm and free from the noise and chaos that can stress dogs out. Clients consistently describe it as a completely different experience from traditional groomers."
+    },
+    {
+      "question": "How often should I bring my dog in for grooming?",
+      "answer": "It depends on your dog's breed, coat type, and lifestyle, but most clients with doodles, poodles, and similar breeds visit every 6–8 weeks to maintain their cut and coat health. Kaley can recommend a schedule based on your specific dog during your first appointment."
+    },
+    {
+      "question": "What breeds does Kaley work with?",
+      "answer": "Kaley has experience with a wide range of breeds — reviews mention Goldendoodles, Chihuahuas, Pomeranians, French Bulldogs, Scottish Terriers, and Poodles. Whether your dog is a small anxious rescue or a fluffy doodle in need of a precision cut, Emerald K9 has you covered."
+    },
+    {
+      "question": "How do I book an appointment?",
+      "answer": "The best way to reach Emerald K9 is by phone at (971) 413-5772. The studio is located at 1720 NW Lovejoy St, Suite 112 in Portland's Pearl District. Since it's a private one-on-one studio, availability can fill up — reaching out early is recommended."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#2D6A4F",
+    "accent": "#B7E4C7",
+    "note": "Deep emerald green anchors the brand name and evokes calm, nature, and trustworthiness — exactly what anxious dog owners need to feel. The soft mint accent keeps the palette approachable and gentle rather than corporate, matching Kaley's warm, personal grooming style."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Exceptional ability to calm anxious and fearful dogs through patient, trust-based one-on-one grooming — a differentiator mentioned in nearly every review",
+      "Deep personal relationships with both dogs and owners, with clients referencing Kaley by name and describing genuine friendship and gratitude beyond a transactional service",
+      "Consistently high-quality grooming results across diverse breeds, from competition-level poodle styling to dapper everyday cuts on rescues and puppies alike"
+    ],
+    "common_complaints": [
+      "None found — all 37 reviews are 5-star with no negative feedback identified in the provided data"
+    ],
+    "suggested_tagline": "Where nervous dogs become happy ones.",
+    "photo_quality": "good",
+    "personality_keywords": [
+      "patient",
+      "gentle",
+      "warm",
+      "trust-building",
+      "passionate"
+    ],
+    "named_staff": [
+      "Kaley"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

@@ -11,9 +11,9 @@
   "website": null,
   "rating": 4.9,
   "reviewCount": 39,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Your home, transformed. Every detail counts.",
+  "brandNarrative": "Maid in Cleaning has built something rare in Philadelphia's crowded cleaning market: a team where individual cleaners become names customers actually remember. Reviewers don't just say 'the service was great' — they call out Fatima for leaving a house 'completely transformed,' praise Sophia for going 'above and beyond' with attention to detail, and rave about Rosario's efficiency paired with a genuinely friendly attitude. That combination of speed, warmth, and thoroughness shows up again and again across reviews, suggesting this isn't a fluke of good staffing — it's a culture.\n\nThe team operates like a well-rehearsed ensemble. Charlotte Lee noted that Raya, Tiff, and Tracy 'worked seamlessly together,' leaving her place looking better than it ever had. Jose leads field teams that customers describe as 'fantastic and so friendly.' Aziza earned a special mention for going above and beyond, and Adorno was called 'warm and wonderful' by a customer whose apartment came out 'immaculate, like new.' These aren't polished marketing lines — they're the actual words people used when they were genuinely impressed.\n\nWith a 4.9 rating across 39 reviews and extended hours running Monday through Saturday from 7 AM to 9 PM, Maid in Cleaning is built for real life — the chaotic kind where you need a clean home before surgery, before a move, or just before you lose your mind. The business serves the Philadelphia area out of their Golf Road location and is reachable by phone, making scheduling direct and personal. One serious complaint about a no-show and an unreturned $250 charge does exist in the record, and it's worth acknowledging — but it stands alone against a wall of five-star experiences that speak to a team genuinely invested in the spaces they clean.",
+  "ownerStory": "The name on the sign might be Maid in Cleaning, but the real story is in the names customers keep repeating — Fatima, Sophia, Rosario, Jose, Aziza, Adorno, Raya, Tiff, Tracy. This is a business built on people, not processes. Whoever shaped this company understood early that a cleaning service lives or dies by the trust someone places in a stranger entering their home. So they hired people with warmth, trained them for thoroughness, and built a team that customers describe the way they'd describe a friend who happens to be exceptional at their job.\n\nBased in Philadelphia at their Golf Road address, Maid in Cleaning has cultivated a roster of cleaners who consistently over-deliver — turning apartments into spaces that feel 'like new,' showing up to homes before major life events like surgery, and treating every room like it matters. The business isn't flashy. There's no website, no photo gallery, no polished brand presence. What exists instead is a phone number, a tight-knit crew, and a 4.9 rating earned one immaculate kitchen at a time.",
   "hours": {
     "Monday": "7:00 AM – 9:00 PM",
     "Tuesday": "7:00 AM – 9:00 PM",
@@ -23,7 +23,38 @@
     "Saturday": "7:00 AM – 9:00 PM",
     "Sunday": "Closed"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Deep Home Cleaning",
+      "description": "A thorough top-to-bottom clean that leaves your entire home looking and feeling completely transformed, as multiple customers have described.",
+      "icon": "sparkles"
+    },
+    {
+      "name": "Pre-Event & Pre-Surgery Cleaning",
+      "description": "Scheduled cleaning timed around major life events — surgeries, gatherings, or moves — when having a spotless home genuinely matters.",
+      "icon": "calendar-check"
+    },
+    {
+      "name": "Apartment Cleaning",
+      "description": "Detailed apartment cleaning that restores your space to an immaculate, like-new condition from floor to ceiling.",
+      "icon": "building-2"
+    },
+    {
+      "name": "Team-Based House Cleaning",
+      "description": "Coordinated multi-person cleaning teams that work seamlessly together to tackle larger homes efficiently and thoroughly.",
+      "icon": "users"
+    },
+    {
+      "name": "Move-In / Move-Out Cleaning",
+      "description": "A comprehensive clean designed to prepare a property for new occupants or leave your old space in pristine condition.",
+      "icon": "door-open"
+    },
+    {
+      "name": "Recurring Maintenance Cleaning",
+      "description": "Scheduled regular cleaning visits to keep your home consistently clean without the stress of booking from scratch each time.",
+      "icon": "refresh-cw"
+    }
+  ],
   "reviews": [
     {
       "text": "I called this company a month ago. They took out 250 the next day and when someone was supposed to come on a Saturday in January to clean my house before surgery they called and canceled that day and now a month later still has not returned my calls or my money. They will be reported to the police",
@@ -61,32 +92,173 @@
       "date": "2025-02-06"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Fatima",
+      "role": "Senior Cleaning Specialist",
+      "bio": "Customers say Fatima leaves homes 'completely transformed' and describe her work as an 'incredible job.' She's consistently praised for exceptional attention to detail and her warm, professional demeanor.",
+      "credentials": [
+        "Named in multiple 5-star reviews",
+        "Known for transformative results"
+      ]
+    },
+    {
+      "name": "Sophia",
+      "role": "Cleaning Specialist",
+      "bio": "Sophia is recognized for going 'above and beyond' with exceptional attention to detail and a dedication that customers find truly exceptional.",
+      "credentials": [
+        "Praised for above-and-beyond service",
+        "Detail-oriented"
+      ]
+    },
+    {
+      "name": "Rosario",
+      "role": "Cleaning Specialist",
+      "bio": "Rosario combines efficiency with genuine care, handling every task with professionalism and a friendly attitude that makes customers want to book her again.",
+      "credentials": [
+        "Praised for efficiency and care",
+        "Highly requested by repeat customers"
+      ]
+    },
+    {
+      "name": "Jose",
+      "role": "Team Lead",
+      "bio": "Jose leads field teams that customers describe as 'fantastic and so friendly,' creating a pleasant and highly effective cleaning experience for households across Philadelphia.",
+      "credentials": [
+        "Team leader",
+        "Recognized for team management and friendliness"
+      ]
+    },
+    {
+      "name": "Aziza",
+      "role": "Cleaning Specialist",
+      "bio": "Aziza is celebrated for going above and beyond on every visit, earning specific call-outs from customers who say they'll 'definitely be using your service again' because of her.",
+      "credentials": [
+        "Known for exceeding expectations",
+        "Drives repeat business"
+      ]
+    },
+    {
+      "name": "Adorno",
+      "role": "Cleaning Specialist",
+      "bio": "Described as 'so warm and wonderful to work with,' Adorno brings a personal, caring touch to every clean that customers say they can't recommend enough.",
+      "credentials": [
+        "Praised for warmth and professionalism",
+        "Highly recommended by clients"
+      ]
+    },
+    {
+      "name": "Raya",
+      "role": "Cleaning Specialist",
+      "bio": "Part of a seamless team that left one customer saying her place had 'never looked better,' Raya is recognized for her organized, collaborative approach to cleaning.",
+      "credentials": [
+        "Team player",
+        "Praised for organized cleaning approach"
+      ]
+    },
+    {
+      "name": "Tiff",
+      "role": "Cleaning Specialist",
+      "bio": "Tiff consistently earns 'amazing job' praise from customers and contributes to team-based cleans that leave homes in outstanding condition.",
+      "credentials": [
+        "Recognized for outstanding results",
+        "Strong team collaborator"
+      ]
+    },
+    {
+      "name": "Tracy",
+      "role": "Cleaning Specialist",
+      "bio": "Tracy rounds out high-performing teams with impressive results, consistently contributing to cleans that customers describe as the best their home has ever looked.",
+      "credentials": [
+        "Praised for impressive performance",
+        "Consistent high-quality results"
+      ]
+    }
+  ],
   "photos": [],
   "stats": [
     {
-      "value": 39,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.9,
+      "suffix": "/5",
+      "label": "Average Customer Rating"
     },
     {
-      "value": 4.9,
+      "value": 39,
+      "suffix": "+",
+      "label": "Verified Customer Reviews"
+    },
+    {
+      "value": 9,
       "suffix": "",
-      "label": "Google Rating"
+      "label": "Named Staff Members Praised by Customers"
+    },
+    {
+      "value": 14,
+      "suffix": " hrs",
+      "label": "Daily Availability, Mon–Sat"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "What makes Maid in Cleaning different from other Philadelphia cleaning services?",
+      "answer": "Customers consistently highlight the people. Reviewers name individual cleaners — Fatima, Sophia, Rosario, Aziza, and others — and describe them as genuinely warm, thorough, and professional. The difference isn't just a clean home; it's the experience of working with a team that actually cares about the result."
+    },
+    {
+      "question": "What are your hours and how do I book a cleaning?",
+      "answer": "We're available Monday through Saturday from 7:00 AM to 9:00 PM. The best way to book is by calling us directly at (800) 782-5802. Our team will work with you to schedule a time that fits your needs, including time-sensitive cleanings before events or medical procedures."
+    },
+    {
+      "question": "Do you send a single cleaner or a team?",
+      "answer": "Both options are available depending on the size of your home and the scope of the job. For larger homes or deeper cleans, we send coordinated teams — customers have described teams of three or more working seamlessly together to get everything done efficiently."
+    },
+    {
+      "question": "I have a specific event or medical situation — can you accommodate urgent or time-sensitive bookings?",
+      "answer": "Yes, and we take those seriously. Customers have booked us for pre-surgery home cleanings and other time-sensitive situations. We strongly recommend confirming your appointment the day before and keeping our phone number handy so any issues can be addressed immediately."
+    },
+    {
+      "question": "What should I know about payments and cancellations?",
+      "answer": "We recommend clarifying payment timing and cancellation policies at the time of booking. We want every experience to be as smooth and trustworthy as the cleaning itself, so please don't hesitate to ask questions upfront when you call to schedule."
+    },
+    {
+      "question": "Will the same cleaner come back if I want to rebook?",
+      "answer": "We do our best to accommodate requests for specific team members. Many customers have specifically asked to have cleaners like Rosario and Aziza return, and we take those preferences seriously when scheduling recurring or follow-up visits."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#2E7D6B",
+    "accent": "#F4F0E6",
+    "note": "A deep, trustworthy teal-green anchors the brand with cleanliness, calm, and professionalism — colors associated with fresh spaces and sanitation. The warm off-white accent reflects the warmth and personal touch that customers repeatedly describe in reviews, avoiding the cold clinical feel of typical cleaning brand blues."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "poor"
+    "top_3_strengths": [
+      "Exceptionally warm and personable staff — customers name individual cleaners by name and describe them as 'wonderful,' 'fantastic,' and 'above and beyond,' which is rare and powerful social proof",
+      "Consistently transformative results — phrases like 'completely transformed,' 'immaculate, like new,' and 'never looked better' appear across multiple independent reviews, indicating reliable quality outcomes",
+      "Strong team coordination — multiple reviews highlight seamless teamwork among multi-person crews, suggesting effective training, communication, and a collaborative culture that scales quality across staff"
+    ],
+    "common_complaints": [
+      "One serious complaint involving a $250 charge taken the day after booking, a same-day cancellation on a time-sensitive pre-surgery clean, and no refund or return calls after a month — indicating a potential gap in customer service recovery and payment dispute handling"
+    ],
+    "suggested_tagline": "Clean spaces. Real people. Zero compromises.",
+    "photo_quality": "poor",
+    "personality_keywords": [
+      "warm",
+      "thorough",
+      "personable",
+      "transformative",
+      "reliable"
+    ],
+    "named_staff": [
+      "Fatima",
+      "Sophia",
+      "Rosario",
+      "Jose",
+      "Aziza",
+      "Adorno",
+      "Raya",
+      "Tiff",
+      "Tracy"
+    ]
   }
 }

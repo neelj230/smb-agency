@@ -1,0 +1,227 @@
+{
+  "name": "House of Paws",
+  "slug": "house-of-paws",
+  "category": "pet groomer",
+  "address": "2714 W Main St",
+  "city": "Medford",
+  "state": "OR",
+  "zip": "97501",
+  "phone": "(541) 973-2101",
+  "email": "",
+  "website": null,
+  "rating": 4.8,
+  "reviewCount": 26,
+  "tagline": "Where Every Dog Gets Their Spa Day",
+  "brandNarrative": "House of Paws on West Main Street in Medford isn't just a grooming salon — it's what one longtime customer called 'a little piece of dog Heaven.' The shop buzzes with the energy of fur friends mid-spa-day, and the staff carries that warmth in every interaction. From first-time puppy parents who were 'very nervous to leave' their tiny dogs to corgi owners who've been coming in for over a year, customers consistently walk away saying the same thing: they never worry leaving their pup here. That trust isn't accidental — it's built appointment by appointment, bath by bath, bandana by bandana.",
+  "ownerStory": "The owner of House of Paws has been in the dog grooming world for well over 15 years, building a reputation that has kept at least one loyal customer bringing every dog they've ever owned to her chair. Customers don't just describe her as skilled — they describe her as someone they trust with their four-legged family members. That's a different kind of credential. She has cultivated a team that reflects her own philosophy: be kind, be gentle, be professional, and treat every dog like they matter. The result is a shop where nervous first-time puppy owners feel reassured, where regulars never second-guess dropping off their dog, and where the whole experience — from the cozy interior to the smiling staff mid-bath — feels personal.",
+  "hours": {
+    "Monday": "9:00 AM – 3:00 PM",
+    "Tuesday": "9:00 AM – 3:00 PM",
+    "Wednesday": "9:00 AM – 3:00 PM",
+    "Thursday": "9:00 AM – 3:00 PM",
+    "Friday": "9:00 AM – 3:00 PM",
+    "Saturday": "9:00 AM – 3:00 PM",
+    "Sunday": "9:00 AM – 3:00 PM"
+  },
+  "services": [
+    {
+      "name": "Full-Service Grooming",
+      "description": "Complete professional grooming session including bath, blow-dry, haircut, and finishing touches like a bandana — leaving your pup looking and smelling amazing.",
+      "icon": "scissors"
+    },
+    {
+      "name": "Self-Serve Dog Wash",
+      "description": "Use the shop's professional-grade tub stations and supplies to bathe your own dog — all the facilities, none of the mess at home.",
+      "icon": "droplets"
+    },
+    {
+      "name": "Puppy's First Groom",
+      "description": "A gentle, patient introduction to grooming for young or first-time dogs, handled by staff who understand how nerve-wracking a pup's debut can be.",
+      "icon": "heart"
+    },
+    {
+      "name": "Bath & Brush Out",
+      "description": "A thorough bath and full brush-out to de-shed, detangle, and refresh your dog's coat between full grooming appointments.",
+      "icon": "wind"
+    },
+    {
+      "name": "Nail Trim",
+      "description": "Quick and stress-minimized nail clipping to keep your dog comfortable and your floors safe.",
+      "icon": "cog"
+    },
+    {
+      "name": "Finishing & Styling",
+      "description": "Breed-specific styling, coat shaping, and cute finishing touches like bandanas that make your dog look salon-fresh.",
+      "icon": "sparkles"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Great place to DIY dog washing.",
+      "author": "Diana Lanier",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-03-11"
+    },
+    {
+      "text": "Very pleased with their service! I took my puppy to get groomed for the first time. I was very nervous to leave my puppy because she's so small still. They were very kind to me and my puppy. She looked amazing! Defiantly recommend.",
+      "author": "J V",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-04-15"
+    },
+    {
+      "text": "This shop is a little piece of dog Heaven. The owner and staff are kind, gentle, and professional! The atmosphere is fun and full of fur friends who are enjoying their spa day!\n\nI have taken all my dogs to the owner for well over 15 years, so I know her commitment of excellence to the world of all things dog/ owner.\n\nI ONLY take my four legged family members here as I TRUST the humans who work with her!",
+      "author": "Elizabeth Olsen",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-03-13"
+    },
+    {
+      "text": "I would recommend this shop to anyone looking for a new place to switch to or just starting to get their pup groomed.  My corgi has been coming here little over a year now and they are the sweetest staff! & have good pricing for their services.  I just recommend a friend start going here and she had a great experience with them being so patient with new pup. I never worry leaving my pup and he’s always leaves looking so perfect and smelling amazing!!",
+      "author": "Sarah L",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-06-08"
+    },
+    {
+      "text": "TL:DR, They don't allow dogs with fleas & tick, or the shampoo for it. That makes no sense to me because that's literally why I take them to get baths, 99% of the time. Also, watch that front door. It closed on my dog's tail without me seeing it.\n\nI wanna leave this review as a warning to anyone looking to give their dog a basic bath with flea & tick shampoo.\nDO NOT GO THERE! The gal who greeted us said that dogs with fleas aren't allowed. She said it was like sending a kid to school with head lice. She'd be right if kids got head lice naturally over time, or walked around on 4 legs. From my perspective, this feels more like a car wash not letting people in because there cars are too dirty. Maybe if it was full of manure or something like that, but I digress. If you just wanna take your dog to get a basic bath and get rid of fleas & ticks, go somewhere else.",
+      "author": "MR J",
+      "rating": 1,
+      "source": "google",
+      "date": "2026-03-04"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Groomed small dog with cream and white coat standing indoors on mat",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Fluffy cream-colored Chihuahua groomed professionally, standing in grooming salon.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Small tan dog with pink collar sitting on grooming table in pet salon",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Two small dogs relaxing on green bedding in an indoor play area",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Brown and white dog standing in metal trough enclosure with green corrugated walls",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Woman and fluffy white dog posing together for a friendly portrait photo",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Close-up of a long-haired dog with curly, fluffy coat in grooming setting",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Young woman smiling while bathing a gray dog in a metal tub at a grooming facility.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Pet grooming shop storefront with blue doors and signage advertising self-serve dog wash",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Dog wearing red gingham bandana on grooming table at pet salon",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 4.8,
+      "suffix": "★",
+      "label": "Average Customer Rating"
+    },
+    {
+      "value": 26,
+      "suffix": "+",
+      "label": "Verified Customer Reviews"
+    },
+    {
+      "value": 15,
+      "suffix": "+ yrs",
+      "label": "Owner's Grooming Experience"
+    },
+    {
+      "value": 7,
+      "suffix": " days",
+      "label": "Days a Week We're Open"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Is this a good place to bring my puppy for the first time?",
+      "answer": "Absolutely. Several customers have brought their puppies here for their very first groom and raved about how kind and patient the staff were. One customer was 'very nervous' to leave her small puppy and left thrilled — her pup 'looked amazing.' The team is experienced with anxious first-timers, both the dogs and their owners."
+    },
+    {
+      "question": "Do you offer self-serve dog washing, or only full grooming?",
+      "answer": "Both! House of Paws has a self-serve dog wash station with professional tubs, so you can bathe your own dog using the shop's facilities. They also offer full-service professional grooming if you'd rather leave it to the experts."
+    },
+    {
+      "question": "What makes House of Paws different from other groomers in Medford?",
+      "answer": "The combination of trust, longevity, and genuine care sets this shop apart. One customer has been bringing her dogs to the owner for over 15 years. Others highlight the sweet, patient staff, fair pricing, and the fact that their dogs always leave smelling amazing and looking perfect. It's the kind of place regulars don't want to share — but can't stop recommending."
+    },
+    {
+      "question": "Do you allow dogs with fleas?",
+      "answer": "The shop does not accept dogs with active flea infestations during grooming sessions, as this helps protect other dogs in the salon from exposure — similar to how a school would handle a contagious condition. If your dog has fleas, we recommend treating them at home first before booking. The self-serve wash station policy may differ, so it's worth calling ahead at (541) 973-2101."
+    },
+    {
+      "question": "How far in advance do I need to book an appointment?",
+      "answer": "House of Paws is open seven days a week from 9 AM to 3 PM. Given the strong reviews and loyal repeat clientele, booking ahead is a smart move — especially for weekend slots. Call (541) 973-2101 to schedule."
+    },
+    {
+      "question": "Is the pricing reasonable for the quality of service?",
+      "answer": "Yes — multiple customers have specifically called out the pricing as fair and reasonable for the level of care provided. One corgi owner who has been coming for over a year noted 'good pricing for their services,' and the quality of results (dogs leaving looking and smelling amazing) consistently earns five-star responses."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#4A90A4",
+    "accent": "#F4A261",
+    "note": "The cool blue pulls directly from the shop's signature blue doors visible in exterior photos, conveying calm and trust — important for anxious pet owners. The warm amber-orange accent mirrors the golden coats of the Chihuahuas and small dogs featured in product photos, adding playful warmth that matches the 'spa day' personality customers describe."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Exceptional staff patience and warmth — especially with first-time puppy owners and anxious dogs — is the most consistent theme across positive reviews",
+      "Deep long-term trust and loyalty: the owner has retained customers for 15+ years across multiple dogs, signaling extraordinary relationship quality",
+      "Dual-service model (professional grooming + self-serve wash) gives House of Paws a unique positioning that competitors without self-serve stations can't match"
+    ],
+    "common_complaints": [
+      "No-flea policy confused at least one customer who felt it was counterintuitive for a grooming business — clearer upfront communication about this policy (on signage, phone, or a website) could prevent friction",
+      "A door safety incident was reported — one customer's dog had its tail caught by the front door, suggesting a potential physical safety improvement opportunity"
+    ],
+    "suggested_tagline": "Trusted Groomers for Dogs (and the Humans Who Love Them)",
+    "photo_quality": "good",
+    "personality_keywords": [
+      "warm",
+      "trustworthy",
+      "gentle",
+      "professional",
+      "community-rooted"
+    ],
+    "named_staff": []
+  },
+  "dataSources": [
+    "google"
+  ]
+}

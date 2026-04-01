@@ -1,0 +1,390 @@
+@import "tailwindcss";
+
+/* Scan shared packages for Tailwind classes */
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #1C4A96;
+  --brand-accent: #3400b2;
+  --brand-bg: #ffffff;
+  --brand-bg-alt: #e6e9ec;
+  --brand-text: #000000;
+  --brand-muted: #000000;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: var(--brand-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+/* Marquee animation for carousels */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Smooth section transitions */
+section, [id] > div {
+  scroll-margin-top: 80px;
+}
+
+/* Focus-visible outlines for accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Inset border for editorial/gallery feel */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 12px;
+  z-index: 999;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  pointer-events: none;
+  border-radius: 2px;
+}
+
+/* Gradient transitions between sections */
+.section-gradient {
+  position: relative;
+}
+.section-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--brand-bg));
+  pointer-events: none;
+}
+
+/* Creative director extras */
+/* ─── Butch's Auto Repair — Custom CSS ───────────────────────────────────────── */
+
+/* Font imports */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;600;700&display=swap');
+
+:root {
+  --brand-blue: #1C4A96;
+  --brand-accent: #3400b2;
+  --brand-dark: #0d1a33;
+  --brand-text: #0d1a33;
+  --brand-off-white: #f5f3ef;
+}
+
+body {
+  font-family: 'Source Sans 3', sans-serif;
+  background: var(--brand-off-white);
+  color: var(--brand-dark);
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+/* ─── Film grain overlay ─────────────────────────────────────────────────────── */
+.butch-grain {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-size: 200px 200px;
+  opacity: 0.025;
+  mix-blend-mode: overlay;
+}
+
+/* ─── Marquee ─────────────────────────────────────────────────────────────────── */
+.butch-marquee-wrap {
+  background: var(--brand-blue);
+  overflow: hidden;
+  padding: 12px 0;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.butch-marquee-track {
+  display: flex;
+  width: max-content;
+  animation: butch-scroll 28s linear infinite;
+}
+
+.butch-marquee-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.9);
+  white-space: nowrap;
+  padding: 0 24px;
+}
+
+.butch-marquee-dot {
+  margin-left: 24px;
+  font-size: 0.5rem;
+  color: rgba(255,255,255,0.4);
+}
+
+@keyframes butch-scroll {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+/* ─── Trust Badges ────────────────────────────────────────────────────────────── */
+.butch-badges-section {
+  background: var(--brand-off-white);
+  padding: 40px 24px 32px;
+}
+
+.butch-trust-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.butch-trust-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #fff;
+  border: 1px solid rgba(28,74,150,0.15);
+  border-radius: 40px;
+  padding: 10px 20px;
+  box-shadow: 0 2px 8px rgba(28,74,150,0.06);
+}
+
+.butch-trust-icon {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.butch-trust-label {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--brand-blue);
+}
+
+/* ─── Stats wrapper ───────────────────────────────────────────────────────────── */
+.butch-stats-wrap {
+  /* keeps dark variant full-bleed */
+  background: var(--brand-dark);
+}
+
+/* ─── About section ───────────────────────────────────────────────────────────── */
+.butch-about-section {
+  background: var(--brand-off-white);
+  padding: 80px 0;
+}
+
+/* ─── Diagonal rule ───────────────────────────────────────────────────────────── */
+.butch-diagonal-rule {
+  line-height: 0;
+  overflow: hidden;
+  background: var(--brand-off-white);
+}
+
+.butch-diagonal-rule svg {
+  width: 100%;
+  height: 32px;
+  display: block;
+}
+
+/* ─── Dark Services Block ─────────────────────────────────────────────────────── */
+.butch-dark-block {
+  background: var(--brand-dark);
+}
+
+.butch-dark-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 64px 24px 96px;
+}
+
+.butch-dark-heading {
+  font-family: 'Libre Baskerville', serif;
+  font-size: clamp(2rem, 4vw, 3.25rem);
+  font-weight: 700;
+  color: #fff;
+  margin: 8px 0 12px;
+  line-height: 1.1;
+}
+
+.butch-dark-sub {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 1.05rem;
+  color: rgba(255,255,255,0.55);
+  max-width: 480px;
+  margin-bottom: 48px;
+}
+
+/* ─── Section label ───────────────────────────────────────────────────────────── */
+.butch-section-label {
+  display: inline-block;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--brand-blue);
+  background: rgba(28,74,150,0.08);
+  border: 1px solid rgba(28,74,150,0.18);
+  border-radius: 4px;
+  padding: 5px 12px;
+  margin-bottom: 16px;
+}
+
+.butch-label-dark {
+  color: var(--brand-blue);
+  background: rgba(28,74,150,0.06);
+}
+
+/* In dark context, override */
+.butch-dark-inner .butch-section-label {
+  color: rgba(255,255,255,0.6);
+  background: rgba(255,255,255,0.06);
+  border-color: rgba(255,255,255,0.12);
+}
+
+/* ─── Reviews section ─────────────────────────────────────────────────────────── */
+.butch-reviews-section {
+  background: var(--brand-off-white);
+  padding: 80px 24px;
+}
+
+/* ─── Pull Quote ──────────────────────────────────────────────────────────────── */
+.butch-pullquote-wrap {
+  background: var(--brand-blue);
+  padding: 80px 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.butch-pullquote-wrap::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 30% 50%, rgba(52, 0, 178, 0.35) 0%, transparent 65%);
+  pointer-events: none;
+}
+
+.butch-pullquote-inner {
+  position: relative;
+  max-width: 820px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.butch-pullquote-mark {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 7rem;
+  line-height: 0.6;
+  color: rgba(255,255,255,0.12);
+  user-select: none;
+  margin-bottom: 8px;
+}
+
+.butch-pullquote-text {
+  font-family: 'Libre Baskerville', serif;
+  font-size: clamp(1.4rem, 3vw, 2.1rem);
+  font-weight: 400;
+  font-style: italic;
+  color: #fff;
+  line-height: 1.45;
+  max-width: 700px;
+}
+
+.butch-pullquote-attr {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.5);
+}
+
+/* ─── FAQ section ─────────────────────────────────────────────────────────────── */
+.butch-faq-section {
+  background: #fff;
+  padding: 80px 24px;
+}
+
+/* ─── Contact wrap ────────────────────────────────────────────────────────────── */
+.butch-contact-wrap {
+  background: var(--brand-off-white);
+  padding: 64px 0 0;
+}
+
+/* ─── Card hover effects ──────────────────────────────────────────────────────── */
+[class*="service"] [class*="card"],
+[class*="ServiceCard"] {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+[class*="service"] [class*="card"]:hover,
+[class*="ServiceCard"]:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(28,74,150,0.12);
+}
+
+/* ─── Dark service cards override ─────────────────────────────────────────────── */
+.butch-dark-inner [class*="card"],
+.butch-dark-inner [class*="Card"] {
+  background: rgba(255,255,255,0.05);
+  border-color: rgba(255,255,255,0.08);
+  color: #fff;
+}
+
+.butch-dark-inner [class*="card"]:hover,
+.butch-dark-inner [class*="Card"]:hover {
+  background: rgba(255,255,255,0.08);
+  box-shadow: 0 16px 40px rgba(0,0,0,0.3);
+}
+
+/* ─── Responsive tweaks ───────────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .butch-pullquote-mark {
+    font-size: 4rem;
+  }
+  .butch-dark-inner {
+    padding: 48px 16px 64px;
+  }
+  .butch-trust-row {
+    gap: 8px;
+  }
+  .butch-trust-badge {
+    padding: 8px 14px;
+  }
+}
+
+/* ─── Dot pattern on FAQ section ─────────────────────────────────────────────── */
+.butch-faq-section {
+  background-image: radial-gradient(circle, rgba(28,74,150,0.06) 1px, transparent 1px);
+  background-size: 24px 24px;
+  background-color: #fff;
+}

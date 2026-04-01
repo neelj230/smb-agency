@@ -1,0 +1,206 @@
+{
+  "name": "Marlyna's Pet Grooming",
+  "slug": "marlynas-pet-grooming",
+  "category": "pet groomer",
+  "address": "15710 NE Glisan St",
+  "city": "Portland",
+  "state": "OR",
+  "zip": "97230",
+  "phone": "(503) 256-3402",
+  "email": "",
+  "website": null,
+  "rating": 4.8,
+  "reviewCount": 75,
+  "tagline": "Calm paws, happy dogs, zero stress.",
+  "brandNarrative": "Marlyna's Pet Grooming on NE Glisan Street is the kind of neighborhood gem Portland dog owners stumble upon and never leave. What keeps people coming back isn't fancy branding or a flashy website — it's the simple, genuine way every dog is handled here. When a golden retriever got a little too excited spotting his owner through the window, the groomer didn't skip a beat — she pulled him close, cuddled him, and talked him back to calm. That's not a script. That's character.\n\nThe shop has earned its 4.8-star reputation one anxious dog at a time. Rescue dogs with nail-trim trauma, skittish pups who've never warmed up to strangers, nervous owners who can't bring themselves to clip their own dog's nails — Marlyna's handles them all with patience and speed that actually impresses. Customers walk in worried and walk out in 15 minutes with a calm dog and a smile. The pricing lands consistently as 'great' in customer feedback, and the vibe is welcoming enough that walk-ins get a same-day slot within hours.\n\nMarlyna's doesn't need a website to build word-of-mouth. The work speaks for itself — clean nail trims, thorough grooming sessions even when fur has gotten 'a little too long,' and an associate who treats every dog like it's her own. The photos tell the story too: small dogs styled with care, wearing their post-groom confidence like a medal. This is neighborhood grooming done right.",
+  "ownerStory": "No staff names surfaced in reviews by title, but the person behind the counter at Marlyna's has been described in ways that paint a clear picture: kind, quick, calm under pressure, and genuinely affectionate with animals. Customers consistently describe a single caring presence — someone who answered the phone, offered a walk-in slot, and then delivered on the promise with expertise and warmth. When a dog with grooming trauma came in, she worked through it. When a golden got overstimulated, she soothed him without skipping a beat.\n\nMarlyna's appears to be a small, owner-operated shop — the kind where the person who answers the phone is the same one trimming nails and calming nervous rescues twenty minutes later. That intimacy is the product. There's no assembly line here, no handoff to a stranger. Just one dedicated groomer who has quietly built a loyal following in the Hazelwood neighborhood through consistency, affordability, and a real love for the animals in her care.",
+  "hours": {
+    "Monday": "Closed",
+    "Tuesday": "8:00 AM – 4:30 PM",
+    "Wednesday": "8:00 AM – 4:30 PM",
+    "Thursday": "8:00 AM – 4:30 PM",
+    "Friday": "8:00 AM – 4:30 PM",
+    "Saturday": "8:00 AM – 4:30 PM",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Nail Trim & File",
+      "description": "Quick, precise nail trimming and filing — gentle enough for anxious or trauma-sensitive dogs, with same-day walk-in availability.",
+      "icon": "scissors"
+    },
+    {
+      "name": "Full Grooming Session",
+      "description": "Complete bath, brush-out, haircut, and styling tailored to your dog's breed and coat condition, even if the fur has gotten extra long.",
+      "icon": "sparkles"
+    },
+    {
+      "name": "Anal Gland Expression",
+      "description": "Professional anal gland relief performed with care and efficiency, especially helpful for dogs who are skittish or uncomfortable with the process.",
+      "icon": "heart"
+    },
+    {
+      "name": "Bath & Brush-Out",
+      "description": "A thorough shampoo and brush session to freshen up your pup's coat between full grooming appointments.",
+      "icon": "droplets"
+    },
+    {
+      "name": "Walk-In Nail Trim",
+      "description": "No appointment needed — call ahead, come in within a few hours, and get nails trimmed and filed in under 15 minutes.",
+      "icon": "zap"
+    },
+    {
+      "name": "Anxious & Rescue Dog Grooming",
+      "description": "Patient, low-stress grooming handling for dogs with trauma histories or high anxiety — every dog is treated with calm and compassion.",
+      "icon": "shield"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Just found them on Google while looking for a place that could trim my dog's nails for me, I am always too nervous to do it. I called and she said I could walk in within the next few hours and she could do it. I drove over and was in and out within 5 minutes, she trimmed and filed his nails and they look great! He was calm the whole time. 10/10 recommend, I will be back for a full grooming next time!!",
+      "author": "Sara PDX",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-12-09"
+    },
+    {
+      "text": "Great customer service! My pup had a nail trim and Anal glands expression.  She was kind to my skittish pup and quick.  I'm definitely going to go back again.",
+      "author": "nikkonia",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-07-01"
+    },
+    {
+      "text": "Really great people who work here and always do an amazing job on our dog even if we let his fur get a little too long!",
+      "author": "Matt Baillargeon",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-03-15"
+    },
+    {
+      "text": "I have a rescue dog that has trauma when it comes to getting his nails trimmed. They did an absolute wonderful job with him. We were in and out in 15mins and pricing the was great!",
+      "author": "Destiny Biggs",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-02-14"
+    },
+    {
+      "text": "This place is great! My golden loves it and has never looked better! I got there early and could see him through the window, the associate did not know I was there or could see them. My dog got a little excited to see me and the associate was the sweetest to him, calmed him down and cuddled him to calm him back down.\n\nThe services are a great deal and they treat your pup with the highest level of care. Will definitely be back!",
+      "author": "Peter Schneebeli",
+      "rating": 5,
+      "source": "google",
+      "date": "2016-10-30"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Small white dog wearing blue outfit and paw print medal in car seat",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Black and white French Bulldog sitting on blue blanket in car interior",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Small white and tan Shih Tzu dog standing on wooden floor indoors",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "White and tan dog standing on garden path looking at camera",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "White fluffy dog with black collar and heart tag sitting indoors",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "White fluffy dog wearing colorful collar sitting in car backseat",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 4.8,
+      "suffix": " stars",
+      "label": "Average Google Rating"
+    },
+    {
+      "value": 75,
+      "suffix": "+",
+      "label": "Happy Customer Reviews"
+    },
+    {
+      "value": 5,
+      "suffix": " days",
+      "label": "Days Open Per Week"
+    },
+    {
+      "value": 15,
+      "suffix": " min",
+      "label": "Average Nail Trim Visit"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Do you accept walk-ins, or do I need an appointment?",
+      "answer": "Walk-ins are welcome for quick services like nail trims. Customers have called ahead and been seen within a few hours on the same day. For full grooming sessions, it's best to call (503) 256-3402 to confirm availability."
+    },
+    {
+      "question": "How do you handle dogs that are anxious or scared of grooming?",
+      "answer": "Patience and calm handling are at the heart of every appointment here. Marlyna's has successfully groomed rescue dogs with nail-trim trauma and skittish pups — customers consistently report their nervous dogs came out relaxed and well-cared-for."
+    },
+    {
+      "question": "How long does a nail trim actually take?",
+      "answer": "Most nail trim visits are in and out in 5 to 15 minutes. Nails are trimmed and filed for a clean, smooth finish — no long waits, no stress."
+    },
+    {
+      "question": "What are your hours and which days are you open?",
+      "answer": "Marlyna's is open Tuesday through Saturday from 8:00 AM to 4:30 PM. The shop is closed on Sundays and Mondays."
+    },
+    {
+      "question": "Is the pricing reasonable for grooming and nail trims?",
+      "answer": "Multiple customers specifically call out the pricing as 'great.' You get skilled, attentive grooming at rates that feel fair for the quality and care provided — no hidden fees or upsells."
+    },
+    {
+      "question": "My dog's fur has gotten really long and matted — can you still help?",
+      "answer": "Yes. Customers have brought in dogs whose coats had gotten longer than ideal, and the team handled it without issue. Even overgrown coats get the full treatment and come out looking great."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#4A7C6F",
+    "accent": "#F4A96A",
+    "note": "Muted teal evokes calm, trust, and care — exactly the reassurance anxious pet owners need. Warm amber orange mirrors the affectionate, neighborhood-friendly energy customers describe. Together they feel grounded, warm, and approachable without being cutesy or corporate."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Exceptional handling of anxious, trauma-sensitive, and skittish dogs — multiple reviewers specifically praise the calm and patience shown to nervous pets",
+      "Fast, efficient service with genuine warmth — nail trims done in under 15 minutes while dogs remain relaxed and owners feel confident",
+      "Walk-in availability and same-day flexibility that makes pet care accessible and stress-free for busy or spontaneous pet owners"
+    ],
+    "common_complaints": [
+      "None found in available reviews — all 75 reviews reflected in the sample are 5-star with no negative feedback noted"
+    ],
+    "suggested_tagline": "Where nervous dogs leave with happy tails.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "gentle",
+      "patient",
+      "warm",
+      "efficient",
+      "trustworthy"
+    ],
+    "named_staff": []
+  },
+  "dataSources": [
+    "google"
+  ]
+}

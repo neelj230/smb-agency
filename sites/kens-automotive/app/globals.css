@@ -1,0 +1,216 @@
+@import "tailwindcss";
+
+/* Scan shared packages for Tailwind classes */
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #156cc2;
+  --brand-accent: #0ea158;
+  --brand-bg: #f4f1ee;
+  --brand-bg-alt: #dcddde;
+  --brand-text: #1a1a1a;
+  --brand-muted: #1a1a1a;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: var(--brand-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+/* Marquee animation for carousels */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Smooth section transitions */
+section, [id] > div {
+  scroll-margin-top: 80px;
+}
+
+/* Focus-visible outlines for accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Inset border for editorial/gallery feel */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 12px;
+  z-index: 999;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  pointer-events: none;
+  border-radius: 2px;
+}
+
+/* Gradient transitions between sections */
+.section-gradient {
+  position: relative;
+}
+.section-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--brand-bg));
+  pointer-events: none;
+}
+
+/* Creative director extras */
+/* ── Ken's Automotive — custom CSS ─────────────────────────────────────────── */
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --brand-primary: #156cc2;
+  --brand-accent: #0ea158;
+  --brand-text: #0f1c2e;
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--brand-text);
+  background: #fff;
+}
+
+.font-display,
+h1, h2, h3 {
+  font-family: var(--font-display);
+}
+
+/* ── Ticker animation ─────────────────────────────────────────────────────── */
+@keyframes ticker {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.ticker-inner {
+  will-change: transform;
+}
+
+.ticker-dot {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+/* ── Dot pattern background ───────────────────────────────────────────────── */
+.dot-pattern-bg {
+  background-image: radial-gradient(circle, rgba(21, 108, 194, 0.12) 1px, transparent 1px);
+  background-size: 22px 22px;
+  background-color: #f7f9fc;
+}
+
+/* ── Film grain overlay ───────────────────────────────────────────────────── */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+  opacity: 0.025;
+  mix-blend-mode: hard-light;
+}
+
+/* ── Service card shadow + gradient border on hover ──────────────────────── */
+.service-card {
+  border: 1px solid rgba(21, 108, 194, 0.10);
+  transition: box-shadow 0.3s ease, transform 0.25s ease;
+}
+.service-card:hover {
+  box-shadow: 0 12px 40px rgba(21, 108, 194, 0.16);
+}
+
+/* ── Trust badge bar ─────────────────────────────────────────────────────── */
+.trust-bar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  backdrop-filter: blur(8px);
+}
+
+.trust-badge {
+  transition: color 0.2s;
+}
+.trust-badge:hover {
+  color: var(--brand-primary);
+}
+
+/* ── Smooth section transitions ──────────────────────────────────────────── */
+section {
+  position: relative;
+}
+
+/* ── Ticker strip overflow fix ───────────────────────────────────────────── */
+.ticker-strip {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* ── Picture frame editorial inset ───────────────────────────────────────── */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9998;
+  border: 1px solid rgba(21, 108, 194, 0.06);
+}
+
+/* ── Divider line ─────────────────────────────────────────────────────────── */
+.divider-line {
+  display: block;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+/* ── FAQ accordion overrides for brand color ─────────────────────────────── */
+[data-state="open"] > button {
+  color: var(--brand-primary) !important;
+}
+
+/* ── CTA button hover lift ────────────────────────────────────────────────── */
+a[href^="tel"] {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+a[href^="tel"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(14, 161, 88, 0.32);
+}
+
+/* ── Parallax section ─────────────────────────────────────────────────────── */
+section .font-display.text-white {
+  text-shadow: 0 2px 24px rgba(0,0,0,0.18);
+}
+
+/* ── Scrollbar brand color ────────────────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f7f9fc;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--brand-primary);
+  border-radius: 99px;
+}

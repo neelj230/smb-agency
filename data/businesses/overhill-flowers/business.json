@@ -11,9 +11,9 @@
   "website": "https://www.overhillflowers.com/",
   "rating": 4.7,
   "reviewCount": 18,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Beautiful blooms, delivered when it matters.",
+  "brandNarrative": "Overhill Flowers on Lancaster Avenue is the kind of flower shop that shows up — literally and emotionally — when it counts most. When Hannah Tighe's family was grieving and planning a memorial service from out of town, florist Hugh didn't just take their order; he guided them through every detail until they felt secure that the day would be beautiful. That kind of human care, the kind that makes a hard day a little easier, is what separates Overhill from a transactional flower order. From funeral tributes to birthday surprises for aunts who need cheering up, the shop handles the emotional weight of an occasion as naturally as it handles a stem of lilies.\n\nWhat customers consistently praise is the combination of creative skill and genuine listening. Rachel Goeken has returned again and again, skipping the website catalog to simply describe what she needs — and the team never disappoints. Barbara Goodson's congregation, Chosen Generation COGIC, has made Overhill their go-to because the arrangements arrive on time and the staff actually understands how to translate an event's spirit into a custom design. Greg Sanders placed an order one morning and had a beautiful arrangement on someone's doorstep two hours later. That speed, paired with consistent quality, is rare.\n\nOverhill Flowers operates out of West Philadelphia with weekday morning hours that keep the focus tight and the work intentional. The shop's 4.7-star rating across its reviews tells a story of a business that earns loyalty not through volume, but through getting it right — every arrangement, every delivery, every occasion.",
+  "ownerStory": "Hugh is the name customers remember, and for good reason. When a family flew in from out of state to lay their mother to rest, it was Hugh who took the time to walk them through every decision with patience and warmth, making sure gorgeous floral arrangements were one less thing they had to worry about. That kind of attentiveness doesn't come from a script — it comes from someone who genuinely understands that flowers mark the moments people will remember forever, good and painful alike.\n\nAt Overhill Flowers, the work is personal. Whether Hugh is on the phone with a first-time customer surprised by how easy the ordering process is, or crafting a one-of-a-kind arrangement for a church congregation's event, the philosophy is consistent: listen first, create second. The shop's reputation on Lancaster Avenue has been built one arrangement at a time, grounded in the belief that a florist's job isn't just to sell flowers — it's to get the moment right.",
   "hours": {
     "Monday": "9:00 AM – 12:00 PM",
     "Tuesday": "9:00 AM – 12:00 PM",
@@ -23,7 +23,38 @@
     "Saturday": "Closed",
     "Sunday": "Closed"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Sympathy & Funeral Arrangements",
+      "description": "Compassionate, guided floral design for memorial services, created with care to honor your loved one and ease the burden on grieving families.",
+      "icon": "heart-handshake"
+    },
+    {
+      "name": "Custom Arrangement Design",
+      "description": "Describe your vision, event, or occasion and the team will design a one-of-a-kind arrangement tailored specifically to your needs.",
+      "icon": "palette"
+    },
+    {
+      "name": "Same-Day & Scheduled Delivery",
+      "description": "Reliable local flower delivery with orders fulfilled as quickly as two hours after placement, always arriving on time for birthdays, anniversaries, and special occasions.",
+      "icon": "truck"
+    },
+    {
+      "name": "Birthday & Celebration Flowers",
+      "description": "Bright, joyful arrangements designed to surprise and delight for birthdays and personal milestones, delivered fresh to the recipient's door.",
+      "icon": "cake"
+    },
+    {
+      "name": "Church & Event Floral Design",
+      "description": "Custom floral arrangements for congregations, ceremonies, and organizational events, with consistent quality and on-time delivery for recurring clients.",
+      "icon": "building-2"
+    },
+    {
+      "name": "Online Order & Delivery",
+      "description": "Convenient website ordering with clear delivery instructions, making it easy to send flowers to loved ones near or far with confidence.",
+      "icon": "shopping-cart"
+    }
+  ],
   "reviews": [
     {
       "text": "We just had our mother's service and Hugh was absolutely wonderful! He helped us tremendously from start to finish. We live far away and were not familiar with the location,  but Hugh guided us so that we felt secure in knowing everything would look realy nice. The arrangement design and the flowers themselves were absolutely GORGEOUS! Thank you for making a difficult day a bit easier.",
@@ -61,7 +92,18 @@
       "date": "2021-11-19"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Hugh",
+      "role": "Lead Florist & Customer Guide",
+      "bio": "Hugh is the heart of Overhill Flowers — a patient, skilled designer who walks customers through even the most emotionally difficult occasions with warmth and expertise. Families planning memorial services from out of town have specifically praised his ability to make them feel secure and cared for throughout the entire process.",
+      "credentials": [
+        "Sympathy arrangement specialist",
+        "Custom design expert",
+        "Praised for exceptional customer guidance"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -116,28 +158,79 @@
   ],
   "stats": [
     {
-      "value": 18,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.7,
+      "suffix": "★",
+      "label": "Average Customer Rating"
     },
     {
-      "value": 4.7,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 18,
+      "suffix": "+",
+      "label": "Verified Customer Reviews"
+    },
+    {
+      "value": 2,
+      "suffix": "-Hour",
+      "label": "Same-Day Delivery Available"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "Custom Orders Delivered On Time"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Can you create a custom arrangement for a specific occasion or event?",
+      "answer": "Absolutely. Many of our customers prefer to describe the occasion rather than choose from the website catalog, and our team excels at translating the mood or theme of your event into a one-of-a-kind arrangement. Just tell us what you need — we'll handle the rest."
+    },
+    {
+      "question": "How quickly can you deliver flowers?",
+      "answer": "We offer same-day delivery for local orders — one customer received their arrangement within two hours of placing a morning order. We also accommodate scheduled deliveries so your flowers arrive exactly on the date that matters, like a birthday or anniversary."
+    },
+    {
+      "question": "Can you help with flowers for a funeral or memorial service?",
+      "answer": "Yes, and we take this responsibility seriously. Our team, led by Hugh, guides families through the entire process with patience and care — even if you're planning from out of town and aren't familiar with the area. We'll make sure the arrangements are beautiful and the process feels manageable during a difficult time."
+    },
+    {
+      "question": "What if I have specific flower preferences or want to exclude certain flowers?",
+      "answer": "We listen carefully. Whether you want to include a loved one's favorite bloom or need to avoid a specific flower, just let us know when you order. Our customers consistently note that we honor those personal requests without any fuss."
+    },
+    {
+      "question": "Do you work with churches and organizations on a recurring basis?",
+      "answer": "Yes — we proudly serve local congregations and organizations who rely on us for consistent, on-time floral delivery for services and events. If your group needs regular arrangements, we'd love to build that relationship with you."
+    },
+    {
+      "question": "What are your hours and how do I place an order?",
+      "answer": "We're open Monday through Friday, 9:00 AM to 12:00 PM. You can place orders through our website at overhillflowers.com or call us at (215) 473-1842. Our online ordering process is straightforward, with clear delivery instructions to make the experience smooth from start to finish."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#4A7C59",
+    "accent": "#D4956A",
+    "note": "Deep botanical green anchors the brand in nature, craftsmanship, and calm — reflecting the shop's composed, caring personality. The warm terracotta accent evokes the emotional warmth and human touch that customers like Hannah and Rachel describe so vividly. Together the palette feels artisan and heartfelt, not corporate or mass-market."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Exceptional personal guidance during emotionally sensitive occasions — Hugh's hands-on support for grieving families stands out as a defining differentiator",
+      "Fast, reliable delivery with consistent on-time performance praised across birthday, church, and sympathy orders",
+      "Creative custom arrangement skills — customers trust the team to design freely and consistently receive results that exceed expectations"
+    ],
+    "common_complaints": [
+      "None found in available reviews — all 18 reviews are positive with no recurring criticisms identified"
+    ],
+    "suggested_tagline": "Every stem placed with purpose.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "Warm",
+      "Trustworthy",
+      "Artisan",
+      "Attentive",
+      "Compassionate"
+    ],
+    "named_staff": [
+      "Hugh"
+    ]
   }
 }

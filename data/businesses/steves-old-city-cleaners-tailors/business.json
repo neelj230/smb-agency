@@ -11,9 +11,9 @@
   "website": null,
   "rating": 4.8,
   "reviewCount": 107,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Fifty Years. Every Stitch Intentional.",
+  "brandNarrative": "Steve's Old City Cleaners & Tailors isn't just a shop on Chestnut Street — it's a living institution. With over 50 years in the craft, Steve has built a reputation in Philadelphia's historic Old City neighborhood that most businesses only dream about. Customers like Greg Becker come in without a clear vision and leave with a custom tux tailored to precision and a genuine education in fit. Ethan Nguyen, who owns a large menswear collection and has struggled with tailors before, calls Steve 'top tier' — not just in skill, but in the rare ability to actually listen. When Hannah Brusca brought in a gown with five layers of fabric needing hemming days before a wedding, Steve didn't flinch — he made sure she could try it on and had it finished on time.\n\nWhat separates Steve from the average dry-clean-and-hem operation is his instinct for people. Genevieve Nania came in at closing time with a last-minute dress alteration and Steve stayed open, unhurried and welcoming, until the job was done right. That's not policy — that's character. Customers don't just recommend him; they tell their friends, return with entire wardrobes, and admit they'd visit 'just to hang out.' He remembers his clients by name, tracks evolving fashion trends despite decades in the trade, and guides customers through decisions they didn't even know they needed to make.\n\nThe shop does carry one honest cautionary note: Steve himself acknowledges that challenging materials like jersey fabric require upfront conversations about realistic outcomes. One customer's experience with a jersey bridesmaid gown hem fell below expectations, and the resolution left her feeling unheard. Steve's strengths shine brightest on structured garments — suits, tuxedos, formal wear — where his precision and experience are virtually unmatched in the city. For those pieces, the 4.8-star rating across over 100 reviews speaks loudly and clearly.",
+  "ownerStory": "Steve has been in this business for five decades — long enough to have tailored for Philadelphia families across multiple generations, long enough to know that fashion trends are cyclical, and long enough to have earned the kind of quiet confidence that only comes from mastering a craft over a lifetime. He set up shop in Old City, one of Philadelphia's most storied neighborhoods, and never left. Customers describe him as 'personable,' 'kind,' and 'easy to work with' — words that don't usually show up in reviews of dry cleaners, but that tell you everything about how Steve runs his shop. He doesn't just alter clothes; he holds consultations. He doesn't just take your money; he makes sure your concerns are heard.\n\nWhat's remarkable about Steve is that 50 years haven't made him rigid. Greg Becker noted that despite his decades in the trade, Steve stays well-aligned with how younger customers think about fit and style — offering guidance without imposing it. When a customer is nervous about an important event, Steve doesn't rush them. When it's past closing time and someone walks in with a problem, he stays. That's the kind of tailor Philadelphians pass down like a family secret — and why a shop with no website and no formal marketing still holds a 4.8-star rating on the strength of word-of-mouth alone.",
   "hours": {
     "Monday": "Closed",
     "Tuesday": "9:00 AM – 7:00 PM",
@@ -23,7 +23,38 @@
     "Saturday": "9:00 AM – 3:30 PM",
     "Sunday": "Closed"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Suit & Tuxedo Tailoring",
+      "description": "Precision alterations and custom fitting for suits and tuxedos, including waist suppression, sleeve shortening, and full re-silhouetting for weddings and formal events.",
+      "icon": "shirt"
+    },
+    {
+      "name": "Bridal & Formal Gown Alterations",
+      "description": "Expert hemming and fitting of bridal gowns, bridesmaid dresses, and multi-layer formal wear with try-on fittings to ensure the perfect finish before your event.",
+      "icon": "sparkles"
+    },
+    {
+      "name": "Dress & Garment Hemming",
+      "description": "Clean, precise hemming for dresses, pants, and skirts across a wide range of fabrics, with honest upfront guidance on what results to expect from each material.",
+      "icon": "scissors"
+    },
+    {
+      "name": "Menswear Alterations",
+      "description": "Comprehensive alterations for entire menswear collections — from trouser tapering and jacket reshaping to waistband adjustments — with expert advice on contemporary fit trends.",
+      "icon": "briefcase"
+    },
+    {
+      "name": "Dry Cleaning",
+      "description": "Professional dry cleaning for everyday garments and delicate formalwear, handled with the same care and attention that defines every service at the shop.",
+      "icon": "wind"
+    },
+    {
+      "name": "Rush & Last-Minute Alterations",
+      "description": "Expedited tailoring services for time-sensitive needs — Steve has been known to stay past closing to ensure customers aren't left without a solution before a big event.",
+      "icon": "zap"
+    }
+  ],
   "reviews": [
     {
       "text": "Steve is amazing his skill and customer service is top tier. Steve is also just an amazing person and very easy to work with. I have had a hard time with tailors in the past but Steve makes sure that my concerns are heard and understands my wants and needs.\n\nIf your in the area I highly recommend you get an appointment with Steve. As someone who needs alterations on an rather large mens wear collection I can say with confidence I will be back!",
@@ -61,7 +92,19 @@
       "date": "2025-10-17"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Steve",
+      "role": "Master Tailor & Owner",
+      "bio": "With over 50 years in the craft, Steve is the heart of the shop — a tailor who listens first, cuts second, and stays past closing when a customer needs him. Customers describe him as personable, experienced, and genuinely easy to work with, someone who remembers his clients and stays current with fashion trends despite decades in the trade.",
+      "credentials": [
+        "50+ years of tailoring experience",
+        "Specializes in suits, tuxedos, and formal wear",
+        "Known for fit consultations and trend guidance",
+        "Trusted by Philadelphia's Old City community for generations"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -116,28 +159,79 @@
   ],
   "stats": [
     {
-      "value": 107,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 50,
+      "suffix": "+ Years",
+      "label": "Tailoring Experience"
     },
     {
       "value": 4.8,
-      "suffix": "",
-      "label": "Google Rating"
+      "suffix": "★",
+      "label": "Average Customer Rating"
+    },
+    {
+      "value": 107,
+      "suffix": "+",
+      "label": "Verified Customer Reviews"
+    },
+    {
+      "value": 1,
+      "suffix": " Master Tailor",
+      "label": "Who Actually Remembers Your Name"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "What kinds of garments does Steve specialize in?",
+      "answer": "Steve's strongest work is on structured formal garments — suits, tuxedos, and formal gowns. Customers rave about his precision on wedding and event attire. He also handles everyday menswear alterations across large wardrobes. For more delicate or stretchy fabrics like jersey, we recommend asking Steve directly about expected results before committing."
+    },
+    {
+      "question": "How far in advance should I book before a wedding or formal event?",
+      "answer": "As early as possible is always best, but Steve has a track record of turning around event-critical work on tight timelines — including multi-layer gown hemming completed in time for a wedding. Rush and last-minute requests are accommodated when possible, and he's even been known to stay past closing hours for urgent needs."
+    },
+    {
+      "question": "What makes Steve different from other tailors in Philadelphia?",
+      "answer": "Fifty years of experience and a genuine interest in the person wearing the clothes. Steve doesn't just alter — he consults. He'll tell you how formal pants should fit, where trends are heading, and what level of tailoring actually makes sense for your body and wardrobe. Multiple customers say they haven't found this kind of guidance anywhere else in the city."
+    },
+    {
+      "question": "I have a challenging or unusual fabric — can Steve work with it?",
+      "answer": "Steve will always have an honest conversation with you upfront about difficult materials. He'll let you know what's achievable and what the realistic outcome looks like before any work begins. Transparency about tricky fabrics is part of how he operates — so don't hesitate to bring your garment in for a consultation first."
+    },
+    {
+      "question": "Do I need an appointment, or can I walk in?",
+      "answer": "Walk-ins are welcome, but booking an appointment is recommended — especially for bridal or formal wear with a deadline. The shop is open Tuesday through Friday 9 AM to 7 PM and Saturday 9 AM to 3:30 PM. Steve is closed Sundays and Mondays. Call (215) 427-2550 to arrange a fitting."
+    },
+    {
+      "question": "How has Steve stayed relevant after 50 years in the business?",
+      "answer": "By actually paying attention. Customers note that despite his decades of experience, Steve stays well-aligned with how different age groups prefer their clothes to fit today. He doesn't push an old-school silhouette — he listens to what you want and brings his experience to help you get there."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#2C2C2C",
+    "accent": "#B8860B",
+    "note": "Deep charcoal evokes the precision, craftsmanship, and timelessness of bespoke tailoring — echoing the dark wools and formal wear Steve works with daily. Dark goldenrod as the accent nods to Old City Philadelphia's historic architecture, aged brass fixtures, and the warmth of a shop that's been a neighborhood fixture for half a century. Together they feel established, trustworthy, and quietly distinguished — not flashy, but unmistakably quality."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Exceptional personal rapport — Steve is consistently described as kind, attentive, easy to work with, and genuinely interested in each customer's specific needs and concerns",
+      "Deep expertise and fit consultation — 50 years of experience combined with current trend awareness allows Steve to guide customers through tailoring decisions they didn't know they needed, a service competitors rarely offer",
+      "Reliability under pressure — multiple reviews highlight Steve completing time-sensitive formal wear alterations on tight deadlines, including staying past closing hours for last-minute needs"
+    ],
+    "common_complaints": [
+      "One documented case of a jersey-fabric bridesmaid gown hem falling below quality expectations, with the customer feeling the complaint resolution was dismissive and the $50 partial refund insufficient for a $150 charge on a formal event garment"
+    ],
+    "suggested_tagline": "Old City's Tailor. Your Clothes' Best Friend.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "Personable",
+      "Expert",
+      "Unhurried",
+      "Trustworthy",
+      "Old-school craft, modern sensibility"
+    ],
+    "named_staff": [
+      "Steve"
+    ]
   }
 }

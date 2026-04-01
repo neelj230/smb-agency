@@ -11,9 +11,9 @@
   "website": null,
   "rating": 5,
   "reviewCount": 7,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Flowers Arranged With Heart, Not Templates.",
+  "brandNarrative": "Regan's Flower Shop isn't your average corner florist — it's a living institution on N 52nd Street in West Philadelphia where artistry, community, and genuine human connection bloom together. Mrs. Regan, the gifted owner at the center of it all, is the kind of florist who takes one look at a store catalogue you're unhappy with, sets it aside, and proceeds to hand-select loose flowers and seasonal foliage to build you something spectacular from scratch — as Theresa Clark witnessed firsthand on the eve of Thanksgiving. That's not customer service by script; that's craft driven by instinct and care.\n\nThe shop has earned its reputation as a community staple over decades of showing up for the people of West Philly — for joyful occasions and sorrowful ones alike. Brenda Graham has trusted Regan's for nearly five years to prepare bouquets for her deceased loved ones, and Mrs. Regan delivers beautifully every single time. Jair Guardia found the perfect plant for his wife with a little guidance from the team. Even walk-in customers like Dave McClintock leave feeling like old friends, thanks to the warmth of specialists like Sylvina, who crafts stunning arrangements on the spot while keeping the conversation flowing like it's the most natural thing in the world.\n\nWith a perfect 5-star rating across every review and a clientele that spans gift-givers, grievers, plant lovers, and holiday hosts, Regan's Flower Shop is proof that the best florists don't just sell flowers — they listen, they create, and they make every arrangement feel like it was made for you and no one else.",
+  "ownerStory": "Mrs. Regan built her flower shop the way she builds an arrangement — with intention, instinct, and an eye for what's truly needed rather than what's merely expected. Her talent was captured vividly by customer Theresa Clark, who watched her craft three distinct, magnificent holiday arrangements in a single visit, each one unique, each one prepared with what Theresa described as 'the utmost care.' When Theresa expressed dissatisfaction with the catalogue options, Mrs. Regan didn't hesitate — she set the book aside and created something custom, something real, right there on the spot. That responsiveness is at the core of who she is as a florist and as a business owner.\n\nFor decades, Mrs. Regan has anchored herself in the West Philadelphia community, not just as a vendor but as a neighbor. Her shop has become the place people return to year after year — for anniversaries, for holidays, for remembrance. Her staff, including the warmly praised Sylvina, carry her spirit of personal connection into every customer interaction. What Mrs. Regan has built on N 52nd Street isn't just a flower shop. It's a place where people feel seen, where their occasions — big or small, joyful or grieving — are handled with the kind of artistry and humanity that no catalogue can ever capture.",
   "hours": {
     "Monday": "11:00 AM – 6:00 PM",
     "Tuesday": "11:00 AM – 6:00 PM",
@@ -23,7 +23,38 @@
     "Saturday": "11:00 AM – 6:00 PM",
     "Sunday": "Closed"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Custom Floral Arrangements",
+      "description": "Bespoke arrangements designed from scratch based on your vision, occasion, and seasonal availability — no catalogue required.",
+      "icon": "flower-2"
+    },
+    {
+      "name": "Holiday & Seasonal Arrangements",
+      "description": "Festive centerpieces and bouquets crafted with seasonal foliage and blooms for holidays like Thanksgiving, Christmas, and more.",
+      "icon": "leaf"
+    },
+    {
+      "name": "Memorial & Sympathy Bouquets",
+      "description": "Thoughtfully prepared bouquets to honor and remember loved ones, delivered with sensitivity and consistent care.",
+      "icon": "heart"
+    },
+    {
+      "name": "Walk-In Same-Day Arrangements",
+      "description": "No appointment needed — walk in and leave with a stunning custom arrangement created on the spot by our skilled florists.",
+      "icon": "clock"
+    },
+    {
+      "name": "Plant Sales & Gifting",
+      "description": "A curated selection of healthy, affordable plants perfect for gifting or adding greenery to your home or office.",
+      "icon": "sprout"
+    },
+    {
+      "name": "Gift Consultation",
+      "description": "Not sure what to get? Our team helps you find the perfect floral gift for any recipient, relationship, or occasion.",
+      "icon": "gift"
+    }
+  ],
   "reviews": [
     {
       "text": "A ton of great plants and at an affordable price! They helped me find the perfect plant for my wife. I’ll definitely be back for more.",
@@ -61,7 +92,27 @@
       "date": "2026-03-14"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Mrs. Regan",
+      "role": "Owner & Master Florist",
+      "bio": "An exceptionally gifted florist with decades of experience, Mrs. Regan creates unique, breathtaking arrangements with an artistic eye and a deep commitment to her craft. Customers describe her work as magnificent and her care as unmatched.",
+      "credentials": [
+        "Master Florist",
+        "Community Staple for Decades",
+        "Custom Design Specialist"
+      ]
+    },
+    {
+      "name": "Sylvina",
+      "role": "Floral Design Specialist",
+      "bio": "Praised by walk-in customer Dave McClintock for her talent, warmth, and ability to create beautiful arrangements on the spot while making every customer feel like a long-time friend. Sylvina is the embodiment of Regan's welcoming spirit.",
+      "credentials": [
+        "On-the-Spot Arrangement Specialist",
+        "Customer Experience Favorite"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -111,28 +162,80 @@
   ],
   "stats": [
     {
+      "value": 5,
+      "suffix": "★",
+      "label": "Perfect Rating Across All Reviews"
+    },
+    {
       "value": 7,
       "suffix": "+",
-      "label": "Happy Customers"
+      "label": "Five-Star Customer Reviews"
     },
     {
       "value": 5,
-      "suffix": "",
-      "label": "Google Rating"
+      "suffix": "+ Years",
+      "label": "Loyal Customers Returning Annually"
+    },
+    {
+      "value": 6,
+      "suffix": " Days",
+      "label": "Open Every Week for Your Community"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Can I get a custom arrangement that's not in your catalogue?",
+      "answer": "Absolutely. Mrs. Regan and her team specialize in going beyond the catalogue. Just describe your occasion, preference, or feeling — they'll select the right flowers and foliage and design something unique just for you, often right on the spot."
+    },
+    {
+      "question": "Do you accept walk-ins, or do I need to call ahead?",
+      "answer": "Walk-ins are warmly welcomed! Specialist Sylvina has been praised for accommodating walk-in customers and creating stunning arrangements immediately, without any prior notice needed."
+    },
+    {
+      "question": "Do you offer memorial or sympathy flowers?",
+      "answer": "Yes. Regan's has a long tradition of preparing beautiful, respectful bouquets for memorial purposes. Several customers have relied on the shop for years to honor deceased loved ones with care and consistency."
+    },
+    {
+      "question": "Do you sell individual plants as well as cut flowers?",
+      "answer": "Yes! The shop carries a variety of healthy plants at affordable prices, making them a great option for gifting or home décor. The team can help you find the right plant for any person or space."
+    },
+    {
+      "question": "What are your hours and is the shop open on weekends?",
+      "answer": "Regan's Flower Shop is open Monday through Saturday from 11:00 AM to 6:00 PM. The shop is closed on Sundays. You can also reach them by phone at (215) 879-3810."
+    },
+    {
+      "question": "What makes Regan's different from other Philadelphia florists?",
+      "answer": "The personal touch. Customers consistently describe Mrs. Regan and her team as attentive, warm, and genuinely talented — not just processing orders, but truly listening and creating. The shop has been a trusted community institution for decades, with a perfect 5-star rating to show for it."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#4A7C59",
+    "accent": "#E8A0BF",
+    "note": "Deep botanical green reflects the shop's deep roots in the community and its lush, healthy plant selection. Dusty rose pink echoes the warmth, femininity, and handcrafted elegance of Mrs. Regan's floral artistry — a palette that feels alive, welcoming, and a little old-soul beautiful."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Exceptional custom floral artistry — Mrs. Regan designs beyond the catalogue with seasonal, one-of-a-kind arrangements that genuinely wow customers",
+      "Deep community trust and loyalty — customers like Brenda Graham return for nearly five years, and the shop is described as a 'staple' with 'decades' of service",
+      "Warm, personalized staff interactions — Sylvina in particular turns walk-in strangers into customers who feel like long-time friends, driving repeat visits and word-of-mouth"
+    ],
+    "common_complaints": [
+      "None found — all 7 reviews are 5 stars with no negative feedback, concerns, or unmet expectations mentioned"
+    ],
+    "suggested_tagline": "West Philly's Florist. Made Fresh, Made for You.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "Artisanal",
+      "Warm",
+      "Community-rooted",
+      "Gifted",
+      "Personal"
+    ],
+    "named_staff": [
+      "Mrs. Regan",
+      "Sylvina"
+    ]
   }
 }
