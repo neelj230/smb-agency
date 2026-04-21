@@ -1,13 +1,16 @@
-'use client'
+"use client";
 
 interface AnnouncementBannerProps {
-  messages: string[]
+  messages: string[];
   /** Speed in seconds for one full cycle */
-  speed?: number
+  speed?: number;
 }
 
-export function AnnouncementBanner({ messages, speed = 30 }: AnnouncementBannerProps) {
-  const repeated = [...messages, ...messages]
+export function AnnouncementBanner({
+  messages,
+  speed = 30,
+}: AnnouncementBannerProps) {
+  const repeated = [...messages, ...messages];
 
   return (
     <div className="bg-[var(--brand-text)] text-white text-sm py-2 overflow-hidden whitespace-nowrap">
@@ -25,5 +28,5 @@ export function AnnouncementBanner({ messages, speed = 30 }: AnnouncementBannerP
         ))}
       </div>
     </div>
-  )
+  );
 }

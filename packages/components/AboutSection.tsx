@@ -1,14 +1,14 @@
-'use client'
+"use client";
 
-import { motion } from 'framer-motion'
-import Image from 'next/image'
-import type { Photo, Stat } from './types'
+import { motion } from "framer-motion";
+import Image from "next/image";
+import type { Photo, Stat } from "./types";
 
 interface AboutSectionProps {
-  heading?: string
-  story: string
-  image?: Photo
-  stats?: Stat[]
+  heading?: string;
+  story: string;
+  image?: Photo;
+  stats?: Stat[];
 }
 
 const fadeInUp = {
@@ -16,13 +16,20 @@ const fadeInUp = {
   whileInView: { opacity: 1, y: 0 },
   viewport: { once: true, amount: 0.2 },
   transition: { duration: 0.5, ease: [0.25, 0.46, 0.45, 0.94] },
-}
+};
 
-export function AboutSection({ heading = 'About Us', story, image, stats }: AboutSectionProps) {
+export function AboutSection({
+  heading = "About Us",
+  story,
+  image,
+  stats,
+}: AboutSectionProps) {
   return (
     <section className="py-24 lg:py-32 px-6">
       <div className="max-w-7xl mx-auto">
-        <div className={`grid ${image ? 'md:grid-cols-2' : ''} gap-16 items-center`}>
+        <div
+          className={`grid ${image ? "md:grid-cols-2" : ""} gap-16 items-center`}
+        >
           {image && (
             <motion.div
               initial={{ opacity: 0, x: -30, scale: 0.97 }}
@@ -31,13 +38,20 @@ export function AboutSection({ heading = 'About Us', story, image, stats }: Abou
               transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }}
               className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl ring-1 ring-black/5"
             >
-              <Image src={image.src} alt={image.alt} fill className="object-cover" />
+              <Image
+                src={image.src}
+                alt={image.alt}
+                fill
+                className="object-cover"
+              />
             </motion.div>
           )}
           <motion.div {...fadeInUp}>
-            <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-[var(--brand-text)]">{heading}</h2>
+            <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-[var(--brand-text)]">
+              {heading}
+            </h2>
             <div className="mt-8 text-[var(--brand-muted)] text-base md:text-lg leading-relaxed space-y-5 line-clamp-6">
-              {story.split('\n').map((paragraph, i) => (
+              {story.split("\n").map((paragraph, i) => (
                 <p key={i}>{paragraph}</p>
               ))}
             </div>
@@ -50,7 +64,9 @@ export function AboutSection({ heading = 'About Us', story, image, stats }: Abou
                       {stat.value}
                       {stat.suffix}
                     </p>
-                    <p className="text-sm text-[var(--brand-muted)] mt-2">{stat.label}</p>
+                    <p className="text-sm text-[var(--brand-muted)] mt-2">
+                      {stat.label}
+                    </p>
                   </div>
                 ))}
               </div>
@@ -59,5 +75,5 @@ export function AboutSection({ heading = 'About Us', story, image, stats }: Abou
         </div>
       </div>
     </section>
-  )
+  );
 }

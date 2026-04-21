@@ -1,36 +1,40 @@
 export function generateTsconfig(): string {
   const config = {
     compilerOptions: {
-      target: 'ES2017',
-      lib: ['dom', 'dom.iterable', 'esnext'],
+      target: "ES2017",
+      lib: ["dom", "dom.iterable", "esnext"],
       allowJs: true,
       skipLibCheck: true,
       strict: true,
       noEmit: true,
       esModuleInterop: true,
-      module: 'esnext',
-      moduleResolution: 'bundler',
+      module: "esnext",
+      moduleResolution: "bundler",
       resolveJsonModule: true,
       isolatedModules: true,
-      jsx: 'preserve',
+      jsx: "preserve",
       incremental: true,
-      plugins: [{ name: 'next' }],
+      plugins: [{ name: "next" }],
       paths: {
-        '@/*': ['./*'],
-        '@/components/*': ['../../packages/components/*'],
-        '@/integrations/*': ['../../packages/integrations/*'],
+        "@/*": ["./*"],
+        "@/components/*": ["../../packages/components/*"],
+        "@/integrations/*": ["../../packages/integrations/*"],
       },
     },
     include: [
-      'next-env.d.ts',
-      '**/*.ts',
-      '**/*.tsx',
-      '.next/types/**/*.ts',
-      '../../packages/**/*.ts',
-      '../../packages/**/*.tsx',
+      "next-env.d.ts",
+      "**/*.ts",
+      "**/*.tsx",
+      ".next/types/**/*.ts",
+      "../../packages/components/**/*.ts",
+      "../../packages/components/**/*.tsx",
+      "../../packages/integrations/**/*.ts",
+      "../../packages/integrations/**/*.tsx",
+      "../../packages/pretext-components/**/*.ts",
+      "../../packages/pretext-components/**/*.tsx",
     ],
-    exclude: ['node_modules'],
-  }
+    exclude: ["node_modules"],
+  };
 
-  return JSON.stringify(config, null, 2) + '\n'
+  return JSON.stringify(config, null, 2) + "\n";
 }

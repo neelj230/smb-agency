@@ -1,8 +1,8 @@
 interface GoogleMapsEmbedProps {
-  address: string
-  businessName: string
-  aspectRatio?: string
-  className?: string
+  address: string;
+  businessName: string;
+  aspectRatio?: string;
+  className?: string;
 }
 
 /**
@@ -12,13 +12,15 @@ interface GoogleMapsEmbedProps {
 export function GoogleMapsEmbed({
   address,
   businessName,
-  aspectRatio = 'aspect-[4/3]',
-  className = '',
+  aspectRatio = "aspect-[4/3]",
+  className = "",
 }: GoogleMapsEmbedProps) {
-  const query = encodeURIComponent(`${businessName}, ${address}`)
+  const query = encodeURIComponent(`${businessName}, ${address}`);
 
   return (
-    <div className={`rounded-2xl overflow-hidden border border-black/5 ${aspectRatio} ${className}`}>
+    <div
+      className={`rounded-2xl overflow-hidden border border-black/5 ${aspectRatio} ${className}`}
+    >
       <iframe
         title={`Map showing location of ${businessName}`}
         src={`https://www.google.com/maps?q=${query}&output=embed`}
@@ -30,5 +32,5 @@ export function GoogleMapsEmbed({
         referrerPolicy="no-referrer-when-downgrade"
       />
     </div>
-  )
+  );
 }

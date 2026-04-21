@@ -21,6 +21,7 @@
     "framer-motion": "^11",
     "lucide-react": "^0.400",
     "next": "^14",
+    "puppeteer": "^24.41.0",
     "react": "^18",
     "react-dom": "^18",
     "resend": "^3",

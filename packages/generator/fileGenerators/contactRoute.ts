@@ -1,4 +1,4 @@
-import type { BusinessData } from '../../components/types'
+import type { BusinessData } from "../../components/types";
 
 export function generateContactRoute(business: BusinessData): string {
   return `import { NextResponse } from 'next/server'
@@ -29,7 +29,7 @@ export async function POST(request: Request) {
     // const resend = new Resend(process.env.RESEND_API_KEY)
     // await resend.emails.send({
     //   from: 'website@yourdomain.com',
-    //   to: '${business.email || 'owner@example.com'}',
+    //   to: '${business.email || "owner@example.com"}',
     //   subject: \`New inquiry from \${name}\`,
     //   text: \`Name: \${name}\\nEmail: \${email}\\nPhone: \${phone || 'N/A'}\\nMessage: \${message}\`,
     // })
@@ -42,5 +42,5 @@ export async function POST(request: Request) {
     )
   }
 }
-`
+`;
 }

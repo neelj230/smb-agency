@@ -1,9 +1,9 @@
-'use client'
+"use client";
 
-import { Phone } from 'lucide-react'
+import { Phone } from "lucide-react";
 
 interface ClickToCallProps {
-  phone: string
+  phone: string;
 }
 
 /** Sticky mobile-only click-to-call button */
@@ -16,5 +16,5 @@ export function ClickToCall({ phone }: ClickToCallProps) {
     >
       <Phone className="w-6 h-6" />
     </a>
-  )
+  );
 }

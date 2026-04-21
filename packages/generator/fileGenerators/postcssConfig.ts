@@ -6,5 +6,5 @@ export function generatePostcssConfig(): string {
 }
 
 export default config
-`
+`;
 }

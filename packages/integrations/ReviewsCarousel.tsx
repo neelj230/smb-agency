@@ -1,8 +1,8 @@
-'use client'
+"use client";
 
-import { useEffect, useRef, useState } from 'react'
-import { Star } from 'lucide-react'
-import type { ReviewsCarouselProps } from './types'
+import { useEffect, useRef, useState } from "react";
+import { Star } from "lucide-react";
+import type { ReviewsCarouselProps } from "./types";
 
 /**
  * Horizontally auto-scrolling reviews carousel.
@@ -12,34 +12,34 @@ import type { ReviewsCarouselProps } from './types'
 export function ReviewsCarousel({
   reviews,
   speed = 30,
-  className = '',
+  className = "",
 }: ReviewsCarouselProps) {
-  const scrollRef = useRef<HTMLDivElement>(null)
-  const [paused, setPaused] = useState(false)
+  const scrollRef = useRef<HTMLDivElement>(null);
+  const [paused, setPaused] = useState(false);
 
   useEffect(() => {
-    const el = scrollRef.current
-    if (!el || paused) return
+    const el = scrollRef.current;
+    if (!el || paused) return;
 
-    let animationId: number
-    let position = 0
-    const contentWidth = el.scrollWidth / 2 // We duplicate content
+    let animationId: number;
+    let position = 0;
+    const contentWidth = el.scrollWidth / 2; // We duplicate content
 
     function animate() {
-      position += 0.5
-      if (position >= contentWidth) position = 0
-      if (el) el.scrollLeft = position
-      animationId = requestAnimationFrame(animate)
+      position += 0.5;
+      if (position >= contentWidth) position = 0;
+      if (el) el.scrollLeft = position;
+      animationId = requestAnimationFrame(animate);
     }
 
-    animationId = requestAnimationFrame(animate)
-    return () => cancelAnimationFrame(animationId)
-  }, [paused, speed])
+    animationId = requestAnimationFrame(animate);
+    return () => cancelAnimationFrame(animationId);
+  }, [paused, speed]);
 
-  if (reviews.length === 0) return null
+  if (reviews.length === 0) return null;
 
   // Duplicate reviews for seamless loop
-  const displayReviews = [...reviews, ...reviews]
+  const displayReviews = [...reviews, ...reviews];
 
   return (
     <div
@@ -50,7 +50,7 @@ export function ReviewsCarousel({
       <div
         ref={scrollRef}
         className="flex gap-6 overflow-x-hidden"
-        style={{ scrollBehavior: 'auto' }}
+        style={{ scrollBehavior: "auto" }}
       >
         {displayReviews.map((review, i) => (
           <div
@@ -61,7 +61,7 @@ export function ReviewsCarousel({
               {Array.from({ length: 5 }, (_, j) => (
                 <Star
                   key={j}
-                  className={`w-4 h-4 ${j < review.rating ? 'text-yellow-400 fill-yellow-400' : 'text-gray-200'}`}
+                  className={`w-4 h-4 ${j < review.rating ? "text-yellow-400 fill-yellow-400" : "text-gray-200"}`}
                 />
               ))}
             </div>
@@ -71,7 +71,9 @@ export function ReviewsCarousel({
             </p>
 
             <div className="flex items-center justify-between">
-              <span className="font-semibold text-sm text-[var(--brand-text)]">{review.author}</span>
+              <span className="font-semibold text-sm text-[var(--brand-text)]">
+                {review.author}
+              </span>
               <span className="text-xs px-2 py-0.5 rounded-full bg-black/5 text-[var(--brand-muted)] capitalize">
                 {review.source}
               </span>
@@ -80,5 +82,5 @@ export function ReviewsCarousel({
         ))}
       </div>
     </div>
-  )
+  );
 }

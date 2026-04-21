@@ -1,48 +1,52 @@
-'use client'
+"use client";
 
-import { useState, useEffect } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
-import { Menu, X } from 'lucide-react'
-import type { NavLink } from './types'
+import { useState, useEffect } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { Menu, X } from "lucide-react";
+import type { NavLink } from "./types";
 
 interface NavbarProps {
-  businessName: string
-  links: NavLink[]
-  ctaText?: string
-  ctaHref?: string
-  variant?: 'light' | 'dark' | 'transparent'
+  businessName: string;
+  links: NavLink[];
+  ctaText?: string;
+  ctaHref?: string;
+  variant?: "light" | "dark" | "transparent";
 }
 
 export function Navbar({
   businessName,
   links,
-  ctaText = 'Contact Us',
-  ctaHref = '#contact',
-  variant = 'light',
+  ctaText = "Contact Us",
+  ctaHref = "#contact",
+  variant = "light",
 }: NavbarProps) {
-  const [mobileOpen, setMobileOpen] = useState(false)
-  const [scrolled, setScrolled] = useState(false)
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 20)
-    window.addEventListener('scroll', onScroll, { passive: true })
-    return () => window.removeEventListener('scroll', onScroll)
-  }, [])
+    const onScroll = () => setScrolled(window.scrollY > 20);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
 
   const bgClass = scrolled
-    ? variant === 'dark'
-      ? 'bg-[var(--brand-text)]/95 backdrop-blur-xl shadow-lg shadow-black/5'
-      : 'bg-white/90 backdrop-blur-xl shadow-lg shadow-black/5'
+    ? variant === "dark"
+      ? "bg-[var(--brand-text)]/95 backdrop-blur-xl shadow-lg shadow-black/5"
+      : "bg-white/90 backdrop-blur-xl shadow-lg shadow-black/5"
     : {
-        light: 'bg-white/80 backdrop-blur-md',
-        dark: 'bg-[var(--brand-text)]/90 backdrop-blur-md',
-        transparent: 'bg-transparent',
-      }[variant]
+        light: "bg-white/80 backdrop-blur-md",
+        dark: "bg-[var(--brand-text)]/90 backdrop-blur-md",
+        transparent: "bg-transparent",
+      }[variant];
 
-  const textClass = variant === 'dark' || (variant === 'transparent' && !scrolled) ? 'text-white' : 'text-[var(--brand-text)]'
-  const mutedClass = variant === 'dark' || (variant === 'transparent' && !scrolled)
-    ? 'text-white/60 hover:text-white'
-    : 'text-[var(--brand-muted)] hover:text-[var(--brand-text)]'
+  const textClass =
+    variant === "dark" || (variant === "transparent" && !scrolled)
+      ? "text-white"
+      : "text-[var(--brand-text)]";
+  const mutedClass =
+    variant === "dark" || (variant === "transparent" && !scrolled)
+      ? "text-white/60 hover:text-white"
+      : "text-[var(--brand-muted)] hover:text-[var(--brand-text)]";
 
   return (
     <motion.nav
@@ -52,7 +56,10 @@ export function Navbar({
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${bgClass}`}
     >
       <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
-        <a href="#" className={`font-display text-xl font-bold ${textClass} transition-colors`}>
+        <a
+          href="#"
+          className={`font-display text-xl font-bold ${textClass} transition-colors`}
+        >
           {businessName}
         </a>
 
@@ -79,7 +86,11 @@ export function Navbar({
           className={`md:hidden p-2 rounded-lg transition-colors ${textClass}`}
           aria-label="Toggle menu"
         >
-          {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          {mobileOpen ? (
+            <X className="w-6 h-6" />
+          ) : (
+            <Menu className="w-6 h-6" />
+          )}
         </button>
       </div>
 
@@ -87,11 +98,11 @@ export function Navbar({
         {mobileOpen && (
           <motion.div
             initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
+            animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            transition={{ duration: 0.3, ease: 'easeInOut' }}
+            transition={{ duration: 0.3, ease: "easeInOut" }}
             className={`md:hidden overflow-hidden backdrop-blur-xl ${
-              variant === 'dark' ? 'bg-[var(--brand-text)]/95' : 'bg-white/95'
+              variant === "dark" ? "bg-[var(--brand-text)]/95" : "bg-white/95"
             }`}
           >
             <div className="px-6 py-6 space-y-1">
@@ -122,5 +133,5 @@ export function Navbar({
         )}
       </AnimatePresence>
     </motion.nav>
-  )
+  );
 }

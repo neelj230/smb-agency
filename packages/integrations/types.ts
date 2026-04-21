@@ -1,79 +1,79 @@
 /** Types for functional integration components */
 
 export interface ContactFormData {
-  name: string
-  email: string
-  phone?: string
-  message: string
+  name: string;
+  email: string;
+  phone?: string;
+  message: string;
   /** Business slug — used to route the submission */
-  businessSlug: string
+  businessSlug: string;
 }
 
 export interface ContactFormProps {
   /** Business slug for form routing */
-  businessSlug: string
+  businessSlug: string;
   /** Business email to send submissions to */
-  recipientEmail: string
+  recipientEmail: string;
   /** Custom heading */
-  heading?: string
+  heading?: string;
   /** Show phone field */
-  showPhone?: boolean
+  showPhone?: boolean;
   /** Custom submit button text */
-  submitText?: string
+  submitText?: string;
   /** Custom success message */
-  successMessage?: string
+  successMessage?: string;
   /** Additional CSS class */
-  className?: string
+  className?: string;
 }
 
 export interface GoogleMapsEmbedProps {
   /** Full address string */
-  address: string
+  address: string;
   /** Business name for aria-label */
-  businessName: string
+  businessName: string;
   /** Custom aspect ratio class (default: aspect-[4/3]) */
-  aspectRatio?: string
+  aspectRatio?: string;
   /** Additional CSS class */
-  className?: string
+  className?: string;
 }
 
 export interface SocialLinksBarProps {
   links: {
-    facebook?: string
-    instagram?: string
-    twitter?: string
-    linkedin?: string
-    youtube?: string
-    tiktok?: string
-    yelp?: string
-  }
+    facebook?: string;
+    instagram?: string;
+    twitter?: string;
+    linkedin?: string;
+    youtube?: string;
+    tiktok?: string;
+    yelp?: string;
+  };
   /** Icon size in pixels */
-  iconSize?: number
+  iconSize?: number;
   /** Additional CSS class */
-  className?: string
+  className?: string;
 }
 
 export interface ReviewsCarouselProps {
   reviews: {
-    text: string
-    author: string
-    rating: number
-    source: 'google' | 'yelp'
-    date?: string
-  }[]
+    text: string;
+    author: string;
+    rating: number;
+    source: "google" | "yelp";
+    date?: string;
+  }[];
   /** Auto-scroll speed in seconds per cycle */
-  speed?: number
+  speed?: number;
   /** Additional CSS class */
-  className?: string
+  className?: string;
 }
 
 export interface AnalyticsProviderProps {
-  children: React.ReactNode
+  children: React.ReactNode;
 }
 
 export interface IntegrationSuggestion {
-  id: string
-  name: string
-  description: string
-  priority: 'essential' | 'recommended' | 'optional'
+  id: string;
+  name: string;
+  description: string;
+  priority: "essential" | "recommended" | "optional";
 }
