@@ -8,6 +8,7 @@ description: "Design portfolio reference, CSS recipes, font pairings, animation 
 The full design portfolio lives in `data/design-elements-database.json` (177+ elements from 55+ analyzed sites). This skill provides implementation recipes — the code to bring those elements to life.
 
 ## Philosophy
+
 Be a curator, not a prescriber. Browse the database for inspiration, then combine elements into something bespoke for each business. No element is locked to any industry. Choose by vibe.
 
 ---
@@ -18,120 +19,136 @@ The database has 27 pairings. Here are implementation snippets for the most vers
 
 ```typescript
 // Friendly, approachable (plumber, dentist, SaaS, anyone warm)
-import { Figtree, Inter } from 'next/font/google'
-const display = Figtree({ subsets: ['latin'], weight: ['400', '500', '600', '700', '900'] })
-const body = Inter({ subsets: ['latin'] })
+import { Figtree, Inter } from "next/font/google";
+const display = Figtree({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "900"],
+});
+const body = Inter({ subsets: ["latin"] });
 
 // Modern, clean, current (tech, contractor, anyone contemporary)
-import { Geist, Inter } from 'next/font/google'
-const display = Geist({ subsets: ['latin'], weight: ['300', '400', '500', '600', '700', '900'] })
-const body = Inter({ subsets: ['latin'] })
+import { Geist, Inter } from "next/font/google";
+const display = Geist({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "900"],
+});
+const body = Inter({ subsets: ["latin"] });
 
 // Calm, geometric, wellness (therapist, yoga, spa, anyone serene)
 // Note: Satoshi is not on Google Fonts — use next/font/local
-import localFont from 'next/font/local'
-import { Inter } from 'next/font/google'
-const display = localFont({ src: './fonts/Satoshi-Variable.woff2' })
-const body = Inter({ subsets: ['latin'] })
+import localFont from "next/font/local";
+import { Inter } from "next/font/google";
+const display = localFont({ src: "./fonts/Satoshi-Variable.woff2" });
+const body = Inter({ subsets: ["latin"] });
 
 // Elegant serif (gardener, law firm, upscale restaurant, anyone premium)
-import { Playfair_Display, Inter } from 'next/font/google'
-const display = Playfair_Display({ subsets: ['latin'], weight: ['400', '500', '600', '700', '900'] })
-const body = Inter({ subsets: ['latin'] })
+import { Playfair_Display, Inter } from "next/font/google";
+const display = Playfair_Display({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "900"],
+});
+const body = Inter({ subsets: ["latin"] });
 
 // Warm editorial (personal brand, café, boutique, anyone storytelling)
-import { Instrument_Serif, Inter } from 'next/font/google'
-const display = Instrument_Serif({ subsets: ['latin'], weight: '400' })
-const body = Inter({ subsets: ['latin'] })
+import { Instrument_Serif, Inter } from "next/font/google";
+const display = Instrument_Serif({ subsets: ["latin"], weight: "400" });
+const body = Inter({ subsets: ["latin"] });
 
 // Professional consulting (advisor, firm, agency, anyone established)
-import { Hedvig_Letters_Serif, Inter } from 'next/font/google'
-const display = Hedvig_Letters_Serif({ subsets: ['latin'], weight: '400' })
-const body = Inter({ subsets: ['latin'] })
+import { Hedvig_Letters_Serif, Inter } from "next/font/google";
+const display = Hedvig_Letters_Serif({ subsets: ["latin"], weight: "400" });
+const body = Inter({ subsets: ["latin"] });
 
 // Bold, punchy (portfolio, contractor who stands out, anyone attention-grabbing)
-import { Be_Vietnam_Pro, Inter } from 'next/font/google'
-const display = Be_Vietnam_Pro({ subsets: ['latin'], weight: ['400', '500', '600', '700', '800'] })
-const body = Inter({ subsets: ['latin'] })
+import { Be_Vietnam_Pro, Inter } from "next/font/google";
+const display = Be_Vietnam_Pro({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
+});
+const body = Inter({ subsets: ["latin"] });
 
 // Rounded SaaS, warm tech (project management tool, friendly dental office)
 // Open Runde is not on Google Fonts — use next/font/local
-import localFont from 'next/font/local'
-import { Inter } from 'next/font/google'
-const display = localFont({ src: './fonts/OpenRunde-Variable.woff2' })
-const body = Inter({ subsets: ['latin'] })
+import localFont from "next/font/local";
+import { Inter } from "next/font/google";
+const display = localFont({ src: "./fonts/OpenRunde-Variable.woff2" });
+const body = Inter({ subsets: ["latin"] });
 
 // Tech-forward, AI aesthetic (modern auto shop, tech studio)
-import { Inter } from 'next/font/google'
-import localFont from 'next/font/local'
-const display = localFont({ src: './fonts/Switzer-Variable.woff2' })
-const mono = localFont({ src: './fonts/FragmentMono-Regular.woff2' })
-const body = Inter({ subsets: ['latin'] })
+import { Inter } from "next/font/google";
+import localFont from "next/font/local";
+const display = localFont({ src: "./fonts/Switzer-Variable.woff2" });
+const mono = localFont({ src: "./fonts/FragmentMono-Regular.woff2" });
+const body = Inter({ subsets: ["latin"] });
 
 // Decorative + technical (consulting, creative, architectural)
-import { Red_Hat_Mono, Inter } from 'next/font/google'
-import localFont from 'next/font/local'
-const display = localFont({ src: './fonts/Carattere-Regular.woff2' })
-const mono = Red_Hat_Mono({ subsets: ['latin'] })
-const body = Inter({ subsets: ['latin'] })
+import { Red_Hat_Mono, Inter } from "next/font/google";
+import localFont from "next/font/local";
+const display = localFont({ src: "./fonts/Carattere-Regular.woff2" });
+const mono = Red_Hat_Mono({ subsets: ["latin"] });
+const body = Inter({ subsets: ["latin"] });
 
 // Creative bold (agency, retail, anyone playful)
-import { Syne, DM_Sans } from 'next/font/google'
-const display = Syne({ subsets: ['latin'] })
-const body = DM_Sans({ subsets: ['latin'] })
+import { Syne, DM_Sans } from "next/font/google";
+const display = Syne({ subsets: ["latin"] });
+const body = DM_Sans({ subsets: ["latin"] });
 
 // Premium designer (portfolio, luxury)
-import { Inter } from 'next/font/google'
-import localFont from 'next/font/local'
-const display = localFont({ src: './fonts/NeueHaasDisplay-Medium.woff2' })
-const mono = localFont({ src: './fonts/FragmentMono-Regular.woff2' })
-const body = Inter({ subsets: ['latin'] })
+import { Inter } from "next/font/google";
+import localFont from "next/font/local";
+const display = localFont({ src: "./fonts/NeueHaasDisplay-Medium.woff2" });
+const mono = localFont({ src: "./fonts/FragmentMono-Regular.woff2" });
+const body = Inter({ subsets: ["latin"] });
 
 // Modern SaaS, flexible (startup, any modern business)
-import { Outfit, Poppins, Inter } from 'next/font/google'
-const display = Outfit({ subsets: ['latin'] })
-const secondary = Poppins({ subsets: ['latin'], weight: ['400', '600'] })
-const body = Inter({ subsets: ['latin'] })
+import { Outfit, Poppins, Inter } from "next/font/google";
+const display = Outfit({ subsets: ["latin"] });
+const secondary = Poppins({ subsets: ["latin"], weight: ["400", "600"] });
+const body = Inter({ subsets: ["latin"] });
 
 // Quirky, characterful (creative agency, artisanal, distinctive brand)
-import { Bricolage_Grotesque, Inter } from 'next/font/google'
-const display = Bricolage_Grotesque({ subsets: ['latin'] })
-const body = Inter({ subsets: ['latin'] })
+import { Bricolage_Grotesque, Inter } from "next/font/google";
+const display = Bricolage_Grotesque({ subsets: ["latin"] });
+const body = Inter({ subsets: ["latin"] });
 
 // Luxury editorial (hotel, design studio, high-end hospitality)
-import { Cormorant_Garamond, Inter } from 'next/font/google'
-const display = Cormorant_Garamond({ subsets: ['latin'], weight: ['300', '400', '600', '700'] })
-const body = Inter({ subsets: ['latin'] })
+import { Cormorant_Garamond, Inter } from "next/font/google";
+const display = Cormorant_Garamond({
+  subsets: ["latin"],
+  weight: ["300", "400", "600", "700"],
+});
+const body = Inter({ subsets: ["latin"] });
 
 // Clean premium (skincare, health, premium services)
 // General Sans is not on Google Fonts — use next/font/local
-import localFont from 'next/font/local'
-import { Inter } from 'next/font/google'
-const display = localFont({ src: './fonts/GeneralSans-Variable.woff2' })
-const body = Inter({ subsets: ['latin'] })
+import localFont from "next/font/local";
+import { Inter } from "next/font/google";
+const display = localFont({ src: "./fonts/GeneralSans-Variable.woff2" });
+const body = Inter({ subsets: ["latin"] });
 
 // Bold geometric statement (design studio, agency, architectural)
 // Clash Display is not on Google Fonts — use next/font/local
-import localFont from 'next/font/local'
-import { Inter } from 'next/font/google'
-const display = localFont({ src: './fonts/ClashDisplay-Variable.woff2' })
-const body = Inter({ subsets: ['latin'] })
+import localFont from "next/font/local";
+import { Inter } from "next/font/google";
+const display = localFont({ src: "./fonts/ClashDisplay-Variable.woff2" });
+const body = Inter({ subsets: ["latin"] });
 
 // Therapeutic, personal (wellness, therapy, retreats, personal service)
-import { Pinyon_Script, Playfair_Display, Inter } from 'next/font/google'
-const script = Pinyon_Script({ subsets: ['latin'], weight: '400' })
-const display = Playfair_Display({ subsets: ['latin'] })
-const body = Inter({ subsets: ['latin'] })
+import { Pinyon_Script, Playfair_Display, Inter } from "next/font/google";
+const script = Pinyon_Script({ subsets: ["latin"], weight: "400" });
+const display = Playfair_Display({ subsets: ["latin"] });
+const body = Inter({ subsets: ["latin"] });
 
 // Ultra-clean typography (real estate, premium photography-driven sites)
 // Inter Display optimized for large sizes — tighter spacing than regular Inter
-import localFont from 'next/font/local'
-import { Inter } from 'next/font/google'
-const display = localFont({ src: './fonts/InterDisplay-Variable.woff2' })
-const body = Inter({ subsets: ['latin'] })
+import localFont from "next/font/local";
+import { Inter } from "next/font/google";
+const display = localFont({ src: "./fonts/InterDisplay-Variable.woff2" });
+const body = Inter({ subsets: ["latin"] });
 ```
 
 ### Font Application Pattern
+
 ```typescript
 // In layout.tsx:
 export default function RootLayout({ children }) {
@@ -155,6 +172,7 @@ fontFamily: {
 ## CSS Recipes (globals.css)
 
 ### Custom Selection Colors
+
 ```css
 ::selection {
   background: var(--brand-primary);
@@ -163,13 +181,14 @@ fontFamily: {
 ```
 
 ### Film Grain Overlay (optional — adds warmth/analog feel)
+
 ```css
 .grain::after {
-  content: '';
+  content: "";
   position: fixed;
   inset: 0;
   z-index: 9999;
-  background: url('/noise.png');
+  background: url("/noise.png");
   mix-blend-mode: hard-light;
   opacity: 0.03;
   pointer-events: none;
@@ -178,9 +197,10 @@ fontFamily: {
 ```
 
 ### Picture Frame Border (editorial/gallery feel)
+
 ```css
 .frame::before {
-  content: '';
+  content: "";
   position: fixed;
   inset: 8px;
   z-index: 999;
@@ -190,13 +210,14 @@ fontFamily: {
 ```
 
 ### Mix-Blend-Mode Hover on Cards
+
 ```css
 .card-hover {
   position: relative;
   overflow: hidden;
 }
 .card-hover::after {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   background: var(--brand-primary);
@@ -210,6 +231,7 @@ fontFamily: {
 ```
 
 ### Dot Pattern Background Decoration
+
 ```css
 .dot-pattern {
   background-image: radial-gradient(circle, #00000010 1px, transparent 1px);
@@ -222,6 +244,7 @@ fontFamily: {
 ## Framer Motion Animation Recipes
 
 ### Fade-Up on Scroll (baseline — every section below the fold)
+
 ```typescript
 import { motion } from 'framer-motion'
 
@@ -238,6 +261,7 @@ const fadeInUp = {
 ```
 
 ### Staggered Children (cards, grid items, lists)
+
 ```typescript
 const staggerContainer = {
   initial: {},
@@ -259,6 +283,7 @@ const staggerItem = {
 ```
 
 ### Animated Number Counter (stats sections)
+
 ```typescript
 import { useInView, useMotionValue, useTransform, animate } from 'framer-motion'
 import { useEffect, useRef } from 'react'
@@ -285,6 +310,7 @@ function Counter({ target, suffix = '' }: { target: number; suffix?: string }) {
 ```
 
 ### Horizontal Auto-Scrolling Carousel (testimonials, logos, gallery)
+
 ```typescript
 import { motion } from 'framer-motion'
 
@@ -307,6 +333,7 @@ function ScrollingCarousel({ items }: { items: React.ReactNode[] }) {
 ```
 
 ### Scroll-Pinned Section Cascade (premium — sections cover each other)
+
 ```typescript
 // Each section uses position: sticky + z-index stacking
 function StickySection({ index, children }: { index: number; children: React.ReactNode }) {
@@ -327,6 +354,7 @@ function StickySection({ index, children }: { index: number; children: React.Rea
 ```
 
 ### 3D Perspective Dashboard (scroll-linked depth)
+
 ```typescript
 import { useScroll, useTransform, motion } from 'framer-motion'
 
@@ -350,6 +378,7 @@ function PerspectiveDashboard({ imageSrc }: { imageSrc: string }) {
 ```
 
 ### Zoom-Out Product Reveal (scroll-linked scale)
+
 ```typescript
 import { useScroll, useTransform, motion } from 'framer-motion'
 import { useRef } from 'react'
@@ -368,6 +397,7 @@ function ZoomOutReveal({ children }: { children: React.ReactNode }) {
 ```
 
 ### Video Background Hero
+
 ```typescript
 // For timelapse or cinematic video heroes (RealDev, Yogus, Yachtera patterns)
 function VideoHero({ videoSrc, children }: { videoSrc: string; children: React.ReactNode }) {
@@ -385,6 +415,7 @@ function VideoHero({ videoSrc, children }: { videoSrc: string; children: React.R
 ```
 
 ### Self-Writing Text (Ambient)
+
 ```typescript
 import { motion, useInView, animate, useMotionValue, useTransform } from 'framer-motion'
 import { useRef, useEffect } from 'react'
@@ -415,6 +446,7 @@ function SelfWritingText({ text, speed = 0.03 }: { text: string; speed?: number 
 ```
 
 ### Blurred-to-Clear Image Reveal (Realisting pattern)
+
 ```typescript
 import { useScroll, useTransform, motion } from 'framer-motion'
 import { useRef } from 'react'
@@ -441,14 +473,15 @@ function BlurredReveal({ imageSrc, children }: { imageSrc: string; children: Rea
 ```
 
 ### Cards Zooming From Below (Forest Therapy pattern)
+
 ```typescript
 // Apply to about/feature cards for dramatic entrance
 const zoomFromBelow = {
   initial: { opacity: 0, y: 100, scale: 0.8 },
   whileInView: { opacity: 1, y: 0, scale: 1 },
-  viewport: { once: true, margin: '-100px' },
-  transition: { duration: 0.8, ease: 'easeOut' },
-}
+  viewport: { once: true, margin: "-100px" },
+  transition: { duration: 0.8, ease: "easeOut" },
+};
 // Use with stagger: add delay based on index
 // transition: { duration: 0.8, ease: 'easeOut', delay: index * 0.15 }
 ```
@@ -458,6 +491,7 @@ const zoomFromBelow = {
 ## Layout Recipes
 
 ### Photo Gallery Grid
+
 ```css
 .gallery {
   display: grid;
@@ -467,6 +501,7 @@ const zoomFromBelow = {
 ```
 
 ### Comparison Table (With Us vs Without Us)
+
 ```typescript
 function ComparisonTable({ withUs, withoutUs }: { withUs: string[]; withoutUs: string[] }) {
   return (
@@ -495,6 +530,7 @@ function ComparisonTable({ withUs, withoutUs }: { withUs: string[]; withoutUs: s
 ```
 
 ### Process Steps (numbered, with optional images)
+
 ```typescript
 function ProcessSteps({ steps }: { steps: { title: string; description: string; image?: string }[] }) {
   return (
@@ -542,6 +578,7 @@ function ProcessSteps({ steps }: { steps: { title: string; description: string; 
 ```
 
 ### Color Rules
+
 1. Extract dominant color from logo/existing branding
 2. Generate complementary colors ensuring WCAG AA contrast (4.5:1 for body text)
 3. Follow 70/20/10: 70% neutrals (bg + text), 20% primary, 10% accent
@@ -554,24 +591,26 @@ function ProcessSteps({ steps }: { steps: { title: string; description: string; 
 ## Integration Recipes (Phase 1 — ships with every site)
 
 ### Contact Form (Resend)
+
 ```typescript
 // Server action: app/actions/contact.ts
-'use server'
-import { Resend } from 'resend'
+"use server";
+import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY)
+const resend = new Resend(process.env.RESEND_API_KEY);
 
 export async function submitContact(formData: FormData) {
   await resend.emails.send({
-    from: 'website@yourdomain.com',
-    to: 'business-public-email@gmail.com',
-    subject: `New inquiry from ${formData.get('name')}`,
-    text: `Name: ${formData.get('name')}\nPhone: ${formData.get('phone')}\nMessage: ${formData.get('message')}`
-  })
+    from: "website@yourdomain.com",
+    to: "business-public-email@gmail.com",
+    subject: `New inquiry from ${formData.get("name")}`,
+    text: `Name: ${formData.get("name")}\nPhone: ${formData.get("phone")}\nMessage: ${formData.get("message")}`,
+  });
 }
 ```
 
 ### Click-to-Call (sticky mobile)
+
 ```typescript
 <a
   href={`tel:${business.phone}`}
@@ -582,6 +621,7 @@ export async function submitContact(formData: FormData) {
 ```
 
 ### Schema.org JSON-LD
+
 ```typescript
 <script
   type="application/ld+json"

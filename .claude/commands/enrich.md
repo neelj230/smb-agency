@@ -3,6 +3,7 @@ Enrich a scraped business's data with AI-generated content so it's ready for sit
 Arguments: $ARGUMENTS (business slug, e.g. "barbershop-denim")
 
 ## Prerequisites
+
 - Business data must exist at `data/businesses/$ARGUMENTS/business.json`
 - Photos must exist at `data/businesses/$ARGUMENTS/photos/`
 
@@ -17,6 +18,7 @@ This is the MOST IMPORTANT step. Read every JPG in `data/businesses/$ARGUMENTS/p
 5. **Extract visual signals** — dominant colors (for brand palette), overall aesthetic (dark/light, warm/cool, rustic/modern), quality level
 
 After viewing all photos, synthesize:
+
 - **Dominant color palette** from signage, interior, branding visible in photos → use this for brandColors
 - **Overall visual vibe** (warm rustic? sleek modern? cozy neighborhood? bold urban?) → use this to guide all copy decisions
 - **Best hero photo** — which photo would make the strongest hero section?
@@ -25,6 +27,7 @@ After viewing all photos, synthesize:
 ## Step 2: Analyze Reviews
 
 Read the reviews in business.json. Identify:
+
 - What do customers consistently praise?
 - What specific words/phrases recur?
 - Any owner/staff names mentioned?
@@ -48,6 +51,7 @@ Fill in ALL empty fields:
 ## Step 4: Update Photo Metadata in business.json
 
 Update the `photos` array with:
+
 - New `src` paths (matching renamed files)
 - New descriptive `alt` text
 - Correct `category` values
@@ -61,12 +65,14 @@ Save the enriched data to `data/businesses/$ARGUMENTS/business.json`. Do NOT ove
 Update the status column in `data/spreadsheet.csv` to "enriched" for this business.
 
 ## Copy Style Rules
+
 - Framer style: punchy, short, benefit-driven. Big text, few words.
 - Every word plausibly derived from real business data
 - Services must be realistic for the category
 - FAQ answers specific, not boilerplate
 
 ## Lucide Icon Reference
+
 - Auto: wrench, car, gauge, shield-check, clock, fuel
 - Barber/Salon: scissors, spray-can, sparkles, crown, star
 - Plumbing: droplets, flame, bath, thermometer, wrench
@@ -80,4 +86,5 @@ Update the status column in `data/spreadsheet.csv` to "enriched" for this busine
 - General: phone, clock, shield-check, award, map-pin, users, thumbs-up
 
 ## When Done
+
 Report: tagline, brand colors (and what photo you pulled them from), photo categorization summary, number of services generated, and the visual vibe you identified.

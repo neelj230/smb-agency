@@ -3,6 +3,7 @@ Build multiple sites in parallel using worktree agents.
 Arguments: $ARGUMENTS (number of sites to build, e.g. "10")
 
 ## Steps:
+
 1. Read `data/spreadsheet.csv` for businesses with status="scraped" (ready to build)
 2. Pick the top N (from arguments) by priority_tier (Tier A first, then Tier B)
 3. For each business, spin up a worktree agent:
@@ -21,6 +22,7 @@ Arguments: $ARGUMENTS (number of sites to build, e.g. "10")
    - Any failures and why
 
 ## Notes:
+
 - Start with 5 parallel agents max to avoid rate limits
 - Use auto mode (shift+tab) before running this command
 - Each agent gets its own worktree so there are no file conflicts

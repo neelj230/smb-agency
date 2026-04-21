@@ -3,6 +3,7 @@ Generate a personalized outreach email for a business with a deployed preview si
 Arguments: $ARGUMENTS (business slug, e.g. "joes-plumbing")
 
 ## Steps:
+
 1. Load business data from `data/businesses/$ARGUMENTS/business.json`
 2. Get the preview URL from the spreadsheet
 3. Generate a personalized cold email:
@@ -19,6 +20,7 @@ Arguments: $ARGUMENTS (business slug, e.g. "joes-plumbing")
 8. Report: show the email draft for review before sending
 
 ## Email rules:
+
 - Keep it under 150 words
 - No "Dear Sir/Madam" — use the owner's name if known, or business name
 - Reference a specific positive review or strength

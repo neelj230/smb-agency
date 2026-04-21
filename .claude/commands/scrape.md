@@ -3,6 +3,7 @@ Deep-scrape all available information about a specific business prospect.
 Arguments: $ARGUMENTS (business slug, e.g. "joes-plumbing")
 
 ## Steps:
+
 1. Look up the business in `data/spreadsheet.csv` by slug
 2. Create directory `data/businesses/$ARGUMENTS/` if it doesn't exist
 3. Scrape from ALL available sources:
