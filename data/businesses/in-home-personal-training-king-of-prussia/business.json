@@ -1,0 +1,130 @@
+{
+  "name": "In-Home Personal Training King of Prussia",
+  "slug": "in-home-personal-training-king-of-prussia",
+  "category": "personal trainer",
+  "address": "120 8th St",
+  "city": "Bridgeport",
+  "state": "PA",
+  "zip": "19405",
+  "phone": "(484) 269-3220",
+  "email": "ChesterCountyTraining@Gmail.com",
+  "website": "http://www.chestercountytraining.com/",
+  "rating": 5,
+  "reviewCount": 21,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Open 24 hours",
+    "Tuesday": "Open 24 hours",
+    "Wednesday": "Open 24 hours",
+    "Thursday": "Open 24 hours",
+    "Friday": "Open 24 hours",
+    "Saturday": "Open 24 hours",
+    "Sunday": "Open 24 hours"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I have worked with Coach Geo since my freshman year of high school. I am now coming up on my junior year in college. He always lets me come back and lift too!  He is durable, easy to work with, and provides an effective full-body workout, making it a great addition to any fitness routine. I have grown a lot under his leadership as a strength trainer. He is an overall really great guy and I would recommend any athlete looking to grow!",
+      "author": "Mia Mitchell",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-05-15"
+    },
+    {
+      "text": "I’ve had the privilege of working with Coach Will since my senior year of high school. Now, as a senior soccer player at East Carolina University, I continue to train with him during my breaks. He is truly the best. He is consistently supportive and always attentive to providing smart modifications around my injuries. Coach Will has experience training elite athletes, and I’m incredibly grateful for the impact he’s had on my development over the years.",
+      "author": "Molly Thomas",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-05-08"
+    },
+    {
+      "text": "Coach Will Geo is the man!!! Coach Tiff and I both got to learn from the best in Highschool. He helped me begin seriously lifting for sports. Helped me get stronger and more athletic for hs and then got me prepared for D1 college basketball. He lets me come back and lift whenever I want and with his foundation, he has helped me reach professional basketball. He’s the real deal. Shoutout Coach Tiff too. Just getting started but Coach Will has paved the path and set the tone of how to be an amazing trainer. You also can’t forget about how fun he makes lifting. His workouts are effective and you enjoy doing them. Great guy all around. Best in the business!!!",
+      "author": "Lucy Olsen",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-05-20"
+    },
+    {
+      "text": "Coach Geo is the man when it comes to working out. I have lifted with him over the course of 6 years and I can credit my increase in strength due to his programs. He knows how to incorporate plyos, dynamics, strength, and stretches all into one lift. He is an open book when it comes to questions as he is knowledgeable and knows what each movement is meant for. Would highly recommend.",
+      "author": "Gage Swanger",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-05-10"
+    },
+    {
+      "text": "I have worked with coach will for five years now, and he has helped me improve my strength, athleticism, and agility, allowing me to perform at the collegiate level. I would highly recommend him for anyone looking to stay fit or be a better athlete!",
+      "author": "Luke Ellor",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-05-08"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "In-Home Personal Training King of Prussia photo 1",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "In-Home Personal Training King of Prussia photo 2",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Soccer coach trains two female players with resistance band on indoor field",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Person lifting dumbbells in gym wearing Chester County Training shirt",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Senior man and woman exercising on gym equipment in fitness facility",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Picture",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 21,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {
+    "facebook": "https://facebook.com/chestercountytraining/"
+  },
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "Chester County Training ChesterCountyTraining@Gmail.com Home Testimonials Meet the Team Contact Studio Locations Senior Specific Sports Specific Corporate Wellness Golf Specific Semi-Private Strength Training Lehigh Valley Training Chester County Training is a personal training service that offers one-on-one, partner, group, Zoom, or Facetime training sessions designed to meet specific exercise, strength, sports, and nutritional goals. We can meet with you in one of our two private personal training studios, both located in South Coventry. We can also meet with you at your work site or in the comfort of your home. For in-home training, all exercise equipment will be provided. Our focus is to help you achieve your health and fitness goals. We have worked with youth, athletes, adults, and seniors. Regardless of your age or fitness level, we have the expertise to create an effective program for you. (function(jQuery) { function init() { window.wSlideshow && window.wSlideshow.render({elementID:\"129070395679979991\",nav:\"none\",navLocation:\"bottom\",captionLocation:\"bottom\",transition:\"fade\",autoplay:\"1\",speed:\"5\",aspectRatio:\"4:3\",showControls:\"true\",randomStart:\"false\",images:[{\"url\":\"3/5/3/7/35373541/studio-front-room-2.jpg\",\"width\":\"800\",\"height\":\"509\",\"caption\":\"The Shoppes at Pughtown Location\"},{\"url\":\"3/5/3/7/35373541/gyms.jpg\",\"width\":\"800\",\"height\":\"501\",\"caption\":\"1st location in South Coventry\"},{\"url\":\"3/5/3/7/35373541/door-open-gym.jpg\",\"width\":\"800\",\"height\":\"645\"},{\"url\":\"3/5/3/7/35373541/251035284-4587336778013856-7686617099230474474-n.jpg\",\"width\":\"641\",\"height\":\"800\",\"caption\":\"Spartans!\"},{\"url\":\"3/5/3/7/35373541/2611bdbb-6882-4517-b00d-de095ab43f9d.jpg\",\"width\":\"800\",\"height\":\"800\",\"caption\":\"&quot;I have been working with Chester County Training for over 9 years and as a result, at age 57, I&#x27;m in the best shape of my life.&quot;\"},{\"url\":\"3/5/3/7/35373541/in-home-training.jpg\",\"width\":\"600\",\"height\":\"800\",\"caption\":\"In-Home training is a great way to make fitness part of your life.\"},{\"url\":\"3/5/3/7/35373541/img-7499.jpg\",\"width\":\"800\",\"height\":\"380\",\"caption\":\"Austin was the Strength and Conditioning Coach at Iowa State and Ursinus College supporting players all the way to the NFL\"},{\"url\":\"3/5/3/7/35373541/rad-group-fitness.jpg\",\"width\":\"800\",\"height\":\"600\"}]}) } jQuery(document).ready(init); })(window.jQuery) document.getElementById(\"video-iframe-380696088952735943\").style.opacity = 0; document.getElementById(\"wsite-video-container-380696088952735943\").style.background = \"none\"; var videoIframe380696088952735943Content = '<!DOC'+'TYPE ht'+'ml>' + '<he'+'ad>' + '<scr'+'ipt type=\"text/javascript\" src=\"https://cdn2.editmysite.com/js/jquery-2.1.4.min.js\">\\x3C/script>' + '<scr'+'ipt type=\"text/javascript\" src=\"//www.weebly.com/weebly/apps/generateVideo.php?source=weebly&output=js&elementid=380696088952735943&user=35373541&ineditor=0&align=center&margintop=10px&marginbottom=10px&downloadable=0&height=282&video=b/35373541-678546720"
+}

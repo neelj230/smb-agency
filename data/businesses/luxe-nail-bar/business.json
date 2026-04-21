@@ -97,19 +97,13 @@
       "name": "Richard",
       "role": "Nail Technician",
       "bio": "Richard is a customer favorite praised for friendly, attentive service and consistently clean gel manicure results. Regulars specifically request him by name.",
-      "credentials": [
-        "Gel Manicure Specialist",
-        "Customer Favorite"
-      ]
+      "credentials": ["Gel Manicure Specialist", "Customer Favorite"]
     },
     {
       "name": "Kevin",
       "role": "Nail Technician",
       "bio": "Kevin is known for his approachable manner and precise application, earning repeat clients who trust him with their monthly nail appointments.",
-      "credentials": [
-        "Gel Manicure Specialist",
-        "Repeat Client Favorite"
-      ]
+      "credentials": ["Gel Manicure Specialist", "Repeat Client Favorite"]
     }
   ],
   "photos": [
@@ -240,9 +234,6 @@
       "student-friendly",
       "inconsistent"
     ],
-    "named_staff": [
-      "Richard",
-      "Kevin"
-    ]
+    "named_staff": ["Richard", "Kevin"]
   }
 }

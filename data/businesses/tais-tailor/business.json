@@ -1,0 +1,106 @@
+{
+  "name": "Tai's Tailor",
+  "slug": "tais-tailor",
+  "category": "tailor",
+  "address": "2247 SE 106th Ave",
+  "city": "Portland",
+  "state": "OR",
+  "zip": "97216",
+  "phone": "(503) 771-2193",
+  "email": "",
+  "website": null,
+  "rating": 4.9,
+  "reviewCount": 65,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM – 5:00 PM",
+    "Tuesday": "9:00 AM – 5:00 PM",
+    "Wednesday": "9:00 AM – 5:00 PM",
+    "Thursday": "9:00 AM – 5:00 PM",
+    "Friday": "9:00 AM – 5:00 PM",
+    "Saturday": "9:00 AM – 4:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Great guy and super helpful on repairing several pair of pants. 100% recommend!",
+      "author": "Patrick Clinton",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-14"
+    },
+    {
+      "text": "Thanks so much for helping me out Tai!  He is a great craftsman with great service and a great price.  I fully recommend him.  He took care of me in a pinch for a small project. He is A++.",
+      "author": "Roger Edens",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-04-20"
+    },
+    {
+      "text": "I've gotten a few things tailored by Tai now and he has been awesome every time. Very quick and friendly! Cant beat the price as well. He's straight up honest with you whether or not your request might be a bad idea, which I like. (He'll do it anyways if you want him to!)",
+      "author": "Yuki",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-08-27"
+    },
+    {
+      "text": "Tai is the best! He’s such a sweetheart and was very helpful in styling my suit. He noticed the first suit I bought was mismatching and didn’t look that great on me. I returned it with his expert suggestion and found one that was perfect. He tailored my full suit and shirt two weeks out and it was the best fitting suit & shirt I’ve ever worn. The absolute best!!!",
+      "author": "Yuchung Chen",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-09-04"
+    },
+    {
+      "text": "I can’t brag enough about this tailor. I haven’t lived in Portland long but only being 5ft tall I always have to get my clothes tailored to fit, especially formal dresses. So I was happy to find him when I needed to have my dress for my sister’s wedding hemmed and my own wedding dress hemmed. He did an amazing job and it took him no time at all!",
+      "author": "Ashley Young",
+      "rating": 4,
+      "source": "google",
+      "date": "2022-12-10"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Tai's Tailor shop storefront with white siding and dark roof, plants decoration outside",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Woman in elegant green dress posing in modern conference room with chairs",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 65,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "fair"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

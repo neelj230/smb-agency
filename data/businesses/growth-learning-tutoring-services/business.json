@@ -1,0 +1,138 @@
+{
+  "name": "Growth Learning Tutoring Services",
+  "slug": "growth-learning-tutoring-services",
+  "category": "tutor",
+  "address": "7551 Haverford Ave",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19151",
+  "phone": "(267) 441-0847",
+  "email": "",
+  "website": "https://rymap.org/business/growth-learning-tutoring-services-r9r05h",
+  "rating": 5,
+  "reviewCount": 60,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "4:00 – 8:00 PM",
+    "Tuesday": "4:00 – 8:00 PM",
+    "Wednesday": "Closed",
+    "Thursday": "Closed",
+    "Friday": "Closed",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "So far, our experience has been wonderful. Ms. Kem is kind and patient, and she truly takes the time to work with the children to make sure they understand the material. I’ve already seen progress in my daughter, and I’m excited to continue seeing her grow. I have recommended and will continue to recommend her services to anyone I know who could benefit from them.",
+      "author": "Damorura Martinez",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-24"
+    },
+    {
+      "text": "So my daughter is five years old and she started tutoring services in September. Over the course of the last few months I must say that I am impressed. Since my daughter began here I’m seeing a huge significant in her confidence with her academics. Mrs.Wright is very hands on and exercises patience with my daughter. I can tell that she really loves what she does and it is reflected in her services. I would highly recommend the place to anyone who is looking for tutoring services.",
+      "author": "Mariah Allen",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-04"
+    },
+    {
+      "text": "I had a great experience with Ms Wright. She was very professional and very pleasant. She made me feel very comfortable and confident in the center over the phone. When doing my daughter’s  evaluation she was very observant and came up with a great plan for my daughter moving forward. And I am confident that with Ms Wright that my daughter with make great progress. My overall experience was great! And the pricing is reasonable!",
+      "author": "Tawanda Mundy",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-24"
+    },
+    {
+      "text": "I highly recommend Growth Learning Tutoring Services. Mrs. Wright was very welcoming, attentive & patient with listening, and then created a plan for my daughter's needs. She is always available for questions & concerns, and gives feedback at the end of each tutoring session. Eventhough it is early in my daughter's tutoring journey, I already see a positive change with her thoughts. I am confident that with Growth Learning Tutoring Services, my daughter will have marked improvement with her skills & grades.",
+      "author": "Alisa Mckelvy",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-14"
+    },
+    {
+      "text": "My nephew has been struggling with reading for a few years and he is in 3rd grade now. I typed in Google tutoring in West Philadelphia and Growth Learning Tutoring Services popped up. I called the number and Ms. Kem pick up and she was very helpful. I signed my nephew up and got him started with her tutoring services. My nephew started in September and it's February now. His grades approved in just a few months. I love her style of teaching with other kids in groups and one on one sessions. I highly recommend her services.",
+      "author": "jenae johnson",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-02-28"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Storefront of Growth Learning Tutoring Services with signage and address 7551",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Young student in blue shirt working at desk in organized classroom environment",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Child engaged in educational activity at learning station with math manipulatives and teaching materials.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Child engaged in educational learning activity with pop-it sensory toy at classroom table",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Smiling student proudly displays completed math worksheets with addition problems in classroom.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Child holding plate of fresh berries and fruit in classroom setting",
+      "category": "food"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "GL Growth Learning tutoring services sign with colorful brain diagram on dark wall",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Growth Learning Tutoring Services storefront sign on green building facade",
+      "category": "exterior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 60,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "console.log('[HTML] Page loaded, about to load React...'); console.log('[HTML] Current URL:', window.location.href); // Check if there are any script loading errors window.addEventListener('error', function(e) { console.error('[HTML] Script loading error:', e); }); // Check for module loading errors window.addEventListener('unhandledrejection', function(e) { console.error('[HTML] Unhandled promise rejection:', e.reason); });"
+}

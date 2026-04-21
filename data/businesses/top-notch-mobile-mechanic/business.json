@@ -1,0 +1,95 @@
+{
+  "name": "Top Notch Mobile Mechanic",
+  "slug": "top-notch-mobile-mechanic",
+  "category": "mobile mechanic",
+  "address": "201 Broadway",
+  "city": "Gloucester City",
+  "state": "NJ",
+  "zip": "08030",
+  "phone": "(267) 334-1729",
+  "email": "",
+  "website": null,
+  "rating": 4.7,
+  "reviewCount": 34,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM – 7:00 PM",
+    "Tuesday": "9:00 AM – 7:00 PM",
+    "Wednesday": "9:00 AM – 7:00 PM",
+    "Thursday": "9:00 AM – 7:00 PM",
+    "Friday": "9:00 AM – 7:00 PM",
+    "Saturday": "9:00 AM – 6:00 PM",
+    "Sunday": "9:00 AM – 5:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I had such a positive experience with this business. As someone who doesn’t know much about cars, I truly appreciated the honesty and clear communication. AJ took the time to test drive my car and explain how the brakes and pads work in a way I could understand. I initially thought I needed new brake pads, but after a thorough inspection, he told me my front brakes were still at about 50% and didn’t need servicing yet.\n\nEven though he came prepared to do the job, he didn’t push unnecessary work just to make a sale. That kind of integrity is rare these days, especially in the auto world. I tipped him for his time and honesty, and I’ll absolutely be coming back when I do need service. Highly recommend this business—especially if, like me, you dread going to the dealership!",
+      "author": "Katrina S",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-04"
+    },
+    {
+      "text": "Huge giant shout out to AJ! He came and installed a new starter for me, took extra time to make sure everything was running consistently before he left. He explained things really well, was super nice and comfortable to talk with. Having had plenty of bad experiences with mechanics in the past, it was really nice to have someone who didn't try and rip me off or take advantage of my lack of knowledge in any way. Best of all he saved me having to deal with towing my car to a shop! Will be recommending Top Notch to everyone I know who has car troubles now!",
+      "author": "Jenna",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-04-30"
+    },
+    {
+      "text": "Reviewed wrong company. I tried to delete. Sorry!\n\nMy alternator and battery went out while in Orlando for vacation. A local friend recommended Top Notch Mobile Repair and they did not disappoint! They were on time, diagnosed the problem, brought the parts and installed them on site in a timely manner. AND the price was reasonable. I highly recommend!!!\n\nUPDATE:\nMade it home to Washington DC! The very next day when I went out in the morning to start my car the battery was completely dead. I towed my vehicle to my regular mechanic to figure out what drained the battery and was told the new installed battery was way undersized for my vehicle.\n\nThis is completely unacceptable. The install of an undersized battery makes the price unreasonable and puts their integrity and knowledge of auto-mechanics in question.\n\nMy recommendation is that if you must use them, I didn't have too many choices, purchase your own parts and have them install them.\n\nAlso, I asked for a receipt for the parts purchased, there was no response. Be careful with this company!",
+      "author": "H. Lee Joyner",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-01-03"
+    },
+    {
+      "text": "An absolute pleasure working with them. They came out, did what needed to be done, and stuck around to make sure everything was on the up and up before they left. Price was very affordable. 10/10, would use again",
+      "author": "Stephen Mancini",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-04-30"
+    },
+    {
+      "text": "Called twice in a week & only received a text back even though I left a phone message. When I text my issue of a steering wheel leak, he said he doesn’t work on RV engines. It’s a 6.8L V10 Ford truck engine, so should not matter. When I told him that, no response. Obviously doesn’t want or need my business.",
+      "author": "Michael Neilio",
+      "rating": 1,
+      "source": "google",
+      "date": "2025-08-19"
+    }
+  ],
+  "team": [],
+  "photos": [],
+  "stats": [
+    {
+      "value": 34,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.7,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "poor"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

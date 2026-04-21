@@ -249,10 +249,6 @@
       "efficient",
       "warm"
     ],
-    "named_staff": [
-      "Rodney",
-      "Ms. Chris",
-      "Ms. Chris's daughter (unnamed)"
-    ]
+    "named_staff": ["Rodney", "Ms. Chris", "Ms. Chris's daughter (unnamed)"]
   }
 }

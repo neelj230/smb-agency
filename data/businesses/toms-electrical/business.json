@@ -1,0 +1,175 @@
+{
+  "name": "Tom's Electrical",
+  "slug": "toms-electrical",
+  "category": "electrician",
+  "address": "24076 SE Stark St #224",
+  "city": "Gresham",
+  "state": "OR",
+  "zip": "97030",
+  "phone": "(503) 739-9848",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 8,
+  "tagline": "Wired Right. Priced Fair. Every Time.",
+  "brandNarrative": "Tom's Electrical has built something rare in the trades: a reputation so consistent that customers come back again and again, not just once. Reviewers like Nidhi Bansal and Joseph G. Rafferty both note they've used this team 'multiple times,' and every time the result is the same — professional, efficient, and priced in a way that actually respects the customer. That kind of loyalty doesn't come from a flashy website or a big ad budget. It comes from showing up the next day when you say you will, fixing the problem right, and then calling afterward to make sure everything is good. That follow-up call — mentioned specifically by J W — is the kind of touch most contractors don't bother with. Tom's Electrical does.\n\nBeyond the bread-and-butter electrical work, Tom's Electrical carries a surprising depth of expertise, including solar energy systems. One reviewer, Scherer Aden, calls the lead professional 'the best solar professional in the state,' and crucially notes he 'is not a salesman' — he just knows his craft and genuinely helps people make the right decision. That no-pressure, knowledge-first approach runs through every review: professionalism over pitch, competence over salesmanship, results over promises.\n\nOperating seven days a week from 7 AM to 10 PM across the Gresham, OR area, Tom's Electrical fills a real gap for homeowners who can't always get electrical help on a rigid weekday schedule. The team's quick response times, next-day availability, and after-job check-ins aren't just perks — they're the standard operating procedure. Every review is five stars. Not four, not four-and-a-half. Five. That's not an accident.",
+  "ownerStory": "The name on the door isn't just a brand — it reflects a hands-on, personally accountable way of doing business that runs through everything Tom's Electrical does. Customers describe a team that communicates like professionals, works like craftsmen, and treats every home like it matters. One reviewer put it plainly: the lead on their solar project 'knows his stuff and can help you out' — not in a slick, upsell-everything way, but in a genuine, sit-down-and-figure-it-out-together way. That instinct — to educate rather than pressure, to solve rather than oversell — is what defines the culture at Tom's Electrical.\n\nBased out of Gresham, OR, the team has quietly earned a perfect rating across every recorded customer interaction. No marketing gimmicks, no inflated claims — just consistent craftsmanship, honest pricing, and the kind of follow-through that makes customers say, without hesitation, 'I will continue to rely on this electrical service for all my electrical needs in the future.' That's the goal Tom's Electrical sets for itself on every single job.",
+  "hours": {
+    "Monday": "7:00 AM – 10:00 PM",
+    "Tuesday": "7:00 AM – 10:00 PM",
+    "Wednesday": "7:00 AM – 10:00 PM",
+    "Thursday": "7:00 AM – 10:00 PM",
+    "Friday": "7:00 AM – 10:00 PM",
+    "Saturday": "7:00 AM – 10:00 PM",
+    "Sunday": "7:00 AM – 10:00 PM"
+  },
+  "services": [
+    {
+      "name": "Residential Electrical Repairs",
+      "description": "Fast diagnosis and next-day repair of home electrical issues, from faulty wiring to panel problems, with a follow-up call to confirm your satisfaction.",
+      "icon": "wrench"
+    },
+    {
+      "name": "Solar Energy System Installation",
+      "description": "Expert solar panel consultation and installation from a knowledgeable professional who helps you make the right decision without any sales pressure.",
+      "icon": "sun"
+    },
+    {
+      "name": "Electrical Panel Upgrades",
+      "description": "Safe, code-compliant upgrades to your home's electrical panel to handle modern power demands efficiently.",
+      "icon": "zap"
+    },
+    {
+      "name": "Lighting Installation & Upgrades",
+      "description": "Interior and exterior lighting installs, including fixtures, recessed lighting, and energy-efficient LED retrofits.",
+      "icon": "lightbulb"
+    },
+    {
+      "name": "Outlet & Switch Installation",
+      "description": "Installation and replacement of outlets, switches, GFCI receptacles, and USB charging ports throughout your home.",
+      "icon": "plug"
+    },
+    {
+      "name": "Electrical Inspections & Safety Checks",
+      "description": "Thorough whole-home electrical inspections to identify hazards, code violations, and efficiency opportunities before they become costly problems.",
+      "icon": "shield-check"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "I have had the pleasure of working with this electrician team multiple times, and they have always been fantastic. Their professionalism, efficiency, and deep knowledge of their trade have consistently impressed me. Moreover, their pricing is very reasonable. I want to express my gratitude to the team for their hard work and dedication, especially to the individuals who have been a great help on all the projects. I will continue to rely on this electrical service for all my electrical needs in the future. Thank you for your excellent work",
+      "author": "Nidhi Bansal",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-22"
+    },
+    {
+      "text": "We have utilized the services of this electrician company on multiple occasions, and the quality of their work has consistently been terrific. While there have been occasional scheduling challenges, the overall experience with their team, from sales representatives to technicians, has been a pleasure. I would recommend working with them for your electrical needs",
+      "author": "Joseph G. Rafferty",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-06-09"
+    },
+    {
+      "text": "The service provided for the electrical work in my home by this company was excellent. The response time was quick, and they promptly came the following day to complete the necessary tasks. The repairs were done efficiently, demonstrating professionalism throughout the process. If I require any future electrical work, I will certainly reach out to them again.",
+      "author": "Dylan Whitehead",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-11-21"
+    },
+    {
+      "text": "Excellent service. Quick response, came the next day to fix my electrical issue. Prices are the best your going to find. Very friendly. They even called after the job was done to make sure we are satisfied with our service. Definitely will be calling them again for any further repairs. Highly recommended.",
+      "author": "J W",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-07-14"
+    },
+    {
+      "text": "the best solar professional in the state. He is not a salesman. He knows his stuff and can help you out!",
+      "author": "Scherer Aden",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-04-26"
+    }
+  ],
+  "team": [],
+  "photos": [],
+  "stats": [
+    {
+      "value": 5,
+      "suffix": "★",
+      "label": "Perfect Average Rating"
+    },
+    {
+      "value": 8,
+      "suffix": "+",
+      "label": "Verified Customer Reviews"
+    },
+    {
+      "value": 7,
+      "suffix": " Days",
+      "label": "Available Every Day of the Week"
+    },
+    {
+      "value": 15,
+      "suffix": " Hours",
+      "label": "Daily Service Window (7AM–10PM)"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How quickly can Tom's Electrical respond to a service request?",
+      "answer": "Very quickly. Multiple customers have reported that Tom's Electrical came out the very next day after they called. They operate 7 days a week from 7 AM to 10 PM, so scheduling around your life is genuinely possible."
+    },
+    {
+      "question": "Are your prices competitive?",
+      "answer": "Customers consistently say yes. One reviewer said the prices are 'the best you're going to find,' and another praised the team for being 'very reasonable.' Tom's Electrical believes quality electrical work shouldn't require a second mortgage."
+    },
+    {
+      "question": "Do you do follow-up after completing a job?",
+      "answer": "Yes — and this is something customers specifically appreciate. After the job is done, the team calls to make sure you're fully satisfied. It's a small step that most contractors skip, and it's a standard part of how Tom's Electrical does business."
+    },
+    {
+      "question": "Can Tom's Electrical help with solar panel installation?",
+      "answer": "Absolutely. One customer described the team's solar professional as 'the best solar professional in the state.' The approach is consultation-first — no pushy sales tactics, just honest expertise to help you figure out what's right for your home."
+    },
+    {
+      "question": "Do you work on weekends and evenings?",
+      "answer": "Yes. Tom's Electrical is open Monday through Sunday, 7 AM to 10 PM. Whether you discover an electrical issue on a Saturday night or need a quote on a Sunday morning, they're available."
+    },
+    {
+      "question": "Have customers used Tom's Electrical more than once?",
+      "answer": "Many have. Multiple reviewers specifically mention coming back for additional projects and planning to use Tom's Electrical for all future electrical needs. That kind of repeat business speaks louder than any advertisement."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#1B3A5C",
+    "accent": "#F5A623",
+    "note": "Deep navy conveys trust, technical expertise, and the calm reliability customers describe in every review. Amber/gold accent references electrical energy and warmth — the human follow-up call, the friendly team, the no-pressure solar consult. Together they feel professional without being cold, and energetic without being flashy."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Exceptional responsiveness — next-day availability consistently praised by multiple customers",
+      "Honest, transparent pricing that customers describe as the most competitive they found",
+      "Post-job follow-up calls that demonstrate genuine accountability and customer care"
+    ],
+    "common_complaints": [
+      "One reviewer (Joseph G. Rafferty) noted 'occasional scheduling challenges,' though they still rated the experience 5 stars and would recommend the company"
+    ],
+    "suggested_tagline": "No Nonsense. No Markup. Just Good Electrical Work.",
+    "photo_quality": "poor",
+    "personality_keywords": [
+      "Reliable",
+      "Knowledgeable",
+      "No-pressure",
+      "Responsive",
+      "Accountable"
+    ],
+    "named_staff": []
+  },
+  "dataSources": [
+    "google"
+  ]
+}

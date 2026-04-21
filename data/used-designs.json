@@ -1,0 +1,943 @@
+[
+  {
+    "slug": "bellish-nail-lounge",
+    "font": "instrument-serif-inter",
+    "palette": "dark-warm-cream",
+    "heroVariant": "split",
+    "cssRecipes": [
+      "picture-frame",
+      "film-grain",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "number-counter",
+      "dot-pattern-bg",
+      "gradient-color-transitions"
+    ],
+    "category": "nail salon",
+    "timestamp": "2026-04-10T04:23:29.262Z"
+  },
+  {
+    "slug": "boss-plumbing-heating",
+    "font": "libre-baskerville-sourcesans",
+    "palette": "blue-yellow-trust",
+    "heroVariant": "dark-bold",
+    "cssRecipes": [
+      "picture-frame",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "images-sliding-opposite",
+      "number-counter",
+      "scattered-words-animation"
+    ],
+    "category": "plumber",
+    "timestamp": "2026-04-10T04:23:55.238Z"
+  },
+  {
+    "slug": "barbershop-denim",
+    "font": "script-serif-inter",
+    "palette": "virgil-blue-editorial",
+    "heroVariant": "blurred-reveal",
+    "cssRecipes": [
+      "dot-pattern",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "number-counter",
+      "film-grain-overlay",
+      "horizontal-auto-scroll"
+    ],
+    "category": "barber",
+    "timestamp": "2026-04-10T04:25:16.555Z"
+  },
+  {
+    "slug": "the-bakeshop-on-twentieth",
+    "font": "instrument-serif-inter",
+    "palette": "burgundy-warmth",
+    "heroVariant": "split",
+    "cssRecipes": [
+      "film-grain",
+      "picture-frame",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "hover-scale-card",
+      "self-writing-sentence-ambient",
+      "scattered-words-animation"
+    ],
+    "category": "bakery",
+    "timestamp": "2026-04-10T04:26:43.157Z"
+  },
+  {
+    "slug": "no-ka-oi-tiki-tattoo",
+    "font": "bricolage-grotesque-inter",
+    "palette": "rich-green-nature",
+    "heroVariant": "split",
+    "cssRecipes": [
+      "dot-pattern",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "custom-cursor",
+      "gradient-color-transitions",
+      "hover-scale-card"
+    ],
+    "category": "tattoo parlor",
+    "timestamp": "2026-04-10T04:27:10.423Z"
+  },
+  {
+    "slug": "major-league-cuts",
+    "font": "libre-baskerville-sourcesans",
+    "palette": "blue-yellow-trust",
+    "heroVariant": "photo-bg",
+    "cssRecipes": [
+      "dot-pattern",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "film-grain-overlay",
+      "gradient-color-transitions",
+      "dot-pattern-bg"
+    ],
+    "category": "barber",
+    "timestamp": "2026-04-10T04:27:39.778Z"
+  },
+  {
+    "slug": "queen-nails-spa",
+    "font": "playfair-inter",
+    "palette": "najmai-purple-lavender",
+    "heroVariant": "photo-bg",
+    "cssRecipes": [
+      "picture-frame",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "film-grain-overlay",
+      "images-sliding-opposite",
+      "horizontal-auto-scroll"
+    ],
+    "category": "nail salon",
+    "timestamp": "2026-04-10T04:36:37.891Z"
+  },
+  {
+    "slug": "daves-artistic-tattoo",
+    "font": "hedvig-letters-inter",
+    "palette": "xtract-purple-tech",
+    "heroVariant": "photo-bg",
+    "cssRecipes": [
+      "dot-pattern",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "self-writing-sentence-ambient",
+      "hover-scale-card",
+      "images-sliding-opposite"
+    ],
+    "category": "tattoo parlor",
+    "timestamp": "2026-04-10T04:39:07.382Z"
+  },
+  {
+    "slug": "oregon-coast-childcare",
+    "font": "syne-dmsans",
+    "palette": "rich-green-nature",
+    "heroVariant": "split",
+    "cssRecipes": [
+      "mix-blend-hover",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "film-grain-overlay",
+      "number-counter",
+      "marquee-ticker"
+    ],
+    "category": "daycare",
+    "timestamp": "2026-04-10T04:41:42.902Z"
+  },
+  {
+    "slug": "rothe-florists-flower-delivery",
+    "font": "playfair-inter",
+    "palette": "dark-green-professional",
+    "heroVariant": "blurred-reveal",
+    "cssRecipes": [
+      "film-grain",
+      "picture-frame",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "scattered-words-animation",
+      "gradient-color-transitions",
+      "marquee-ticker"
+    ],
+    "category": "florist",
+    "timestamp": "2026-04-10T04:41:46.958Z"
+  },
+  {
+    "slug": "laugh-learn-childcare",
+    "font": "libre-baskerville-sourcesans",
+    "palette": "virgil-blue-editorial",
+    "heroVariant": "centered",
+    "cssRecipes": [
+      "dot-pattern",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "gradient-color-transitions",
+      "scattered-words-animation",
+      "film-grain-overlay"
+    ],
+    "category": "daycare",
+    "timestamp": "2026-04-10T04:43:21.477Z"
+  },
+  {
+    "slug": "a-precious-pet",
+    "font": "dmsans-inter",
+    "palette": "rich-green-nature",
+    "heroVariant": "dark-bold",
+    "cssRecipes": [
+      "picture-frame",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "self-writing-sentence-ambient",
+      "gradient-color-transitions",
+      "custom-cursor"
+    ],
+    "category": "pet groomer",
+    "timestamp": "2026-04-10T04:44:51.590Z"
+  },
+  {
+    "slug": "kens-automotive",
+    "font": "playfair-inter",
+    "palette": "light-blue-sky",
+    "heroVariant": "blurred-reveal",
+    "cssRecipes": [
+      "picture-frame",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "marquee-ticker",
+      "images-sliding-opposite",
+      "horizontal-auto-scroll"
+    ],
+    "category": "auto repair",
+    "timestamp": "2026-04-10T04:45:23.578Z"
+  },
+  {
+    "slug": "willpower-electric-llc",
+    "font": "script-serif-inter",
+    "palette": "dark-green-professional",
+    "heroVariant": "split",
+    "cssRecipes": [
+      "dot-pattern",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "dot-pattern-bg",
+      "marquee-ticker",
+      "images-sliding-opposite"
+    ],
+    "category": "electrician",
+    "timestamp": "2026-04-10T04:50:06.742Z"
+  },
+  {
+    "slug": "cozy-cottage-child-care",
+    "font": "playfair-inter",
+    "palette": "dark-green-professional",
+    "heroVariant": "photo-bg",
+    "cssRecipes": [
+      "dot-pattern",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "number-counter",
+      "self-writing-sentence-ambient",
+      "hover-scale-card"
+    ],
+    "category": "daycare",
+    "timestamp": "2026-04-10T04:52:04.352Z"
+  },
+  {
+    "slug": "studio-49-photography",
+    "font": "figtree-inter",
+    "palette": "dark-green-professional",
+    "heroVariant": "split",
+    "cssRecipes": [
+      "dot-pattern",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "film-grain-overlay",
+      "horizontal-auto-scroll",
+      "custom-cursor"
+    ],
+    "category": "photography studio",
+    "timestamp": "2026-04-10T04:53:44.526Z"
+  },
+  {
+    "slug": "ertell-electric-llc",
+    "font": "libre-baskerville-sourcesans",
+    "palette": "virgil-blue-editorial",
+    "heroVariant": "dark-bold",
+    "cssRecipes": [
+      "dot-pattern",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "dot-pattern-bg",
+      "custom-cursor",
+      "horizontal-auto-scroll"
+    ],
+    "category": "electrician",
+    "timestamp": "2026-04-10T04:55:06.241Z"
+  },
+  {
+    "slug": "jazzys-doggy-spaw",
+    "font": "figtree-inter",
+    "palette": "light-blue-sky",
+    "heroVariant": "blurred-reveal",
+    "cssRecipes": [
+      "dot-pattern",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "number-counter",
+      "custom-cursor",
+      "hover-scale-card"
+    ],
+    "category": "pet groomer",
+    "timestamp": "2026-04-10T04:56:44.014Z"
+  },
+  {
+    "slug": "rich-john-c",
+    "font": "hedvig-letters-inter",
+    "palette": "dark-green-professional",
+    "heroVariant": "dark-bold",
+    "cssRecipes": [
+      "dot-pattern",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "images-sliding-opposite",
+      "marquee-ticker",
+      "self-writing-sentence-ambient"
+    ],
+    "category": "law firm",
+    "timestamp": "2026-04-10T04:57:49.873Z"
+  },
+  {
+    "slug": "precious-angels-llc",
+    "font": "hedvig-letters-inter",
+    "palette": "virgil-blue-editorial",
+    "heroVariant": "photo-bg",
+    "cssRecipes": [
+      "mix-blend-hover",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "dot-pattern-bg",
+      "gradient-color-transitions",
+      "horizontal-auto-scroll"
+    ],
+    "category": "daycare",
+    "timestamp": "2026-04-10T04:59:41.978Z"
+  },
+  {
+    "slug": "waynes-tax-services-inc",
+    "font": "libre-baskerville-sourcesans",
+    "palette": "light-blue-sky",
+    "heroVariant": "dark-bold",
+    "cssRecipes": [
+      "dot-pattern",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "horizontal-auto-scroll",
+      "gradient-color-transitions",
+      "scattered-words-animation"
+    ],
+    "category": "accounting firm",
+    "timestamp": "2026-04-10T05:00:57.365Z"
+  },
+  {
+    "slug": "liebert-liebert-cpa",
+    "font": "carattere-redhatmono-inter",
+    "palette": "dark-green-professional",
+    "heroVariant": "blurred-reveal",
+    "cssRecipes": [
+      "dot-pattern",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "dot-pattern-bg",
+      "horizontal-auto-scroll",
+      "images-sliding-opposite"
+    ],
+    "category": "accounting firm",
+    "timestamp": "2026-04-10T05:02:25.035Z"
+  },
+  {
+    "slug": "clark-s-willes-attorney-at-law",
+    "font": "script-serif-inter",
+    "palette": "virgil-blue-editorial",
+    "heroVariant": "centered",
+    "cssRecipes": [
+      "mix-blend-hover",
+      "dot-pattern",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "marquee-ticker"
+    ],
+    "category": "law firm",
+    "timestamp": "2026-04-10T05:04:22.080Z"
+  },
+  {
+    "slug": "early-learning-center",
+    "font": "carattere-redhatmono-inter",
+    "palette": "virgil-blue-editorial",
+    "heroVariant": "dark-bold",
+    "cssRecipes": [
+      "mix-blend-hover",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "scattered-words-animation",
+      "dot-pattern-bg",
+      "marquee-ticker"
+    ],
+    "category": "daycare",
+    "timestamp": "2026-04-10T05:05:39.283Z"
+  },
+  {
+    "slug": "toms-electrical",
+    "font": "bevietnam-inter",
+    "palette": "dark-green-professional",
+    "heroVariant": "dark-bold",
+    "cssRecipes": [
+      "picture-frame",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "film-grain-overlay",
+      "scattered-words-animation",
+      "number-counter"
+    ],
+    "category": "electrician",
+    "timestamp": "2026-04-10T05:06:48.313Z"
+  },
+  {
+    "slug": "amandas-mvp-grooming-llc",
+    "font": "carattere-redhatmono-inter",
+    "palette": "light-blue-sky",
+    "heroVariant": "photo-bg",
+    "cssRecipes": [
+      "picture-frame",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "marquee-ticker",
+      "scattered-words-animation",
+      "horizontal-auto-scroll"
+    ],
+    "category": "pet groomer",
+    "timestamp": "2026-04-10T05:08:27.067Z"
+  },
+  {
+    "slug": "hillsboro-electric-llc",
+    "font": "bevietnam-inter",
+    "palette": "dark-green-professional",
+    "heroVariant": "centered",
+    "cssRecipes": [
+      "dot-pattern",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "custom-cursor",
+      "dot-pattern-bg",
+      "images-sliding-opposite"
+    ],
+    "category": "electrician",
+    "timestamp": "2026-04-10T05:10:10.053Z"
+  },
+  {
+    "slug": "pattys-little-minions-childcare-llc",
+    "font": "bricolage-grotesque-inter",
+    "palette": "white-hot-orange",
+    "heroVariant": "blurred-reveal",
+    "cssRecipes": [
+      "film-grain",
+      "mix-blend-hover",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "film-grain-overlay",
+      "scattered-words-animation",
+      "marquee-ticker"
+    ],
+    "category": "daycare",
+    "timestamp": "2026-04-10T05:11:44.896Z"
+  },
+  {
+    "slug": "real-learning-llc",
+    "font": "script-serif-inter",
+    "palette": "light-blue-sky",
+    "heroVariant": "blurred-reveal",
+    "cssRecipes": [
+      "mix-blend-hover",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "marquee-ticker",
+      "gradient-color-transitions",
+      "hover-scale-card"
+    ],
+    "category": "tutoring service",
+    "timestamp": "2026-04-10T05:13:03.010Z"
+  },
+  {
+    "slug": "albany-heating-air-conditioning",
+    "font": "hedvig-letters-inter",
+    "palette": "dark-green-professional",
+    "heroVariant": "dark-bold",
+    "cssRecipes": [
+      "picture-frame",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "images-sliding-opposite",
+      "film-grain-overlay",
+      "horizontal-auto-scroll"
+    ],
+    "category": "hvac contractor",
+    "timestamp": "2026-04-10T05:14:19.796Z"
+  },
+  {
+    "slug": "david-a-corden",
+    "font": "carattere-redhatmono-inter",
+    "palette": "virgil-blue-editorial",
+    "heroVariant": "blurred-reveal",
+    "cssRecipes": [
+      "picture-frame",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "film-grain-overlay",
+      "self-writing-sentence-ambient",
+      "images-sliding-opposite"
+    ],
+    "category": "law firm",
+    "timestamp": "2026-04-10T05:15:40.944Z"
+  },
+  {
+    "slug": "douglas-m-bomarito-law-firm",
+    "font": "playfair-inter",
+    "palette": "light-blue-sky",
+    "heroVariant": "centered",
+    "cssRecipes": [
+      "picture-frame",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "marquee-ticker",
+      "gradient-color-transitions",
+      "hover-scale-card"
+    ],
+    "category": "law firm",
+    "timestamp": "2026-04-10T05:16:54.063Z"
+  },
+  {
+    "slug": "little-village-learning-center",
+    "font": "carattere-redhatmono-inter",
+    "palette": "light-blue-sky",
+    "heroVariant": "centered",
+    "cssRecipes": [
+      "dot-pattern",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "number-counter",
+      "custom-cursor",
+      "images-sliding-opposite"
+    ],
+    "category": "daycare",
+    "timestamp": "2026-04-10T05:18:01.638Z"
+  },
+  {
+    "slug": "current-electric",
+    "font": "bevietnam-inter",
+    "palette": "virgil-blue-editorial",
+    "heroVariant": "dark-bold",
+    "cssRecipes": [
+      "picture-frame",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "custom-cursor",
+      "images-sliding-opposite",
+      "scattered-words-animation"
+    ],
+    "category": "electrician",
+    "timestamp": "2026-04-10T05:19:07.469Z"
+  },
+  {
+    "slug": "rockwellfoto",
+    "font": "bevietnam-inter",
+    "palette": "light-blue-sky",
+    "heroVariant": "dark-bold",
+    "cssRecipes": [
+      "picture-frame",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "hover-scale-card",
+      "dot-pattern-bg",
+      "film-grain-overlay"
+    ],
+    "category": "photography studio",
+    "timestamp": "2026-04-10T05:20:44.020Z"
+  },
+  {
+    "slug": "dreamers-daycare",
+    "font": "playfair-inter",
+    "palette": "virgil-blue-editorial",
+    "heroVariant": "dark-bold",
+    "cssRecipes": [
+      "dot-pattern",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "scattered-words-animation",
+      "hover-scale-card",
+      "gradient-color-transitions"
+    ],
+    "category": "daycare",
+    "timestamp": "2026-04-10T05:22:26.704Z"
+  },
+  {
+    "slug": "grace-childcare-medford-oregon",
+    "font": "bevietnam-inter",
+    "palette": "blue-yellow-trust",
+    "heroVariant": "photo-bg",
+    "cssRecipes": [
+      "picture-frame",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "number-counter",
+      "dot-pattern-bg",
+      "scattered-words-animation"
+    ],
+    "category": "daycare",
+    "timestamp": "2026-04-10T05:23:51.114Z"
+  },
+  {
+    "slug": "village-childcare-llc",
+    "font": "instrument-serif-inter",
+    "palette": "copper-cream-warm",
+    "heroVariant": "photo-bg",
+    "cssRecipes": [
+      "film-grain",
+      "picture-frame",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "marquee-ticker",
+      "horizontal-auto-scroll",
+      "self-writing-sentence-ambient"
+    ],
+    "category": "daycare",
+    "timestamp": "2026-04-10T05:25:33.079Z"
+  },
+  {
+    "slug": "powell-valley-preschool-and-child-care",
+    "font": "carattere-redhatmono-inter",
+    "palette": "light-blue-sky",
+    "heroVariant": "split",
+    "cssRecipes": [
+      "film-grain",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "hover-scale-card",
+      "number-counter",
+      "dot-pattern-bg"
+    ],
+    "category": "daycare",
+    "timestamp": "2026-04-10T05:26:51.669Z"
+  },
+  {
+    "slug": "b-easy-grooming",
+    "font": "bricolage-grotesque-inter",
+    "palette": "copper-cream-warm",
+    "heroVariant": "split",
+    "cssRecipes": [
+      "film-grain",
+      "picture-frame",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "film-grain-overlay",
+      "scattered-words-animation",
+      "hover-scale-card"
+    ],
+    "category": "pet groomer",
+    "timestamp": "2026-04-10T05:28:16.809Z"
+  },
+  {
+    "slug": "the-highway-is-green-photography",
+    "font": "script-serif-inter",
+    "palette": "dark-green-professional",
+    "heroVariant": "blurred-reveal",
+    "cssRecipes": [
+      "picture-frame",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "number-counter",
+      "self-writing-sentence-ambient",
+      "gradient-color-transitions"
+    ],
+    "category": "photography studio",
+    "timestamp": "2026-04-10T05:30:15.083Z"
+  },
+  {
+    "slug": "bernt-jacobsen-attorney",
+    "font": "figtree-inter",
+    "palette": "virgil-blue-editorial",
+    "heroVariant": "dark-bold",
+    "cssRecipes": [
+      "picture-frame",
+      "dot-pattern",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "horizontal-auto-scroll"
+    ],
+    "category": "law firm",
+    "timestamp": "2026-04-10T05:31:35.195Z"
+  },
+  {
+    "slug": "henderson-electric",
+    "font": "figtree-inter",
+    "palette": "virgil-blue-editorial",
+    "heroVariant": "blurred-reveal",
+    "cssRecipes": [
+      "picture-frame",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "marquee-ticker",
+      "scattered-words-animation",
+      "film-grain-overlay"
+    ],
+    "category": "electrician",
+    "timestamp": "2026-04-10T05:32:49.132Z"
+  },
+  {
+    "slug": "linda-lamprecht-cpa-pc",
+    "font": "playfair-inter",
+    "palette": "light-blue-sky",
+    "heroVariant": "centered",
+    "cssRecipes": [
+      "picture-frame",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "horizontal-auto-scroll",
+      "scattered-words-animation",
+      "images-sliding-opposite"
+    ],
+    "category": "accounting firm",
+    "timestamp": "2026-04-10T05:34:15.459Z"
+  },
+  {
+    "slug": "happy-trails-childcare",
+    "font": "ranchers-caveat",
+    "palette": "dark-green-professional",
+    "heroVariant": "split",
+    "cssRecipes": [
+      "mix-blend-hover",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "marquee-ticker",
+      "horizontal-auto-scroll",
+      "film-grain-overlay"
+    ],
+    "category": "daycare",
+    "timestamp": "2026-04-10T05:35:42.337Z"
+  },
+  {
+    "slug": "jt-electric",
+    "font": "fraunces-inter-jetbrainsmono",
+    "palette": "editorial-cream-amber-ink",
+    "heroVariant": "editorial-typographic",
+    "cssRecipes": [
+      "film-grain",
+      "picture-frame",
+      "service-row-editorial",
+      "bolt-divider"
+    ],
+    "animationComponents": [
+      "fade-up-on-mount",
+      "animated-counter",
+      "marquee-ticker-bold",
+      "underline-scale-reveal"
+    ],
+    "category": "electrician",
+    "timestamp": "2026-04-14T00:00:00.000Z"
+  },
+  {
+    "slug": "small-steps-child-care-center",
+    "font": "bevietnam-inter",
+    "palette": "groovory-green-energy",
+    "heroVariant": "dark-bold",
+    "cssRecipes": [
+      "film-grain",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "gradient-color-transitions",
+      "scattered-words-animation",
+      "horizontal-auto-scroll"
+    ],
+    "category": "daycare",
+    "timestamp": "2026-04-10T05:36:54.874Z"
+  },
+  {
+    "slug": "claws-and-paws-pet-resort",
+    "font": "fraunces-inter-jetbrainsmono",
+    "palette": "pacific-northwest-warm",
+    "heroVariant": "blurred-reveal",
+    "cssRecipes": [
+      "film-grain",
+      "picture-frame",
+      "service-row-editorial",
+      "editorial-rule",
+      "dark-section"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "blurred-reveal",
+      "zoom-out-reveal",
+      "marquee-ticker-outline",
+      "underline-scale-reveal"
+    ],
+    "category": "daycare",
+    "timestamp": "2026-04-14T22:00:05.738Z"
+  },
+  {
+    "slug": "stevies-mobile-mechanic",
+    "font": "spacegrotesk-inter",
+    "palette": "industrial-orange-cream",
+    "heroVariant": "dark-split-photo",
+    "cssRecipes": [
+      "film-grain",
+      "mono-eyebrow",
+      "industrial-stat-badge"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "number-counter",
+      "marquee-ticker",
+      "parallax-image"
+    ],
+    "category": "mobile mechanic",
+    "timestamp": "2026-04-15T21:49:39.189Z"
+  }
+]

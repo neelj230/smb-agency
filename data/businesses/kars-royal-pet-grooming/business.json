@@ -1,0 +1,146 @@
+{
+  "name": "Kar’s Royal Pet Grooming",
+  "slug": "kars-royal-pet-grooming",
+  "category": "pet groomer",
+  "address": "1169 Hellerman St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19111",
+  "phone": "(215) 333-1209",
+  "email": "",
+  "website": null,
+  "rating": 4.5,
+  "reviewCount": 126,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "10:00 AM – 5:00 PM",
+    "Tuesday": "10:00 AM – 5:00 PM",
+    "Wednesday": "10:00 AM – 5:00 PM",
+    "Thursday": "10:00 AM – 5:00 PM",
+    "Friday": "10:00 AM – 5:00 PM",
+    "Saturday": "10:00 AM – 5:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Just wanted to say thank you to Caroline for grooming my two Frenchies she did an awesome job and my dogs were extremely pleased and happy. Look forward to continue doing business with them and would highly recommend prices were within reason and the job was exceptional. I think my fur babies found a new groomer",
+      "author": "nelson medina",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-03-31"
+    },
+    {
+      "text": "I recently had the pleasure of taking my dogs, Luna and Paulita, to Kar's for grooming, and I cannot recommend them highly enough! After three different places where Luna was sent back due to her behavior, we finally found a place that truly understands how to handle her.\n\nThe team at Kar's was incredibly patient and skilled, managing to groom Luna beautifully. Their expertise and care made a world of difference. Both Luna and Paulita looked stunning after their grooming session.\n\nThe excellent service we received was truly commendable, and I would wholeheartedly recommend Kar's to anyone looking for a top-notch grooming experience. They are 100% recommended!",
+      "author": "Emiko Asa",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-12-19"
+    },
+    {
+      "text": "My dog is very nervous and struggles with anxiety, so leaving her somewhere unfamiliar was really hard for me. When I picked her up, seeing how happy she was meant everything. She truly loves going there, and knowing that gives me so much comfort and peace of mind every time I drop her off.",
+      "author": "Karla Cunliffe",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-04"
+    },
+    {
+      "text": "My pup Astro loved his haircut! The best haircut my dog has gotten so far. The price was very reasonable. Appointment and payment are managed via a website which was very convenient. The only feedback I would give is to add a doorbell to avoid us having to call when we arrive. They sell wireless doorbells on Amazon for $30, that way you can place the button anywhere.",
+      "author": "Mystery Guest",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-03-05"
+    },
+    {
+      "text": "Bad grooming my mom’s dog man this lady had the audacity to hang up on my mother and my wife. She didn’t come up with no solutions or did anything to fix her problem\n\nNegron family will not be stepping into this lady business again",
+      "author": "Negron family",
+      "rating": 1,
+      "source": "google",
+      "date": "2026-02-01"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "White fluffy small dog portrait printed on white-framed photo card with name",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Kar’s Royal Pet Grooming photo 2",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Kar’s Royal Pet Grooming photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Happy Corgi wearing pink bow and collar in car seat",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Kar’s Royal Pet Grooming photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Small white dog wearing red bow tie and patterned collar on wooden floor",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Kar’s Royal Pet Grooming photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "White poodle wearing green holiday bandana on bed with blanket",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Small cream-colored dog wearing bow tie and collar sits on wooden floor indoors",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Small cream-colored dog with dark eyes lying on person's lap indoors",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 126,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

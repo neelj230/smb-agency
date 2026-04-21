@@ -1,0 +1,138 @@
+{
+  "name": "Mindy's Hair Affair",
+  "slug": "mindys-hair-affair",
+  "category": "barber",
+  "address": "1906 SW 3rd St",
+  "city": "Corvallis",
+  "state": "OR",
+  "zip": "97333",
+  "phone": "(541) 753-0125",
+  "email": "",
+  "website": null,
+  "rating": 4.8,
+  "reviewCount": 145,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {},
+  "services": [],
+  "reviews": [
+    {
+      "text": "Mindy's has a great atmosphere! It was fun and enjoyable being around the ladies as I got my hair done. Sara did amazing work on my hair and I had an all around fantastic time!",
+      "author": "Chelsea Holdaway",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-17"
+    },
+    {
+      "text": "Mindy has the talent to bring your ideas to life!!! I didn't really have much of something to go off of with hair color, but when sharing some colors I like, she exceeded what i thought was possible!! I had this vision that I wasn't able to pinpoint and told her to have at it and I'll trust the process..just WOW, it was almost like she read my mind! I'm way beyond happy and satisfied how my hair turned out!! ☺️ looking for someone who really loves their job, has the knowledge and trust with your hair, Mindy is your gal!! Thanks Mindy!! 🥰",
+      "author": "Storm",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-02-08"
+    },
+    {
+      "text": "Shoutout to Mindy's Hair Affair for having the most welcoming, inclusive, and authentic stylists in Corvallis! My best friend and hair stylist, Sara, is one of the sweetest and most genuine people I've ever met. She always makes me feel comfortable, accepted and well cared for while sitting in her chair. I'm so thankful that I not only found an incredibly talented stylist but a best friend as well. The stylists at Mindy's truly value forming connections with their clients and always make you feel right at home when you're here. Thank you Mindy's!",
+      "author": "Lauren Brougher",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-07-16"
+    },
+    {
+      "text": "She is super friendly and easy to talk to, and does a super fast amazing job! If you want a nice, high quality, good priced cut, this is your place.",
+      "author": "Adam MacDougall",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-07-16"
+    },
+    {
+      "text": "Messed up my bangs bad but didn’t notice till I got home completely uneven and some pieces are so short I can’t even cover them up all I went in for was a trim for my bangs the time before this was great this time it looks so bad I won’t be going back again I really did like the staff and I am not one that usually leaves reviews but this was just wow I feel like I went to supper cuts",
+      "author": "Kimber Anne Shannon",
+      "rating": 1,
+      "source": "google",
+      "date": "2024-12-05"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Professional hairstylist displaying combs and scissors, tools of the trade.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Vibrant pink synthetic wig with layered waves displayed on mannequin head",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Hair salon interior with client showing long blonde hair styled straight.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Blue bob haircut wig displayed on mannequin head in salon setting",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Woman with highlighted wavy hair in salon chair wearing face mask",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Hair stylist showcasing vibrant purple and blue colored hair highlights in salon setting",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Hair salon interior with colorful blue and purple dyed hair styling on display",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Woman with long wavy brown hair sitting in salon chair from behind",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Two smiling women posing together in a salon or beauty workspace",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Long wavy hair with warm copper and golden highlights styled in salon chair",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 145,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.8,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "name": "Man of the house 215",
+  "slug": "man-of-the-house-215",
+  "category": "handyman",
+  "address": "5850 N 13th St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19141",
+  "phone": "(267) 292-8435",
+  "email": "",
+  "website": null,
+  "rating": 4.9,
+  "reviewCount": 76,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "6:00 AM – 11:00 PM",
+    "Tuesday": "6:00 AM – 11:00 PM",
+    "Wednesday": "6:00 AM – 11:00 PM",
+    "Thursday": "6:00 AM – 11:00 PM",
+    "Friday": "6:00 AM – 11:00 PM",
+    "Saturday": "6:00 AM – 11:00 PM",
+    "Sunday": "6:00 AM – 11:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "LOOK AT THE PHOTOS. If you have eyes then you’ll see a million different reasons to hire Justin. Since meeting Justin just a few weeks ago, he has been my go-to. He mounts everything with ease, assembles anything in his sleep and he makes sure you’re content before he leaves. Moreover, he finds other things he can do if he still has a little time left. He’s truly been the best part of my remodeling process. He makes all my projects a million times easier!  You won’t be disappointed!",
+      "author": "Omoye Usen",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-07-13"
+    },
+    {
+      "text": "Justin is absolutely fabulous! He is incredibly professional, responsive, and helpful. Justin assisted me in hanging quite a few pieces of art work on my walls and mounted a clothing rod. He was knowledgeable, precise, and ensured I was completely happy before leaving the job. I cannot recommend Justin enough!",
+      "author": "Amy Paret",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-07-21"
+    },
+    {
+      "text": "Justin did an excellent job installing a new ceiling light fixture.  He was courteous, cleaned up any mess & took the old fixture outside for trash.  I will definitely use him again & have already recommended him to family.",
+      "author": "Desiree Ellis",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-12-02"
+    },
+    {
+      "text": "Justin is wonderful and takes professional to an whole another level! When I say he knocked this sectional couch out in the snap of an finger it was amazing & he even cleaned up as he worked! Will continue to his services from here on out!",
+      "author": "Michael Dabney",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-07-14"
+    },
+    {
+      "text": "Called early in the morning and set up an appointment for this afternoon at 2pm. The guy never even showed up. I called and left a voice message. It’s all good. I highly dislike when people waste people’s time especially if you’re a business. Must be professional always even if you’re not gonna show up you have to let the customer know ahead of time.  People have things to do.",
+      "author": "Tanisha Jean",
+      "rating": 1,
+      "source": "google",
+      "date": "2025-11-12"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Man of the house 215 photo 1",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Man of the house 215 photo 2",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Smart TV mounted on wall displaying setup options above wooden media console",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Home entertainment setup with white TV stand displaying soccer match on screen",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Living room with wall-mounted TV, white dresser, and pink flowers in vase",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Modern interior room with wall-mounted flat screen TV and floor lamps",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Modern office interior with large windows overlooking urban cityscape and construction site",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Man of the house 215 photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Beige sectional sofa with ottoman in a small room with window and shelving",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Modern living room with large flat-screen TV, wooden furniture, and potted plants",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 76,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

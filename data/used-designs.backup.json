@@ -1,0 +1,211 @@
+[
+  {
+    "slug": "oteris-italian-bakery",
+    "font": "cormorant-garamond-inter",
+    "palette": "ferry-cream-retro",
+    "heroVariant": "parallax-cinematic",
+    "category": "bakery",
+    "timestamp": "2026-04-09T23:59:59.999Z"
+  },
+  {
+    "slug": "south-street-barbers",
+    "font": "instrument-serif-dmsans",
+    "palette": "cream-forest-warm",
+    "heroVariant": "parallax-cinematic",
+    "category": "barber",
+    "timestamp": "2026-04-09T23:59:59.000Z"
+  },
+  {
+    "slug": "bellish-nail-lounge",
+    "font": "playfair-inter",
+    "palette": "dark-warm-cream",
+    "heroVariant": "dark-bold",
+    "cssRecipes": [
+      "picture-frame",
+      "film-grain",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "number-counter",
+      "dot-pattern-bg",
+      "gradient-color-transitions"
+    ],
+    "category": "nail salon",
+    "timestamp": "2026-04-10T01:44:37.624Z"
+  },
+  {
+    "slug": "daves-artistic-tattoo",
+    "font": "hedvig-letters-inter",
+    "palette": "xtract-purple-tech",
+    "heroVariant": "centered",
+    "cssRecipes": [
+      "dot-pattern",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "self-writing-sentence-ambient",
+      "hover-scale-card",
+      "images-sliding-opposite"
+    ],
+    "category": "tattoo parlor",
+    "timestamp": "2026-04-10T01:46:35.696Z"
+  },
+  {
+    "slug": "boss-plumbing-heating",
+    "font": "bevietnam-inter",
+    "palette": "blue-yellow-trust",
+    "heroVariant": "split",
+    "cssRecipes": [
+      "picture-frame",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "images-sliding-opposite",
+      "number-counter",
+      "scattered-words-animation"
+    ],
+    "category": "plumber",
+    "timestamp": "2026-04-10T01:48:53.905Z"
+  },
+  {
+    "slug": "kens-automotive",
+    "font": "playfair-inter",
+    "palette": "light-blue-sky",
+    "heroVariant": "blurred-reveal",
+    "cssRecipes": [
+      "picture-frame",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "marquee-ticker",
+      "images-sliding-opposite",
+      "horizontal-auto-scroll"
+    ],
+    "category": "auto repair",
+    "timestamp": "2026-04-10T01:51:10.567Z"
+  },
+  {
+    "slug": "barbershop-denim",
+    "font": "script-serif-inter",
+    "palette": "virgil-blue-editorial",
+    "heroVariant": "photo-bg",
+    "cssRecipes": [
+      "dot-pattern",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "number-counter",
+      "film-grain-overlay",
+      "horizontal-auto-scroll"
+    ],
+    "category": "barber",
+    "timestamp": "2026-04-10T01:53:32.495Z"
+  },
+  {
+    "slug": "rothe-florists-flower-delivery",
+    "font": "playfair-inter",
+    "palette": "dark-green-professional",
+    "heroVariant": "blurred-reveal",
+    "cssRecipes": [
+      "film-grain",
+      "picture-frame",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "scattered-words-animation",
+      "gradient-color-transitions",
+      "marquee-ticker"
+    ],
+    "category": "florist",
+    "timestamp": "2026-04-10T01:58:04.830Z"
+  },
+  {
+    "slug": "no-ka-oi-tiki-tattoo",
+    "font": "script-serif-inter",
+    "palette": "rich-green-nature",
+    "heroVariant": "split",
+    "cssRecipes": [
+      "dot-pattern",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "custom-cursor",
+      "gradient-color-transitions",
+      "hover-scale-card"
+    ],
+    "category": "tattoo parlor",
+    "timestamp": "2026-04-10T02:00:16.053Z"
+  },
+  {
+    "slug": "major-league-cuts",
+    "font": "libre-baskerville-sourcesans",
+    "palette": "blue-yellow-trust",
+    "heroVariant": "centered",
+    "cssRecipes": [
+      "dot-pattern",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "film-grain-overlay",
+      "gradient-color-transitions",
+      "dot-pattern-bg"
+    ],
+    "category": "barber",
+    "timestamp": "2026-04-10T02:02:42.198Z"
+  },
+  {
+    "slug": "the-bakeshop-on-twentieth",
+    "font": "figtree-inter",
+    "palette": "burgundy-warmth",
+    "heroVariant": "split",
+    "cssRecipes": [
+      "film-grain",
+      "picture-frame",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "hover-scale-card",
+      "self-writing-sentence-ambient",
+      "scattered-words-animation"
+    ],
+    "category": "bakery",
+    "timestamp": "2026-04-10T02:05:54.141Z"
+  },
+  {
+    "slug": "queen-nails-spa",
+    "font": "libre-baskerville-sourcesans",
+    "palette": "najmai-purple-lavender",
+    "heroVariant": "dark-bold",
+    "cssRecipes": [
+      "picture-frame",
+      "gradient-sections"
+    ],
+    "animationComponents": [
+      "fade-up-on-scroll",
+      "staggered-children",
+      "film-grain-overlay",
+      "images-sliding-opposite",
+      "horizontal-auto-scroll"
+    ],
+    "category": "nail salon",
+    "timestamp": "2026-04-10T02:08:19.825Z"
+  }
+]

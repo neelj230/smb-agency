@@ -1,0 +1,152 @@
+{
+  "name": "Oregon Tattoo Co",
+  "slug": "oregon-tattoo-co",
+  "category": "tattoo",
+  "address": "104 Commercial St SE",
+  "city": "Salem",
+  "state": "OR",
+  "zip": "97301",
+  "phone": "(503) 365-0726",
+  "email": "hello@locmaps.com",
+  "website": "https://zzmaps.xyz/business/oregon-tattoo-co-SG_bxBGY",
+  "rating": 4.7,
+  "reviewCount": 227,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "12:00 – 8:00 PM",
+    "Tuesday": "12:00 – 8:00 PM",
+    "Wednesday": "12:00 – 8:00 PM",
+    "Thursday": "12:00 – 8:00 PM",
+    "Friday": "12:00 – 8:00 PM",
+    "Saturday": "12:00 – 8:00 PM",
+    "Sunday": "12:00 – 8:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Me and my woman wanted to get some walk in tattoos. I had Mars and she had Zakk, Mars did an amazing small traditional and Zakk did equally great small butterfly that was tight lines. Amazing artists. Will be using them from now on.",
+      "author": "Zac Jordan",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-03-09"
+    },
+    {
+      "text": "Called to try and schedule simple matching sibling tattoos. Told us to call the day of for walk-in availability and we ended up getting in the day we wanted! Todd did amazing, he totally brought our simple idea to life! And the sanitizing, cleaning, prep took longer than the actual tattooing itself. Will be going back for all future tattoos 🤘🏻",
+      "author": "Patricia Stevens",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-06-25"
+    },
+    {
+      "text": "Man this is a really cool shop, kind of an old school vibe, open parlor style, had some Black Sabbath blasting when we walked in. Had some sweet American traditional designs and art all over the wall. Cool vibe for sure.",
+      "author": "Nick Villanacci",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-14"
+    },
+    {
+      "text": "Sam Kerr did tattoos for my daughter and I and we couldnt be happier! Such a nice young man. He is friendly, intelligent and very considerate.  All of the artists there were very friendly and helpful. The whole place has a comfortable, welcoming vibe. I would highly recommend The Oregon Tattoo Company for anyone looking for a quality tattoo at a reasonable price. Thanks again Sam Kerr. I look forward to seeing you for my next tattoo 😊👍👍",
+      "author": "Kelly Anderson",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-05-21"
+    },
+    {
+      "text": "My experience at this shop was extremely disappointing, especially because the shop owner himself was the one who worked on my tattoo. I paid in full upfront, and he never finished the tattoo. After my appointment, he completely stopped responding. I reached out multiple times to schedule the finishing session or at least get an update, and I was fully ignored.\n\nHonestly, at this point I’m almost relieved he never responded, because based on the work he did, I’m afraid the tattoo would have turned out even worse. For someone who claims to have been tattooing for years, the work I received looked rushed, uneven, and unprofessional, almost like something done by someone who is still learning.\n\nWhat made the whole situation even more uncomfortable was watching how he treated his employees. He was rude, dismissive, and unprofessional toward them right in front of clients. I genuinely felt bad for them because they clearly couldn’t say anything back since he was their employer. The entire environment felt tense and unwelcoming.\n\nAll I wanted was at least some of my money back for the unfinished and poorly done tattoo, but the complete lack of communication shows how little he cares about clients once he’s been paid.\n\nI’m sharing my experience so others know what to expect. No one should have to go through this. Please do NOT go here!!!",
+      "author": "alondra sanchez",
+      "rating": 1,
+      "source": "google",
+      "date": "2025-11-14"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Tattoo of colorful owl with coordinates on person's arm in shop",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Detailed floral tattoo on arm featuring red rose and black line work",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Tattoo on arm featuring Roman numerals, crescent moon, cursive text, and rose flower design",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Traditional style tattoo of a Native American chief head on upper arm",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Tattoo shop interior with artists working on clients and displaying portfolio artwork",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Tattoo of skeleton figure with 'Dread Gutter' text on person's leg",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Colorful tattoo of a warrior head profile with feathered headdress on arm",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Colorful tattoo of skull with aviator goggles, laurel wreath, and geometric patterns",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Colorful traditional lighthouse tattoo on arm with red, orange, and purple details",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Tattoo studio interior with framed artwork on walls and person sitting in chair",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 227,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.7,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {
+    "facebook": "https://facebook.com/locmaps",
+    "twitter": "https://twitter.com/locmaps",
+    "linkedin": "https://linkedin.com/company/locmaps"
+  },
+  "competitors": [],
+  "brandColors": {
+    "primary": "#1e293b",
+    "accent": "#1e293b",
+    "note": "Extracted from business website"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "<div><img src=\"https://mc.yandex.ru/watch/103441661\" style=\"position:absolute; left:-9999px;\" alt=\"\" /></div>"
+}

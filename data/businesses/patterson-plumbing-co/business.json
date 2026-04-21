@@ -1,0 +1,116 @@
+{
+  "name": "Patterson Plumbing Co.",
+  "slug": "patterson-plumbing-co",
+  "category": "plumber",
+  "address": "2086 Lars Way",
+  "city": "Medford",
+  "state": "OR",
+  "zip": "97501",
+  "phone": "(541) 773-2768",
+  "email": "",
+  "website": null,
+  "rating": 4.8,
+  "reviewCount": 12,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "8:00 AM – 5:00 PM",
+    "Tuesday": "8:00 AM – 5:00 PM",
+    "Wednesday": "8:00 AM – 5:00 PM",
+    "Thursday": "8:00 AM – 5:00 PM",
+    "Friday": "8:00 AM – 5:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Great team! Nice customer service and very authentic folks. Will have them on speed dial.\nHelpful and honest after a plumbing fiasco with another contractor. Steve is a gem! He was on it and made us feel confident in his project management. Thank you to the team!\nAnd we had a huge project!",
+      "author": "Angel Love",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-04-08"
+    },
+    {
+      "text": "I highly recommend this company. I called at 7:00 in the morning with an issue with my kitchen sink plumbing and Steve came out, quickly assessed the issue and we decided to replace the faucet. He took a lunch break, did another job and returned after I had gone and purchased a new faucet. He completed the install in a very short period of time. I was pleased with how efficiently and quickly Steve worked.",
+      "author": "Bobbi Eilis Ferguson",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-11-02"
+    },
+    {
+      "text": "Steve came out for a suspected leak, found it within about 30 minutes of being here, and fixed it quickly. Wonderful experience with him and the office staff. Very happy!",
+      "author": "Chelsea Carroll",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-03-20"
+    },
+    {
+      "text": "Brent working the office number was quickly responsive and perceptive.  Plumber, Steve,  came to our house Monday morning.  He deftly fixed and improved the defective shutoff valve  situation under the kitchen sink.\nThere are now two valves,  -1)  to the water filter, - 2) to cold water.\nIt looks good, a smart fix,  and we are so relieved.\nSteve couldn't have been nicer, professional and  organized.",
+      "author": "Liz Pischel",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-10-04"
+    },
+    {
+      "text": "I had a water line issue over the weekend.  Good luck finding a plumber to work weekends.  Monday morning, I started calling for someone to come out and fix water line.  Some of the companies I called were two weeks out.  One company, John Rice Plumbing was just rude.  The tone in his voice was....why are you calling.  Don't you know I'm busy.  I called Patterson Plumbing and gave them all the pertinent information.  I was told someone would get back to me.  Was I surprised when I received a call from Steve.  He said he could be out in 20 minutes.  He was in and out in less than 1 hour.  This is customer service!  I will definitely be saving his information for future plumbing issues.",
+      "author": "Tony J",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-10-11"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Plumber's hands installing brass fitting on copper pipe during plumbing work",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Construction workers pouring concrete foundation with rebar and utility lines visible",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Rheem water heater installation with copper piping and electric motor pump system",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Industrial electrical panel with red components, wiring, and black conduit mounted on wall.",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 12,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.8,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "fair"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "name": "Grounded Paws Dog Walking and Pet Care LLC",
+  "slug": "grounded-paws-dog-walking-and-pet-care-llc",
+  "category": "dog walker",
+  "address": "Dog Town",
+  "city": "Plymouth Meeting",
+  "state": "PA",
+  "zip": "19462",
+  "phone": "(610) 632-5137",
+  "email": "Groundedpaws@icloud.com",
+  "website": "https://www.groundedpawspets.com/",
+  "rating": 5,
+  "reviewCount": 9,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM – 7:00 PM",
+    "Tuesday": "9:00 AM – 7:00 PM",
+    "Wednesday": "9:00 AM – 7:00 PM",
+    "Thursday": "9:00 AM – 7:00 PM",
+    "Friday": "Closed",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "We couldn't be happier with the care Meg provides for our two pups, Arnie and Molly. She is reliable, loving, and truly treats our dogs like her own. Arnie and Molly always come back from their walks happy and well-exercised. She always leave a little note for us and send us great photos. We highly recommend Meg!",
+      "author": "Abbie O'Brien",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-07-04"
+    },
+    {
+      "text": "Megan has watched both of our dogs multiple times and we couldn't be happier with the services she provides. She goes above and beyond what is required and treats our dogs like they are her own. Booking is seamless and her communication is great.  We highly recommend her and are grateful to have found her.",
+      "author": "Mike Wessner",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-09-16"
+    },
+    {
+      "text": "We hired Megan to care for our two greyhounds while we were traveling and we couldn’t have been happier with the service! We’ve never had anyone besides family watch our dogs and Megan put us at ease the entire trip. Prior to our trip, she took the time to visit with our pups and learn their mannerisms/routine/schedule. During the trip, she sent updates before, during, and after visits and even included photos and videos of the dogs. Our travel plans ended up being delayed and she swooped in to save the day by doing a few more visits! Megan is so good at what she does and you can tell she loves to do it! I cannot recommend her enough!!!",
+      "author": "Jackie Barrett",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-07-15"
+    },
+    {
+      "text": "We hired Megan to walk/check on our dog while we were away in the hospital having a baby, and then for walks for a couple months after while we settled into life post-baby. Megan took amazing care of our dog, was very professional, flexible, and easy to communicate and schedule with, and was exceptionally reliable. She had a personal emergency while we were at the hospital and still prioritized care of our dog since she knew we weren't home. Highly recommend!",
+      "author": "Aparna Chhibber",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-06-28"
+    },
+    {
+      "text": "Grounded Paws certainly lives up to its name. Megan is a warm, nurturing & grounded presence with the insight to match each of my pet's unique needs & energy levels. She is patient, adaptable & reliable! My fur babies & I are all truly able to stay happy & healthy thanks to her services. Couldn't be happier! Absolutely recommend!!",
+      "author": "Leah Friedman",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-09-24"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Two dogs playing in a fenced backyard on a sunny day",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Yellow Labrador playing with bright green toy in grassy outdoor area",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Child and dog posing together outdoors with ivy-covered wall background",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Two dogs eating from colorful bowls outdoors on sunny day",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Golden retriever dog looking up at camera against cloudy blue sky",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Tabby cat wearing purple harness and leash in sunny garden",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Grounded Paws Dog Walking and Pet Care LLC photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Two fluffy dogs exploring a wooded area near a stream with hanging branches.",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Black and white dog relaxing on wooden deck with garden furniture background",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Three small dogs playing together in an outdoor dirt pen area",
+      "category": "team"
+    }
+  ],
+  "stats": [
+    {
+      "value": 9,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {
+    "facebook": "https://facebook.com/groundedpawsllc/",
+    "instagram": "https://instagram.com/groundedpawsllc/"
+  },
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "document.documentElement.classList.replace('adaptive', window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');(function() {window['__canva_public_path__'] = '_assets\\/'; window['bootstrap'] = JSON.parse('{\"base\":{\"A?\":\"B\",\"L\":false,\"N\":false,\"E\":\"e1edaa510f3b537eb12bf699fa8c515cf13a7cc3\",\"K\":1748635422,\"F\":{\"A?\":\"B\"},\"G\":\"CLIENT_FULL\",\"I\":\"A\",\"O\":{\"A?\":\"B\"},\"M\":\"/_online\",\"U\":[],\"V\":[],\"a\":{\"K\":\"export_website\",\"H\":{}},\"d\":{\"A\":\"wss://www.canva.com/_stream\",\"B\":{\"F\":\"export_website\"}},\"b\":{\"A?\":\"H\",\"C\":{\"a\":\"WEB\"},\"D\":{\"a\":\"WEB\",\"c\":\"en\"},\"E\":{},\"P\":[],\"Q\":[],\"R\":false,\"S\":false}},\"page\":{\"A\":{\"B\":{\"A?\":\"A\",\"A\":\"TAEXfxtKgiU\",\"B\":1},\"C\":{\"A\":1366.0,\"B\":768.0,\"C\":\"D\"},\"Q\":[],\"R\":[],\"P\":\"en\",\"D\":\"Grounded Paws Pets\",\"E\":\"Your local Montco, PA Dog Walking and Pet Care Business\",\"F\":[\"orange and yellow professional gradient\",\"pet fitness app\",\"internal communication website\",\"gradient\",\"colors\",\"shades\",\"colorful\",\"creative\",\"colorful\",\"texture\",\"marble\",\"colorful\",\"gradient\",\"shades\",\"hues\",\"color\",\"blendingfree\",\"\",\"static\",\"pet fitness app\",\"orange and yellow professional gradient\",\"gradient\",\"colors\",\"shades\",\"colorful\",\"creative\",\"colorful\",\"texture\",\"marble\",\"colorful\",\"gradient\",\"shades\",\"hues\",\"color\",\"blending\",\"startup business kit\",\"start up business kit\",\"startup\",\"company presentation\",\"company mission\",\"company vision\",\"company goals\",\"company ppt\",\"company powerpoint\",\"business presentation\",\"business ppt\",\"startup presentation\",\"startup ppt\",\"\",\"orange\",\"yellow\",\"warm\",\"vibrant\",\"bright\",\"gradient\",\"circle\",\"bone\",\"dog\",\"dog owner\",\"dog trainer\",\"\"],\"G\":{},\"Y\":{},\"a\":[],\"b\":[],\"V\":[],\"W\":[],\"A\":[{\"A?\":\"i\",\"a\":\"PBHbNzS1V2mVFbpw\",\"R\":false,\"S\":false,\"U\":false,\"Q\":{},\"W\":[],\"X\":[],\"H\":[],\"L\":{},\"C\":{\"A\":1366.0,\"B\":1634.9059901260907,\"C\":\"D\"},\"G\":{\"A\":\"EAEwmgenm78\",\"B\":1,\"C\":1},\"D\":{\"C\":\"#ab7cee\",\"D\":0.0,\"F\":false,\"J\":false,\"G\":false,\"H\":false},\"r\":[],\"E\":[{\"A?\":\"I\",\"A\":286.8180528819296,\"B\":199.81186409821174,\"D\":966.3762718035765,\"C\":1061.2698843622316,\"E\":0.0,\"F\":0.0,\"BA\":[],\"BB\":[],\"Q\":false,\"S\":false,\"P\":[],\"5\":{},\"T\":{},\"W\":{},\"a\":{\"B\":{\"A\":{\"A\":\"MAFKkZb2_9A\",\"B\":1},\"I\":{\"A\":\"MAGfGzqbYow\",\"B\":1},\"B\":{\"A\":-19.125790256363757,\"B\":-2.989917676579921,\"D\":972.3561071567359,\"C\":1080.3956746185954,\"E\":0.0},\"E\":0.0,\"C\":{}},\"D\":0.0,\"F\":false,\"J\":false,\"G\":false,\"H\":false},\"e\":[]}],\"I\":[]},{\"A?\":\"i\",\"a\":\"PBNRNssfyQmwC95T\",\"B\":\"welcome\",\"F\":\"Hello Page\\\\n\",\"R\":false,\"S\":false,\"U\":false,\"Q\":{},\"W\":[],\"X\":[],\"H\":[],\"L\":{},\"C\":{\"A\":1366.0,\"B\":3926.0,\"C\":\"D\"},\"G\":{\"A\":\"EAEwmgenm78\",\"B\":1,\"C\":3},\"D\":{\"C\":\"#ffffff\",\"D\":0.0,\"F\":false,\"J\":false,\"G\":false,\"H\":false},\"r\":[],\"E\":[{\"A?\":\"I\",\"A\":2170.9190182430802,\"B\":226.17618530632086,\"D\":913.647629387358,\"C\":1038.4556570624763,\"E\":-159.79701031400833,\"F\":0.34,\"BA\":[],\"BB\":[],\"Q\":false,\"S\":false,\"P\":[],\"5\":{},\"T\":{},\"W\":{},\"a\":{\"A\":true,\"B\":{\"A\":{\"A\":\"MAGKMZzUVMc\",\"B\":1},\"B\":{\"A\":-8.711454885801345,\"B\":-45.816399041494265,\"D\":1005.2804274703466,\"C\":1047.1671119482776,\"E\":0.0},\"E\":0."
+}

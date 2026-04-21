@@ -1,0 +1,116 @@
+{
+  "name": "Salem Dan Handyman",
+  "slug": "salem-dan-handyman",
+  "category": "handyman",
+  "address": "482 Powderhorn Ct SE",
+  "city": "Salem",
+  "state": "OR",
+  "zip": "97317",
+  "phone": "(971) 209-8038",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 7,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Open 24 hours",
+    "Tuesday": "Open 24 hours",
+    "Wednesday": "Open 24 hours",
+    "Thursday": "Open 24 hours",
+    "Friday": "Open 24 hours",
+    "Saturday": "Open 24 hours",
+    "Sunday": "Open 24 hours"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I’m Cory the manager and son of the owners at toast & jam restaurant out south commercial in Salem Oregon. and I had Dan weld the table for me and he was fast. Efficient took him about a half hour and it looks amazing. Couldn’t even tell it wasn’t bought like that.\nWish I had after photos of the table, but I do not have at this time. Maybe I’ll get some uploaded later. I have plenty more work for him and his crew here will keep you all updated on his performance",
+      "author": "Cory Odle",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-05-11"
+    },
+    {
+      "text": "Dan is definitely a man of ALL trades!! I needed to sell my home and he handled every single project that needed done! Nine projects inside and out and the house looks amazing!! He was so good and trustworthy that I recommended him to my friends, and now they’re using his talents all the way up to Portland! And his prices were way below the other bids that I had requested. I don’t normally take the time to leave reviews – but he was worth every minute.",
+      "author": "Lori Shafer",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-05-06"
+    },
+    {
+      "text": "I recently hired Salem Dan Handyman for some home repairs, and I can't recommend him highly enough! From the moment we discussed our project, it was clear that Dan truly listens to his clients. I explained what I wanted done, and he immediately understood my vision, offering valuable suggestions that enhanced the overall outcome.\n\nHis attention to detail and willingness to go the extra mile made the whole process so smooth and enjoyable. Not only did he complete the work efficiently, but the quality exceeded my expectations. If you're looking for a handyman who combines skill with excellent communication, Dan is your guy! Five stars all the way!",
+      "author": "Elena Eastwood",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-05-10"
+    },
+    {
+      "text": "Dan did an excellent job installing\nled lighting in my dining room after taking outdated fan and lighting out. He was on time and very effecient with the work he did. He cleaned up after himself which is nice cause at my house I'm always the one to clean up. Thank you Dan you did marvelous!",
+      "author": "Courtney Barringer",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-11-23"
+    },
+    {
+      "text": "Great guy been dealing with with him for years and will continue to do so in the future.",
+      "author": "Anthony McFarland",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-02-14"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Three blue plastic crates stacked in industrial storage shelf unit",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Salem Dan Handyman business card with plumbing pipes logo and contact information",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Salem Dan Handyman photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Before and after photos showing home improvement and renovation projects including repairs and maintenance work.",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 7,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "fair"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

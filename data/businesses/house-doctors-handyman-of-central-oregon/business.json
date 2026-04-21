@@ -1,0 +1,148 @@
+{
+  "name": "House Doctors Handyman of Central Oregon",
+  "slug": "house-doctors-handyman-of-central-oregon",
+  "category": "handyman",
+  "address": "320 SW Century Dr Suite 405-169",
+  "city": "Bend",
+  "state": "OR",
+  "zip": "97702",
+  "phone": "(541) 678-5058",
+  "email": "",
+  "website": "http://housedoctors.com/handyman-centraloregon",
+  "rating": 4.9,
+  "reviewCount": 18,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "8:00 AM – 5:00 PM",
+    "Tuesday": "8:00 AM – 5:00 PM",
+    "Wednesday": "8:00 AM – 5:00 PM",
+    "Thursday": "8:00 AM – 5:00 PM",
+    "Friday": "8:00 AM – 5:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Jeff was so awesome in helping me out with a home project that I never would've been able to do myself (hanging a few large wall decor items in a tricky spot above a stairwell). He was very communicative and thoughtful in his work. Fair pricing too! Highly recommend House Doctors for all handyman needs.",
+      "author": "Molly Gambee",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-03-19"
+    },
+    {
+      "text": "I had some kitchen tile caulking peeling, weather stripping on the bottoms of two doors; in bad shape; he said the front door was in good shape, and shed door that would blow open in the wind. Work was completed in short order and the end cost was less than quote given. These people are fantastic!  One trip out to see problems and give quote; appointment made for repairs and get this: he was on time! Love this company!",
+      "author": "Shari Youngstrom",
+      "rating": 5,
+      "source": "google",
+      "date": "2018-12-09"
+    },
+    {
+      "text": "The team was very quick to respond in person and via email. They took their time with the information before the project and came back one more time to take further measurements before coming out and absolutely doing a great job. They were friendly, professional, and did a fantastic job!",
+      "author": "Bryan S",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-07-16"
+    },
+    {
+      "text": "I am a local painting contractor here in Bend. We were recently hired to perform very specific carpentry and painting services for a commercial project here in town, in support of other trades on a project. The commercial project manager was Jeffery Roodhouse of House Doctors. He served as the representative of the asset manager and supervisor of the project. Jeffery managed all aspects and coordination of the contractors.  I was very impressed with his knowledge of the project scope, schedule management, and ability to coordinate multiple teams.  His patience and clear vision helped get the project completed quickly despite unforeseen challenges and addressed items that came up.  He emphasized quality, a clean work zone, and safety protocols for workers and the retail public.   Looking forward to working with/for him again in the near future.",
+      "author": "Dan Stephenson",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-03-28"
+    },
+    {
+      "text": "House Doctors Handyman are great and I fully recommend them for the \"honey Do's\" that you cant get to. When I was fully pregnant and my husband was too busy with work we had company coming to visit for the new baby.\nHouse Doctors came and switched out out old 70's lighting in our hallway to recess lighting, built a new bench for my dinning table, installed all the baby proofing to our drawers and cabinets and took down our outside Christmas lights. After that I was looking for things for them to do that my husband has never gotten to. ;)\nThey were quick, friendly and did everything perfect. They also vacuumed  up their mess after them.\nI will definitely call them again. Thanks guys",
+      "author": "Megan Carmichael",
+      "rating": 5,
+      "source": "google",
+      "date": "2018-04-03"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "House Doctors Handyman of Central Oregon photo 1",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Entryway doormat with Greek key pattern on stone tile flooring",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "House Doctors Handyman of Central Oregon photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Wooden fence alongside residential driveway with garage and autumn leaves",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "White framed door with black panels and welcome mat at entrance",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Empty room with TV wall mount, louvered closet doors, and bright window",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "House Doctors Handyman of Central Oregon photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Modern walk-in closet with white shelving, curved drawer units, and organized storage space.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Modern geometric patterned gate in residential room with water view window",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Modern sunroom interior with white French doors opening to wooden deck and rural landscape",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 18,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "The requested URL was rejected. Please consult with your administrator.Your support ID is: 12716785574443639662[Go Back]"
+}

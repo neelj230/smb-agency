@@ -1,0 +1,126 @@
+{
+  "name": "RAF mobile mechanic",
+  "slug": "raf-mobile-mechanic",
+  "category": "mobile mechanic",
+  "address": "813 Cooper St",
+  "city": "Woodbury",
+  "state": "NJ",
+  "zip": "08096",
+  "phone": "(856) 294-6016",
+  "email": "",
+  "website": null,
+  "rating": 4.9,
+  "reviewCount": 30,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Open 24 hours",
+    "Tuesday": "Open 24 hours",
+    "Wednesday": "Open 24 hours",
+    "Thursday": "Open 24 hours",
+    "Friday": "Open 24 hours",
+    "Saturday": "Open 24 hours",
+    "Sunday": "Open 24 hours"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "John is an awesome mechanic and an awesome person. I called him early Sunday morning to see if he could do a brake job on my wife’s car. He showed up within the hour and took care of everything at a VERY reasonable price. I’d most definitely recommend him to anyone within the area that needs a mobile mechanic.",
+      "author": "Trevor Moore",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-07"
+    },
+    {
+      "text": "I hit a deer a few weeks back. Raf was easy to connect with and once i had the parts he came right over and installed the new bumper and even installed a new windshield wiper fluid holder.\n\nPrice was very accommodating, don’t get ripped off by body shops and over priced repair shops. Call Raf!",
+      "author": "Christian Buonpastore",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-01-04"
+    },
+    {
+      "text": "My experience with this company was easy breezy, my car is currently not able to move and I just needed someone to run a diagnostics. A worker named John was able to assist and come out on the same day for a good price. He told me all the things that he could visibly see that's wrong with my car, and told me the best action to take regarding it. I had a good experience with them, I recommend.",
+      "author": "nyny 2003",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-05-16"
+    },
+    {
+      "text": "John is amazing! Very responsive and showed up fast. Reasonable prices and an honest man. Thanks for saving our road trip back to Florida. With out you we would be in a huge predicament. 10/10 recommend!",
+      "author": "Vanessa Demers",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-07-15"
+    },
+    {
+      "text": "I had a great experience with RAF mobile mechanic. Super professional, punctual, and knowledgeable. He came right to my location, and got my vehicle back up and running in no time. What really stood out was his  honesty—no upselling, just straight talk and fair pricing. It’s so convenient not having to tow the car or sit around in a shop. Highly recommend if you’re looking for a reliable and trustworthy mobile mechanic!",
+      "author": "David Rodriguez",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-04-25"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Blue Maserati sports car displayed in automotive service garage workshop",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Silver sedan with front-end collision damage and illuminated headlights at night",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Open car engine bay showing internal mechanical components and wiring during maintenance",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Snapon tool kit with green handles containing sockets, screwdrivers, pliers, and ratchet.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Mechanic working on red Ford vehicle in parking lot during maintenance or repair",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Gray Hyundai SUV parked in driveway with New Jersey license plate",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 30,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

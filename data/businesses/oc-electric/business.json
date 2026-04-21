@@ -230,11 +230,7 @@
       "Thorough",
       "Reliable"
     ],
-    "named_staff": [
-      "Joe"
-    ]
+    "named_staff": ["Joe"]
   },
-  "dataSources": [
-    "google"
-  ]
+  "dataSources": ["google"]
 }

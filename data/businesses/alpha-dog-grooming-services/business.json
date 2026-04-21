@@ -1,0 +1,146 @@
+{
+  "name": "Alpha Dog Grooming Services",
+  "slug": "alpha-dog-grooming-services",
+  "category": "pet groomer",
+  "address": "2245 Grays Ferry Ave Store Front",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19146",
+  "phone": "(215) 982-2706",
+  "email": "",
+  "website": null,
+  "rating": 4.9,
+  "reviewCount": 134,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM – 8:00 PM",
+    "Tuesday": "9:00 AM – 8:00 PM",
+    "Wednesday": "9:00 AM – 4:00 PM",
+    "Thursday": "9:00 AM – 8:00 PM",
+    "Friday": "9:00 AM – 8:00 PM",
+    "Saturday": "9:00 AM – 8:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Can’t say enough good things about this groomer! They asked exactly what we wanted, worked quickly (~2.5hrs), and our 7 year old golden came out with the best groom of his life (and he seemed so happy!). We went shorter than usual given shedding, and he didn’t look like an alien!\n\nThey also let us know about some swelling in his ear and tender paws - which we hadn’t noticed. I really appreciate the laidback atmosphere and personalized service.\n\nSo glad they’re in the neighborhood!!! Shout out to Brittany for the stellar job!",
+      "author": "Talley Snow",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-06"
+    },
+    {
+      "text": "I just experienced my first grooming for my dogs \"Marley and Bubbles\" and OMG what a delight!!!! I have been searching for a new groomer since loosing my old groomer closing and didn’t like the retail groomers. I love, I love the personal attention Alpha Dog Grooming gave my dogs and me too.  It was only my first experience but from the door of greating us, they welcomed us with such professionalism, top notch customer service, and truly made us feel like part of the Alpha Dog Grooming family.  When it was time to pick up my babies the were prompt, and on schedule as promised.  And the hospitality was even greater, I can't wait to promote them to all my dog parent friends, cuz everyone always tease me how I enclude my dogs with my kids.  My only regret was I forgot to ask their names smh lol.  No worries, I'll get them for my next review next month because, I will be scheduling my babies next appointment.  The weather will be better then and I'll add photos because these guys came home in relax mode lol.  Thank you sooo much Alpha Dog Grooming!!!",
+      "author": "Tracey “Babygirl” Tray",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-04"
+    },
+    {
+      "text": "I truly do not know what kind of magic the owner is working with, but he is truly a dog whisperer. We have a large rescue that is typically afraid of men and hates getting her nails trimmed. Not only did she get the best mani-pedi of her life, but by the end she was going up to him for rubs and full of big smiles. Truly a gem of a business and everyone we have worked with has been lovely!",
+      "author": "Erica Zeller",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-03-04"
+    },
+    {
+      "text": "The staff here were so friendly! Another groomer cancelled on me day of and I was scrambling to find a place that would take us day of! Alpha was able to squeeze my dog in and gave us the exact haircut we were looking for! They even threw in a birthday discount which was so sweet 🥹 we’re so thankful for their services today!",
+      "author": "Violet Sullivan",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-13"
+    },
+    {
+      "text": "The kindest owner and staff! They always greet me and my 100-lb Rottweiler with big smiles and make us both feel so welcome. If you have a big dog or a breed that isn’t always welcomed everywhere, this is the place to go.",
+      "author": "Willow Rohlfing",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-03-07"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Corgi dog standing on black mat against green wall indoors",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Alpha Dog Grooming Services photo 2",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Cream-colored curly-haired dog standing on wooden floor indoors",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "White fluffy small dog wearing black collar and leash sitting on pavement",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Brown dachshund standing on dark kitchen counter in modern home kitchen",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Black and white dog standing in home office next to desk and shelving",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Adorable apricot-colored poodle sitting on pink blanket indoors",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Small dog wearing colorful bandana standing on dark floor indoors",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Professional groomer bathing and grooming a white fluffy dog at salon",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Two happy dogs smiling at camera, one on couch with toy, one outdoors on grass.",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 134,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "name": "Judy Moon and Associates, Massage Therapy",
+  "slug": "judy-moon-and-associates-massage-therapy",
+  "category": "massage therapist",
+  "address": "829 Spruce St #300",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19107",
+  "phone": "(267) 671-0861",
+  "email": "harmony@judymoon.com",
+  "website": "http://www.judymoon.com/",
+  "rating": 4.8,
+  "reviewCount": 44,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:30 AM – 7:30 PM",
+    "Tuesday": "9:30 AM – 7:30 PM",
+    "Wednesday": "9:30 AM – 7:30 PM",
+    "Thursday": "9:30 AM – 7:30 PM",
+    "Friday": "9:30 AM – 7:30 PM",
+    "Saturday": "9:00 AM – 6:00 PM",
+    "Sunday": "10:00 AM – 6:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I’ve been a returning client at Judy Moon and Associates since 2018. My go-to providers are Judy herself and Gwyn, who are both wonderful to work with.\n\nI visit specifically for their Mindful Touch and Aromatherapy services, which always leave me feeling refreshed and rebalanced—especially when life gets hectic and I need a boost. I make it a point to book appointments a few times throughout the year, and I genuinely look forward to every visit.",
+      "author": "Derek Ramoutar",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-28"
+    },
+    {
+      "text": "Gotten massaged here a few times by Amanda when ive had back spasms/intense pain and she always made it so much better. She listens to adjustments in pressure well and does a great job creating a calming setting.",
+      "author": "Noelle Riverol",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-16"
+    },
+    {
+      "text": "I had a great experience at Judy Moon. The atmosphere and ambiance were great, and everything was so clean. I was seen promptly at my scheduled time. Gwyn was amazing! I went in for a prenatal massage at 33weeks and she worked on all of my problem areas amazingly. In my experience, many places that offer prenatal massages are apprehensive to apply a good amount of pressure, but Gwyn applied the perfect amount of pressure! After walking around in pain for weeks, I left feeling like a million bucks! I will definitely be returning very soon. Thank you, Gwyn.",
+      "author": "Sarah Ajodhasingh",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-03-20"
+    },
+    {
+      "text": "Prenatal Massage (37 weeks)\nI just left my massage with Gwyn and I couldn’t wait to write a review.\nThat was the best massage I’ve ever had.\nFirst, before Gwyn even started, her expert positioning of my body and pillows to support my pregnant body was so skillfully done.\nThe intensity of pressure was perfect. She specifically focused on the areas I told her I was most concerned with.\nThe space is clean and peaceful.\nGwyn is magic",
+      "author": "Eva Fitch",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-08-07"
+    },
+    {
+      "text": "I've been going here for a couple of years now and it is always the best massage. I go about a couple times a year for a little \"treat yourself\" moment. I've only ever booked with Dawn and she is absolutely amazing. It's crazy how she can tell exactly where you are hurt or tense and I leave like a relaxed blob of Jell-O every time. I'm sure the other massage therapists are wonderful as well.\nAlso the studio is a nice, clean, calming environment. It's also nice that they let you pick out whatever scent you're feeling that day for your massage oil.\nThey are also more reasonably priced compared to some massage studios in the city. That was one of the first reasons why I chose to go here besides the good reviews, which they definitely live up too.",
+      "author": "Katy Adams",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-05-16"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Spa retail display with brushes, bath salts, candles, and product shelves with pricing signs",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Spa or massage therapy room with treatment table, candles, flowers, and decorative mirror",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Judy Moon and Associates, Massage Therapy photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Modern bathroom with decorative butterfly wall art, mirror, orchid plant, and chrome faucet",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Judy Moon and Associates, Massage Therapy photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Urban plaza with trees, fountain, people, and cyclist on sunny day",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Person receiving professional massage therapy treatment on back and shoulders indoors",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Wellness products display: color therapy stones, chakra tuning forks, and wooden palette.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Lucky cat figurine with decorative flowering branches on wall shelf display",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Judy Moon and Associates, Massage Therapy photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 44,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.8,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {
+    "facebook": "https://facebook.com/pages/Judy-Moon-and-Associates/121302174585512?ref=ts",
+    "instagram": "https://instagram.com/jmoonassociates/",
+    "twitter": "https://twitter.com/JMoonAssociates",
+    "linkedin": "https://linkedin.com/in/judy-moon-37488610",
+    "yelp": "https://yelp.com/biz/judy-moon-and-associates-philadelphia"
+  },
+  "competitors": [],
+  "brandColors": {
+    "primary": "#def0f0",
+    "accent": "#def0f0",
+    "note": "Extracted from business website"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-11598930-1', 'auto'); ga('send', 'pageview'); Menu Skip to content Contact Location Wellness Seeds Blog Home Judy Moon and Associates Franklin Medical Building 829 Spruce St., Suite 300 Philadelphia, PA 19107 267-671-0861 ~ 267.671.0861 ~ harmony@judymoon.com © 2024 Judy Moon and Associates Site last updated updated Ocotber 2024. Some blog images are from Vecteezy.com Powered by WordPress & Portfolio."
+}

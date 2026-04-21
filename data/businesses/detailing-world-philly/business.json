@@ -1,0 +1,146 @@
+{
+  "name": "Detailing World Philly",
+  "slug": "detailing-world-philly",
+  "category": "auto detailing",
+  "address": "4220 Whitaker Ave",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19124",
+  "phone": "(267) 209-3480",
+  "email": "",
+  "website": "https://detailingworldpa.com/",
+  "rating": 4.9,
+  "reviewCount": 90,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM – 5:00 PM",
+    "Tuesday": "9:00 AM – 5:00 PM",
+    "Wednesday": "9:00 AM – 5:00 PM",
+    "Thursday": "9:00 AM – 5:00 PM",
+    "Friday": "9:00 AM – 5:00 PM",
+    "Saturday": "9:00 AM – 5:00 PM",
+    "Sunday": "9:00 AM – 3:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "This is my first time coming to this store and they have EVERYTHING. Very welcoming and the items they have a lot of people would have to order. This is very convenient if your low on supplies you can come here. Absolute like",
+      "author": "Young Jayyy",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-04"
+    },
+    {
+      "text": "Great customer service. Jesus when above and beyond to make sure we get the right products.",
+      "author": "Tyl 19",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-04-15"
+    },
+    {
+      "text": "Great place , Jesus was very helpful with helping me find everything and was able to get me what I needed at a great price. Would definitely recommend to Detailers.",
+      "author": "Aidan Daniels",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-07-25"
+    },
+    {
+      "text": "Really good store they have a lot of supply’s and are very nice would definitely recommend‼️",
+      "author": "Emanuel Bermudez",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-04-01"
+    },
+    {
+      "text": "Went to DETAILING WORLD LIKE CAR HEAVEN. THEY HAD EVERYTHING I NEEDED.GREAT REASONABLE PRICE. WILL GO BACK. THANKS DETAIL WORLD.",
+      "author": "Abdul Salaam",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-13"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Modern car detailing showroom with purple vehicles, product displays, and professional equipment",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Detailing World Philly photo 2",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Detailing World Philly photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Display shelf showcasing automotive care products with various bottles and containers",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Firefighters operate aerial ladder truck during active structure fire at restaurant building.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Black sports sedan parked at stop sign in commercial parking lot",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Black sports sedan parked in front of industrial brick building facade.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Collection of car detailing and cleaning products arranged on dark table",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Auto detailing and car care products displayed on retail shelves in store",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Detailing World Philly photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 90,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

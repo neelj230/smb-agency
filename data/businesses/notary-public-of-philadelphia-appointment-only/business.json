@@ -1,0 +1,121 @@
+{
+  "name": "Notary Public of Philadelphia *Appointment Only*",
+  "slug": "notary-public-of-philadelphia-appointment-only",
+  "category": "mobile notary",
+  "address": "4302 Market St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19104",
+  "phone": "(267) 253-2288",
+  "email": "",
+  "website": null,
+  "rating": 4.9,
+  "reviewCount": 200,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "11:00 AM – 7:00 PM",
+    "Tuesday": "11:00 AM – 7:00 PM",
+    "Wednesday": "11:00 AM – 7:00 PM",
+    "Thursday": "11:00 AM – 7:00 PM",
+    "Friday": "11:00 AM – 7:00 PM",
+    "Saturday": "11:00 AM – 7:00 PM",
+    "Sunday": "11:00 AM – 7:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "My family has worked with Atef several times now and every experience has been a positive one. He has always been knowledgeable, responsive and friendly. I highly recommend his services.",
+      "author": "Christopher Powers",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-12"
+    },
+    {
+      "text": "Had a question about NJ EZ Pass. Called this Notary. The gentleman with whom I spoke was VERY nice and informative. He reassured me about an email I received and gave me quite a bit of information regarding EZ Pass. They were threatening to stop me from renewing my car registration. He told me that NJ EZ Pass cannot do this. I only received an email from them. Unfortunately, I did not get his name. But I wanted to send out a HUGE thank you to him for his great service and help!! So THANK YOU. I will get your name if I have to call again.",
+      "author": "Cheryn Jarvis",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-31"
+    },
+    {
+      "text": "Needed a last minute notary and came across this business. He was quick to respond and moved some things around to squeeze me in. He was friendly, professional and efficient. Would definitely use his services again and glad that I stumbled across his page!",
+      "author": "Bo Gabe",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-02"
+    },
+    {
+      "text": "Professional, prompt, and courteous. He explained everything clearly and handled my documents with care. A great experience overall, highly recommended.",
+      "author": "Nanii White",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-05"
+    },
+    {
+      "text": "Atef was extremely helpful, and communicative. He was able to fit me in for an appointment within an hour of calling, which was great. Highly recommend for any future notary needs.",
+      "author": "Zara Mooney",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-09"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Illuminated city skyline at night reflecting in river with full moon overhead",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Notary public office storefront in Philadelphia with contact information posted on window",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "H&R Block business card for tax associate and notary public Asef B. Khurshan",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Notary Public of Philadelphia *Appointment Only* photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Notary services promotional image featuring official documents, seal, and stamp.",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 200,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

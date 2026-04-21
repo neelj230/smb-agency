@@ -1,0 +1,148 @@
+{
+  "name": "Mayed Up",
+  "slug": "mayed-up",
+  "category": "makeup artist",
+  "address": "1421 Old York Rd",
+  "city": "Abington",
+  "state": "PA",
+  "zip": "19001",
+  "phone": "(267) 808-0375",
+  "email": "",
+  "website": "http://www.mayedup.com/",
+  "rating": 5,
+  "reviewCount": 32,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:30 AM – 7:00 PM",
+    "Tuesday": "9:30 AM – 7:00 PM",
+    "Wednesday": "9:30 AM – 7:00 PM",
+    "Thursday": "9:30 AM – 7:00 PM",
+    "Friday": "9:30 AM – 7:00 PM",
+    "Saturday": "9:30 AM – 7:00 PM",
+    "Sunday": "9:30 AM – 6:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Elaine is unreal. She’s just the kindest and most pleasant person, and really brings an incredible vibe to a wedding which is so important getting ready!\n\nShe is also SO talented. She is quick and works so hard. It’s like she can read your mind regarding what you’d like — she knows exactly what questions to ask about your reference photos. We genuinely loved her company and were so impressed with her start to finish!! Our bridesmaids also loved her and were singing her praises. She was excellent managing everyone and even kept a level head during fire alarm testing!\n\nAgain, we just can’t say enough how amazing she is. You won’t regret hiring her.",
+      "author": "Meredith Orme",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-07"
+    },
+    {
+      "text": "Elaine was incredible and so easy to work with. I am so lucky that my bridesmaid found her insta and suggested I check her out. She is easy going, personable, and absolutely dedicated to achieving perfection. She made me, my bridal party and my mom look flawless and our photos turned out amazing. I thought initially the packages were expensive but I have zero regrets and would book her again without hesitation. Elaine’s work was so worth it! Also I really appreciated that she worked with me on scheduling so that I could do my makeup trial on the day of my engagement shoot!",
+      "author": "Phedra Penn",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-10-03"
+    },
+    {
+      "text": "Elaine is such a talented makeup artist and hair stylist, and I was SO happy she was there on my wedding day. She and Erica did a fantastic job, and accommodated all the ideas / requests that my bridesmaids and I made. Throughout the entire planning process, Elaine was very responsive and helpful in answering all my questions. She was truly such a delight to work with, all the way up to the wedding day - she had me and my entire bridal party laughing in the morning (Elaine is so personable and hilarious), and was also such a professional when it came to making sure we were all ready on time, yet could still have fun in the process. She made me feel so comfortable while getting ready (which was difficult to do)! I absolutely loved how she did my hair and makeup, and would recommend her to anyone!",
+      "author": "Annie Xu",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-06-09"
+    },
+    {
+      "text": "Elaine and Erica are very kind and professional, they did my makeup and my hair for my wedding day and everything was amazing! They listened to what I wanted, I just showed them a picture of my dream wedding and they did it even better. I’m so glad I found them. And what I like the most is that Elaine is unique, she works with whatever is best for you and doesn’t ask for a number of people to do your makeup like many other makeup artists do, she gives you options and place your needs in first place. They are the best option to look absolutely beautiful on any important event, because they only use high quality makeup and hair products.",
+      "author": "Maria JG",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-07-03"
+    },
+    {
+      "text": "Elaine is truly amazing at what she does!!! When I went for my bridal makeup trial, she was extremely detail oriented and asked me questions about my skin type, what products I typically use, what shade of concealer/foundation I typically use in order to get a better sense of what I was comfortable with. For the wedding, she was able to create the exact natural yet enhanced look I was going for!! I was amazed by how beautiful everything looked while still feeling like myself! All of my bridesmaids were also so happy with their makeup. Elaine as a person is so bubbly and positive that she is a joy to work with. I highly recommend her to anyone looking for a makeup artist!!",
+      "author": "Danica Yang",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-07-20"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Two brides in white dresses holding colorful bouquet in garden setting",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Bride and groom kissing on stone terrace surrounded by lush greenery and ivy",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Bride in white lace wedding dress holding white flower bouquet against white wall",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Bride and bridesmaids in wedding attire posing in ornate venue",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Bride and groom embracing on staircase, bride holding red rose bouquet",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Bride and bridesmaids posing on vintage carousel with ornate decorations and lighting",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Woman in mint sweater and dark jeans posing against white brick wall outdoors",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Bride and bridesmaids in matching cream and white dresses holding white flower bouquets",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Bride in white lace wedding dress holding vibrant pink and red flower bouquet outdoors",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Bride in white dress holding blue and white bouquet, smiling indoors",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 32,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "(()=>{\"use strict\";const t=\"offset\",e=\"client\",o=function(){};let n=!1,r=!1;const i={loopDelay:50,maxLoop:5,complete:o},l=[];let u=null;const s={cssClass:\"ad-overlay google-ad-bottom-outer prebid-wrapper .dfp-ad-container\"},a={nullProps:[t+\"Parent\"],zeroProps:[]};a.zeroProps=[t+\"Height\",t+\"Left\",t+\"Top\",t+\"Width\",t+\"Height\",e+\"Height\",e+\"Width\"];const c={quick:null,remote:null};let d=null;const p={test:0,download:0};function f(t){return\"function\"==typeof t}function m(t){!0!==d&&(r=!0,y(t),c.quick=\"testing\",p.test=setTimeout((function(){h(t,1)}),5))}function y(t){let e,o,n=document.body,r=\"width: 1px !important; height: 1px !important; position: absolute !important; left: -10000px !important; top: -1000px !important;\";if(null!=t&&\"string\"!=typeof t){for(null!=t.style&&(r+=t.style),u=function(t,e){let o,n,r=e;if(n=document.createElement(t),r)for(o in r)r.hasOwnProperty(o)&&n.setAttribute(o,r[o]);return n}(\"div\",{class:t.cssClass,style:r}),n.appendChild(u),e=0;e<a.nullProps.length;e++)o=u[a.nullProps[e]];for(e=0;e<a.zeroProps.length;e++)o=u[a.zeroProps[e]]}}function h(t,e){const o=document.body;let c=!1;if(null==u&&y(t||s),\"string\"!=typeof t){p.test>0&&(clearTimeout(p.test),p.test=0),null!==o.getAttribute(\"abp\")&&(c=!0);for(let t=0;t<a.nullProps.length;t++){if(null==u[a.nullProps[t]]){e>4&&(c=!0);break}if(!0===c)break}for(let t=0;t<a.zeroProps.length&&!0!==c;t++)0===u[a.zeroProps[t]]&&e>4&&(c=!0);if(void 0!==window.getComputedStyle){const t=window.getComputedStyle(u,null);\"none\"!==t.getPropertyValue(\"display\")&&\"hidden\"!==t.getPropertyValue(\"visibility\")||e>4&&(c=!0)}n=!0,c||e++>=i.maxLoop?(d=c,function(){let t,e;if(null===d)return;for(t=0;t<l.length;t++){e=l[t];try{null!=e&&f(e[\"complete\"])&&e[\"complete\"](d)}catch(t){return}}}(),g()&&setTimeout((function(){r=!1}),5)):p.test=setTimeout((function(){h(t,e)}),i.loopDelay)}else g()&&setTimeout((function(){r=!1}),5)}function g(){if(null===u)return!0;try{f(u.remove)&&u.remove(),document.body.removeChild(u)}catch(t){}return u=null,!0}var b=function(t){if(!t)return;const e={complete:o,found:o,notfound:o};let n;for(n in t)t.hasOwnProperty(n)&&(\"complete\"===n||\"found\"===n||\"notFound\"===n?e[n.toLowerCase()]=t[n]:i[n]=t[n]);l.push(e),function(){let t,e=!1;document.readyState&&\"complete\"===document.readyState&&(e=!0),t=function(){m(s)},e?t():window.addEventListener(\"load\",t)}()};function v(){document.write(`<a id=\"Lf5Bwk4VUwckRGlsodUE1cfaRyQBxT1O\" href=\"/.IGV0hOcNusVJOgqoD1HuWTk0PssdueKB\"></a>`),document.getElementById(\"Lf5Bwk4VUwckRGlsodUE1cfaRyQBxT1O\").click()}function w(t){return`${t}`}async function P(t){const e=await async function(t,e){const o=JSON.parse(atob(t));return o.parameters.adBlockingDetected=e,o.parameters.timezoneBrowser=Intl.DateTimeFormat().resolvedOptions().timeZone,o.parameters.webdriver=navigator.webdriver,o.parameters.gpu=await async function(){if(!navigator.gpu)return null;const t=await navigator.gpu.requestAdapter();if(!t)return null;if(t.info&&t.info.vendor)return t.info.vendor;if(t.req"
+}

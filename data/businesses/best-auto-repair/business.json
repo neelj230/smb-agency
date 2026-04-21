@@ -1,0 +1,146 @@
+{
+  "name": "Best Auto Repair",
+  "slug": "best-auto-repair",
+  "category": "auto repair",
+  "address": "4222 NE Martin Luther King Jr Blvd",
+  "city": "Portland",
+  "state": "OR",
+  "zip": "97211",
+  "phone": "(503) 287-5715",
+  "email": "",
+  "website": null,
+  "rating": 4.4,
+  "reviewCount": 96,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "8:00 AM – 5:00 PM",
+    "Tuesday": "8:00 AM – 5:00 PM",
+    "Wednesday": "8:00 AM – 5:00 PM",
+    "Thursday": "8:00 AM – 5:00 PM",
+    "Friday": "8:00 AM – 5:00 PM",
+    "Saturday": "8:00 AM – 3:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Mr. Eduardo, the owner of the shop, repaired the transmission in my truck. He's a very trustworthy person; I've known him since the beginning. He did a great job on my work truck, and it's running perfectly. I'm very happy with the work he did, and I feel very confident in him. I like the work he does, and I would recommend him to anyone who needs any kind of repair on their vehicle. You can go to him with confidence because that's how I felt—very confident, which is what you're looking for, right? And he does good work.",
+      "author": "jorge acajabon",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-29"
+    },
+    {
+      "text": "I've been taking my vehicles to Eduardo & Best Auto repair for years. I can always trust them to do great work, quickly, efficiently, and without them trying to sneak in extra costs recommending things you don't need, or any of that BS you'll get with a lot of other shops. And they do it all for a fair price. very much recommend!",
+      "author": "Obie Poasa",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-24"
+    },
+    {
+      "text": "These guys are amazing! I've visited them three times for problems with two different cars, and they've resolved every issue. They've even helped me identify minor problems without needing to diagnose the car. They're honest and very responsible. If you have the chance to ask for their help, please do! Eduardo maintained good communication with me and gave me constant updates. 100/10! 🔥🙌🏻",
+      "author": "Ron Thomatteo",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-17"
+    },
+    {
+      "text": "They did an amazing job on my 2012 Volkswagen Passat SEL Premium. They don't even make these cars anymore. Plus I re built my whole engine I spent about 10k all together with parts and labor. This car sound brand new, plus every three months I go get a checkup and my car. There mechanics are A1. If you need you old school car fixed and any other car fixed, this is the place to go. I spent a lot of money with them so I know. They will take there time and make sure everything is A1.✌🏿 Go get your motor done old school lovers.",
+      "author": "Donte Savage",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-04-17"
+    },
+    {
+      "text": "They don't give out quotes. Do the work and call and tell me the price.  I won't be coming back here.",
+      "author": "Tina",
+      "rating": 1,
+      "source": "google",
+      "date": "2026-02-28"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Auto repair shop exterior with fenced lot, vehicles, and red signage overhead",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Aluminum engine block with black center housing displayed in workshop setting.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Mechanic inspecting engine bay of black pickup truck in auto repair shop",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Mechanic working on red car in auto repair garage shop with tools",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Professional auto repair garage interior with multiple vehicles and red support column",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Black leather car interior with steering wheel, seats, and panoramic sunroof visible.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Blue toy car with maintenance tools and spare parts displayed below it",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Large gray automotive transmission or engine component displayed on workbench in shop.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Ford automatic transmission casting displayed on workbench in industrial setting.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Engine block with dual cylinders, valves, and mechanical components visible from above.",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 96,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.4,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

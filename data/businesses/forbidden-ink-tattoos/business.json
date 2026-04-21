@@ -1,0 +1,146 @@
+{
+  "name": "Forbidden INK Tattoo's",
+  "slug": "forbidden-ink-tattoos",
+  "category": "tattoo",
+  "address": "1212 Hawthorne Ave NE",
+  "city": "Salem",
+  "state": "OR",
+  "zip": "97305",
+  "phone": "(503) 930-5278",
+  "email": "",
+  "website": null,
+  "rating": 4.8,
+  "reviewCount": 196,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM – 11:30 PM",
+    "Tuesday": "10:00 AM – 12:00 AM",
+    "Wednesday": "10:00 AM – 12:00 AM",
+    "Thursday": "10:00 AM – 12:00 AM",
+    "Friday": "10:00 AM – 12:00 AM",
+    "Saturday": "10:00 AM – 11:30 PM",
+    "Sunday": "9:00 AM – 11:30 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Wow, Steven was amazing. He listened to my ideas and offered professional input to help bring them to life. He took his time, we layered one design after the next making a detailed piece. Line work is superb and he is mindful of details to avoid making things too congested so it ages well over time. Ask about his weekday rates as well. First tattoo in over a decade, patient artist making it painless and beautiful!",
+      "author": "Stephanie Casad",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-03-07"
+    },
+    {
+      "text": "He was super kind and knew how to make conversation! He did amazing work and made sure I was okay with how everything went. He also made sure to ask if I’ve done any aftercare, and explained the best thing to use for my tattoo. He answered all questions I had (though I didn’t have many, I’m bad at asking them :() )literally 10/10 recommend, definitely coming back for more tats! Love the work! Keep it up",
+      "author": "Kayla Sherwood",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-06"
+    },
+    {
+      "text": "Great work, very professional. He got me in quickly and the process was smooth and as painless as getting tattooed can be. The studio was clean and inviting and he was very personable. Loved the experience, and now I get to have my favorite movie quote, in the handwriting of my closest friend, with me forever :)",
+      "author": "Magenta Sanchez",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-11"
+    },
+    {
+      "text": "As my first tattoo with all the emotions running wild. Steve calmed me instantly. I knew right I away I was in great hands. Literally. The patience, care, and attention to detail! I am hooked. I was already planning ny next move and we had just begun. His years of experience shine bright. Most gentle hands you will have on you. No pain! Seriously, NO PAIN! Its not magic, he is a top tiered Tattoo Artist with 30+ years and it shows in every stroke. I consider him a friend I would like to know for the rest of my life. Steve, keep up the fantastic work. I am very much looking forward to our next visit sir. God Bless! 🙏",
+      "author": "Tom Shillcutt",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-27"
+    },
+    {
+      "text": "Steve did a truly Amazing job on touching up my larger and small tattoos!! Truly a real artist and he really genuinely cares about giving his customers an amazing product they can be proud of! He fixed some stuff on the original tattoos that causes me lots of grief and lines before too.",
+      "author": "John Klein",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-20"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Tattoo studio interior with artistic portraits on walls and work station",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Close-up of person's arm displaying inspirational tattoo with winged figure and text.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Close-up of detailed dragon tattoo on person's forearm and arm",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Detailed black ink tattoo of a tall evergreen tree on person's calf",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Tattoo artist working on client's arm with floral moon design",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Colorful tattoo of a skeleton grim reaper figure on someone's arm",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Black and gray mandala tattoo on upper arm with intricate geometric patterns and decorative elements.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Colorful butterfly tattoo on thigh with pink and orange wings and green foliage",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Tattoo of playing cards with spade suit and eye design on forearm",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Detailed portrait tattoo on thigh featuring face with ornate decorative elements",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 196,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.8,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

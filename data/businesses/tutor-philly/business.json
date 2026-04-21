@@ -1,0 +1,65 @@
+{
+  "name": "Tutor Philly",
+  "slug": "tutor-philly",
+  "category": "tutor",
+  "address": "3610 Indian Queen Ln",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19129",
+  "phone": "(267) 225-0146",
+  "email": "",
+  "website": null,
+  "rating": 0,
+  "reviewCount": 0,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "10:00 AM – 8:30 PM",
+    "Tuesday": "10:00 AM – 4:00 PM",
+    "Wednesday": "10:00 AM – 8:30 PM",
+    "Thursday": "10:00 AM – 4:00 PM",
+    "Friday": "10:00 AM – 4:00 PM",
+    "Saturday": "10:00 AM – 4:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Tutor Philly photo 1",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 0,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 0,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "poor"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

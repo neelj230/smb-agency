@@ -249,13 +249,7 @@
       "Neighborhood-warm",
       "Unpretentious"
     ],
-    "named_staff": [
-      "Maddox",
-      "Ezra",
-      "Amber"
-    ]
+    "named_staff": ["Maddox", "Ezra", "Amber"]
   },
-  "dataSources": [
-    "google"
-  ]
+  "dataSources": ["google"]
 }

@@ -1,0 +1,131 @@
+{
+  "name": "Maxim Auto Care",
+  "slug": "maxim-auto-care",
+  "category": "auto repair",
+  "address": "1024 SE Stephens St",
+  "city": "Portland",
+  "state": "OR",
+  "zip": "97214",
+  "phone": "(503) 484-3448",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 149,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "8:00 AM – 5:00 PM",
+    "Tuesday": "8:00 AM – 5:00 PM",
+    "Wednesday": "8:00 AM – 5:00 PM",
+    "Thursday": "8:00 AM – 5:00 PM",
+    "Friday": "8:00 AM – 5:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "My car suddenly lost power and felt like the power steering went out. Looked under the hood and saw my serpentine belts were completely shredded. It was 3pm on a Friday. I did not think I would be able to get in anywhere, and that I was going to leave my car parked over the weekend away from my house.\n\nNot only did they get me in immediately to start the repair, they also identified what the root cause was instantly. I dropped off my car, came back an hour later, and it was ready for me to pick up. The price to fix the root of the problem and replacing the belts was great. It truly was an amazing experience, and I plan on coming back for all my car needs.",
+      "author": "Darek Taylor",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-15"
+    },
+    {
+      "text": "I’m blown away - most honest mechanic I think you’ll find anywhere. Honda quoted me $800 for a wheel sensor/wire and made it sound like they were giving me a deal by not replacing all engine casing wiring (many thousands). Vitaliy tells me to come in same day, fixes car that day for less than $150. Incredible service. Very friendly guy. Found a mechanic for a life. 11/10 recommend.",
+      "author": "Mo",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-30"
+    },
+    {
+      "text": "These guys are the BEST. My car was stolen and returned in terrible shape. I'm talking trunk didn't close, upholstery torn, smelled like booz and bad decisions. The owner of the shop walked me through the entire inspection, very upfront and honest. One day later, my car was revived for likely a fraction of what I would have paid elsewhere. They even fixed my trunk, reattached/framed my license plate, cleaned out the interior, all \"a present from the shop\" -- very thoughtful and kind. I won't be going anywhere else. Highly recommend.",
+      "author": "Elena Uranwala",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-17"
+    },
+    {
+      "text": "The real deal. You know how there was a dog whisperer?? This guy is the car whisperer! No joke. Diagnosed the issue and fixed problem without hesitation. Really knowledgeable, like old school knowledgeable...before computers were around to tell everyone everything. You will not be disappointed with his service or prices.",
+      "author": "J V",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-17"
+    },
+    {
+      "text": "Best mechanic in town hands down. Knowledgeable, polite, honest, and you can tell he is passionate about SAVING YOU MONEY.\nIf you want a smart mechanic who will tell you what your car needs and also do everything he can to give you a reasonable price, then Vitaly is your man. I wouldn't recommend any other mechanic if you're in the Portland Area.",
+      "author": "Cj Stork",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-06-16"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Maxim Autocare shop front with metal building, signage, and parked vehicles",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Orange compact car parked against white building with industrial windows",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Maxim Autocare storefront with red door and large garage doors at 1024",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Silver pickup truck elevated on blue hydraulic lift in auto repair garage",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Car engine lifted on hydraulic jack in auto repair shop garage",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Orange car with significant front-end damage and dented fender near wheel",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Open engine bay showing internal mechanics and components of a vehicle",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 149,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "name": "Alex Lowy Photography LLC",
+  "slug": "alex-lowy-photography-llc",
+  "category": "wedding photographer",
+  "address": "246 Haverford Ave 2nd floor",
+  "city": "Narberth",
+  "state": "PA",
+  "zip": "19072",
+  "phone": "(610) 664-1475",
+  "email": "",
+  "website": "http://www.lowyphoto.com/",
+  "rating": 4.8,
+  "reviewCount": 12,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {},
+  "services": [],
+  "reviews": [
+    {
+      "text": "Alex is hands down the best photographer out there.\n\nI met Alex when he did my engagement and wedding photographs in 2012 and 2013 respectively. The photos were fantastic and an amazing memory of my wife Stephanie, who unfortunately passed away.\n\nI reconnected with Alex in 2022 to do some new pictures. Alex always knows how to communicate with his clients for how to pose and how to get the best lighting and background. His composition skills are stellar. I am very thrilled with the results.",
+      "author": "Pablo Azar",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-08-08"
+    },
+    {
+      "text": "I needed some professional shots of my office for promotion. I already had a photographer shoot my office, but the pics were very boring so I gave Alex a shot since he came highly recommended. I only needed about 3 or 4 shots for my project. I ended up getting more than I needed with 6 good shots! He was quick, professional, and friendly. I highly recommend hiring Alex for any professional project you may have.",
+      "author": "Zeus",
+      "rating": 5,
+      "source": "google",
+      "date": "2017-03-16"
+    },
+    {
+      "text": "Dear Alex,\nWe received our  pictures today and we are thrilled! Good job and thank you so much for the surprises.  Can not wait to send them to my siblings and my children. You have taken a copy of a copy and brought it back o life. I cannot express to you enough how much that means to us.\n\nPSA: We emailed Alex  @ Lowy Photography  a Xerox copy of a copy of our parents in the early 60's and  you unleashed your magic on it!\nYour hard work, professionalism & quick turnaround definitely shows in these photos!\nThank you again!\nBobbi & Greg",
+      "author": "Bobbi St. Leger",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-04-05"
+    },
+    {
+      "text": "Alex photographed my 50th high school reunion and did a fantastic job. I don't know how he did it, but every shot\n(in a very crowded room) showed people at their natural best, smiling and never looking posed. He did this all unobtrusively and seamlessly. I can't recommend him highly enough.",
+      "author": "Michael Freeman",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-08-01"
+    },
+    {
+      "text": "He is the one of the best or if not best photographer in Philadelphia.\nHe has shown amazing creative skills which is critical in his profession.\nHe works with his client to a point close to perfection.\nOur networking group #LocalEntrepreneursNetwork is proud he is one of our outstanding member.",
+      "author": "Armin Fernando",
+      "rating": 5,
+      "source": "google",
+      "date": "2018-10-26"
+    }
+  ],
+  "team": [],
+  "photos": [],
+  "stats": [
+    {
+      "value": 12,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.8,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "poor"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

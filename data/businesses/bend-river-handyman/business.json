@@ -1,0 +1,148 @@
+{
+  "name": "Bend River Handyman",
+  "slug": "bend-river-handyman",
+  "category": "handyman",
+  "address": "734 SE 5th St",
+  "city": "Bend",
+  "state": "OR",
+  "zip": "97702",
+  "phone": "(209) 362-7576",
+  "email": "",
+  "website": "http://bendriverhandyman.com/",
+  "rating": 4.9,
+  "reviewCount": 14,
+  "tagline": "",
+  "brandNarrative": "AVAILABLE\n        \n           \n           HANDYMAN SERVICES\n           Fast · Reliable · Affordable\n           \n              \n                 \n              \n              \n                 \n              \n              \n                 \n              \n              \n                 \n              \n              \n                 \n              \n              Trusted Local Service\n           \n        \n        \n           Drywall Repair · Painting · Furniture Assembly · Minor Plumbing · Minor Electrical · Shelving · Door Repair\n           \n              \n                 \n              \n              CALL NOW(888) 123-4567\n           \n           \n              \n                 \n                    \n                 \n                 Our Services\n              \n              \n                 \n              \n           \n           \n              \n                 \n                    \n                    \n                    \n                 \n                 How It Works\n              \n              \n                 \n              \n           \n           \n              \n                 \n                    \n                    \n                    \n                 \n                 Disclaimer\n              \n              \n                 \n              \n           \n           \n              \n                 \n                    \n                    \n                 \n                 Fast Service\n              \n              \n                 \n                    \n ",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Closed",
+    "Tuesday": "9:00 AM – 5:00 PM",
+    "Wednesday": "Closed",
+    "Thursday": "Closed",
+    "Friday": "Closed",
+    "Saturday": "Closed",
+    "Sunday": "9:00 AM – 5:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Andrew did a great job doing stacked stone on my fireplace and hanging the tv, sound bar, and mantle. He has also done numerous other smaller projects and all have turned out well. His drywall repair and patching is great. We enjoy working with him and will use him for future projects.",
+      "author": "Susan Gaydosh",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-10-14"
+    },
+    {
+      "text": "I am so impressed with the work Andrew has done in our home.  He’s helped me out with the installation of new light fixtures, hanging gas heaters out on our patio and with designing a custom tiled dog shower in our garage.  Andrew is very professional, does amazing, fast work and is always on time and willing to squeeze me in to his schedule.  I would definitely recommend Andrew and Bend River Handyman!",
+      "author": "Amy Zamuner",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-10-27"
+    },
+    {
+      "text": "Bend river handyman repaired drywall, hung ceiling fans throughout the house, mounted 2 flat screen TVs on articulating mounts and build a deck for our hot tub. Andrew is Such a hard worker and very is easy to get along with! He made the process easy and fun we will be calling again soon!",
+      "author": "Bobbi Hill",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-10-25"
+    },
+    {
+      "text": "Andrew did a great job mounting our TV on a swing arm and installing a new kitchen faucet.  He was prompt and efficient.  I will definitely call him again and highly recommend him.",
+      "author": "Robert Lacombe",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-01-18"
+    },
+    {
+      "text": "Hired Andrew to install lightbulbs in high vaulted ceilings and repair a pocket door. He was late arriving for his appointment but did a good job installing all the new can lights and bulbs. However, he did not allow enough time at this appointment to repair the pocket door nor did he give me date when he would be able to do it.",
+      "author": "Catherine Brooks",
+      "rating": 3,
+      "source": "google",
+      "date": "2023-09-29"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Interior construction space with Pink fiberglass insulation and reflective vapor barrier installed",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Interior of a wooden sauna with benches, heater, and light fixture installed",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Modern living room with stacked stone fireplace, TV, and cream armchair",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Clean bathroom with shower stall, glass doors, and beige tile flooring",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Modern bathroom shower with gray tiles, mosaic accent strip, and pebble floor.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Modern wooden sauna structure with glass door and deck in snowy mountain setting",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Modern wooden garden shed attached to brick house in snowy landscape",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Modern living room with fireplace, TV, leather sofa, and contemporary furniture",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Interior framing construction showing wooden studs, OSB sheathing, and electrical wiring installation",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Stone veneer installation in progress on house foundation with tools nearby",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 14,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#e5e7eb",
+    "accent": "#9ca3af",
+    "note": "Extracted from business website"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "AVAILABLE HANDYMAN SERVICES Fast · Reliable · Affordable Trusted Local Service Drywall Repair · Painting · Furniture Assembly · Minor Plumbing · Minor Electrical · Shelving · Door Repair CALL NOW(888) 123-4567 Our Services How It Works Disclaimer Fast Service Licensed & Insured No Fix, No Fee By calling, you agree to our terms & disclaimer. Domain for sale. Disclaimer Independent Marketing Platform: This website is an independent marketing and referral platform. We are not affiliated with, endorsed by, or associated with any specific brand, company, organization, or the previous owner of this domain. This domain name may have been previously registered and later acquired through a lawful domain registration or expiration process. Any references to third-party trademarks, brand names, or services are for identification purposes only and remain the property of their respective owners. By calling the number on this website, you will be connected with an independent third-party service provider. This website is not a direct service provider and does not offer services itself. Pay-Per-Call Service Notice: This website is operated as a pay-per-call lead generation service. When you call the number displayed on this page, you may be connected to a third-party appliance repair service provider or contractor in your area. The operators of this website are not the actual service providers. No Endorsement: Listing of any service provider through this website does not constitute an endorsement or recommendation by the website owner. We make no representations or warranties regarding the quality, reliability, or credentials of any service provider you may be connected to. Service Availability: Service availability, pricing, and scheduling are determined solely by the third-party service provider. Response times and same-day availability may vary by location and demand. Pricing: All pricing for repair services is set by the independent contractor or service provider you are connected to. Always request an upfront written estimate before authorizing any work. Licensing & Insurance: You are solely responsible for verifying that any service provider you hire is properly licensed, bonded, and insured in your state or jurisdiction. This website makes no guarantees regarding the licensing or insurance status of any service provider. Limitation of Liability: To the maximum extent permitted by law, the operators of this website shall not be liable for any damages, losses, or claims arising from your use of this service or interactions with any third-party service provider. Privacy: By calling this number, you consent to the call being recorded for quality assurance purposes. Your phone number may be used to match you with local service providers. Domain for Sale: This domain is actively listed for sale. All inquiries regarding domain purchase should be directed to the contact email provided on this page. By using this website or calling the number displayed, you ackno"
+}

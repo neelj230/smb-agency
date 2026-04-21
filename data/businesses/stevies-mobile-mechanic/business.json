@@ -1,0 +1,195 @@
+{
+  "name": "Stevie's Mobile Mechanic",
+  "slug": "stevies-mobile-mechanic",
+  "category": "mobile mechanic",
+  "address": "18049 N 13th Ave",
+  "city": "Phoenix",
+  "state": "AZ",
+  "zip": "85023",
+  "phone": "(602) 654-6118",
+  "email": "",
+  "website": null,
+  "rating": 4.4,
+  "reviewCount": 27,
+  "tagline": "Your driveway. My shop.",
+  "brandNarrative": "Stevie shows up where the car breaks down — driveways, parking lots, the side of the road. Diagnostics without a code reader, honest quotes, jobs done for a fraction of what a shop charges. Brakes, fuel pumps, ignition switches, catalytic converters, O2 sensors — fixed where the vehicle is parked.",
+  "ownerStory": "Stevie runs a one-man mobile operation out of North Phoenix. Customers call him for everything from dead batteries at 6am to fuel pumps that failed on the freeway. The draw is the combination of speed, fair pricing, and the kind of diagnostic instinct that comes from years under a hood.",
+  "hours": {
+    "Monday": "Open 24 hours",
+    "Tuesday": "Open 24 hours",
+    "Wednesday": "Open 24 hours",
+    "Thursday": "Open 24 hours",
+    "Friday": "Open 24 hours",
+    "Saturday": "Open 24 hours",
+    "Sunday": "Open 24 hours"
+  },
+  "services": [
+    {
+      "name": "Diagnostics",
+      "description": "On-the-spot diagnosis — often without plugging in a single code reader.",
+      "icon": "gauge"
+    },
+    {
+      "name": "Brakes & Rotors",
+      "description": "Pads, rotors, calipers. Done in your driveway in a couple of hours.",
+      "icon": "shield-check"
+    },
+    {
+      "name": "Fuel Pumps",
+      "description": "Car won't start? Fuel pump replacements done on-site, same day.",
+      "icon": "fuel"
+    },
+    {
+      "name": "Ignition & Electrical",
+      "description": "Batteries, alternators, starters, ignition switches. I bring the tools.",
+      "icon": "zap"
+    },
+    {
+      "name": "Sensors & Emissions",
+      "description": "O2 sensors, catalytic converters, check engine light — fixed properly.",
+      "icon": "wrench"
+    },
+    {
+      "name": "Roadside Repair",
+      "description": "Broken down? Call and I'll come to you. Phoenix metro, day or night.",
+      "icon": "car"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Steve is professional, friendly and communicative. His pricing is also very fair. He worked on my BMW X5, did the diagnostics, ordered the parts for me. He was able to fix my O2 sensors and brakes quickly, for about a 3rd of what another shop was going to charge me.",
+      "author": "N B",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-01"
+    },
+    {
+      "text": "By far the best in Phoenix AZ!! Stevie came out quick to take care of my engine problem. He was very professional and did a great job! I will always call Stevie from now on.",
+      "author": "Paul Coya",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-02"
+    },
+    {
+      "text": "Once again Stevie you came thru when I needed my car fixed. Fast and friendly and gets the job done. Thanks again for fixing my car. AZ you need this mechanic in your life.",
+      "author": "Brenda Guerrero",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-10"
+    },
+    {
+      "text": "Absolutely amazing experience, called and had me sorted for a part and labor for less than half what I was being quoted for just the part everywhere else. Work was done even faster than expected and double checked everything before hitting the road.",
+      "author": "AbyssalPrimarch",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-07"
+    },
+    {
+      "text": "I called Steve and he was able to find the problem right away. Without using a code finder he diagnosed it and told me it was the fuel pump that went bad. He fixed it pretty quick and explained and showed me what was wrong with the old one.",
+      "author": "Josue lozano",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-17"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/mobile-tire-change-suv.jpg",
+      "alt": "Stevie mid tire change on a teal SUV on a Phoenix street, jack and impact drill on the asphalt",
+      "category": "work"
+    },
+    {
+      "src": "/photos/oil-filter-service.jpg",
+      "alt": "Engine bay with orange oil filter cap, intake manifold and blue ignition coils during service",
+      "category": "work"
+    },
+    {
+      "src": "/photos/ignition-coils-v6.jpg",
+      "alt": "Three blue ignition coils installed on a V6 cylinder head mid-service",
+      "category": "work"
+    },
+    {
+      "src": "/photos/belt-pulley-service.jpg",
+      "alt": "Close-up of engine belt and pulley assembly during mobile repair",
+      "category": "work"
+    },
+    {
+      "src": "/photos/engine-pulley-closeup.jpg",
+      "alt": "Greasy engine pulleys and belt system on a vehicle up on a mobile jack",
+      "category": "work"
+    },
+    {
+      "src": "/photos/water-pump-repair.jpg",
+      "alt": "Water pump housing exposed during a mobile engine repair",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 4.4,
+      "suffix": "★",
+      "label": "Google Rating"
+    },
+    {
+      "value": 27,
+      "suffix": "+",
+      "label": "Reviews"
+    },
+    {
+      "value": 24,
+      "suffix": "/7",
+      "label": "Available"
+    },
+    {
+      "value": 1,
+      "prefix": "~",
+      "suffix": "/3",
+      "label": "Cost vs Shops"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Do you actually come to me?",
+      "answer": "Yes. Driveway, parking lot, roadside — wherever the vehicle is. I work across the Phoenix metro."
+    },
+    {
+      "question": "How does your pricing compare to a shop?",
+      "answer": "Customers regularly say jobs cost a third to half of what a shop quoted. No bays, no front desk, no markup on top of markup."
+    },
+    {
+      "question": "What kind of jobs can you do on-site?",
+      "answer": "Brakes, fuel pumps, batteries, alternators, starters, ignition switches, O2 sensors, catalytic converters — most jobs that don't require a lift."
+    },
+    {
+      "question": "Are you available after hours?",
+      "answer": "Text or call anytime. If I can get to you, I will. Emergency roadside is a regular part of what I do."
+    },
+    {
+      "question": "How do I get a quote?",
+      "answer": "Call or text with the make, model, and what's wrong. I'll usually have a ballpark within a few minutes."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#0E0E0E",
+    "accent": "#EC5F24",
+    "note": "Charcoal black pulled from raw engine bay photos, bright industrial orange pulled from the oil-filter cap in the service photos and the Phoenix desert sun."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Fair pricing — often a third of shop quotes",
+      "Fast on-site response and diagnostics",
+      "Diagnostic instinct without relying on code readers"
+    ],
+    "common_complaints": [
+      "One-man operation — occasional follow-up communication gaps"
+    ],
+    "suggested_tagline": "Your driveway. My shop.",
+    "photo_quality": "raw, working-mechanic, high authenticity"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

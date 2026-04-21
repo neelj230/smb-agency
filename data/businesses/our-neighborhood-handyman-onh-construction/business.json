@@ -1,0 +1,138 @@
+{
+  "name": "Our Neighborhood Handyman / ONH Construction",
+  "slug": "our-neighborhood-handyman-onh-construction",
+  "category": "handyman",
+  "address": "319 W Seymour St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19144",
+  "phone": "(888) 856-6182",
+  "email": "",
+  "website": "https://ourneighborhoodhandyman.com/",
+  "rating": 4.9,
+  "reviewCount": 28,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM – 5:00 PM",
+    "Tuesday": "9:00 AM – 5:00 PM",
+    "Wednesday": "9:00 AM – 5:00 PM",
+    "Thursday": "9:00 AM – 5:00 PM",
+    "Friday": "9:00 AM – 5:00 PM",
+    "Saturday": "9:00 AM – 5:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Exceptional Bathroom Remodel!\n\nWe hired Our Neighborhood Handyman for a full bathroom remodel in our Philly home, and they absolutely delivered. The team was punctual, professional, and kept the space clean. They handled plumbing, tiling, and electrical with care and precision. The results are stunning — top-notch tilework and attention to detail. Transparent pricing, great communication, and zero stress throughout the project. Highly recommend to anyone looking for skilled, reliable pros!",
+      "author": "K Moore",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-18"
+    },
+    {
+      "text": "Jafar is highly skilled, knowledgeable, professional, and kind. I strongly recommend calling him. His craftsmanship is excellent and he really cares.",
+      "author": "Sam Marvit",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-26"
+    },
+    {
+      "text": "I contacted Our Handyman Services and Jafar instantly replied the same day. I needed help installing a window ac built into the wall. He showed up on time and did great work. He went the extra mile to provide sufficient installation around the ac, and even touched up paint around it. He is such a genuine and honest guy. I look forward to contacting him to help with future home projects.",
+      "author": "Tyler Cook",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-05-30"
+    },
+    {
+      "text": "Had some small renovations done in my kitchen and bathroom. Our Neighborhood Handyman came through with clean, quality work. They were professional, on time, and made the whole process easy. Definitely recommend.",
+      "author": "Hotep Pinder",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-05-10"
+    },
+    {
+      "text": "I’ve never seen a handyman that not only overcharges for services with his new payment system… but ALSO will leave behind garbage for you to clean! He bought 2 light fixtures and installed one but left behind a completely brand new light fixture. He will overcharge you every chance he gets. Don’t use him EVER! You are better off finding another handyman. Look at all the mess he left! Would you hire someone like this? I would never recommend my family and friends to use this business. People are money hungry!!",
+      "author": "Jessica (J Stodd)",
+      "rating": 1,
+      "source": "google",
+      "date": "2023-10-04"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Our Neighborhood Handyman / ONH Construction photo 1",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Modern bathroom shower enclosure with gray subway tile and glass door",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Interior renovation project showing exposed wall studs and construction materials in progress",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Cluttered bathroom sink counter with debris, boxes, and installation materials during renovation",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "LED ceiling light fixture with brushed nickel trim ring and packaging materials on counter",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Man wearing white hard hat under tree branches during outdoor work.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Interior room renovation in progress with pink paint and white tile installation",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Our Neighborhood Handyman / ONH Construction photo 8",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 28,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#d42027",
+    "accent": "#d42027",
+    "note": "Extracted from business website"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": ""
+}

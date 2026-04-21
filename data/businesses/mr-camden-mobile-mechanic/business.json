@@ -1,0 +1,117 @@
+{
+  "name": "Mr. Camden Mobile Mechanic",
+  "slug": "mr-camden-mobile-mechanic",
+  "category": "mobile mechanic",
+  "address": "1632 Carman St",
+  "city": "Camden",
+  "state": "NJ",
+  "zip": "08105",
+  "phone": "(856) 446-8644",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 3,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "8:00 AM – 7:00 PM",
+    "Tuesday": "8:00 AM – 7:00 PM",
+    "Wednesday": "8:00 AM – 7:00 PM",
+    "Thursday": "8:00 AM – 7:00 PM",
+    "Friday": "8:00 AM – 7:00 PM",
+    "Saturday": "8:00 AM – 7:00 PM",
+    "Sunday": "8:00 AM – 7:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Can’t say enough good things. Honest, fast, and respectful. The whole experience was stress free.",
+      "author": "Grace Sanders",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-23"
+    },
+    {
+      "text": "Broke down with a broken serpentine belt, Rob came to the rescue and fixed it in no time. My husband And I give him 10stars!!!",
+      "author": "Dana Plowden",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-05-11"
+    },
+    {
+      "text": "Really appreciated how discreet the service was. The mechanic fixed my engine while I was at a home—tactful and timely, he had everything sorted without any fuss.",
+      "author": "Jennie De La Cruz",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-09-11"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Black Cadillac SUV with open hood displaying chrome wheels and automotive parts",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Two workers changing a tire on a vehicle on a highway shoulder",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Mechanic lying under open hood of black Nissan vehicle performing engine diagnostics with equipment",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Open car engine bay showing internal mechanics and components during maintenance",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Close-up of a vehicle brake disc and caliper assembly showing metal rotor and components.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Light blue sedan parked on driveway with hedges and trees in background",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Mr. Camden Mobile Mechanic photo 7",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 3,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

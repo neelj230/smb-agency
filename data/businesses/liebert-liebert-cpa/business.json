@@ -1,0 +1,202 @@
+{
+  "name": "Liebert & Liebert CPA",
+  "slug": "liebert-liebert-cpa",
+  "category": "accounting firm",
+  "address": "Parking lot",
+  "city": "4300 NE Broadway Suite 3",
+  "state": "",
+  "zip": "",
+  "phone": "(503) 287-4992",
+  "email": "",
+  "website": null,
+  "rating": 4.4,
+  "reviewCount": 10,
+  "tagline": "Numbers Made Simple. Time Always Given.",
+  "brandNarrative": "At Liebert & Liebert CPA, the clock doesn't run out when your questions do. When Hunter Jones arrived 45 minutes late to his appointment, Mark didn't cut things short — he stayed until nearly 6 PM, walking through every detail until the commission-based tax picture was clear. That kind of unhurried, person-first approach is the throughline in everything this firm does. Located in a understated storefront on NE Broadway in Portland, this is the kind of place where complex becomes comprehensible and no one makes you feel behind for asking.\n\nRichard brings deep technical knowledge to clients navigating genuinely complicated situations. Amy Bangsund had never needed tax help before, but when a complex year arrived, Richard sat with her and her family and turned overwhelming into manageable. That's the real differentiator here — not software, not speed, but the willingness to actually sit with someone and share expertise in a way that lands. Mark and Richard represent a firm that believes understanding matters as much as accuracy.\n\nWith a 4.4-star rating across a tight but telling set of reviews, Liebert & Liebert earns its reputation through individual relationships rather than volume. The firm operates Monday through Friday, 8:30 AM to 5:00 PM, with the kind of consistent, professional hours that signal stability. One reviewer noted the absence of a website with curiosity rather than frustration — because when the people inside are this good, word of mouth does the work.",
+  "ownerStory": "Mark Liebert is the kind of CPA who stays late — not because the billing meter is running, but because a client still has questions. When a commission salesman walked in 45 minutes behind schedule and still needed to untangle a complicated financial picture, Mark didn't redirect or rush. He explained things in plain language, stayed past closing, and made sure the client left with clarity. That patience isn't a policy. It's a personality.\n\nAlongside Richard, who brings the kind of expertise that first-time tax clients genuinely need when life gets financially complicated, the Liebert team has quietly built something rare: an accounting firm where people feel helped rather than processed. The firm's NE Broadway location has the feel of a trusted neighborhood institution — gray doors, arched windows, no flashy signage — which matches the firm's character perfectly. They're not trying to impress you with aesthetics. They're trying to get your taxes right.",
+  "hours": {
+    "Monday": "8:30 AM – 5:00 PM",
+    "Tuesday": "8:30 AM – 5:00 PM",
+    "Wednesday": "8:30 AM – 5:00 PM",
+    "Thursday": "8:30 AM – 5:00 PM",
+    "Friday": "8:30 AM – 5:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Individual Tax Preparation",
+      "description": "Personalized federal and state tax filing for individuals, including complex income situations like commission-based earnings, investments, and life changes.",
+      "icon": "file-text"
+    },
+    {
+      "name": "Complex Year Tax Consulting",
+      "description": "In-depth consultations for clients facing unusually complicated tax years — major life events, new income streams, or first-time filing needs.",
+      "icon": "layers"
+    },
+    {
+      "name": "Small Business & Self-Employed Tax",
+      "description": "Tax strategy and preparation for self-employed individuals, freelancers, and commission-based professionals navigating variable income structures.",
+      "icon": "briefcase"
+    },
+    {
+      "name": "Tax Planning & Advisory",
+      "description": "Proactive planning sessions to help clients understand their tax position throughout the year, not just at filing time.",
+      "icon": "calendar"
+    },
+    {
+      "name": "CPA Consultations",
+      "description": "One-on-one appointments with a licensed CPA to answer questions, review financials, and provide expert guidance in plain language.",
+      "icon": "user-check"
+    },
+    {
+      "name": "Business Accounting Services",
+      "description": "Ongoing bookkeeping, financial review, and accounting support for small and mid-size businesses in the Portland area.",
+      "icon": "bar-chart-2"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "My first visit today was a great experience. I was 45 minutes late to the appointment and took Mark's time until about 5:30-5:45pm in which he was prepared to take as much time as necessary to answer my questions and help me prepare my taxes.\n\nI'm a commission salesman so my finances are sometimes more complicated but I felt like he dumbed it down for me in a way that made sense and was easy to understand.\n\nThank you Mark & team for being accomodating and professional I would recommend their firm for anybody looking for a new CPA.",
+      "author": "Hunter Jones",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-04-03"
+    },
+    {
+      "text": "Richard is so knowledgeable and helpful. We have never needed tax help before, but we had a complex year. We are so glad we were able to sit with Richard and benefit from his expertise.",
+      "author": "Amy Bangsund",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-02-21"
+    },
+    {
+      "text": "Nice",
+      "author": "Karl Ahmed",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-01-05"
+    },
+    {
+      "text": "They do not appear to have a website,  which is curious.",
+      "author": "Keegan Elliott",
+      "rating": 3,
+      "source": "google",
+      "date": "2026-03-27"
+    },
+    {
+      "text": "I phoned on 5 January 2026 and was told they're not taking new clients.",
+      "author": "Dave Dixon",
+      "rating": 1,
+      "source": "google",
+      "date": "2026-01-05"
+    }
+  ],
+  "team": [
+    {
+      "name": "Mark",
+      "role": "CPA / Tax Advisor",
+      "bio": "Mark is known for staying as long as it takes — literally. Clients describe him as patient, thorough, and gifted at breaking down complicated tax situations into language that actually makes sense. He stayed past 5:45 PM to make sure a commission-based client had full clarity before leaving.",
+      "credentials": [
+        "CPA"
+      ]
+    },
+    {
+      "name": "Richard",
+      "role": "CPA / Tax Specialist",
+      "bio": "Richard brings deep expertise that first-time and experienced clients alike rely on during complicated financial years. Clients describe sitting with him as genuinely beneficial — the kind of guidance that turns financial uncertainty into confidence.",
+      "credentials": [
+        "CPA"
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Storefront for Lieberl & Lieberl CPA located at 4300 N.E. Broadway with gray doors and arched window.",
+      "category": "exterior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 4.4,
+      "suffix": "★",
+      "label": "Average Customer Rating"
+    },
+    {
+      "value": 10,
+      "suffix": "+",
+      "label": "Verified Client Reviews"
+    },
+    {
+      "value": 2,
+      "suffix": "",
+      "label": "Named CPAs on Staff"
+    },
+    {
+      "value": 5,
+      "suffix": "-Day",
+      "label": "Availability Per Week"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Do you work with clients who have complicated or unusual tax situations?",
+      "answer": "Absolutely. Liebert & Liebert regularly works with commission-based salespeople, clients experiencing major financial life changes, and first-time filers navigating complex years. Both Mark and Richard are experienced in making complicated situations understandable."
+    },
+    {
+      "question": "What can I expect from my first appointment?",
+      "answer": "A real conversation with a knowledgeable CPA who will take the time to understand your situation. Clients consistently note that Mark and Richard never make them feel rushed — appointments run as long as they need to, even past business hours when necessary."
+    },
+    {
+      "question": "Are you currently accepting new clients?",
+      "answer": "Availability for new clients can be limited during peak tax season. One caller in January 2026 was told new clients weren't being taken at that time. It's best to call ahead at (503) 287-4992 to check current availability and schedule early."
+    },
+    {
+      "question": "Do you have a website where I can learn more or book an appointment?",
+      "answer": "At this time, Liebert & Liebert does not have a website. The best way to connect is to call the office directly at (503) 287-4992 during business hours, Monday through Friday, 8:30 AM to 5:00 PM."
+    },
+    {
+      "question": "What makes Liebert & Liebert different from a large tax chain like H&R Block?",
+      "answer": "The difference is time and expertise. You're meeting with a licensed CPA — not a seasonal employee — who will sit with you, learn your situation, and explain things in plain language. Clients who've had complex situations specifically sought out Liebert & Liebert for the depth of knowledge and personal attention."
+    },
+    {
+      "question": "What are your office hours and where are you located?",
+      "answer": "The office is open Monday through Friday, 8:30 AM to 5:00 PM, and is located at 4300 NE Broadway, Suite 3, Portland, Oregon. Parking is available on-site. The office is closed on weekends."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#2C3E50",
+    "accent": "#B8860B",
+    "note": "Deep navy anchors the brand in trust, stability, and professional credibility — exactly what you want from a CPA. Dark goldenrod as the accent adds warmth and a subtle nod to value without feeling corporate or cold. Together they evoke the feel of a trusted, established office rather than a flashy franchise."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Exceptional patience and willingness to give clients as much time as they need — Mark stayed until 5:45 PM for a late client without complaint",
+      "Deep CPA expertise that demystifies complex tax situations, praised by both first-time filers and clients with complicated income structures",
+      "Warm, human-scale service that makes clients feel genuinely helped rather than processed through a system"
+    ],
+    "common_complaints": [
+      "Not currently accepting new clients as of January 2026, creating access barriers for prospective customers",
+      "No website makes discovery and appointment scheduling unnecessarily difficult and raised concern among at least one reviewer"
+    ],
+    "suggested_tagline": "Your Taxes, Explained. No Rush.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "patient",
+      "knowledgeable",
+      "approachable",
+      "thorough",
+      "unhurried"
+    ],
+    "named_staff": [
+      "Mark",
+      "Richard"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

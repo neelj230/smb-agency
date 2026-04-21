@@ -1,0 +1,146 @@
+{
+  "name": "Daryl's Style & Barber Shop",
+  "slug": "daryls-style-barber-shop",
+  "category": "barber",
+  "address": "3360 Triangle Dr SE",
+  "city": "Salem",
+  "state": "OR",
+  "zip": "97302",
+  "phone": "(503) 363-4165",
+  "email": "",
+  "website": null,
+  "rating": 4.7,
+  "reviewCount": 294,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Closed",
+    "Tuesday": "9:00 AM – 5:00 PM",
+    "Wednesday": "9:00 AM – 5:00 PM",
+    "Thursday": "9:00 AM – 5:00 PM",
+    "Friday": "9:00 AM – 5:00 PM",
+    "Saturday": "9:00 AM – 5:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "My husband has gone to Daryl’s since high school, and now our 19-year-old son won’t get his hair cut anywhere else and even waiting until he’s home from college. The barbers are always friendly, quick, clean, affordable, and convenient. Highly recommend!",
+      "author": "Christy",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-11"
+    },
+    {
+      "text": "For about 4 years, when I show up with messy hair, Jacob makes me look great. Super fun to talk to and I have yet to be dissatisfied by his skill. JJJ once said “I trust my barber”, I agree with this statement. 10/10. Love this place.",
+      "author": "Lucas Vilches",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-07-25"
+    },
+    {
+      "text": "Very satisfied with my haircut! I have been going since I was a child and they never done me wrong! The service was very excellent! Great conversation and great attention to detail. Beard trim was very nicely done and it was very well priced for all services. Highly recommend.",
+      "author": "Halsey Parkerson",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-05-24"
+    },
+    {
+      "text": "I went here for a flat top and me one of the most talented haircutters in my entire 35 years of having a flat top. I have literally been to dozens of barbers over 35 years who said they can do it, but who proved to be wrong. The young man you want to see her is named, “Chance.”  He’s very personable and I have to say, very talented.",
+      "author": "Spencer Colgan Wallpaper & Painting",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-07-27"
+    },
+    {
+      "text": "Highway robbery I went in for a beard trim, which is $18 now mind you I usually shave my head but it had grown out for a little while so I just told him to knock it all off. He charged me $30 for a haircut so $48 for a beard trim. I will never go back.",
+      "author": "Robert Smock",
+      "rating": 2,
+      "source": "google",
+      "date": "2026-01-23"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Storefront of a barber shop with red and blue signage and large windows",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Daryl's Style & Barber shop storefront with West Coast Spas signage and palm tree",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Barber shop window sign displaying open status and business hours",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Young boy receiving a fresh haircut indoors from a barber or stylist",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Daryl's Style & Barber shop exterior building with sign and parking lot",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Barber giving a young boy a professional haircut in a barbershop",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Professional headshot of a man with dark hair wearing a black shirt",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Young boy smiling at camera in school classroom setting",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Man in cap and t-shirt interacting with child in home interior setting",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Man with long gray beard wearing glasses in car, selfie-style portrait",
+      "category": "team"
+    }
+  ],
+  "stats": [
+    {
+      "value": 294,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.7,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

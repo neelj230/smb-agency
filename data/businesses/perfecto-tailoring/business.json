@@ -1,0 +1,111 @@
+{
+  "name": "Perfecto Tailoring",
+  "slug": "perfecto-tailoring",
+  "category": "tailor",
+  "address": "1033 SW Yamhill St",
+  "city": "Portland",
+  "state": "OR",
+  "zip": "97205",
+  "phone": "(503) 267-4439",
+  "email": "",
+  "website": null,
+  "rating": 4.8,
+  "reviewCount": 37,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "3:00 – 8:00 PM",
+    "Tuesday": "3:00 – 8:00 PM",
+    "Wednesday": "3:00 – 8:00 PM",
+    "Thursday": "3:00 – 8:00 PM",
+    "Friday": "3:00 – 8:00 PM",
+    "Saturday": "3:00 – 8:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "UTTERLY BRILLIANT\nHaving worked with tailors throughout the world, I can say confidently that Mike is not only a master tailor and craftsperson but also has the eye of an artist.\n\nI brought him a very technically and materially challenging repair and he worked an absolute miracle, taking the time to collaborate and confirm his ideas and intentions before making a single change. The results are simply outstanding.  I would trust him with everything from simple hemming to highly complex alterations.",
+      "author": "Renee Soucy",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-10"
+    },
+    {
+      "text": "I believe in recycling and that sustainability is important for our future.  My work pants were perfectly good but the zipper stopped working.  Perfecto Tailoring to the rescue! The prices are reasonable and you will save money of buying a new pair.  Cordial and friendly services although entry to the building isn't possible without calling or texting for a let-in. I was texted the address and called when I arrived.  Entry was easy, the repair took a day or two and I am very happy with the work.  They take CasApp, cash, checks or Venmo.  They don't take credit/debit card or Zelle.  Also keep in mind that they probably won't have change either if you pay in cash.  A quick trip to Starbucks got me the exact change that I needed.",
+      "author": "Lucas Kerper",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-04-01"
+    },
+    {
+      "text": "Mike did such a phenomenal job altering my fiancée's suit jacket to fit beautifully for our wedding day! And he was a lovely human to work with, great communication, fast, kind, and so reasonably priced for such quality work. A dream! He prefers at least two weeks to get the job done since he does all the work himself right now, but he was able to help us out with a rush job and we can't recommend him enough. Thanks again!",
+      "author": "Rachel Stirling",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-10-10"
+    },
+    {
+      "text": "Mike is an excellent old school European tailor. Prices are very reasonable as well. I have had many business suits  and slacks altered by him. You cannot go wrong with Mike. Access to his suite from the street can be a bit difficult at times but it is well worth the slight inconvenience.",
+      "author": "M Hanlon",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-09-23"
+    },
+    {
+      "text": "Mike did an outstanding job on a cheap suit I brought to him. His expertise and excellent communication are second to none, and it was all quite affordable as well. Be sure to support small businesses and great folks like Mike!",
+      "author": "K.H. McClure",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-08-20"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Sewing studio interior with thread wall display, sewing machine, and work supplies",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Sewing studio interior with thread wall organizer and embroidery machine",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Professional Building entrance with red granite facade and glass doors at 1639",
+      "category": "exterior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 37,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.8,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "fair"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

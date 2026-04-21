@@ -97,37 +97,25 @@
       "name": "Cameron",
       "role": "Electrician",
       "bio": "Cameron is one of the go-to field guys at JT Electric — customers note he arrives quickly, solves problems efficiently, and goes the extra mile coordinating with utility linemen to get the full job done.",
-      "credentials": [
-        "Fast response",
-        "Utility coordination"
-      ]
+      "credentials": ["Fast response", "Utility coordination"]
     },
     {
       "name": "Kyle",
       "role": "Electrician",
       "bio": "Kyle works alongside Cameron on residential calls and earns consistent praise for his professionalism and ability to fix problems without overcomplicating them.",
-      "credentials": [
-        "Residential electrical",
-        "Team-based efficiency"
-      ]
+      "credentials": ["Residential electrical", "Team-based efficiency"]
     },
     {
       "name": "Brendan",
       "role": "Estimator / Field Electrician",
       "bio": "Brendan is known for clear, no-nonsense explanations of what needs to be done — customers appreciate that his quotes are honest, to the point, and followed up quickly by the office.",
-      "credentials": [
-        "Clear communication",
-        "Accurate estimating"
-      ]
+      "credentials": ["Clear communication", "Accurate estimating"]
     },
     {
       "name": "Austin",
       "role": "Electrician",
       "bio": "Austin has a calm, confident approach that puts customers at ease — he's the kind of technician who tells you it's straightforward and then makes it look that way, whether it's a bathroom outlet or an EV charger install.",
-      "credentials": [
-        "EV charger installation",
-        "Outlet & circuit work"
-      ]
+      "credentials": ["EV charger installation", "Outlet & circuit work"]
     }
   ],
   "photos": [
@@ -225,7 +213,5 @@
       "Jeremy"
     ]
   },
-  "dataSources": [
-    "google"
-  ]
+  "dataSources": ["google"]
 }

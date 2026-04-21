@@ -1,0 +1,146 @@
+{
+  "name": "Cmcleaning Residential & Commercial",
+  "slug": "cmcleaning-residential-commercial",
+  "category": "carpet cleaning",
+  "address": "4800 Fillmore Terrace",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19124",
+  "phone": "(267) 367-0392",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 210,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Open 24 hours",
+    "Tuesday": "Open 24 hours",
+    "Wednesday": "Open 24 hours",
+    "Thursday": "Open 24 hours",
+    "Friday": "Open 24 hours",
+    "Saturday": "Open 24 hours",
+    "Sunday": "Open 24 hours"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I was referred to him (Ziggy) by a friend. My sofa is only a little over a year old, but had alot of stains, spots & was just overall dirty.  I reached out to him by text, response time was great & an appointment was set only 2 days later. He came at the exact date & time that he said he would.  Was professional. Didn't make me uncomfortable at all ( just feel like I need to say this as a female having a male stranger come into your home). He just came in & did his job. Got my sofa cleaned & it took only about 45min. Now it looks how it looks when I 1st got it! I will definitely use him again if needed.",
+      "author": "Tracy Washington",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-11"
+    },
+    {
+      "text": "Ziggy and Caseem are very good.They cleaned my carpet so good.my carpet looks like new. I appreciate it,they get these carpets back in good shape for me. They were cleaning all the dirt very carefully and meticulously. Their work was extremely thorough. Thanks",
+      "author": "Huiqin He",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-18"
+    },
+    {
+      "text": "Interior car detailing!\nMy car looks so much better! Thank you!\nHe was punctual ( early actually) and professional. He offers very reasonable pricing as well!",
+      "author": "Pamela Meacham",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-31"
+    },
+    {
+      "text": "CmClean was friendly and professional.  His work was impeccable and my carpet looks amazing.  He even helped me moved a few things around, since I'm a senior.  Thanks again for your great work!",
+      "author": "Joanne Bourne Realtor",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-22"
+    },
+    {
+      "text": "I highly recommend this company! Zach and his team were super professional/personable, efficient and did a phenomenal job! We will definitely have them come back again!",
+      "author": "Mackenzie Schaffer",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-15"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Empty hardwood floor room with fireplace and white trim",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Blue and black carpet cleaning machine on gray area rug in living room",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Dark gray GMC pickup truck with roof rack parked in driveway",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Commercial carpet cleaning in progress in an empty office room with equipment",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Clean white car interior with beige leather seats and dashboard showing professional detailing service",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Staircase with freshly installed beige carpet and protective coverings during renovation work",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Cmcleaning Residential & Commercial photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Black truck interior showing steering wheel, dashboard, and front seats with open driver door",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Cmcleaning Residential & Commercial photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Cmcleaning Residential & Commercial photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 210,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

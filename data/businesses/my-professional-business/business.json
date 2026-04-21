@@ -1,0 +1,95 @@
+{
+  "name": "Majestic Heating & AC",
+  "slug": "my-professional-business",
+  "category": "hvac contractor",
+  "address": "548 Greenfield Ave",
+  "city": "Eugene",
+  "state": "OR",
+  "zip": "97404",
+  "phone": "(541) 729-3252",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 16,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "8:00 AM – 4:30 PM",
+    "Tuesday": "8:00 AM – 4:30 PM",
+    "Wednesday": "8:00 AM – 4:30 PM",
+    "Thursday": "8:00 AM – 4:30 PM",
+    "Friday": "8:00 AM – 4:30 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Mitch saved me $2500!  I had a well known company say I needed a $2500 repair for my non working AC. Mitch identified in minutes a $185 fix! V",
+      "author": "Laurie Rowe",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-24"
+    },
+    {
+      "text": "Mitch is very honest and fixed our A/C at a fraction of what another company wanted to charge us. I was so grateful for his help and cost savings. Thank you Mitch!",
+      "author": "Kristi clark",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-07-01"
+    },
+    {
+      "text": "My A/C went out (like everyone else’s) because we are in the middle of an unprecedented heat wave. I have Parkinson’s and have trouble controlling my own temperature so having an 80+ degree house temperature was debilitating. Mitch from Majestic  was referred to me by friends. I called him this morning he was able to come out this afternoon since he had an appointment in this area. Everyone else I called was booked out at least two weeks. Mitch identified the problem right away. It was a blown capacitor on my heat pump. In less\nthan 30 minutes he had it replaced, tested and back to running for less than $150 for the service call and the part. He was very professional and knowledgeable. He’s a  super hero in my book! Five star service!",
+      "author": "Adrienne Weiss",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-07-12"
+    },
+    {
+      "text": "I called Majestic late in the afternoon with an AC not cooling issue. Mitch showed up first thing the next morning, discovered the issue, made the repair, and was on his way. Very professional personality, affordable, and superb service. I will happily use his company the next time I have a HVAC issue. Thank you Mitch and Majestic Heating!",
+      "author": "Ryan Hjärtberg",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-06-12"
+    },
+    {
+      "text": "Mitch responded to my A/C call promptly, and he was able to get out to my house soon thereafter. He quickly diagnosed the problem, and he replaced the failed part with a part that he had in stock in his truck. With a hearty \"Hi Ho, Silver!\" he was away, leaving a minimal bill in his wake. Thank you, Mitch!",
+      "author": "elena bohannan",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-07-03"
+    }
+  ],
+  "team": [],
+  "photos": [],
+  "stats": [
+    {
+      "value": 16,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "poor"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

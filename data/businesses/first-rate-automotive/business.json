@@ -1,0 +1,144 @@
+{
+  "name": "First Rate Automotive",
+  "slug": "first-rate-automotive",
+  "category": "auto repair",
+  "address": "1345 NE 2nd St",
+  "city": "Bend",
+  "state": "OR",
+  "zip": "97701",
+  "phone": "(541) 610-4010",
+  "email": "",
+  "website": "http://www.firstrateon2ndstreet.com/",
+  "rating": 4.8,
+  "reviewCount": 59,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "8:30 AM – 4:30 PM",
+    "Tuesday": "8:30 AM – 4:30 PM",
+    "Wednesday": "8:30 AM – 4:30 PM",
+    "Thursday": "8:30 AM – 4:30 PM",
+    "Friday": "8:00 AM – 4:30 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Leak detection dye available for $15",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "name": "Service includes up to 2 lbs of freon",
+      "description": "",
+      "icon": ""
+    }
+  ],
+  "reviews": [
+    {
+      "text": "First Rate Automotive did an excellent job replacing the driveshaft on my Honda Element and got it done quickly. The whole process was smooth and straightforward from start to finish.\nThey were able to clearly explain multiple issues with the vehicle, laying them out from what was critical to what could wait and might need attention down the road. No pressure, no upselling, just honest and direct communication.\nThey were great to deal with both over the phone and in person. Friendly, knowledgeable, and easy to talk to. I really appreciated how transparent they were throughout the entire process.\nI would highly recommend First Rate Automotive and will definitely return if I need work done again.",
+      "author": "Christian Harris",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-24"
+    },
+    {
+      "text": "Broke down in Bend while on vacation so we didn't have a lot of time to find a good repair shop. We asked a few people for a recommendation but they were reluctant to give one. I am glad we chose First Rate. Jeremy was straight with us and very fair on price. Thanks!",
+      "author": "Michael Mroz",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-28"
+    },
+    {
+      "text": "Jeremy was able to get me in quick. He was so efficient and friendly with his service. Wasn’t able to take my truck in to the shop I usually go for over a week and a half. I will be definitely take my truck into him from now on. Thanks for doing such a great job!",
+      "author": "James Richter",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-25"
+    },
+    {
+      "text": "Jeremy was awesome! I needed a pre-purchase inspection done on a car and he was able to fit me into his schedule in a reasonable amount of time. I feel so much better about buying the car now that he's looked at it and given me his expert opinion. Very professional and excellent communication, and a fair price for the service. I'd definitely bring my car here in the future if I have major issues. Thank you so much for everything!",
+      "author": "Christina Reese",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-07-14"
+    },
+    {
+      "text": "I had a very disappointing experience with Jeremy.\n\nHe repaired my radiator but left a line disconnected, which caused coolant to drain out over time and coat the underside of my car. This wasn’t caught or addressed, and he never checked the radiator fluid level or proactively offered to clean the underside of the vehicle, despite the obvious mess and risk.\n\nAfter multiple follow-ups, he eventually agreed to power wash the bottom of the car but never called me back to actually do it. When I followed up again months later, the interaction became confrontational. He repeatedly demanded “What do you want?” instead of trying to resolve the issue or take responsibility for the original mistake.\n\nWhen I came by in person to discuss it calmly, he focused on scolding me for pulling my car up near the garage, calling it disrespectful, rather than addressing the unresolved problem. The entire interaction felt defensive and hostile, with no interest in making things right.\n\nMistakes happen. What matters is how they’re handled. In my case, the work was incomplete and the follow-through and customer service were poor. I would not recommend this shop based on the lack of accountability and the confrontational way the situation was handled.:: in response to his response::\n\nI fell sorry for anyone in Jeremy's life - he is obviously a practiced narccisist. It’s fascinating how every interaction somehow becomes a referendum on your authority rather than the original issue. A disconnected detail becomes a personal attack. A follow-up becomes a threat. Accountability becomes persecution.\n\nWhat’s especially impressive is the ability to center yourself so completely that even unfinished work transforms into a story about how difficult everyone else is. The facts become optional. Tone becomes the crime. Resolution becomes conditional on deference.\n\nI admire the efficiency of it, really. No matter the situation, you’re simultaneously the victim, the expert, and the final judge of intent. That takes practice.\n\nAnyway, I hope the next customer arrives with exactly the right posture, timing, facial expression, emotional register, and level of reverence required to unlock basic follow-through. It seems exhausting to maintain otherwise.\n\nEdit (Added Dec 30, 2025):\nThe response pattern I encountered follows what’s commonly referred to as DARVO (Deny, Attack, Reverse Victim and Offender). When the unresolved repair issue was raised, responsibility was denied, the focus shifted to attacking my demeanor and timing, and the narrative flipped to portray the shop as the aggrieved party. The substantive issue was consistently displaced by arguments about perception rather than resolution. For the record, the leak originated at the transmission line fitting where it interfaces with the radiator. Regardless of whether it’s described as “loose” or “disconnected,” fluid leaked over time and coated the underside of the vehicle. At no point during or after the repair was the radiator fluid level proactively checked or monitored, despite visible leakage. In July, I was told the underside would require a proper pressure wash and that I would be contacted to complete it. That follow-through did not happen. Months later, when I reached out specifically to close out the unfinished cleanup, the interaction again became defensive and adversarial rather than corrective. I’m leaving this so future customers understand how post-repair issues are handled when accountability is required, not just when everything goes smoothly.\n\nFurther more, Jeremy COMPLETELY LIED on several occasions. So don't believe anything he says.",
+      "author": "Datar Sahi",
+      "rating": 1,
+      "source": "google",
+      "date": "2025-12-30"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Gray commercial building with two large garage doors and signage for First Rate business",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Auto repair shop interior with vehicles on lift and tools",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Robinair refrigerant recovery machine with dual gauges in workshop garage setting",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Office workspace with dark cabinetry, computer setup, and inspirational wall sign",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "First Rate Automotive shop exterior with two garage doors and signage on 2nd Street.",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Two people smiling at camera in decorated indoor space with holiday decorations",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Tow truck loading blue Mazda SUV at auto repair shop facility.",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 59,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.8,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#d2691e",
+    "accent": "#150580",
+    "note": "Extracted from business website"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "Call to see if we can get you in today!4.9 Star - Google Rating 4.9 Star - Google Rating 4.9 Star - Google Rating 4.9 Star - Google Rating 4.9 Star - Google Rating 4.9 Star - Google Rating 4.9 Star - Google Rating 4.9 Star - Google Rating first rate automotive first rate automotive first rate automotive first rate automotive 2nd Generation Mechanic!541-610-4010first rate automotive first rate automotive first rate automotive first rate automotive 2nd Generation Mechanic!541-610-4010 Honest Repair Shop At First Rate Automotive, we know what it’s like to be on both sides of the counter. As a small, family-run business, we started from the bottom—and never forgot what it feels like to face unexpected car repairs. That’s why honesty, transparency, and respect are at the heart of everything we do.We treat our customers the way we’d want our own family to be treated: with clear communication, fair pricing, and no unnecessary upsells. Whether you’re coming in for routine maintenance or a major repair, you’ll always be met with integrity, kindness, and the highest level of care.Because here, you’re not just another ticket—you’re part of the First Rate family.We Have You CoveredWe provide 12-month/ 12,000 mile warranties with all of our services for your peace of mind. Our Quality Promise We’re committed to earning your trust—every time you visit. You’ll always receive a detailed estimate before any work begins, so you stay in control from start to finish. shop feesHourly Labor Rate$126We offer discounts to veterans, students and, corporate accounts. Pre-purchase inspection$126Complete bumper-to-bumper inspection includes a road test and full computer scan to help you make an informed decision—before you commit.Just give us a call, and we’ll do our best to get you in right away.all prices are subject to change. ServicesRoutine ServiceAverage Synthetic Oil Change $130-150Our average oil change includes up to 5 quarts of oil and a new filter—plus a complete vehicle safety and maintenance inspectionAir Conditioning Service$199.99We offer AC recharge only services. Please note this does not include diagnosis. Leak detection dye available for $15 Service includes up to 2 lbs of freon Complete Break ServiceBrakes - Staring Price$349.99Includes pads and rotors per axle for most vehicles Estimates Most quote requests are best handled in person or over the phone so we can give you the most accurate information. PLEASE NOTEMajor jobs may require a diagnosis before we can provide a final estimate. Contact UsStill need to reach us another way? Send us a message and we’ll get back to you as soon as possible. NameEmail*SendThis site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.First Rate Automotive1345 NE 2nd St, Bend, OR 97701, US(541) 610-4010HoursMonday - Friday: 8:30 a.m. - 4:30 p.m. Closed on all major holidays.Please note: Because we value efficiency and work hard to stay on schedule, we may close early if all jobs are comple"
+}

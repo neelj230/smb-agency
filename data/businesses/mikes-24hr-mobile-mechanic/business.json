@@ -1,0 +1,148 @@
+{
+  "name": "Mike's 24hr mobile mechanic",
+  "slug": "mikes-24hr-mobile-mechanic",
+  "category": "mobile mechanic",
+  "address": "1909 N Taylor St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19121",
+  "phone": "(267) 825-2122",
+  "email": "",
+  "website": "http://mikes-24hr.com/",
+  "rating": 4.2,
+  "reviewCount": 36,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "7:00 AM – 5:00 PM",
+    "Tuesday": "7:30 AM – 11:30 PM",
+    "Wednesday": "7:30 AM – 11:30 PM",
+    "Thursday": "7:30 AM – 11:30 PM",
+    "Friday": "7:30 AM – 11:30 PM",
+    "Saturday": "7:30 AM – 11:30 PM",
+    "Sunday": "9:00 AM – 5:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Mike is awesome. He put new front brakes and rotors on my car and it only took and hour and a half. Communication was great and he arrived on time.",
+      "author": "Rashad Wilkerson",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-19"
+    },
+    {
+      "text": "Mike is fantastic! He did a full tune-up on my 2017 Mazda CX-5 and the difference was immediate—smoother idle, better pickup, and it runs like new. He was professional and explained everything clearly without upselling. Pricing was fair, the work was meticulous, and he kept me updated throughout. I’ll definitely be using his services again —highly recommend Mike the mechanic!",
+      "author": "Terry Marchetti",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-24"
+    },
+    {
+      "text": "Mike is an absolute angel. He is kind hearted and caring, which is so hard to find these days. He was in the right place at the right time, he didn't have to stop and help us, but he did. 2 ladies and a toddler with a flat tire. We began our journey of trying to change a tire for the first time. And not even 5 minutes in, there's Mike swooping in to save the day. He had our tire off and changed within 10 minutes. He saved us so much time and heartache. If you need someone honest and kind Mike is your guy. He has a whole lot of new customers now. Thanks again Mike you are a hero and a legend.",
+      "author": "A Mc",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-24"
+    },
+    {
+      "text": "Listen if any body needs any type of work done on your car please call him. He will come and get the job done. I’ve been looking for a Mobile Mechanic for 4 months straight he’s literally the only person that came and fixed my car for a reasonable price. I went to 2 other people before him and one person ran off with my money. the other one messed up my negative terminal cable towards the point that I needed a whole new cable and tried to changed me $575 to fix it. I called mikes 25hr mobile mechanic and told him what was wrong and made my appointment he came a day early and got my car running for $330.",
+      "author": "Takirah Wright",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-07-28"
+    },
+    {
+      "text": "Frustrating experience, while the initial setup and service went ok for an emergency master brake cylinder repair, After the repairs were completed, I was asked to drive the car around the block where I immediately noticed an unusual sound from the brakes that was not there before. I showed Mike who also confirmed the noise but did not know what could be causing it. I then took it to another repair shop that diagnosed that it was not safe to drive long term due to the replacement part itself being defective out of the box and proved it by switching it out for another one which immediately fixed the problem.\n\nThis was when the issues started as I was looking to warranty both the part and the service for the initial labor under the parts supplier. As it was purchased under Mike’s account, he would have to be the one to set up the warranty with the supplier but twice a date was set for him to come pick up the part and twice I was ghosted with no communication. I had offered to make it easier for Mike both to go directly to the supplier without him to discuss warranty terms as well as meeting him directly at the supplier without him having to come to me first, both were refused. At this point, he has not returned my calls or further communicated and I no longer have any patience to constantly have to keep trying to reach out to him to get this sorted out despite offering to do the work for him.",
+      "author": "Ben",
+      "rating": 1,
+      "source": "google",
+      "date": "2025-12-27"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Man in navy blazer and coral shirt smiling indoors with red wooden frames",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Unorganized garage workshop with tools, shelves, and flooring materials scattered throughout.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Mechanic performing tire replacement on white Lexus with tools displayed",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Kobalt 106-piece drill and drive set in blue plastic case with organized bits",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Mechanic working under raised blue car hood in parking lot service area",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Engine compartment showing serpentine belt, pulleys, and mechanical components during maintenance",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Disassembled car engine compartment showing radiator, hoses, and mechanical components during repair.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Close-up of rusty brake drum assembly with studs and bolts visible",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Blue coupe car parked on residential street during autumn with fallen leaves",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Garage interior with equipment, tools, power cords, and machinery on wooden workbench",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 36,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.2,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": ""
+}

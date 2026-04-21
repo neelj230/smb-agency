@@ -1,0 +1,150 @@
+{
+  "name": "Scapegoat Tattoo",
+  "slug": "scapegoat-tattoo",
+  "category": "tattoo",
+  "address": "433 SE 13th Ave",
+  "city": "Portland",
+  "state": "OR",
+  "zip": "97214",
+  "phone": "(503) 232-4628",
+  "email": "wilsonbrotherstattoo@gmail.com",
+  "website": "https://www.scapegoattattoo.com/",
+  "rating": 4.9,
+  "reviewCount": 123,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "12:00 – 8:00 PM",
+    "Tuesday": "Closed",
+    "Wednesday": "12:00 – 6:00 PM",
+    "Thursday": "12:00 – 6:00 PM",
+    "Friday": "12:00 – 8:00 PM",
+    "Saturday": "12:00 – 8:00 PM",
+    "Sunday": "12:00 – 8:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I was tattooed by a guest artist, Ike Greca. Absolutely love his work. The shop itself was beautifully decorated and very clean. The fellow artists and reception were kind. The shop is hidden behind a huge shrub but is easy to find, parking is ample in the evening.",
+      "author": "Alex Moreno",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-10-15"
+    },
+    {
+      "text": "Getting tattooed by John was a solid experience. He’s a really nice guy and does high quality work. 10/10 would get tattooed by him again.",
+      "author": "Marc Goldsticker",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-18"
+    },
+    {
+      "text": "Came in as a walk in and was really well taken care of. Wanted some lines from a poem that is really impactful to me, and they nailed my vision 100%, and it’s healing fantastically.",
+      "author": "Dustin Edgar",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-12"
+    },
+    {
+      "text": "Brian is a true artist, he did a whole sleeve for me and couldn't love a tattoo more!",
+      "author": "Mary Galvin",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-04-03"
+    },
+    {
+      "text": "I saw Virginia aka @niemo_tattoo and I cannot express how happy I am I found her. She has such a sweet and calming personality. She does INCREDIBLE fine line too. I got a thin delicate small rose on my arm, as well as a butterfly and they turned out perfect!! I honestly wish I had found her sooner!! I recommend her to ALL of my friends now. Can’t wait to see her again for the rest of my tatts! 12/10 recommend. She’s the best!!",
+      "author": "Sasha Hindrum",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-11-06"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Red brick storefront with 'Sea Peg Oat' signage and ornate red door entrance",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Tattoo studio interior with framed designs covering walls and vintage industrial lighting",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Detailed tattoo sleeve featuring playing card suits and portrait designs on forearm",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Tattoo studio interior with artwork displays and artist workspace visible through doorway.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Detailed black and gray tattoo of a cosmic fish with spirals and stars on forearm",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Storefront of custom tattoo shop with black awning and hand-painted flash signage",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Fresh tattoo of a dark bird holding botanical elements on person's arm",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Traditional tattoo design featuring dagger, heart, and lantern on forearm",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Scapegoat Tattoo shop storefront with glass doors and custom tattoo artwork displayed in windows",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Detailed botanical tattoo on forearm featuring berries, flowers, leaves, and insects.",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 123,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {
+    "instagram": "https://instagram.com/wilson.brothers.tattoo/"
+  },
+  "competitors": [],
+  "brandColors": {
+    "primary": "#f4f4f4",
+    "accent": "#93855e",
+    "note": "Extracted from business website"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "Scapegoat Tattoo Scapegoat has rebranded to Wilson Brothers Tattoo. We're still located in the Buckman neighborhood and remain in the familiar Stark St. building, now accessible via the entrance on 13th. 433 SE 13th Ave, Portland, OR 97214 Contact us at 503-232-4628 or wilsonbrotherstattoo@gmail.com © 2026 Wilson Brothers Tattoo"
+}

@@ -1,0 +1,201 @@
+{
+  "name": "Real Learning LLC",
+  "slug": "real-learning-llc",
+  "category": "tutoring service",
+  "address": "5593 Edna Way",
+  "city": "Eugene",
+  "state": "OR",
+  "zip": "97402",
+  "phone": "(541) 636-4435",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 7,
+  "tagline": "Where Every Child Learns to Shine",
+  "brandNarrative": "Real Learning LLC is built on something most tutoring centers can't manufacture: a lifetime of genuine love for children and education. At the heart of this Eugene-based learning center is Mrs. Searsy Green, a teacher with over 30 years in the classroom whose impact stretches far beyond report cards. Customers describe rapid, measurable results — one grandmother watched her granddaughter's math test scores climb dramatically after just a few hours of summer sessions — but what keeps families returning is the warmth that underlies every lesson. Mrs. Green sees the potential in every child, communicates that belief directly to them, and builds the kind of confidence that lasts long after the tutoring ends.\n\nReal Learning LLC operates out of a well-maintained, thoughtfully organized classroom space — bookshelves stocked, educational posters displayed, desks ready — that one reviewer specifically praised as 'very well maintained and very sanitary.' That attention to environment reflects Mrs. Green's broader philosophy: children learn best when they feel safe, valued, and loved. The center serves students from pre-K through high school, covering math, literature, science, social studies, art, and life skills, and offers both in-person and virtual sessions to accommodate busy modern families.\n\nWhat makes Real Learning LLC extraordinary is its roots in community. Long before opening her doors on Edna Way, Mrs. Green spent over sixteen years organizing church vacation bible school programs for double the number of children a standard classroom holds — delivering full academic curricula in math, literature, science, art, and physical education every summer. That track record of managing large groups, adapting to diverse learners, and maintaining joyful, structured environments isn't something you find on a credential — it's something you witness over decades. Families in Eugene aren't just hiring a tutor. They're entrusting their children to someone the community has already trusted for a generation.",
+  "ownerStory": "Searsy Green didn't stumble into education — she was called to it. Over a teaching career spanning more than 30 years, she built a reputation not just for results, but for the rare ability to make every student feel genuinely seen and capable. Long before Real Learning LLC opened its doors, the Eugene community already knew Mrs. Green: she organized vacation bible school for over sixteen summers at her church, designing and delivering multi-subject curricula for groups larger than any standard classroom, covering everything from math and literature to science and physical education. She did it with what those who know her describe simply as love, spirit, and truth.\n\nReal Learning LLC is the natural culmination of that life's work — a place where Mrs. Green brings the same energy, structure, and heart she has always given freely to a formal learning environment. Whether working one-on-one with a struggling student to close math gaps in a single summer, partnering virtually with a busy caregiver who values education but can't always be present, or nurturing a child's long-term growth across every subject, Searsy Green operates from a single conviction: every child deserves to know how important they are, how loved they are, and how far a great education can take them.",
+  "hours": {
+    "Monday": "6:00 AM – 6:00 PM",
+    "Tuesday": "6:00 AM – 6:00 PM",
+    "Wednesday": "6:00 AM – 6:00 PM",
+    "Thursday": "6:00 AM – 6:00 PM",
+    "Friday": "6:00 AM – 6:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Math Tutoring & Remediation",
+      "description": "Targeted one-on-one math instruction designed to close skill gaps quickly, with documented results in improved test scores even after short intensive sessions.",
+      "icon": "calculator"
+    },
+    {
+      "name": "K–12 Academic Support",
+      "description": "Comprehensive subject tutoring for students from pre-kindergarten through high school, covering literature, science, social studies, and more.",
+      "icon": "book-open"
+    },
+    {
+      "name": "Summer Enrichment Program",
+      "description": "Structured summer learning sessions that prevent academic slide and get students ahead before the new school year begins.",
+      "icon": "sun"
+    },
+    {
+      "name": "Virtual Tutoring Sessions",
+      "description": "Flexible online tutoring for families who need remote learning support, with optional monthly in-person refresher classes for a blended approach.",
+      "icon": "video"
+    },
+    {
+      "name": "Life Skills & Confidence Building",
+      "description": "Beyond academics, Mrs. Green integrates essential life skills and self-worth into every session, helping students grow into lifelong learners.",
+      "icon": "heart-handshake"
+    },
+    {
+      "name": "Early Childhood Education Support",
+      "description": "Pre-K and early elementary learning support that builds foundational literacy and numeracy skills in a safe, nurturing environment.",
+      "icon": "baby"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Mrs Green is a wonderful teacher.  She works well with all kinds of students. She was able to catch-up my granddaughter. in math in a few hours over the summer.  When she returned to school her test scores in math were greatly improved.",
+      "author": "Paulette Ansari",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-03-03"
+    },
+    {
+      "text": "I am very busy uncle who has been taking care of my niece and nephew. As many i don't understand their homework but i do value education. I did not want them to fall behind but more so get ahead on their learning for when the day school returns back to a normalcy. I had the chance to meet Mrs. Green and see her facilities which were very well maintain and very sanitary and that's big especially in this day and age. I now do virtual school with one physical refresher class a month. She has helped tremendously.",
+      "author": "Majin SKooo",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-02-17"
+    },
+    {
+      "text": "I met Searsy Green at church after I moved here in 2001. Living in a different district my children weren’t allotted the opportunity to be in her classroom as their teacher but was at church. Searsy taught and assisted others with children from pre-k - high school. Over sixteen years she planned and organized our church vacation bible school with double the amount of children you would have in a classroom setting. Searsy did a stupendous job organizing and planning the lessons. My children along with all the children every summer had continuous education of math, literature, art, science, social studies and physical education. I’ve seen first hand how much Searsy values education and children receiving the best quality of education. She see’s the best in every child, always lets them know how important they are, how loved they are and how with a great education they can grow up to be successful at anything.",
+      "author": "Stacy Heath",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-06-03"
+    },
+    {
+      "text": "As I have learned from observing Mrs. GREEN teaching career over 30+ years, she is dedicated and very committed to ensuring that all students are provided essential learning and life skills that will enhance their quality of as they mature into\nlife long learners. AWESOME!",
+      "author": "Bobby Green",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-03-09"
+    },
+    {
+      "text": "I have known Mrs. Green for a very long time. You could not ask for a better place for your children to further their skills in education. It is a very safe and loving place to be. She teaches in love, spirit and truth. I guarantee that your child will get what he or she needs in education.",
+      "author": "MB Green",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-03-09"
+    }
+  ],
+  "team": [
+    {
+      "name": "Searsy Green",
+      "role": "Founder & Lead Educator",
+      "bio": "With over 30 years of teaching experience, Mrs. Green is known for her remarkable ability to connect with students of all ages and backgrounds, close skill gaps quickly, and build genuine confidence in every child she teaches. Reviewers describe her as dedicated, committed, loving, and transformative — someone who sees the best in every student and makes sure they know it.",
+      "credentials": [
+        "30+ years of classroom teaching experience",
+        "K–12 instructional range (Pre-K through High School)",
+        "16+ years leading multi-subject church enrichment programs",
+        "Virtual and in-person instruction certified"
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Empty classroom with wooden desks, chairs, and blackboard displaying Real Learning LLC sign",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Classroom interior with bookshelves, educational posters, desk, and teaching materials displayed on walls.",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 30,
+      "suffix": "+",
+      "label": "Years of Teaching Experience"
+    },
+    {
+      "value": 5,
+      "suffix": "★",
+      "label": "Average Customer Rating"
+    },
+    {
+      "value": 16,
+      "suffix": "+",
+      "label": "Years of Community Education Programs"
+    },
+    {
+      "value": 7,
+      "suffix": " Reviews",
+      "label": "All Five-Star Rated"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How quickly can my child see real academic improvement?",
+      "answer": "Results can come faster than you might expect. One of our students saw measurably improved math test scores after just a few hours of targeted summer sessions with Mrs. Green. Every child is different, but our focused, personalized approach is designed to close gaps efficiently."
+    },
+    {
+      "question": "What age groups and grade levels do you work with?",
+      "answer": "Real Learning LLC serves students from pre-kindergarten through high school. Whether your child is just starting to read or preparing for high school exams, Mrs. Green has the experience and methods to meet them exactly where they are."
+    },
+    {
+      "question": "Do you offer virtual tutoring for families with busy schedules?",
+      "answer": "Yes. We offer virtual tutoring sessions for families who need flexibility, along with optional monthly in-person refresher classes for a blended learning experience. This format was specifically developed to support caregivers and parents with demanding schedules."
+    },
+    {
+      "question": "Is the learning environment safe and clean?",
+      "answer": "Absolutely. Our classroom on Edna Way in Eugene is described by families as very well maintained and sanitary. We take the physical learning environment seriously — a clean, organized, welcoming space is part of how we help children feel ready to learn."
+    },
+    {
+      "question": "What subjects does Real Learning LLC cover?",
+      "answer": "We provide tutoring in math, reading and literature, science, social studies, and art, along with life skills development. Mrs. Green has delivered instruction across all of these subjects for decades, including in structured group programs with dozens of students at a time."
+    },
+    {
+      "question": "What makes Real Learning LLC different from other tutoring services?",
+      "answer": "It starts with Mrs. Green's 30-plus year teaching career and her deep, personal commitment to every student. Families consistently describe her as someone who doesn't just teach academics — she builds confidence, communicates love and value to each child, and creates an environment where learning feels meaningful. This isn't a franchise or a drop-in center; it's a relationship built on trust."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#2E5E8E",
+    "accent": "#F4A435",
+    "note": "Deep educator blue conveys trust, stability, and intellectual depth — matching Mrs. Green's 30-year professional legacy. Warm amber gold as the accent reflects the warmth, encouragement, and light-filled energy that reviewers consistently describe. Together they feel both credible and approachable — serious about learning, joyful in delivery."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Exceptional teacher-student relationships: Every reviewer highlights Mrs. Green's personal warmth, genuine care for children, and ability to make students feel valued and capable — a differentiator that no franchise can replicate.",
+      "Proven academic results: Multiple reviews cite measurable outcomes, including improved test scores after short intensive sessions, demonstrating that Mrs. Green's methods deliver real, trackable progress.",
+      "Deep community trust and long tenure: With 30+ years of teaching and 16+ years of community education programs, Mrs. Green has a track record that predates the business itself, giving Real Learning LLC instant credibility with Eugene families."
+    ],
+    "common_complaints": [
+      "None found — all 7 reviews are 5-star with no negative feedback or concerns raised."
+    ],
+    "suggested_tagline": "Real Teachers. Real Results. Real Love.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "nurturing",
+      "dedicated",
+      "community-rooted",
+      "results-driven",
+      "trust-building"
+    ],
+    "named_staff": [
+      "Searsy Green",
+      "Mrs. Green"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

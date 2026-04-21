@@ -1,0 +1,146 @@
+{
+  "name": "Velux Grooming co.",
+  "slug": "velux-grooming-co",
+  "category": "pet grooming",
+  "address": "4257 NE Broadway",
+  "city": "Portland",
+  "state": "OR",
+  "zip": "97213",
+  "phone": "(971) 340-8986",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 26,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "8:00 AM – 6:00 PM",
+    "Tuesday": "9:00 AM – 6:30 PM",
+    "Wednesday": "10:00 AM – 6:30 PM",
+    "Thursday": "10:00 AM – 6:30 PM",
+    "Friday": "9:00 AM – 6:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "10:00 AM – 6:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Juan is excellent. I found his shop with a quick Google search and keep coming back. Juan takes great care of my service dog Harper and makes sure she is fresh, clean, trimmed, ready for the world with a new scarf smelling so sweet. Juan’s shop is clean, he is friendly and knowledgeable and treats my dog and myself with great respect. I’d honestly recommend Juan to my friends, my family, and anyone looking for an exceptional dog grooming experience. Love you Juan, thanks for your services!",
+      "author": "Jarrod Stephen",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-28"
+    },
+    {
+      "text": "I adopted a big dog in March 2025. Before adopting I called Juan and asked for estimate of how often St.Bernard mix dogs need to be groomed. Juan was so sweet and informative. Once I adopted my dog I’ve gone to Juan ever since. He does a phenomenal job. He’s very detail oriented and deeply cares about animals. Whenever I pick Sammy up he’s looking and smelling so good! Highly recommend Velux Grooming!",
+      "author": "Kristen Malone",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-18"
+    },
+    {
+      "text": "My dog tends to be nervous and requires a patient skilled groomer. Juan is just that! When I arrived for pick up my dog was happy and looked like a model!!! The reviews are true! Excellent service! Thank you Juan!!",
+      "author": "Mckynzee Perry",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-27"
+    },
+    {
+      "text": "I brought my older pup in for her first professional grooming session and we’re super happy with how she turned out! I’ve never taken her for anything like this and just did her grooming at home, but figured I’d save myself time and a backache by getting it done professionally. I was skeptical because I love my girl so much and wanted to make sure she was in good hands and Juan did a great job! I’ve never seen her look so good! And the price was way less expensive than I was thinking it would be. We’ll definitely be back and I’ll refer everyone I know!",
+      "author": "Rhiannon Uribe",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-06"
+    },
+    {
+      "text": "Absolutely worth going to! Took our 10 months old puppy for her first grooming session, and Juan absolutely transformed our baby mop into a gorgeous little puppy again!😂☺️ Juan gave wonderful suggestions for a slight dry skin condition that she's been experiencing, as well as took care of her nails and ears. She has a soft- wiry fur mix, but when Juan finished it was so delightfully soft and smooth and pleasant to pet that she got to enjoy hours of pampering and rubs when she got back home. We are DEFINITELY making this our go-to for our little pup 🐶!\n\nThe price was well and above more fair than what I was expecting it to be, and because of that, I explicitly trust Juan to take care of and make sure our baby girl is treated well! 10/10 round of a🐾🐾  for Juan Velasquez Luxury Grooming! They've definitely got our business again💯",
+      "author": "Joshua Ferguson",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-11"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "White poodle sitting indoors with framed pet portraits on yellow walls",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Groomed Standard Poodle wearing tropical bandana standing on artificial grass indoors",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Small white dog with fluffy ears standing on pink grooming table indoors",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "White fluffy dog being petted indoors near large windows with city view",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Dogs in colorful pet grooming salon with plants and motivational signage",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Large dog sitting on dark floor in covered porch area with white walls.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Golden retriever dog wearing colorful bandana in wire pen enclosure",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Interior of Velux Grooming Co. salon with plants, aquariums, and seating area.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Group of small dogs on leashes walking together on a paved sidewalk outdoors.",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Man with long dark hair posing with golden retriever dog against orange wall",
+      "category": "team"
+    }
+  ],
+  "stats": [
+    {
+      "value": 26,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

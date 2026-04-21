@@ -1,0 +1,133 @@
+{
+  "name": "Manayunk Pooch Scoochers",
+  "slug": "manayunk-pooch-scoochers",
+  "category": "dog walker",
+  "address": "571 Jamestown Ave.",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19128",
+  "phone": "(646) 510-2902",
+  "email": "",
+  "website": "http://www.manayunkpoochscoochers.com/",
+  "rating": 5,
+  "reviewCount": 39,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "6:30 AM – 10:00 PM",
+    "Tuesday": "6:30 AM – 10:00 PM",
+    "Wednesday": "6:30 AM – 10:00 PM",
+    "Thursday": "6:30 AM – 10:00 PM",
+    "Friday": "6:30 AM – 10:00 PM",
+    "Saturday": "6:30 AM – 10:00 PM",
+    "Sunday": "6:30 AM – 10:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I have been trusting Pooch Schoochers with the two most important things in my life for the last two years....my dog, and access to my home.  They are 100% trustworthy and reliable.  On the occasions where I get to see my dog interact with the walkers, it is clear how much he loves them and values his daily walks.   I love the status emails of each walk and the pictures they take of him having fun exploring the world when I am at work.  Ashley is very professional, accommodating, and reliable.  The Pooch Schoochers have become extended family to my dog, I would recommend them to anyone and everyone!",
+      "author": "Kate Peters",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-04-10"
+    },
+    {
+      "text": "My experience with Pooch Scoochers has been nothing but positive.  The owner Ashley is very easy to get in touch with and shows a genuine interest in me and my dog’s needs.   When I first moved to East Falls and had my new dog with me, I considered using one of the dog walking apps.  Because of my apartment complex, I realized it would be too complicated explaining to a new dog walker each time where to go and how to get in.  Pooch Scoochers was already very familiar with my complex and had multiple clients there already!  There is a noticeable benefit to having the same 1-2 walkers for your pet, and their walkers are all fantastic.  100% recommend!!",
+      "author": "Becca Zanecosky",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-03-28"
+    },
+    {
+      "text": "We’ve been using Pooch Scoochers for a few years now and we love them! You can really tell how much Ashley loves all of the dogs in her life. Our furbaby is lucky to have Ashley and the team as a best buddy while we are at work. We look forward to our daily message from our walker letting us know our pup was happy on his walk. We especially like the pics we get to see on their daily feed on social media! They even squeeze us in for last minute happy hour walks on days we “ work” late!",
+      "author": "Shereen Haddad",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-03-29"
+    },
+    {
+      "text": "I love using Pooch Scoochers! My husband typically works from home, but on the rare occasion he doesn’t, Alex always comes to the rescue. She’s so sweet with the dogs and I love the emails she sends to let me know how their walk went! She even went the extra mile to text me pictures of them while on their walk.\n\nAshley is wonderful as well! Any time I’ve ever had a question she’s been so quick to respond and very accommodating. I’d highly recommend!!",
+      "author": "Megan Frater",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-11-14"
+    },
+    {
+      "text": "Pooch Scoochers has always taken such wonderful care of my dog Gizmo on his daily walks while I’m at work! Ashley and her team are great to work with.",
+      "author": "Gwenn Vilade",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-03-17"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Brown and white dog wearing red quilted jacket and black leash outdoors",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Happy dog on leash walking on paved driveway with green grass and trees",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Pooch Scooches Manayunk Pa logo with dog, scooter, and chihuahua illustration",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Poor Scoopy's dog grooming and pet sitting business logo with paw print design",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Manayunk Pooch Scoochers website photo",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Pooch Scoochers Manayunk PA logo featuring city skyline and contact information",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Illustration of a brown dog with pointed ears sitting against black background",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 39,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#52a8ec",
+    "accent": "#636363",
+    "note": "Extracted from business website"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "fair"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "<img height=\"40\" width=\"373\" border=\"0\" alt=\"\" src=\"/~media/elements/shared/javascript_disabled.gif\"> Pooch Scoochersvar nav_element_id=\"master9\";1HomeAbout UsServicesContact UsReviewsPhoto Gallery if(typeof(addMouseAndStyleSupportQuickSiteMain) == 'undefined' && typeof(nav_element_id) != 'undefined'){ var elementDefnDiv = document.getElementById(nav_element_id); var tbWasIdentified = 'false'; for(var i=0;i<elementDefnDiv.childNodes.length;i++){ if(elementDefnDiv.childNodes[i].tagName == 'DIV') { var childDiv = elementDefnDiv.childNodes[i]; for(var j=0;j<childDiv.childNodes.length;j++){ if(childDiv.childNodes[j].tagName == 'TABLE' && childDiv.childNodes[j].id == 'ntb'){ childDiv.childNodes[j].style.display='none'; tbWasIdentified = 'true'; } if(tbWasIdentified == 'true'){ break; } } } if(tbWasIdentified == 'true'){ break; } } } else { addMouseAndStyleSupportQuickSiteMain(nav_QuickSiteMain); } Website Designed at Homestead™ Get a Website and List Your BusinessPhiladelphia's Premier Dog Walking & Pet Sitting ServiceEst. 2007Welcome to Pooch Scoochers Welcome to Pooch Scoochers, Philadelphia's premier, reliable, and affordable dog walking and pet sitting service! Whether your dog needs a quick potty break or a trip to the dog park for more exercise, or even a hike in the Wissahickon, we have dog walking options that will fit the needs of you and your furry friend. We provide our clients with a dedicated pet caregiver to ensure we focus solely on your pets needs and provide the love and attention to detail you expect!Happily serving pet owners in Manayunk, Roxborough, Andorra, Chestnut Hill, Mt. Airy, East Falls, and more! var nPageBottom = 1469; var user='1761627210',pp='index', to=-360,cl=1,id='',r='https://web4.realtracker.com/'; <img height=\"1\" width=\"1\" border=\"0\" alt=\"\" src=\"/~site/Scripts_ExternalRedirect/ExternalRedirect.dll?CMD=CMDGetGif&H_SITEID=RTK4&H_AltURL=%2F~site%2Ftp.gif&H_HSGOTOURL=https%3A%2F%2Fweb4.realtracker.com%2Fnetpoll%2Fimulti.asp%3Fuser%3D1761627210%26pn%3D90006%26pp%3Dindex%26js%3D0%26b%3D0%26to%3D-360\">"
+}

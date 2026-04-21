@@ -97,11 +97,7 @@
       "name": "Kim",
       "role": "Senior Nail Technician & Brow and Lash Specialist",
       "bio": "Kim is the reason customers refuse to go anywhere else. Known for her precision eyebrow shaping and professional lash application — starting at just $25 — she brings genuine care and artistry to every client. Reviewers call her 'a wizard' and say she truly cares about the people in her chair, sometimes even surprising loyal regulars with thoughtful gifts.",
-      "credentials": [
-        "Eyebrow Specialist",
-        "Lash Artist",
-        "Client Favorite"
-      ]
+      "credentials": ["Eyebrow Specialist", "Lash Artist", "Client Favorite"]
     }
   ],
   "photos": [
@@ -230,8 +226,6 @@
       "no-frills",
       "loyal-earning"
     ],
-    "named_staff": [
-      "Kim"
-    ]
+    "named_staff": ["Kim"]
   }
 }

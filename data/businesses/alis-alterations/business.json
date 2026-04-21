@@ -1,0 +1,146 @@
+{
+  "name": "Ali’s Alterations",
+  "slug": "alis-alterations",
+  "category": "tailor",
+  "address": "16502 SE Division St",
+  "city": "Portland",
+  "state": "OR",
+  "zip": "97236",
+  "phone": "(971) 344-8383",
+  "email": "",
+  "website": null,
+  "rating": 4.9,
+  "reviewCount": 149,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM – 7:00 PM",
+    "Tuesday": "9:00 AM – 7:00 PM",
+    "Wednesday": "9:00 AM – 7:00 PM",
+    "Thursday": "9:00 AM – 7:00 PM",
+    "Friday": "9:00 AM – 7:00 PM",
+    "Saturday": "9:00 AM – 5:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Ali has an eye for quality and style! I brought two blazers in to have some work done and he did an amazing job. I had the sleeves let out on one jacket, and the other I originally just wanted some repairs done. Ali pointed out a few old repairs and expressed concerns about doing further repairs and instead suggested a new liner. He was never pushy, always honest, and I can tell he has years of experience. He let me know what could be done, how it would look and fit before we even started. You can tell he has a vision and wants his customer to be informed and happy. The new liner is beautiful, he selected a gold liner that complimented the tweed jacket well and I'm so happy about the results. I will definitely be a repeat customer.",
+      "author": "Seth Gipe (Rallen2000)",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-29"
+    },
+    {
+      "text": "Long time coming post. Ali has been my go to for alternations. He made my wedding suit down to my vision, on time and in full. For all other alterations, he takes the same amount of quality and care. Even completes them faster than anticipated. I highly recommend anyone supporting a local business. Thank you, Ali!",
+      "author": "Hygie Ordono",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-26"
+    },
+    {
+      "text": "I’ve been coming here for all my alterations! From bridesmaid dresses, jeans, suit jackets (for my husband), Ali does a professional and seamless job every time. We are always very satisfied & happy with the finished product.",
+      "author": "Elle Caddel",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-02"
+    },
+    {
+      "text": "I cannot recommend this place enough! My fiancée needed her suit altered for our wedding, and from start to finish, Ali went above and beyond to make the entire experience seamless. Weddings come with enough stress on their own, but Ali made this part of the process feel effortless.\n\nThe turnaround time alone was incredible—he had her suit ready in under two weeks, which felt like a miracle given the short timeline we were working with. Even with the quick turnaround, the quality of his work was outstanding. The suit fit her perfectly, hugging in all the right places while still being comfortable enough to wear on such an important day. She looked so sharp, elegant, and confident—it honestly felt like the suit had been custom-made just for her.\n\nAli’s communication throughout the entire process was exceptional. He was responsive, clear, and always kept us updated so we never had to worry or wonder how things were going. He listened carefully to what we needed, offered helpful suggestions, and delivered exactly what he promised (and more). That level of professionalism and care meant so much to us during the wedding planning chaos.\n\nThanks to Ali, my fiancée will be walking down the aisle in a suit that not only looks incredible but also makes her feel amazing. It’s hard to put into words how grateful we are for his skill, efficiency, and kindness. If you’re looking for an alteration specialist who is talented, reliable, and genuinely cares about his clients, look no further. Ali is the best of the best.",
+      "author": "Jenny Ha",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-29"
+    },
+    {
+      "text": "I've been going here for the last year with all my alterations and they've been great! He even helped me alter the arm holes of a jacket that were just slightly too tight. Keep up the great work!",
+      "author": "Brian Saechao",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-03"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Elegant white lace blouse displayed on mannequin in retail clothing store",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Interior of clothing retail store with counters, racks, and vintage furniture display",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Elegant white wedding dress displayed on black mannequin in bridal shop",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Two pairs of Rock Revival jeans displayed flat on striped surface, black and blue denim",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Two pairs of decorative jeans displayed flat on striped fabric background",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Costume design workspace with red dress on mannequin and embroidered details",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Ornate orange and gold patterned coat with large gold collar on dress form.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Formal dresses and jackets displayed on mannequins in a retail store window.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Ornate black shawl with embroidered flowers and beaded trim on display mannequin",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Colorful patchwork quilt displayed on mannequin in retail clothing store",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 149,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

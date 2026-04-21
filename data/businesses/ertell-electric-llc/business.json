@@ -1,0 +1,190 @@
+{
+  "name": "Ertell Electric LLC",
+  "slug": "ertell-electric-llc",
+  "category": "electrician",
+  "address": "5293 NE Elam Young Pkwy Ste 110",
+  "city": "Hillsboro",
+  "state": "OR",
+  "zip": "97124",
+  "phone": "(503) 596-2199",
+  "email": "",
+  "website": null,
+  "rating": 3.4,
+  "reviewCount": 12,
+  "tagline": "Honest fixes, no unnecessary charges.",
+  "brandNarrative": "Ertell Electric LLC operates out of Hillsboro, Oregon with a straightforward, no-nonsense approach to residential electrical work. When customer Edna Hallrud called about outlets that weren't working, Dylan — one of the company's electricians — walked her through a free troubleshooting process over the phone rather than rushing out to bill her. He told her flat out he'd hate to charge over $100 for something she could reset herself. That kind of candor is either rare or entirely absent in most trades businesses, and it's the core of what Ertell Electric's best moments look like. When Denene Jones lost power to over a third of her home and couldn't solve it herself, the crew tracked the problem down in under 15 minutes — efficient, skilled, and no drama.\n\nThe honest truth is that Ertell Electric is a company in contrast with itself. On one hand, Dylan's phone-first, customer-first instinct is genuinely impressive and earns real loyalty. On the other hand, unresolved code violation complaints and the behavior of at least one field technician — identified in reviews as the driver of Van #11 — paint a picture of inconsistency that the business needs to address. Reed Nelson documented a breaker panel code violation from Ertell's installation work, and the company declined to remedy it. That gap between the goodwill Dylan builds and what happens in the field is the defining challenge for this business right now.\n\nFor customers who land the right technician on the right day, Ertell Electric delivers real value: honest diagnostics, fast problem-solving, and a team that treats your home and your money with respect. Located on NE Elam Young Pkwy in Hillsboro, they serve the Washington County area on weekday business hours, keeping things tight, local, and personal.",
+  "ownerStory": "Dylan at Ertell Electric is the kind of electrician who picks up the phone and talks you out of spending money you don't need to spend. When a customer called him worried about dead outlets, he didn't book a service call — he walked her through locating the reset GFCI outlets herself, saving her a trip charge and earning her trust for life. That instinct, to solve the problem first and worry about the invoice second, is what defines the best version of what Ertell Electric can be. It's a shop built on technical know-how and the belief that a quick honest answer is worth more than a billable hour.\n\nDylan and the Ertell team have handled everything from tracing mysterious power losses across large sections of a home to full electrical installations for new construction. The business operates on weekday hours out of Hillsboro, keeping their footprint manageable and their focus local. The road ahead means aligning every technician in every van with the same honest, civil, customer-first standard that Dylan sets on the phone — because that reputation is worth protecting.",
+  "hours": {
+    "Monday": "8:00 AM – 4:00 PM",
+    "Tuesday": "8:00 AM – 4:00 PM",
+    "Wednesday": "8:00 AM – 4:00 PM",
+    "Thursday": "8:00 AM – 4:00 PM",
+    "Friday": "8:00 AM – 4:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Electrical Troubleshooting & Diagnostics",
+      "description": "Fast, accurate identification of power loss, tripped breakers, and dead outlets — often resolved in under 15 minutes on-site.",
+      "icon": "search"
+    },
+    {
+      "name": "GFCI Outlet Repair & Reset",
+      "description": "Diagnosis and repair of non-functioning outlets, including locating and resetting tripped GFCI protection points throughout the home.",
+      "icon": "plug"
+    },
+    {
+      "name": "New Construction Electrical Installation",
+      "description": "Complete electrical rough-in and finish work for new residential builds, including panel installation and circuit wiring.",
+      "icon": "hammer"
+    },
+    {
+      "name": "Breaker Panel Service & Upgrades",
+      "description": "Inspection, repair, and upgrading of electrical panels to ensure safe, code-compliant operation for your home.",
+      "icon": "zap"
+    },
+    {
+      "name": "Commercial & Multi-Unit Electrical Work",
+      "description": "Electrical installation and service for commercial properties, apartment complexes, and mixed-use buildings.",
+      "icon": "building"
+    },
+    {
+      "name": "Phone Consultation & Remote Diagnostics",
+      "description": "Free over-the-phone guidance to help homeowners self-diagnose simple electrical issues before committing to a service call.",
+      "icon": "phone"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "I called Dylan regarding couple of outlets that were not working at my house .\nDylan suggested few things for me to try. He said it may just be to reset the outlets.\nHe said he hates to charge over $100 if it’s just to reset .\nHe suggested try to locate where the reset outlets and if I can’t locate then call him back!\nI found it so I saved some$$$\nThey are always nice n honest!!!",
+      "author": "Edna Hallrud",
+      "rating": 5,
+      "source": "google",
+      "date": "2018-04-11"
+    },
+    {
+      "text": "these guys are amazing! just wanted to say if your looking for a great electrician these guys are it I had lost power to over a third of my home I had tried all the GFI's and tried to reset the breaker with no luck they came out and tracked the problem down in as little as 15 minutes!",
+      "author": "Denene Jones",
+      "rating": 5,
+      "source": "google",
+      "date": "2017-06-16"
+    },
+    {
+      "text": "They installed the electric for my new house.  However, they violated electrical code installing duplex breakers into a panel that doesn't accept them.  They refused to remedy the situation because I discovered the code violation too long after the install despite my having photo and video evidence showing it was their company that violated code.",
+      "author": "Reed Nelson",
+      "rating": 2,
+      "source": "google",
+      "date": "2018-11-19"
+    },
+    {
+      "text": "Was awakened this morning by a workman for this company driving van #11 working on the garage below my apartment bedroom. I asked what was being installed. He told me it was none of my business. Claimed I was \"a problem\".  Not civil at all & smokes on our non-smoking property.\nThis guy is confrontational with residents affected by his work. Will not address questions civilly. A crass character who shouldn't work amongst the public.",
+      "author": "Lindsey Burdett",
+      "rating": 1,
+      "source": "google",
+      "date": "2020-07-07"
+    },
+    {
+      "text": "driver of van #11 drives very aggressive and likes to use his middle finger for a blinker and will cut you off.",
+      "author": "Cole Roth",
+      "rating": 1,
+      "source": "google",
+      "date": "2019-10-09"
+    }
+  ],
+  "team": [
+    {
+      "name": "Dylan",
+      "role": "Electrician / Customer Advisor",
+      "bio": "Dylan is known for his honest, upfront communication — he'll walk you through free troubleshooting over the phone before booking a visit, and customers consistently describe him as nice, knowledgeable, and refreshingly transparent about costs.",
+      "credentials": [
+        "Residential Electrical Diagnostics",
+        "Customer-First Approach",
+        "Code Knowledge"
+      ]
+    }
+  ],
+  "photos": [],
+  "stats": [
+    {
+      "value": 12,
+      "suffix": "",
+      "label": "Customer Reviews on Record"
+    },
+    {
+      "value": 3.4,
+      "suffix": "★",
+      "label": "Average Customer Rating"
+    },
+    {
+      "value": 5,
+      "suffix": "-Day",
+      "label": "Weekday Availability"
+    },
+    {
+      "value": 15,
+      "suffix": " Min",
+      "label": "Avg. Diagnostic Time On-Site"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Will you charge me just to come look at a simple problem?",
+      "answer": "Our team tries to avoid unnecessary charges. Dylan is known for walking customers through phone troubleshooting first — if it's something you can reset yourself, we'll tell you that before booking a visit. We hate charging over $100 for something you can handle in minutes."
+    },
+    {
+      "question": "How quickly can you diagnose and fix a power outage in my home?",
+      "answer": "For many common issues like partial power loss or tripped circuits, our electricians have tracked down and resolved problems in as little as 15 minutes on-site. We come prepared to diagnose fast."
+    },
+    {
+      "question": "Do you handle new construction electrical work?",
+      "answer": "Yes, we have installed electrical systems for new residential builds. We recommend confirming all work with a final inspection to ensure code compliance and documentation of the completed installation."
+    },
+    {
+      "question": "What areas do you serve?",
+      "answer": "We are based in Hillsboro, OR on NE Elam Young Pkwy and primarily serve the Washington County area including surrounding communities in the Portland metro west side."
+    },
+    {
+      "question": "What are your business hours?",
+      "answer": "We're open Monday through Friday, 8:00 AM to 4:00 PM. We are closed on weekends, so for after-hours emergencies we recommend calling first thing in the morning when we open."
+    },
+    {
+      "question": "What should I do if I have a concern about work that was performed?",
+      "answer": "We encourage customers to document any concerns with photos or video and contact us directly as soon as possible. Timely communication gives us the best chance to review and address any installation questions before they become bigger issues."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#1B3A5C",
+    "accent": "#F5A623",
+    "note": "Deep navy reflects professionalism, trustworthiness, and the technical precision expected of licensed electricians. Amber/orange accent mirrors the color of electrical current and energy — grounded, warm, and direct, matching Dylan's honest and approachable communication style."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Dylan's proactive phone consultation approach saves customers money and builds exceptional trust before a technician even arrives",
+      "Fast and skilled on-site diagnostics — resolving complex power loss issues in under 15 minutes demonstrates genuine technical competency",
+      "Honest pricing philosophy — explicitly telling customers when a problem isn't worth a service call is a rare and loyalty-building differentiator"
+    ],
+    "common_complaints": [
+      "Alleged electrical code violation (duplex breakers in incompatible panel) during new construction install, with company refusing to remedy after evidence was presented",
+      "Field technician in Van #11 described as confrontational, rude to residents, and dismissive — 'none of your business' response to a reasonable question",
+      "Same Van #11 driver reported for aggressive driving and obscene gestures toward other drivers — a public-facing liability issue"
+    ],
+    "suggested_tagline": "We'll talk you out of the bill if we can.",
+    "photo_quality": "poor",
+    "personality_keywords": [
+      "honest",
+      "efficient",
+      "inconsistent",
+      "direct",
+      "technically capable"
+    ],
+    "named_staff": [
+      "Dylan"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

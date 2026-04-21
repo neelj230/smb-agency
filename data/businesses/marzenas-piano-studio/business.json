@@ -1,0 +1,148 @@
+{
+  "name": "Marzena's Piano Studio",
+  "slug": "marzenas-piano-studio",
+  "category": "piano teacher",
+  "address": "140 E Park Ave",
+  "city": "Ambler",
+  "state": "PA",
+  "zip": "19002",
+  "phone": "(215) 542-9683",
+  "email": "sudtipos@sudtipos.com",
+  "website": "http://marzenaspianostudio.com/",
+  "rating": 5,
+  "reviewCount": 26,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "3:00 – 9:00 PM",
+    "Tuesday": "3:00 – 9:00 PM",
+    "Wednesday": "3:00 – 9:00 PM",
+    "Thursday": "3:00 – 9:00 PM",
+    "Friday": "3:00 – 9:00 PM",
+    "Saturday": "9:00 AM – 1:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "My daughter has been taking piano lessons with Marzena for almost 10 years.  We could not ask for a better teacher.  She has the patience to teach a young child along with the mastery to continue teaching piano to a level that my daughter will never achieve.  I often see how children take piano lessons for a period of time and, for various reasons, give it up.  I do not see this with Marzena’s students; when they begin piano with Marzena, they seem to never give up piano.  This is a testament to how great and engaging Marzena is as a teacher.  Additionally, Marzena offers her students numerous opportunities to perform in recitals.  These opportunities to play in front of an audience have been an invaluable for my daughter developing this important skill.",
+      "author": "Joe Ackermann",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-10-18"
+    },
+    {
+      "text": "Marzena has far exceeded my expectations in a music teacher.  She has a life-long passion for music that is inspiring.  She has an amazing ability to engage children and tailor her teachings to align with their individual needs.  My 9 year old daughter has been taking piano lessons with Marzena for over 3 years and absolutely loves her.\nI wasn't sure how my daughter was going to take to piano, but she has been enjoying it immensely.  I can't thank Marzena enough for nurturing my daughter's love of music.",
+      "author": "Anne Ricca",
+      "rating": 5,
+      "source": "google",
+      "date": "2015-10-20"
+    },
+    {
+      "text": "We began in Kindermusik and then transitioned our daughter to piano lessons when she was older.  Marzena has a wealth of knowledge and is always eager to share that wealth with anyone.  Our daughter loves going to class and recitals and she took to Marzena immediately.  She is patient and knows when to give our daughter stretch goals and when to hold back.  Her teaching style, knowledge and flexibility make it easy to recommend her to all our friends.  To top it all off, she is a wonderful person too.  We are lucky to have such a dedicated and well informed teacher.",
+      "author": "Michael Bachi (Bach)",
+      "rating": 5,
+      "source": "google",
+      "date": "2016-08-09"
+    },
+    {
+      "text": "Marzena is wonderful.  Both of my children first met Marzena in Kindermusik, where she nurtured their love of music from infancy. Marzena has taught my 11 year old son piano for over 6 years.  After the first few years, when he began to play other instruments and was less interested in playing piano, Marzena would carefully choose pieces that would inspire and motivate him.  With her thoughtful, individualized lessons, she has kept him engaged in his musical education and thriving in his continued piano lessons.  We are so grateful to have found Marzena so early in my childrens' lives.",
+      "author": "Michele Rhodes",
+      "rating": 5,
+      "source": "google",
+      "date": "2015-10-06"
+    },
+    {
+      "text": "My son has been taking lessons with Marzena for 5 years and couldn't be happier.  Marzena has inspired and cultivated his love for piano and for music generally.  Her caring nature and enthusiasm for her students make her a very special teacher.",
+      "author": "Heather B",
+      "rating": 5,
+      "source": "google",
+      "date": "2015-10-02"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Group of children and adults posing together in a decorated church sanctuary during Christmas celebration.",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Group of children and adults posing together in a church sanctuary with piano",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Marzena's Piano Studio photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Marzena's Piano Studio photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Two people posing together in a church interior next to a piano",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Victorian-style residential house with cream siding and brown roofing under clear sky.",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Group of children and adults posing together at a holiday event indoors",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Marzena's Piano Studio photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Marzena's Piano Studio business card featuring piano keys and contact information",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Music lesson advertisement for First Notes program offering piano and voice lessons",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 26,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "HomePianoVoiceMarzenaContactMoreHomePianoVoiceMarzenaContactHomePianoVoiceMarzenaContactMarzena's Piano StudioMarzena's Piano StudioMarzena's Piano StudioMarzena's Piano StudioMarzena's Piano StudioMarzena's Piano StudioMarzena's Piano StudioMarzena's Piano Studio Piano & Voice Lessons(215) 542-9683 \"IntersectionObserver\"in window&&\"Intl\"in window&&\"Locale\"in window.Intl||document.write(`\\x3Cscript src=\"https://img1.wsimg.com/poly/v3/polyfill.min.js?rum=0&unknown=polyfill&flags=gated&features=Intl.~locale.en-US\">\\x3C/script>`) {\"@context\":\"https://schema.org\",\"@type\":\"LocalBusiness\",\"image\":[\"http://img1.wsimg.com/isteam/ip/9d050a11-05ab-4e78-a890-bb756fdb5e7c/44904b79-9d64-428e-9e58-f9bc9e498b33.jpg\"],\"@id\":\"http://9d050a11.05ab.4e78.a890.bb756fdb5e7c.com\",\"url\":\"marzenaspianostudio.com\",\"name\":\"First Notes\",\"address\":{\"@type\":\"PostalAddress\",\"streetAddress\":\"140 Park Ave\",\"addressLocality\":\"Ambler\",\"addressRegion\":\"PA\",\"postalCode\":\"19002\",\"addressCountry\":\"USA\"},\"geo\":{\"@type\":\"GeoCoordinates\",\"latitude\":\"40.154203\",\"longitude\":\"-75.217628\"},\"telephone\":\"+1 215 542 9683\"}"
+}

@@ -1,0 +1,146 @@
+{
+  "name": "LA Fitness",
+  "slug": "la-fitness",
+  "category": "gym",
+  "address": "1270 NE Weidler St",
+  "city": "Portland",
+  "state": "OR",
+  "zip": "97232",
+  "phone": "(503) 734-2950",
+  "email": "",
+  "website": "https://www.lafitness.com/Pages/clubhome.aspx?clubid=556&utm_source=google&utm_medium=googlemaps&utm_campaign=maps",
+  "rating": 3.8,
+  "reviewCount": 511,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "5:00 AM – 11:00 PM",
+    "Tuesday": "5:00 AM – 11:00 PM",
+    "Wednesday": "5:00 AM – 11:00 PM",
+    "Thursday": "5:00 AM – 11:00 PM",
+    "Friday": "5:00 AM – 10:00 PM",
+    "Saturday": "8:00 AM – 8:00 PM",
+    "Sunday": "8:00 AM – 8:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "The best gym. They have pretty much every machine you could ever need. I’ve been going here for like 4 years.\n\nI took a couple personal training sessions with Mars which were great. Super difficult and fun. I would highly recommend her to anyone. Her knowledge about the body/strength is impressive and I learned a lot.\n\nI don’t know the rest of the staff personally, but everyone is friendly, respectful, and helpful in all my interactions I’ve had with them.",
+      "author": "Paul Schmidt",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-30"
+    },
+    {
+      "text": "Jack has been incredibly helpful today signing up for trial run at the Lloyd’s Center LA Fitness Center.  Really excited to train and maintain my fitness goals.  Super happy they have a dry sauna at this location.",
+      "author": "Jill Johnson",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-08"
+    },
+    {
+      "text": "We use the pool a lot and it is great for workouts. Lots of good machines and helpful friendly staff. Good parking, easy transit access. Highly recommend!",
+      "author": "Bill",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-03-04"
+    },
+    {
+      "text": "As a member, I discovered a treasure in the trainer, Jenna Louie! Though she is starting as trainer, she has a trainer herself. She moves me through the workout without hesitating between exercises. She is very engaging with everyone, and makes our session fun! Go with Jenna!",
+      "author": "Donald Shepard",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-03-09"
+    },
+    {
+      "text": "Great intro today to the club given by Jack. Looking forward to using the club which is very convenient for us. Club is very well maintained with the latest equipment. Pool, hot tub and sauna will be very nice to to have as well.",
+      "author": "Scott Drushella",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-26"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Indoor spin studio with multiple stationary bikes arranged in rows for fitness classes",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Personal trainer assists client with cable machine exercise in gym",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Modern glass-fronted building facade with large storefront windows and signage.",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "LA Fitness gym reception area with holiday decorations and check-in desk",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Indoor Olympic-size swimming pool with lane dividers and modern facility architecture.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Modern gym interior with treadmills, ellipticals, and cardio equipment with digital displays",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Underground parking garage with fitness club storefront and yellow support columns",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "LA Fitness photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "LA Fitness photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "LA Fitness photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 511,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 3.8,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

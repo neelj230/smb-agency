@@ -1,0 +1,73 @@
+{
+  "name": "8 Days Later",
+  "slug": "8-days-later",
+  "category": "personal trainer",
+  "address": "971 Pulaski Dr",
+  "city": "King of Prussia",
+  "state": "PA",
+  "zip": "19406",
+  "phone": "(215) 262-6679",
+  "email": "",
+  "website": "http://www.8dlfitness.com/contact.htm",
+  "rating": 5,
+  "reviewCount": 3,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {},
+  "services": [],
+  "reviews": [
+    {
+      "text": "Great facility, great instruction, high standards, and always keeping me safe. Working with Steven has been great. He has all the tools to identify what needs work and he helps push me past my limits to a new plateau.",
+      "author": "NJ Campbell",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-01-31"
+    },
+    {
+      "text": "Steven is awesome. Knowledgeable and professional.  I highly recommend him. He also has some really fun exercises gadgets!",
+      "author": "Maggie Guterl",
+      "rating": 5,
+      "source": "google",
+      "date": "2018-01-31"
+    },
+    {
+      "text": "",
+      "author": "Alfonso Monturano",
+      "rating": 5,
+      "source": "google",
+      "date": "2018-02-18"
+    }
+  ],
+  "team": [],
+  "photos": [],
+  "stats": [
+    {
+      "value": 3,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "poor"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

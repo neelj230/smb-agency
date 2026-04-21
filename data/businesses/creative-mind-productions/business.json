@@ -1,0 +1,146 @@
+{
+  "name": "Creative Mind Productions.",
+  "slug": "creative-mind-productions",
+  "category": "wedding photographer",
+  "address": "426 E Allegheny Ave",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19134",
+  "phone": "(267) 423-6993",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 776,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "10:00 AM – 8:00 PM",
+    "Tuesday": "10:00 AM – 8:00 PM",
+    "Wednesday": "10:00 AM – 8:00 PM",
+    "Thursday": "10:00 AM – 8:00 PM",
+    "Friday": "10:00 AM – 9:00 PM",
+    "Saturday": "10:00 AM – 9:00 PM",
+    "Sunday": "10:00 AM – 8:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I had a photoshoot last night with Creative Mind Productions. I booked during the 40 for $40 promotion. Vern and his team are so professional, I felt so comfortable and was able to let loose. You receive your photos instantly after your shoot which makes one of the reasons why I book with CMP. The quality of the photos are amazing, honestly they can’t get any better. This was my 2nd shoot with Vern and I’ll be back for the next 40 for $40 shoot! 😘",
+      "author": "Ashley Martin",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-17"
+    },
+    {
+      "text": "I recently booked a session with creative mind productions and it was hands-down one of the best decisions I’ve made! From the very first contact, they were incredibly reliable—quick responses, clear communication, and everything happened exactly as promised, with no last-minute surprises.\nWalking into their studio felt like stepping into a dream space. It’s absolutely beautiful—thoughtfully designed, well-lit, with gorgeous backdrops and props that made every shot look magazine-worthy. The atmosphere was so welcoming and relaxing that any nerves I had melted away immediately.\nWhat really stood out was how comfortable they made the whole experience. They guided poses naturally without making it feel forced, cracked just the right amount of jokes to keep things light, and gave me space when needed. I never felt awkward or rushed, and the photos turned out stunning—beautifully edited, full of personality, and exactly what I hoped for (and more!).\nIf you’re looking for a photographer who combines real talent, professionalism, and a genuinely warm vibe in an incredible studio setting, look no further. I can’t recommend them highly enough—I’ll definitely be back for future sessions! Thank you for capturing such special moments so perfectly. 🌟",
+      "author": "Celenia Martinez",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-16"
+    },
+    {
+      "text": "Decided to jump on the 40-for-$40 shots, and I’m so glad I did. I needed updated headshots, but I usually feel awkward in front of the camera—I never know how to pose. Creative Mind Productions changed all of that! 😂\nThe experience was fun, comfortable, and truly memorable. Super professional from start to finish, and they even AirDropped all 40 photos to my phone before I left. No edits, no filters—just clean, crisp shots ready for posting, adding to my website, or updating my business cards.\nVernon, the photographer, was born for this. I can’t wait to take my mother next!\n#framethemoment #noeditsneeded #behindthelens #visualstoryteller #masterofthelens",
+      "author": "N. Harper",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-22"
+    },
+    {
+      "text": "Like no other in the city. I absolutely loved my experience. Creative Mind Productions is a MUST!! Vernon and his entire team is vibe from start to finish. 100% Professional. BOOK YOUR NEXT SHOOT OR HEADSHOT TODAY!!!",
+      "author": "Lashon Foster",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-15"
+    },
+    {
+      "text": "Today’s experience with Vernon and Big Smilez was absolutely amazing! We booked the $40 for 40 special and received so much more than we expected. The shoot was for my 11 year olds business. He wrote a Financial Literacy book for the youth and we wanted pictures to market his business. Vernon spoke words or encouragement and motivation during the ENTIRE session. It helped my son get out of his shell and present himself with confidence! We are so grateful for this experience and look forward to doing more with CMP!",
+      "author": "Candace Wright",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-15"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Woman in formal attire posing on urban street at night with holiday lights",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Professional woman in pink blazer striking celebratory pose against white background",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Creative Mind Productions. photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Creative Mind Productions. photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Woman modeling black ruched off-shoulder midi dress against neutral background",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Woman modeling black patterned leggings and off-shoulder top with heels",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Vibrant pink and yellow rose flower in full bloom showing detailed petals and stamens.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Creative Mind Productions. photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Creative Mind Productions. photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Young girl wearing graphic t-shirt and crown, posing against white wall background.",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 776,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

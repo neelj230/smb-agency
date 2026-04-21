@@ -1,0 +1,101 @@
+{
+  "name": "Snyder & Foster, CPA's, PC",
+  "slug": "snyder-foster-cpas-pc",
+  "category": "accounting firm",
+  "address": "9011 SW Beaverton Hillsdale Hwy",
+  "city": "Portland",
+  "state": "OR",
+  "zip": "97225",
+  "phone": "(503) 974-0818",
+  "email": "",
+  "website": null,
+  "rating": 4.4,
+  "reviewCount": 7,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Open 24 hours",
+    "Tuesday": "Open 24 hours",
+    "Wednesday": "Open 24 hours",
+    "Thursday": "Open 24 hours",
+    "Friday": "Open 24 hours",
+    "Saturday": "Open 24 hours",
+    "Sunday": "Open 24 hours"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Amy is a certified tax defender. She knows how to attack the problem.",
+      "author": "4 leaf clover",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-01"
+    },
+    {
+      "text": "I've been using Doug Snyder as our business CPA for over 20 years now. Always on time with our work and always does a great job. They're great for tax preparation, resolving tax issues and overall tax strategy.",
+      "author": "L",
+      "rating": 5,
+      "source": "google",
+      "date": "2018-12-15"
+    },
+    {
+      "text": "Very honest and can help you on any situation you have",
+      "author": "Damon Edwards",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-22"
+    },
+    {
+      "text": "He has done our taxes for a long time very happy with his service.",
+      "author": "Robert Shipp",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-01-11"
+    },
+    {
+      "text": "I have a small business and in our consult with Doug, my husband and I conveyed our need for personal attention as I transitioned from a sole proprietorship to an LLC. Doug assured us that he could offer that and unfortunately, this wasn't the case at all. When tax time approached, Doug failed to convey crucial information (e.g., that corporate taxes are due a month earlier than personal taxes), we had to hound him for adequate explanations of the process and what was needed from us, and it turned out that he completely forgot to set up estimate payments for my city taxes. Additionally, he gave us wrong/misleading information about what we would be able to write off when my husband started his own business so we weren't able to write off nearly as much as we thought given the information he initially provided us with. His \"conservative\" estimate for how much I would owe for 2017 was over $8,000 short, even after we had adamantly expressed our desire to over-pay with our estimates in our first meeting. He didn't seem to appreciate that that's a lot to suddenly have to cough up for a new family. Perhaps he's just used to working with higher rollers than me but if you're a small business, I would highly recommend you find someone else to help with your accounting needs. It was really disappointing because he seemed so personable in our consultation but our email communications thereafter he would ignore questions we asked and respond with a default line about having \"noted the contents of our email.\" Perhaps you can only get an answer to a simple question if he can get you on the phone and bill you for it. At the end of all this as we were expressing our frustrations, he acted like he had done us a favor because I was now saving money as an LLC, even though we came to him with that desire and literally did the paperwork ourselves.",
+      "author": "Sarah Voruz",
+      "rating": 1,
+      "source": "google",
+      "date": "2018-08-02"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Professional office building with tan siding, address 9011, surrounded by trees and parking spaces",
+      "category": "exterior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 7,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.4,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "poor"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

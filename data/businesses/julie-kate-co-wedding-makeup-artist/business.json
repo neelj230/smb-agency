@@ -1,0 +1,143 @@
+{
+  "name": "Julie Kate & Co - Wedding Makeup Artist",
+  "slug": "julie-kate-co-wedding-makeup-artist",
+  "category": "makeup artist",
+  "address": "1735 Chestnut St suite 2",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19103",
+  "phone": "(215) 439-2201",
+  "email": "juliekatemakeup@gmail.com",
+  "website": "http://www.juliekatemakeup.com/",
+  "rating": 5,
+  "reviewCount": 7,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {},
+  "services": [],
+  "reviews": [
+    {
+      "text": "I cannot speak highly enough about Julie! She recently did the makeup for my wedding, and we all felt and looked gorgeous! I’ve been in lots of weddings and never had makeup that I was more happy with! One of my bridesmaids even said that she felt more beautiful than she did on her own wedding day! Plus, Julie is a dream to work with! Since I was coming in from out of town, I didn’t have time to do a makeup trial and Julie gave me such peace of mind that she knew exactly what to do. That was seriously an understatement! She made me look so pretty - I’ve never felt more beautiful in my life! She is a true professional and an expert at what she does. I could not recommend her any more highly!",
+      "author": "Lauren Krasny",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-09-01"
+    },
+    {
+      "text": "Julie is the most incredible makeup artist. I have gone to Julie for a few years now. She was one of my first phone calls after I got engaged to book her for my wedding because I knew I had to have her there for my special day.\n\nShe recently did my makeup for my wedding, and all events leading up to the wedding and did the most amazing job. Everyone, including myself, loved her style and technique. My bridesmaids, my mom, aunts, and other family members all used her and fell in love with her work. She truly makes you look and feel your absolute best! I highly recommend her to everyone I know- she will truly blow you away. Thank you for everything Julie- you are the best!!",
+      "author": "Stephanie Hershman",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-10-19"
+    },
+    {
+      "text": "Julie was incredible to work with!  She took care of myself and my 8 bridesmaids and everyone looked absolutely stunning.\n\nI had trials with several other makeup artists and she blew me away when I realized the difference between her and others in the city.   I didn't doubt for a minute that she wouldn't be able to accommodate my party size in the allotted time and she was super responsive at every moment all the way through to my wedding day.  I love Julie and I've referred her to several friends already!  Thanks you so much Julie!  The wedding photos turned out amazing!!!!!!!!",
+      "author": "Jamie Ryan",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-10-18"
+    },
+    {
+      "text": "I've now gone to Julie Kate to get my makeup done for weddings (including my own) 5 times, and I've been consistently blown away every single time. Julie has an incredible sense to look at your face, hear what you're wearing and imagine exactly the look you didn't even know you wanted. She can also take any image and replicate it upon request if that's what you're looking for. She works quickly and efficiently, recommends the BEST products for when you want to go and purchase the colors yourself, and is truly an artist. She did my entire family's makeup for my brother's wedding, too, and my mom (who hates getting her makeup done) said she's never liked how she's looked more than she did that night. Would go back every time. Best makeup experience I've ever had.",
+      "author": "Alexandra Rubinstein",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-10-22"
+    },
+    {
+      "text": "Julie was a lifesaver! As in I hated my first wedding makeup trial and with only 3 weeks to go before the wedding, she swooped in with the best makeup trial, advice for my red/irritated/dry skin and flexibility to fit in me, my mom and two others on the day of my wedding. I trusted her judgment and expertise immediately. Yep, that's right, I trusted her for my first dermaplaning experience on my extremely sensitive skin 3 days before my wedding. it was incredible and now I need to travel from NYC to Philly more often because my skin felt SO SMOOTH and all of my products went on so smoothly for my minimoon.\nBut more importantly, the makeup on the big day was on point. I looked like myself - just turned up a little and smoothed out a little. I felt amazing and the makeup lasted through the whole night to the after after party. She also did an amazing job on my mom and mother in law.\nI can't thank her enough. For texting in the lead up to the wedding day, for recommending my AB rich cream that I use all the time now and for being a master at what she does and in such quick fashion that I had time to spare in my schedule on the day of.",
+      "author": "Bridget Clancy",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-03-15"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Black and white portrait of smiling woman wearing pearl earrings and veil",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Julie Kate & Co - Wedding Makeup Artist photo 2",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Julie Kate & Co - Wedding Makeup Artist photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Woman with long wavy highlighted hair and makeup in modern interior space",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Julie Kate & Co - Wedding Makeup Artist photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Professional woman smiling indoors in bright office environment with colleagues visible.",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Julie Kate & Co - Wedding Makeup Artist photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Close-up beauty makeup look featuring purple eyeshadow and defined brows",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Professional beauty makeup and hairstyle portfolio photo showcasing cosmetics application",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Woman with makeup and styled hair in pink floral top indoors",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 7,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {
+    "facebook": "https://facebook.com/2008/fbml",
+    "instagram": "https://instagram.com/juliekatemakeup/"
+  },
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "Makeup Artists for Weddings & Events Home Book/Contact Us Bridal Makeup Pricing Services Photo Gallery Julie Kate & Co. Makeup Artists for Weddings & Events Home Book/Contact Us Bridal Makeup Pricing Services Photo Gallery Makeup Artist - Bridal & Wedding Makeup | Julie Kate & Co. Since 2003 Julie Kate & Co and her talented makeup artists have specialized in bridal and wedding makeup since 2003. 1000’s of satisfied clients. Philadelphia, New Jersey, Delaware, New York. Makeup Artists for all Life's EventsWe’ll make you look like a show stopper while feeling absolutely unstoppable.Julie Kate is a professional makeup artist whose passion is to bring the natural beauty out of her clients. Julie and her talented team specialize in on-location bridal and glamour makeup to make your special day stress-free. We travel to Philadelphia, New Jersey, Delaware, & New York. With over 15 years of experience in makeup artistry, she is able to work with a wide variety of skin types, complexions, and bone structures.Visit our Bridal Party Pricing section or check out our full list of Makeup Services. Want to work with Julie?Simply fill out our booking form and we’ll get right back with you. Or email me at juliekatemakeup@gmail.com.We have an ever growing list of incredible clients and are happy to provide references at your request. Find us on:InstagramFacebook"
+}

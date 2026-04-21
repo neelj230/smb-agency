@@ -1,0 +1,146 @@
+{
+  "name": "Auto Clinic of Bend",
+  "slug": "auto-clinic-of-bend",
+  "category": "auto repair",
+  "address": "915 SE Armour Rd b",
+  "city": "Bend",
+  "state": "OR",
+  "zip": "97702",
+  "phone": "(541) 385-5468",
+  "email": "",
+  "website": null,
+  "rating": 4.5,
+  "reviewCount": 133,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "7:00 AM – 3:00 PM",
+    "Tuesday": "7:00 AM – 3:00 PM",
+    "Wednesday": "7:00 AM – 3:00 PM",
+    "Thursday": "7:00 AM – 3:00 PM",
+    "Friday": "7:00 AM – 2:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I had an issue with a check engine light and when Kendall ford couldn't get me in for another nearly 2 months just to diagnose the issue these guys got me in within a few days and got the issue fixed the same day. They were so easy to work with and honestly the price wasnt horrible. I appreciated that they were considerate that im a mom that needs that car for shuffling kids around and needed it to be safe now.",
+      "author": "Carissa Butler",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-13"
+    },
+    {
+      "text": "Auto Clinic has consistently repaired my cars.  I wouldn't trust anyone else to my daily driver which is a classic '03 with copious quirks.  They are very detailed in diagnosing the problem, explaining the findings and repairing it.  For someone who solves problems and looks for details as a living, I'm letting you know they get an A++.  Thank you AC for taking care of the bird.",
+      "author": "J R",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-26"
+    },
+    {
+      "text": "When we receive a donated vehicle, our Auto Clinic friends generously donate their services, and rally additional services from their network of auto professionals, to provide reliable transportation to our clients. This resource helps keep our clients safe. Thank you, Auto Clinic and friends!",
+      "author": "Saving Grace",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-02-08"
+    },
+    {
+      "text": "Where do I even begin with singing praises about Auto clinic. I have been bringing multiple vehicles to them over the past decade, but the recent work they did on my 2002 Dodge ram was unbelievable. They diagnosed and found issues in my CV. Axles, drive line, and rear differential. All of which were handled and they got me back on the road with peace of mind that the work was done thoroughly and properly. When there was an issue in the rear diff after some work was done due to a faulty part they had me bring it back in and made sure the part was replaced no questions asked. Julianne and the crew at Auto clinic are honest mechanics at a fair price. I'll trust them with all of my vehicles.",
+      "author": "Travis Knight",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-03-10"
+    },
+    {
+      "text": "I took my truck into this place of business to have my heater and air conditioning fixed and after three times of leaving my truck there.It still doesn't work properly.And then I took my jeep in there, and they charged me twelve hundred dollars to install a two hundred dollar water pump... worst customer service i've ever seen in a mechanics shop.So do yourself a huge favor and avoid this place at all costs.Because I guarantee they will bend you over....",
+      "author": "PNWLURECO",
+      "rating": 1,
+      "source": "google",
+      "date": "2025-10-09"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Custom blue vintage car in garage workshop surrounded by automotive parts and memorabilia",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Auto repair shop with vehicles on lift and engine disassembly for maintenance.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Classic white 1950s car undergoing restoration in professional auto repair shop",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Mechanic disassembles differential gear assembly in automotive repair shop",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Mechanics working on engine rebuild in automotive repair shop with toolboxes",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Mechanic shop interior showing dismantled black car engine and front end components",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Vintage-themed man cave with Corona neon sign, classic car memorabilia, and retro photographs on walls.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Vintage cream and blue classic car displayed in indoor showroom with other vehicles",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Two Air-Rite Firestone air compressor pumps with red and black wiring on workbench",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Disassembled automotive parts and components laid out on workshop surface during repair",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 133,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

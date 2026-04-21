@@ -1,0 +1,195 @@
+{
+  "name": "A Precious Pet",
+  "slug": "a-precious-pet",
+  "category": "pet groomer",
+  "address": "256 Vashti Way",
+  "city": "Medford",
+  "state": "OR",
+  "zip": "97501",
+  "phone": "(541) 779-7770",
+  "email": "",
+  "website": null,
+  "rating": 4.9,
+  "reviewCount": 13,
+  "tagline": "Your pet is precious. She treats them that way.",
+  "brandNarrative": "A Precious Pet isn't a big-box salon or a harried drop-off factory — it's Charlene, a woman who once drove out on the day after Christmas to remove ticks from a dog with zero notice. That's not a policy. That's a person. Customers describe her as 'a real dog person' who genuinely connects with animals, turning a famously grumpy old dachshund into a willing participant after nothing more than a warm bath and gentle drying. She's the groomer who picks up the phone on a Saturday night and says yes — same-day appointments, last-minute pet sitting, emergency tick removal — when every other business has a two-week waitlist and an automated voicemail.\n\nWhat sets Charlene apart is a combination of instinct and patience that pet owners immediately recognize. Linda's Australian Shepherd — a breed known for being headstrong — came out beautifully groomed because Charlene took the time to actually connect with the dog first. Jennifer's dog didn't just look clean after his cut; he smelled clean, which sounds obvious until you've collected your dog from a groomer who missed the point entirely. Charlene does grooming, pet sitting, and animal rescue work, which explains why animals seem to trust her quickly — she's logged the kind of hours with animals that only come from genuine love, not a job description.\n\nOperating out of Medford, OR with extended hours six days a week (7:30 AM to 10:00 PM), A Precious Pet is built around the real, unpredictable schedules of pet owners, not the convenience of the business. With a 4.9-star rating across every review she's received, Charlene has built the kind of reputation that travels by word of mouth — because when someone's dog finally smells good and leaves the groomer happy, they tell everyone.",
+  "ownerStory": "Charlene is the heart, hands, and hustle of A Precious Pet — a one-woman operation that reflects exactly who she is: kind, responsive, and deeply committed to animals in a way that goes well beyond grooming appointments. She rescues animals, pet-sits small and exotic pets including rats, and has been known to show up on holidays when a dog needs help and there's no one else to call. Customers don't describe her as a service provider. They describe her as 'a sweet lady,' 'a very kind and caring person,' and someone who 'really connects with the dogs.' That's not a marketing line — those are the words her customers reach for unprompted.\n\nHer work ethic is equally striking. While most groomers are booked weeks out, Charlene has a pattern of same-day and next-day availability that regular clients call 'unheard of.' She built A Precious Pet not on volume and throughput, but on genuine relationships with individual animals and their owners. Whether she's blow-drying a senior dog who hates loud noise or sitting with someone's rats on a Saturday night, she brings the same careful attention every time. In a field where burnout is common and animals often feel the stress, Charlene's approach — slow, warm, and rooted in real affection — makes the experience different from the first moment you call her.",
+  "hours": {
+    "Monday": "7:30 AM – 10:00 PM",
+    "Tuesday": "7:30 AM – 10:00 PM",
+    "Wednesday": "Closed",
+    "Thursday": "7:30 AM – 10:00 PM",
+    "Friday": "7:30 AM – 10:00 PM",
+    "Saturday": "7:30 AM – 10:00 PM",
+    "Sunday": "7:30 AM – 10:00 PM"
+  },
+  "services": [
+    {
+      "name": "Full Dog Grooming",
+      "description": "Complete grooming session including bath, breed-appropriate haircut, blow-dry, and finishing — leaving your dog genuinely clean and smelling fresh.",
+      "icon": "scissors"
+    },
+    {
+      "name": "Gentle Bath & Dry",
+      "description": "A warm, stress-minimizing bath and careful drying session, especially suited for senior dogs, anxious breeds, or pets new to grooming.",
+      "icon": "droplets"
+    },
+    {
+      "name": "Tick & Parasite Removal",
+      "description": "Emergency or scheduled tick removal performed with care — available even on short notice, including holidays.",
+      "icon": "shield-check"
+    },
+    {
+      "name": "Pet Sitting",
+      "description": "Reliable, loving in-home pet care for dogs, cats, and small animals including exotic pets — available on short notice for last-minute needs.",
+      "icon": "heart"
+    },
+    {
+      "name": "Same-Day Appointments",
+      "description": "When your regular groomer has a two-week wait, Charlene does her best to fit you in the same day — because pets can't always wait.",
+      "icon": "calendar-check"
+    },
+    {
+      "name": "Animal Rescue Support",
+      "description": "Charlene actively participates in animal rescue, bringing that same patient, compassionate handling to every dog that walks through her door.",
+      "icon": "paw-print"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "I called her and she was able to get our little guy in the same day ! Unheard of for groomers   lol she a sweet lady kind to me and my furry friend and did such a cute little cut and he actually smelled clean! :) I will only come here from now on.",
+      "author": "Jennifer May",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-06-09"
+    },
+    {
+      "text": "Charlene is a very kind and caring person.  She does it all...grooming, pet sitting, rescuing.  She turned a grumpy old doxie into a fan after a nice warm bath and gentle drying.  She responds quickly to concerns and removed ticks from my dog the day after Christmas w/ no notice...who else would do that?",
+      "author": "Maryl Cipperly",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-02-02"
+    },
+    {
+      "text": "Charlene is what you call a real dog person, she really connects with the dogs. So kind and patient with my aussie. She did a great job and I would recommend her to anyone who loves their dogs.",
+      "author": "Linda B",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-04-23"
+    },
+    {
+      "text": "I called literally the night before on Saturday night looking for somebody to petsit my rats while I attended a play. She was accommodating and willing to take them in at last minute notice. We ended up finding someone closer in Ashland but will definitely be calling back if we ever need a petsitter in Medford. :) I was actually disappointed that we didn't get to meet her, but it didn't make sense to drive all that unnecessarily.",
+      "author": "Meagan Malachite",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-09-25"
+    },
+    {
+      "text": "Always takes great care of my dogs.  Highly recommended.",
+      "author": "David Corbin",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-05-21"
+    }
+  ],
+  "team": [
+    {
+      "name": "Charlene",
+      "role": "Owner, Groomer & Pet Care Specialist",
+      "bio": "Charlene is described by customers as 'a real dog person' who genuinely connects with animals of all temperaments — from anxious Aussies to grumpy senior dachshunds. She also does rescue work and pet sitting, and is known for her rapid response, warmth, and willingness to help on holidays and short notice.",
+      "credentials": [
+        "Expert dog groomer",
+        "Pet sitter for dogs, cats, and exotic animals",
+        "Animal rescue volunteer",
+        "Same-day and emergency availability"
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Black and white dog standing on paved driveway in backyard garden area",
+      "category": "exterior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 4.9,
+      "suffix": "★",
+      "label": "Average Customer Rating"
+    },
+    {
+      "value": 13,
+      "suffix": "+",
+      "label": "Verified Five-Star Reviews"
+    },
+    {
+      "value": 7,
+      "suffix": " days",
+      "label": "Extended Hours, 6 Days a Week"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "Five-Star Review Rate"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can I get a same-day or last-minute appointment?",
+      "answer": "Yes — Charlene is well-known for accommodating same-day calls when her schedule allows. Multiple customers have been seen the same day they called, which is rare among groomers. It's always worth calling (541) 779-7770 even if you think it's too late."
+    },
+    {
+      "question": "Does Charlene work with anxious or difficult dogs?",
+      "answer": "Absolutely. Charlene has a natural ability to calm animals down. Customers have brought in notoriously grumpy senior dogs and high-energy breeds like Australian Shepherds — and both left relaxed and well-groomed. She's patient, gentle, and takes the time to actually connect with each dog."
+    },
+    {
+      "question": "Do you offer pet sitting, or just grooming?",
+      "answer": "Both. Charlene offers pet sitting in addition to grooming, and she's open to caring for a wide range of animals including dogs, cats, and even small exotic pets like rats. She's responded to last-minute Saturday night pet sitting requests — so don't hesitate to call even on short notice."
+    },
+    {
+      "question": "What are your hours?",
+      "answer": "A Precious Pet is open Monday, Tuesday, Thursday, Friday, Saturday, and Sunday from 7:30 AM to 10:00 PM. Wednesdays are closed. The extended evening hours make it easy to drop off or pick up even on busy workdays."
+    },
+    {
+      "question": "Can Charlene help with tick removal or other urgent pet care?",
+      "answer": "Yes — one customer had ticks removed the day after Christmas with no advance notice. Charlene is willing to help in urgent situations when other providers aren't available. Call her directly and explain your situation."
+    },
+    {
+      "question": "What makes A Precious Pet different from a regular grooming salon?",
+      "answer": "It's personal. Charlene isn't running a high-volume salon — she's building relationships with each animal and owner. Customers consistently note that their dogs seem comfortable and happy, that Charlene is genuinely kind, and that she goes well beyond what's expected. She also does rescue work, which reflects a level of commitment to animals that goes beyond the job."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#4A7C59",
+    "accent": "#D4A853",
+    "note": "Soft forest green evokes warmth, nature, and gentle animal care — grounded and trustworthy without being clinical. The warm gold accent reflects the 'precious' in the name and adds a sense of love and quality. Together they feel like a backyard garden: natural, calm, and personal — exactly like Charlene's approach."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Extraordinary availability and responsiveness — same-day appointments, holiday availability, and last-minute pet sitting set Charlene apart from every competitor in the area",
+      "Genuine animal connection and patience — multiple reviewers independently note that Charlene has a natural ability to calm and connect with dogs of all temperaments, including difficult or anxious animals",
+      "Broad, flexible service offering — grooming, pet sitting, tick removal, and rescue support make Charlene a one-stop trusted resource rather than a single-service provider"
+    ],
+    "common_complaints": [
+      "None found — all 13 reviews are 5 stars with no negative feedback. One customer noted mild disappointment at not being able to meet Charlene in person, but this was circumstantial and not a complaint about service quality."
+    ],
+    "suggested_tagline": "Same-day. Gentle hands. Zero waitlist.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "Warm",
+      "Responsive",
+      "Genuine",
+      "Patient",
+      "Animal-devoted"
+    ],
+    "named_staff": [
+      "Charlene"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

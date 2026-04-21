@@ -1,0 +1,118 @@
+{
+  "name": "HAPPPY DAYCARE LLC",
+  "slug": "happpy-daycare-llc",
+  "category": "daycare",
+  "address": "1195 Royalty Dr NE",
+  "city": "Salem",
+  "state": "OR",
+  "zip": "97301",
+  "phone": "(503) 884-3448",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 1,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "7:00 – 9:00 AM",
+    "Tuesday": "7:00 AM – 9:00 PM",
+    "Wednesday": "7:00 AM – 9:00 PM",
+    "Thursday": "7:00 AM – 9:00 PM",
+    "Friday": "7:00 AM – 9:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Maria runs a fantastic daycare. Both my kids are well taken cared for and most of all I can trust her home and her as a person. I highly recommend this for parents who struggle with finding a trust worthy place.",
+      "author": "Hauvert Pacheco",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-07-22"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Children's playroom with LEGO building table, storage containers, and Minions wall decorations.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Child's teepee tent decorated with string lights, pillows, and character cushion indoors",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Children's playroom with gray upholstered furniture and toys on carpeted floor",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Family dining area with children's table, high chair, and residential furniture indoors.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Child stepping on colored water trays arranged in a line on carpet floor",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Child's playroom with toy kitchen appliances and motivational wall decals",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Colorful blue and green children's playground equipment set in backyard with slide and climbing features.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Colorful playroom with toys, play kitchen, crib, and motivational wall decals",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Child's doll furniture set including pink bouncer, gray playpen, red shopping cart, and turquoise vacuum toy.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Child's playroom with toys, play kitchen, storage bins, and motivational wall decals.",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 1,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "name": "FR Auto Detail",
+  "slug": "fr-auto-detail",
+  "category": "auto detailing",
+  "address": "6450 Harbison Ave",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19149",
+  "phone": "(215) 284-7800",
+  "email": "",
+  "website": null,
+  "rating": 4.8,
+  "reviewCount": 98,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "8:00 AM – 5:00 PM",
+    "Tuesday": "8:00 AM – 5:00 PM",
+    "Wednesday": "8:00 AM – 5:00 PM",
+    "Thursday": "8:00 AM – 5:00 PM",
+    "Friday": "8:00 AM – 5:00 PM",
+    "Saturday": "8:00 AM – 2:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "My car was a total mess. FR Auto Detail completely transformed it. The interior looks spotless, and the exterior shine is unreal after the wash and wax. They even took care of the trunk, which I hadn’t cleaned in months. The best part? I didn’t have to go anywhere, bc they came while I was at work. Super impressed and will definitely use them again!",
+      "author": "Malik",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-02"
+    },
+    {
+      "text": "Definitely 5 stars! Mobile service came to my home. He was very professional, and on time.  He took his time to make sure every little nook and cranny gets clean. I have children and with COVID 19 around he did an excellent job disinfecting the dashboard, the steering wheel, the doors and my leather seats.  I will absolutely recommend him to my friends and family. He is affordable and reliable. My car is BRAND NEW!!",
+      "author": "Evelese Soto",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-09-23"
+    },
+    {
+      "text": "Pictures do not do it justice. My car looks just like it did the day I drove it off the lot. I highly recommend FR Auto Detail for anyone who is looking to have their car detailed! I will definitely be using them again. Don't let the prices fool you, the cost is cheap, but the service and quality of work i is first-class!",
+      "author": "Kristi Mozi",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-11-06"
+    },
+    {
+      "text": "Felton did an amazing job. I had scheduled them at my home but unfortunately couldn’t use my hose as it wasn’t long enough to extend to my car. His shop was nearby so dropped off my car at his shop, and Felton dropped me off back at my home and when my car was ready, he came to pick me up. Friendly and courteous throughtout. Using the online booking service and payment was smooth. Definitely recommend working with them.",
+      "author": "faizan saiyed",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-12-31"
+    },
+    {
+      "text": "Felton was fantastic! He was on time, friendly, gave me a great deal, and did a wonderful job. He was able to handle years of dog hair and kid’s snacks! If you’re thinking of treating yourself, HIGHLY recommend this company.",
+      "author": "Sarah Schaffer",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-11-04"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "White Nissan Murano SUV parked in driveway with residential house background",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Luxury vehicle interior with brown leather seats and wood trim details",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "FR Auto Detail photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "White sedan parked in indoor garage or parking structure facility",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Car interior showing center console, automatic transmission, cup holders, and beige seats.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "White Honda vehicle parked in driveway next to garage door",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Open car door showing interior upholstery and door panel details on brick driveway",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "FR Auto Detail photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Brown Nissan Armada SUV parked in covered garage displaying side profile and wheels",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Car interior showing steering wheel, dashboard, infotainment system, and transmission.",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 98,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.8,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

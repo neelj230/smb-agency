@@ -1,0 +1,101 @@
+{
+  "name": "Piano Lessons with Traci",
+  "slug": "piano-lessons-with-traci",
+  "category": "piano teacher",
+  "address": "48 N 3rd St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19106",
+  "phone": "(610) 597-9474",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 17,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM – 9:00 PM",
+    "Tuesday": "9:00 AM – 9:00 PM",
+    "Wednesday": "9:00 AM – 9:00 PM",
+    "Thursday": "9:00 AM – 9:00 PM",
+    "Friday": "9:00 AM – 9:00 PM",
+    "Saturday": "9:00 AM – 9:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "We feel so thankful to have found Traci for our son. Her requirement for her students to be dedicated to their instrument keeps us all on-point. Our son is learning so much about piano but even more importantly he’s learning how proper preparation and practicing everyday is the key to success in everything. Traci is very knowledgeable, professional, patient and very good at teaching all ages. We highly recommend anyone interested in piano to start lessons with Traci.",
+      "author": "Trish Jane",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-11-21"
+    },
+    {
+      "text": "Traci is an excellent piano teacher! She is patient, kind, and so talented in her teaching abilities. I always look forward to her lessons as she is constantly encouraging me and making me a better piano player. I would highly recommend her to anyone looking to learn piano at any level.",
+      "author": "Lauren Andrews",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-11-16"
+    },
+    {
+      "text": "I began taking lessons with Traci as adult with some prior experience reading music but without having played the piano since childhood. Traci was able to assess a good starting point for me so it felt like I was making progress and learning from day one while reinforcing the knowledge I already had. In addition to being a warm, patient and knowledgeable instructor, Traci is flexible and accommodating which is great for a working adult student.",
+      "author": "Kelly Hewton",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-12-19"
+    },
+    {
+      "text": "Learning piano with Traci has been amazing!\n\nI am 33 years old and have been working with her for about a year and a half now. I never played an instrument before and did not know how to read music when we started--and that was totally fine as she works with students at all skill levels. I got a keyboard for my apartment and the piano lesson books she recommended. I would suggest this to anyone starting out as well, as it makes practice between lessons more focused. With each piano session, we review a little bit of 'homework' of the music theory, work through the lesson book as needed, and also practice songs you select for your enjoyment. She is patient with students and has really made piano fun. In less than a year, I was able to learn a rendition of Hey Jude by The Beatles and play in a recital with her other students. This was such a rewarding experience and personal development for me. Right now I am working on a Michael Bublé Christmas song--Cold December Night--and I am excited to play for family over the holidays.\n\nI highly recommend working with Traci. She is a very experienced instructor for all ages and skill levels.\n\nTim\nOld City, Philadelphia",
+      "author": "Tim Olsen",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-11-16"
+    },
+    {
+      "text": "I highly recommend Traci for piano instruction.  My seven year old daughter always looks forward to her lessons.  At the beginning of class, we are always greeted with a warm and nurturing smile.  Traci’s experience is evident as she seamlessly guides my daughter through the twenty-five minute lesson.  My daughter is always encouraged by Traci’s praise and rewards.  Corrections are gently made when necessary.  Also, lessons are done in a very clean and encouraging environment.  Overall, Traci is a wonderful piano teacher.",
+      "author": "Samantha Ammer",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-10-29"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Grand piano silhouette with colorful musical notes and abstract design elements",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 17,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "poor"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

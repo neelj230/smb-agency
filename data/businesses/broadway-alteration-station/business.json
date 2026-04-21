@@ -1,0 +1,141 @@
+{
+  "name": "Broadway Alteration Station",
+  "slug": "broadway-alteration-station",
+  "category": "tailor",
+  "address": "2706 NE Broadway",
+  "city": "Portland",
+  "state": "OR",
+  "zip": "97232",
+  "phone": "(503) 287-7712",
+  "email": "",
+  "website": null,
+  "rating": 4.2,
+  "reviewCount": 77,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Closed",
+    "Tuesday": "9:30 AM – 6:00 PM",
+    "Wednesday": "9:30 AM – 6:00 PM",
+    "Thursday": "9:30 AM – 6:00 PM",
+    "Friday": "9:30 AM – 6:00 PM",
+    "Saturday": "10:00 AM – 3:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I always forget to leave a review. I’ve been coming here for about 10 years and have had many things fitted for me. She remains my favorite tailor I’ve ever been to in all the cities I’ve ever lived in.",
+      "author": "A Reat",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-17"
+    },
+    {
+      "text": "Great work and affordable price. I adjusted my pants length and it was well done !\nI will come back again.",
+      "author": "N T",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-11-09"
+    },
+    {
+      "text": "Went in looking only for a button for my pants and the woman there was extremely helpful. Took time searching around for one and even gave it to us for free. Should I ever need any alterations for my clothes I now know where I will go. Customer service here is A++",
+      "author": "Julian Sauter",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-05-28"
+    },
+    {
+      "text": "Do NOT get this place confused with A1 Alteration Station, which is further down the street. This is my go to place! She does an awesome job. I’ve had her do some complicated things too! Bringing some suits there today to be altered for a wedding.",
+      "author": "Laura Davis",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-08-24"
+    },
+    {
+      "text": "I took in two pairs of pants to try the service at A 1 and I won't be going back. Picture posted of my now asymmetrical jeans. The other pair of pants had long legs that needed to be taken up quite a bit, but they took too much and it was returned at least a 1/2\" too high. The pant legs barely cover the top of my boots with a 1/4 break and that's not what was chalked. I also needed more material taken to shorten the rise in both pants, which they aggressively refused to do saying they didn't need it. I've worked with top quality tailors before and this is not one of them. My search continues in Portland.",
+      "author": "Reggie Stecher",
+      "rating": 1,
+      "source": "google",
+      "date": "2019-03-22"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Storefront sign for Alteration Station tailor shop with address 2706",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Yellow storefront of Alteration Station and Tailor shop with parking sign",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Interior view of a salon or spa reception area with green counters and red table",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Close-up of denim jeans waistband measured with a ruler scale",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Store front window with red background displaying mask requirement and business hours notices.",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Close-up of blue denim jeans with yellow stitching and red Levi's tab label",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Close-up of black fabric garment showing seams and stitching detail on colored background",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Street view of storefronts with parked cars at dusk in urban neighborhood",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Storefront of Alteration Station with orange facade, large window, and open sign displayed.",
+      "category": "exterior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 77,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.2,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

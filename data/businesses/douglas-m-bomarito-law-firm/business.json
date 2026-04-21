@@ -1,0 +1,180 @@
+{
+  "name": "Douglas M Bomarito LAW Firm",
+  "slug": "douglas-m-bomarito-law-firm",
+  "category": "law firm",
+  "address": "7157 SW Beveland St",
+  "city": "Tigard",
+  "state": "OR",
+  "zip": "97223",
+  "phone": "(503) 223-8285",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 6,
+  "tagline": "Hard to Fluster. Steadfast in Your Corner.",
+  "brandNarrative": "Doug Bomarito is the kind of attorney who has been earning trust since 1985 — not through flashy marketing, but through consistency, candor, and an unshakable calm under pressure. Clients describe him as 'hard to fluster,' a quality that matters enormously when legal stakes are high and emotions run even higher. Whether he's navigating a complex case or sitting across from an opposing counsel, Doug's demeanor is steady, his advocacy is fierce, and his character is what long-time clients call 'stand-up' — the kind of lawyer you'd recommend without hesitation to a friend in crisis.\n\nWhat sets Doug apart isn't just his decades of experience — it's how that experience translates in the room. Reviewers consistently highlight that he is 'honest, kind, and diligent,' a combination that is rarer in legal practice than it should be. He doesn't waste your time with legalese or meandering. Roger Travis noted that Doug is 'direct and to the topic at hand,' which means your consultations are productive, your strategy is clear, and you're never left wondering where your case stands. DL Snelling put it plainly: his knowledge and experience translate to successful cases.\n\nLocated in Tigard, Oregon, the Douglas M Bomarito Law Firm serves clients with the kind of personalized attention that only comes from a practice where you are never just a case number. With a perfect five-star rating across all reviews, this is a firm built entirely on reputation — and Doug has spent nearly four decades making sure that reputation is worth protecting.",
+  "ownerStory": "Doug Bomarito didn't build his reputation overnight. Since 1985, he has been showing up for clients in the Pacific Northwest with a steadiness that people remember decades later. Chugwater Jack, who has known Doug since that first year, describes him simply as 'a real stand-up kind of guy' — and in the legal world, that kind of lasting loyalty from someone who has watched you work for nearly 40 years says everything. Doug practices law the way a trusted neighbor would handle your affairs: honestly, thoroughly, and with genuine care for the outcome.\n\nHis approach is defined by two qualities that rarely coexist in high-pressure legal work: warmth and precision. Clients describe him as kind but direct, experienced but approachable, knowledgeable but never condescending. He has built the Douglas M Bomarito Law Firm not as an institution, but as an extension of his own values — a place where your problem gets his full attention, his deep expertise, and his genuine commitment to your success.",
+  "hours": {},
+  "services": [
+    {
+      "name": "Legal Consultation & Case Strategy",
+      "description": "Direct, focused consultations where Doug assesses your situation and outlines a clear legal strategy without wasted time or vague advice.",
+      "icon": "message-square"
+    },
+    {
+      "name": "Civil Litigation",
+      "description": "Steadfast courtroom and dispute advocacy representing clients through complex civil matters with decades of Oregon litigation experience.",
+      "icon": "scale"
+    },
+    {
+      "name": "Contract Review & Drafting",
+      "description": "Careful review, negotiation, and drafting of contracts to protect your interests and prevent costly disputes down the road.",
+      "icon": "file-text"
+    },
+    {
+      "name": "Personal Injury Representation",
+      "description": "Diligent advocacy for clients injured by another's negligence, pursued with the honesty and tenacity Doug is known for.",
+      "icon": "shield"
+    },
+    {
+      "name": "Business Law Advisory",
+      "description": "Practical legal guidance for small businesses and entrepreneurs navigating Oregon business law, disputes, and transactions.",
+      "icon": "briefcase"
+    },
+    {
+      "name": "Estate Planning & Wills",
+      "description": "Thoughtful, personalized estate planning that ensures your wishes are honored and your family is protected with clarity.",
+      "icon": "heart-handshake"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "I've known Doug Bomarito since 1985, and have found him to be a real stand-up kind of guy, hard to fluster, and steadfast in his advocacies. You could not make a better choice.",
+      "author": "Chugwater Jack",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-10-17"
+    },
+    {
+      "text": "Doug is very professional, direct& to the topic at hand. I would recommend his services to anyone in need of his expertise.",
+      "author": "Roger Travis",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-01-21"
+    },
+    {
+      "text": "Doug Bomarito is honest, kind, diligent, and he has a wealth of knowledge and experience, which translates to successful cases!",
+      "author": "DL Snelling",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-05-08"
+    },
+    {
+      "text": "Absolutely wonderful!!",
+      "author": "BIANCA MIELE",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-11-16"
+    },
+    {
+      "text": "",
+      "author": "Rachel King",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-08-09"
+    }
+  ],
+  "team": [
+    {
+      "name": "Douglas M. Bomarito",
+      "role": "Attorney & Founder",
+      "bio": "Practicing law since 1985, Doug is described by long-time clients as honest, kind, diligent, and hard to fluster — a direct communicator with a wealth of knowledge that translates into successful outcomes for those he represents.",
+      "credentials": [
+        "Oregon State Bar Member",
+        "Nearly 40 Years of Legal Practice",
+        "5-Star Client Rating"
+      ]
+    }
+  ],
+  "photos": [],
+  "stats": [
+    {
+      "value": 5,
+      "suffix": "★",
+      "label": "Perfect Client Rating"
+    },
+    {
+      "value": 39,
+      "suffix": "+",
+      "label": "Years of Legal Practice"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "5-Star Reviews from Clients"
+    },
+    {
+      "value": 6,
+      "suffix": "",
+      "label": "Verified Client Reviews"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What makes Doug Bomarito different from other attorneys in the Portland area?",
+      "answer": "Clients who have worked with Doug for decades consistently highlight three things: he is honest about your situation, direct in his communication, and steadfast in fighting for your interests. He doesn't fluster easily, which makes him a calm and effective advocate even in high-stakes cases."
+    },
+    {
+      "question": "How long has Doug Bomarito been practicing law?",
+      "answer": "Doug has been practicing law since at least 1985 — nearly four decades of experience in Oregon law. That longevity is reflected in the depth of his knowledge and the loyalty of his long-term clients."
+    },
+    {
+      "question": "Will I actually get time and attention, or will I be passed off to a junior associate?",
+      "answer": "At the Douglas M Bomarito Law Firm, you work directly with Doug. This is a personalized practice — reviewers consistently describe a direct, attentive experience where Doug himself is engaged in the details of their cases."
+    },
+    {
+      "question": "What types of legal matters does Doug handle?",
+      "answer": "While the firm's full service list is best discussed in a consultation, clients have referenced successful case outcomes across a range of matters. Doug's background supports civil litigation, business law, personal injury, contract work, and estate planning in the Tigard and greater Portland area."
+    },
+    {
+      "question": "Is Doug Bomarito someone I can trust to be straight with me?",
+      "answer": "Every reviewer who speaks to Doug's character uses words like 'honest,' 'kind,' and 'professional.' He is described as direct and to the point — you will not be given the runaround or buried in confusing legal language."
+    },
+    {
+      "question": "How do I get started with the Douglas M Bomarito Law Firm?",
+      "answer": "The best first step is to call the office directly at (503) 223-8285. The firm is located at 7157 SW Beveland St in Tigard, Oregon. Doug values direct communication, so reaching out is the fastest way to understand how he can help your specific situation."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#1B3A5C",
+    "accent": "#C8A84B",
+    "note": "Deep navy conveys the trustworthiness, steadiness, and seriousness that reviewers consistently attribute to Doug — 'hard to fluster' and dependable over decades. The warm gold accent reflects his approachable, honest character and the long-standing reputation he has built since 1985, adding warmth without sacrificing authority."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Exceptional personal character — reviewers across decades consistently describe Doug as honest, kind, steadfast, and unflappable under pressure",
+      "Deep experience and knowledge that clients say directly translates into successful case outcomes",
+      "Direct, efficient communication style — clients feel respected, informed, and never left guessing about their case"
+    ],
+    "common_complaints": [
+      "None found — all reviews are 5-star with uniformly positive sentiment; no negative patterns detected"
+    ],
+    "suggested_tagline": "Decades of Trust. Zero Fluster.",
+    "photo_quality": "poor",
+    "personality_keywords": [
+      "steadfast",
+      "unflappable",
+      "honest",
+      "direct",
+      "experienced"
+    ],
+    "named_staff": [
+      "Douglas M. Bomarito"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

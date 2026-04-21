@@ -1,0 +1,151 @@
+{
+  "name": "The Barber League",
+  "slug": "the-barber-league",
+  "category": "barber",
+  "address": "61445 S Hwy 97",
+  "city": "Bend",
+  "state": "OR",
+  "zip": "97702",
+  "phone": "(408) 960-3085",
+  "email": "r3gulatt3r77@yahoo.com",
+  "website": "https://cdl.booksy.com/1ymXSFVLHV",
+  "rating": 4.5,
+  "reviewCount": 79,
+  "tagline": "",
+  "brandNarrative": "Find your Booksy specialist by city \n                            Charlotte\n                         \n                                    Barbershop\n                                \n                                    Hair Salon\n                                \n                                    Massage\n                                \n                                    Tattoo Shop\n                                \n                                    Hair Removal\n                                \n                                    Nail Salon\n                                \n                                    Brows & Lashes\n                                \n                                    Makeup\n                                \n                                    Box Braids\n                                \n                                    Dreadlocks\n                                \n                                    Eyelash Extensions\n                                \n                                    Female Haircut\n                                \n                                    Male Haircut\n                                \n                            Columbus\n                         \n                                    Barbershop\n                                \n                                    Hair Salon\n                                \n                                    Massage\n                                \n                                    Tattoo Sh",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Closed",
+    "Tuesday": "2:00 – 6:00 PM",
+    "Wednesday": "9:00 AM – 5:00 PM",
+    "Thursday": "9:00 AM – 5:00 PM",
+    "Friday": "9:00 AM – 5:00 PM",
+    "Saturday": "9:00 AM – 4:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Just had another amazing cut from Johnny! He got me in short notice, christmas eve! provided expert advice for the cut and design i got. Left feeling like im a new improved version of myself. Thank you again Johnny i really appreciate it!",
+      "author": "Daniel Thompson",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-24"
+    },
+    {
+      "text": "My husband and son get complimented on their clean cuts in public all the time. Johnny is a true artist and takes so much pride in his work. The family feel in the shop and positive experience is what keeps these guys coming back. Ladies get your gentleman an appointment with Johnny. You WONT be disappointed.",
+      "author": "Tiffany",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-02-01"
+    },
+    {
+      "text": "Johnny was amazing, we are traveling from Alaska and our son needed a cut we came across The Barber League and went in and asked if we could do a walk in he said he normally didn’t do walk ins but would do us and stay a little later. He did an amazing job on my son’s hair and they had a blast, then he did my beard and trimmed me up. Was a great time getting to know Johnny a little and talking all sorts of different things i recommend this place to anyone!",
+      "author": "North Creative Design Co",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-01-31"
+    },
+    {
+      "text": "johnny has always been consistent, and on time. my cuts have always looked good, and fresh.\ni also do nose waxing, if you haven’t tried it, try it, helps you breath so much better. make sure you say hi to his dogs, lady and tucker. super sweet dogs, very good friendly environment",
+      "author": "Northfresh Sushi fitness",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-01-31"
+    },
+    {
+      "text": "I had been a customer at Barber League for a couple of years, but my experience with the owner, Johnathan, has been increasingly disappointing. Initially, I enjoyed my visits, but over time, I noticed a pattern in how he treats customers. Whenever we discussed topics where our views differed, it often escalated into arguments.\n\nDuring my last visit, after a few disagreements, I pointed out some issues with my haircut. Instead of responding professionally, Johnathan took it personally and became defensive, shutting me out completely. Haircuts are part of the service, and I understand they can be subjective, but when I’m paying $60, I expect a better attitude and quality of service.\n\nI've mentioned my experience to friends, and they’ve shared similar sentiments. Many of them tried Barber League based on my recommendation but decided never to return after just one visit. If you're looking for a place with good customer service, I suggest looking elsewhere. The negative reviews about Johnathan's unprofessionalism are consistent and reflect a troubling pattern. Save your time and money!\n\nAlso no cameras. I wish he would post the footage to back exactly what I have said. Truly is shame. Do better and be better.",
+      "author": "Martin Sierra",
+      "rating": 1,
+      "source": "google",
+      "date": "2025-06-05"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Close-up side view of a modern men's haircut with faded sides and textured top",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Side profile of person with styled curly hair in professional salon setting",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Person with fresh haircut and earring shown from side profile in barbershop",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Man in black shirt poses in cluttered workshop or salon interior space",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Man wearing black Oakley sunglasses indoors, showcasing eyewear product",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Young boy with distinctive haircut holding mirror in office space, smiling at reflection",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Young child smiling in a classroom or workshop setting with supplies visible",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Person wearing mask and earring in indoor setting with blurred background",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Young boy with styled blonde hair wearing blue adventure shirt indoors",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Profile view of bald man with reddish beard wearing dark shirt indoors",
+      "category": "team"
+    }
+  ],
+  "stats": [
+    {
+      "value": 79,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {
+    "facebook": "https://facebook.com/booksypolska/",
+    "instagram": "https://instagram.com/Johnny.tha.barber/"
+  },
+  "competitors": [],
+  "brandColors": {
+    "primary": "#e5f5f6",
+    "accent": "#00a3ad",
+    "note": "Extracted from business website"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "Booksy logo 1 Click on the three-dot menu icon in the top-right corner of the browser window2 Select \"Settings\" from the dropdown menu.3 Scroll down and click on \"Privacy and security\" in the left sidebar.4 Click on \"Site settings\" and scroll down to find the \"Location\" option.5 Toggle the switch to allow sites to request your physical location.6 Go back to Booksy and in the location search window click \"Use my current location\". Read more: When? Preferred time April 2026 Sun Mon Tue Wed Thu Fri Sat 29303112345678910111213141516171819202122232425262728293012 Schedule us Hair Barber Nails Skin care Brows and lashes Massage Makeup Wellness and spa More... Braids and locsTattoosMedical aestheticsHair removalHome servicesPiercingPet servicesDental and orthodonticsHealth and fitnessProfessional servicesOther The Barber League 61445 S Highway 97, Bend, 97702 Book now Show all photos The Barber League 61445 S Highway 97, Bend, 97702 ★ 4.9 (322 reviews) Entrepreneur Services Popular Services Personalized Haircut Signature haircut utilizing clippers. $50.00 45min Book Haircut and Beard Signature haircut w/ beard sculpting. Includes essential products for clean & smooth Beard finish. Razor is also available. $68.00 1h Book Beard trim $20.00 20min Book Other Services Personalized Haircut Signature haircut utilizing clippers. $50.00 45min Book Razor face shave Our signature shave complimented with a fresh hot towel to soften the hair. Soak and relax for 30 mins with multiple hot towels & smooth lather to help razor the most coarse of hair without tug. $50.00 45min Book Buzz cut (1 level) $30.00 20min Book Haircut and Beard Signature haircut w/ beard sculpting. Includes essential products for clean & smooth Beard finish. Razor is also available. $68.00 1h Book Haircut + design Signature Haircut with design of your choice include! Please remember, The bigger the design is, the higher it costs$$ $70.00+ 1h Book Scissor “long hair” cut (no fade) $50.00 45min Book Kids haircut (under 10) $50.00 40min Book Kids cut (Under 2 y/o) $40.00 40min Book Beard trim $20.00 20min Book Hair tattoo (design) $10.00+ 30min Book Charcoal mask (exfoliation) $10.00 5min Book Line Up w/ straight razor finish $10.00 10min Book Eyebrows Taking heavy weight off of the brow... Then finishing w/ a razor to sharpen the edges. Size & sharpness depends on what client prefers $5.00 5min Book Nose wax - Pick your flavor in this discreet smooth service you can book so your loved one won't ever have a chance to see those whiskers! - W/ soft warm nose wax you'll be breathing cleaner and fresher in minutes. $5.00 5min Book Hand wax $10.00 5min Book Amenities Parking space Wi-Fi Credit cards accepted Child-friendly Reviews How reviews work 4.9 322 reviews 5 313 4 3 3 1 2 0 1 5 James Confirmed client Mar 11, 2026 Service: Personalized Haircut Staff: Johnny Moore A1 barber 💎 Rajbir Confirmed client Feb 22, 2026 Service: Beard trim Staff: Johnny Moore Only barber I go to in town. The best there is."
+}

@@ -1,0 +1,151 @@
+{
+  "name": "Gaby’s Mobile Pet Spa",
+  "slug": "gabys-mobile-pet-spa",
+  "category": "mobile pet groomer",
+  "address": "Prospect Park",
+  "city": "PA 19076",
+  "state": "US",
+  "zip": "",
+  "phone": "(267) 896-0499",
+  "email": "dave@lab6.com",
+  "website": "http://www.gabysmobilepetspa.com/",
+  "rating": 5,
+  "reviewCount": 47,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Closed",
+    "Tuesday": "9:00 AM – 5:00 PM",
+    "Wednesday": "9:00 AM – 5:00 PM",
+    "Thursday": "9:00 AM – 5:00 PM",
+    "Friday": "9:00 AM – 5:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I have an Australian Labradoodle. I called Gaby because two other groomers butchered his cut. I can’t not put into words what Gaby means to us. She is  wonderful with Pablo. If we are not home she gets him and puts him back in the house.  Totally trustworthy, reliable, respectful and will love your dog like it’s her own. She is absolutely amazing.",
+      "author": "Kim Malo",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-06-27"
+    },
+    {
+      "text": "Gaby is the absolute best! We have been going to her (or should I say she’s been coming to us) for almost 4 years now. My dog has grooming anxiety and she does well with Gaby. She is also the most talented groomer there is. We have had some botch jobs before Gaby, but now my dog’s haircut is perfect every time. We LOVE Gaby!!!",
+      "author": "Hilary Hays Greenhalgh",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-15"
+    },
+    {
+      "text": "Gaby is hands down the best dog groomer I have ever had!  My dog Bella is a cocker spaniel and the breed requires frequent grooming. Bella literally looks like a show dog after her appointment with Gaby!  I highly recommend !",
+      "author": "Colleen Beebe",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-07-15"
+    },
+    {
+      "text": "Gaby was wonderful!  It's been over a year at our regular groomers since he's gotten a full cut. They could never get his feet, legs, nails, or face completely done.  Gaby was able to do it and I didn't need to give him any meds to calm him.  He looks great!  Thanks for coming to our rescue!",
+      "author": "Rebecca Merlino",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-07"
+    },
+    {
+      "text": "Spectacular!  Honestly can't say enough about Gaby's grooming.  We waited a number of months to become a new client and thank goodness we found her!  Our 6 year old Golden Retriever had been groomed his whole life by a local groomer who also did our prior Goldens.  They closed shop and moved far away so we were stuck.  Found a newer local place with good reviews, gave them 3 chances at grooming him and unfortunately they were clueless when it came to Goldens.  Even with specific instructions to stop cutting off all his feathers, they couldn't seem to do this. They also charged extra pricing for nail cutting, brushing, ear cleaning, etc.  It was basically an assembly line type business.  Nice people but awful grooming skills.\nEnter Gaby - Her all inclusive service is just outstanding and our pooch finally looks like a beautiful Golden again.   He comes from great stock, but he's not a show dog - though he certainly looks like one now.  He's even strutting around with his Halloween bandana looking like a well dressed man!  Thrilled to be on Gaby's client list and already booked his next appointment.",
+      "author": "Donna F",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-02"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Happy golden doodle on grooming table in professional pet salon interior",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Mobile pet grooming van parked in residential driveway with services listed",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Spaniel dog at grooming salon wearing pink collar on grooming table",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Cream-colored dog standing on grooming table in professional pet salon interior",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Large white and brown dog standing on grooming table in professional pet grooming salon",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Black poodle being groomed in mobile pet grooming salon with supplies visible",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Schnauzer dog standing on grooming table at professional pet grooming salon",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Gaby’s Mobile Pet Spa photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Woman stands beside black mobile pet grooming van with logo and contact information",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Black Standard Poodle with green bow standing on patio, showing groomed coat.",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 47,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {
+    "facebook": "https://facebook.com/101152162340905",
+    "instagram": "https://instagram.com/groomsbygaby"
+  },
+  "competitors": [],
+  "brandColors": {
+    "primary": "#c41260",
+    "accent": "#c41260",
+    "note": "Extracted from business website"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "Text to Book!New Client Form About Us Gaby's Mobile Pet Spa is an all inclusive , kennel free spa treatment for your pet. Each pet gets an individualized plan and treatment based on their specific needs. Experience Gaby began grooming in 2011. She has apprenticed under nationally recognized groomers, Certified with the NDGAA, competed in grooming competitions and has groomed and handled dogs in the AKC show ring.Stress FreeEvery groom is a one-on-one experience. This relieves your pet from unnecessary stress because of travelling, kennels or interaction with other dogs. ConvenientOur mobile grooming station is fully outfitted with onboard power and water. It is heated and air-conditioned, so that your pet will never be uncomfortable. Gaby's mobile pup fam! Social Gaby's Mobile Pet Spa(267)896-0499Copyright © 2026 Gabys Mobile Pet Spa - All Rights Reserved.Powered by This website uses cookies.We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data.AcceptCurrently not accepting new clients!!WE DO HAVE A WAITLIST BUT UNDERSTAND BOOKING IS MONTHS OUT!! THANK YOU FOR YOUR INTEREST!! \"use strict\";Core.utils.onAllowCookieTracking(function () {const queryString = window.location.search;const urlParams = new URLSearchParams(queryString);const whiteList = ['gclid', 'fbclid', 'gdan_clid'];const belongToList = list => item => list.includes(item);const belongToWhiteList = belongToList(whiteList);Array.from(urlParams).forEach(param => {const [queryKey, queryResult] = param;if (!belongToWhiteList(queryKey)) return;localStorage.setItem(queryKey, queryResult);});}); \"use strict\";Core.utils.onAllowCookieTracking(() => {if (!document.cookie.includes(\"x-visitor-id\")) {!function (o, i, e = 60) {const t = new Date();t.setTime(t.getTime() + 864e5 * e);const n = `expires=${t.toUTCString()}`;document.cookie = `${o}=${i};${n};path=/`;}(\"x-visitor-id\", crypto.randomUUID(), 60);}});"
+}

@@ -1,0 +1,111 @@
+{
+  "name": "City Barber Shop",
+  "slug": "city-barber-shop",
+  "category": "barber",
+  "address": "104 SW 3rd St",
+  "city": "Corvallis",
+  "state": "OR",
+  "zip": "97333",
+  "phone": "(541) 752-7056",
+  "email": "",
+  "website": null,
+  "rating": 4.4,
+  "reviewCount": 108,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Closed",
+    "Tuesday": "9:00 AM – 5:00 PM",
+    "Wednesday": "9:00 AM – 5:00 PM",
+    "Thursday": "9:00 AM – 5:00 PM",
+    "Friday": "9:00 AM – 5:00 PM",
+    "Saturday": "9:00 AM – 3:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Great Haircut, Friendly Service. My son and I got our haircut here a few minutes ago. My hair was cut by Brett and my son’s hair was cut by Kim. We were very satisfied with our new haircuts. Well the service was excellent, what really stood out was how very nice the barbers are. We got into a long conversation about the beavers football team in the NFL, and Brett has an excellent sense of humor. It was a great experience, and we really recommend this place. Prices are very reasonable.",
+      "author": "James Branam",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-07-18"
+    },
+    {
+      "text": "Brett did my son's hair. It was my son's first haircut (3yo) and he had long, tight super curly hair.\nWe weren't sure how he was going to do.\nBrett did an amazing job. He heard me mention my son's dinosaurs for entertainment and immediately showed my son that he had a dino cape (with \"barber-saurs\" 😂). He even asked the guys before my son how much fun they were having to help my son be ready.\nBrett was very patient with my son, and quick with his hands to avoid mis-cuts when my son moved.\nWe are beyond pleased with the cut and so happy to have found this barber shop!",
+      "author": "Aimee Buffington",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-12"
+    },
+    {
+      "text": "Brett and Kim are really nice. But Ruger the dachshund is the real charmer.  Kim did a great job on my haircut. Didn't have to wait long.  They take walk ins.  Will be back for sure!  (Bring cash/check).  Oldest barber shop in Corvallis, been running since 1927.  Spot used to be an old haberdashery apparently.  My hat is off to this place.",
+      "author": "Thomas Elkins",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-09-19"
+    },
+    {
+      "text": "Brett is a genuine dude with a great sense of humor. He's been in the game for a while and it showed with the clean cut he gave me and the solid blending on my sides into my beard. Very fair price for the skills he brings to the table. And the vibe is cozy and welcoming; well worth your time and money. Cash and walk-ins only.",
+      "author": "Bradley Ellebracht",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-05-16"
+    },
+    {
+      "text": "I have been going to Brett and Kim for many years. They create a warm and welcoming experience and put customers first. They are the best barbers in Corvallis hands down.",
+      "author": "Phil Harding",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-12-25"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Classic barber shop storefront with red, white, and blue striped awning and vintage pole sign.",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Traditional barber shop storefront with classic red, white, and blue striped awning",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Two men posing outside a traditional barber shop with red, white, and blue striped awning",
+      "category": "team"
+    }
+  ],
+  "stats": [
+    {
+      "value": 108,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.4,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "fair"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

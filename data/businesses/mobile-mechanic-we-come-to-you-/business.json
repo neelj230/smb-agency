@@ -1,0 +1,150 @@
+{
+  "name": "Mobile mechanic (we come to you )",
+  "slug": "mobile-mechanic-we-come-to-you-",
+  "category": "mobile mechanic",
+  "address": "3 Kelly St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19143",
+  "phone": "(215) 954-9909",
+  "email": "",
+  "website": "http://www.myoncallmechanic.weebly.com/",
+  "rating": 3.7,
+  "reviewCount": 166,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Open 24 hours",
+    "Tuesday": "Open 24 hours",
+    "Wednesday": "Open 24 hours",
+    "Thursday": "Open 24 hours",
+    "Friday": "Open 24 hours",
+    "Saturday": "Open 24 hours",
+    "Sunday": "Open 24 hours"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Ran into some seized bolts later in the evening while replacing my brakes and Tony was able to get them out. The timing was not a problem and service was very professional.",
+      "author": "Kareem Gordon-Graham",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-05-24"
+    },
+    {
+      "text": "This was the worse experience ever ! I called to have my breaks and rotors fixed and only the breaks were fixed due to mechanic stating he couldn’t get the wheel studs off . He promised to come back on several occasions and I’ve been calling and texting for weeks literally and everytime he will say he’s coming on one day and never show up ! Do not play yourself I should have went to a regular mechanic from the jump !",
+      "author": "Basimah Smith",
+      "rating": 1,
+      "source": "google",
+      "date": "2026-01-18"
+    },
+    {
+      "text": "I spent almost $1000.00 to get my car back on the road due to a fuel pump replacement and now my lights are back on. No mention of a refund. Im not happy with my experience.  Communication was not clear. Now i have to take the vehicle to the dealership.  Extra screws were left under tge hood. Also a fuel regulator was installed for no reasons and i was charged 🤦🏽",
+      "author": "PiFF PENNY",
+      "rating": 1,
+      "source": "google",
+      "date": "2026-01-12"
+    },
+    {
+      "text": "I booked this mechanic for 11:00 AM. At 10:55 AM, I got a last-minute text saying they wouldn’t be here until 1:00 PM. Fine, I was patient. But when I called at 2:30 PM, they told me I was their next client. Hours had already gone by. I kept checking in, and eventually got a text saying they were “42 minutes away.” Over an hour later—still nothing. I called again and they had the nerve to send me straight to voicemail. Then say 5 mins away after. At this point I’m scared for them to even touch my car.\n\nNot only were they completely unreliable, but their tone through text was rude and dismissive. I explained I’m a working mom and needed my car fixed today, and they just strung me along all day like my time didn’t matter. What makes it worse is that I could have hired someone else who actually respects their clients—but because they kept promising they were “on their way,” I waited around like a fool.\n\nThey cost me an entire day and any chance of getting my car fixed by a real professional. If you value your time or sanity, do not book these people. Unprofessional, inconsiderate, and an absolute disgrace.",
+      "author": "Bianca Ditro",
+      "rating": 1,
+      "source": "google",
+      "date": "2025-10-17"
+    },
+    {
+      "text": "Same thing as all the other reviews. Said they’d be there at one time ended up coming four hours later, then came and told me what I already knew was wrong with it and charged me $75 to use a shitty scanner. Asked how much the repair would be got told oh the secretary is gonna call you back with a quote. Never did. Listen to the reviews. Waste of money and time. Go somewhere else.",
+      "author": "Zay Conomy",
+      "rating": 1,
+      "source": "google",
+      "date": "2026-01-16"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Person wearing black t-shirt with blue wrenches, red gears, and banner text design",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Worn brake rotor with rust and corrosion showing bolt holes and metal deterioration",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Mechanic working under car engine bay during vehicle maintenance and repair",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Open car engine bay showing internal mechanical components and engine assembly",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Stack of car tires on blue tire balancer in automotive shop",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Mechanic performing brake maintenance on blue vehicle wheel assembly",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Mechanic working on vehicle undercarriage and brake system in garage workshop",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "White Ford van with tire and jack displayed during maintenance or repair work",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Auto repair shop garage interior with lift equipment and workbench area",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "MotoRad Fail-Safe thermostat packaging showing 75K+ miles rating on black background",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 166,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 3.7,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {
+    "youtube": "https://youtube.com/embed/XYhez4ixNTI?wmode=opaque"
+  },
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "ON CALL MOBILE REPAIR SERVICE'S 24/7 DAYS A WEEK HOME About Gallery Car Loans for Bad Credit REQUEST A ESTIMATE mobile mechanics WE COME TO YOU !!ServicingPA, Parts of DELAWARE, AND Parts of NEW JERSEY,(215) 978 9909​​​​ Brake SpecialCeramic starting at 120.00​Parts and Labor Oil SPECIALS​STARTING AT 69.95PARTS AND LABOR​ WE AVAILABLE ALL SEASON LONG​ WE ACCEPT ALL MAJOR CREDIT CARDS ​ Engine and Transmission​Replacement parts and labor deals we mow offerglass replacement​for all vechicles Gift Certificates ​Available Car Detail starting at $49.99 ​On call Mobile Repair Service done at your locationyou can relax and prop your feet up while we do the work .We also do diagnostic so if you cant figure out the issue we will figure it out for youafter a a few tests visually and hands on and computer plug up. We wont leave you stranded . ​No job too big or toosmall . No appointment NecessaryNo location to far .Roadside Assistance available. ​All types of auto repair Can be done at your location If you in the Pennsylvania, New Jersey,Delaware area No job too big Or too smallWe do it allAt your location24 / 77 days aWeek. TIRE CHANGES ,TIRE PLUGS , BATTERY BOOSTERS AND TOWING AND MORE AVAILABLE. WE AT YOU DISPOSAL NO NEED TO CALL THE TOW TRUCK AND PAY MORE Search Engine Submission - AddMe @font-face { font-family: SQMarket-Medium; font-style: normal; font-weight: 500; src: url(\"//cdn11.editmysite.com/fonts/SQ_Market/sqmarket-medium.woff2\") format(\"woff2\"), url(\"//cdn11.editmysite.com/fonts/SQ_Market/sqmarket-medium.woff\") format(\"woff\"); } Powered by Create your own unique website with customizable templates. Get Started if (document.readystate === 'complete') { Weebly.footer.setupContainer('cdn11.editmysite.com', '1776366455'); } else { document.addEventListener('DOMContentLoaded', function() { Weebly.footer.setupContainer('cdn11.editmysite.com', '1776366455'); }); } HOME About Gallery Car Loans for Bad Credit REQUEST A ESTIMATE mobile mechanics var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-7870337-1']); _gaq.push(['_setDomainName', 'none']); _gaq.push(['_setAllowLinker', true]); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; // NOTE: keep the [1] if you replace this code. Otherwise cookie banner scripts won't be first on the page var s = document.getElementsByTagName('script')[1]; s.parentNode.insertBefore(ga, s); })(); _W.Analytics = _W.Analytics || {'trackers': {}}; _W.Analytics.trackers.wGA = '_gaq'; // NOTE: keep the getElementsByTagName(o)**[1]** if you replace this code. Otherwise cookie banner scripts won't be first on the page ;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[]; p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments) };p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)["
+}

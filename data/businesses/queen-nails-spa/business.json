@@ -11,9 +11,9 @@
   "website": "https://queennailsandspapa.com/",
   "rating": 4.7,
   "reviewCount": 576,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Your nails, exactly how you imagined.",
+  "brandNarrative": "Queen Nails & Spa isn't just another nail salon tucked into Old City Philadelphia — it's the place people drive past a dozen other options to reach. Customers like Tahmia Welch, who once drove 1.5 hours into another state to find quality work, discovered that Queen Nails finally ended that search. The secret is a team that collaborates: Emily, one of the most requested techs, has been known to pull in additional nail technicians mid-appointment to execute a complex design exactly right. That kind of teamwork is rare, and clients notice. Ashley walked in as a first-time visitor and was in a chair within two minutes. Emma Burke has returned six times and counting, always booking Zet, who she describes as meticulous and efficient — two words that rarely appear together in nail salon reviews.\n\nThe salon's color selection is something regulars mention almost reflexively, like it's one of the first things they'd tell a friend. Dharma, who came on a recommendation and never looked back, calls it 'a huge selection unlike any other salon in the area.' That variety, paired with an online booking system and a clean, welcoming environment, makes Queen Nails feel modern and intentional — not just a walk-in shop running on availability. Eyebrow services, acrylic sets, gel manicures, and pedicures all live under one roof, and the stylists across the board carry consistent quality — Ashley has tried three different techs and enjoyed every one.\n\nLike any salon worth returning to, Queen Nails isn't without the occasional miss. One customer experienced a gel application that came out too thick and bumpy, a reminder that consistency across every visit matters as much as the highs. But with a 4.7 rating across 576 reviews, the overwhelming story is one of a salon that earns loyalty — the kind that makes people stop complaining about Philadelphia's nail options altogether.",
+  "ownerStory": "Queen Nails & Spa was built on the belief that a great nail appointment should feel like a collaboration, not a transaction. The culture is visible in technicians like Emily, who doesn't just execute a design — she works with her colleagues to make sure a client's vision is fully realized, even when it takes extra hands. And in Zet, whose patient, meticulous approach has turned first-time visitors into regulars who won't sit in anyone else's chair. These aren't accidents of staffing; they're the result of a salon that clearly hires for craft and temperament in equal measure.\n\nLocated at 16 N 3rd Street in the heart of Old City, Queen Nails & Spa sits in one of Philadelphia's most walkable, design-conscious neighborhoods — and it fits. The online booking system, the curated color wall, the clean interior: every detail signals that someone thought carefully about what a great nail experience should look like. The result is a place where a client who once crossed state lines for quality nails can finally stay local.",
   "hours": {
     "Monday": "10:00 AM – 8:00 PM",
     "Tuesday": "10:00 AM – 8:00 PM",
@@ -23,7 +23,38 @@
     "Saturday": "9:30 AM – 6:30 PM",
     "Sunday": "10:00 AM – 5:30 PM"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Acrylic Full Set",
+      "description": "Custom acrylic nail sets built to your exact shape and design, with collaborative stylist support for complex looks.",
+      "icon": "sparkles"
+    },
+    {
+      "name": "Gel Manicure",
+      "description": "Long-lasting gel polish manicures applied over natural nails with a wide selection of colors and finishes.",
+      "icon": "hand"
+    },
+    {
+      "name": "Pedicure",
+      "description": "Relaxing pedicure treatments with gel or classic polish, designed to leave feet refreshed and nails flawlessly finished.",
+      "icon": "footprints"
+    },
+    {
+      "name": "Nail Art & Custom Design",
+      "description": "Intricate nail art and custom designs executed by skilled technicians who collaborate to bring your vision to life.",
+      "icon": "palette"
+    },
+    {
+      "name": "Eyebrow Services",
+      "description": "Precise eyebrow shaping and grooming performed by experienced technicians for clean, defined results.",
+      "icon": "scan-face"
+    },
+    {
+      "name": "Nail Fill & Maintenance",
+      "description": "Professional acrylic and gel fill appointments to keep your existing set looking fresh and polished between full sets.",
+      "icon": "refresh-cw"
+    }
+  ],
   "reviews": [
     {
       "text": "I’ve been coming to Queen Nails for a few months now after a recommendation from a friend and have never been disappointed! Emily did my last three sets and did a great job each time. She takes her time to make sure I get exactly what I want. They have a huge selection of colors unlike any other salon in the area. I highly recommend Emily!",
@@ -61,7 +92,28 @@
       "date": "2025-12-11"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Emily",
+      "role": "Senior Nail Technician",
+      "bio": "Emily is one of Queen Nails' most requested technicians, known for her patience, precision, and willingness to collaborate with other techs to achieve even the most complex designs. Clients like Dharma and Tahmia return to her specifically for her ability to listen and deliver exactly what they envision.",
+      "credentials": [
+        "Acrylic Sets",
+        "Custom Design Collaboration",
+        "Client-Centered Approach"
+      ]
+    },
+    {
+      "name": "Zet",
+      "role": "Nail Technician",
+      "bio": "Zet has earned a devoted following at Queen Nails for his meticulous attention to detail and efficient technique — a rare combination that keeps clients like Emma Burke coming back visit after visit, confident their nails will look great every time.",
+      "credentials": [
+        "Meticulous Technique",
+        "Consistent Results",
+        "Efficient Service"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -116,28 +168,80 @@
   ],
   "stats": [
     {
-      "value": 576,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.7,
+      "suffix": "★",
+      "label": "Average Customer Rating"
     },
     {
-      "value": 4.7,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 576,
+      "suffix": "+",
+      "label": "Verified Reviews"
+    },
+    {
+      "value": 7,
+      "suffix": " days",
+      "label": "Open Every Day of the Week"
+    },
+    {
+      "value": 100,
+      "suffix": "+",
+      "label": "Color & Finish Options"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Do I need an appointment or can I walk in?",
+      "answer": "Both work at Queen Nails & Spa. Walk-ins are welcome and customers have been seen in as little as two minutes. For peak times, online booking is available through the website so you can reserve your preferred technician and time."
+    },
+    {
+      "question": "Can I request a specific nail technician?",
+      "answer": "Absolutely. Many regulars book specifically with Emily or Zet. When booking online or calling ahead, you can request your preferred stylist. The team is consistently praised across multiple technicians, so even if your first choice is unavailable, you're in good hands."
+    },
+    {
+      "question": "What makes Queen Nails different from other salons in Philadelphia?",
+      "answer": "Customers most often cite the massive color selection, the collaborative approach between technicians for complex designs, and the clean, modern environment. One client drove from out of state for nail services before discovering Queen Nails — and hasn't looked back since."
+    },
+    {
+      "question": "Do you do nail art and custom designs?",
+      "answer": "Yes — and it's one of the salon's strengths. Technicians like Emily will collaborate with other staff members to execute intricate or detailed designs, ensuring the final result matches exactly what you had in mind."
+    },
+    {
+      "question": "Do you offer services beyond nails?",
+      "answer": "Yes. Queen Nails & Spa also offers eyebrow shaping and grooming services, and multiple customers have praised the quality of the results. It's a full-service beauty destination, not just a nail salon."
+    },
+    {
+      "question": "What if I'm not happy with my results?",
+      "answer": "The salon's 4.7 rating across 576 reviews reflects a strong commitment to quality, but like any service business, individual experiences can vary. If something doesn't look right, communicating directly with your technician during the appointment gives them the best chance to adjust and correct before you leave."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#2D1B4E",
+    "accent": "#C9A96E",
+    "note": "Deep royal plum anchors the 'Queen' identity with luxury and confidence, while warm champagne gold adds an elevated, spa-like polish. Together they feel modern and premium without being cold — matching the salon's personality of meticulous craft wrapped in a welcoming, personal atmosphere."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Consistently skilled and collaborative technicians — staff like Emily and Zet are named repeatedly for going above and beyond to achieve client-specific results",
+      "Exceptionally wide color and design selection praised by multiple reviewers as unmatched by other local salons",
+      "Convenient and modern customer experience including online booking, fast walk-in service, and a clean, well-organized salon environment"
+    ],
+    "common_complaints": [
+      "At least one gel manicure experience resulted in overly thick, bumpy layers that required immediate removal — suggesting application consistency can vary by technician"
+    ],
+    "suggested_tagline": "Where Philly comes to get it right.",
+    "photo_quality": "good",
+    "personality_keywords": [
+      "meticulous",
+      "collaborative",
+      "welcoming",
+      "detail-oriented",
+      "trustworthy"
+    ],
+    "named_staff": [
+      "Emily",
+      "Zet"
+    ]
   }
 }

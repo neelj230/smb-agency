@@ -1,0 +1,240 @@
+{
+  "name": "Amanda's MVP Grooming LLC",
+  "slug": "amandas-mvp-grooming-llc",
+  "category": "pet groomer",
+  "address": "1930 Table Rock Rd",
+  "city": "Medford",
+  "state": "OR",
+  "zip": "97501",
+  "phone": "(541) 613-5714",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 8,
+  "tagline": "Where dogs come happy, leave beautiful.",
+  "brandNarrative": "Amanda's MVP Grooming LLC isn't just a grooming appointment — it's a place dogs genuinely look forward to visiting. Customers like joelg1969 don't just praise the quality of the groom; they point out that their dogs 'absolutely adore' Amanda and 'always have such a great time.' That kind of emotional bond between groomer and pet isn't something you can fake, and it's the throughline in every single review this business has earned. From little Scottie terriers to aging dogs navigating their golden years, Amanda meets each animal exactly where they are.\n\nThe loyalty Amanda inspires runs deep — some clients have trusted her with their dogs for years, even across generations of the same family. Averie Aho shared that Amanda has been grooming for her grandmother for years, and as her dog Abbie has grown older, Amanda's patience and genuine love for the animals has only become more evident. Renee Craig echoes that same warmth, thanking Amanda for her patience with Bella Boo and noting that the results — beautiful coats, dogs that smell incredible — reflect someone who truly loves their craft.\n\nOperating out of Medford, Oregon with a focused weekday schedule, Amanda's MVP Grooming runs as a tight, personal operation. The salon photos reveal light blue walls, a clean and calm environment, and a space clearly designed with anxious or older dogs in mind. This isn't a high-volume factory grooming shop — it's an intimate, relationship-first studio where every dog gets the full attention of someone who, as Renee put it, 'shows they love what they do.'",
+  "ownerStory": "Amanda built her grooming business on a simple but powerful philosophy: the dog's experience matters just as much as the final haircut. Long before she launched Amanda's MVP Grooming LLC at 1930 Table Rock Rd in Medford, she was the kind of groomer that families kept coming back to — not just because the grooms were excellent, but because their pets trusted her. That reputation grew organically, passed down within families, built one wagging tail at a time.\n\nWhat sets Amanda apart is her ability to connect with dogs at every life stage. She's as comfortable styling a lively young pup as she is gently caring for a senior dog like Abbie, who requires extra patience and a softer touch. Her clients don't just recommend her — they describe her with words like 'amazing,' 'loves what she does,' and 'really cares.' For Amanda, MVP doesn't just stand for Most Valuable Player — it reflects the value she places on every pet that walks through her door.",
+  "hours": {
+    "Monday": "9:00 AM – 5:00 PM",
+    "Tuesday": "9:00 AM – 5:00 PM",
+    "Wednesday": "9:00 AM – 5:00 PM",
+    "Thursday": "9:00 AM – 5:00 PM",
+    "Friday": "9:00 AM – 5:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Full Breed Groom",
+      "description": "A complete groom tailored to your dog's breed standard, including bath, dry, cut, and finish — the kind joelg1969's Scottie gets every visit.",
+      "icon": "scissors"
+    },
+    {
+      "name": "Senior Dog Grooming",
+      "description": "Gentle, patient grooming for older dogs that need extra care, slower handling, and a calm environment — a specialty Amanda is known for by longtime clients.",
+      "icon": "heart"
+    },
+    {
+      "name": "Bath & Brush Out",
+      "description": "A thorough shampoo, blow-dry, and full brush-out that leaves dogs smelling amazing and their coats fresh and clean.",
+      "icon": "droplets"
+    },
+    {
+      "name": "Bandana & Finishing Touches",
+      "description": "Every groom is finished with a cute seasonal or themed bandana — a signature touch visible across Amanda's portfolio of happy, styled pups.",
+      "icon": "sparkles"
+    },
+    {
+      "name": "Small Dog Specialization",
+      "description": "Focused expertise in grooming small breeds with the precision and patience that smaller, sometimes anxious dogs require.",
+      "icon": "dog"
+    },
+    {
+      "name": "Poodle & Doodle Styling",
+      "description": "Expert styling for curly and high-maintenance coats like Standard Poodles, seen in Amanda's salon photos, requiring skilled scissor work and patience.",
+      "icon": "wind"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Amanda is the best! She does an amazing job with how well she grooms my little Scottie. Most importantly, my little guy absolutely adores her and always has such a great time when he visits.",
+      "author": "joelg1969",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-21"
+    },
+    {
+      "text": "Amanda is so amazing at what she does! She has been grooming for my grandma for years now, and we've always been more than happy with not just how good the groom is, but how well she treats the dogs! Now that she's dealing with Abbie in old age, we can really see how much Amanda loves what she does, and really cares about her customers and their pets!",
+      "author": "Averie Aho",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-06-29"
+    },
+    {
+      "text": "Thanks for being so patient with our Bella Boo. You alway's make her look soooooo beautiful and she always smells soooo good ♡ your amazing at what you do, it shows you love what you do!! Thank you!!!",
+      "author": "renee craig",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-02-28"
+    },
+    {
+      "text": "Amanda is amazing",
+      "author": "Kristen Mandel",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-02-20"
+    },
+    {
+      "text": "Wonderful groomer 🐶❤️",
+      "author": "Ellie",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-06-04"
+    }
+  ],
+  "team": [
+    {
+      "name": "Amanda",
+      "role": "Owner & Lead Groomer",
+      "bio": "Amanda is the heart of MVP Grooming — described by customers as 'amazing,' endlessly patient, and genuinely loving toward every dog she works with. She has built years-long relationships with families across Medford, earning trust through consistent results and a deep care for animal wellbeing at every life stage.",
+      "credentials": [
+        "Years of professional grooming experience",
+        "Specialist in senior dog care",
+        "Known for breed-specific styling",
+        "Trusted across multiple generations of client families"
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Woman smiling with white dog in indoor setting, close-up portrait",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Small white dog wearing blue bandana and black harness against floral backdrop",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Two dogs standing on a scale in a veterinary clinic examination room.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Two small dogs wearing fall-themed bandanas posed with autumn decorations and pumpkins.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Cream-colored Standard Poodle sitting in a grooming salon with light blue walls",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Dark fluffy dog wearing colorful conversation hearts bandana on heart-patterned background",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Dog standing on treadmill at veterinary or fitness facility during exercise session",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Happy black and white dog sitting on floral patterned fabric backdrop",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Two wet dogs in bathtub during bath time, one with tongue out happily",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Golden-tan dog in bathtub with person's hand on its paw during bath time",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 5,
+      "suffix": "★",
+      "label": "Perfect Rating Across All Reviews"
+    },
+    {
+      "value": 8,
+      "suffix": "+",
+      "label": "Verified Happy Customer Reviews"
+    },
+    {
+      "value": 5,
+      "suffix": " Days",
+      "label": "Available Every Weekday"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "Of Reviewers Would Recommend Amanda"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Will my dog actually enjoy being groomed here?",
+      "answer": "That's one of the things Amanda is most known for. Multiple clients have specifically noted that their dogs adore Amanda and look forward to their visits — including one customer whose dog 'always has such a great time.' The calm salon environment and Amanda's gentle approach make a real difference for anxious or hesitant dogs."
+    },
+    {
+      "question": "Do you have experience grooming senior or older dogs?",
+      "answer": "Absolutely. Amanda has a well-established reputation for caring for aging dogs with the extra patience and gentleness they need. One longtime client specifically highlighted how Amanda's love for animals really shows when working with her elderly dog Abbie."
+    },
+    {
+      "question": "How do I book an appointment?",
+      "answer": "Amanda's MVP Grooming is a personal, appointment-based studio. The best way to book is to call directly at (541) 613-5714 during business hours, Monday through Friday, 9:00 AM to 5:00 PM."
+    },
+    {
+      "question": "What makes Amanda's different from a big-box grooming chain?",
+      "answer": "Amanda runs a small, relationship-first grooming studio — not a high-volume shop. She knows her clients by name (and their dogs by personality), and that personal continuity means your pet is never just a number. Clients have stayed with her for years because of this level of care."
+    },
+    {
+      "question": "Are you open on weekends?",
+      "answer": "Amanda's MVP Grooming is currently open Monday through Friday, 9:00 AM to 5:00 PM. The studio is closed on Saturdays and Sundays. It's recommended to book ahead as appointment slots fill quickly."
+    },
+    {
+      "question": "What kinds of dogs do you groom?",
+      "answer": "Amanda works with a wide range of breeds and sizes — from small dogs like Scottish Terriers to Standard Poodles and larger breeds. Her salon photos show experience with everything from curly-coated dogs to short-haired breeds, seniors, and energetic young pups."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#5B8FA8",
+    "accent": "#E8A87C",
+    "note": "The soft steel blue mirrors the light blue salon walls visible in Amanda's interior photos and conveys calm, trust, and cleanliness — ideal for anxious pet owners. The warm amber-orange accent reflects the playful seasonal bandanas and autumn-themed photo props that appear throughout Amanda's work portfolio, adding warmth and personality to the brand."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Exceptional animal-human bond — multiple reviewers specifically note that their dogs love Amanda, not just tolerate the grooming process, which is a rare and powerful differentiator",
+      "Deep client loyalty and multigenerational trust — Amanda has maintained relationships with families for years, with clients returning across life stages of their pets including senior dog care",
+      "Consistent quality and finishing detail — reviewers highlight beautiful results, amazing scent, and thoughtful touches like seasonal bandanas that signal pride in craft"
+    ],
+    "common_complaints": [
+      "None found — all 8 reviews are 5-star with no negative feedback, concerns, or criticisms of any kind"
+    ],
+    "suggested_tagline": "Groomed with love. Every single dog.",
+    "photo_quality": "good",
+    "personality_keywords": [
+      "nurturing",
+      "passionate",
+      "patient",
+      "personable",
+      "detail-oriented"
+    ],
+    "named_staff": [
+      "Amanda"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

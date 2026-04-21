@@ -1,0 +1,140 @@
+{
+  "name": "Pets and the City Shop",
+  "slug": "pets-and-the-city-shop",
+  "category": "pet groomer",
+  "address": "1649 S 17th St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19145",
+  "phone": "(215) 467-8000",
+  "email": "",
+  "website": "https://rymaps.org/business/pets-and-the-city-shop-igiua5",
+  "rating": 4.8,
+  "reviewCount": 123,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {},
+  "services": [],
+  "reviews": [
+    {
+      "text": "I recently been looking around for a groomer for\nMy cat Mr T. I’m really particular to who groom my pet. Because I had a really really bad experience before. Pet and the city is amazing! Clean groom and super friendly. Mr. T lion cut is flawless and treat my cat with gentle care. I’m definitely their new regular from now on. I highly recommend pet and the city.",
+      "author": "Mina N",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-17"
+    },
+    {
+      "text": "Could not be happier with the experience! I was nervous as it was my cat’s first grooming experience, but Alexis did great and my cat left looking and smelling so clean! The pricing was very fair compared to other cat grooming services in the city. Scheduling was easy and communicative leading up to appointment. Would bring my cat back in a heartbeat!!!",
+      "author": "Tori Fortuna",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-20"
+    },
+    {
+      "text": "Alexis did a phenomenal job with my cat, Fig! She was easy to work with and eased all of my worries since it would be Fig’s first grooming experience. He was calm as could be when I picked him up and he looks (and smells) great! Very reasonably priced and quick service.\n\nWill be back for his monthly nail trim and the works when he needs it next!",
+      "author": "Kaitlyn Barlow",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-02-03"
+    },
+    {
+      "text": "Alexis did a fantastic job with my dog! She was wonderful with my shy dog, who usually hates going to the groomer. The trim and bath were exactly what I wanted, and the prices are very reasonable for such exceptional service. Pets and the City will definitely be our go-to pet groomer from now on.",
+      "author": "Emma Tyner",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-05-13"
+    },
+    {
+      "text": "Our newly rescued pup, Georgie, was in rough shape after being found on the streets...\nAlexis previously groomed our dearly departed Rottweiler mix, Daisy, for many years at her previous location, so she was our first phone call when we got Georgie.\nAfter describing Georgie's condition, all the mats, etc, Alexis clearly communicated that she would need to shave Georgie pretty short and the reasonably priced fees associated with the services we requested. We felt very comfortable leaving Georgie at the \"salon\" and returned an hour later to pick her up. I can tell you that I cried when I saw Georgie happily run out from the back with a complete glow up! Total transformation. Georgie has since been groomed by Alexis a second time and we are again satisfied with the experience.",
+      "author": "Amber Zaraza",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-03-10"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Pets and the City Shop photo 1",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Pets and the City Shop photo 2",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Gray fluffy cat with yellow eyes sitting on cream-colored cushion indoors",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Fluffy tortoiseshell cat wearing pink and yellow bow tie sitting indoors",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Small black dog wearing festive holiday bandana, held in person's arms indoors",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Pets and the City Shop photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Black shaggy dog lying on wooden floor next to chess board",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Small tan Chihuahua wearing leopard print and red outfit indoors",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Black dog wearing orange collar sitting indoors on patterned rug",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Two small dogs relaxing on a leopard print bed in a cozy bedroom",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 123,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.8,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "console.log('[HTML] Page loaded, about to load React...'); console.log('[HTML] Current URL:', window.location.href); // Check if there are any script loading errors window.addEventListener('error', function(e) { console.error('[HTML] Script loading error:', e); }); // Check for module loading errors window.addEventListener('unhandledrejection', function(e) { console.error('[HTML] Unhandled promise rejection:', e.reason); });"
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Patty's Little Minions Childcare LLC",
+  "slug": "pattys-little-minions-childcare-llc",
+  "category": "daycare",
+  "address": "4807 Camelot Ct NE",
+  "city": "Salem",
+  "state": "OR",
+  "zip": "97301",
+  "phone": "(503) 881-3580",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 7,
+  "tagline": "Where Little Ones Thrive and Feel Loved",
+  "brandNarrative": "Patty's Little Minions Childcare LLC isn't your average daycare — it's a home where children genuinely flourish. Patty herself is the heart of everything here, and the reviews say it best: she goes 'above and beyond to bring so much joy into their daily lives.' From sensory bins filled with kinetic sand and ocean-themed toys, to creative painting sessions, to a fully equipped backyard playground with a wooden playhouse and climbing dome, every corner of this space is designed to spark curiosity and laughter in young minds.\n\nWhat sets Patty apart is the depth of care that keeps families coming back for years. One family trusted Patty with all three of their children for over five years — from 2019 to 2024 — and the only reason they left was a move to a neighboring city. Their kids, to this day, still miss her. That kind of bond doesn't happen by accident. It's built through nutritious home-cooked meals, intentional daily activities, and a genuine love for each child that parents can feel the moment they walk through the door. Even the family dog, a beloved part of the minion crew, is famously great with kids.\n\nOperating Monday through Friday out of a warm, bright home in northeast Salem, Patty's Little Minions offers a small-group, family-style childcare experience that large daycare centers simply can't replicate. The bright open-concept living space, covered patio, and colorful indoor playroom create an environment that feels less like an institution and more like a second home — because for many Salem families, that's exactly what it becomes.",
+  "ownerStory": "Patty is the kind of caregiver who makes you wonder if she was simply born to do this. Running Patty's Little Minions Childcare LLC out of her family home in Salem, Oregon, she has built a reputation that spreads entirely through word of mouth and the heartfelt testimonials of parents who watched their children blossom in her care. She doesn't just watch kids — she feeds them well, teaches them constantly, and pours creativity into every single day, whether that means a sensory play session, an arts and crafts afternoon, or a romp in the backyard playground she's lovingly set up for her little crew.\n\nFor Patty, childcare is a calling, not a job. The proof is in the longevity of her relationships: families stay for years, children cry when they have to leave, and parents don't hesitate to call her 'the best.' With a warm home environment, a structured-but-joyful daily rhythm, and a personality that radiates kindness, Patty has created something rare in Salem — a childcare experience where kids don't just survive the day, they absolutely thrive.",
+  "hours": {
+    "Monday": "6:00 AM – 4:30 PM",
+    "Tuesday": "6:00 AM – 4:30 PM",
+    "Wednesday": "6:00 AM – 4:30 PM",
+    "Thursday": "6:00 AM – 4:30 PM",
+    "Friday": "6:00 AM – 4:30 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Full-Day Childcare",
+      "description": "Structured, loving full-day care Monday through Friday from 6:00 AM to 4:30 PM in a warm home environment.",
+      "icon": "home"
+    },
+    {
+      "name": "Sensory & Creative Play",
+      "description": "Daily hands-on activities including kinetic sand bins, ocean-themed sensory play, and painting sessions designed to develop creativity and fine motor skills.",
+      "icon": "palette"
+    },
+    {
+      "name": "Outdoor Playground Time",
+      "description": "Supervised outdoor play in a fully fenced backyard featuring a wooden playhouse, climbing dome, and covered patio deck.",
+      "icon": "tree-pine"
+    },
+    {
+      "name": "Nutritious Meals & Snacks",
+      "description": "Children are fed wholesome, quality meals and snacks each day as highlighted by multiple families in their reviews.",
+      "icon": "utensils"
+    },
+    {
+      "name": "Indoor Active Play",
+      "description": "A dedicated colorful indoor playroom with climbing structures and play equipment keeps kids active and engaged rain or shine.",
+      "icon": "zap"
+    },
+    {
+      "name": "Early Learning Activities",
+      "description": "Age-appropriate learning woven into daily routines so children grow developmentally while having a great time.",
+      "icon": "book-open"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Patty's Little Minions Childcare is one of the best ones I've had. Patty is the best with kids. She goes above and beyond to bring so much joy into their daily lives. She has tons of activities, an outside playground, and an amazing dog that's great with kids. The kids are fed the best foods, and they learn so much. I highly recommend Patty's family child care to anyone looking for a place where their child will strive and be loved and cared for. ❤️",
+      "author": "Damaris Torres",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-02-01"
+    },
+    {
+      "text": "Absolutely love her childcare. My 3 children went with her for a little over 5 years from April 2019 to June 2024. They absolutely adore her and, to this day, miss her very much. The only reason i had to pull my children was beca we moved to Keizer. Patty is very kind and is good with the children.",
+      "author": "Nereida",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-02-01"
+    },
+    {
+      "text": "I highly recommend this place, kind and friendly provider.",
+      "author": "Josefina Macias",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-02-01"
+    },
+    {
+      "text": "Awesome provider 😊",
+      "author": "Marisol Sanchez",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-02-01"
+    },
+    {
+      "text": "",
+      "author": "Sara Oman",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-02-01"
+    }
+  ],
+  "team": [
+    {
+      "name": "Patty",
+      "role": "Owner & Lead Childcare Provider",
+      "bio": "Patty is described by families as 'the best with kids' — a naturally warm, creative, and dedicated caregiver who has built multi-year relationships with the children and families she serves. She goes above and beyond every day to ensure each child is loved, fed well, and constantly engaged in meaningful activities.",
+      "credentials": [
+        "5+ year trusted relationships with families",
+        "Family home childcare licensed provider",
+        "Specializes in sensory and creative early childhood activities"
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Backyard playground with wooden playhouse, climbing dome, and fenced yard area",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Bright open-concept living room with playpen, sofa, decorated curtains, and children's toys.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Covered indoor playroom with colorful play structures and climbing equipment for children.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Happy dog wearing fedora hat and red tie at outdoor park event",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "2026 childcare closing dates calendar for Patty's Little Minions with monthly highlights",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Young child painting artwork at table with brushes and colorful paints",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Covered patio deck with outdoor furniture, dining table, and backyard play area visible.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Group of young children posing with colorful play equipment at childcare facility",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Children posing on wooden elevated playhouse with ladder and railings in backyard",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Young child playing with purple kinetic sand and colorful ocean-themed toys in sensory bin",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 5,
+      "suffix": "★",
+      "label": "Perfect Rating Across All Reviews"
+    },
+    {
+      "value": 5,
+      "suffix": "+ yrs",
+      "label": "Longest Family Relationship on Record"
+    },
+    {
+      "value": 6,
+      "suffix": " AM",
+      "label": "Early Start Time for Working Parents"
+    },
+    {
+      "value": 7,
+      "suffix": " reviews",
+      "label": "All Five-Star, Zero Complaints"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What makes Patty's Little Minions different from a larger daycare center?",
+      "answer": "Patty runs a small, intimate family childcare out of her home in Salem, which means your child gets personalized attention, a consistent caregiver they truly bond with, and a warm environment that feels like a second home — not a facility. Families have stayed for 5+ years because of the depth of that connection."
+    },
+    {
+      "question": "What kinds of activities do the kids do each day?",
+      "answer": "Each day is packed with purposeful fun — from sensory bins with kinetic sand and ocean-themed toys, to painting and art projects, to outdoor time on the backyard playground with the wooden playhouse and climbing dome. Rainy days move inside to the colorful playroom with climbing structures. No two days feel the same."
+    },
+    {
+      "question": "Are meals provided for the children?",
+      "answer": "Yes! Multiple families have specifically praised the quality of food their children receive at Patty's. Kids are fed nutritious, wholesome meals and snacks throughout the day."
+    },
+    {
+      "question": "What are your hours and days of operation?",
+      "answer": "Patty's Little Minions is open Monday through Friday, 6:00 AM to 4:30 PM. The childcare is closed on Saturdays and Sundays. A yearly calendar of closing dates is provided to families in advance so you can plan accordingly."
+    },
+    {
+      "question": "Is the environment safe for young children?",
+      "answer": "Absolutely. The backyard play area is fully fenced, the indoor spaces are bright and age-appropriately furnished, and Patty maintains a covered patio for outdoor time in any weather. Even the family dog is famously gentle and great with kids."
+    },
+    {
+      "question": "How do I get started or find out if there's availability?",
+      "answer": "Since Patty operates a small home-based childcare, spots are limited and tend to fill through referrals. The best way to inquire about availability is to call directly at (503) 881-3580. Families who visit often know right away it's the right fit."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#F97316",
+    "accent": "#8B5CF6",
+    "note": "Warm orange captures the playful, joyful energy of the childcare and reflects the bright, colorful play environment seen in photos. Purple accent mirrors the kinetic sand and creative art activities that define the daily experience — together they feel fun, safe, and full of life without being babyish or corporate."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Exceptionally deep family loyalty — one family stayed 5+ years with three children, and kids still miss Patty after leaving",
+      "Rich, varied daily programming including sensory play, outdoor playgrounds, art, and structured learning that parents specifically call out",
+      "Patty's personal warmth and genuine love for children is the consistent thread across every single review"
+    ],
+    "common_complaints": [
+      "None found — all seven reviews are five stars with zero negative feedback or constructive criticism"
+    ],
+    "suggested_tagline": "Small Group. Big Love. Real Childhood.",
+    "photo_quality": "good",
+    "personality_keywords": [
+      "Warm",
+      "Joyful",
+      "Creative",
+      "Nurturing",
+      "Trustworthy"
+    ],
+    "named_staff": [
+      "Patty"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

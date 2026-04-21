@@ -199,9 +199,6 @@
       "Warm",
       "Hardworking"
     ],
-    "named_staff": [
-      "Sam",
-      "Junior"
-    ]
+    "named_staff": ["Sam", "Junior"]
   }
 }

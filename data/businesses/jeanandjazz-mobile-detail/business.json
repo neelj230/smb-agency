@@ -1,0 +1,150 @@
+{
+  "name": "JeanandJazz Mobile Detail",
+  "slug": "jeanandjazz-mobile-detail",
+  "category": "mobile car detailing",
+  "address": "Germantown Ave",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19119",
+  "phone": "(917) 482-3660",
+  "email": "privacy@pocketsuite.io",
+  "website": "https://pocketsuite.io/book/jeanandjazz",
+  "rating": 5,
+  "reviewCount": 350,
+  "tagline": "",
+  "brandNarrative": "PocketSuite officially launched in 2016 (though some customers have been with us since PocketSuite was just a twinkle in our founders’ eyes). ​We started out with solopreneurs in the Bay Area and now we’re serving thousands of people who work for themselves in all 50 states. Our headquarters are in San Francisco, but everyone at PocketSuite lives and works wherever they want.\n\nWe believe the “Future of Work” is people working remotely, for themselves, wherever, and whenever and making good income. Our team is living proof that this future is possible ​and inevitable​. “If you ask 9 out of 10 people if they want to work for themselves, they’ll say, “Heck yes!” Followed by, “But how would I pay my bills?” At PocketSuite, we’re on a mission to answer that question – once and for all.\n\nWhat does a vegan chef, a goat yoga instructor, a service dog trainer, a couples therapist, an AirBnb host consultant, an accountant for Instagram stars, a luxury car detailer, a hot stone massage therapist, a CrossFit instructor, and a lash technician… all have in common? ​PocketSuite.\n\nWe serve such a wide range of people with clients because we fundamentally believe that ANYONE with clients can work for themselves and make a good living.\n\nWe know this because each and every one of our team members has been an entrepreneur working for ourselves as Etsy shop owners, mobile developers, security experts, data scientists, product marketers, photographers, strategy consultants, fundraisers, market res",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "10:00 AM – 6:00 PM",
+    "Tuesday": "10:00 AM – 6:00 PM",
+    "Wednesday": "10:00 AM – 6:00 PM",
+    "Thursday": "10:00 AM – 6:00 PM",
+    "Friday": "10:00 AM – 6:00 PM",
+    "Saturday": "10:00 AM – 6:00 PM",
+    "Sunday": "10:00 AM – 6:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I had my car detailed and washed by JeanandJazz Mobile Detail and I couldn’t be happier with the results! The attention to detail was incredible. my car looks brand new inside and out. Ron took the time to clean every nook and cranny, even spots I didn’t know were dirty. Super professional, on time, and very easy to work with. If you’re looking for someone who takes pride in their work, I highly recommend him! Will definitely be booking again. I Didn’t think my SUV could look this clean after my 7 year old and her friends spilled who knows what in the seats and carpet. Great price(you get what you pay for). I have used another company to get my interiors done but did a horrible job. If you want the job done right the first time without wasting money call Ron.",
+      "author": "Yesenia Robinson (Jessie)",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-15"
+    },
+    {
+      "text": "9/26 UPDATE\nJean reached out and offered to have another go at my car. I was very shocked and appreciative of this gesture. They arrived first thing in the morning and addressed my posted concerns and essentially provided a full service all over again. My car looks great! I feel much better about the end result now and that the price I paid was equivalent to the level of care displayed by addressing my concerns and rectifying the situation as soon as possible; ensuring that I left satisfied with their work. I’m not sure how many other places would have approached the situation this positively so I feel confident in recommending their detailing service to others.\n\n9/25\nOriginally: 3/5\nJean and his partner were very nice people and I appreciate that they come to you for their services. However, I do feel like my service was rushed and the price was not equivalent to the level of work I was expecting. For context I got the full service detail for sedans and my original appointment was set for 12PM. They moved it to 3PM because they were running behind which was not a problem for me. They also have on their site that their appointments are blocked for 4 hours which I know is dependent on the vehicle but reassured me with knowing that they would truly take their time with their work. They eventually messaged back asking to come earlier and arrived at my home at 1:30PM. They worked on my car for a little over an hour and were finished by 3PM. Jean gave me a very quick review of the work they had done and everything looked fine from what he had showed me but he seemed rushed to get to his next appointment which was a bit confusing for me since the blocks are set for 4 hrs and I was also supposed to have been his 3PM appt. This sense of urgency did not allow me a chance to fully sit in my car and asses the work done on my own. After getting in my car today, I do feel like there were quite a few spots missed and the overall attention to detail was not what I was expecting for the price I spent. Overall, I feel that my car got a good clean but not a true detail if that makes sense. It could have just been a busy day for them but I don’t believe I will be using their services again for these reasons. Pictures shown was from after finally sitting in my car.",
+      "author": "Jatzia Gilzean",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-26"
+    },
+    {
+      "text": "My car looks brand new again! Jean and Jazz are my neighbors, so I already knew that they are great and friendly people, but I didn’t know how great Jean is at his job! My car literally looks brand new, and there was white dog hair all over the interior when Jean and his nephew got started. I couldn’t be happier with the outcome! Thanks JeanandJazz!",
+      "author": "Christine Higbie",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-07-11"
+    },
+    {
+      "text": "This was my first experience with Jeanand Jazz and it was fantastic! My 8 year old SUV has been restored!! It looks beautiful again!\n\nJean was outside in 30 degree temps working his magic. Highly recommend them for your detailing needs!!",
+      "author": "cody poerio",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-13"
+    },
+    {
+      "text": "Having two kids leaves a lot of debris in my car.  Jean was able to make it look fresh and new and the exterior was shining and lovely! Thank you, Jean. Prompt, on-time, and very personable to work with. Nice guy and great service. He did it all in the freezing cold outside too ❤️ very grateful",
+      "author": "Liv Marcozzi",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-01-13"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Two smiling people posing together outdoors in casual black clothing",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Black Ram 1500 pickup truck with custom wheels parked in driveway",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Black Toyota Highlander SUV parked in residential driveway near garage",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "JeanandJazz Mobile Detail photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "White Nissan Rogue SUV parked in residential driveway with open door",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Close-up of a white and black alloy wheel with Continental tire on asphalt.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Interior view of white car with black leather seats and dashboard",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "JeanandJazz Mobile Detail photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "White Kia sedan parked on residential street with brick row houses in background.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Luxury vehicle interior showing black leather seats and modern dashboard design",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 350,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {
+    "facebook": "https://facebook.com/help/325807937506242/"
+  },
+  "competitors": [],
+  "brandColors": {
+    "primary": "#3d84f6",
+    "accent": "#0f0f0f",
+    "note": "Extracted from business website"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "JEANANDJAZZ MOBILE DETAILING 5 • 350 reviews WE SPECIALIZE IN FULL SERVICE MOBILE DETAILING. Schedule your appointment today. Book now Sign in as a returning client Privacy Policy $(document).ready(function() { $(window).on(\"resize\", _.debounce(checkAndSetScreenWidthCookie, 250)); if (!sessionStorage.getItem(\"attempted_setting_screen_width\")) checkAndSetScreenWidthCookie(); }); const setCart = function(cart) { const sidebar = $(\"#sidebar\"); if (sidebar.is(\":visible\") && cart) sidebar.html(cart); } $(document).on('click', '#privacy-policy', function() { $('#privacy-policy-modal .modal-body').html($('#privacy-policy-contents').html()); $('#privacy-policy-modal').fadeIn(); $('#overlay').fadeIn(); return false; }); $(document).on('click', '#privacy-policy-modal .close', function() { $('#privacy-policy-modal').fadeOut(); $('#overlay').fadeOut(); return false; }); $(document).on('click', '#overlay', function() { $('#privacy-policy-modal').fadeOut(); $('#overlay').fadeOut(); return false; }); $(document).ready(function () { addReadmore($(\"#bio\")); $(document).on('click', '#book-button', function() { submitCall(); return false; }); $(document).on('click', '#google-reviews-button', function() { addSpinner(); setTimeout(function () { document.location = [\"/book/\", \"jeanandjazz\", \"/reviews\"].join(\"\"); }, 250); return false; }); $(document).on('click', '#login-button', function() { addSpinner(); setTimeout(function () { document.location = [\"/book/\", \"jeanandjazz\", \"/login\"].join(\"\"); }, 250); return false; }); $(document).on('click', '#logout-button', function() { addSpinner(); setTimeout(function () { document.location = [\"/book/\", \"jeanandjazz\", \"/logout\"].join(\"\"); }, 250); return false; }); $(document).on('click', '#shop-button', function() { addSpinner(); setTimeout(function () { const url = new URL(document.location.href); url.pathname = [\"/shop/\", \"jeanandjazz\", \"/items\"].join(\"\"); document.location = url.href; }, 250); return false; }); }); Privacy Policy × Last Modified: April 1, 2025 We've included annotations in bold below to emphasize certain sections of our privacy policy and help you navigate as you review it. The annotations are not summaries, so please take the time to read everything! If you are a consumer shopping at a business that uses PocketSuite, this privacy notice applies to you. It explains what data we collect about you, what we do with it, when and why we share it with others, how long we keep it, how we secure it, what cookies are and what they (and similar technologies) do, what data is collected about you by third party service providers, and what choices you have to control your data. If you are a Businesses or Team Member that uses PocketSuite, please refer instead to the Privacy Notice available here. Please take a moment to read this privacy policy carefully so that you can understand your rights and our responsibilities regarding your information. This policy also explains your choices about how we use information about yo"
+}

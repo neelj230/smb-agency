@@ -1,0 +1,151 @@
+{
+  "name": "Trailhead Barbershop",
+  "slug": "trailhead-barbershop",
+  "category": "barber",
+  "address": "384 E 40th Ave",
+  "city": "Eugene",
+  "state": "OR",
+  "zip": "97405",
+  "phone": "(541) 868-0141",
+  "email": "trailheadbarbershop@gmail.com",
+  "website": "http://trailheadbarbershop.booksy.com/",
+  "rating": 4.9,
+  "reviewCount": 93,
+  "tagline": "",
+  "brandNarrative": "Find your Booksy specialist by city \n                            Charlotte\n                         \n                                    Barbershop\n                                \n                                    Hair Salon\n                                \n                                    Massage\n                                \n                                    Tattoo Shop\n                                \n                                    Hair Removal\n                                \n                                    Nail Salon\n                                \n                                    Brows & Lashes\n                                \n                                    Makeup\n                                \n                                    Box Braids\n                                \n                                    Dreadlocks\n                                \n                                    Eyelash Extensions\n                                \n                                    Female Haircut\n                                \n                                    Male Haircut\n                                \n                            Columbus\n                         \n                                    Barbershop\n                                \n                                    Hair Salon\n                                \n                                    Massage\n                                \n                                    Tattoo Sh",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Closed",
+    "Tuesday": "10:00 AM – 6:00 PM",
+    "Wednesday": "10:00 AM – 6:00 PM",
+    "Thursday": "10:00 AM – 6:00 PM",
+    "Friday": "10:00 AM – 6:00 PM",
+    "Saturday": "10:00 AM – 6:00 PM",
+    "Sunday": "10:00 AM – 5:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "We took our 9-year-old to see Jacob for his first barbershop haircut and had a fantastic experience. The shop has a great vibe, and Jacob was wonderful with kids — professional, patient, and clearly skilled at what he does. My son has autism, and Jacob made the whole experience comfortable and easy. It was a complete non-issue. We’re really grateful and will definitely be back. Thank you, Jacob!",
+      "author": "Katie Buss",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-03-04"
+    },
+    {
+      "text": "My son got his haircut this evening, first time in, and honestly we feel so lucky and blessed to have found this place. Great atmosphere, honest and genuine interaction, good conversation, and best of all- amazing talent! Appreciate the cut for my kiddo and will definitely be back! 💕\n\nMy son has textured, curly hair and it’s hard to find good barbers in the area— this place is GREAT! Can’t say thank you enough.",
+      "author": "Shelby Hebert",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-24"
+    },
+    {
+      "text": "Great service from a professional Barbershop. Jake is a true artist of his trade. Impeccable attention to detail and even better customer service. Extremely clean and great environment! #10stars",
+      "author": "Timothy Hudson",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-08-05"
+    },
+    {
+      "text": "Wonderful staff and environment. Took both my boys for much needed cuts that both were happy with. Couldn't recommend more!! Thankful to have them in the neighborhood 😃",
+      "author": "Mariah “SweetTooth”",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-06-01"
+    },
+    {
+      "text": "This barbershop decided to kick out a person because he was in a wheelchair and did not officially have an appointment. They were rude and did not seem to have any consideration for the fact that he was disabled. They were unable to accommodate his wheelchair and unwilling to work with him in any capacity. I will not be going back to this barbershop again!!!!",
+      "author": "casey sullivan",
+      "rating": 1,
+      "source": "google",
+      "date": "2025-06-20"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Modern barbershop interior with vintage chairs, wooden counters, and checkered flooring",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Professional barbershop station with mirror, clippers, and grooming supplies displayed",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Barber cutting client's hair in vintage-style barbershop with checkered floor",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Blue Trailhead Barbershop storefront sign mounted on beige building exterior",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Side profile of person with fresh haircut wearing black mask in barbershop",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Man with reddish-brown beard wearing blue shirt in indoor setting",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Man wearing black mask in modern interior space with checkered floor",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Professional haircut in progress at a barbershop with checkered floor",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Person wearing black graphic tee and red watch in indoor setting",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Person wearing green shirt in parking lot with buildings and cars behind",
+      "category": "exterior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 93,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {
+    "facebook": "https://facebook.com/booksypolska/",
+    "instagram": "https://instagram.com/trailheadbarbershop/"
+  },
+  "competitors": [],
+  "brandColors": {
+    "primary": "#e5f5f6",
+    "accent": "#00a3ad",
+    "note": "Extracted from business website"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "Booksy logo 1 Click on the three-dot menu icon in the top-right corner of the browser window2 Select \"Settings\" from the dropdown menu.3 Scroll down and click on \"Privacy and security\" in the left sidebar.4 Click on \"Site settings\" and scroll down to find the \"Location\" option.5 Toggle the switch to allow sites to request your physical location.6 Go back to Booksy and in the location search window click \"Use my current location\". Read more: When? Preferred time April 2026 Sun Mon Tue Wed Thu Fri Sat 29303112345678910111213141516171819202122232425262728293012 Schedule us Hair Barber Nails Skin care Brows and lashes Massage Makeup Wellness and spa More... Braids and locsTattoosMedical aestheticsHair removalHome servicesPiercingPet servicesDental and orthodonticsHealth and fitnessProfessional servicesOther Trailhead Barbershop 384 e 40th ave, Eugene, 97405 Book now Show all photos Trailhead Barbershop 384 e 40th ave, Eugene, 97405 ★ 5.0 (496 reviews) Entrepreneur Services Popular Services Basic Haircut with K $35.00 40min Book W/Jacob: Basic Haircut Book this if I have instructed you to do so after first haircut. If you aren’t sure book the premium/first haircut. $30.00+ 30min Book Basic haircut by Josh $35.00 45min Book Other Services W/Jacob kids haircut Children under 10 $25.00+ 30min Book Basic Haircut with K $35.00 40min Book Premium Haircut with K Premium haircuts includes zero fades, bald fades, detailed all sheer cuts, and any haircut with a razor line up finish! $40.00 45min Book Basic Cut/ Beard Trim by K Any non fade haircut and beard trim $45.00 1h Book Kids Haircut by K Basic kids cut - This does not include skin fades $30.00 30min Book Basic haircut by Josh $35.00 45min Book Premium Haircut by Josh $40.00 45min Book Basic Haircut/Beard Trim by Josh $45.00 1h Book Premium Haircut/Beard Trim by Josh $50.00 1h Book Beard Trim by Josh $25.00 30min Book Beard Trim with K $25.00 30min Book Kids Cut by Josh $30.00 30min Book W/Jacob: First haircut/premium haircut If this is your first appointment for a haircut book this! If you need a beard trim also book haircut/beard trim instead. $35.00 45min Book W/Jacob: Basic Haircut Book this if I have instructed you to do so after first haircut. If you aren’t sure book the premium/first haircut. $30.00+ 30min Book W/Jacob: haircut and beard trim $45.00+ 1h Book Premium haircut/Beard Trim with K $45.00 1h Book New client/ first haircut with K $35.00 45min Book W/Jacob beard trim Beard trim, moisturizing treatment, and straight razor line up $25.00 30min Book Amenities Parking space Credit cards accepted Accessible for people with disabilities Reviews How reviews work 5.0 496 reviews 5 490 4 2 3 1 2 2 1 1 Michael Confirmed client Apr 8, 2026 Service: Basic Haircut with K Staff: K The Barber K is great. Michael Confirmed client Mar 27, 2026 Service: Basic Haircut with K Staff: K The Barber I can depend on K for an excellent haircut. Cameron Confirmed client Mar 21, 2026 Service: Basic Haircut with K Staf"
+}

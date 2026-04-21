@@ -1,0 +1,153 @@
+{
+  "name": "Merry Maids of Eugene",
+  "slug": "merry-maids-of-eugene",
+  "category": "cleaning service",
+  "address": "5140 Franklin Blvd #5",
+  "city": "Eugene",
+  "state": "OR",
+  "zip": "97403",
+  "phone": "(541) 402-5853",
+  "email": "office4444@merrymaids.pro",
+  "website": "https://merrymaids.com/home-cleaners-eugene-or?utm_source=google&utm_medium=organic&utm_campaign=gmb",
+  "rating": 4.3,
+  "reviewCount": 95,
+  "tagline": "",
+  "brandNarrative": "Breadcrumb\n    \n                            \n            \n                          Home\n                        \n\n                          \n                      \n                                \n          About Merry Maids\n\n                  \n              \n  \n\n\n      \n\n\n  \n\n        \n\n  \n    \n  \n\n  \n    \n              \n\n  \n  \n  \n  \n    \n      \n    \n      \n  \n          \n        \n            Merry Maids is so much more than just a home cleaning service. We are a company dedicated to giving our customers back the time they deserve to enjoy the things they love. We put The Extra In Your Ordinary ®, restoring balance to your life by taking care of your home. Life flies by in the blink of an eye, so it’s crucial to stop and enjoy it. With Merry Maids, you can do just that.Our house cleaning services cover every inch of your space. We can freshen up your bathroom, invigorate your kitchen, and restore your bedroom to ensure you have the beautiful and clean home you deserve. We’ll get deep into the corners and crevices to rid your space of any dust, germs, and bacteria to deliver a home that is both spotless and healthy.Exceptional cleaning services since 1979Dallen Peterson founded Merry Maids over 40 years ago in his home in Omaha, Nebraska. He (along with his family) began by personally cleaning the homes of clients so he could develop firsthand experience on how to deliver excellence. The company grew quickly, opening dozens of franchises in the course of a few years, and was a",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "8:00 AM – 5:00 PM",
+    "Tuesday": "8:00 AM – 5:00 PM",
+    "Wednesday": "8:00 AM – 5:00 PM",
+    "Thursday": "8:00 AM – 5:00 PM",
+    "Friday": "8:00 AM – 5:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "We have been using Merry maids for several months. They have amazing workers. Alisha has been so wonderful. My house is really messy. We have 6 cats and I am very disabled. She has never given me a judgemental look or response.  She has been so wonderful. I feel so good about my home after she has finished.",
+      "author": "Cynthia Leming",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-03"
+    },
+    {
+      "text": "Merry Maids exceeded my expectations. The professional house cleaners were polite, thorough, and worked hard to get my house back in order again. The office staff were very helpful and kind.\nI will definitely be calling on Merry Maids again in the near future.",
+      "author": "Katelin Hodgin",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-29"
+    },
+    {
+      "text": "Monique has cleaned my house many times and she is the best! Every time she comes to my house, she is friendly and works hard the whole time. She pays extra attention to details and my house always smells and looks amazing when she leaves! I love when she comes and cleans my home!",
+      "author": "Nicole Lyons",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-06-26"
+    },
+    {
+      "text": "My house is spotless and everyone who helped clean was very professional and kind. I’ll only be using Merry Maids from here on out.",
+      "author": "Ruby Duncan",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-19"
+    },
+    {
+      "text": "Merry Maids came out today and cleaned our downstairs apartment from top to bottom. The floors especially look great! We will definitely use them again for move out cleans.",
+      "author": "Asa Earnest",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-04-25"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Service professional in blue uniform standing beside work vehicle in residential driveway",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Merry Maids of Eugene photo 2",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Smiling woman in blue uniform cleaning bathroom counter with green cloth and white gloves.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Three smiling women in matching turquoise polos standing in front of a residential home",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Merry Maids of Eugene photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Professional cleaners working in a modern kitchen, cleaning countertops and surfaces.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Merry Maids of Eugene photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Modern kitchen with white cabinets, stainless steel appliances, and two people cooking together.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Woman cleaning kitchen appliance with yellow cloth and cleaning spray bottle",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Professional cleaning service worker wiping kitchen countertop in modern home",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 95,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.3,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {
+    "facebook": "https://facebook.com/MerryMaids",
+    "instagram": "https://instagram.com/merrymaidsofficial/",
+    "twitter": "https://x.com/mapbox-gl-js/v2.14.1/mapbox-gl.css",
+    "youtube": "https://youtube.com/user/merrymaids"
+  },
+  "competitors": [],
+  "brandColors": {
+    "primary": "#0779bf",
+    "accent": "#4e4b48",
+    "note": "Extracted from business website"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "Skip to main content <iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-MX9CMW2W&amp;gtm_auth=M5kAhkmQUEEdovL5g9it5w&amp;gtm_preview=env-1&amp;gtm_cookies_win=x\" height=\"0\" width=\"0\"></iframe> <iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-MX9CMW2W&gtm_auth=M5kAhkmQUEEdovL5g9it5w&gtm_preview=env-1&gtm_cookies_win=x\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe> Home Find your local Merry Maids Call 888.894.6174 Main navigation Cleaning Services Our Services For Your Home Toggle submenu Recurring Cleaning One-Time Cleaning Toggle submenu One-Time Cleaning Services Post Construction Seasonal and Holiday Move In and Move Out Deep Cleaning Specialty Cleaning Toggle submenu Maid Services Specialty Cleaning Services Cabinet Cleaning Kitchen Appliances Oven Cleaning Refrigerator Cleaning Wall Cleaning For Your Rental Property For Your Business Why Hire Us? Why Hire Merry Maids Our Process Toggle submenu Our Cleaning Process Bathroom Cleaning Kitchen Cleaning Apartment Cleaning 5-Star Promise Reviews Resources Blog FAQs Company Toggle submenu About Us History Careers(opens in a new window) Franchise Opportunities(opens in a new window) Gift Cards(opens in a new window) Free Quote Menu Home Cleaners in Eugene 541.667.9529 Save up to $400.00 With Merry Maids Advantage Package of 24 weekly or Bi-weekly Cleanings. Apply Save up to $400.00 Breadcrumb Home Oregon Eugene With so much going on in your life, it’s hard to find time to tackle all your chores, let alone enjoy the things you love. Merry Maids® is here to give you back the time you deserve. Our Eugene home cleaning services restore balance to your life by handling your endless to-do list. With our meticulous cleaning processes and thorough techniques, you can live in the moment and leave the housekeeping to the professionals. Choosing Merry Maids means choosing reliability and peace of mind. We know that every home is unique, which is why we tailor our cleaning services near you to fit your individual needs. From eco-friendly products to innovative cleaning methods, our goal is to create a fresh, welcoming environment. Whether you prefer weekly upkeep or a seasonal deep cleaning service in Eugene, our adaptable services are designed for your convenience and satisfaction. Merry Maids of Eugene is pretty rooted in this community. We’re a local team, so we get what life is like in Eugene and the surrounding neighborhoods because we’re living it too. The people who clean your home are the same folks you run into at the grocery store or see at the park.Because we’re part of the community, we take a lot of pride in helping our neighbors keep their homes comfortable and stress‑free. When you choose Merry Maids of Eugene, you’re not just hiring a cleaning service—you’re supporting a local crew that genuinely cares about the place we all call home. Our Service Areas Thurston Junction City Springfield Eugene Coburg Cottage Grove Eugene Services Recurring Cleaning "
+}

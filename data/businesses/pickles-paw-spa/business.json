@@ -239,12 +239,7 @@
       "Trustworthy",
       "Playful"
     ],
-    "named_staff": [
-      "Sarah Donato",
-      "Sabrina"
-    ]
+    "named_staff": ["Sarah Donato", "Sabrina"]
   },
-  "dataSources": [
-    "google"
-  ]
+  "dataSources": ["google"]
 }

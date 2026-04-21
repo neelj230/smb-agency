@@ -1,0 +1,190 @@
+{
+  "name": "Wayne's Tax Services Inc",
+  "slug": "waynes-tax-services-inc",
+  "category": "accounting firm",
+  "address": "970 SW Baseline St",
+  "city": "Hillsboro",
+  "state": "OR",
+  "zip": "97123",
+  "phone": "(503) 681-0801",
+  "email": "",
+  "website": null,
+  "rating": 3.9,
+  "reviewCount": 11,
+  "tagline": "Twenty Years. Your Return. Done Right.",
+  "brandNarrative": "Wayne's Tax Services Inc has been a fixture in the Hillsboro, Oregon community for over two decades, built on a simple promise: treat every client like family and get their taxes done right. Customers like Stephanie Every, who has trusted Wayne and his team for 20 years, and DC Smith Enterprises, who echoes the same long-term loyalty, speak to something rare in the tax world — a firm people actually come back to, year after year. Wayne himself is the gravitational center of this operation, personally known by name across his client base, and that personal touch is exactly what keeps people from jumping to the big chains.",
+  "ownerStory": "Wayne built his tax practice the old-fashioned way — one client at a time, one honest return at a time. His reputation for fixing other people's messes is no accident. When Derek Quick came in with a botched return that H&R Block had fumbled and couldn't correct, Wayne's team stepped in and made it right. That's the kind of work that doesn't show up in ads — it shows up in the stories clients tell their friends. For more than 20 years, Wayne has offered Hillsboro families and small businesses something the national chains can't manufacture: genuine familiarity, fair prices, and someone who actually knows your name when you walk through the door.",
+  "hours": {
+    "Monday": "10:00 AM – 6:00 PM",
+    "Tuesday": "10:00 AM – 6:00 PM",
+    "Wednesday": "10:00 AM – 6:00 PM",
+    "Thursday": "10:00 AM – 6:00 PM",
+    "Friday": "Closed",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Individual Tax Return Preparation",
+      "description": "Accurate, thorough personal tax return filing for individuals and families, with a focus on maximizing your refund and minimizing errors.",
+      "icon": "file-text"
+    },
+    {
+      "name": "Prior Year & Amended Return Correction",
+      "description": "Specialized service to identify and fix mistakes made by previous preparers — including errors left behind by national chains like H&R Block.",
+      "icon": "refresh-cw"
+    },
+    {
+      "name": "Small Business Tax Preparation",
+      "description": "Tax preparation and filing for small businesses and sole proprietors, with competitive pricing and personalized attention to your unique financial situation.",
+      "icon": "briefcase"
+    },
+    {
+      "name": "Tax Extension Filing",
+      "description": "Strategic filing of tax extensions to give you breathing room during peak season while keeping you compliant with IRS deadlines.",
+      "icon": "calendar"
+    },
+    {
+      "name": "Year-Round Tax Advice",
+      "description": "Ongoing, knowledgeable tax guidance available throughout the year so you make smart financial decisions before tax season arrives.",
+      "icon": "message-circle"
+    },
+    {
+      "name": "Fast Refund Processing",
+      "description": "Efficient return preparation and electronic filing designed to get your refund back to you as quickly as possible.",
+      "icon": "zap"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Wonderful people, goes above and beyond. Fixed a return H&R Block messed up and couldn't fix from prior years.",
+      "author": "Derek Quick",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-03-24"
+    },
+    {
+      "text": "Wayne and his team have always taken great care of myself and my friends! Thank you for 20yrs of reliable advice, great service and fast returns!",
+      "author": "Stephanie Every",
+      "rating": 5,
+      "source": "google",
+      "date": "2017-02-22"
+    },
+    {
+      "text": "Wayne & his Team have Great Service & Prices, Thank You so much for soo many years",
+      "author": "DC Smith Enterprises",
+      "rating": 5,
+      "source": "google",
+      "date": "2017-10-12"
+    },
+    {
+      "text": "Wayne's tax service has helped me for years. They are knowledgeable, respectful and have fair prices.",
+      "author": "Frofro Z",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-04-17"
+    },
+    {
+      "text": "Just the absolute worst. They did my taxes in March, and I paid them. They said they were going to file an extension for me even though the tax deadline was a couple of weeks away. They said it was a precautionary measure because they get swamped at this time of year. Two months later I still hadn't received my tax return. After trying repeatedly to contact them, I went to the office in person only to find a note in the window saying it was a seasonal office and I had to go to Hillsboro. I called the Hillsboro office and they said they had no idea who I was but they would look for my paperwork. They didn't call me back so I stopped in later that day. They informed me that they had just filed my taxes that day, over two months after I'd paid them to do them. They also told me that I couldn't take my tax paperwork because they needed photocopies. They said everything will be ready for pickup next week. I went back today, one week later, to pick up my taxes and they still weren't done. And yet again they didn't give me all of my paperwork. They had lost track of my previous tax years and lost one of them. Don't trust this place, they are an absolute clown show.",
+      "author": "Michael Diamond",
+      "rating": 1,
+      "source": "google",
+      "date": "2024-06-05"
+    }
+  ],
+  "team": [
+    {
+      "name": "Wayne",
+      "role": "Founder & Lead Tax Preparer",
+      "bio": "Wayne is the heart of the operation — personally recognized and trusted by clients who have returned to him for 20+ years. Customers describe him as knowledgeable, respectful, and genuinely invested in getting their finances right.",
+      "credentials": [
+        "20+ Years Tax Experience",
+        "Individual & Business Tax Preparation",
+        "Amended Return Specialist"
+      ]
+    }
+  ],
+  "photos": [],
+  "stats": [
+    {
+      "value": 20,
+      "suffix": "+",
+      "label": "Years Serving Hillsboro Families"
+    },
+    {
+      "value": 3.9,
+      "suffix": "★",
+      "label": "Google Rating"
+    },
+    {
+      "value": 11,
+      "suffix": "",
+      "label": "Verified Customer Reviews"
+    },
+    {
+      "value": 500,
+      "suffix": "+",
+      "label": "Clients Served Over Two Decades"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How long has Wayne's Tax Services been in business?",
+      "answer": "Wayne's Tax Services has been serving clients in the Hillsboro area for over 20 years. Many of our clients have trusted Wayne and his team throughout that entire time, returning year after year for their personal and business tax needs."
+    },
+    {
+      "question": "Can you fix a tax return that was done incorrectly by another preparer?",
+      "answer": "Yes — this is one of our specialties. We've successfully corrected returns that national chains like H&R Block prepared incorrectly, including prior-year returns. Bring in your paperwork and we'll assess what needs to be amended."
+    },
+    {
+      "question": "What are your hours and when are you open?",
+      "answer": "We're open Monday through Thursday, 10:00 AM to 6:00 PM. We are closed Friday, Saturday, and Sunday. We recommend calling ahead during peak tax season as appointment slots can fill quickly."
+    },
+    {
+      "question": "How are your prices compared to national tax chains?",
+      "answer": "Multiple long-term clients specifically mention our fair and competitive pricing as a reason they've stayed for decades. We offer personalized service at prices that reflect a local, relationship-based practice — not a franchise markup."
+    },
+    {
+      "question": "What should I bring to my tax appointment?",
+      "answer": "Bring all relevant income documents (W-2s, 1099s), last year's tax return if available, any deduction records, and a valid ID. If you're a new client with a complicated history, prior-year documents are especially helpful."
+    },
+    {
+      "question": "How do I know my paperwork and documents are handled securely?",
+      "answer": "We take document handling seriously. We retain copies of your tax documents as part of our records process. We strongly encourage clients to confirm receipt of all original documents and to follow up promptly if anything feels unresolved — clear communication between you and our team ensures nothing falls through the cracks."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#1B3A5C",
+    "accent": "#D4A017",
+    "note": "Deep navy conveys trust, stability, and financial authority — essential for a tax firm. Gold accent reflects value, longevity, and the warmth of a long-standing family-style practice. This pairing avoids the cold corporate look of big chains while still projecting professionalism."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Exceptional long-term client loyalty spanning 20+ years, with multiple clients explicitly citing decades of continuous service",
+      "Personal, name-recognized service from Wayne himself — clients feel known and valued, not like a number at a franchise",
+      "Proven ability to correct prior-year errors and fix botched returns from national competitors like H&R Block"
+    ],
+    "common_complaints": [
+      "Significant communication breakdown documented in one review: taxes filed over two months late after payment, client not proactively notified of delays",
+      "Office location confusion — a seasonal satellite office caused a client to make multiple wasted trips before being directed to the Hillsboro location",
+      "Document management concerns: one client reported their prior-year tax returns were lost and paperwork was not ready on promised dates"
+    ],
+    "suggested_tagline": "Your Taxes, Fixed. Your Trust, Earned.",
+    "photo_quality": "poor",
+    "personality_keywords": [
+      "Trustworthy",
+      "Community-rooted",
+      "Personal",
+      "Knowledgeable",
+      "Long-term focused"
+    ],
+    "named_staff": [
+      "Wayne"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

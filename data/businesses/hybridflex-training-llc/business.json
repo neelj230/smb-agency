@@ -1,0 +1,146 @@
+{
+  "name": "HybridFlex Training LLC",
+  "slug": "hybridflex-training-llc",
+  "category": "personal trainer",
+  "address": "970 Pulaski Dr",
+  "city": "King of Prussia",
+  "state": "PA",
+  "zip": "19406",
+  "phone": "(484) 380-5909",
+  "email": "",
+  "website": "http://www.thehybridflex.com/",
+  "rating": 5,
+  "reviewCount": 19,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "2:00 – 8:00 PM",
+    "Tuesday": "6:00 AM – 7:00 PM",
+    "Wednesday": "6:00 AM – 8:00 PM",
+    "Thursday": "6:00 AM – 5:00 PM",
+    "Friday": "6:00 AM – 6:00 PM",
+    "Saturday": "9:00 AM – 3:00 PM",
+    "Sunday": "9:00 AM – 4:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Training with Reggie has been awesome!  He uses his knowledge of strength and mobility training to develop fun customized workouts specific to your fitness goals. I’ve been training with Reggie again since December and not only am I seeing results but my body’s energy level has drastically improved.  10/10 recommend!",
+      "author": "Marisa Price",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-02-25"
+    },
+    {
+      "text": "Reggie is a fantastic trainer! He has increased my athleticism and overall fitness in a short amount of time. I appreciate the focus on flexibility and agility paired with strength training. Would highly recommend Hybrid Flex for all fitness levels - both experienced athletes and beginners can benefit from Reggie’s expertise.",
+      "author": "Breah Mack",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-06-16"
+    },
+    {
+      "text": "Reggie is very well versed in strength & conditioning training and mobility & recovery. He is always willing to adjust the workouts towards my personal goals and pushes me to levels I never thought I could reach. I have seen amazing results over the past year and a half while training with Reggie and would strongly recommend him to accomplish your fitness goals!",
+      "author": "Maeve Rooney",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-02-25"
+    },
+    {
+      "text": "I’ve been lucky enough to train with Reggie for years now. Having him as a trainer has pushed me to get out of my comfort zone in the gym and test my limits. He has adjusted his training a number of times while helping me get started focusing on my health and fitness, maintain it during pregnancy and bounce back after having a baby. No matter what stage I’ve been at, he has always been reliable and a consistent part of my journey.",
+      "author": "Nicole Cooper",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-11-03"
+    },
+    {
+      "text": "When I first started training with Reggie 2 years ago I had almost no mobility in my hips or my shoulders. I neglected areas that needed to be worked on as an athlete. Immediately him and I went after my weaknesses and improvements started happening. My hips opened up, shoulders became more mobile, my lower back tightness went away and my lifts and performance improved drastically. If you are looking for a professional to improve your mobility as an athlete to help get to the next level Reggie is your guy! Highly recommend him!\nNext level trainer right here!",
+      "author": "Jonathan Weinstein (Weinsteinfitness)",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-03-25"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Young man exercising with red resistance band in modern gym facility",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Athlete training with medicine ball in indoor sports facility gymnasium",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Two people exercising outdoors on yoga mats in a parking lot with fitness equipment",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "HybridFlex Training LLC photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Two women exercising outdoors with resistance bands in a parking lot fitness session.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Athlete resting on gym floor surrounded by kettlebells and weight training equipment",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "HybridFlex Training LLC photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "HybridFlex Training LLC photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Athlete in dark athletic gear tying shoes on indoor sports field",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Healthy beverages displayed on gym floor including coconut water and green smoothie",
+      "category": "food"
+    }
+  ],
+  "stats": [
+    {
+      "value": 19,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "name": "Laugh & Learn Childcare",
+  "slug": "laugh-learn-childcare",
+  "category": "daycare",
+  "address": "23445 NE Glisan St",
+  "city": "Wood Village",
+  "state": "OR",
+  "zip": "97060",
+  "phone": "(503) 317-3811",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 13,
+  "tagline": "Where little ones grow, laugh, and belong.",
+  "brandNarrative": "Laugh & Learn Childcare on NE Glisan Street in Wood Village isn't a drop-off-and-pick-up operation — it's the kind of place where children cry when it's time to leave, and families stay friends for life. Led by Rabecca, whose warmth and dedication have shaped the childhoods of multiple generations within the same families, Laugh & Learn has been quietly doing extraordinary work for over 15 years. Parents like Melissa Lopez have trusted Rabecca with all five of their grandchildren across 15.5 years. Maria Clegg's children — one enrolled at just 4 months old — grew from infants to kindergarten-ready graduates within these walls. That kind of loyalty isn't earned by good marketing. It's earned by showing up, every single day, with patience, love, and genuine investment in each child's individual journey.\n\nWhat sets Laugh & Learn apart is the refusal to treat any child as a one-size-fits-all learner. Ali Pitt's three-year-old, who faces speech and developmental challenges, doesn't just survive here — he thrives. Rabecca and her team took the time to understand how he learns best, ensured he felt included, and kept Mom in the loop with photos and stories every step of the way. His speech, listening skills, and social engagement improved dramatically. That's not a coincidence — that's intentional, individualized care from people who genuinely see each child. For first-time parents like Heather O'Rourke, the team's constant communication and extra reassurance transformed one of the scariest transitions of her life into a source of cherished friendships.\n\nFrom gardening and corn harvesting to art projects, outdoor exploration, and kindergarten readiness, the curriculum here is rich, hands-on, and rooted in the belief that children learn best when they're joyful and secure. Families don't just leave with kids who are ready for school — they leave with kids who are confident, kind, and curious. And more often than not, they leave with a piece of their heart still inside these walls.",
+  "ownerStory": "Rabecca has been the heartbeat of Laugh & Learn for over 15 years, and if you talk to the families she's served, they'll tell you she's far more than a childcare provider. She's a mentor, a confidant, a second mother, and for some families, a genuine pillar of their personal support system. Melissa Lopez, one of Laugh & Learn's longest-standing families, credits Rabecca with being a positive role model not just for her grandchildren, but for herself through life's hardest chapters. That's the kind of human being Rabecca is — someone who shows up for the whole family, not just the child in her care.\n\nHer approach to childcare is deeply personal and remarkably consistent: meet every child where they are, figure out how they learn best, and never stop going the extra mile. Whether she's kneeling beside a child with developmental delays to find the right way to reach them, or texting a nervous first-time mom a photo to ease her anxiety, Rabecca leads with empathy and specificity. The staff she's built around her share that same DNA — warm, communicative, and fiercely dedicated. If you're lucky enough to secure a spot at Laugh & Learn, as Melissa puts it, don't lose it. There is simply no better care in the Portland Metro area.",
+  "hours": {
+    "Monday": "6:30 AM – 6:00 PM",
+    "Tuesday": "6:30 AM – 6:00 PM",
+    "Wednesday": "6:30 AM – 6:00 PM",
+    "Thursday": "6:30 AM – 6:00 PM",
+    "Friday": "6:30 AM – 6:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Infant & Toddler Care",
+      "description": "Nurturing, responsive care for babies as young as 4 months old, with constant parent communication and individualized attention during the earliest and most critical developmental months.",
+      "icon": "baby"
+    },
+    {
+      "name": "Preschool Learning Program",
+      "description": "A structured yet joyful daily curriculum that builds kindergarten readiness through storytelling, letter recognition, creative arts, and hands-on activities tailored to each child's pace.",
+      "icon": "book-open"
+    },
+    {
+      "name": "Individualized Developmental Support",
+      "description": "Personalized learning plans for children with speech delays, developmental challenges, or unique learning styles — ensuring every child feels included, capable, and celebrated.",
+      "icon": "heart-handshake"
+    },
+    {
+      "name": "Outdoor & Garden Education",
+      "description": "Children grow real vegetables, explore nature, harvest corn, and develop a hands-on relationship with the living world through regular outdoor learning and gardening activities.",
+      "icon": "sprout"
+    },
+    {
+      "name": "Creative Arts & Sensory Play",
+      "description": "Daily art projects, seasonal crafts, and sensory exploration activities that spark imagination, build fine motor skills, and give every child a medium to express themselves.",
+      "icon": "palette"
+    },
+    {
+      "name": "Kindergarten Readiness Program",
+      "description": "A milestone-focused program that prepares children academically, socially, and emotionally for the transition to kindergarten through structured learning and confidence-building experiences.",
+      "icon": "graduation-cap"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "“A Place That Feels Like Family”\n\nOur family has been blessed to be part of Laugh & Learn for years. My daughter started here at just 2 years old, and my son began when he was only 4 months old. This year, they are both graduating, and while we’re so proud of how far they’ve come, it’s bittersweet to say goodbye to a place that has meant so much to us.\n\nFrom the very beginning, the staff have gone above and beyond—not just caring for our children, but truly loving them, guiding them, and helping them grow into confident, kind, and curious learners. Every milestone, from first steps to first words, preschool art projects to kindergarten readiness, has been met with encouragement, patience, and joy.\n\nLaugh & Learn isn’t just a childcare center—it’s been a second home for our kids. We’ve always felt safe, supported, and heard as parents. Knowing our children were in the hands of people who treated them like their own gave us so much peace of mind.\n\nWe are forever grateful for the memories, the lessons, and the love our children have experienced here. Thank you to the entire Laugh & Learn team for helping shape our kids into who they are today. We couldn’t have asked for a better start to their journey. Anyone would be lucky to have there children in the care of these\nwonderful and dedicated teachers.",
+      "author": "Maria Clegg",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-15"
+    },
+    {
+      "text": "There are nothing but wonderful things to say about Laugh & Learn Childcare.My daughter has been in their care for just over a year now and the teachers here are wonderful!\n\nThis has been my first experience with childcare, and making the leap was one of the scariest things I’ve ever done. Leaving your most precious gift in the hand of another is hard, but the teachers at Laugh & Learn made the transition for both my daughter and I better than I could have ever asked for. Constant communication, pictures, extra snuggles, just really going the extra mile.\n\nIn such a short time we have both made cherished friendships through Laugh & Learn. If you’re looking for childcare that feels like family, this is the place.",
+      "author": "Heather O'Rourke",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-17"
+    },
+    {
+      "text": "I cannot say enough wonderful things about the wonderful care team at Laugh & Learn.\n\nMy three year old learns at his own pace. His speech is a bit behind, and he faces his own unique set of challenges when it comes to learning and development. Rabecca and her team have been a blessing... they take the time to figure out how he learns best. They make every effort to ensure he is comfortable and included in activities, and he is THRIVING in their care.\n\nHe looks forward to going to \"school\" every day, and sometimes he doesn't want to leave when it's time for pick up! His speech, listening skills and social engagement with other kiddos have improved drastically since starting in their care.\n\nI trust that he is in the best hands when I drop him off, which isn't easy when you have a child that needs a bit more attention and patience. They share photos and stories of everything he does in their care, so I know exactly what he's learning and I can continue those lessons at home. I am forever grateful we found Laugh & Learn; it was a monumental step in providing my precious son the tools he needs and deserves.",
+      "author": "Ali Pitt",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-01-27"
+    },
+    {
+      "text": "Rabecca has had all my grand children (5)  over 15.5 years with my youngest aging out this summer since starting Kindergarten.\nAlso friends of our families children.\nSo yes I’m very bias but she is a phenomenal provider always going the extra mile for the kids needs and the parents needs. We have been personal friends since my oldest started 15.5 years ago. And we will always remain in contact with her. My grandchildren cried they had to leave.\nBecca will forever hold a place in my heart she is actually part of my own support system for the last 15.5 years of my personal struggles and life challenges being a positive roll model in my own life.  So saying  that to say this it’s not just a daycare to drop your kids off and pick them up she  also does anything with in her power to support families.\nI’m honored to be able to say, she played a huge role in my grandkids upbringing from the 21 year old to the 5 year old through out the years.\nAcademic learning gardening field trips, life skills they learn it all and so do we haha\nIf you’re lucky enough to get an opportunity to put your children in this daycare, don’t lose that slot because you won’t find a better care in the Portland Metro area.",
+      "author": "Melissa Lopez",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-20"
+    },
+    {
+      "text": "I couldn’t have asked for a better daycare to send my kiddo to. I was hesitant to send my kiddo to daycare from the get go. Rabecca and her teachers helped me to feel WAY more comfortable! I recommend them to everyone I know who is looking for daycare! 10/10 loved this place!",
+      "author": "Alex Jorgenson",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-01"
+    }
+  ],
+  "team": [
+    {
+      "name": "Rabecca",
+      "role": "Owner & Lead Childcare Provider",
+      "bio": "With over 15 years leading Laugh & Learn, Rabecca is renowned for her deep patience, individualized approach, and genuine love for every child and family in her care. Multiple families have trusted her with multiple children across many years, and parents consistently describe her as a life-changing presence — not just for their kids, but for themselves.",
+      "credentials": [
+        "15+ years of childcare experience",
+        "Individualized developmental support",
+        "Kindergarten readiness expertise",
+        "Family support and community building"
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Three children exploring outdoors on a fallen tree in a forest setting.",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Children watering plants in garden with hose during outdoor gardening activity",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Young child engaged in hands-on creative art project at classroom table",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Daycare teacher reading to young children sitting on colorful play mat indoors",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Two children wearing colorful paper turkey crafts sit at table in classroom.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Young child at kitchen table with learning cards spelling out letters",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Young child playing with large wooden building blocks and construction toys indoors.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Young child on swing at outdoor playground with wooden structure and orange slide",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Modern playground with wooden structure, yellow slides, and swings surrounded by trees",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Young child harvesting fresh corn in a sunny cornfield, smiling brightly.",
+      "category": "food"
+    }
+  ],
+  "stats": [
+    {
+      "value": 15,
+      "suffix": "+",
+      "label": "Years Serving Families"
+    },
+    {
+      "value": 5,
+      "suffix": "★",
+      "label": "Perfect Google Rating"
+    },
+    {
+      "value": 13,
+      "suffix": "",
+      "label": "Glowing Reviews"
+    },
+    {
+      "value": 6,
+      "suffix": ":30 AM",
+      "label": "Early Morning Open Daily"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What makes Laugh & Learn different from other daycares in the Portland Metro area?",
+      "answer": "Laugh & Learn is built on relationships that last years — sometimes decades. Families like the Lopezes have enrolled five grandchildren here over 15.5 years. Owner Rabecca and her team go far beyond basic childcare: they learn how each individual child thinks and learns, provide constant photo updates and communication to parents, and create an environment so warm that children often don't want to leave at pickup time."
+    },
+    {
+      "question": "My child has developmental delays or a speech delay. Can Laugh & Learn support them?",
+      "answer": "Absolutely. Rabecca and her team have a strong track record of supporting children with speech delays, developmental differences, and unique learning needs. One parent shared that her son's speech, listening skills, and social engagement improved dramatically after starting here because the team took the time to figure out exactly how he learns best and ensured he always felt included and comfortable."
+    },
+    {
+      "question": "I'm a first-time parent and terrified to leave my child. How do you help with the transition?",
+      "answer": "This is one of the most common feelings families bring through our doors, and it's one we take seriously. The team maintains constant communication with parents — sharing photos, updates, and stories throughout the day — and provides the extra reassurance and warmth needed to make the transition feel manageable. First-time mom Heather O'Rourke described the transition as 'better than I could have ever asked for.'"
+    },
+    {
+      "question": "What does a typical day look like at Laugh & Learn?",
+      "answer": "Days at Laugh & Learn are a blend of structured learning and joyful play. Children might spend time on letter recognition and learning cards, creative art projects, outdoor exploration on playground equipment, gardening and growing real vegetables, storytime on colorful play mats, or hands-on building and sensory play — all woven together in a way that feels natural and fun rather than rigid."
+    },
+    {
+      "question": "What are your hours and what ages do you accept?",
+      "answer": "Laugh & Learn is open Monday through Friday, 6:30 AM to 6:00 PM, and closed on weekends. The center welcomes children starting as young as 4 months old through kindergarten age, supporting families through every major early childhood milestone along the way."
+    },
+    {
+      "question": "How do I secure a spot, and is availability limited?",
+      "answer": "Spots at Laugh & Learn are genuinely in high demand — longtime families specifically advise prospective parents not to lose their slot if offered one. We recommend calling (503) 317-3811 as early as possible to inquire about availability and get on the waitlist if needed."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#4A90A4",
+    "accent": "#F4A742",
+    "note": "A warm sky blue reflects trust, calm, and the nurturing safety parents seek in childcare, while the golden amber accent captures the joy, energy, and sunshine-filled outdoor adventures — gardening, corn harvesting, and playground play — that define Laugh & Learn's hands-on philosophy. Together they feel cheerful and trustworthy without being overly corporate or sterile."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Extraordinarily deep, long-term family relationships — multiple families with multiple children over 10+ years, creating unmatched loyalty and word-of-mouth trust",
+      "Individualized, child-first approach that successfully supports children with developmental delays and unique learning needs, setting Laugh & Learn apart from generic daycare providers",
+      "Consistent, proactive parent communication through photos, stories, and updates that dramatically eases parental anxiety and builds genuine confidence in the care team"
+    ],
+    "common_complaints": [
+      "None found — all 13 reviews are 5-star with exclusively positive sentiment and no critical feedback identified"
+    ],
+    "suggested_tagline": "More than daycare. More like family.",
+    "photo_quality": "good",
+    "personality_keywords": [
+      "Warm and family-like",
+      "Individualized and attentive",
+      "Joyfully educational",
+      "Deeply trustworthy",
+      "Relationship-driven"
+    ],
+    "named_staff": [
+      "Rabecca",
+      "Becca"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

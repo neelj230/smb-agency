@@ -1,0 +1,148 @@
+{
+  "name": "Elevated Barber Lounge",
+  "slug": "elevated-barber-lounge",
+  "category": "barber",
+  "address": "144 Lancaster Dr SE",
+  "city": "Salem",
+  "state": "OR",
+  "zip": "97317",
+  "phone": "(971) 209-2777",
+  "email": "",
+  "website": "https://www.elevatebarberlounge.com/",
+  "rating": 5,
+  "reviewCount": 486,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Closed",
+    "Tuesday": "8:00 AM – 7:00 PM",
+    "Wednesday": "8:00 AM – 7:00 PM",
+    "Thursday": "8:00 AM – 7:00 PM",
+    "Friday": "8:00 AM – 7:00 PM",
+    "Saturday": "8:00 AM – 7:00 PM",
+    "Sunday": "9:00 AM – 5:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Made an appointment in just a few minutes easily online, got there and the atmosphere was very inviting, and happy. Got my son a haircut he was unsure what he wanted and Mason was very patient and showed him some photos until he decided what he wanted. Would for sure recommend and we will be coming back! 10/10",
+      "author": "Aimee Albrecht",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-27"
+    },
+    {
+      "text": "Best barbershop in town! When I first moved to Salem I didn’t know any good barbershops, went to one downtown and was highly disappointed. A month later I went to you guys and Joey did a phenomenal job! It’s been about a year and a half since living here and I keep coming back. Truly amazing people and very welcoming. I recommend everyone to come here everyone does an amazing job and are super friendly!",
+      "author": "Luis Guevara",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-17"
+    },
+    {
+      "text": "I had an amazing experience at Elevated Barber Shop here in Salem. The atmosphere is clean, comfortable, and really welcoming, and the whole team takes pride in their work.\n\nHuge shoutout to Joey and Mauricio!  both of them are incredibly skilled and detail-oriented. Mauricio gave me one of the cleanest fades I’ve had in a long time, and Joey's line-up and finishing touches were on point. They both take their time, listen to what you want, and make sure you walk out feeling fresh.\n\nIf you’re looking for a reliable, top-tier barbershop in Salem, this is the spot. Highly recommend!",
+      "author": "Quis",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-28"
+    },
+    {
+      "text": "My teenage boys and I absolutely love Titus! He is one of the best barbers we’ve been to. He listens to what you want, checks in during the cut, and makes sure everything comes out clean and even.  He’s professional, friendly, and the shop has a great vibe. I Highly recommended if you want a fresh and precise cut.”",
+      "author": "Cherenet Demme",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-07"
+    },
+    {
+      "text": "Mason was dope! I came in a bit late and he still took his time and was thorough even though they were past close! Great vibe in the shop too full of laughs and good dudes. mason is most definitely gonna be my go to from now on!",
+      "author": "Jesse Dana",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-14"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Seven men in matching green and black pinstriped baseball uniforms posing together indoors",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Modern barbershop interior with neon ring lights, people getting haircuts, green jerseys visible",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Professional barbershop interior with barbers working on clients under ring lights",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Barber cutting client's hair in modern barbershop with neon signs and equipment",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Professional barbershop interior with barbers serving clients under ring lights",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Person sitting indoors looking at bathroom mirror with vanity lighting fixtures",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Multiple jars of Layrite Natural Matte Cream hair product with gold caps displayed in a row",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Elevated Barber storefront with green neon sign and address 144",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Barber shop interior with stylist at mirror-lit station, customer in sports jersey",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Barber shop interior with stylist cutting client's hair under ring lights",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 486,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#969696",
+    "accent": "#969696",
+    "note": "Extracted from business website"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "Elevated Barber LoungeElevated Barber LoungeElevated Barber LoungeElevated Barber LoungeElevated Barber LoungeElevated Barber LoungeElevated Barber LoungeElevated Barber LoungeElevate Your Grooming ExperienceElevate Your Grooming ExperienceElevate Your Grooming ExperienceElevate Your Grooming ExperienceElevate Your Grooming ExperienceElevate Your Grooming ExperienceElevate Your Grooming ExperienceElevate Your Grooming Experience Contact UsDrop us a line!NameEmail*Sign up for our email list for updates, promotions, and more.SendThis site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply. Copyright © 2025 Elevated Barber Lounge - All Rights Reserved.Powered by This website uses cookies.We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data.Accept \"use strict\";Core.utils.onAllowCookieTracking(function () {const queryString = window.location.search;const urlParams = new URLSearchParams(queryString);const whiteList = ['gclid', 'fbclid', 'gdan_clid'];const belongToList = list => item => list.includes(item);const belongToWhiteList = belongToList(whiteList);Array.from(urlParams).forEach(param => {const [queryKey, queryResult] = param;if (!belongToWhiteList(queryKey)) return;localStorage.setItem(queryKey, queryResult);});}); \"use strict\";Core.utils.onAllowCookieTracking(() => {if (!document.cookie.includes(\"x-visitor-id\")) {!function (o, i, e = 60) {const t = new Date();t.setTime(t.getTime() + 864e5 * e);const n = `expires=${t.toUTCString()}`;document.cookie = `${o}=${i};${n};path=/`;}(\"x-visitor-id\", crypto.randomUUID(), 60);}});"
+}

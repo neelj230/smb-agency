@@ -1,0 +1,67 @@
+{
+  "name": "In-Joy Pilates",
+  "slug": "in-joy-pilates",
+  "category": "pilates studio",
+  "address": "532 SW 13th St",
+  "city": "Bend",
+  "state": "OR",
+  "zip": "97702",
+  "phone": "(541) 280-7570",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 1,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "8:00 AM – 7:00 PM",
+    "Tuesday": "7:30 AM – 6:00 PM",
+    "Wednesday": "7:30 AM – 6:00 PM",
+    "Thursday": "7:30 AM – 6:00 PM",
+    "Friday": "7:30 AM – 6:00 PM",
+    "Saturday": "8:00 AM – 12:30 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Nancy is an incredible healer! She integrates her extensive knowledge of the body's inner workings with warmth and patience. I have suffered from chronic back pain for 3 years due to a spinal injury. Just a few months into taking Pilates privates, and I am happy to report that I live mostly pain-free! And when I tweak my back, I now have the knowledge and tools to figure out how to rehab on my own. Nancy is truly an \"empowerer\" in her approach. I have fallen in love with my own body, thanks to Pilates and Nancy's encouragement and love.",
+      "author": "Sarah Myers",
+      "rating": 5,
+      "source": "google",
+      "date": "2016-01-14"
+    }
+  ],
+  "team": [],
+  "photos": [],
+  "stats": [
+    {
+      "value": 1,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "poor"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

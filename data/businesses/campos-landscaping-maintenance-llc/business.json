@@ -1,0 +1,146 @@
+{
+  "name": "Campos Landscaping Maintenance LLC",
+  "slug": "campos-landscaping-maintenance-llc",
+  "category": "landscaper",
+  "address": "1073 S 6th St",
+  "city": "Independence",
+  "state": "OR",
+  "zip": "97351",
+  "phone": "(971) 209-8683",
+  "email": "",
+  "website": null,
+  "rating": 4.8,
+  "reviewCount": 56,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "8:00 AM – 6:00 PM",
+    "Tuesday": "8:00 AM – 6:00 PM",
+    "Wednesday": "8:00 AM – 6:00 PM",
+    "Thursday": "8:00 AM – 6:00 PM",
+    "Friday": "8:00 AM – 6:00 PM",
+    "Saturday": "8:00 AM – 3:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "We have a lot of arborvitae, bushes and shrubs in our front and back yard that was overdue for trimming as well we asked for a big bush too be removed, front yard edging and bark dust. Ramona and her husband worked hard all day as well as came back the next day with a second barkdust load. Their work was amazing and pricing was reasonable too. We will definitely use them again!",
+      "author": "Jo Anne Robison",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-07-09"
+    },
+    {
+      "text": "We had a one time clean up in Independence, but I converted to a full time client with Campos Landscaping. Ramona was an excellent contact for the business and they did a great job.\nAnd now they are our landscaping service for over two years. The yard looks great. 😄",
+      "author": "Amy Taylor",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-01-08"
+    },
+    {
+      "text": "Ramona and her crew are simply amazing to work with.  They did a one time clean up to restore our overrun landscaping in order to sell our home.  We also had them perform weekly maintenance for two months while the house was on the market.  Their attention to detail is excellent and their was never a delay in their schedule rain or shine.  I wish we would have retained their services long, long ago before we decided to sell!",
+      "author": "Debbie MacLean",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-11-09"
+    },
+    {
+      "text": "We had a large yard clean up project and not only were they very reasonably priced, they worked very hard on the details and absolutely made my yard stunning. I will use them for any project and 100% recommend them.",
+      "author": "Tonie Steele",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-11-23"
+    },
+    {
+      "text": "They did a marvelous job. My husband paid them in cash and even gave them a $60 tip. When our property managment company billed us for the services of Campos Landscaping, we told them we had paid Campos in cash and even gave them a $60 tip also in cash. Campos claimed we had not paid her though she did own up to receiving the $60 in cash for a tip. My husband trusted our very reputable property management company when they sent Campos to our property. We didn't require a receipt from them as we should have. We have cameras as do the neighbors so we hope one of neighbors or our cameras caught the transaction. They seemed like really nice vendors and we were stupid to trust. This has been another life lesson learned by a couple 80 yr olds.",
+      "author": "Sandy Michael",
+      "rating": 1,
+      "source": "google",
+      "date": "2025-01-19"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Landscaped garden with yellow ornamental plant and contact number displayed",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Small white mobile tiny house structures on rural green property with forest backdrop",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Before and after landscaping transformation showing improved curb appeal and maintained grounds",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Before and after garden transformation showing organized patio space with plants and seating",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Modern house with metal roof on rural property with large trees and driveway",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Backyard garden with raised beds, fencing, and vegetable plants growing.",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Backyard garden workspace with hose reel, plants, and landscaping equipment",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Landscape fabric and mulch installation project alongside residential building with green fencing",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Rural farm property with fallen branches, metal fencing, and open pasture land",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Residential homes decorated with American flags and patriotic signs displayed outside.",
+      "category": "exterior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 56,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.8,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

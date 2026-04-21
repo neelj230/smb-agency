@@ -249,10 +249,6 @@
       "Skilled",
       "Welcoming"
     ],
-    "named_staff": [
-      "Chuck (Owner)",
-      "Bryant",
-      "GEE da Barber"
-    ]
+    "named_staff": ["Chuck (Owner)", "Bryant", "GEE da Barber"]
   }
 }

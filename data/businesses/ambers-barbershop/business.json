@@ -1,0 +1,146 @@
+{
+  "name": "Amber’s Barbershop",
+  "slug": "ambers-barbershop",
+  "category": "barber",
+  "address": "20 W 17th Ave",
+  "city": "Eugene",
+  "state": "OR",
+  "zip": "97401",
+  "phone": "(541) 343-2181",
+  "email": "",
+  "website": null,
+  "rating": 4.8,
+  "reviewCount": 156,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM – 5:00 PM",
+    "Tuesday": "9:00 AM – 5:00 PM",
+    "Wednesday": "9:00 AM – 5:00 PM",
+    "Thursday": "9:00 AM – 5:00 PM",
+    "Friday": "9:00 AM – 5:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I have been coming back to Amber's for a few years. I have tried elsewhere, but I don't anymore. Amber and her team has consistently done a fantastic job efficiently for a very fair cash price.",
+      "author": "Roger Brocksmith",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-17"
+    },
+    {
+      "text": "I like the place and the staff. They are so friendly and professional.\n\nThey are fast, but good fast.\n\nTheir prices are very reasonable. I will go there every time I have to do a haircut 💇.",
+      "author": "Fahad Haddadi (Shool)",
+      "rating": 5,
+      "source": "google",
+      "date": "2017-12-10"
+    },
+    {
+      "text": "Great barber in downtown Eugene. Super reasonable prices and my haircut was great!",
+      "author": "Stephen Day",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-06"
+    },
+    {
+      "text": "Really nice stylists and great with nervous young boys!",
+      "author": "Author KDLumsden",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-31"
+    },
+    {
+      "text": "Every time I've had my haircut here it's been a great experience. Even when there's 2 to 4 people ahead of me it's always been quick and efficient . And the prices are Very fair.",
+      "author": "Patrick Simmonds",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-03-07"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Three photos of children's haircuts in a barbershop interior setting",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Small restaurant storefront with illuminated signage, parked service vehicles at dusk",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Professional salon workspace with styling chair, mirrors, shelves, and organized supplies.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Barber shop interior with stylist at workstation, shelves displaying family photos and grooming supplies",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Modern hair salon interior with purple flooring, styling stations, and shelving displays",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Kristie's Barbershop storefront with red and white trim, American flag, open sign",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Man sitting in barber chair at styling station with mirrors and shelves of grooming products.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Young boy with fresh haircut in salon chair, back view of modern salon interior",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Man in striped shirt sitting in barber chair at salon station with mirrors and styling tools",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Man with fresh haircut in barbershop interior with styling chair and mirrors",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 156,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.8,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "name": "Grace Childcare Medford Oregon",
+  "slug": "grace-childcare-medford-oregon",
+  "category": "daycare",
+  "address": "602 Shadow Wood Dr",
+  "city": "Medford",
+  "state": "OR",
+  "zip": "97501",
+  "phone": "(541) 862-0783",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 4,
+  "tagline": "Where faith, love, and learning grow.",
+  "brandNarrative": "Grace Childcare isn't just a daycare — it's a place where children are genuinely loved. Nestled in Medford, Oregon, this small but mighty childcare center has earned every one of its five-star reviews through something money can't buy: a caregiver who shows up with patience, faith, and real heart every single day. Parents like Alaura Galarsa describe her as 'patient, kind, professional, flexible, caring, and transparent' — and those aren't just nice words. They're the result of a woman who treats every child as if they were her own, balancing structured learning with the freedom of outside time, field trips, and arts and crafts in a colorful, welcoming space.\n\nWhat sets Grace Childcare apart is the intentionality behind everything she does. Meals are healthy and well-balanced. Activities are designed to prepare children for kindergarten. And woven through it all is a thread of faith — a genuine, lived belief in love and grace that parents like Kylie Irvin say is 'what every family needs.' This isn't a corporate daycare with laminated policies. It's a place where a child wakes up excited to go to 'school' because they know they're cared for, seen, and celebrated.\n\nThe photos say it all: bright classrooms with child-sized furniture, rainbow wall art, stacked books, and bins full of toys. It's the kind of space that feels like it was designed by someone who actually loves children — because it was. With a 5.0 rating and glowing testimonials from families across the Medford community, Grace Childcare is the kind of hidden gem that parents whisper about to their closest friends.",
+  "ownerStory": "The woman behind Grace Childcare is, by every account, the heart of the whole operation. Reviewers consistently refer to her in near-reverential terms — 'an angel,' 'a woman of much faith, patience, and love,' someone whose guidance and warmth set her apart from any other childcare option in the region. While her name isn't listed publicly, her presence is unmistakable in every review: a sole, deeply committed caregiver who has built an entire world for children out of her faith and her calling.\n\nShe didn't set out to run a business in the traditional sense — she set out to do something meaningful. Grace Childcare, located on Shadow Wood Drive in Medford, is the physical expression of that mission. She prepares children for kindergarten with structured learning, takes them on field trips, leads them in arts and crafts, and feeds them nourishing meals — all while creating the kind of trusting, transparent relationship with parents that makes drop-off feel like leaving your child with family. For the families who've found her, she's not just a childcare provider. She's a blessing.",
+  "hours": {
+    "Monday": "7:30 AM – 4:30 PM",
+    "Tuesday": "7:30 AM – 4:30 PM",
+    "Wednesday": "7:30 AM – 4:30 PM",
+    "Thursday": "7:30 AM – 4:30 PM",
+    "Friday": "7:30 AM – 4:30 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Full-Day Childcare",
+      "description": "Structured, nurturing full-day care Monday through Friday from 7:30 AM to 4:30 PM for toddlers and young children.",
+      "icon": "home"
+    },
+    {
+      "name": "Kindergarten Readiness",
+      "description": "Intentional early learning activities designed to build the academic, social, and emotional skills children need before entering kindergarten.",
+      "icon": "book-open"
+    },
+    {
+      "name": "Arts & Crafts",
+      "description": "Regular hands-on creative activities that spark imagination and develop fine motor skills in a colorful, well-equipped classroom.",
+      "icon": "palette"
+    },
+    {
+      "name": "Outdoor Play & Field Trips",
+      "description": "Plenty of outside time and organized field trips that give children real-world experiences and joyful physical activity.",
+      "icon": "sun"
+    },
+    {
+      "name": "Healthy Meals Program",
+      "description": "Provider-prepared, healthy, and well-balanced meals and snacks served daily to support children's growth and energy.",
+      "icon": "utensils"
+    },
+    {
+      "name": "Faith-Based Character Development",
+      "description": "Gentle, values-centered guidance rooted in love, patience, and faith that helps children develop kindness, respect, and confidence.",
+      "icon": "heart"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Grace Childcare has truly been a blessing! She is patient, kind, professional, flexible, caring, transparent. My child and I love that there is a lot of outside time, field trips, arts and crafts and the teaching of our Lords love. There is a great sense of security and trust. She’s an extremely hard worker, provides healthy well balanced meals, prepares them for kindergarten and does an amazing job in caring for, teaching, and creating a safe place for my child to be. She is a woman of much faith, patience, and love. I would recommend her absolutely 100%!!",
+      "author": "ALAURA GALARSA",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-11"
+    },
+    {
+      "text": "I love Grace Childcare, she really is an angel. My child loves going to school everyday because they are the most amazing kind caring people in the world. I cannot recommend them enough you made the best choice if you choose to put your child with her. Her guidance and faith are what every family needs!",
+      "author": "Kylie Irvin",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-05"
+    },
+    {
+      "text": "",
+      "author": "Moises Alonso",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-28"
+    },
+    {
+      "text": "",
+      "author": "Valeria Garcia",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-26"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Bright daycare or preschool classroom with toddlers playing, toys, and motivational wall art.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Colorful daycare or classroom space with child-sized furniture and educational materials",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Grace Childcare business card with contact information and colorful logo design",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Colorful childcare center interior with toys, books, rainbow, and classroom setup",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Colorful children's playroom with activity table, toys, and educational wall decorations.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Colorful children's classroom with tables, chairs, storage, and educational materials",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 5,
+      "suffix": ".0",
+      "label": "Star Rating on Google"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "of Parents Would Recommend"
+    },
+    {
+      "value": 5,
+      "suffix": " Days",
+      "label": "Per Week of Enriching Care"
+    },
+    {
+      "value": 4,
+      "suffix": "+",
+      "label": "Glowing Family Reviews"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What makes Grace Childcare different from other daycares in Medford?",
+      "answer": "Parents consistently highlight the personal, faith-based approach and the deep trust they feel. One parent called her 'an angel' and another said her 'guidance and faith are what every family needs.' This isn't a large facility — it's a small, intentional, deeply caring environment where your child is truly known and loved."
+    },
+    {
+      "question": "Is Grace Childcare a faith-based program?",
+      "answer": "Yes. The caregiver's Christian faith is woven naturally into the daily environment — including teaching children about God's love — but it's described by parents as warm and nurturing, not rigid. Families of faith often cite this as one of their favorite aspects of the program."
+    },
+    {
+      "question": "Will my child be prepared for kindergarten here?",
+      "answer": "Absolutely. Kindergarten readiness is a core focus. The program includes structured learning activities, educational materials, and a classroom environment specifically designed to build the skills children need before starting school."
+    },
+    {
+      "question": "What does a typical day look like at Grace Childcare?",
+      "answer": "A typical day includes outdoor playtime, arts and crafts, educational activities, healthy meals, and faith-based character development. Field trips are also part of the program, giving children enriching experiences outside the classroom."
+    },
+    {
+      "question": "How does the provider communicate with parents?",
+      "answer": "Transparency is something parents specifically praise. The caregiver is described as 'transparent' and 'flexible,' building a genuine sense of security and trust with families. Open communication is a cornerstone of how she operates."
+    },
+    {
+      "question": "What are the hours and days of operation?",
+      "answer": "Grace Childcare is open Monday through Friday, 7:30 AM to 4:30 PM. The center is closed on weekends. You can reach her directly at (541) 862-0783 to discuss availability and enrollment."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#5B8FD4",
+    "accent": "#F7A84A",
+    "note": "Soft, trustworthy blue reflects the faith, safety, and calm that parents describe — while warm amber/orange captures the joy, creativity, and sunshine energy of the colorful classroom photos and outdoor-focused curriculum."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Deep personal trust and transparency with parents — multiple reviewers cite security and faith as defining qualities that go far beyond typical childcare",
+      "Holistic child development — the program combines outdoor play, field trips, arts and crafts, healthy meals, and kindergarten readiness into a genuinely well-rounded daily experience",
+      "Faith-driven warmth and character — the caregiver's values-centered approach is not just a feature but the emotional core of why families choose and stay with Grace Childcare"
+    ],
+    "common_complaints": [
+      "None found — all four reviews are five stars with uniformly enthusiastic, specific praise and zero negative feedback"
+    ],
+    "suggested_tagline": "Loved. Nurtured. Ready for what's next.",
+    "photo_quality": "good",
+    "personality_keywords": [
+      "faith-filled",
+      "nurturing",
+      "transparent",
+      "joyful",
+      "trustworthy"
+    ],
+    "named_staff": []
+  },
+  "dataSources": [
+    "google"
+  ]
+}

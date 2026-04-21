@@ -1,0 +1,150 @@
+{
+  "name": "Philly Personal Fitness",
+  "slug": "philly-personal-fitness",
+  "category": "personal trainer",
+  "address": "1140 Frankford Ave",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19125",
+  "phone": "(267) 979-2649",
+  "email": "",
+  "website": "http://phillypersonalfitness.com/",
+  "rating": 5,
+  "reviewCount": 61,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "6:00 AM – 8:00 PM",
+    "Tuesday": "6:00 AM – 8:00 PM",
+    "Wednesday": "6:00 AM – 8:00 PM",
+    "Thursday": "6:00 AM – 8:00 PM",
+    "Friday": "6:00 AM – 8:00 PM",
+    "Saturday": "8:00 AM – 4:00 PM",
+    "Sunday": "8:00 AM – 4:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I have gotten stronger from lifting weights and bench pressing. I have been able to get better at squats. I have also had been able to improve my skills of lifting.\nI have made friends from working out there and having a personal trainer is good",
+      "author": "Henry Football cards and stickers 5",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-15"
+    },
+    {
+      "text": "So grateful for this gym, the owner/my trainer, & the community. Doing a combination of individual & group sessions, as well as nutrition coaching, has been a game changer for me. Gary has designed a specific program for me to help me meet my goals, yet take into account where I am at as someone getting back into working out after some time off. Love the environment, how supportive all the trainers & other members are, how ridiculously clean & immaculate they keep the gym, and feeling part of the community 🫶🫶",
+      "author": "N A",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-04-19"
+    },
+    {
+      "text": "I love this gym! Of course my fitness level has grown, but so has my community. The workouts are designed to meet you where you are and provide you with a safe and challenging workout no matter what your skill or experience level is. The coaches will push you to stretch and rethink the limits of your comfort zone while prioritizing safety, integrity, and quality of movement above all else. Come build muscle and friendships with us. It's a good time!",
+      "author": "Bee Reed",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-01-21"
+    },
+    {
+      "text": "Philly Personal Fitness has been a game changer for me! I’ve been attending classes and doing personal training with Sean T, and I can’t say enough good things. Sean’s expertise has been instrumental in helping me fix my mobility and knee issues that I’ve struggled with for years. The workouts are always tailored to my needs, challenging to keep me moving forward , and I’ve seen consistent progress. The environment is welcoming, supportive, and motivating. If you’re looking for a personalized fitness experience that really works, this is the place to be!",
+      "author": "James Craggs",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-10-15"
+    },
+    {
+      "text": "Workouts here are motivating and effective—the trainers really know how to push you while keeping things fun. I always leave feeling stronger and more energized.",
+      "author": "Fran Sekulić",
+      "rating": 4,
+      "source": "google",
+      "date": "2025-10-10"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Modern fitness studio interior with exercise bike, wooden accent wall, and red flooring",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Two people exercising with resistance bands at Philly Personal Fitness studio",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Modern fitness studio interior with rowing machine, red floor, wooden accents, and stairs.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Woman performing barbell squat exercise in CrossFit gym facility with equipment.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Man demonstrating exercise equipment in modern fitness gym facility",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Philly Personal Fitness reception desk with wooden wall and concrete countertop",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Woman exercising on stationary bike at Philly Personal Fitness gym studio",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Two men in athletic wear posing together inside a gym facility",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Senior man exercising with dumbbells on stationary bike in modern gym facility",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Man performing single-leg deadlift with barbell in fitness gym facility",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 61,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {
+    "instagram": "https://instagram.com/phillypersonalfitness/"
+  },
+  "competitors": [],
+  "brandColors": {
+    "primary": "#5a2c2c",
+    "accent": "#080a0c",
+    "note": "Extracted from business website"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "Home About Contact Schedule & Pricing BOOK A CLASS Specialty Classes Philly Personal Fitness Individualized Training, Group Classes and Nutrition Coaching Contact us Navigation document.getElementById(\"video-iframe-584972467429337177\").style.opacity = 0; document.getElementById(\"wsite-video-container-584972467429337177\").style.background = \"none\"; var videoIframe584972467429337177Content = '<!DOC'+'TYPE ht'+'ml>' + '<he'+'ad>' + '<scr'+'ipt type=\"text/javascript\" src=\"https://cdn2.editmysite.com/js/jquery-2.1.4.min.js\">\\x3C/script>' + '<scr'+'ipt type=\"text/javascript\" src=\"//www.weebly.com/weebly/apps/generateVideo.php?source=weebly&output=js&elementid=584972467429337177&user=133710510&ineditor=0&align=center&margintop=10px&marginbottom=10px&downloadable=0&height=480&video=b/133710510-880433498189593857/hype_video_v2_533.mp4&image=b/133710510-880433498189593857/hype_video_v2_533.jpg\">\\x3C/script>' + '</he'+'ad>' + '<bo'+'dy style=\"margin:0; padding: 0;border:none;overflow:hidden;\">' + '</bo'+'dy></ht'+'ml>'; setTimeout(function() { var videoIframe584972467429337177Actual = document.getElementById(\"video-iframe-584972467429337177\").contentDocument; videoIframe584972467429337177Actual.open().write(videoIframe584972467429337177Content); videoIframe584972467429337177Actual.close(); }, 500); #wsite-video-container-584972467429337177{ background: url(//www.weebly.com/uploads/b/133710510-880433498189593857/hype_video_v2_533.jpg); } #video-iframe-584972467429337177{ background: url(//cdn2.editmysite.com/images/util/videojs/play-icon.png?1753720256); } #wsite-video-container-584972467429337177, #video-iframe-584972467429337177{ background-repeat: no-repeat; background-position:center; } @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and ( min-device-pixel-ratio: 2), only screen and ( min-resolution: 192dpi), only screen and ( min-resolution: 2dppx) { #video-iframe-584972467429337177{ background: url(//cdn2.editmysite.com/images/util/videojs/@2x/play-icon.png?1753720256); background-repeat: no-repeat; background-position:center; background-size: 70px 70px; } } Welcome toPhilly Personal Fitness At Philly Personal Fitness, we are driven by a passion to empower individuals to transform their lives through functional fitness. Our mission is to make strength training and CrossFit-inspired workouts accessible to everyone—no matter where they are on their fitness journey.We believe fitness is more than just movement; it’s a gateway to confidence, resilience, and a healthier, more fulfilling life. By cultivating a vibrant and inclusive community, we inspire each member to discover their inner strength, push beyond limits, and achieve greatness together.With expert coaching, unwavering support, and a commitment to progress over perfection, we’re here to help you redefine what’s possible. At Philly Personal Fitness, every rep, every step, and every victory is a testament to the power of your potential. Let’s rise, stronger, together. Schedu"
+}

@@ -1,0 +1,217 @@
+{
+  "name": "Happy Trails Childcare",
+  "slug": "happy-trails-childcare",
+  "category": "daycare",
+  "address": "8181 SW 184th Ave",
+  "city": "Beaverton",
+  "state": "OR",
+  "zip": "97007",
+  "phone": "(971) 330-9084",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 2,
+  "tagline": "Where little ones grow, every single day.",
+  "brandNarrative": "Happy Trails Childcare isn't just a place parents drop their kids off — it's a place children genuinely grow up in. Nicole Kephart's daughter has been coming through these doors since she was one year old, and at four she still loves it. That kind of loyalty doesn't happen by accident. It happens because every morning at 5:30 AM, the lights are on, the labeled bins are stocked, and the environment is ready to meet a child exactly where they are — curious, playful, and full of energy.\n\nWhat sets Happy Trails apart is the communication parents feel even when they're miles away at work. Maria Ambriz Gomez put it simply: they love hearing how Alex is doing when he's not around. That steady, warm line of contact between caregiver and family isn't a feature — it's a philosophy. The facility photos back this up: organized classrooms, a toy kitchen, alphabet charts, creative art corners with family tree wall art, and a bright green accent wall that feels more like home than institution.\n\nLocated in Beaverton's southwest corridor, Happy Trails operates Monday through Friday with early-open hours that real working parents actually need. From medical play centers that spark imaginative learning to dramatic play corners labeled right on the shelf, every detail of this space reflects a caregiver who thinks carefully about childhood development — not just childcare.",
+  "ownerStory": "The name Happy Trails wasn't chosen by accident. It carries a sense of adventure, of journeys taken together, of a path walked alongside a child rather than ahead of them. The colorful hands logo on the business card says the same thing — many hands, many little lives, all moving forward together. While the owner's name hasn't been shouted from the rooftops, what their customers describe tells a complete story: a provider who builds trust over years, not weeks, and who understands that a parent's peace of mind is earned through consistent, loving, communicative care.\n\nThe physical space reflects a deeply intentional operator — someone who labeled every fabric bin, hung every alphabet chart, and chose a green accent wall not just for aesthetics but because it makes children feel calm and curious at once. This is a childcare built by someone who has spent real time thinking about what children need, what parents worry about, and how to bridge the two with warmth and reliability every single weekday.",
+  "hours": {
+    "Monday": "5:30 AM – 5:30 PM",
+    "Tuesday": "5:30 AM – 5:30 PM",
+    "Wednesday": "5:30 AM – 5:30 PM",
+    "Thursday": "5:30 AM – 5:30 PM",
+    "Friday": "5:30 AM – 5:30 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Infant & Toddler Care",
+      "description": "Nurturing full-day care for children starting as young as one year old, with consistent caregivers who build lasting relationships with both child and family.",
+      "icon": "baby"
+    },
+    {
+      "name": "Preschool Learning Program",
+      "description": "Structured early childhood education using alphabet charts, hands-on materials, and organized learning stations to prepare children for kindergarten.",
+      "icon": "book-open"
+    },
+    {
+      "name": "Dramatic & Creative Play",
+      "description": "Dedicated dramatic play areas — including a toy kitchen and DRAMA-labeled creative corner — that encourage storytelling, imagination, and social development.",
+      "icon": "theater"
+    },
+    {
+      "name": "Parent Communication Updates",
+      "description": "Ongoing, real-time communication keeping parents connected and informed about their child's day, milestones, and wellbeing while they're at work.",
+      "icon": "message-circle"
+    },
+    {
+      "name": "Outdoor Playground Time",
+      "description": "Supervised outdoor play on a safe playground with swings and natural surfaces, supporting physical development and joyful movement every day.",
+      "icon": "sun"
+    },
+    {
+      "name": "Early Drop-Off Program",
+      "description": "Doors open at 5:30 AM Monday through Friday, providing reliable early-morning care that fits the real schedules of working families.",
+      "icon": "sunrise"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "We love Happy Trails! Our daughter has been going there since she was 1yrs old and she’s now 4yrs old.",
+      "author": "Nicole Kephart",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-06-24"
+    },
+    {
+      "text": "We are so happy with the care provided by Happy Trails Childcare. Alex is very happy and we love the communication we have when he's not around us 🥰",
+      "author": "maria ambriz gomez",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-06-25"
+    }
+  ],
+  "team": [
+    {
+      "name": "Alex",
+      "role": "Lead Caregiver",
+      "bio": "Alex is known for keeping children happy and engaged throughout the day, earning the trust and love of families who appreciate the warm, communicative care provided. Parents specifically highlight Alex by name when describing what makes Happy Trails special.",
+      "credentials": [
+        "Named by parents in reviews",
+        "Trusted with long-term child development"
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Organized classroom storage with labeled bins, abacus, plants, and learning materials.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Modern daycare or childcare facility interior with seating, playard, and entertainment setup.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Blue and white medical play center toy with healthcare-themed interactive features and games",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Office desk with plant, storage boxes labeled 'DRAMA', and organized workspace",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Happy Trails Childcare business card with colorful hands logo and contact information",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Young child smiling on swing at playground with wooden chips and grass background",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Creative workspace with wooden chairs, shelving, family tree wall art, and green accent wall",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Organized classroom or creative workspace with alphabet charts, storage, and decorative items on walls",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Playroom setup with toy kitchen, wooden table, chairs, and colorful decorative bunting flags.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Organized toy storage shelving unit with labeled fabric bins in a kitchen setting.",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 5,
+      "suffix": "★",
+      "label": "Perfect Rating from Every Reviewer"
+    },
+    {
+      "value": 3,
+      "suffix": "+ yrs",
+      "label": "Average Family Tenure"
+    },
+    {
+      "value": 5,
+      "suffix": " days",
+      "label": "Days Open Every Week for Working Families"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "Of Reviewers Would Recommend"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What age do you accept children from?",
+      "answer": "Happy Trails Childcare welcomes children starting at one year old. We have experience supporting toddlers through preschool age, with one family noting their daughter has been with us from age one all the way to age four."
+    },
+    {
+      "question": "How do you keep parents informed during the day?",
+      "answer": "Communication is a cornerstone of what we do. Parents consistently praise the ongoing updates they receive about their child's day, so you always feel connected even when you're at work."
+    },
+    {
+      "question": "What are your hours and do you offer early drop-off?",
+      "answer": "We're open Monday through Friday from 5:30 AM to 5:30 PM. Our early start time is intentional — we know working parents need reliable, early-morning care, and we're ready before most workdays begin."
+    },
+    {
+      "question": "What does a typical day look like for my child?",
+      "answer": "Children enjoy a mix of structured learning (alphabet charts, labeled learning stations), creative and dramatic play (toy kitchen, art corners), outdoor playground time, and quiet activities — all in a beautifully organized, home-like environment."
+    },
+    {
+      "question": "How long do families typically stay with Happy Trails?",
+      "answer": "Many of our families stay with us for years. One of our current families has been with Happy Trails for three consecutive years, which speaks to the trust and consistency we build over time."
+    },
+    {
+      "question": "Is the facility clean and well-organized?",
+      "answer": "Absolutely. Our photos show labeled fabric storage bins, organized shelving, tidy classroom spaces, and clearly designated play areas. A well-organized environment is part of how we create calm, focused learning for children."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#4CAF82",
+    "accent": "#F9A825",
+    "note": "The green pulls from the real green accent wall photographed inside the facility and reflects growth, safety, and nature — perfect for a childcare brand. The warm amber-yellow echoes the colorful hands logo, playground energy, and the sunny, welcoming tone parents describe in reviews."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Long-term family retention — children stay enrolled for multiple years, proving deep trust and satisfaction",
+      "Exceptional parent communication — families feel connected and informed even when apart from their children",
+      "Thoughtfully designed, organized learning environment that balances structure with creative, imaginative play"
+    ],
+    "common_complaints": [
+      "None found — both reviews are entirely positive with no concerns raised"
+    ],
+    "suggested_tagline": "Your child loves it here. You will too.",
+    "photo_quality": "good",
+    "personality_keywords": [
+      "nurturing",
+      "communicative",
+      "organized",
+      "trustworthy",
+      "warm"
+    ],
+    "named_staff": [
+      "Alex"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

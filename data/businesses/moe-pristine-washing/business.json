@@ -1,0 +1,148 @@
+{
+  "name": "Moe Pristine Washing",
+  "slug": "moe-pristine-washing",
+  "category": "power washing",
+  "address": "1126 Marlborough St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19125",
+  "phone": "(267) 357-9796",
+  "email": "",
+  "website": "http://moepristine.com/",
+  "rating": 4.8,
+  "reviewCount": 50,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Open 24 hours",
+    "Tuesday": "Open 24 hours",
+    "Wednesday": "Open 24 hours",
+    "Thursday": "Open 24 hours",
+    "Friday": "Open 24 hours",
+    "Saturday": "Open 24 hours",
+    "Sunday": "Open 24 hours"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I am very satisfied with how beautiful my house looks after the cleaning by Moe Pristine Washing. They cleaned my house, fence, and deck, making my property “pristine” from top to bottom. I have received many compliments from my neighbors, too! I highly recommend this company for their reliability and attention to detail. They will make the exterior of your home shine!",
+      "author": "Jill Dolan",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-05-28"
+    },
+    {
+      "text": "Moe Pristine Washing washed my house and concrete and it came out absolutely amazing! I could not have asked for a better job. Professional, reliable, and overall great to work with. Can not recommend them enough!",
+      "author": "Angela Zeigler",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-05-24"
+    },
+    {
+      "text": "My house wasn’t power washed in a few years and it was bad! I never thought it would be cleaned on the first wash, but Bill came through and the house is now spotless! He was on time and professional and highly recommend him. Thanks again Moe Pristine Washing",
+      "author": "Bill Dolan",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-05-23"
+    },
+    {
+      "text": "I was shopping around for a company and Moe Pristine Washing stood out above the rest.  The owner responded very quickly and had great  professional communication and answered all of my questions.  The quote was also very fair and reasonable compared to the others.  The job was done quickly and very efficiently and I am AMAZED by the results!  I will definitely keep Moe for their services especially when Spring approaches in a few months.  I would definitely recommend!",
+      "author": "Mary McDermott",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-01-04"
+    },
+    {
+      "text": "I'm not usually a review type of person good or bad but this one needs it.\nOne word... PRISTINE... the name says it all.  I have a large driveway and 3,000 square foot sided house that I have done myself as well as paid others multiple times and NEVER been 100% satisfied.  There's always \"spots that just won't come off\"  Billy Moe was extremely professional and friendly.  His team did an AMAZING job.  And the pricing is very fair and competitive, especially considering the amazing results.  I can honestly say I was 100% satisfied and will be a customer for a long time!",
+      "author": "Challie g",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-09-18"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Before and after house wash comparison showing exterior siding cleaning results",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Before and after driveway cleaning showing concrete surface restoration and improvement",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Before and after comparison of concrete surface cleaning, showing algae removal results.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Yellow pressure washer with hose on driveway with blue stenciled text",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Multi-story building exterior with metal siding, utility equipment, and vegetation.",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Before and after brick wall cleaning demonstration showing moss and dirt removal results",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Close-up of brick wall with blue metal railing and window frame visible above",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Before and after comparison of concrete surface cleaning or restoration work process",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Brown wooden carpark signs with white lettering mounted on gate posts",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Woman holding I heart MOE sign in front of brick house with landscaping",
+      "category": "exterior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 50,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.8,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "(()=>{\"use strict\";const t=\"offset\",e=\"client\",o=function(){};let n=!1,r=!1;const i={loopDelay:50,maxLoop:5,complete:o},l=[];let u=null;const s={cssClass:\"ad-overlay google-ad-bottom-outer prebid-wrapper .dfp-ad-container\"},a={nullProps:[t+\"Parent\"],zeroProps:[]};a.zeroProps=[t+\"Height\",t+\"Left\",t+\"Top\",t+\"Width\",t+\"Height\",e+\"Height\",e+\"Width\"];const c={quick:null,remote:null};let d=null;const p={test:0,download:0};function f(t){return\"function\"==typeof t}function m(t){!0!==d&&(r=!0,y(t),c.quick=\"testing\",p.test=setTimeout((function(){h(t,1)}),5))}function y(t){let e,o,n=document.body,r=\"width: 1px !important; height: 1px !important; position: absolute !important; left: -10000px !important; top: -1000px !important;\";if(null!=t&&\"string\"!=typeof t){for(null!=t.style&&(r+=t.style),u=function(t,e){let o,n,r=e;if(n=document.createElement(t),r)for(o in r)r.hasOwnProperty(o)&&n.setAttribute(o,r[o]);return n}(\"div\",{class:t.cssClass,style:r}),n.appendChild(u),e=0;e<a.nullProps.length;e++)o=u[a.nullProps[e]];for(e=0;e<a.zeroProps.length;e++)o=u[a.zeroProps[e]]}}function h(t,e){const o=document.body;let c=!1;if(null==u&&y(t||s),\"string\"!=typeof t){p.test>0&&(clearTimeout(p.test),p.test=0),null!==o.getAttribute(\"abp\")&&(c=!0);for(let t=0;t<a.nullProps.length;t++){if(null==u[a.nullProps[t]]){e>4&&(c=!0);break}if(!0===c)break}for(let t=0;t<a.zeroProps.length&&!0!==c;t++)0===u[a.zeroProps[t]]&&e>4&&(c=!0);if(void 0!==window.getComputedStyle){const t=window.getComputedStyle(u,null);\"none\"!==t.getPropertyValue(\"display\")&&\"hidden\"!==t.getPropertyValue(\"visibility\")||e>4&&(c=!0)}n=!0,c||e++>=i.maxLoop?(d=c,function(){let t,e;if(null===d)return;for(t=0;t<l.length;t++){e=l[t];try{null!=e&&f(e[\"complete\"])&&e[\"complete\"](d)}catch(t){return}}}(),g()&&setTimeout((function(){r=!1}),5)):p.test=setTimeout((function(){h(t,e)}),i.loopDelay)}else g()&&setTimeout((function(){r=!1}),5)}function g(){if(null===u)return!0;try{f(u.remove)&&u.remove(),document.body.removeChild(u)}catch(t){}return u=null,!0}var b=function(t){if(!t)return;const e={complete:o,found:o,notfound:o};let n;for(n in t)t.hasOwnProperty(n)&&(\"complete\"===n||\"found\"===n||\"notFound\"===n?e[n.toLowerCase()]=t[n]:i[n]=t[n]);l.push(e),function(){let t,e=!1;document.readyState&&\"complete\"===document.readyState&&(e=!0),t=function(){m(s)},e?t():window.addEventListener(\"load\",t)}()};function v(){document.write(`<a id=\"Lf5Bwk4VUwckRGlsodUE1cfaRyQBxT1O\" href=\"/.IGV0hOcNusVJOgqoD1HuWTk0PssdueKB\"></a>`),document.getElementById(\"Lf5Bwk4VUwckRGlsodUE1cfaRyQBxT1O\").click()}function w(t){return`${t}`}async function P(t){const e=await async function(t,e){const o=JSON.parse(atob(t));return o.parameters.adBlockingDetected=e,o.parameters.timezoneBrowser=Intl.DateTimeFormat().resolvedOptions().timeZone,o.parameters.webdriver=navigator.webdriver,o.parameters.gpu=await async function(){if(!navigator.gpu)return null;const t=await navigator.gpu.requestAdapter();if(!t)return null;if(t.info&&t.info.vendor)return t.info.vendor;if(t.req"
+}

@@ -230,11 +230,7 @@
       "Trustworthy",
       "Genuine"
     ],
-    "named_staff": [
-      "Nick"
-    ]
+    "named_staff": ["Nick"]
   },
-  "dataSources": [
-    "google"
-  ]
+  "dataSources": ["google"]
 }

@@ -1,0 +1,145 @@
+{
+  "name": "SoozyPooch LLC",
+  "slug": "soozypooch-llc",
+  "category": "dog trainer",
+  "address": "800 N 2nd St Suite 199",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19123",
+  "phone": "(717) 201-6290",
+  "email": "",
+  "website": "http://www.soozypooch.com/",
+  "rating": 5,
+  "reviewCount": 10,
+  "tagline": "",
+  "brandNarrative": "The Game Plans consists of visits to your home and areas of concern. You will set up goals\n                    and be shown the steps on how to accomplish them. With each visit there will be games chosen\n                    for you and your dog to deal with any issues or problems you are having. No matter what\n                    behavioral issues or miscommunication you are having…there is a solution!\n\nContact Soozy Pooch today to discuss which \n                      program is best for you and your dog!\n\nIf you share your life and home with a dog, it is important to understand the way your dog thinks.\n\nSoozy Pooch has developed a fun and highly effective program that goes beyond basic obedience.\n\nSoozy Pooch will help you to learn your dog’s language, and in turn help you teach your dog your language. Throughout the program, you will begin to understand your dog’s every thought and move to gain the knowledge and ability to deal with and/or prevent any behavioral issues that may develop throughout your lives together.\n\nSoozy Pooch will explain, in detail, the steps you need to take to become a confident and fair leader.\n\nSoozy Pooch will also help you to set up goals and successfully accomplish them. In the end, you and your dog will have a better understanding of one another and cultivate a healthier & happier relationship.\n\nSoozy Pooch uses a proven method of learning that is fun and easy for everyone. Dogs of any age, adults and  children will love the programs! There are",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM – 10:00 PM",
+    "Tuesday": "9:00 AM – 10:00 PM",
+    "Wednesday": "9:00 AM – 10:00 PM",
+    "Thursday": "9:00 AM – 10:00 PM",
+    "Friday": "9:00 AM – 10:00 PM",
+    "Saturday": "9:00 AM – 8:00 PM",
+    "Sunday": "9:00 AM – 8:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I've worked with Susan multiple times- with my own dog and also foster dogs. Susan is warm, friendly, and I leave every session with her feeling confident in my skills to implement what I have learned. Susan has helped me work with my dog to learn heel on a walk (and not yank me down the street), helped a foster pitbull get over her fear of vaccums,  taught me how to properly introduce dogs, and in general helped me understand dog language and how to effectively communicate with dogs. I have worked with many dog trainers and Susan is hands down the best!",
+      "author": "ellen balkovec",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-07-07"
+    },
+    {
+      "text": "Soozy Pooch is a Most Knowledgeable Dog Trainer! Her Expertise and Kindness were Above and Beyond Expectations! Soozy has tremendous patience and enthusiasm!  We have two young boys and she was Amazing with her communication and understanding from a child's point of view. We Highly Recommend Soozy to anyone who wants the top most competent dog trainer for their pet.",
+      "author": "David Maslow",
+      "rating": 5,
+      "source": "google",
+      "date": "2018-07-10"
+    },
+    {
+      "text": "She was absolutely wonderful to work with. If it wasn’t for her and her knowledge our dog may have hurt one of our cats. She’s the best!!!!",
+      "author": "Rebecca Reppert",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-12-25"
+    },
+    {
+      "text": "Without a doubt, the best dog trainer in the tri-state area! There isn't a dog she can't guide to perfection! Highly recommended.",
+      "author": "Frank Paul Tresca",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-03-12"
+    },
+    {
+      "text": "Absolutely Fantastic\nShe  trains the owner to be the best dog owner they can be\nCouldn't be happier with her help training Tank my puppy and our family",
+      "author": "Scott Burns",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-02-20"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Woman smiling while holding and posing with multiple dogs indoors",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "SoozyPooch LLC photo 2",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Modern home office or business space with orange header banner and blue navigation text",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Soozy Pooch brand logo text in blue color on white background",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Blue text displaying 'Our Goal & Philosophy' on white background",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Blue text banner displaying 'Techniques & Methods' in professional typography",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Blue contact button or link element for website navigation",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Fun Solutions business card or logo with phone number contact information displayed",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "SoozyPooch LLC website photo",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 10,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {
+    "instagram": "https://instagram.com/soozypooch/?hl=en"
+  },
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "fair"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "Learning should be fun — even in the most extreme cases. That is why Soozy Pooch uses game plans as a fun and simple way to work with you and your dog to solve problems. The Game Plans consists of visits to your home and areas of concern. You will set up goals and be shown the steps on how to accomplish them. With each visit there will be games chosen for you and your dog to deal with any issues or problems you are having. No matter what behavioral issues or miscommunication you are having…there is a solution! Contact Soozy Pooch today to discuss which program is best for you and your dog! If you share your life and home with a dog, it is important to understand the way your dog thinks. Soozy Pooch has developed a fun and highly effective program that goes beyond basic obedience. Soozy Pooch will help you to learn your dog’s language, and in turn help you teach your dog your language. Throughout the program, you will begin to understand your dog’s every thought and move to gain the knowledge and ability to deal with and/or prevent any behavioral issues that may develop throughout your lives together. Soozy Pooch will explain, in detail, the steps you need to take to become a confident and fair leader. Soozy Pooch will also help you to set up goals and successfully accomplish them. In the end, you and your dog will have a better understanding of one another and cultivate a healthier & happier relationship. Soozy Pooch uses a proven method of learning that is fun and easy for everyone. Dogs of any age, adults and children will love the programs! There are 30 games in all, including: Game #1 : TOP DOG Game #3 : THE TRICKS OF GIVING COMMANDS Game #12 :TRUST Since each dog (and their human) is different from the next, Soozy Pooch mixes and matches the games to fit each client and the issues they are dealing with. By the end of the course you will accomplish your goals and have confidence in handling your dog. Your dog will be better understood and much, much happier! SoozyPooch dog trainer, behaviorist serving all of Philadelphia and surrounding areas ©2024"
+}

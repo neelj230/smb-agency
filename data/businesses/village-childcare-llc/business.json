@@ -1,0 +1,217 @@
+{
+  "name": "Village Childcare LLC",
+  "slug": "village-childcare-llc",
+  "category": "daycare",
+  "address": "2480 SW 37th St",
+  "city": "Redmond",
+  "state": "OR",
+  "zip": "97756",
+  "phone": "(503) 347-5743",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 4,
+  "tagline": "Where kids stay past pickup time.",
+  "brandNarrative": "Village Childcare LLC is a home-based daycare in Redmond, Oregon where children don't just go — they belong. Parent Leslie Annie captured it perfectly: her 14-month-old son, too young to speak, says everything with his body language when he refuses to leave at pickup. That kind of joy doesn't come from a curriculum — it comes from an environment built around genuine connection. LeAnne and her team have created a space where toddlers learn to socialize, discover the world through play, and feel safe enough to thrive on their own terms.\n\nThe physical space backs up every warm feeling parents describe. Colorful wooden shape sorters, a miniature Fresh Mart grocery playset, a toy train set, handmade crocheted stuffed animals, and a child-sized kitchen aren't just toys — they're invitations to imagine. The playroom's bright yellow stools and open shelving signal intentionality: this is a place designed for children, not just managed for them. Heather Larson's first tour left her with 'great confidence,' noting both the toy selection and the warmth of the atmosphere before her child had even started.\n\nWhat sets Village Childcare apart is something harder to fake than a great toy collection: the way LeAnne looks at the children in her care. Leslie Annie noted it specifically — 'I can tell she genuinely loves each child just by the way she looks at them.' That quality of presence, that visible love, is the real curriculum here. Operating Monday through Thursday from 7:30 AM to 5:00 PM, Village Childcare keeps its group intentionally sized so every child gets exactly that kind of attention.",
+  "ownerStory": "LeAnne, the heart behind Village Childcare LLC, didn't build a business — she built a village. Named directly by parents who trusted her with their youngest children, LeAnne has cultivated a home-based care environment where even non-verbal toddlers communicate their happiness loud and clear. One parent watched her 14-month-old grow in socialization and play skills, crediting LeAnne's genuine warmth and her ability to make each child feel individually seen and loved.\n\nLeAnne's approach is rooted in something simple but rare: she actually loves the work. The handmade crocheted toys in her space, the thoughtfully curated play kitchen, the miniature grocery store complete with a shopping basket — these aren't items from a bulk daycare supplier. They reflect a provider who thinks carefully about what childhood should feel like. For families in Redmond looking for their child's first daycare experience, LeAnne offers not just licensed care, but a relationship built on trust, visibility, and real joy.",
+  "hours": {
+    "Monday": "7:30 AM – 5:00 PM",
+    "Tuesday": "7:30 AM – 5:00 PM",
+    "Wednesday": "7:30 AM – 5:00 PM",
+    "Thursday": "7:30 AM – 5:00 PM",
+    "Friday": "Closed",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Full-Day Toddler Care",
+      "description": "Structured yet warm full-day care for toddlers and young children, Monday through Thursday, from 7:30 AM to 5:00 PM in a nurturing home-based environment.",
+      "icon": "baby"
+    },
+    {
+      "name": "Infant Transition Care",
+      "description": "Gentle, responsive care designed to support infants as young as 14 months as they transition into their first daycare experience.",
+      "icon": "heart"
+    },
+    {
+      "name": "Socialization & Peer Play",
+      "description": "Guided group play opportunities that help young children develop interpersonal skills, sharing, and cooperative play with peers their own age.",
+      "icon": "users"
+    },
+    {
+      "name": "Imaginative Play Program",
+      "description": "A rich selection of hands-on toys — including a play kitchen, grocery store, train set, and shape sorters — designed to spark creativity and cognitive development.",
+      "icon": "sparkles"
+    },
+    {
+      "name": "New Family Enrollment & Tours",
+      "description": "A welcoming onboarding experience including facility tours, easy sign-up, and transparent communication to help families feel confident from day one.",
+      "icon": "clipboard-list"
+    },
+    {
+      "name": "Sensory & Manipulative Learning",
+      "description": "Age-appropriate wooden toys, building blocks, and sorting activities that develop fine motor skills and early problem-solving in a playful setting.",
+      "icon": "puzzle"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "I am so thankful we found Village Childcare for our sons first daycare. He absolutely loves going to daycare and has so much fun and so many new experiences. I totally trust LeAnne and her staff with his care. I can tell she genuinely loves each child just by the way she looks at them. He started when he was only 14 months old and can't talk yet to tell me about it but he is so happy there when I pick him up, he doesn't want to go home! His socializing has improved and he is learning how to play with other children so well.",
+      "author": "Leslie Annie",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-07-25"
+    },
+    {
+      "text": "Tour of this beautiful home was amazing. The toy selection and warmth of the atmosphere gave me great confidence. Sign up was easy and quick. Looking forward to sending kiddo here.",
+      "author": "Heather Larson",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-02-21"
+    },
+    {
+      "text": "",
+      "author": "rachell anderson",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-02-21"
+    },
+    {
+      "text": "",
+      "author": "CaSandra Clark",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-02-20"
+    }
+  ],
+  "team": [
+    {
+      "name": "LeAnne",
+      "role": "Owner & Lead Caregiver",
+      "bio": "LeAnne is the founder and primary caregiver at Village Childcare, known for loving each child with a visible, genuine warmth that parents can see the moment they walk through the door. Parents specifically note that she looks at the children in her care with real love — a quality that earns deep trust from families navigating their child's very first daycare experience.",
+      "credentials": [
+        "Trusted by families with infants as young as 14 months",
+        "Named by multiple parents for warmth and genuine care",
+        "Curates thoughtful, developmentally rich play environments"
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Colorful children's playroom with yellow stools, white table, and storage shelving units",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Colorful wooden shape sorting toys and blocks displayed on white table",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Wooden toy train set with tracks and colorful accessories on floor",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Handmade crocheted stuffed animals: giraffe and bear toys on red surface",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Miniature Fresh Mart grocery store playset with shelves, products, and shopping basket.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Miniature grocery store display with Fresh Mart sign, shelves of products, and shopping basket",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Miniature toy kitchen set with microwave, stove, sink, and accessories displayed indoors.",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 5,
+      "suffix": "★",
+      "label": "Perfect Rating Across All Reviews"
+    },
+    {
+      "value": 4,
+      "suffix": "",
+      "label": "Verified 5-Star Parent Reviews"
+    },
+    {
+      "value": 4,
+      "suffix": " Days",
+      "label": "Per Week of Dedicated Childcare"
+    },
+    {
+      "value": 7,
+      "suffix": ":30 AM",
+      "label": "Early Drop-Off Available Daily"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What age do you accept children starting from?",
+      "answer": "Village Childcare welcomes children as young as 14 months old. LeAnne and her team are experienced in supporting infants through the transition into their first daycare setting with gentle, responsive care."
+    },
+    {
+      "question": "What are your hours and days of operation?",
+      "answer": "Village Childcare operates Monday through Thursday, 7:30 AM to 5:00 PM. The center is closed Friday through Sunday. This schedule allows the team to maintain a high-quality, attentive environment for every child in care."
+    },
+    {
+      "question": "What makes Village Childcare different from a larger daycare center?",
+      "answer": "Village Childcare is a home-based setting, which means smaller group sizes and a genuinely warm atmosphere. Parents consistently note that LeAnne doesn't just manage children — she visibly loves them. One parent described her son being so happy at pickup that he didn't want to leave."
+    },
+    {
+      "question": "How do I get started or schedule a tour?",
+      "answer": "The enrollment process is straightforward and welcoming. Parent Heather Larson described sign-up as 'easy and quick' after a tour that gave her immediate confidence. Reach out by phone at (503) 347-5743 to schedule your visit."
+    },
+    {
+      "question": "What kinds of toys and activities are available for the children?",
+      "answer": "The playroom features wooden shape sorters, a toy train set, a miniature play kitchen, a Fresh Mart grocery store playset, handmade crocheted stuffed animals, and building blocks — all curated to encourage imaginative play, fine motor development, and social interaction."
+    },
+    {
+      "question": "Will my child actually develop social skills in a home-based daycare?",
+      "answer": "Absolutely. One parent specifically noted that her son's socialization improved significantly after starting at Village Childcare, and that he learned how to play with other children remarkably well — all before he could even talk."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#F4A226",
+    "accent": "#5BA85F",
+    "note": "Warm golden yellow reflects the sunny, joyful energy of the playroom's yellow stools and bright toy collection; earthy green grounds the palette in safety, growth, and nature — values that home-based childcare embodies. Together they feel warm, trustworthy, and child-friendly without being garish."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "LeAnne's visible, personal love for each child builds extraordinary parent trust — even parents of pre-verbal infants can see their child's happiness clearly",
+      "Thoughtfully curated, developmentally rich toy environment (play kitchen, grocery store, train set, wooden manipulatives) signals intentional care beyond babysitting",
+      "Frictionless onboarding experience — tours are warm, sign-up is easy, and first impressions consistently convert hesitant parents into confident enrollees"
+    ],
+    "common_complaints": [
+      "None found — all four reviews are 5-star with no negative feedback; two reviews contain no written content which limits depth of analysis"
+    ],
+    "suggested_tagline": "Little ones who never want to leave.",
+    "photo_quality": "good",
+    "personality_keywords": [
+      "warm",
+      "genuine",
+      "intentional",
+      "nurturing",
+      "joyful"
+    ],
+    "named_staff": [
+      "LeAnne"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

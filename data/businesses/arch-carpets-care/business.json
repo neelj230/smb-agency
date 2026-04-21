@@ -1,0 +1,116 @@
+{
+  "name": "Arch Carpets Care",
+  "slug": "arch-carpets-care",
+  "category": "carpet cleaning",
+  "address": "1024 Arch St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19107",
+  "phone": "(215) 960-9118",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 61,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "7:00 AM – 9:00 PM",
+    "Tuesday": "7:00 AM – 9:00 PM",
+    "Wednesday": "7:00 AM – 9:00 PM",
+    "Thursday": "7:00 AM – 9:00 PM",
+    "Friday": "7:00 AM – 9:00 PM",
+    "Saturday": "7:00 AM – 9:00 PM",
+    "Sunday": "7:00 AM – 9:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "They handled everything professionally and delivered exceptional results.",
+      "author": "Evan Demarcus",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-26"
+    },
+    {
+      "text": "I will definitely use their service again.",
+      "author": "Monserrat Julianna",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-03-07"
+    },
+    {
+      "text": "Fast, efficient, and professional. They completed the work on time and left no mess behind.",
+      "author": "Laurel Fredrick",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-13"
+    },
+    {
+      "text": "The team was punctual and did an amazing job on my carpets.",
+      "author": "Nathen Zack",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-06"
+    },
+    {
+      "text": "Fast drying time and no mess left behind. Very satisfied customer.",
+      "author": "Marvin Anderson",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-11"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Close-up of carpet cleaning machine head on light beige carpet during cleaning service",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Black handheld vacuum cleaner attachment on beige carpet showing cleaning results",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Person cleaning carpet with vacuum cleaner in modern living room.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Vacuum cleaner attachment being used on beige carpet during cleaning demonstration",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 61,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "fair"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

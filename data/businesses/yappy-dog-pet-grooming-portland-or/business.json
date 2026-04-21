@@ -238,12 +238,7 @@
       "communicative",
       "trustworthy"
     ],
-    "named_staff": [
-      "Monica",
-      "Sharon"
-    ]
+    "named_staff": ["Monica", "Sharon"]
   },
-  "dataSources": [
-    "google"
-  ]
+  "dataSources": ["google"]
 }

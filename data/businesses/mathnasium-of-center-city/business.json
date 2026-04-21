@@ -1,0 +1,146 @@
+{
+  "name": "Mathnasium of Center City",
+  "slug": "mathnasium-of-center-city",
+  "category": "tutor",
+  "address": "322 N Broad St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19102",
+  "phone": "(215) 358-6284",
+  "email": "",
+  "website": "https://www.mathnasium.com/math-centers/centercity",
+  "rating": 5,
+  "reviewCount": 60,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "1:00 – 7:00 PM",
+    "Tuesday": "1:30 – 7:00 PM",
+    "Wednesday": "1:30 – 7:00 PM",
+    "Thursday": "1:30 – 7:00 PM",
+    "Friday": "1:30 – 7:00 PM",
+    "Saturday": "10:00 AM – 2:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "My daughter started Mathnasium a few months ago, and in such a short time I’ve already seen a noticeable difference—not only in her math skills, but in her confidence and love for math. The staff are amazing and truly take the time to get to know each child and meet them where they are. They create a supportive, encouraging environment and celebrate all of her accomplishments, not just those related to math. We are so grateful for the positive impact Mathnasium has had on her learning experience! Thank you for all that you do!",
+      "author": "Armanie Briggs",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-31"
+    },
+    {
+      "text": "We have had such a great experience with the tutors at Mathnasium. My son’s confidence and skills have improved so much since starting with them. They take time to really understand how he learns, keep him engaged, and celebrate his progress in a way that motivates him.\n\nOne of the things I appreciate most is the detailed updates after each session. I always know what they worked on, how he did, and what the next steps are, which makes it easy for me to support him at home. Their communication, professionalism, and genuine care are outstanding! Highly recommend!",
+      "author": "Davina XX38XX",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-25"
+    },
+    {
+      "text": "What a wonderful place for my kids to learn math. This is the only place my kids have not gotten tired of. We had them in so my activities. Mathnasium is the one they look forward to and they actually run in and say, \"I Love Math!\" It's a true third place in my kids' life and I couldn't be more thankful for such a wonderful community place for my kids. They have met other kids who they now meet outside of Mathnasium. We highly recommend this facility for students of all math levels.",
+      "author": "Helen Rosales",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-29"
+    },
+    {
+      "text": "My daughter has been attending Mathnasium  for the past few months, as she considered Math to be her most difficult subject and thought she would benefit from extra help. In this short amount time, Mathnasium has boosted her confidence and given her tools to help her succeed and ace tests at school. Shamsa and the other instructors make learning fun, constantly thinking of new ways to engage the students and foster a love of Math. I have nothing but positive things to say about our time thus far, and I am so happy we signed her up!",
+      "author": "Kristin Baricevac",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-30"
+    },
+    {
+      "text": "Mathnasium has been very helpful with me this past year while I tackled AP Pre-Calc and AP Calculus. They helped me prepare for my SATs as well. The instructors are very friendly and informative with my questions. I could tell they enjoyed helping me and the other students. Thank you Mathnasium and thank you Shamsa",
+      "author": "Jaiden Cesare",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-25"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Mathnasium of Center City photo 1",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Group of young students displaying their creative projects and certificates in a classroom setting.",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Mathnasium of Center City photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Math tutoring center storefront with children playing games outside on sidewalk.",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Mathnasium of Center City photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Two children posing with Mathnasium space-themed educational display cutout",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Teacher and student working together at table with educational materials and stickers",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Two young girls performing at indoor gymnasium event with decorative banners and microphones",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Mathnasium of Center City photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Two students working together at a table during a tutoring or educational session indoors.",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 60,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

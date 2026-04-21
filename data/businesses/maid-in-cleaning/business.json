@@ -106,10 +106,7 @@
       "name": "Sophia",
       "role": "Cleaning Specialist",
       "bio": "Sophia is recognized for going 'above and beyond' with exceptional attention to detail and a dedication that customers find truly exceptional.",
-      "credentials": [
-        "Praised for above-and-beyond service",
-        "Detail-oriented"
-      ]
+      "credentials": ["Praised for above-and-beyond service", "Detail-oriented"]
     },
     {
       "name": "Rosario",
@@ -151,10 +148,7 @@
       "name": "Raya",
       "role": "Cleaning Specialist",
       "bio": "Part of a seamless team that left one customer saying her place had 'never looked better,' Raya is recognized for her organized, collaborative approach to cleaning.",
-      "credentials": [
-        "Team player",
-        "Praised for organized cleaning approach"
-      ]
+      "credentials": ["Team player", "Praised for organized cleaning approach"]
     },
     {
       "name": "Tiff",

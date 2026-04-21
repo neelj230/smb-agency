@@ -1,0 +1,146 @@
+{
+  "name": "F45 Training King of Prussia",
+  "slug": "f45-training-king-of-prussia",
+  "category": "personal trainer",
+  "address": "190 Town Center Rd Unit B",
+  "city": "King of Prussia",
+  "state": "PA",
+  "zip": "19406",
+  "phone": "(484) 231-8377",
+  "email": "",
+  "website": "https://f45training.com/studio/kingofprussia/",
+  "rating": 5,
+  "reviewCount": 9,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "6:00 AM – 6:00 PM",
+    "Tuesday": "6:00 AM – 6:00 PM",
+    "Wednesday": "6:00 AM – 6:00 PM",
+    "Thursday": "6:00 AM – 6:00 PM",
+    "Friday": "6:00 AM – 6:00 PM",
+    "Saturday": "6:00 AM – 6:00 PM",
+    "Sunday": "6:00 AM – 6:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I just completed the 6 week challenge at F45 KOP and the results were amazing. I lost 11 lbs and 6% body fat. I didnt have high expectations at first, but it only took one class to get me to be a believer. The staff is incredibly welcoming and make you feel like family right away. The workouts are constantly changing so each day is a new challenge. I found myself excited to wake up early to get to morning classes before work. It truly was a life changing experience and I cant wait to keep training at F45!! Huge thank you to the staff for being so supportive!",
+      "author": "Danny Rosenbaum",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-06-29"
+    },
+    {
+      "text": "A+. All around A+. I signed up as a part of the 6-week challenge initially and am now a member of the studio. The workouts are great. The staff is great. The location and studio are great.\n\nI almost never give reviews but I was so compelled to write this because of my amazing experience with F45 King of Prussia. It really doesn't matter where you are in your fitness journey - F45 is for you. Literally anyone and everyone should do this. It really is life changing. I can almost guarantee it.",
+      "author": "Dan Dingman",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-06-01"
+    },
+    {
+      "text": "Great group workout studio, with a phenomenal staff. They treat you like family at F45 Training King of Prussia. The studio is large and clean - you can tell ownership takes pride in what they have to offer.\n\nI signed up for F45 Training King of Prussia's 6 Week Challenge. I was looking for something that I could commit to that would help get me back into shape. F45 Training KOP was by far the right answer for me.\n\nThe first few classes, I was just trying to survive. The workouts are challenging, but each day is different - so they do not become monotonous. As time went on, I could not only see the progress, I could also feel it. I was losing weight and gaining strength. I went from trying to survive, to challenging myself to be better on each and every rep.\n\nMy results speak for themselves. I lost 29 lbs and about 7% body fat. Not bad for 6 weeks of work!\n\nI continue to enjoy working out at F45 Training KOP, and highly recommend it to anyone looking for a good workout.",
+      "author": "Joe DeGiorgi",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-05-22"
+    },
+    {
+      "text": "If you want a gym a fantastic gym with amazing trainers that actually care about you. Look no further and go join TODAY!\n\nI joined F45 with my fiancé a few weeks ago to help jump start our wedding weightless. We had a membership to another gym in the area that we're paying for but not going to for lack of motivation and struggled to find something we both enjoyed. Since F45 is a mix of both cardio and weight classes, we decided to try something new and started the 6-week challenge.\n\nAfter just 7 short weeks, I am happy to say that this place has changed my life for the better. When I joined, my first class was on Saturday which I found out was an hour long instead of the typical 45 minute week day classes. Pretty embarrassed to say that I couldn't even make it through the entire workout because of how out of shape I was and in that moment didn't think I would be coming back. Fortunately, there is amazing team that pushed me to keep going and didn't let me get discouraged.  I am happy to say that after today's workout, I am down 11.2 pounds and 5.7% body fat. Although working out is a routine, the classes are never the same which makes working out actually FUN (yes, I said it). To be quite honest, I never saw myself having a daily workout routine, but with F45 I cannot imagine going back to being a couch potato.\n\nShout out to the owners Matt & Amanda for running an awesome place that makes newbies feel welcome. You guys are killing it!",
+      "author": "Sara Brasch",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-06-29"
+    },
+    {
+      "text": "These workouts are incredible! The interval routines are different everyday and every coach is super motivating the entire class. Very personalized experience",
+      "author": "Hannah M",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-02-08"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "People exercising at F45 functional fitness gym with equipment and branding visible",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "F45 Training King of Prussia photo 2",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "F45 Training King of Prussia photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "F45 Training King of Prussia photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "F45 Training King of Prussia photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Athletes performing abdominal exercises on gym floor at P45 Training facility.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Three smiling fitness athletes posing together at a crossfit gym facility",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Man in maroon shirt cycling on stationary bike at gym during workout",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Fitness trainer coaching athlete during sled push exercise at gym facility",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "F45 Training King of Prussia photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 9,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "name": "Westgate Auto Center",
+  "slug": "westgate-auto-center",
+  "category": "auto repair",
+  "address": "690 Wallace Rd NW",
+  "city": "Salem",
+  "state": "OR",
+  "zip": "97304",
+  "phone": "(503) 363-2438",
+  "email": "",
+  "website": null,
+  "rating": 4.9,
+  "reviewCount": 76,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "8:00 AM – 5:30 PM",
+    "Tuesday": "8:00 AM – 5:30 PM",
+    "Wednesday": "8:00 AM – 5:30 PM",
+    "Thursday": "8:00 AM – 5:30 PM",
+    "Friday": "8:00 AM – 5:30 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "From the first call to Westgate Auto, Jose made me feel good about bringing my car in. Not only did he get me in right away, but he worked on a few things in the car that was bothering me. My husband passed away suddenly a few months ago and he left some things undone in the car. Rodolfo fixed the back light so my lift gate would close by itself. He also finished strapping down my seat covers for me. I came in for a front and rear break job and oil change. It’s nice to feel good about a mechanic shop. Jose, Rodolfo, and the team at Westgate Auto are trustworthy, efficient, and reliable. I felt cared for and that means a lot. I’m so happy I found them. Thanks so much for helping me! You guys are awesome!!!",
+      "author": "Char Puig",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-13"
+    },
+    {
+      "text": "I've been going for 4 years spectacular service and fair pricing! Just got my second vehicle back after getting scheduled in the previous week and couldn't be happier. If your looking for a reliable local mechanic look no further. Could not recommend highly enough!!!",
+      "author": "Tom",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-07-28"
+    },
+    {
+      "text": "I've been a customer for many years, and Jose, the manager, is very knowledgeable and provides me with repair options. Phil, the lead mechanic, does great work. This is an honest business you can trust and have your best interest in mind. Go here to maintain or repair your vehicle and enjoy great customer service!",
+      "author": "Craig Ranker",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-07-31"
+    },
+    {
+      "text": "This auto shop has won my trust each and everytime I walk through their door. From simple maintenance to looking my car over after a small collision they never try to sell me un-necessary repairs. In fact they researched warranties from the dealership, so that it might not cost me a dime. Jose and his crew are the best!",
+      "author": "Melissa Pruitt",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-04-22"
+    },
+    {
+      "text": "I was pleasantly surprised by the responsiveness and helpfulness of the people who assisted me at Westgate. They took care of my car on short notice, fixed it effectively, and charged a very reasonable price. Throughout the service call, they were courteous and friendly. I'll definitely go there again!",
+      "author": "Lance Betros",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-12-28"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Westgate Auto Center and Auto Sales lot with parked vehicles behind metal fence",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Westgate Auto Center and Auto Sales storefront with fenced lot displaying vehicles",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Shop interior window view showing parked cars, fire extinguisher, and Native American artifacts display",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 76,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "fair"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

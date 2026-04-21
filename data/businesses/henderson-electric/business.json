@@ -1,0 +1,160 @@
+{
+  "name": "Henderson Electric",
+  "slug": "henderson-electric",
+  "category": "electrician",
+  "address": "2949 SW Cascade Vista Dr",
+  "city": "Redmond",
+  "state": "OR",
+  "zip": "97756",
+  "phone": "(503) 580-1310",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 2,
+  "tagline": "Done Right, Done Early, Every Time.",
+  "brandNarrative": "Henderson Electric is the kind of electrical contractor that shows up early, finishes ahead of schedule, and leaves a job site cleaner than they found it — and Redmond customers notice. When Jeffry Reaume needed electrical work at two separate properties in a single day — one at Eagle Crest and one in Redmond — Henderson's crew handled both without breaking a sweat, completing everything sooner than expected. That's not luck. That's a team that plans, moves with purpose, and respects your time as much as their own.\n\nFrom installing wall sconces with dedicated switches and a closet outlet, to running a light into a crawlspace and setting up heaters at both a rental property and a personal residence, Henderson Electric brings the same level of professionalism to every job regardless of size. Their electricians don't just do the work — they clean up after themselves, which any homeowner or landlord knows is far rarer than it should be. The result? Work that genuinely exceeds expectations, from customers who came in with already reasonable ones.\n\nLocated in Redmond, Oregon, Henderson Electric serves both new construction projects and ongoing electrical maintenance needs across Central Oregon. With a perfect five-star rating and a growing reputation built on speed, cleanliness, and craftsmanship, this is a crew worth calling before you need them — because when you do need them, you'll want them available.",
+  "ownerStory": "Henderson Electric carries its name like a promise — personal, accountable, and rooted in the Central Oregon community. While the owner may not seek the spotlight, the crew they've built speaks volumes: electricians who treat your rental property with the same care as your family home, who coordinate multi-site jobs in a single day without cutting corners, and who clean up so thoroughly you'd hardly know they were there. That kind of culture doesn't happen by accident. It comes from leadership that sets the standard on day one and holds to it on every job.\n\nBased out of Redmond on SW Cascade Vista Drive, Henderson Electric has positioned itself for both residential and investment-property clients throughout the Eagle Crest corridor and surrounding Deschutes County communities. The business model is straightforward: show up on time, do excellent work, leave the site better than you found it, and let the results speak. With every five-star review, that philosophy compounds — and Henderson Electric's reputation grows one clean, early-finished job at a time.",
+  "hours": {
+    "Monday": "7:00 AM – 5:00 PM",
+    "Tuesday": "7:00 AM – 5:00 PM",
+    "Wednesday": "7:00 AM – 5:00 AM",
+    "Thursday": "7:00 AM – 5:00 PM",
+    "Friday": "7:00 AM – 5:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Heater Installation",
+      "description": "Professional installation of electric heaters for residential homes and rental properties, ensuring safe, code-compliant heating solutions.",
+      "icon": "thermometer"
+    },
+    {
+      "name": "Wall Sconce & Fixture Wiring",
+      "description": "Installation of wall sconces with dedicated switches, adding both function and style to bedrooms, hallways, and living spaces.",
+      "icon": "lamp-wall"
+    },
+    {
+      "name": "Outlet Installation",
+      "description": "Adding new outlets in closets, garages, or any area of your home where convenient power access is needed.",
+      "icon": "plug"
+    },
+    {
+      "name": "Crawlspace & Utility Lighting",
+      "description": "Running lighting into crawlspaces, attics, and utility areas for safe access and code compliance.",
+      "icon": "flashlight"
+    },
+    {
+      "name": "Rental Property Electrical",
+      "description": "Full-service electrical maintenance and upgrades for landlords managing single or multiple rental properties across Central Oregon.",
+      "icon": "building"
+    },
+    {
+      "name": "New Construction Electrical",
+      "description": "Complete electrical rough-in and finish work for new construction residential and commercial projects throughout the Redmond and Eagle Crest area.",
+      "icon": "hard-hat"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Henderson Electric did two jobs for me today one in Eagle Crest and one in Redmond. Both jobs were done sooner than expected, The electricians were professionals and did a very good job cleaning up the job site. They installed heaters at our rental property and at our home residence, they installed two wall sconces with switches, a closet outlet, and a light in the crawlspace. Their work exceeded our expectations. I highly recommend Henderson Electric if you have new construction or electrical maintenance needs.",
+      "author": "Jeffry Reaume",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-02-12"
+    },
+    {
+      "text": "",
+      "author": "Jessica Waugh",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-03-22"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Modern bedroom with woven headboard, decorative pillows, wall sconces, and framed artwork",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 5,
+      "suffix": "★",
+      "label": "Perfect Rating on Google"
+    },
+    {
+      "value": 2,
+      "suffix": "+",
+      "label": "Verified Customer Reviews"
+    },
+    {
+      "value": 2,
+      "suffix": " sites",
+      "label": "Jobs Completed in a Single Day"
+    },
+    {
+      "value": 7,
+      "suffix": " AM",
+      "label": "Early Start, Every Weekday"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can Henderson Electric handle jobs at multiple locations in the same day?",
+      "answer": "Yes — and they do it well. One customer had Henderson complete two separate electrical jobs in a single day, one in Eagle Crest and one in Redmond, with both finishing ahead of schedule. Their crew is organized and efficient enough to handle multi-site coordination without sacrificing quality."
+    },
+    {
+      "question": "Do your electricians clean up after the job is finished?",
+      "answer": "Absolutely. Cleanup is part of the job at Henderson Electric. Customers specifically call out how thoroughly the crew tidies the work site after completing each project — something that sets them apart from many contractors."
+    },
+    {
+      "question": "Do you work on rental properties as well as primary residences?",
+      "answer": "Yes. Henderson Electric regularly works with landlords and property investors, as well as homeowners. They've completed electrical upgrades at rental properties and personal residences in the same visit, making them a practical choice for anyone managing multiple properties."
+    },
+    {
+      "question": "What kinds of electrical jobs does Henderson Electric handle?",
+      "answer": "Henderson covers a wide range of residential electrical work including heater installation, wall sconce and fixture wiring, outlet installation, crawlspace lighting, and new construction electrical. They're equipped for both small maintenance calls and larger new-build projects."
+    },
+    {
+      "question": "How far in advance should I book Henderson Electric?",
+      "answer": "Henderson operates Monday through Friday, 7:00 AM to 5:00 PM. Given their strong reputation and limited weekend availability, it's wise to reach out as early as possible — especially for multi-part projects or rental property turnarounds."
+    },
+    {
+      "question": "Are Henderson Electric's electricians licensed professionals?",
+      "answer": "Customers consistently describe the crew as professional, thorough, and skilled. Their work on permitted electrical installations such as heaters, sconces, and outlets reflects adherence to code standards expected of licensed electricians in Oregon."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#1B3A5C",
+    "accent": "#F4A62A",
+    "note": "Deep navy conveys trust, precision, and professionalism — core traits of a licensed electrician. Amber/golden yellow echoes electrical energy, warmth, and the craftsmanship highlighted in customer reviews. Together they feel dependable but not corporate — fitting for a local, owner-operated crew."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Completes jobs ahead of schedule — customers are genuinely surprised by the speed without any drop in quality",
+      "Exceptional job site cleanup — electricians tidy up after every job, a detail customers specifically praise and rarely take for granted",
+      "Versatile multi-job capability — able to coordinate and complete electrical work at multiple locations in a single day, ideal for property owners and landlords"
+    ],
+    "common_complaints": [
+      "None found — both reviews are five stars with no negative feedback or concerns mentioned"
+    ],
+    "suggested_tagline": "Two Locations, One Day, Zero Mess.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "Professional",
+      "Efficient",
+      "Thorough",
+      "Reliable",
+      "Understated"
+    ],
+    "named_staff": []
+  },
+  "dataSources": [
+    "google"
+  ]
+}

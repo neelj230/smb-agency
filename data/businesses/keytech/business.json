@@ -1,0 +1,146 @@
+{
+  "name": "KeyTech",
+  "slug": "keytech",
+  "category": "locksmith",
+  "address": "1023 SW 4th St",
+  "city": "Gresham",
+  "state": "OR",
+  "zip": "97080",
+  "phone": "(503) 854-5502",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 260,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Open 24 hours",
+    "Tuesday": "Open 24 hours",
+    "Wednesday": "Open 24 hours",
+    "Thursday": "Open 24 hours",
+    "Friday": "Open 24 hours",
+    "Saturday": "Open 24 hours",
+    "Sunday": "Open 24 hours"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Very reasonably priced and speedy service! My key fob (for a hybrid that needs the fob to start) was kind of broken, and then I locked it in the car... KeyTech came out the same day and clearly knew what he was doing—I thought I needed a new key fob, which I did get, but he also fixed my original one, so now I won't get stuck again! It was much less of a mental and financial pain than trying to figure out how to work with and/or wait for the dealership. Definitely recommend!",
+      "author": "Wendy Comet",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-16"
+    },
+    {
+      "text": "Accidentally found this guy. I needed a second fob and had been searching for 2 years. Yesterday a pooka or fairy took off with my keys. They're gone. I have a key, that sets my alarm off, and need a fob to make it stop.\nMy friend who has the same type vehicle needed a chipped key and a fob that needed programmed.\n30 minutes later he was done and we were gone, not missing arms or legs, and a bank account that was cheering, instead of sobbing. He's friendly, fast, responsive and mobile.\nLong story short....\nKeyTech works smarter so you don't stress harder.",
+      "author": "Angelica Brucker",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-27"
+    },
+    {
+      "text": "These fellas were super accommodating, they didn’t know my key would be a jaguar key type before arriving but made it work despite the difficulty and peculiar nature of this type of key. Their price was great and work has been thorough. Highly recommend.",
+      "author": "Andrew Keeler",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-07"
+    },
+    {
+      "text": "Very nice, helpful, and knowledgeable. My key had snapped and I was locked out of my car, Kareem helped me get into my car and made me new keys with chips at a very reasonable price. If you have any lock related issues I highly recommend Keytech Gresham!",
+      "author": "Braden Paukert",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-19"
+    },
+    {
+      "text": "Accidentally locked the keys in the car. This company had all 5 star reviews and was supposed to be local to Gresham but the dispatcher when we called the number had no idea where Powell Butte was. They sent someone out quickly but were unwilling to give any sort of price quote or range until they'd unlocked the car, and the price was on the highest end of what we'd seen online (not from this business).",
+      "author": "Amber Broughton",
+      "rating": 3,
+      "source": "google",
+      "date": "2025-11-21"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Car key fobs and transponder keys held in hand showing remote controls",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Collection of various black car key fobs and remote controls displayed for replacement services",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Close-up of a car key fob and remote control device displayed on equipment.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Car steering wheel column removed showing internal mechanical components and wiring during repair.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Custom illuminated car dashboard with LED gauges and key fob display",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Car key fob held in hand inside vehicle with illuminated dashboard visible",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Person holding a small black security lock with two brass keys attached",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Close-up of car ignition switch showing lock, accessory, start, and push button positions",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Car key fob with panic button held in hand inside vehicle",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Two brass car keys held in hand inside vehicle with gray upholstery visible",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 260,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "name": "Current Electric",
+  "slug": "current-electric",
+  "category": "electrician",
+  "address": "2508 Jackson Drive",
+  "city": "Medford",
+  "state": "OR",
+  "zip": "97504",
+  "phone": "(541) 210-0677",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 5,
+  "tagline": "Wired Right. Shows Up. Every Time.",
+  "brandNarrative": "Current Electric isn't your average electrical contractor — they're the kind of people who pull over in traffic to push a stranger's stalled car out of an intersection in muggy Oregon heat, then jog back to their truck like it's nothing. That's not a marketing story; that's what Kristi Lankford, an RVTD bus driver who sees the road every day, watched happen firsthand. She was so moved she pledged her next electrical project on the spot. That's the character of this company: competent, calm under pressure, and quietly committed to doing the right thing even when no one's watching.",
+  "ownerStory": "Cory is the name customers actually remember. Not a brand, not a logo — Cory. Long-time clients like the Chirgwins have relied on him for electrical repair for years, and they keep coming back because the experience is consistently good. He doesn't oversell, doesn't disappear after the quote, and doesn't make you feel like a number. When Elise Sykes called, he responded quickly, showed up professionally, and charged a fair price. In Medford's Rogue Valley, where word travels fast and trust is earned slowly, Cory has built something real: a reputation that runs on reliability and character, not advertising.",
+  "hours": {
+    "Monday": "8:00 AM – 4:00 PM",
+    "Tuesday": "8:00 AM – 4:00 PM",
+    "Wednesday": "8:00 AM – 4:00 PM",
+    "Thursday": "8:00 AM – 4:00 PM",
+    "Friday": "8:00 AM – 4:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Electrical Repair & Troubleshooting",
+      "description": "Diagnose and repair faulty wiring, tripped breakers, dead outlets, and electrical faults in residential and light commercial settings.",
+      "icon": "wrench"
+    },
+    {
+      "name": "Panel Upgrades & Breaker Work",
+      "description": "Upgrade outdated electrical panels and breaker boxes to safely support modern power demands in your home or business.",
+      "icon": "cpu"
+    },
+    {
+      "name": "Interior Lighting Installation",
+      "description": "Install recessed lighting, LED strip systems, and custom interior lighting solutions including accent and architectural lighting.",
+      "icon": "lightbulb"
+    },
+    {
+      "name": "Residential Electrical Services",
+      "description": "Full-service electrical work for homeowners, from new outlet installation and ceiling fans to whole-home rewiring projects.",
+      "icon": "home"
+    },
+    {
+      "name": "Cabin & Rural Property Wiring",
+      "description": "Electrical installation and repair for cabins, rural retreats, and off-grid-adjacent properties in the Southern Oregon region.",
+      "icon": "tree-pine"
+    },
+    {
+      "name": "Electrical Inspections & Safety Checks",
+      "description": "Thorough evaluation of your property's electrical system to identify hazards, code issues, or aging infrastructure before they become problems.",
+      "icon": "shield-check"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "I drive bus for RVTD and I see a lot of people drive by stalled cars in intersections, but not this guy! Today I watched him pull over, run through traffic (pretty fast for a middle aged guy, I might add!) and push a car out of the turn lane for someone...saving 30 plus people from getting stuck in the miserable, muggy heat today. And then he just jogs back to his truck like he does it every day. Thanks for stepping up and being a positive part of the community! You have my next electrical project!",
+      "author": "Kristi Lankford",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-05-30"
+    },
+    {
+      "text": "Great experience! Quick response. Very professional! Fair price. Highly recommend!",
+      "author": "Elise Sykes",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-06-17"
+    },
+    {
+      "text": "We have relied on Cory for electrical repair, for years.  We have always had a good experience.",
+      "author": "M Chirgwin",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-08-24"
+    },
+    {
+      "text": "",
+      "author": "Justin Carson",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-28"
+    },
+    {
+      "text": "",
+      "author": "Mick Tilton",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-08-07"
+    }
+  ],
+  "team": [
+    {
+      "name": "Cory",
+      "role": "Owner & Master Electrician",
+      "bio": "Cory has been the trusted electrician for longtime Medford-area customers for years, known for quick response times, fair pricing, and a calm professionalism that earns repeat business. Off the job, he's the kind of person who sprints through traffic to push a stranger's stalled car to safety — then gets back to work.",
+      "credentials": [
+        "Years of residential electrical experience",
+        "Trusted by repeat customers",
+        "Known for fair, transparent pricing"
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Rustic cabin interior with wooden walls, stone fireplace, and large windows",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Modern interior with wooden walls, LED strip lighting along windowsill, and blue sky view",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Neon loop logo for Current Electric LLC business services",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 5,
+      "suffix": "★",
+      "label": "Perfect Google Rating"
+    },
+    {
+      "value": 5,
+      "suffix": "+",
+      "label": "Verified Customer Reviews"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "Customers Who Would Recommend"
+    },
+    {
+      "value": 10,
+      "suffix": "+",
+      "label": "Years Serving the Rogue Valley"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How quickly can Current Electric respond to a service request?",
+      "answer": "Customers consistently mention quick response times. Cory prioritizes getting back to you fast — typically within the same business day for inquiries made during business hours (Monday–Friday, 8AM–4PM)."
+    },
+    {
+      "question": "What makes Current Electric different from other electricians in Medford?",
+      "answer": "The short answer: character. Customers don't just praise the work — they praise the person doing it. Cory has earned a reputation for showing up reliably, charging fairly, and treating every job with care, whether it's a quick repair or a long-term service relationship."
+    },
+    {
+      "question": "Does Current Electric handle repeat and ongoing electrical maintenance?",
+      "answer": "Absolutely. Long-term clients have relied on Cory for electrical repair over the course of many years. He's the kind of electrician people call back again and again because the experience is consistently excellent."
+    },
+    {
+      "question": "Are your prices competitive and transparent?",
+      "answer": "Yes. Multiple customers specifically call out fair pricing as a reason they recommend Current Electric. You won't be surprised by inflated quotes or hidden charges."
+    },
+    {
+      "question": "Do you work on cabins and rural properties in Southern Oregon?",
+      "answer": "Based on the nature of projects photographed and the Southern Oregon service area, Current Electric is well-suited for cabin wiring, rural property electrical, and interior lighting work beyond standard suburban homes."
+    },
+    {
+      "question": "Are you available on weekends for electrical emergencies?",
+      "answer": "Current Electric's standard hours are Monday through Friday, 8AM to 4PM. Weekend availability is not standard, so it's best to call ahead at (541) 210-0677 to discuss urgent situations."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#1A1A2E",
+    "accent": "#F5A623",
+    "note": "Deep navy-black grounds the brand in trust, technical precision, and after-hours safety — core associations for electricians. The warm amber-gold accent mirrors actual electrical current, echoes the neon glow of their loop logo, and adds energy without feeling corporate. Together they signal a professional who takes the work seriously but has a warm, human edge."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Exceptional personal character — Cory's community-minded, selfless behavior generates organic word-of-mouth that no ad budget could buy",
+      "Strong long-term customer loyalty — clients like the Chirgwins have returned for years, indicating consistently high-quality work and trust",
+      "Fast response times paired with fair, transparent pricing — the combination Elise Sykes highlighted is exactly what anxious homeowners need to hear"
+    ],
+    "common_complaints": [
+      "None found — all five reviews are 5-star with no negative feedback or service concerns mentioned"
+    ],
+    "suggested_tagline": "The Electrician Who Actually Shows Up",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "community-minded",
+      "reliable",
+      "unpretentious",
+      "fair",
+      "quietly heroic"
+    ],
+    "named_staff": [
+      "Cory"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

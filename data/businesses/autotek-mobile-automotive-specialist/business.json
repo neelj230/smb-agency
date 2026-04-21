@@ -1,0 +1,111 @@
+{
+  "name": "Autotek mobile automotive specialist",
+  "slug": "autotek-mobile-automotive-specialist",
+  "category": "mobile mechanic",
+  "address": "902 Wynnewood Rd",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19151",
+  "phone": "(267) 444-7077",
+  "email": "",
+  "website": null,
+  "rating": 4.8,
+  "reviewCount": 32,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "7:00 AM – 11:00 PM",
+    "Tuesday": "7:00 AM – 11:00 PM",
+    "Wednesday": "7:00 AM – 11:00 PM",
+    "Thursday": "7:00 AM – 11:00 PM",
+    "Friday": "7:00 AM – 11:00 PM",
+    "Saturday": "7:00 AM – 11:00 PM",
+    "Sunday": "7:00 AM – 11:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I highly recommend calling this gentleman to come over for all of your auto repair needs. Initially, he came out to change a dead battery for me. After replacing the battery for me, my car still didn't start. He initially thought that it was the fuel pump, which would've ran pretty expensive to replace. However, he ended up doing some research and fixing the problem without having to replace to the fuel pump. He saved me hundreds of dollars. 10/10 would recommend for any need. Dial this guy up. He's extremely honest and takes pride in his work. He is definitely gent.",
+      "author": "Kwin Raymer",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-11"
+    },
+    {
+      "text": "Autotek is a very reputable auto shop.  The owner is very reliable,  who does thorough work on foreign cars.  I have a 2018 Acura of which the owner keeps my car running clean.  Most of all he is certified and his prices are very comparable.  Thank you Autotek.",
+      "author": "Kimberly Allen",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-07-05"
+    },
+    {
+      "text": "I called for help and received same day service. He truly cares about his loyal repeat customers. Yannick put a donut on my truck while it was dark. Also, due to me recently having a seizure and unable to drive he drove my truck to get gas because I was on E. Thank you so much for helping me out. I truly appreciate you!",
+      "author": "Nichole, don't forget my H!",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-02"
+    },
+    {
+      "text": "When I had an urgent late-night car problem, I didn’t know who to call. I stumbled upon this business and decided to try it. Yannick answered the phone immediately (at 10pm on a Friday) and spoke with me for 5 minutes about my problem. He didn’t ask for any payment or even suggest I do business with him in the future—he just generously offered his time and expertise. He was professional, helpful, and empathetic. If I ever have a car issue in the future, I know who I’m calling!",
+      "author": "Anthony Mannarino",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-30"
+    },
+    {
+      "text": "The work was done , atleast the work he wanted to do I asked for a price for my breaks he asked me front or back I told him I wanted to do them all he even told me to get rotors thank GOD I didn’t buy them he arrived late and then gave me a complete different price WHILE doing my front breaks I didn’t know if I needed front or back what if it was the backs only ? mind you I stated I don’t like surprises I could have gotten a complete price and would have paid it I’m disappointed because this is why I don’t trust mechanics they always wanna lead with the wrong prices mind you I was willing to pay anything under 500 so the front and backs wouldn’t have been a problem the surprise is what got me cuz now you wanna charge me for coming out again ? I’m so annoyed because I drive far and was lead to believe all 4 would be done I paid for all my breaks and sensors I had many people ready to use him due to his price I’m happy I waited for the work to be done to give his number out as a female mechanics will always play with us he even tried to holla at me through a phone call . I shoulda knew better . If you use him ask him to text everything out cuz this is disappointing I don’t even argue prices he even was willing to “ negotiate “ and I stood firm on his price . I really hoped to have a solid mechanic .",
+      "author": "Mi Ohmy",
+      "rating": 2,
+      "source": "google",
+      "date": "2026-02-12"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Purple storefront of Kustomholics Automotive with garage doors and phone number visible",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Modern living room with green walls, striped sofa, decorative lamp, and framed artwork",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "White Acura sedan parked in residential driveway, front view",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 32,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.8,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "fair"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

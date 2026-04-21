@@ -251,10 +251,6 @@
       "professional",
       "approachable"
     ],
-    "named_staff": [
-      "Tim",
-      "Lazy",
-      "Judith"
-    ]
+    "named_staff": ["Tim", "Lazy", "Judith"]
   }
 }

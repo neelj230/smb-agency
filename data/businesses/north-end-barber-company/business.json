@@ -1,0 +1,151 @@
+{
+  "name": "North End Barber Company",
+  "slug": "north-end-barber-company",
+  "category": "barber",
+  "address": "7433 N Leavitt Ave",
+  "city": "Portland",
+  "state": "OR",
+  "zip": "97203",
+  "phone": "(971) 277-7030",
+  "email": "user@domain.com",
+  "website": "http://www.northendbarbercompany.com/",
+  "rating": 4.9,
+  "reviewCount": 380,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "8:00 AM – 7:00 PM",
+    "Tuesday": "8:00 AM – 7:00 PM",
+    "Wednesday": "8:00 AM – 7:00 PM",
+    "Thursday": "8:00 AM – 7:00 PM",
+    "Friday": "8:00 AM – 7:00 PM",
+    "Saturday": "8:00 AM – 7:00 PM",
+    "Sunday": "8:00 AM – 7:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Great customer service, ambience, hair cut, and hair style! Emily was my stylist/barber and she was great! The free drink was a great touch and I sure will be coming back. My neighbor recommend this place and I do the same moving forward. Thanks!",
+      "author": "Miguel Herrera",
+      "rating": 5,
+      "source": "google",
+      "date": "2018-11-04"
+    },
+    {
+      "text": "If haircuts were an Olympic sport, Kash at North End Barber would have more gold than Michael Phelps. I’ve been getting my hair “did” by her for years, and every single time it’s nothing short of amazing. She somehow knows exactly what I want—even when I don’t. And as a bonus, she’s also a world-class storyteller, so you leave not only looking sharp but also entertained. 10/10 would trust Kash with my head (and my ears) again and again.",
+      "author": "Darrell Grenz",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-17"
+    },
+    {
+      "text": "I’ve been coming here for 2+ years now and Dash is my barber. He’s amazing, great barber, good conversation and the atmosphere of the establishment is welcoming and friendly.",
+      "author": "Gabriel Hernandez",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-05"
+    },
+    {
+      "text": "dash is very chill, interesting, & well-rounded barber. attention to detail, a fantastic listener, & it’s transparent they enjoy their work. the location is unique & center to st. john’s. the service always your to pay beforehand & is great at reminding you about your appointment. 💇🏽‍♂️💅🏽",
+      "author": "kosmo",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-04"
+    },
+    {
+      "text": "I have been going to this establishment for 3 years. I have always tipped and generally been what one would call a loyal and half decent customer. I’m not perfect. But a reliable customer. Today, I was in a rush, and stressed out (as young parents often are with an 1 year old) and so I called ahead to say I’d be late by 5 minutes. My wife took the car today so I had to order an Uber, who happened to get incredibly lost on the way to the shop. I called again to say I’d be even later, and yes, I did turn up 22 minutes late, but I was looking a shaved haircut on this occasion. I’d have accepted a quicker turnaround. Additionally, I think it’s reasonable, at times, to ask the next customer to wait maybe a few minutes before their appointment. It happens all the time in barbershops. I’ve waited. Josh refused to take me and asked to reschedule after my ordeal getting there. This is one time in 3 years. To be frank, I was disappointed. I will never set foot or be a customer of this barbershop again.",
+      "author": "Anthony Vernon",
+      "rating": 1,
+      "source": "google",
+      "date": "2025-02-28"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Vintage barber shop interior with leather chairs, mirrors, and eclectic wall decor",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Vintage barber shop interior with leather chairs, mirrors, and eclectic wall art",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Vintage barber shop interior with exposed concrete floors, classic barber chairs, and retro decor on walls",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Vintage barbershop interior with barbers working on customers in retro chairs",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "North End Barber shop storefront with wooden chairs and large windows",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Barber giving haircut to young boy in vintage barbershop with framed posters",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Man in Los Angeles Raiders shirt holding beverage outside barbershop storefront",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Nighttime storefront of a barber shop with illuminated signage and red planter.",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Woman sitting on bench outside North End Barber Co storefront window",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Barber cutting client's hair in professional barbershop with vintage chair and mirrors",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 380,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {
+    "facebook": "https://facebook.com/2008/fbml",
+    "instagram": "https://instagram.com/northendbarbercompany"
+  },
+  "competitors": [],
+  "brandColors": {
+    "primary": "#d1c3a6",
+    "accent": "#3e3e3e",
+    "note": "Extracted from business website"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "/*! Squarespace LESS Compiler (less.js language v1.3.3) */ .sqs-slide-wrapper[data-slide-type=\"cover-page\"] .text-align-center{text-align:center}.sqs-slide-wrapper[data-slide-type=\"cover-page\"] .responsive-wrapper{display:inline-block}.sqs-slide-wrapper[data-slide-type=\"cover-page\"] .responsive-wrapper .sqs-slice{display:inline-block}.sqs-slide-wrapper[data-slide-type=\"cover-page\"] .responsive-wrapper .sqs-slice[data-content-empty=\"true\"]{display:none}.sqs-slide-wrapper[data-slide-type=\"cover-page\"] .responsive-wrapper .sqs-slice:not([data-content-empty=\"true\"])~.sqs-slice:not([data-content-empty=\"true\"]){margin-left:1em}.margins-right .sqs-slide-wrapper[data-slide-type=\"cover-page\"] .responsive-wrapper:not(.stacked) .sqs-slice:not([data-content-empty=\"true\"]):not(:last-child),.margins-right .sqs-slide-wrapper[data-slide-type=\"cover-page\"] .responsive-wrapper:not(.stacked) .sqs-slice:not([data-content-empty=\"true\"])+.sqs-slice:not([data-content-empty=\"true\"]):not(:last-child){margin-left:0;margin-right:1em}.margins-right .sqs-slide-wrapper[data-slide-type=\"cover-page\"] .responsive-wrapper:not(.stacked) .sqs-slice:not([data-content-empty=\"true\"])+.sqs-slice:not([data-content-empty=\"true\"]):last-child{margin-left:0}.sqs-slide-wrapper[data-slide-type=\"cover-page\"] .responsive-wrapper.stacked{width:100%}.sqs-slide-wrapper[data-slide-type=\"cover-page\"] .responsive-wrapper.stacked .sqs-slice{display:block}.sqs-slide-wrapper[data-slide-type=\"cover-page\"] .responsive-wrapper.stacked .sqs-slice:not(:last-child):not([data-content-empty=\"true\"]){margin-bottom:15px}.sqs-slide-wrapper[data-slide-type=\"cover-page\"] .responsive-wrapper.stacked .sqs-slice[data-content-empty=\"true\"]{display:none}.sqs-slide-wrapper[data-slide-type=\"cover-page\"] .responsive-wrapper.stacked .sqs-slice:not([data-content-empty=\"true\"])~.sqs-slice:not([data-content-empty=\"true\"]),.sqs-slide-wrapper[data-slide-type=\"cover-page\"] .responsive-wrapper.stacked [data-slice-type=\"social-icons\"]+[data-compound-type=\"action\"][data-content-empty=\"true\"]+[data-slice-type=\"custom-form\"],.sqs-slide-wrapper[data-slide-type=\"cover-page\"] .responsive-wrapper.stacked [data-compound-type=\"action\"]:not([data-content-empty=\"true\"])+[data-slice-type=\"custom-form\"][data-content-empty=\"true\"]+[data-slice-type=\"social-icons\"]{margin-left:0}.sqs-slide-wrapper[data-slide-type=\"cover-page\"] .responsive-wrapper.stacked [data-slice-type=\"buttons\"] ul,.sqs-slide-wrapper[data-slide-type=\"cover-page\"] .responsive-wrapper.stacked [data-slice-type=\"sso-options\"] ul,.sqs-slide-wrapper[data-slide-type=\"cover-page\"] .responsive-wrapper.stacked [data-slice-type=\"navigation\"] ul{display:block;width:100%}.sqs-slide-wrapper[data-slide-type=\"cover-page\"] .responsive-wrapper.stacked [data-slice-type=\"buttons\"] ul li,.sqs-slide-wrapper[data-slide-type=\"cover-page\"] .responsive-wrapper.stacked [data-slice-type=\"sso-options\"] ul li,.sqs-slide-wrapper[data-slide-type=\"cover-page\"] .responsive-wrapper.stacked [data-slice-type=\"navig"
+}

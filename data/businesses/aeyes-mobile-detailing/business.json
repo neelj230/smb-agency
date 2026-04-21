@@ -1,0 +1,148 @@
+{
+  "name": "Aeyes Mobile Detailing",
+  "slug": "aeyes-mobile-detailing",
+  "category": "mobile car detailing",
+  "address": "1911-A W Chew Ave",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19141",
+  "phone": "(215) 778-8720",
+  "email": "",
+  "website": "http://aeyesmobiledetailing.com/",
+  "rating": 4.9,
+  "reviewCount": 208,
+  "tagline": "",
+  "brandNarrative": "After many years of service in the Allentown, PA, Philadelphia, PA, Cherry Hill NJ, Princeton NJ, Augusta, GA, and DC communities, we feel confident that we can cater to your needs. We get the job done and we don't just meet expectations; we exceed them. Our customers keep coming back because we're dependable, knowledgeable and pleasant to work with.\n\nOur employees provide unmatched service, delivering top quality service for your business! Each is committed to personal service. In keeping with this desire, we're not satisfied with our work until you are.\n\nAside from our amazing staff, we take the time and care to make sure even the tiniest detail is managed, in every circumstance. There, really, is no other way.\n\nContact us today at 215-778-8720 to find out how we can help you. It's our pleasure!",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "7:00 AM – 6:00 PM",
+    "Tuesday": "7:00 AM – 6:00 PM",
+    "Wednesday": "7:00 AM – 6:00 PM",
+    "Thursday": "7:00 AM – 6:00 PM",
+    "Friday": "6:00 AM – 6:00 PM",
+    "Saturday": "7:00 AM – 6:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "You won’t find a better quality service to beat their price. They came to me for no additional cost. I’ll be recommending to others!",
+      "author": "TRACE_ITBACK",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-03-01"
+    },
+    {
+      "text": "Great detailing service! Got my baby back to how she looked when I first got her. Professional and courteous service - kept me updated the entire time and scheduling was a breeze. Definitely will use Aeyes again next time I need a deep clean for my car.",
+      "author": "Janeen White",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-09-03"
+    },
+    {
+      "text": "Not much to say they came at the time they said they would, and got right to work with nothing needed. My new car interior ended up being very clean and looking like an even newer car. All while also being at a great price. 5 stars.",
+      "author": "Lameer Smith",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-12"
+    },
+    {
+      "text": "Everything went smoothly and my car turned out amazing! It looks brand new. I will definitely use this service again! Also, they were able to schedule me only a few days after I called which was amazing.",
+      "author": "Livia Kleiner",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-09"
+    },
+    {
+      "text": "Mohadi did an amazing job with my car. He provided excellent customer service. He was professional and kind. He pays attention to detail as well. My car looks brand new and gorgeous again. Will definitely be back to support him and his business. Thanks so much!\n\nService by appt only! Does accept electronic forms of payment as well.",
+      "author": "Layla Darian",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-06-02"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "White BMW vehicle parked next to white service van with open door on residential street",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Bright red electric vehicle parked on residential street with brick buildings background",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Red BMW sports car parked in residential driveway on sunny day",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Aeyes Mobile Detailing photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Blue and white electric garbage truck with open rear compartment on asphalt parking lot",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Black commercial passenger van parked in driveway with white van visible behind",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Silver Mercedes-AMG convertible with burgundy top parked on street",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "White commercial tow truck displayed in indoor showroom with blue accent stripe",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "White Ford Mustang Mach 1 displayed in modern showroom with other vehicles",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Worker using power tools to clean or detail car window on residential street",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 208,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#e4e4e4",
+    "accent": "#acbcc8",
+    "note": "Extracted from business website"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "Home| About Us| Services| Gallery| Testimonials| Roadside Service Philadelphia| Contact function openNewWindow(url, name, features) { newWindow = window.open(url, name, features); } function getLink(url, toolbar, directories, status, menubar, scrollbars, resizable, width, height, screenX, left) { window.open(url,'newWindow','toolbar=0, directories=0, status=0, menubar=0, scrollbars=0, resizable=0, width=455, height=427, screenX=10, left=350'); } Gift Certificates Car WashAuto Detailing Prior to printing this gift certificate, please contact us at 215-778-8720 for prices. Welcome to Aeyes Mobile Detailing. We look forward to assisting you. Aeyes Mobile Detailing believes in customer satisfaction, reasonable pricing and quality work. Onsite, mobile car detailing, handwash and wax Make your wheels look stunning! Aeyes Mobile Detailing has been serving Allentown, PA, Philadelphia, PA, Cherry Hill NJ, Princeton NJ, Augusta, GA, and DC in the auto detailing industry for many years and wants to earn your business. Our hand wash and wax service is a favorite of our customers. It keeps them coming back. Please feel free to browse our entire site. You’ll be sure to find what you are looking for. Please contact us by telephone at 215-778-8720. Click on the “Talk Now” button to contact us immediately via telephone or click on the “Live Help” button to chat with our online receptionist. Our receptionist is standing by Monday to Friday from 9 AM to 8 PM (EST). Join Our Newsletter Email: Appointment schedulingby Appointment-Plus About Us We provide unmatched service and each is committed to personal service ... Services We treat each project with the same degree of attention, respect, and care ... Contact Us Questions? We're listening. Click below to find out how to contact us ... web counter Home| About Us| Services| Gallery| Testimonials| Road Side Service| Contact | Site Map 2026 Aeyes Mobile Detailing. . Augusta, GA Philadelphia, PA"
+}

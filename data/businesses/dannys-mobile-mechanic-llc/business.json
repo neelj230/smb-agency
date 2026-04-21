@@ -1,0 +1,126 @@
+{
+  "name": "Danny's Mobile Mechanic LLC",
+  "slug": "dannys-mobile-mechanic-llc",
+  "category": "mobile mechanic",
+  "address": "301 NW Eastman Pkwy",
+  "city": "Gresham",
+  "state": "OR",
+  "zip": "97030",
+  "phone": "(971) 419-6162",
+  "email": "",
+  "website": null,
+  "rating": 4.5,
+  "reviewCount": 28,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Open 24 hours",
+    "Tuesday": "Open 24 hours",
+    "Wednesday": "Open 24 hours",
+    "Thursday": "Open 24 hours",
+    "Friday": "Open 24 hours",
+    "Saturday": "Open 24 hours",
+    "Sunday": "Open 24 hours"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Had a great experience with Danny. I called for a Pre Purchase Inspection of a vehicle at a local dealership and Danny was available to do the inspection within a couple hours for a fair price. Much appreciated.",
+      "author": "Dusty Breeding",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-29"
+    },
+    {
+      "text": "dannys mobile mechanic has done it again, the best service I've had in a long time. i highly recommend his services. and thanks again.",
+      "author": "Kathleen House",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-27"
+    },
+    {
+      "text": "My car battery completely died and I was stranded in a parking lot. I desperately needed someone to come and replace the battery. I called Danny and he was working on my car within 30 minutes and was done within an hour! He was professional, quick and his prices are very reasonable! I highly highly recommend him and I will continue to use his services! Thanks again, Danny!",
+      "author": "Hannah Swigard",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-04-16"
+    },
+    {
+      "text": "I hired Danny’s Mobile Mechanic LLC to replace the brakes on my 2019 VW Atlas.\n\nDuring the job,  I get a text saying come down. He shows me the caliper piston popped out and brake fluid leaked everywhere.\n\nI asked Danny several times if we needed to bleed the brakes, and he said no.\n\nAfter he finished, the brake pedal went to the floor, and there was a heavy grinding sound. When I asked if that was normal, Danny said, “Yes, they just need to wear down.”\n\nI later took the car to Les Schwab, where they found the rear brake pads were installed backwards and the front clips weren’t installed correctly.\n\nThe improper installation caused severe damage to the rear rotors and brakes, which had to be replaced — costing $900.\n\nDo not use his services. He is not reliable, nor is he a professional\n\nThis guy is a scammer!!!\n\nIf you put somebody’s brakes on backwards and they call you 30 minutes afterwards, you should come right back and fix the job.\n\nThe $900 in damages is due to the back brakes being put on backwards and severely damaging the rotors, and obviously the brake pads.\n\nI took my vehicle to Les Schwab. Not some corner auto shop. Danny is deflecting responsibility!\n\nI’m sure Danny will not take responsibility and pay for the damages caused by him putting the back brakes on backwards.\n\nI just hope that no one else gets scammed by him.",
+      "author": "Miguel Ashby",
+      "rating": 1,
+      "source": "google",
+      "date": "2025-10-26"
+    },
+    {
+      "text": "Came out to see if he could fix my car’s starter, and was able to diagnose the issue, then tried to schedule a time to come back and fix it. At the day he was supposed to fix it, he calls late and says his own vehicle won’t start so now he can’t. After multiple WEEKS and attempts to have him reschedule he says he can’t until he gets a new van. Can’t fix his own problems, ignores customers, then tries to hand me off to some else that charges more than what he quoted.",
+      "author": "Kevin Sharp",
+      "rating": 1,
+      "source": "google",
+      "date": "2025-09-05"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Silver mobile mechanic service vehicle with emergency roadside rescue contact information displayed.",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Brake rotor and pads displayed on workbench in automotive repair shop",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Close-up of industrial metal machinery component with rust and wear patina",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Classic Volkswagen Beetle automobile photographed from side profile in black and white.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Industrial fire suppression system mounted on gray building exterior wall",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "The Mechanic logo featuring blue gears with infinity symbol and curved lines",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 28,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

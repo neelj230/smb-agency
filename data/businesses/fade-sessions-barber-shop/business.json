@@ -1,0 +1,146 @@
+{
+  "name": "Fade Sessions Barber Shop",
+  "slug": "fade-sessions-barber-shop",
+  "category": "barber",
+  "address": "267 Commercial St SE",
+  "city": "Salem",
+  "state": "OR",
+  "zip": "97301",
+  "phone": "(503) 989-4863",
+  "email": "",
+  "website": null,
+  "rating": 4.8,
+  "reviewCount": 137,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Closed",
+    "Tuesday": "10:00 AM – 6:30 PM",
+    "Wednesday": "10:00 AM – 6:30 PM",
+    "Thursday": "10:00 AM – 6:30 PM",
+    "Friday": "10:00 AM – 6:30 PM",
+    "Saturday": "10:00 AM – 5:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I been doing to this Barber shop for a long time sends 2018 and I can say Jose is family person always get my hair cut looking good always grateful for him",
+      "author": "Mayra Tapia",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-16"
+    },
+    {
+      "text": "If you want to look sharp before your next job interview, date, meeting, night on the town or just because, Fade Sessions is the best shop in Salem. Jose (the owner and a very skilled barber) clearly hires only the highest quality barbers to work with him. They also offer straight razor shaves and are priced very reasonable. Try them out and you won't be disappointed! 😁👍👍 Shout out to Douglas for doing an excellent job on my last haircut and shave!",
+      "author": "NarcoArch",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-03-09"
+    },
+    {
+      "text": "After trying several barbers in town, we decided to give Fade Sessions a try about 2 years ago and my teenage son won’t let anyone but Nick cut his hair now. He’s friendly, professional and takes his time to get it right and ensure the customer is happy.\nThe shop has a laid back and welcoming vibe.",
+      "author": "Stephanie Carino",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-06-09"
+    },
+    {
+      "text": "Jake J is legit the man the myth the legends you see in fairy tales. Great vibe, amazing personality, amazing prices, and the most important part AMAZING at cutting and styling hair. 10/10 regular customer for any of my hair needs",
+      "author": "Austyn Thompson",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-04-02"
+    },
+    {
+      "text": "Awesome experience! My son is 13 and on the autism spectrum. The place is very chill. Our barber Jake was excellent. My son was super hunched up with his shoulders around his ears when it started. When Jake got it going my son said \"This is so soft!\" It made me realize the places I have been taking him to have maybe been rough. This is 100% the best haircut he has ever had! I thought it was kinda spendy but after the experience of this haircut I think it was totally worth it. Not only will we be going back but I am singing it's praises to everyone I know. Jake knocked it out of the park.",
+      "author": "Marianne Martinez",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-09-13"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Barber cutting customer's hair in professional salon with green walls",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Barber cutting client's hair in professional salon setting with clippers",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Man with styled pompadour haircut in professional black and white attire",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Bearded barber with tattoos cuts client's hair in barbershop using clippers",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Young boy receiving a professional haircut at a barber shop with stylist",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Man with beard and fade haircut in indoor barbershop or salon setting",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Person receiving head bandage treatment in indoor medical or care setting",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Barber giving a haircut to a young client in a barbershop setting",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Barbershop interior with black leather seating, barber pole, and storefront window view",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Back view of person with fresh haircut in barbershop setting with cape",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 137,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.8,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

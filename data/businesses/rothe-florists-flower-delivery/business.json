@@ -11,9 +11,9 @@
   "website": "https://www.rotheflorists.com/?utm_source=google&utm_medium=gmb-website-link&utm_campaign=tmf-gmb",
   "rating": 4.9,
   "reviewCount": 460,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Flowers That Actually Show Up Beautiful.",
+  "brandNarrative": "Rothe Florists & Flower Delivery on Germantown Avenue is the kind of flower shop that makes skeptics into believers. Customers who had already struck out at other florists — like Michelle Bennett, who visited Rothe's website as a last resort — walk away stunned by how seamlessly an order comes together. Whether you're placing a next-day order online, calling from overseas (yes, Rothe serves international customers sending flowers to loved ones in Philly), or walking in on the day before Valentine's Day hoping for a miracle, Rothe delivers — literally and figuratively. Jim Lowther, who had ordered from 'many places,' called Rothe's dozen rose bouquet the most beautiful he had ever received. That's not a small claim. That's a florist doing something right, consistently, with 460 reviews averaging 4.9 stars to prove it.\n\nWhat separates Rothe isn't just the quality of the blooms — it's the human layer wrapped around every transaction. Staff member Anthony fielded an in-store retirement arrangement order and was called out by name for being 'kind and helpful.' When an international customer named Rebekah ran into a card-issuing block on her overseas purchase, the shop owner personally spotted the issue and resolved it via email — fast. That level of attentiveness is rare. Rothe even sources locally: their gift add-ons like chocolates and candles come from local Philadelphia makers, packaged neatly alongside arrangements. It's a shop that thinks beyond the bouquet.\n\nRothe's identity lives at the intersection of craft and reliability — two things the floral industry often fumbles. Their arrangements are called 'full and beautiful,' their delivery is on-time and confirmed with a personal call, and their designer's-choice arrangements surprise customers with genuine creativity. The shop carries the quiet confidence of a neighborhood institution: open six days a week, rooted on Germantown Avenue, and clearly beloved by Mount Airy and the wider Philadelphia community.",
+  "ownerStory": "The owner of Rothe Florists is the kind of person who notices when something is wrong before you do. When Rebekah, a customer sending flowers from Ireland, had her payment flagged by her bank, the owner caught the issue proactively and reached out immediately to help resolve it — no frustration, no dropped order, just clear and friendly communication that made a stressful situation disappear. That responsiveness isn't an accident; it reflects a shop built on the belief that getting a flower delivery right is a matter of personal responsibility, not just logistics. Anthony, one of the team's customer-facing standouts, embodies the same ethos — described by customers as 'kind and helpful,' he's the kind of person who makes you feel like your order genuinely matters, whether it's a retirement bouquet or a last-minute Valentine's arrangement. Together, they've built a florist that's earned the trust of Philadelphia neighbors and international senders alike.",
   "hours": {
     "Monday": "9:00 AM – 4:00 PM",
     "Tuesday": "9:00 AM – 4:00 PM",
@@ -23,7 +23,38 @@
     "Saturday": "9:00 AM – 2:00 PM",
     "Sunday": "Closed"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Custom Floral Arrangements",
+      "description": "Hand-crafted bouquets and arrangements designed in-house, from designer's-choice retirement centerpieces to stunning dozen-rose Valentine's bouquets that customers call the most beautiful they've ever received.",
+      "icon": "flower-2"
+    },
+    {
+      "name": "Same-Day & Next-Day Flower Delivery",
+      "description": "Reliable local delivery with confirmed time frames — customers receive a personal call to verify delivery details, ensuring flowers arrive on time and to the right place.",
+      "icon": "truck"
+    },
+    {
+      "name": "Online Order & Long-Distance Gifting",
+      "description": "A seamless website that accepts next-day orders and supports out-of-town and international customers sending flowers to loved ones in Philadelphia.",
+      "icon": "globe"
+    },
+    {
+      "name": "Sympathy & Occasion Plants",
+      "description": "Living plants like lush, full peace lilies delivered in beautiful baskets — a meaningful gift for sympathy, get-well, or celebration occasions.",
+      "icon": "leaf"
+    },
+    {
+      "name": "Gift Add-Ons from Local Makers",
+      "description": "Locally sourced chocolates and candles available as add-ons, packaged neatly alongside floral arrangements for a complete, thoughtful gift experience.",
+      "icon": "gift"
+    },
+    {
+      "name": "Valentine's Day & Holiday Specials",
+      "description": "Seasonal arrangements available for major holidays with short-notice ordering at reasonable prices, delivered precisely within requested time frames.",
+      "icon": "heart"
+    }
+  ],
   "reviews": [
     {
       "text": "I was very happy with the flower arrangement I purchased for Valentine’s Day. The service was efficient and timely, arriving in my requested time frame. I appreciated the reasonable prices on short notice and the quality of the flowers. I also bought chocolates and a candle that were both from local places and packaged neatly.",
@@ -61,7 +92,17 @@
       "date": "2026-01-09"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "name": "Anthony",
+      "role": "Customer Experience & Order Specialist",
+      "bio": "Anthony takes in-store orders and manages customer checkout with a warmth that customers remember by name. Joan Brooks specifically praised his kindness and helpfulness when she ordered a designer's-choice arrangement for her sister-in-law's retirement.",
+      "credentials": [
+        "Named by customers for exceptional in-person service",
+        "Handles custom arrangement consultations"
+      ]
+    }
+  ],
   "photos": [
     {
       "src": "/photos/photo-1.jpg",
@@ -116,28 +157,79 @@
   ],
   "stats": [
     {
-      "value": 460,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.9,
+      "suffix": "★",
+      "label": "Average Google Rating"
     },
     {
-      "value": 4.9,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 460,
+      "suffix": "+",
+      "label": "Customer Reviews"
+    },
+    {
+      "value": 6,
+      "suffix": " days",
+      "label": "Open Every Week, Including Saturdays"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "Of Sampled Reviews Rate 5 Stars"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "Can I place an order for next-day delivery?",
+      "answer": "Yes — Rothe's website allows next-day orders, and customers consistently report receiving a personal confirmation call shortly after ordering to verify delivery details. Multiple reviewers have praised how smoothly last-minute orders are handled, even for major holidays like Valentine's Day."
+    },
+    {
+      "question": "Can I send flowers to Philadelphia from another city or country?",
+      "answer": "Absolutely. Rothe regularly fulfills orders from out-of-town and international customers. One customer sending flowers from Ireland noted that the shop owner personally helped resolve a payment flagging issue via email — quickly and kindly. The experience was described as rare and exceptional."
+    },
+    {
+      "question": "How do I know my flowers will actually arrive on time?",
+      "answer": "Rothe confirms every delivery with a personal call to verify the delivery address and time frame. Customers across multiple reviews specifically praised the on-time, accurate delivery — something that distinguished Rothe from other florists they had tried."
+    },
+    {
+      "question": "What if I don't know exactly what arrangement I want?",
+      "answer": "Rothe offers a designer's-choice option where their in-house floral designer creates a custom arrangement. Customers who've chosen this option have been genuinely delighted — one described a retirement arrangement as 'beautiful,' and another said a peace lily plant was so stunning it 'was snatched up before I could take a photo.'"
+    },
+    {
+      "question": "Do you offer anything beyond flowers — like gift add-ons?",
+      "answer": "Yes. Rothe carries locally sourced chocolates and candles that can be added to your order and are packaged neatly alongside the floral arrangement. It's a thoughtful touch that makes their deliveries feel like a complete, curated gift."
+    },
+    {
+      "question": "Are your prices reasonable for the quality?",
+      "answer": "Most customers find Rothe's pricing fair given the quality and reliability. One reviewer noted 'reasonable prices on short notice' for a Valentine's Day order. A peace lily was noted as 'a bit pricey' but described as so beautiful it was immediately taken home by the recipient — suggesting the value is clearly felt."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#3B5E3F",
+    "accent": "#D4845A",
+    "note": "Deep botanical green reflects the lush, full floral craftsmanship Rothe is known for — rooted, natural, and neighborhood-genuine. The warm terracotta accent echoes the locally sourced candles and chocolates, the warmth of Anthony's in-person service, and the intimate, human character that runs through every review."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Exceptional on-time delivery with personal confirmation calls — repeatedly cited as differentiating Rothe from competitors who failed customers on timing",
+      "Genuine human responsiveness at every touchpoint — from Anthony's warmth in-store to the owner personally resolving an international payment issue via email",
+      "Consistently stunning floral craftsmanship — multiple reviewers use superlatives like 'most beautiful I've ever ordered' and 'went above and beyond expectations'"
+    ],
+    "common_complaints": [
+      "Pricing on some items (notably plants) was noted as 'a bit pricey' by one reviewer, though the quality was acknowledged as justifying the cost"
+    ],
+    "suggested_tagline": "Philadelphia's Florist That Actually Delivers.",
+    "photo_quality": "good",
+    "personality_keywords": [
+      "reliable",
+      "warm",
+      "artisanal",
+      "responsive",
+      "community-rooted"
+    ],
+    "named_staff": [
+      "Anthony"
+    ]
   }
 }

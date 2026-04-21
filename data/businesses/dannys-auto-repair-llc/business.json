@@ -1,0 +1,116 @@
+{
+  "name": "Danny's Auto Repair LLC",
+  "slug": "dannys-auto-repair-llc",
+  "category": "auto repair",
+  "address": "7631 NE Sandy Blvd",
+  "city": "Portland",
+  "state": "OR",
+  "zip": "97213",
+  "phone": "(503) 284-1043",
+  "email": "",
+  "website": null,
+  "rating": 4.5,
+  "reviewCount": 101,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM – 6:00 PM",
+    "Tuesday": "9:00 AM – 6:00 PM",
+    "Wednesday": "9:00 AM – 6:00 PM",
+    "Thursday": "9:00 AM – 6:00 PM",
+    "Friday": "9:00 AM – 6:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Danny is very experienced and always gives you a good detail of the work needed.\nI would recommend him for most local car/truck repairs or maintenance.",
+      "author": "paul leuthold",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-03"
+    },
+    {
+      "text": "Danny is Very knowledgeable, friendly and honest repair shop! Fast service.",
+      "author": "Andy Nera",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-03-05"
+    },
+    {
+      "text": "Danny's Auto Repair is thankfully the wonderful and reliable service that used to be Dan's Automotive Repair on 58th and Sandy. We have taken our cars to this owner for decades and we are so grateful we found him again after he was bought out of the Dan's Automotive building. We will be going here for more decades to come as they have ALWAYS provided amazing, thoughtful, and careful service. We will follow this current owner wherever he goes!",
+      "author": "Amy Done",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-10-24"
+    },
+    {
+      "text": "One friend living on Portland recommended this place.\nOur car got a big noise from a pipe under our car (just after one mecanic place on cave jonction on the south of Oregon)  and the light engine was on 20 minutes before to arrive at Danny's place: he taken our car few hours. We recuperate our car for 50$ and the noise was fixed but the light engine come back the next day....\nWe called him for to know if it's important and he explained us what happen; its just some dust come back with the long travel on fuel tank cup and it's secure. We prefer to know about the light engine and this cup tank when we recupered our car and not on the travel when the light come back because we miss some explain...",
+      "author": "Au__dela",
+      "rating": 3,
+      "source": "google",
+      "date": "2019-12-26"
+    },
+    {
+      "text": "I normally don't do reviews, but after having an assessment done on my car for a scraping metal sound by Danny, he definitely tries to take advantage of people.\nA couple of weeks prior he talked me into the more expensive OEM wheel bearing for my car, and about three weeks later I started hearing a scraping metal sound coming from the front near the tires. I took it to him thinking it had something to do with the wheel bearing, and after his mechanic took the wheel off he came in with \"some bad news\"- my brake pads were at about 5% and the wear bar was scraping the rotor, causing the metal sound. He could change the rotors and pads for about $300 he said, but since I've done this in the past on other cars, I did it myself.\nWhen I took the pads off, surprise, they were not at 5%, more like 40% (Danny told me I had about 1-2 weeks before it was going to be metal on metal) and the rotors were actually in good shape (I was also skeptical of the rotor replacement as there was no shimmying when I braked at high speeds.)\nNeedless to say, since I already had the wheels and calipers off, I replaced the brake pads and the rotor just in case that was the reason for the scraping sound. After a quick test drive, the scraping sound was still there. So Danny was going to charge me for pads and rotors I didn't need, and it still wouldn't have fixed the problem. And after reading the other one-star reviewers post, I doubt Danny would have done anything about it.\nThose of you who love Danny and give him great reviews, I would maybe go get a second opinion somewhere else just to see if he really is the amazing, honest mechanic you think he is.",
+      "author": "Aaron Liersemann",
+      "rating": 1,
+      "source": "google",
+      "date": "2017-12-04"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Bright green tow truck hauling silver SUV on flatbed carrier",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Framed certification and business cards displayed on desk in auto repair shop office",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Brake rotor and caliper assembly during vehicle maintenance repair work",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Close-up of antique metal firearm component held in hand against white background",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 101,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "fair"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "name": "Alnaar Athletics, LLC",
+  "slug": "alnaar-athletics-llc",
+  "category": "personal trainer",
+  "address": "167 Town Center Rd",
+  "city": "King of Prussia",
+  "state": "PA",
+  "zip": "19406",
+  "phone": "(856) 412-0307",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 9,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "5:00 AM – 7:00 PM",
+    "Tuesday": "5:00 AM – 7:00 PM",
+    "Wednesday": "5:00 AM – 7:00 PM",
+    "Thursday": "5:00 AM – 7:00 PM",
+    "Friday": "5:00 AM – 7:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "It has been such a pleasure to work with Bron as my trainer for the past couple months. I have always been passionate about health and fitness, but struggle to develop my own program to maximize results. Bron develops simple, yet effective, workout programs- all while keeping it fun! The lines of communication are always open, and he makes himself available to answer any questions I have which underscores his commitment to helping people reach their goals. He challenges me to push my limits, while encouraging me every step of the way. Not only does he have the knowledge and expertise, he’s a genuinely kind person! I cannot recommend his personal training enough!",
+      "author": "Alexandria Kachurak",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-12-18"
+    },
+    {
+      "text": "Fabulous coach who motivates you to do your very best. I was not a fan of working out and made up every excuse in the book to avoid it and yet I look forward to my sessions with Bron because he makes me feel positive about myself. He shows you that you can do so much more than you think and he genuinely cares about your goals and helps you to achieve them. This is coming from someone who now looks forward to leaving my training session knowing I’ll feel it in the morning because he’s pushing me to be healthier and in shape.   If you’re looking for a personal trainer - stop here - he’s it!",
+      "author": "Gina Price",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-12-17"
+    },
+    {
+      "text": "Bron, is one of the sweetest hard working and encouraging trainers I know. I have only been with Bron for about 2 months and his effort and consistency is unmatched. He has helped me built more confidence in myself when I was feeling low about being unhealthy. By helping me achieve my goals to being healthier me. He has taught me how to make healthier eating choices, and even teaching me how to count macros/ calories to help me stay in my calorie deficit to help my achieve my weight loss goals. He cares about his clients and it definitely feels good to know you have a trainer who cares for you inside and outside the gym, you will receive daily encouraging text to give you that extra level of support that pushes me through my week. I look forward to showing him my hard work throughout the week. I am so very pleased and you will be too please check him out he’s definitely worth it!",
+      "author": "Jade Lomax",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-12-19"
+    },
+    {
+      "text": "Bron was a great personal trainer. He created a workout plan based upon my level of fitness and experience with exercising.\n\nBron is friendly and personable which made my sessions fun. He’s knowledgeable and used his passion for weightlifting to motivate me through the tough workouts.",
+      "author": "David Patterson",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-01-07"
+    },
+    {
+      "text": "I’ve been working with Bron as my trainer for the past 5-6 months & I can honestly say he is hands down the best trainer I’ve ever had. He knows exactly how to push you to your highest limits, & can also tell when you’re not putting in 110% effort (which is a good thing & holds you accountable) His workout plans & one on one training show real results as long as you put the work in. I’ve honestly never been this toned/had this much muscle in my life. Whatever your goals are, Bron will help you accomplish them & also teach you along the way! 10/10 recommend!!!",
+      "author": "Mikayla McCune",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-12-18"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Personal trainer assisting client with barbell bench press exercise in gym",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Alnaar Athletics, LLC photo 2",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Alnaar Athletics, LLC photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Alnaar Athletics, LLC photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Alnaar Athletics, LLC photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Young person giving thumbs up in modern gym with red equipment",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Woman performing dumbbell exercise in gym with motivational murals on walls",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Woman performing dumbbell exercise in modern gym facility with equipment",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Man performing dumbbell exercise in home gym setting with fitness equipment",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Alnaar Athletics, LLC photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 9,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

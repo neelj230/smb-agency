@@ -1,0 +1,148 @@
+{
+  "name": "Ace Handyman Services Bend",
+  "slug": "ace-handyman-services-bend",
+  "category": "handyman",
+  "address": "1375 SE Wilson Ave",
+  "city": "Bend",
+  "state": "OR",
+  "zip": "97702",
+  "phone": "(541) 224-5833",
+  "email": "",
+  "website": "https://www.acehandymanservices.com/offices/bend?utm_source=google&utm_medium=gmb&utm_campaign=Google%20Business%20Profile%20-%20Bend%20(GBP/Pin)",
+  "rating": 4.9,
+  "reviewCount": 32,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Open 24 hours",
+    "Tuesday": "Open 24 hours",
+    "Wednesday": "Open 24 hours",
+    "Thursday": "Open 24 hours",
+    "Friday": "Open 24 hours",
+    "Saturday": "Open 24 hours",
+    "Sunday": "Open 24 hours"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Can't say enough about service received.  Marcos was friendly, polite, respectful of my home and can-do. I felt very confident in him from onset.  I had 5 different ceiling lights installed, two with a fan. He got them done efficiently and even took time to share some tips on using the remote.  I would certainly recommend both ACE and Marcos and intend to request him for future handyman services.",
+      "author": "dina campbell",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-26"
+    },
+    {
+      "text": "Marcos was amazing! He listened to our requests and explained everything very thoroughly. He did fantastic work and cleaned up the work areas upon completion. We will definitely have him back as we continue he to ck things off our punch list.",
+      "author": "Melissa Phillips",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-11"
+    },
+    {
+      "text": "Marcos, and Ace Handyman, have made our closet addition very easy. The communication has been clear, about each step of our project, and tasks have been completed as scheduled. Marcos was also very conscientious about protecting floors and cleaning up.",
+      "author": "Deborah Piper",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-20"
+    },
+    {
+      "text": "Marcos was out to trim a couple of solid wood interior doors for us. Marcos was very professional and knew what he was doing. He took my suggestions into mind and took extra precautions when needed to assure that everything went well. The doors look great.",
+      "author": "Greg McCormick",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-23"
+    },
+    {
+      "text": "Marcos was awesome! He came early and worked very fast to get my necklace out of the drain for me. He was so kind and professional . Thank you Marcos for all of the help!",
+      "author": "Madelon Parrillo",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-13"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Three smiling handymen in gray uniforms standing together indoors",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Handyman holding red and black Husky tool bag with supplies against brick wall",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Covered patio area with wooden fence, trash bin, and packaged appliance leaning against wall",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Modern home exterior with wooden gate, garage door, and covered patio area.",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Modern deck overlooking water with black chairs and dark brick building.",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Ceiling-mounted flush light fixture with black metal frame and white diffuser",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Ace Hardware employee using DeWalt drill to install cabinet hardware in kitchen",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Ceiling-mounted exhaust fan with dark trim ring installed in white drywall",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Ace Handyman Services employees in red uniforms at an indoor work location",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Handyman services worker installing kitchen cabinet drawer in modern kitchen",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 32,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "Ace Handyman Services."
+}

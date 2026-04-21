@@ -1,0 +1,2780 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2026-04-09",
+  "description": "Comprehensive catalog of every distinct visual technique across all 28 reference sites. Each technique includes source implementations, vibe tags, and section compatibility. Used by the creative director for intentional, transparent design selection.",
+  "techniques": [
+    {
+      "id": "fade-up-on-scroll",
+      "name": "Fade-Up on Scroll",
+      "category": "animation",
+      "description": "Elements fade in and translate upward when they enter the viewport. The foundational animation used on nearly every reference site.",
+      "codeSignature": "initial={{ opacity: 0, y: 30 }}, whileInView={{ opacity: 1, y: 0 }}, viewport: { once: true, margin: \"-60px\" }, transition: { duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }",
+      "sources": [
+        "agevia",
+        "arpeggio",
+        "bamzi",
+        "bold-stats",
+        "clean-services",
+        "cleaning",
+        "dark-immersive",
+        "draftr",
+        "dreelio",
+        "ehunter",
+        "essentia",
+        "etery",
+        "forest-therapy",
+        "gardener",
+        "handyman",
+        "heatfix",
+        "hotel",
+        "kids-camp",
+        "luxerra",
+        "marketing",
+        "minimal-brand",
+        "mobius",
+        "nordiq",
+        "opurent",
+        "pilates",
+        "platform",
+        "real-estate",
+        "realdev",
+        "restaurant-dark",
+        "stratex",
+        "therapy",
+        "trades-clean",
+        "warm-editorial",
+        "wellness-glass",
+        "yachtera"
+      ],
+      "vibes": [
+        "all"
+      ],
+      "worksWithSections": [
+        "all"
+      ],
+      "complexity": "simple",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "frequency": 35
+    },
+    {
+      "id": "staggered-children",
+      "name": "Staggered Children Grid",
+      "category": "animation",
+      "description": "Card grids animate sequentially with incremental delays (0.07-0.15s per item). Creates a cascade effect.",
+      "codeSignature": "transition={{ duration: 0.5, delay: i * 0.1 }}",
+      "sources": [
+        "agevia",
+        "arpeggio",
+        "bamzi",
+        "bold-stats",
+        "clean-services",
+        "cleaning",
+        "draftr",
+        "dreelio",
+        "ehunter",
+        "essentia",
+        "etery",
+        "forest-therapy",
+        "gardener",
+        "handyman",
+        "heatfix",
+        "hotel",
+        "kids-camp",
+        "luxerra",
+        "marketing",
+        "minimal-brand",
+        "mobius",
+        "nordiq",
+        "opurent",
+        "pilates",
+        "platform",
+        "real-estate",
+        "realdev",
+        "restaurant-dark",
+        "stratex",
+        "therapy",
+        "trades-clean",
+        "warm-editorial",
+        "wellness-glass",
+        "yachtera"
+      ],
+      "vibes": [
+        "all"
+      ],
+      "worksWithSections": [
+        "services",
+        "gallery",
+        "team",
+        "stats",
+        "process",
+        "pricing",
+        "testimonials"
+      ],
+      "complexity": "simple",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "frequency": 34
+    },
+    {
+      "id": "hero-stagger-reveal",
+      "name": "Hero Title Staggered Reveal",
+      "category": "animation",
+      "description": "Hero headline, subtext, and CTA animate in sequence with varying delays (0.15-0.7s) and distances (20-50px). Each element has different duration for natural feel.",
+      "codeSignature": "<motion.h1 initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8, delay: 0.3 }} />",
+      "sources": [
+        "agevia",
+        "bamzi",
+        "bold-stats",
+        "clean-services",
+        "cleaning",
+        "dark-immersive",
+        "draftr",
+        "dreelio",
+        "ehunter",
+        "essentia",
+        "etery",
+        "forest-therapy",
+        "gardener",
+        "handyman",
+        "heatfix",
+        "hotel",
+        "kids-camp",
+        "luxerra",
+        "marketing",
+        "mobius",
+        "nordiq",
+        "opurent",
+        "pilates",
+        "platform",
+        "real-estate",
+        "realdev",
+        "restaurant-dark",
+        "stratex",
+        "therapy",
+        "trades-clean",
+        "warm-editorial",
+        "wellness-glass",
+        "yachtera"
+      ],
+      "vibes": [
+        "all"
+      ],
+      "worksWithSections": [
+        "hero"
+      ],
+      "complexity": "simple",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "frequency": 33
+    },
+    {
+      "id": "word-by-word-reveal",
+      "name": "Word-by-Word Text Reveal",
+      "category": "animation",
+      "description": "Each word in a sentence fades in sequentially (0.06s delay per word). Creates an impactful reading experience for mission statements.",
+      "codeSignature": "initial={{ opacity: 0.12 }}, animate={{ opacity: 1 }}, transition={{ delay: i * 0.06 }}",
+      "sources": [
+        "agevia",
+        "draftr",
+        "marketing",
+        "minimal-brand",
+        "mobius",
+        "platform"
+      ],
+      "vibes": [
+        "creative",
+        "premium",
+        "bold",
+        "modern"
+      ],
+      "worksWithSections": [
+        "hero",
+        "about",
+        "cta"
+      ],
+      "complexity": "medium",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "frequency": 6
+    },
+    {
+      "id": "word-by-word-blur-fade",
+      "name": "Word-by-Word Blur + Fade",
+      "category": "animation",
+      "description": "Each word fades in with blur filter removing (10px→0) plus y-translate. More dramatic than standard word reveal. Used in Bamzi's hero.",
+      "codeSignature": "initial={{ opacity: 0, y: 40, filter: 'blur(10px)' }}, animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}, transition={{ delay: 0.4 + i * 0.13 }}",
+      "sources": [
+        "bamzi",
+        "restaurant-dark"
+      ],
+      "vibes": [
+        "premium",
+        "elegant",
+        "warm",
+        "creative"
+      ],
+      "worksWithSections": [
+        "hero"
+      ],
+      "complexity": "medium",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "typewriter-text",
+      "name": "Typewriter Text Effect",
+      "category": "animation",
+      "description": "Text reveals character-by-character with blinking cursor on viewport entry. 35ms interval per character. Creates intimate, personal feel.",
+      "codeSignature": "setInterval(() => setDisplayText(text.slice(0, i++)), 35) + <span className='typewriter-cursor' />",
+      "sources": [
+        "draftr",
+        "essentia",
+        "etery",
+        "stratex"
+      ],
+      "vibes": [
+        "modern",
+        "creative",
+        "personal",
+        "premium"
+      ],
+      "worksWithSections": [
+        "about",
+        "hero",
+        "services"
+      ],
+      "complexity": "medium",
+      "dependencies": [],
+      "frequency": 4
+    },
+    {
+      "id": "line-by-line-slide-up",
+      "name": "Line-by-Line Slide Up",
+      "category": "animation",
+      "description": "Each line of hero heading wraps in overflow:hidden div, text slides up from 100% y to 0. Staggered delays 0.3s, 0.45s, 0.6s. Very dramatic, cinematic.",
+      "codeSignature": "<div className='overflow-hidden'><motion.span initial={{ y: '100%' }} animate={{ y: 0 }} transition={{ delay: 0.3 * i }} /></div>",
+      "sources": [
+        "ehunter"
+      ],
+      "vibes": [
+        "bold",
+        "cinematic",
+        "dark",
+        "premium"
+      ],
+      "worksWithSections": [
+        "hero"
+      ],
+      "complexity": "medium",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "live-animated-counter",
+      "name": "Animated Number Counter",
+      "category": "animation",
+      "description": "Numbers count from 0 to target on viewport entry using useMotionValue + animate(). 1.5-2s duration with easeOut. For business metrics like '25 Years' or '2000+ Projects'.",
+      "codeSignature": "const controls = animate(count, target, { duration: 2, ease: [0.25, 0.46, 0.45, 0.94], onUpdate: v => setDisplayValue(Math.round(v)) })",
+      "sources": [
+        "agevia",
+        "essentia",
+        "etery",
+        "mobius",
+        "realdev"
+      ],
+      "vibes": [
+        "bold",
+        "professional",
+        "direct",
+        "premium"
+      ],
+      "worksWithSections": [
+        "stats"
+      ],
+      "complexity": "medium",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "frequency": 5
+    },
+    {
+      "id": "accordion-height-animation",
+      "name": "Accordion Expand/Collapse",
+      "category": "animation",
+      "description": "FAQ/service items expand with height 0→auto + opacity animation. Chevron rotates 180° on toggle. 0.3-0.4s duration.",
+      "codeSignature": "animate={{ height: open ? 'auto' : 0, opacity: open ? 1 : 0 }} + <ChevronDown className={open ? 'rotate-180' : ''} />",
+      "sources": [
+        "agevia",
+        "arpeggio",
+        "draftr",
+        "essentia",
+        "etery",
+        "heatfix",
+        "luxerra",
+        "marketing",
+        "mobius",
+        "opurent",
+        "platform",
+        "realdev",
+        "stratex"
+      ],
+      "vibes": [
+        "all"
+      ],
+      "worksWithSections": [
+        "faq",
+        "services"
+      ],
+      "complexity": "simple",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "frequency": 13
+    },
+    {
+      "id": "rotating-testimonials-carousel",
+      "name": "Rotating Testimonials Carousel",
+      "category": "animation",
+      "description": "Testimonials positioned in circular arrangement, rotate on auto-timer or manual controls. Each card fades in from x:30.",
+      "codeSignature": "animate={{ rotate: activeIndex * (360 / count) }} OR initial={{ opacity: 0, x: 30 }}, animate={{ opacity: 1, x: 0 }}",
+      "sources": [
+        "essentia",
+        "etery",
+        "nordiq",
+        "trades-clean",
+        "yachtera"
+      ],
+      "vibes": [
+        "premium",
+        "elegant",
+        "creative"
+      ],
+      "worksWithSections": [
+        "testimonials"
+      ],
+      "complexity": "complex",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "frequency": 5
+    },
+    {
+      "id": "3d-perspective-carousel",
+      "name": "3D Perspective Card Carousel",
+      "category": "animation",
+      "description": "Cards arranged with perspective:1200px, positioned absolutely with rotateY and z-depth. Creates immersive 3D browsing effect.",
+      "codeSignature": "perspective: 1200px on container, animate={{ rotateY, z }} per card",
+      "sources": [
+        "opurent",
+        "platform",
+        "stratex"
+      ],
+      "vibes": [
+        "premium",
+        "cinematic",
+        "immersive",
+        "bold"
+      ],
+      "worksWithSections": [
+        "testimonials",
+        "gallery",
+        "services"
+      ],
+      "complexity": "complex",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "scale-in-on-scroll",
+      "name": "Scale-In on Scroll",
+      "category": "animation",
+      "description": "Elements scale from 0.95 to 1.0 while fading in on viewport entry. Subtler than fade-up, good for galleries and images.",
+      "codeSignature": "initial={{ opacity: 0, scale: 0.95 }}, whileInView={{ opacity: 1, scale: 1 }}",
+      "sources": [
+        "clean-services",
+        "dark-immersive",
+        "forest-therapy",
+        "gardener",
+        "mobius",
+        "pilates",
+        "stratex",
+        "therapy",
+        "yachtera"
+      ],
+      "vibes": [
+        "elegant",
+        "premium",
+        "warm",
+        "calm"
+      ],
+      "worksWithSections": [
+        "gallery",
+        "team",
+        "about"
+      ],
+      "complexity": "simple",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "frequency": 9
+    },
+    {
+      "id": "decorative-leaf-float",
+      "name": "Floating Decorative Elements",
+      "category": "animation",
+      "description": "SVG decorative elements (leaves, shapes) float with CSS animation-delay offsets. Adds organic, natural movement to backgrounds.",
+      "codeSignature": ".leaf-float { animation: float 6s ease-in-out infinite; animation-delay: -3s; }",
+      "sources": [
+        "bamzi",
+        "kids-camp"
+      ],
+      "vibes": [
+        "warm",
+        "playful",
+        "creative",
+        "natural"
+      ],
+      "worksWithSections": [
+        "hero"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 2
+    },
+    {
+      "id": "scroll-hint-bounce",
+      "name": "Scroll Hint Bounce Indicator",
+      "category": "animation",
+      "description": "Small dot or line bounces vertically inside rounded container to indicate scrollability. Infinite loop, 1.5-2s duration.",
+      "codeSignature": "animate={{ y: [0, 12, 0] }}, transition={{ duration: 1.5, repeat: Infinity }}",
+      "sources": [
+        "gardener",
+        "real-estate",
+        "ehunter"
+      ],
+      "vibes": [
+        "elegant",
+        "premium",
+        "cinematic"
+      ],
+      "worksWithSections": [
+        "hero"
+      ],
+      "complexity": "simple",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "rotating-atom-icon",
+      "name": "Continuous Rotation Element",
+      "category": "animation",
+      "description": "Icon or element rotates 360° continuously over 20s. Creates ambient motion without user interaction.",
+      "codeSignature": "animate={{ rotate: 360 }}, transition={{ duration: 20, repeat: Infinity, ease: 'linear' }}",
+      "sources": [
+        "wellness-glass"
+      ],
+      "vibes": [
+        "modern",
+        "creative",
+        "premium"
+      ],
+      "worksWithSections": [
+        "about",
+        "services"
+      ],
+      "complexity": "simple",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "scroll-linked-parallax-hero",
+      "name": "Scroll-Linked Parallax Hero",
+      "category": "scroll",
+      "description": "Hero image/content transforms based on scroll position using useScroll + useTransform. Scale 1→1.15, opacity 1→0 as user scrolls past. Creates depth and cinematic feel.",
+      "codeSignature": "const { scrollYProgress } = useScroll({ target: ref, offset: ['start start', 'end start'] }); const scale = useTransform(scrollYProgress, [0, 1], [1, 1.15]); const opacity = useTransform(scrollYProgress, [0, 0.8], [1, 0]);",
+      "sources": [
+        "arpeggio",
+        "bamzi",
+        "ehunter",
+        "hotel",
+        "mobius",
+        "nordiq",
+        "opurent",
+        "platform",
+        "real-estate",
+        "yachtera"
+      ],
+      "vibes": [
+        "cinematic",
+        "premium",
+        "bold",
+        "immersive",
+        "elegant"
+      ],
+      "worksWithSections": [
+        "hero"
+      ],
+      "complexity": "complex",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "frequency": 10
+    },
+    {
+      "id": "sticky-scroll-cards",
+      "name": "Sticky Section with Scroll-Positioned Cards",
+      "category": "scroll",
+      "description": "Full-height container (N * 100vh) with sticky inner. Cards slide in from bottom (y:300→0) based on scroll position with opacity, scale, and z-index transforms. Used for services/process sections.",
+      "codeSignature": "style={{ height: `${items.length * 100}vh` }} + <div className='sticky top-0 h-screen'> + useTransform(scrollProgress, [startShow, endShow], [300, 0])",
+      "sources": [
+        "stratex",
+        "agevia"
+      ],
+      "vibes": [
+        "bold",
+        "premium",
+        "professional",
+        "creative"
+      ],
+      "worksWithSections": [
+        "services",
+        "process"
+      ],
+      "complexity": "complex",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "scroll-driven-character-reveal",
+      "name": "Scroll-Driven Character Reveal",
+      "category": "scroll",
+      "description": "Text reveals character-by-character linked to scroll position (not timing). Each character becomes visible as user scrolls through the section.",
+      "codeSignature": "const revealedChars = useTransform(scrollYProgress, [0.05, 0.6], [0, totalChars])",
+      "sources": [
+        "platform"
+      ],
+      "vibes": [
+        "modern",
+        "creative",
+        "premium",
+        "bold"
+      ],
+      "worksWithSections": [
+        "hero",
+        "about"
+      ],
+      "complexity": "complex",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "scroll-driven-story-reveal",
+      "name": "Scroll-Driven Story Reveal",
+      "category": "scroll",
+      "description": "Story phrases reveal progressively as user scrolls. Each phrase fades in, holds, then fades out. Container height = phrases * 60vh. Creates cinematic storytelling.",
+      "codeSignature": "style={{ height: `${phrases.length * 60}vh` }} + sticky top-0 h-screen + useTransform for opacity/y per phrase",
+      "sources": [
+        "realdev"
+      ],
+      "vibes": [
+        "cinematic",
+        "premium",
+        "immersive",
+        "elegant"
+      ],
+      "worksWithSections": [
+        "about"
+      ],
+      "complexity": "complex",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "scroll-driven-reason-cards",
+      "name": "Scroll-Driven Reason/Feature Display",
+      "category": "scroll",
+      "description": "Sticky section reveals one reason/feature at a time as user scrolls through multiple viewport heights. Left side shows progress dots, right side shows content.",
+      "codeSignature": "height: reasons.length * 100vh + sticky + activeIndex = Math.floor(scrollYProgress * reasons.length)",
+      "sources": [
+        "essentia"
+      ],
+      "vibes": [
+        "premium",
+        "elegant",
+        "minimal",
+        "clean"
+      ],
+      "worksWithSections": [
+        "services",
+        "about",
+        "value-prop"
+      ],
+      "complexity": "complex",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "scroll-following-product",
+      "name": "Scroll-Following Product Icon",
+      "category": "scroll",
+      "description": "Fixed product icon moves with scroll position (y, x, rotate, scale, opacity all linked to scroll). Creates a playful element that follows the user.",
+      "codeSignature": "y = useTransform(scrollYProgress, [0, 0.15, 0.35, 0.5], [100, -20, -100, -200]) + fixed top-1/2 left-1/2 pointer-events-none",
+      "sources": [
+        "arpeggio",
+        "essentia",
+        "platform"
+      ],
+      "vibes": [
+        "creative",
+        "playful",
+        "premium",
+        "elegant"
+      ],
+      "worksWithSections": [
+        "hero"
+      ],
+      "complexity": "complex",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "scroll-linked-blur-reveal",
+      "name": "Scroll-Linked Blur Reveal",
+      "category": "scroll",
+      "description": "Image starts blurred (20px) and clears as user scrolls. Combined with scale (1.1→1) and opacity (0.7→1). Creates premium reveal effect.",
+      "codeSignature": "blur = useTransform(scrollYProgress, [0, 0.6], [20, 0]); scale = useTransform(scrollYProgress, [0, 0.6], [1.1, 1]);",
+      "sources": [
+        "agevia",
+        "arpeggio",
+        "bamzi",
+        "dreelio",
+        "essentia",
+        "etery",
+        "forest-therapy",
+        "hotel",
+        "minimal-brand",
+        "mobius",
+        "nordiq",
+        "opurent",
+        "platform",
+        "real-estate",
+        "realdev",
+        "yachtera"
+      ],
+      "vibes": [
+        "premium",
+        "elegant",
+        "immersive",
+        "cinematic"
+      ],
+      "worksWithSections": [
+        "hero",
+        "gallery"
+      ],
+      "complexity": "complex",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "frequency": 16
+    },
+    {
+      "id": "sticky-hero-scale-shrink",
+      "name": "Sticky Hero Scale Shrink",
+      "category": "scroll",
+      "description": "Hero section stays sticky while scaling down (1→0.85) and fading out (1→0) as user scrolls past. Content behind is revealed.",
+      "codeSignature": "heroScale = useTransform(heroProgress, [0, 1], [1, 0.85]); heroOpacity = useTransform(heroProgress, [0.5, 1], [1, 0]);",
+      "sources": [
+        "mobius",
+        "nordiq",
+        "platform"
+      ],
+      "vibes": [
+        "bold",
+        "modern",
+        "creative",
+        "premium"
+      ],
+      "worksWithSections": [
+        "hero"
+      ],
+      "complexity": "complex",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "frequency": 3
+    },
+    {
+      "id": "expanding-footer-scale",
+      "name": "Expanding Footer on Scroll",
+      "category": "scroll",
+      "description": "Footer scales from 0.9→1 and border-radius from 48px→0 as user scrolls to bottom. Creates satisfying page-end reveal.",
+      "codeSignature": "footerScale = useTransform(footerProgress, [0, 0.5], [0.9, 1]); footerRadius = useTransform(footerProgress, [0, 0.5], [48, 0]);",
+      "sources": [
+        "arpeggio"
+      ],
+      "vibes": [
+        "creative",
+        "premium",
+        "bold",
+        "modern"
+      ],
+      "worksWithSections": [
+        "footer"
+      ],
+      "complexity": "medium",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "card-scroll-3d-animation",
+      "name": "3D Card Scroll Animation",
+      "category": "scroll",
+      "description": "Portfolio cards appear from below with 3D rotation (15°), scale (0.4→1), and alternating x-offset based on scroll position. Dramatic reveal for project showcases.",
+      "codeSignature": "cardRotation = useTransform(cardProgress, [0, 0.5, 1], [15 * (i % 2 === 0 ? 1 : -1), 0, 0]); cardScale = useTransform(cardProgress, [0, 1], [0.4, 1]);",
+      "sources": [
+        "arpeggio"
+      ],
+      "vibes": [
+        "bold",
+        "creative",
+        "premium",
+        "dynamic"
+      ],
+      "worksWithSections": [
+        "gallery",
+        "services"
+      ],
+      "complexity": "complex",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "expanding-circle-divider",
+      "name": "Expanding Circle Section Transition",
+      "category": "scroll",
+      "description": "Circle expands from center (scale 0→60) as user scrolls through transition area. Creates dramatic section boundary.",
+      "codeSignature": "circleScale = useTransform(scrollProgress, [0, 0.8, 1], [0, 0.5, 60]);",
+      "sources": [
+        "arpeggio"
+      ],
+      "vibes": [
+        "bold",
+        "creative",
+        "dynamic"
+      ],
+      "worksWithSections": [
+        "cta",
+        "about"
+      ],
+      "complexity": "complex",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "rotating-product-on-scroll",
+      "name": "Product Rotation on Scroll",
+      "category": "scroll",
+      "description": "Product image rotates 0→360° on Y-axis with scale pulse (0.8→1→0.8) as user scrolls. Perfect for product showcases.",
+      "codeSignature": "rotate = useTransform(scrollYProgress, [0, 1], [0, 360]); scale = useTransform(scrollYProgress, [0, 0.5, 1], [0.8, 1, 0.8]);",
+      "sources": [
+        "nordiq",
+        "platform"
+      ],
+      "vibes": [
+        "premium",
+        "elegant",
+        "creative"
+      ],
+      "worksWithSections": [
+        "gallery",
+        "services"
+      ],
+      "complexity": "complex",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "scroll-step-image-reveal",
+      "name": "Scroll-Linked Step Image Reveal",
+      "category": "scroll",
+      "description": "Step/process images fade in and scale (1.1→1) linked to scroll position over each card. Creates progressive reveal as user reads each step.",
+      "codeSignature": "imgOpacity = useTransform(scrollYProgress, [0, 0.5, 1], [0, 0.5, 1]); imgScale = useTransform(scrollYProgress, [0, 1], [1.1, 1]);",
+      "sources": [
+        "essentia"
+      ],
+      "vibes": [
+        "premium",
+        "elegant",
+        "clean"
+      ],
+      "worksWithSections": [
+        "process"
+      ],
+      "complexity": "medium",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "floating-3d-polyhedrons",
+      "name": "Floating 3D Geometric Shapes",
+      "category": "scroll",
+      "description": "Geometric shapes float upward with scroll-linked y, opacity, and scale transforms. 3 shapes with staggered start positions create depth.",
+      "codeSignature": "ballY = useTransform(scrollYProgress, [0.15, 0.8], [200, -80]); ballOpacity = useTransform(scrollYProgress, [0.1, 0.25, 0.8, 0.95], [0, 1, 1, 0]);",
+      "sources": [
+        "platform"
+      ],
+      "vibes": [
+        "modern",
+        "creative",
+        "bold",
+        "tech"
+      ],
+      "worksWithSections": [
+        "hero",
+        "about"
+      ],
+      "complexity": "complex",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "infinite-horizontal-marquee",
+      "name": "Infinite Horizontal Marquee",
+      "category": "marquee",
+      "description": "Content scrolls infinitely left at constant speed. Items duplicated for seamless loop. 25-40s duration, pauses on hover. Used for testimonials, logos, service names.",
+      "codeSignature": "animate={{ x: ['0%', '-50%'] }}, transition={{ duration: 30, repeat: Infinity, ease: 'linear' }} OR CSS: animation: marquee-scroll 35s linear infinite;",
+      "sources": [
+        "agevia",
+        "arpeggio",
+        "bamzi",
+        "clean-services",
+        "cleaning",
+        "draftr",
+        "dreelio",
+        "ehunter",
+        "essentia",
+        "etery",
+        "gardener",
+        "handyman",
+        "heatfix",
+        "luxerra",
+        "marketing",
+        "minimal-brand",
+        "mobius",
+        "nordiq",
+        "opurent",
+        "pilates",
+        "platform",
+        "real-estate",
+        "realdev",
+        "restaurant-dark",
+        "stratex",
+        "yachtera"
+      ],
+      "vibes": [
+        "all"
+      ],
+      "worksWithSections": [
+        "testimonials",
+        "ticker",
+        "logos",
+        "gallery"
+      ],
+      "complexity": "medium",
+      "dependencies": [],
+      "frequency": 26
+    },
+    {
+      "id": "opposing-direction-marquees",
+      "name": "Opposing-Direction Image Marquees",
+      "category": "marquee",
+      "description": "Two rows of image cards scroll in opposite directions (left and right). Creates dynamic visual energy.",
+      "codeSignature": ".marquee-left { animation: scroll-left 30s linear infinite; } .marquee-right { animation: scroll-right 30s linear infinite; }",
+      "sources": [
+        "marketing"
+      ],
+      "vibes": [
+        "creative",
+        "bold",
+        "dynamic",
+        "modern"
+      ],
+      "worksWithSections": [
+        "hero",
+        "gallery"
+      ],
+      "complexity": "medium",
+      "dependencies": [],
+      "frequency": 1
+    },
+    {
+      "id": "rotating-question-rows",
+      "name": "Rotating Question/Tag Rows",
+      "category": "marquee",
+      "description": "Multiple rows of text pills scrolling in alternating directions at different speeds. Creates a 'wall of questions/challenges' effect. 3 rows with ticker-left and ticker-right CSS.",
+      "codeSignature": ".ticker-left { animation: ticker-left 25s linear infinite; } .ticker-right { animation: ticker-right 30s linear infinite; }",
+      "sources": [
+        "agevia",
+        "stratex"
+      ],
+      "vibes": [
+        "professional",
+        "bold",
+        "creative"
+      ],
+      "worksWithSections": [
+        "intro",
+        "services",
+        "about"
+      ],
+      "complexity": "medium",
+      "dependencies": [],
+      "frequency": 2
+    },
+    {
+      "id": "large-flowing-marquee-text",
+      "name": "Large Flowing Background Marquee",
+      "category": "marquee",
+      "description": "Extra-large semi-transparent text (5-9rem) flows as marquee behind content. Creates depth layer with text at 4% opacity.",
+      "codeSignature": "text-[clamp(5rem,10vw,9rem)] text-[var(--brand-text)]/[0.04] + marquee animation",
+      "sources": [
+        "agevia",
+        "arpeggio",
+        "bamzi",
+        "minimal-brand"
+      ],
+      "vibes": [
+        "premium",
+        "elegant",
+        "creative",
+        "warm"
+      ],
+      "worksWithSections": [
+        "hero",
+        "services",
+        "gallery"
+      ],
+      "complexity": "medium",
+      "dependencies": [],
+      "frequency": 4
+    },
+    {
+      "id": "vertical-feed-scroll",
+      "name": "Vertical Feed Scroll",
+      "category": "marquee",
+      "description": "Content scrolls vertically inside a fixed-height container. Creates activity feed or customer notification feel.",
+      "codeSignature": "h-[200px] overflow-hidden + .vertical-scroll { animation: scroll-y 15s linear infinite; }",
+      "sources": [
+        "etery"
+      ],
+      "vibes": [
+        "modern",
+        "tech",
+        "creative"
+      ],
+      "worksWithSections": [
+        "services",
+        "testimonials"
+      ],
+      "complexity": "medium",
+      "dependencies": [],
+      "frequency": 1
+    },
+    {
+      "id": "css-columns-masonry",
+      "name": "CSS Columns Masonry Gallery",
+      "category": "layout",
+      "description": "Photos arranged in responsive CSS columns (not grid) with break-inside-avoid. Items have varying aspect ratios for organic masonry feel. 1→2→3 columns responsive.",
+      "codeSignature": "<div className='columns-1 sm:columns-2 lg:columns-3 gap-4 space-y-4'> + className='break-inside-avoid'",
+      "sources": [
+        "gardener",
+        "real-estate"
+      ],
+      "vibes": [
+        "elegant",
+        "warm",
+        "creative",
+        "premium"
+      ],
+      "worksWithSections": [
+        "gallery",
+        "testimonials"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 2
+    },
+    {
+      "id": "split-hero-layout",
+      "name": "Split Two-Column Hero",
+      "category": "layout",
+      "description": "Hero divided into text (left) and image/visual (right) in a 2-column grid. Balanced, professional composition.",
+      "codeSignature": "grid lg:grid-cols-2 gap-12 items-center",
+      "sources": [
+        "draftr",
+        "therapy",
+        "essentia"
+      ],
+      "vibes": [
+        "professional",
+        "friendly",
+        "balanced",
+        "clean"
+      ],
+      "worksWithSections": [
+        "hero"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 3
+    },
+    {
+      "id": "overlapping-sections",
+      "name": "Overlapping Sections with Z-Index Cascade",
+      "category": "layout",
+      "description": "Sections use negative margins (-mt-1 to -mt-6) and increasing z-index to create a stacked card effect. Each section visually overlaps the previous one with rounded-t-[2rem].",
+      "codeSignature": "className='-mt-6 z-20 relative rounded-t-[2rem] bg-white'",
+      "sources": [
+        "draftr",
+        "forest-therapy",
+        "therapy"
+      ],
+      "vibes": [
+        "elegant",
+        "creative",
+        "warm",
+        "personal"
+      ],
+      "worksWithSections": [
+        "services",
+        "about",
+        "testimonials"
+      ],
+      "complexity": "medium",
+      "dependencies": [],
+      "frequency": 3
+    },
+    {
+      "id": "grid-offset-rows",
+      "name": "Grid with Offset Row Heights",
+      "category": "layout",
+      "description": "Cards in a grid have staggered marginTop (i * 24px) creating visual rhythm with uneven heights. Breaks the rigid grid feel.",
+      "codeSignature": "style={{ marginTop: i * 24 }}",
+      "sources": [
+        "therapy"
+      ],
+      "vibes": [
+        "creative",
+        "elegant",
+        "premium"
+      ],
+      "worksWithSections": [
+        "services",
+        "team"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 1
+    },
+    {
+      "id": "circular-images",
+      "name": "Circular Image Containers",
+      "category": "layout",
+      "description": "Images displayed in perfect circles (rounded-full) or near-circles. Creates unique, appetizing or personal presentation.",
+      "codeSignature": "w-56 h-56 rounded-full mx-auto overflow-hidden",
+      "sources": [
+        "agevia",
+        "arpeggio",
+        "bamzi",
+        "clean-services",
+        "cleaning",
+        "draftr",
+        "dreelio",
+        "ehunter",
+        "essentia",
+        "etery",
+        "forest-therapy",
+        "gardener",
+        "handyman",
+        "heatfix",
+        "hotel",
+        "kids-camp",
+        "luxerra",
+        "marketing",
+        "minimal-brand",
+        "mobius",
+        "nordiq",
+        "opurent",
+        "pilates",
+        "platform",
+        "real-estate",
+        "realdev",
+        "restaurant-dark",
+        "stratex",
+        "therapy",
+        "trades-clean",
+        "wellness-glass",
+        "yachtera"
+      ],
+      "vibes": [
+        "warm",
+        "elegant",
+        "premium",
+        "creative"
+      ],
+      "worksWithSections": [
+        "services",
+        "gallery",
+        "team"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 32
+    },
+    {
+      "id": "split-menu-layout",
+      "name": "Split Menu/Catalog Layout",
+      "category": "layout",
+      "description": "Two-column layout: left side has huge title + list items, right side has full image. Used for restaurant menus, service catalogs.",
+      "codeSignature": "grid md:grid-cols-2 gap-16 + space-y-0 with border-b items",
+      "sources": [
+        "bamzi"
+      ],
+      "vibes": [
+        "premium",
+        "elegant",
+        "warm"
+      ],
+      "worksWithSections": [
+        "menu",
+        "services"
+      ],
+      "complexity": "medium",
+      "dependencies": [],
+      "frequency": 1
+    },
+    {
+      "id": "transitional-color-split",
+      "name": "Transitional Color-Split Section",
+      "category": "layout",
+      "description": "50/50 split of two background colors with centered circular image overlapping both. Creates visual transition between sections.",
+      "codeSignature": "<div className='bg-cream h-[180px]' /><div className='bg-dark h-[180px]' /> + absolute centered circle overlapping both",
+      "sources": [
+        "bamzi"
+      ],
+      "vibes": [
+        "creative",
+        "premium",
+        "warm"
+      ],
+      "worksWithSections": [
+        "cta",
+        "about"
+      ],
+      "complexity": "medium",
+      "dependencies": [],
+      "frequency": 1
+    },
+    {
+      "id": "schedule-table-grid",
+      "name": "Schedule/Table Grid Layout",
+      "category": "layout",
+      "description": "Structured data displayed in 4-column grid table with header row, grouped by day/category. Hover changes row background color.",
+      "codeSignature": "grid grid-cols-4 gap-4 px-6 py-3 + hover:bg-[var(--brand-bg-alt)] transition-colors",
+      "sources": [
+        "agevia",
+        "arpeggio",
+        "bold-stats",
+        "cleaning",
+        "dark-immersive",
+        "draftr",
+        "dreelio",
+        "ehunter",
+        "etery",
+        "forest-therapy",
+        "gardener",
+        "handyman",
+        "heatfix",
+        "kids-camp",
+        "luxerra",
+        "nordiq",
+        "pilates",
+        "platform",
+        "real-estate",
+        "realdev",
+        "stratex",
+        "trades-clean",
+        "warm-editorial",
+        "yachtera"
+      ],
+      "vibes": [
+        "clean",
+        "professional",
+        "organized"
+      ],
+      "worksWithSections": [
+        "services",
+        "pricing"
+      ],
+      "complexity": "medium",
+      "dependencies": [],
+      "frequency": 24
+    },
+    {
+      "id": "pricing-highlighted-middle",
+      "name": "Highlighted Middle Pricing Tier",
+      "category": "layout",
+      "description": "3-tier pricing where middle tier is visually emphasized with different background, scale(1.02), ring-2, and color inversion.",
+      "codeSignature": "tier.highlighted ? 'bg-[var(--brand-primary)] text-white ring-2 scale-[1.02]' : 'bg-white border'",
+      "sources": [
+        "draftr",
+        "dreelio",
+        "etery",
+        "forest-therapy",
+        "mobius",
+        "pilates"
+      ],
+      "vibes": [
+        "professional",
+        "clean",
+        "premium"
+      ],
+      "worksWithSections": [
+        "pricing"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 6
+    },
+    {
+      "id": "studio-gallery-featured-first",
+      "name": "Gallery with Featured First Item",
+      "category": "layout",
+      "description": "First gallery item spans 2 columns and 2 rows (col-span-2 row-span-2), remaining items are standard aspect-[4/3]. Creates visual hierarchy.",
+      "codeSignature": "i === 0 ? 'col-span-2 row-span-2 aspect-square' : 'aspect-[4/3]'",
+      "sources": [
+        "pilates"
+      ],
+      "vibes": [
+        "creative",
+        "premium",
+        "visual"
+      ],
+      "worksWithSections": [
+        "gallery"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 1
+    },
+    {
+      "id": "horizontal-class-rows",
+      "name": "Horizontal Data Rows Layout",
+      "category": "layout",
+      "description": "Items displayed as wide horizontal rows with custom grid columns (number, title, detail, time). Divided by borders. Good for classes, services, menus.",
+      "codeSignature": "grid md:grid-cols-[4rem_1fr_auto_12rem] gap-8 py-10 + divide-y",
+      "sources": [
+        "wellness-glass",
+        "cleaning"
+      ],
+      "vibes": [
+        "clean",
+        "professional",
+        "premium"
+      ],
+      "worksWithSections": [
+        "services",
+        "pricing"
+      ],
+      "complexity": "medium",
+      "dependencies": [],
+      "frequency": 2
+    },
+    {
+      "id": "staggered-image-heights",
+      "name": "Staggered Image Heights in Grid",
+      "category": "layout",
+      "description": "3-column image grid where columns have different heights (380px, 520px, 380px). Creates dynamic visual rhythm.",
+      "codeSignature": "h-[380px] / h-[520px] / h-[380px] in 3-column grid",
+      "sources": [
+        "wellness-glass"
+      ],
+      "vibes": [
+        "creative",
+        "premium",
+        "elegant"
+      ],
+      "worksWithSections": [
+        "about",
+        "gallery"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 1
+    },
+    {
+      "id": "gallery-collage-css-grid",
+      "name": "Gallery Collage with Auto-Flow Grid",
+      "category": "layout",
+      "description": "Items flow naturally in CSS Grid with auto-fill and varying sizes. Creates organic collage feel for camp/event photos.",
+      "codeSignature": ".gallery-collage with CSS Grid auto-flow",
+      "sources": [
+        "kids-camp"
+      ],
+      "vibes": [
+        "playful",
+        "warm",
+        "creative",
+        "fun"
+      ],
+      "worksWithSections": [
+        "gallery"
+      ],
+      "complexity": "medium",
+      "dependencies": [],
+      "frequency": 1
+    },
+    {
+      "id": "floating-card-with-shadow",
+      "name": "Floating Stat Card",
+      "category": "layout",
+      "description": "Card positioned absolutely at negative offset (-bottom-6 -left-6) with shadow-2xl, floating above adjacent content.",
+      "codeSignature": "absolute -bottom-6 -left-6 bg-white rounded-2xl shadow-2xl",
+      "sources": [
+        "real-estate"
+      ],
+      "vibes": [
+        "professional",
+        "bold",
+        "premium"
+      ],
+      "worksWithSections": [
+        "about",
+        "stats"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 1
+    },
+    {
+      "id": "comparison-table-glassmorphism",
+      "name": "Glassmorphism Comparison Table",
+      "category": "layout",
+      "description": "Semi-transparent table with backdrop-blur and gradient borders. Rows highlight on hover. Used for 'us vs them' comparisons.",
+      "codeSignature": "bg-white/[0.04] backdrop-blur-xl border border-white/10 + hover:bg-white/[0.02]",
+      "sources": [
+        "real-estate"
+      ],
+      "vibes": [
+        "premium",
+        "bold",
+        "dark",
+        "modern"
+      ],
+      "worksWithSections": [
+        "comparison"
+      ],
+      "complexity": "medium",
+      "dependencies": [],
+      "frequency": 1
+    },
+    {
+      "id": "image-zoom-on-hover",
+      "name": "Image Zoom on Hover",
+      "category": "hover",
+      "description": "Image scales 1.05-1.10x on card hover with 500-700ms transition. The universal hover effect for image cards.",
+      "codeSignature": "group-hover:scale-105 transition-transform duration-700",
+      "sources": [
+        "arpeggio",
+        "bamzi",
+        "clean-services",
+        "cleaning",
+        "ehunter",
+        "essentia",
+        "gardener",
+        "handyman",
+        "hotel",
+        "luxerra",
+        "marketing",
+        "minimal-brand",
+        "nordiq",
+        "opurent",
+        "pilates",
+        "real-estate",
+        "trades-clean",
+        "yachtera"
+      ],
+      "vibes": [
+        "all"
+      ],
+      "worksWithSections": [
+        "gallery",
+        "services",
+        "team"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 18
+    },
+    {
+      "id": "card-shadow-elevation",
+      "name": "Card Shadow Elevation on Hover",
+      "category": "hover",
+      "description": "Card gains deeper shadow on hover. Creates a 'lifting' tactile feel.",
+      "codeSignature": "hover:shadow-xl transition-all duration-300",
+      "sources": [
+        "cleaning",
+        "handyman",
+        "heatfix",
+        "pilates",
+        "real-estate"
+      ],
+      "vibes": [
+        "all"
+      ],
+      "worksWithSections": [
+        "services",
+        "pricing",
+        "team"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 5
+    },
+    {
+      "id": "card-lift-translate",
+      "name": "Card Lift on Hover",
+      "category": "hover",
+      "description": "Card moves up 4px (-translate-y-1) on hover creating a physical lift effect. Combined with shadow.",
+      "codeSignature": "hover:-translate-y-1 hover:shadow-lg transition-all duration-300",
+      "sources": [
+        "handyman"
+      ],
+      "vibes": [
+        "clean",
+        "professional",
+        "friendly"
+      ],
+      "worksWithSections": [
+        "services",
+        "team",
+        "pricing"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 1
+    },
+    {
+      "id": "gallery-overlay-reveal",
+      "name": "Gallery Image Overlay + Label Reveal",
+      "category": "hover",
+      "description": "On hover: image scales 1.05x AND dark overlay (0→40% opacity) appears with label text sliding up. Three simultaneous effects.",
+      "codeSignature": "group-hover:scale-105 + bg-black/0 group-hover:bg-black/40 + opacity-0 group-hover:opacity-100 translate-y-2 group-hover:translate-y-0",
+      "sources": [
+        "gardener",
+        "kids-camp",
+        "mobius"
+      ],
+      "vibes": [
+        "elegant",
+        "premium",
+        "creative"
+      ],
+      "worksWithSections": [
+        "gallery"
+      ],
+      "complexity": "medium",
+      "dependencies": [],
+      "frequency": 3
+    },
+    {
+      "id": "icon-background-shift",
+      "name": "Icon Background Opacity Shift",
+      "category": "hover",
+      "description": "Service card icon background changes opacity (10%→20%) on card hover. Subtle, professional.",
+      "codeSignature": "bg-[var(--brand-accent)]/10 group-hover:bg-[var(--brand-accent)]/20 transition-colors",
+      "sources": [
+        "handyman",
+        "heatfix"
+      ],
+      "vibes": [
+        "professional",
+        "clean",
+        "friendly"
+      ],
+      "worksWithSections": [
+        "services",
+        "process"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 2
+    },
+    {
+      "id": "button-arrow-hover",
+      "name": "Button Arrow Gap Expansion",
+      "category": "hover",
+      "description": "CTA button with arrow icon — gap between text and arrow increases on hover (gap-2→gap-3). Arrow slides further out.",
+      "codeSignature": "inline-flex items-center gap-2 group-hover:gap-3 transition-all",
+      "sources": [
+        "draftr",
+        "agevia"
+      ],
+      "vibes": [
+        "professional",
+        "clean",
+        "modern"
+      ],
+      "worksWithSections": [
+        "hero",
+        "cta"
+      ],
+      "complexity": "simple",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "mix-blend-difference-cursor",
+      "name": "Mix-Blend-Difference Custom Cursor",
+      "category": "hover",
+      "description": "Fixed red/colored circle follows mouse position with mix-blend-difference. Inverts background colors wherever cursor is positioned. Cinematic, editorial.",
+      "codeSignature": "fixed w-6 h-6 rounded-full bg-red-600 mix-blend-difference pointer-events-none + onMouseMove tracking",
+      "sources": [
+        "arpeggio",
+        "ehunter",
+        "mobius",
+        "opurent"
+      ],
+      "vibes": [
+        "cinematic",
+        "premium",
+        "bold",
+        "creative"
+      ],
+      "worksWithSections": [
+        "hero"
+      ],
+      "complexity": "complex",
+      "dependencies": [],
+      "frequency": 4
+    },
+    {
+      "id": "mix-blend-difference-navbar",
+      "name": "Mix-Blend-Difference Navbar",
+      "category": "hover",
+      "description": "Fixed navbar uses mix-blend-difference so text always contrasts with background regardless of section color. No need for scroll-aware color changes.",
+      "codeSignature": "fixed top-0 z-50 mix-blend-difference text-white",
+      "sources": [
+        "arpeggio",
+        "ehunter",
+        "mobius",
+        "opurent"
+      ],
+      "vibes": [
+        "cinematic",
+        "dark",
+        "bold",
+        "premium"
+      ],
+      "worksWithSections": [
+        "hero"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 4
+    },
+    {
+      "id": "project-card-arrow-reveal",
+      "name": "Arrow Icon Reveal on Hover",
+      "category": "hover",
+      "description": "Arrow icon appears in bottom-right of card on hover with opacity transition. Indicates clickability.",
+      "codeSignature": "opacity-0 group-hover:opacity-100 transition-opacity duration-300",
+      "sources": [
+        "ehunter",
+        "nordiq"
+      ],
+      "vibes": [
+        "premium",
+        "clean",
+        "professional"
+      ],
+      "worksWithSections": [
+        "gallery",
+        "services",
+        "blog"
+      ],
+      "complexity": "simple",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "card-background-color-shift",
+      "name": "Card Background Color Shift on Hover",
+      "category": "hover",
+      "description": "Card background color darkens or lightens on hover (e.g., from #1B4332 to #2D6A4F).",
+      "codeSignature": "bg-[#1B4332] hover:bg-[#2D6A4F] transition-colors duration-300",
+      "sources": [
+        "gardener"
+      ],
+      "vibes": [
+        "elegant",
+        "premium",
+        "bold"
+      ],
+      "worksWithSections": [
+        "services"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 1
+    },
+    {
+      "id": "slide-in-from-sides",
+      "name": "Cards Slide In from Left/Right",
+      "category": "animation",
+      "description": "Service cards slide in from -40px (left) or 40px (right) alternating by index. Creates dynamic visual flow.",
+      "codeSignature": "initial={{ opacity: 0, x: i % 2 === 0 ? -40 : 40 }}, whileInView={{ opacity: 1, x: 0 }}",
+      "sources": [
+        "marketing",
+        "bamzi"
+      ],
+      "vibes": [
+        "creative",
+        "dynamic",
+        "bold"
+      ],
+      "worksWithSections": [
+        "services",
+        "about",
+        "menu"
+      ],
+      "complexity": "simple",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "fluid-clamp-headings",
+      "name": "Fluid Clamp Typography",
+      "category": "typography",
+      "description": "Headings use CSS clamp() for fluid sizing. Responsive without breakpoints. Typically clamp(2.5rem, 5-7vw, 4.5-6.5rem) with tight tracking (-0.02 to -0.04em).",
+      "codeSignature": "text-[clamp(2.5rem,5vw,4.5rem)] leading-[1.1] tracking-[-0.02em]",
+      "sources": [
+        "all"
+      ],
+      "vibes": [
+        "all"
+      ],
+      "worksWithSections": [
+        "all"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 28
+    },
+    {
+      "id": "serif-display-font",
+      "name": "Serif Display Font",
+      "category": "typography",
+      "description": "Serif font for display headings creating premium, editorial, or luxury feel. Uses font-[family-name:var(--font-display)].",
+      "codeSignature": "font-[family-name:var(--font-display)] text-[clamp(2rem,4vw,3rem)] font-medium",
+      "sources": [
+        "bamzi",
+        "gardener",
+        "nordiq",
+        "pilates",
+        "real-estate",
+        "yachtera"
+      ],
+      "vibes": [
+        "elegant",
+        "premium",
+        "warm",
+        "editorial"
+      ],
+      "worksWithSections": [
+        "hero",
+        "about",
+        "services"
+      ],
+      "complexity": "simple",
+      "dependencies": [
+        "next/font"
+      ],
+      "frequency": 6
+    },
+    {
+      "id": "italic-accent-text",
+      "name": "Italic Accent in Headlines",
+      "category": "typography",
+      "description": "Specific words in headline are italic (and sometimes in accent color). Creates emphasis and personality. Often used for business descriptor.",
+      "codeSignature": "<em className='italic text-[var(--brand-accent)]'>body & mind</em>",
+      "sources": [
+        "agevia",
+        "bamzi",
+        "marketing",
+        "pilates"
+      ],
+      "vibes": [
+        "creative",
+        "elegant",
+        "warm",
+        "personal"
+      ],
+      "worksWithSections": [
+        "hero",
+        "about"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 4
+    },
+    {
+      "id": "uppercase-tracking-labels",
+      "name": "Uppercase Tracked Section Labels",
+      "category": "typography",
+      "description": "Section labels in tiny uppercase text with wide letter spacing. Creates editorial hierarchy above main headings.",
+      "codeSignature": "text-xs uppercase tracking-[0.2em] font-semibold text-[var(--brand-accent)]",
+      "sources": [
+        "agevia",
+        "cleaning",
+        "gardener",
+        "handyman",
+        "heatfix",
+        "kids-camp",
+        "luxerra",
+        "marketing",
+        "nordiq",
+        "pilates",
+        "therapy",
+        "yachtera"
+      ],
+      "vibes": [
+        "all"
+      ],
+      "worksWithSections": [
+        "all"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 12
+    },
+    {
+      "id": "monospace-metadata",
+      "name": "Monospace for Metadata",
+      "category": "typography",
+      "description": "Phone numbers, hours, addresses, and other structured data displayed in monospace font. Creates technical, organized feel.",
+      "codeSignature": "font-[family-name:var(--font-mono)] text-sm",
+      "sources": [
+        "cleaning",
+        "ehunter",
+        "kids-camp",
+        "marketing",
+        "pilates",
+        "wellness-glass"
+      ],
+      "vibes": [
+        "modern",
+        "clean",
+        "professional",
+        "organized"
+      ],
+      "worksWithSections": [
+        "contact",
+        "footer",
+        "services"
+      ],
+      "complexity": "simple",
+      "dependencies": [
+        "next/font"
+      ],
+      "frequency": 6
+    },
+    {
+      "id": "giant-brand-text",
+      "name": "Giant Brand Typography",
+      "category": "typography",
+      "description": "Extremely large brand name text: clamp(6rem, 20vw, 18-20rem). Fills the viewport width. Creates immediate brand impact.",
+      "codeSignature": "text-[clamp(6rem,20vw,18rem)] font-black leading-[0.85] tracking-[-0.04em]",
+      "sources": [
+        "minimal-brand",
+        "mobius",
+        "nordiq"
+      ],
+      "vibes": [
+        "bold",
+        "premium",
+        "creative",
+        "cinematic"
+      ],
+      "worksWithSections": [
+        "hero"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 3
+    },
+    {
+      "id": "colored-accent-word",
+      "name": "Single Colored Accent Word",
+      "category": "typography",
+      "description": "One word in a headline rendered in brand accent color. Draws eye to key descriptor.",
+      "codeSignature": "<span className='text-[var(--brand-accent)]'>repairs</span>",
+      "sources": [
+        "agevia",
+        "ehunter",
+        "handyman",
+        "heatfix",
+        "luxerra"
+      ],
+      "vibes": [
+        "all"
+      ],
+      "worksWithSections": [
+        "hero",
+        "about",
+        "services"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 5
+    },
+    {
+      "id": "font-light-headings",
+      "name": "Font-Light Elegant Headings",
+      "category": "typography",
+      "description": "Section headings use font-light (300 weight) instead of bold for elegant, minimal feel. Combined with large fluid sizing.",
+      "codeSignature": "text-[clamp(2.5rem,5vw,4.5rem)] font-light leading-[1.1]",
+      "sources": [
+        "cleaning",
+        "wellness-glass",
+        "forest-therapy"
+      ],
+      "vibes": [
+        "elegant",
+        "minimal",
+        "calm",
+        "premium"
+      ],
+      "worksWithSections": [
+        "hero",
+        "about",
+        "services"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 3
+    },
+    {
+      "id": "serif-italic-display",
+      "name": "Serif Italic Full Display",
+      "category": "typography",
+      "description": "All major headings use italic serif font. Creates warm, personal, appetizing feel. Signature look for food/lifestyle brands.",
+      "codeSignature": "font-[family-name:var(--font-display)] italic font-light text-[clamp(3rem,6vw,4.5rem)]",
+      "sources": [
+        "bamzi"
+      ],
+      "vibes": [
+        "warm",
+        "elegant",
+        "premium",
+        "personal"
+      ],
+      "worksWithSections": [
+        "hero",
+        "menu",
+        "about"
+      ],
+      "complexity": "simple",
+      "dependencies": [
+        "next/font"
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "film-grain-overlay",
+      "name": "Film Grain Noise Overlay",
+      "category": "visual",
+      "description": "SVG turbulence noise pattern layered over sections with mix-blend-mode. Creates warm, analog, cinematic feel at 3-6% opacity.",
+      "codeSignature": "body::after { content: ''; position: fixed; inset: 0; background-image: url('data:image/svg+xml,...turbulence...'); mix-blend-mode: hard-light; opacity: 0.04; }",
+      "sources": [
+        "ehunter",
+        "opurent"
+      ],
+      "vibes": [
+        "cinematic",
+        "warm",
+        "premium",
+        "editorial",
+        "analog"
+      ],
+      "worksWithSections": [
+        "hero",
+        "about"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 2
+    },
+    {
+      "id": "dot-pattern-background",
+      "name": "Dot Pattern Background",
+      "category": "visual",
+      "description": "Radial gradient dots at low opacity (0.08) create subtle texture. 40px spacing. Works on both light and dark backgrounds.",
+      "codeSignature": "backgroundImage: 'radial-gradient(circle at 1px 1px, rgba(255,255,255,0.08) 1px, transparent 0)', backgroundSize: '40px 40px'",
+      "sources": [
+        "bamzi",
+        "handyman",
+        "marketing",
+        "real-estate",
+        "stratex"
+      ],
+      "vibes": [
+        "modern",
+        "clean",
+        "professional",
+        "bold"
+      ],
+      "worksWithSections": [
+        "hero",
+        "pricing",
+        "cta"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 5
+    },
+    {
+      "id": "glass-morphism",
+      "name": "Glassmorphism Effect",
+      "category": "visual",
+      "description": "Semi-transparent background (white/10-90) with backdrop-blur creating frosted glass effect. Used on navbars, cards, overlays.",
+      "codeSignature": "bg-white/10 backdrop-blur-[16px] rounded-xl border border-white/20",
+      "sources": [
+        "agevia",
+        "arpeggio",
+        "clean-services",
+        "draftr",
+        "essentia",
+        "forest-therapy",
+        "handyman",
+        "heatfix",
+        "hotel",
+        "kids-camp",
+        "mobius",
+        "nordiq",
+        "opurent",
+        "pilates",
+        "real-estate",
+        "realdev",
+        "stratex",
+        "trades-clean",
+        "wellness-glass"
+      ],
+      "vibes": [
+        "premium",
+        "modern",
+        "elegant",
+        "creative"
+      ],
+      "worksWithSections": [
+        "hero",
+        "testimonials",
+        "navbar"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 19
+    },
+    {
+      "id": "gradient-hero-overlays",
+      "name": "Multi-Layer Gradient Overlays",
+      "category": "visual",
+      "description": "Stacked gradient layers on hero images: bg-gradient-to-t, bg-gradient-to-r, bg-black/20. Controls readability and mood.",
+      "codeSignature": "<div className='absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent' /> + <div className='absolute inset-0 bg-gradient-to-r from-black/60 to-transparent' />",
+      "sources": [
+        "all"
+      ],
+      "vibes": [
+        "all"
+      ],
+      "worksWithSections": [
+        "hero",
+        "cta"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 25
+    },
+    {
+      "id": "particle-field-background",
+      "name": "Particle Field Background",
+      "category": "visual",
+      "description": "200 radial-gradient circles creating nebula/star field. Center-biased positioning. Deep space aesthetic for tech/SaaS.",
+      "codeSignature": "Array.from({length: 200}).map(() => radial-gradient dot at random position, center-biased)",
+      "sources": [
+        "platform"
+      ],
+      "vibes": [
+        "modern",
+        "tech",
+        "creative",
+        "bold"
+      ],
+      "worksWithSections": [
+        "hero"
+      ],
+      "complexity": "complex",
+      "dependencies": [],
+      "frequency": 1
+    },
+    {
+      "id": "sky-gradient-clouds",
+      "name": "Sky Gradient with Cloud Layers",
+      "category": "visual",
+      "description": "Multi-stop linear gradient (blue→cream) with overlapping radial gradients simulating clouds. Dreamy, soft aesthetic.",
+      "codeSignature": ".sky-gradient { background: linear-gradient(180deg, #d4e4f0, #b8cfe4, ..., #f0ebe4); } + .cloud-layer with multiple radial-gradient ellipses",
+      "sources": [
+        "arpeggio",
+        "dreelio"
+      ],
+      "vibes": [
+        "creative",
+        "calm",
+        "premium",
+        "playful"
+      ],
+      "worksWithSections": [
+        "hero"
+      ],
+      "complexity": "complex",
+      "dependencies": [],
+      "frequency": 2
+    },
+    {
+      "id": "decorative-svg-shapes",
+      "name": "Decorative SVG Geometric Shapes",
+      "category": "visual",
+      "description": "Custom SVG circles, triangles, and dots positioned absolutely at low opacity. Outlines only (not filled). Creates playful, branded visual texture.",
+      "codeSignature": "<svg><polygon points='...' stroke={color} strokeWidth='2.5' fill='none' opacity='0.5' /></svg>",
+      "sources": [
+        "kids-camp"
+      ],
+      "vibes": [
+        "playful",
+        "fun",
+        "warm",
+        "creative"
+      ],
+      "worksWithSections": [
+        "hero",
+        "about",
+        "services"
+      ],
+      "complexity": "medium",
+      "dependencies": [],
+      "frequency": 1
+    },
+    {
+      "id": "decorative-leaf-svgs",
+      "name": "Decorative Leaf/Nature SVGs",
+      "category": "visual",
+      "description": "Large semi-transparent leaf outlines + SVG curved wave transition between sections. Nature-themed decorative elements.",
+      "codeSignature": "<ellipse cx='100' cy='200' rx='80' ry='180' fill='var(--brand-primary)' opacity='0.3' /> + <path d='M0,120 L0,60 Q720,0 1440,60 L1440,120 Z' />",
+      "sources": [
+        "bamzi",
+        "forest-therapy"
+      ],
+      "vibes": [
+        "warm",
+        "natural",
+        "elegant",
+        "organic"
+      ],
+      "worksWithSections": [
+        "hero",
+        "about"
+      ],
+      "complexity": "medium",
+      "dependencies": [],
+      "frequency": 2
+    },
+    {
+      "id": "floating-background-glows",
+      "name": "Floating Background Glow Orbs",
+      "category": "visual",
+      "description": "Large blurred circles (600px, blur-[120px]) positioned absolutely at 10-15% opacity. Creates atmospheric depth behind content.",
+      "codeSignature": "w-[600px] h-[600px] bg-[#3B82F6]/10 rounded-full blur-[120px] absolute",
+      "sources": [
+        "luxerra",
+        "real-estate"
+      ],
+      "vibes": [
+        "premium",
+        "modern",
+        "dark",
+        "elegant"
+      ],
+      "worksWithSections": [
+        "cta",
+        "contact"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 2
+    },
+    {
+      "id": "radial-gradient-light-effects",
+      "name": "Radial Gradient Dappled Light",
+      "category": "visual",
+      "description": "Multiple radial gradient ellipses simulating dappled light through trees/windows. Creates natural, organic atmosphere.",
+      "codeSignature": "radial-gradient(ellipse at 20% 50%, rgba(45,80,22,0.4) 0%, transparent 60%)",
+      "sources": [
+        "forest-therapy"
+      ],
+      "vibes": [
+        "natural",
+        "calm",
+        "warm",
+        "immersive"
+      ],
+      "worksWithSections": [
+        "hero",
+        "about"
+      ],
+      "complexity": "medium",
+      "dependencies": [],
+      "frequency": 1
+    },
+    {
+      "id": "grid-pattern-overlay",
+      "name": "Grid Pattern Overlay",
+      "category": "visual",
+      "description": "CSS linear gradients creating a subtle grid pattern (60px cells) at very low opacity (0.03). Adds structure without being visible.",
+      "codeSignature": "backgroundImage: 'linear-gradient(rgba(255,255,255,.5) 1px, transparent 1px), linear-gradient(90deg, ...)', backgroundSize: '60px 60px', opacity: 0.03",
+      "sources": [
+        "real-estate"
+      ],
+      "vibes": [
+        "premium",
+        "professional",
+        "modern",
+        "dark"
+      ],
+      "worksWithSections": [
+        "hero"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 1
+    },
+    {
+      "id": "gradient-connecting-line",
+      "name": "Gradient Connecting Line",
+      "category": "visual",
+      "description": "Horizontal line with gradient opacity between process steps. Fades from 20% to 40% to 20%. Visually connects related elements.",
+      "codeSignature": "bg-gradient-to-r from-[color]/20 via-[color]/40 to-[color]/20",
+      "sources": [
+        "real-estate"
+      ],
+      "vibes": [
+        "professional",
+        "clean",
+        "premium"
+      ],
+      "worksWithSections": [
+        "process"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 1
+    },
+    {
+      "id": "video-background-hero",
+      "name": "Video Background Hero",
+      "category": "image",
+      "description": "Autoplay muted looping video as hero background with gradient overlay for text readability. Cinematic, high-impact.",
+      "codeSignature": "<video autoPlay muted loop playsInline className='absolute inset-0 w-full h-full object-cover' /> + gradient overlay divs",
+      "sources": [
+        "ehunter",
+        "opurent",
+        "wellness-glass",
+        "yachtera"
+      ],
+      "vibes": [
+        "cinematic",
+        "immersive",
+        "premium",
+        "bold"
+      ],
+      "worksWithSections": [
+        "hero"
+      ],
+      "complexity": "medium",
+      "dependencies": [],
+      "frequency": 4
+    },
+    {
+      "id": "aspect-ratio-containers",
+      "name": "Aspect Ratio Image Containers",
+      "category": "image",
+      "description": "Images wrapped in fixed aspect ratio containers (4/3, 3/4, 16/10, square) with overflow-hidden and rounded corners. Ensures consistent layout.",
+      "codeSignature": "<div className='aspect-[4/3] rounded-2xl overflow-hidden'><img className='absolute inset-0 w-full h-full object-cover' /></div>",
+      "sources": [
+        "all"
+      ],
+      "vibes": [
+        "all"
+      ],
+      "worksWithSections": [
+        "all"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 28
+    },
+    {
+      "id": "gradient-placeholder-images",
+      "name": "Gradient Placeholder Images",
+      "category": "image",
+      "description": "When real images unavailable, use brand-colored gradients as placeholders. Each card gets a unique gradient direction/color combo.",
+      "codeSignature": "bg-gradient-to-br from-[#D4C5A9] via-[#C4B699] to-[#B8A88C]",
+      "sources": [
+        "bamzi",
+        "gardener",
+        "kids-camp",
+        "pilates"
+      ],
+      "vibes": [
+        "all"
+      ],
+      "worksWithSections": [
+        "all"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 4
+    },
+    {
+      "id": "nested-circle-borders",
+      "name": "Nested Concentric Circle Borders",
+      "category": "image",
+      "description": "Multiple concentric circles (90%, 80% width) with thin borders creating plate/presentation effect around circular images.",
+      "codeSignature": "<div className='absolute inset-0 w-[90%] h-[90%] rounded-full border' /> nested",
+      "sources": [
+        "bamzi"
+      ],
+      "vibes": [
+        "premium",
+        "elegant",
+        "warm"
+      ],
+      "worksWithSections": [
+        "team",
+        "services"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 1
+    },
+    {
+      "id": "specs-overlay-on-image",
+      "name": "Specs/Info Overlay on Image",
+      "category": "image",
+      "description": "Small dark semi-transparent cards with icon + text positioned over product image showing specs (speed, power, etc).",
+      "codeSignature": "bg-black/60 backdrop-blur-sm rounded-lg px-3 py-2 + absolute positioned over image",
+      "sources": [
+        "luxerra"
+      ],
+      "vibes": [
+        "premium",
+        "bold",
+        "dark",
+        "professional"
+      ],
+      "worksWithSections": [
+        "gallery",
+        "services"
+      ],
+      "complexity": "medium",
+      "dependencies": [],
+      "frequency": 1
+    },
+    {
+      "id": "feature-badge-on-card",
+      "name": "Feature/New Badge on Card",
+      "category": "image",
+      "description": "Small pill badge ('New', 'Featured', 'Popular') positioned absolutely in top-left/right of card image.",
+      "codeSignature": "absolute top-4 left-4 bg-white text-black text-[10px] font-bold uppercase tracking-wider px-3 py-1.5 rounded-full",
+      "sources": [
+        "luxerra",
+        "forest-therapy"
+      ],
+      "vibes": [
+        "premium",
+        "professional",
+        "clean"
+      ],
+      "worksWithSections": [
+        "services",
+        "pricing",
+        "gallery"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 2
+    },
+    {
+      "id": "process-step-number-circle",
+      "name": "Process Step with Number Circle + Ghost Number",
+      "category": "composition",
+      "description": "Large faded number (text-6xl, opacity 5%) in corner as decorative element, plus small accent-colored circle with step number. Dual number display.",
+      "codeSignature": "<span className='text-6xl font-bold text-white/5 absolute top-4 right-4'>{n}</span> + <div className='w-10 h-10 rounded-full bg-accent/10'>",
+      "sources": [
+        "luxerra",
+        "handyman"
+      ],
+      "vibes": [
+        "professional",
+        "premium",
+        "clean"
+      ],
+      "worksWithSections": [
+        "process"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 2
+    },
+    {
+      "id": "circular-logo-badge-nav",
+      "name": "Circular Logo Badge in Navbar",
+      "category": "composition",
+      "description": "Circular badge in navbar extending below nav bar (-mb-4) with stacked text. Creates unique brand mark without logo image.",
+      "codeSignature": "w-14 h-14 rounded-full bg-[var(--brand-accent)] -mb-4 z-10 + text-[9px] font-extrabold uppercase",
+      "sources": [
+        "kids-camp"
+      ],
+      "vibes": [
+        "playful",
+        "fun",
+        "creative",
+        "bold"
+      ],
+      "worksWithSections": [
+        "hero"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 1
+    },
+    {
+      "id": "globe-rotating-grid",
+      "name": "Globe with Rotating Grid Lines",
+      "category": "composition",
+      "description": "SVG circle with animated grid lines that rotate based on active process step. Lines positioned at percentage offsets (16.6% intervals).",
+      "codeSignature": "<svg> circle + lines at 16.6% intervals, animate={{ rotate: activeStep * 90 }}",
+      "sources": [
+        "stratex",
+        "agevia"
+      ],
+      "vibes": [
+        "professional",
+        "premium",
+        "bold"
+      ],
+      "worksWithSections": [
+        "process"
+      ],
+      "complexity": "complex",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "comparison-check-x-table",
+      "name": "Comparison Table with Check/X Icons",
+      "category": "composition",
+      "description": "Two-column feature comparison grid with green Check and red X icons. 'Us vs Others' or 'With vs Without'.",
+      "codeSignature": "<Check className='text-green-500' /> vs <X className='text-red-500' /> in grid md:grid-cols-2",
+      "sources": [
+        "agevia",
+        "draftr",
+        "etery",
+        "platform",
+        "real-estate",
+        "stratex",
+        "wellness-glass"
+      ],
+      "vibes": [
+        "professional",
+        "bold",
+        "direct"
+      ],
+      "worksWithSections": [
+        "comparison"
+      ],
+      "complexity": "simple",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "frequency": 7
+    },
+    {
+      "id": "live-clock-navbar",
+      "name": "Live Clock in Navbar",
+      "category": "composition",
+      "description": "Real-time clock updating every second in navbar. Shows timezone. Adds dynamic, editorial feel.",
+      "codeSignature": "setInterval(() => setTime(new Date().toLocaleTimeString('en-US', { timeZone: 'America/New_York' })), 1000)",
+      "sources": [
+        "ehunter"
+      ],
+      "vibes": [
+        "cinematic",
+        "editorial",
+        "premium",
+        "creative"
+      ],
+      "worksWithSections": [
+        "hero"
+      ],
+      "complexity": "medium",
+      "dependencies": [],
+      "frequency": 1
+    },
+    {
+      "id": "service-letter-accent",
+      "name": "Large Faded Letter as Section Divider",
+      "category": "composition",
+      "description": "Large letter (A, B, C, D) at 20% opacity as visual anchor for service sections. Creates editorial, magazine-like feel.",
+      "codeSignature": "text-4xl md:text-5xl font-black text-black/20",
+      "sources": [
+        "mobius"
+      ],
+      "vibes": [
+        "editorial",
+        "creative",
+        "premium",
+        "bold"
+      ],
+      "worksWithSections": [
+        "services"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 1
+    },
+    {
+      "id": "testimonial-number-marker",
+      "name": "Testimonial Cards with Slash+Number",
+      "category": "composition",
+      "description": "Large '/' and number in top-left of each testimonial card at 10% opacity. Creates editorial feel to reviews.",
+      "codeSignature": "<span className='text-5xl font-black text-black/10'>/</span><span>{number}</span>",
+      "sources": [
+        "mobius"
+      ],
+      "vibes": [
+        "editorial",
+        "premium",
+        "creative"
+      ],
+      "worksWithSections": [
+        "testimonials"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 1
+    },
+    {
+      "id": "blog-metadata-bar",
+      "name": "Blog Card with Metadata Bar",
+      "category": "composition",
+      "description": "Blog cards with date, category, author in tiny uppercase tracking-widest text above the title.",
+      "codeSignature": "text-[11px] uppercase tracking-widest + Calendar icon + category span",
+      "sources": [
+        "mobius",
+        "realdev"
+      ],
+      "vibes": [
+        "editorial",
+        "professional",
+        "clean"
+      ],
+      "worksWithSections": [
+        "blog"
+      ],
+      "complexity": "simple",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "frequency": 2
+    },
+    {
+      "id": "founder-quote-accent-line",
+      "name": "Quote with Accent Line Above",
+      "category": "composition",
+      "description": "Italic blockquote preceded by short accent-colored horizontal line (w-24, h-px). Creates editorial emphasis.",
+      "codeSignature": "<div className='w-24 h-px bg-[var(--brand-accent)] mb-6' /> + <blockquote className='italic'>",
+      "sources": [
+        "yachtera"
+      ],
+      "vibes": [
+        "elegant",
+        "premium",
+        "warm"
+      ],
+      "worksWithSections": [
+        "about",
+        "testimonials"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 1
+    },
+    {
+      "id": "benefit-card-accent-border",
+      "name": "Cards with Subtle Accent Border",
+      "category": "composition",
+      "description": "Cards with thin accent-colored border at low opacity (8%), increasing on hover (25%). Subtle brand reinforcement.",
+      "codeSignature": "border border-[var(--brand-accent)]/8 hover:border-[var(--brand-accent)]/25 transition-colors",
+      "sources": [
+        "forest-therapy"
+      ],
+      "vibes": [
+        "elegant",
+        "calm",
+        "premium",
+        "warm"
+      ],
+      "worksWithSections": [
+        "services",
+        "value-prop"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 1
+    },
+    {
+      "id": "circular-process-with-connectors",
+      "name": "Process Steps with Connecting Lines",
+      "category": "composition",
+      "description": "Numbered circles connected by horizontal lines between steps. Lines hidden on mobile. Creates clear progression visual.",
+      "codeSignature": "absolute top-8 left-[calc(50%+2rem)] right-[-2rem] h-px bg-accent/20",
+      "sources": [
+        "forest-therapy"
+      ],
+      "vibes": [
+        "clean",
+        "professional",
+        "organized"
+      ],
+      "worksWithSections": [
+        "process"
+      ],
+      "complexity": "medium",
+      "dependencies": [],
+      "frequency": 1
+    },
+    {
+      "id": "sprout-badge-popular",
+      "name": "Nature Icon Badge for Popular Tier",
+      "category": "composition",
+      "description": "Animated badge with nature icon (Sprout) positioned above most popular pricing tier. Creates organic highlight.",
+      "codeSignature": "absolute -top-5 left-1/2 -translate-x-1/2 + <Sprout className='w-4 h-4' /> + 'Most Popular'",
+      "sources": [
+        "forest-therapy"
+      ],
+      "vibes": [
+        "natural",
+        "warm",
+        "premium"
+      ],
+      "worksWithSections": [
+        "pricing"
+      ],
+      "complexity": "simple",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "frequency": 1
+    },
+    {
+      "id": "blockquote-left-border",
+      "name": "Left Border Accent Blockquote",
+      "category": "composition",
+      "description": "Italic quote with 2px left border in accent color. Simple, editorial emphasis for founder quotes or testimonials.",
+      "codeSignature": "border-l-2 border-[var(--brand-accent)] pl-6 italic",
+      "sources": [
+        "forest-therapy"
+      ],
+      "vibes": [
+        "elegant",
+        "warm",
+        "personal",
+        "editorial"
+      ],
+      "worksWithSections": [
+        "about",
+        "testimonials"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 1
+    },
+    {
+      "id": "awards-list-hover",
+      "name": "Awards/Credentials List with Hover",
+      "category": "composition",
+      "description": "Each award row highlights on hover with background color change. Displays year, award name, and type in horizontal layout.",
+      "codeSignature": "hover:bg-[var(--brand-bg-alt)] px-4 -mx-4 rounded-lg transition-colors",
+      "sources": [
+        "mobius",
+        "nordiq"
+      ],
+      "vibes": [
+        "professional",
+        "premium",
+        "editorial"
+      ],
+      "worksWithSections": [
+        "about",
+        "stats"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 2
+    },
+    {
+      "id": "process-tab-selector",
+      "name": "Process Step Tab Selector",
+      "category": "composition",
+      "description": "Tab-like interface where clicking step buttons changes content. Active step is white/full opacity, inactive are 30% opacity.",
+      "codeSignature": "activeProcess === i ? 'text-white' : 'text-white/30 hover:text-white/60'",
+      "sources": [
+        "mobius"
+      ],
+      "vibes": [
+        "modern",
+        "professional",
+        "bold"
+      ],
+      "worksWithSections": [
+        "process"
+      ],
+      "complexity": "medium",
+      "dependencies": [],
+      "frequency": 1
+    },
+    {
+      "id": "dashboard-mockup",
+      "name": "Dashboard/UI Mockup Component",
+      "category": "composition",
+      "description": "Intricate fake dashboard UI with sidebar, charts, and data. Desktop + mobile versions. Custom shadow for depth.",
+      "codeSignature": "Custom React component rendering sidebar + main area with fake data bars",
+      "sources": [
+        "arpeggio",
+        "dreelio"
+      ],
+      "vibes": [
+        "modern",
+        "tech",
+        "professional",
+        "creative"
+      ],
+      "worksWithSections": [
+        "hero",
+        "services"
+      ],
+      "complexity": "complex",
+      "dependencies": [],
+      "frequency": 2
+    },
+    {
+      "id": "dark-form-glass-inputs",
+      "name": "Dark Form with Glass Input Fields",
+      "category": "composition",
+      "description": "Form inputs with semi-transparent background (white/4%) and subtle borders (white/8%). Focus state brightens border to accent color.",
+      "codeSignature": "bg-white/[0.04] border border-white/[0.08] rounded-xl focus:border-[var(--brand-accent)]/50 focus:bg-white/[0.06]",
+      "sources": [
+        "real-estate",
+        "realdev"
+      ],
+      "vibes": [
+        "premium",
+        "dark",
+        "modern",
+        "elegant"
+      ],
+      "worksWithSections": [
+        "contact"
+      ],
+      "complexity": "medium",
+      "dependencies": [],
+      "frequency": 2
+    },
+    {
+      "id": "dashed-border-upload",
+      "name": "Dashed Border Upload/Input Area",
+      "category": "composition",
+      "description": "Dashed border container that lightens on hover. Good for file upload areas, optional form fields, or interactive zones.",
+      "codeSignature": "border-2 border-dashed border-white/[0.08] hover:border-[color]/30 transition-colors rounded-xl",
+      "sources": [
+        "real-estate"
+      ],
+      "vibes": [
+        "modern",
+        "professional",
+        "clean"
+      ],
+      "worksWithSections": [
+        "contact"
+      ],
+      "complexity": "simple",
+      "dependencies": [],
+      "frequency": 1
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "name": "Blackcraft Tattoo",
+  "slug": "blackcraft-tattoo",
+  "category": "tattoo",
+  "address": "2195 Hyacinth St NE Suite 145",
+  "city": "Salem",
+  "state": "OR",
+  "zip": "97301",
+  "phone": "(503) 584-1370",
+  "email": "",
+  "website": null,
+  "rating": 4.9,
+  "reviewCount": 54,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {},
+  "services": [],
+  "reviews": [
+    {
+      "text": "Misty is the best! She is amazing at what she does and Kane, her son, is great as well! Misty, Kane and James the owners will always take their time and take care of you. Any of the artists at Blackcraft will take care of you just like as if you were family. They truly care about what you want with no pressure and take their time with you. 🖤",
+      "author": "Dakota Magden",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-03-05"
+    },
+    {
+      "text": "Me and my daughter both got tattoos today and we are both beyond happy with the results!! Misty Mendez was our tattoo artist and she exceeded our expectations! Thank you so much, I absolutely recommend Blackcraft Tattoo!",
+      "author": "Toni Wilson",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-03-06"
+    },
+    {
+      "text": "I am soooo happy with the ten tiny hand tattoos I got with Jose this week. He was so patient and collaborative throughout the whole process, really took his time, was detail oriented, and I felt like he truly cared about his art. He is a joy to talk to and work with and genuinely such a good human. I live in Chicago, but I would absolutely go back to Jose for more tattoos, and I hope to come see him again when I’m back in Miami.",
+      "author": "Sara Fliehman",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-22"
+    },
+    {
+      "text": "Misty did my first tattoo she was very comforting and did such amazing work, Gentle handed, was easy to work with and talk to! Will definitely be coming back for more work love the shop the vibes were on point🤍🖤",
+      "author": "Marissa Jepsen",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-03-26"
+    },
+    {
+      "text": "Amazing line work and shading done by Tristan today, was taken back by how great it turned out! Very clean and professional, and quick and easy",
+      "author": "Useless Liquid",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-10-25"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Blackcraft Tattoo photo 1",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Detailed hand tattoo featuring ornate mandala and snowflake designs in black ink",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Blackcraft Tattoo photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Detailed tattoo on leg featuring surreal anatomical design with crescent moon and intricate linework",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Two men in modern loft space, one jogging while other records with phone",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Blackcraft Tattoo photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Person displaying arm tattoo in mirror selfie with turquoise nail polish",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Blackcraft Tattoo photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Blackcraft Tattoo photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Blackcraft Tattoo photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 54,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

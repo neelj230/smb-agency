@@ -1,0 +1,146 @@
+{
+  "name": "Christina's Custom Cleaning LLC",
+  "slug": "christinas-custom-cleaning-llc",
+  "category": "cleaning service",
+  "address": "2191 Keith Way",
+  "city": "Eugene",
+  "state": "OR",
+  "zip": "97401",
+  "phone": "(714) 395-2825",
+  "email": "",
+  "website": null,
+  "rating": 4.6,
+  "reviewCount": 10,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "10:00 AM – 6:00 PM",
+    "Tuesday": "10:00 AM – 6:00 PM",
+    "Wednesday": "10:00 AM – 6:00 PM",
+    "Thursday": "10:00 AM – 6:00 PM",
+    "Friday": "10:00 AM – 6:00 PM",
+    "Saturday": "9:00 AM – 5:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "We adore having Christina in our home each week. When my wife comes home from work to clean kitchen and sparking bathrooms and a shiny bedroom, she breathes a special kind of sigh. Being in the habit of picking up each week means that our house never gets too bad, or at least not for too long. Christina works hard and cares about our home. She gets along with our pets and is a great communicator. We recommend her highly!",
+      "author": "Jesse Merz and Family",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-03-23"
+    },
+    {
+      "text": "Christina has been cleaning my house bi-monthly for almost a year now and I couldn't be more pleased! Not only does she provide a great cleaning service, she is also very kind and dow to earth, and affordable.\nMoms can't do it all.  We need some downtime too!  Christina makes my life so much easier.  I cannot articulate how awesome it is to come home after a 10-14 hour day to a clean home. If you are exhausted, spread too thin, don't have enough time in the day, need a clean home to function, want to spend more time with loved ones, do yourself a favor and call Christina.",
+      "author": "nic b.",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-10-15"
+    },
+    {
+      "text": "Christina did an amazing job, she went above and beyond what we agreed on. Christina was on-time, organized and friendly. If you want an honest, reliable and hard worker look no farther. Best cleaning service in town. :)",
+      "author": "P.J. Radanich",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-06-13"
+    },
+    {
+      "text": "Christina is excellent! We worked with Christina to order a gift certificate as a housewarming gift for our friends, and Christina was so responsive and professional. Christina lives up to the great reviews of this business!",
+      "author": "Anna Dearman",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-01-04"
+    },
+    {
+      "text": "Christina & Gabby did an amazing, thorough job deep cleaning my house. They were friendly, professional, & hard working. 10/10 recommend",
+      "author": "Amanda Manis",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-04-02"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Open-concept interior space with dining table, chairs, and natural light from glass doors",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Luxury motorhome interior with wood cabinetry, hallway, and modern appliances",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Christina's Custom Cleaning LLC photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Before and after comparison of hardwood floor restoration and refinishing project.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Christina's Custom Cleaning LLC photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Modern kitchen with granite countertops, white cabinets, stainless steel appliances, and natural light",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Modern dining room with long black table, black chairs, and large arched windows",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Elegant curved staircase with ornate metal railings and hanging chandelier in modern home",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Whirlpool gas range stove with stainless steel front and black cooktop burners",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Modern kitchen with white cabinets, black countertops, subway tile backsplash, and wood flooring.",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 10,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.6,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

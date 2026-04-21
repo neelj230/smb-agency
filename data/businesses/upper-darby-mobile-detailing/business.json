@@ -1,0 +1,146 @@
+{
+  "name": "Upper Darby Mobile Detailing",
+  "slug": "upper-darby-mobile-detailing",
+  "category": "mobile car detailing",
+  "address": "25 Powell Ln",
+  "city": "Upper Darby Township",
+  "state": "PA",
+  "zip": "19082",
+  "phone": "(215) 909-2154",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 154,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "8:00 AM – 4:30 PM",
+    "Tuesday": "8:00 AM – 4:30 PM",
+    "Wednesday": "8:00 AM – 4:30 PM",
+    "Thursday": "8:00 AM – 4:30 PM",
+    "Friday": "8:00 AM – 4:30 PM",
+    "Saturday": "8:00 AM – 4:30 PM",
+    "Sunday": "8:00 AM – 4:30 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "My experience with Dave has been positive all around. Very effective communication and a job well done. I got a full interior detail w/o shampooing seats but Dave took it upon himself to go above and beyond to clean out some spots on my seats along with some exterior cleaning. I will definitely contact Dave for any future detailing needs for my vehicle or my wifes vehicle. Highly recommend!",
+      "author": "Anthony Rodriguez",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-27"
+    },
+    {
+      "text": "Dave detailing company is the Best. I haven’t had my car cleaned in two years so the gunk in goo from my children spilling things in the vehicle left it horrendous. I was thinking about replacing the carpet due to all the spillage but he saved it from being replaced. I am grateful for you Dave thanks so much.",
+      "author": "Jasmine Phillips",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-22"
+    },
+    {
+      "text": "I wanted to get my Jeep detailed, I've never had it done before. Dave is awesome and he did an amazing job! It's so clean and looks even shinier than it did when I bought it. I'm taking it to a Jeep event this weekend and I can't wait. Thanks so much!",
+      "author": "Natalie Cellini",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-19"
+    },
+    {
+      "text": "Dave and his team were so thorough. My car hasn’t looked this good since the day I bought it. I was so impressed with his attention to detail, and will definitely recommend his services to others.",
+      "author": "Molly Walsh",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-03-02"
+    },
+    {
+      "text": "Dave does amazing work! Twice now he has saved my car upholstery from some icky spills (pet urine and human vomit). He's communicative and thorough, brings everything he needs to my place, and goes above and beyond to provide top notch service. He's my go-to interior detailer. Don't waste your time with anyone else 👍 Dave is the man!!!",
+      "author": "Sam Rheault",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-10"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Best of Business Rate 2023 award certificate for Upper Darby Mobile Detailing car service",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Cluttered car interior with messy cup holder, documents, and various items scattered inside.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Car interior showing gray floor mat with blue paint stain and pedals visible",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Car interior showing front seats with gray fabric upholstery and steering wheel visible",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Car interior door panel with white leather trim and black controls",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "BMW alloy wheel with tire on concrete surface, showing wear and dirt.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Rear view of black Honda car with license plate KBD-0672",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Black Chevrolet Suburban parked in driveway showing rear exterior view",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Upper Darby Mobile Detailing photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Black BMW sedan parked on residential street with houses in background",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 154,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

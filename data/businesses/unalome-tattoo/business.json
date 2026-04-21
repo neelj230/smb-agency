@@ -1,0 +1,148 @@
+{
+  "name": "Unalome Tattoo",
+  "slug": "unalome-tattoo",
+  "category": "tattoo",
+  "address": "3535 Commercial St SE",
+  "city": "Salem",
+  "state": "OR",
+  "zip": "97302",
+  "phone": "(503) 560-9882",
+  "email": "",
+  "website": "https://web.getporter.io/shop/unalome-tattoo",
+  "rating": 5,
+  "reviewCount": 27,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "10:00 AM – 6:00 PM",
+    "Tuesday": "10:30 AM – 6:00 PM",
+    "Wednesday": "10:00 AM – 6:00 PM",
+    "Thursday": "10:00 AM – 6:00 PM",
+    "Friday": "10:00 AM – 6:00 PM",
+    "Saturday": "11:00 AM – 5:00 PM",
+    "Sunday": "11:00 AM – 5:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Jessica is an incredible tattoo artist! The tattoos I received from her are absolutely perfect, they exactly what I envisioned and wanted! She is not only exceptionally skilled but also extremely professional and friendly throughout the entire process. Jessica made me feel comfortable and confident in her work, and I can honestly say it’s some of the best tattoo work I’ve ever gotten! I couldn’t be happier with the experience or the results and can’t wait to go back! Highly recommend Jessica and Unalome to anyone looking for an amazing tattoo!",
+      "author": "Heather De La Rosa",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-11-23"
+    },
+    {
+      "text": "I recently had the pleasure of getting tattooed by Jessica, and it was an incredible experience! Jessica is personable, friendly, and highly educated in her craft. She made sure I was comfortable throughout the entire process.\n\nHer attention to detail and professionalism are top-notch. I was so impressed with her work that I’ve already scheduled my second tattoo with her. If you’re looking for a talented and caring tattoo artist, I highly recommend Jessica. She truly goes above and beyond to ensure her clients are happy and satisfied with their tattoos.\n\nThank you, Jessica, for the amazing artwork and fantastic experience!",
+      "author": "Samantha S",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-07-19"
+    },
+    {
+      "text": "I came across Jessica’s work shortly after moving to Salem. She has worked on a full sleeve and I really enjoy her work! She is so talented! I always look forward to my appointments and won’t go anywhere else for a tattoo!",
+      "author": "Mariana Smyth",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-11-23"
+    },
+    {
+      "text": "I got my tattoo done with Jessica today. She was super nice and did such an amazing job on the tattoo. Exactly what I was hoping for! The shop itself was so clean and nice looking. I will definitely be coming back!",
+      "author": "Kayla Wharton",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-07-04"
+    },
+    {
+      "text": "The shop was open, clean and pretty. MoodyInks did a great job designing tattoos from my inspirational photos. She was more than happy to edit the design to my preferences. She was quick! I'm excited to see it healed!",
+      "author": "Rhonda",
+      "rating": 4,
+      "source": "google",
+      "date": "2024-07-13"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Black and white tattoo featuring lioness, cubs, flowers, and geometric arrow design on arm",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Detailed black ink mermaid tattoo on thigh with intricate body designs",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Colorful demonic face tattoo with horns, glowing eyes, and celestial symbol",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Fresh lobster tattoo design on forearm with bandage and detailed linework",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Unalome Tattoo photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Unalome Tattoo photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Unalome Tattoo photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Unalome Tattoo photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Unalome Tattoo photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Black and gray bird tattoo with floral elements on human skin",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 27,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "You need to enable JavaScript to run this app.var _cio=_cio||[];!function(){var t,e,a;for(t=function(t){return function(){_cio.push([t].concat(Array.prototype.slice.call(arguments,0)))}},e=[\"load\",\"identify\",\"sidentify\",\"track\",\"page\"],a=0;a<e.length;a++)_cio[e[a]]=t(e[a]);var r=document.createElement(\"script\"),s=document.getElementsByTagName(\"script\")[0];r.async=!0,r.id=\"cio-tracker\",r.setAttribute(\"data-site-id\",\"668226079c23df3ac9d9\"),r.setAttribute(\"data-base-url\",\"https://customerioforms.com\"),r.setAttribute(\"data-use-array-params\",\"true\"),r.setAttribute(\"data-auto-track-page\",\"false\"),r.setAttribute(\"data-in-app-org-id\",\"undefined\"),r.setAttribute(\"data-use-in-app\",\"true\"),r.src=\"https://assets.customer.io/assets/track.js\",s.parentNode.insertBefore(r,s)}()"
+}

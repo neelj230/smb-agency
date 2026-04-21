@@ -1,0 +1,148 @@
+{
+  "name": "Bayer Mobile Repairs",
+  "slug": "bayer-mobile-repairs",
+  "category": "mobile mechanic",
+  "address": "W Somerdale Rd",
+  "city": "Somerdale",
+  "state": "NJ",
+  "zip": "08083",
+  "phone": "(856) 761-4656",
+  "email": "BayerMobileRepairs@gmail.com",
+  "website": "http://bayermobilerepairs.com/",
+  "rating": 5,
+  "reviewCount": 11,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Open 24 hours",
+    "Tuesday": "Open 24 hours",
+    "Wednesday": "Open 24 hours",
+    "Thursday": "Open 24 hours",
+    "Friday": "Open 24 hours",
+    "Saturday": "Open 24 hours",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I had a popped tire and Jon was a life saver. He was very professional and easy to talk to, worked quickly, and even tried to go the extra mile to help me out by repairing my tire (not possible due to the damage, but it was an extremely thoughtful gesture). If I ever find myself in need of this type of service again he will be the first phone call I make. Couldn’t possibly recommend Jon’s services enough.",
+      "author": "Rainbow-chan",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-28"
+    },
+    {
+      "text": "It happened on one of those nights where winter feels a little too personal.\n\nSnow was coming down, quiet flakes, the kind that muffles everything and makes streetlights glow like halos.\n\nI’d just realized my car wasn’t going anywhere... the serpentine belt was remove by a prior \"so called mechanic, who abandoned the job. Hood up, cold biting through my gloves, I was already bracing myself for a long, miserable wait.\n\nThen Jon showed up.\n\nHe was / is a mobile mechanic, but honestly, he felt more like a winter miracle on wheels. He pulled up calm and confident, like replacing belts in the middle of a snow falling at night was just another Tuesday. Snow collected on his jacket and tools as he got to work, headlamp cutting through the dark while flakes kept falling around him.\n\nWhat surprised me most was how smoothly everything went. No rushing, no complaining, just steady, practiced movements. Before I knew it, the serpentine belt was on, and my car sounded healthy again.\n\nThe whole job didn’t take long at all, which felt unreal given the conditions.\n\nThen Jon also took care of my headlights.\nHe swapped out the bulbs right there. In the cold. At night. In the snow. A few minutes later, my headlights were brighter than they’d been in ages.\n\nWhen he packed up his tools and the engine was running smoothly, I felt this wave of relief and gratitude. What started as a stressful breakdown turned into one of those rare moments where a stranger shows up and genuinely makes your night better.\n\nSnow still falling, car fixed, headlights shining... thanks to an awesome mobile mechanic named Jon who turned a freezing, inconvenient night into a story I’ll always remember.",
+      "author": "Ernesto Vazquez Rosas",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-07"
+    },
+    {
+      "text": "When trying to replace the brakes on my car myself I snapped a caliper bolt trying to remove it because previous owner cross threaded it. Luckily it was already off the car. Jon was able to get the rest of the broken bolt out, tapped the threads, and salvaged the caliper. I have used his services on numerous occasions since such as front end repair and exhaust work. I highly recommend his services he was knowledgeable, professional, and dependable!",
+      "author": "Daniel Devecchio",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-12-10"
+    },
+    {
+      "text": "So lets start out with, Jon is the man. I came to Bayer mobile repairs because I was in a pinch. I couldn't get my work truck, ram 4500 to a shop during operating hours for some work that NEEDED to be done before the work week. Well, bayer mobile repairs doesn't have set operating hours, he told me sunday sounds good. I leave him the truck Sunday morning, and the truck problems thickens. He runs out to pick up parts to finish the job so I'm ready for Monday. Once it started to get late (20:00) I was getting worried that the truck wouldn't be ready. I called Bayer mobile repair to see where the truck was at with repairs and he stressed to me that he would complete the job for me, TONIGHT. Also during this time the weather was raining with lightning and thunder. I come to see the truck that is under a pop up tent illuminated by work lights at 22:00 and the job is nearly finished. True to his word, the job was completed that night and I was able to drive to MD for work. I am impressed by the quality of work and determination to get the job done. I recommend this mechanic to anyone",
+      "author": "Tim C",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-07-01"
+    },
+    {
+      "text": "5 STARS TO JON BAYER MOBILE REPAIRS for coming to fix my back tire that blew up in a small dark back road in the middle  of the night coming back from my job ! WOW ! WHAT A speedy respond and in minutes he had my tire changed ! VERY PROFESSIONAL ! and the love for his job it shows in  the way hat he worked on my precious Mercedes!  THANK YOU SO MUCH JON !",
+      "author": "Maria Di Camillo",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-03-10"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Modified car engine with blue valve cover and custom performance components",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Sunbelt Rentals climate control service truck displaying temporary heaters and air conditioning equipment",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Engine bay showing turbocharger, red air intake filter, and mechanical components during automotive maintenance work.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Open utility trailer with canvas canopy roof and black metal sides, empty bed.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "White motorhome and black Ford truck parked in residential driveway with cloudy sky",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Mobile workshop setup under canopy tent with tools and equipment for vehicle maintenance",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "White car with wheel removed, showing gold brake caliper and drilled rotor during maintenance work.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Bayer Mobile Repairs photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Mechanic working on vehicle brake system repair outdoors on wooden platform",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Bayer Mobile Repairs photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 11,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#e4c199",
+    "accent": "#007bff",
+    "note": "Extracted from business website"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "bayer mobile repairs (856) 761-4656 FLEET SERVICE & MOBILE TRUCK REPAIR \"When In Despair, Call Bayer Mobile Repairs!Here To Keep Your Fleet On The Road!\" We understand that “time is money”. No one likes dealer wait times, so reach out to Bayer Mobile Repair and see how our services can settle your problem without the wait.” Enjoy the convenience of mobile service. Call and lets designate a time that fits best with you! Fleet Service Let us take care of your fleet. From routine maintenance, oil changes, 90 day inspections, DOT Diesel Engine Repair Hard starts, Clogged filters, Air Leaks, Injectors, Battery & Charging Systems, Cooling, Services, ETC.. Complete Trailer Repair Roll Doors, Wheel seals, Bearings, Electrical, Suspension, Floor, Roof Repair, ETC.. Welding Services from MIG and stick welding. Road Repairs/Breakdowns As mobile diesel mechanics we are capable of repairing almost any issues your having on the road. Scheduled Repairs Whether you need emergency service on the road or need maintenance at your location or on the road, our mobile service technicians will be there. .p-wij6359 .pagelayer-col-holder{padding: 10px} .p-wij6359 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important} .p-wij6359 .pagelayer-svg-top .pagelayer-shape-fill{fill:#227bc3} .p-wij6359 .pagelayer-row-svg .pagelayer-svg-top{width:100%;height:100px} .p-wij6359 .pagelayer-svg-bottom .pagelayer-shape-fill{fill:#e44993} .p-wij6359 .pagelayer-row-svg .pagelayer-svg-bottom{width:100%;height:100px} .p-ola9037 .pagelayer-col-holder > div:not(:last-child){margin-bottom: 15px} .p-ola9037 > .pagelayer-background-overlay{-webkit-transition: all 400ms !important; transition: all 400ms !important} .p-beq7511 .pagelayer-space-holder{height: 234px} .p-flm6059{font-family: Times New Roman !important;font-size: 44px !important} Reviews So lets start out with, Jon is the man. I came to Bayer mobile repairs because I was in a pinch. I couldn’t get my work truck, ram 4500 to a shop during operating hours for some work that NEEDED to be done before the work week. Well, Bayer Mobile Repairs doesn’t have set operating hours, he told me sunday sounds good. I leave him the truck Sunday morning, and the truck problems thickens. He runs out to pick up parts to finish the job so I’m ready for Monday. Once it started to get late (20:00) I was getting worried that the truck wouldn’t be ready. I called Bayer mobile repair to see where the truck was at with repairs and he stressed to me that he would complete the job for me, TONIGHT. Also during this time the weather was raining with lightning and thunder. I come to see the truck that is under a pop up tent illuminated by work lights at 22:00 and the job is nearly finished. True to his word, the job was completed that night and I was able to drive to MD for work. I am impressed by the quality of work and determination to get the job done. I recommend this mechanic to anyone!Tim C. “Very pleased "
+}

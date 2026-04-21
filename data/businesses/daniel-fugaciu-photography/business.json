@@ -1,0 +1,152 @@
+{
+  "name": "Daniel Fugaciu Photography",
+  "slug": "daniel-fugaciu-photography",
+  "category": "wedding photographer",
+  "address": "1749 Lawrence Rd",
+  "city": "Havertown",
+  "state": "PA",
+  "zip": "19083",
+  "phone": "(267) 603-1611",
+  "email": "",
+  "website": "http://danielweddings.com/",
+  "rating": 4.9,
+  "reviewCount": 29,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM – 7:00 PM",
+    "Tuesday": "9:00 AM – 7:00 PM",
+    "Wednesday": "9:00 AM – 7:00 PM",
+    "Thursday": "9:00 AM – 7:00 PM",
+    "Friday": "9:00 AM – 7:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I am beyond thrilled with the photos that Daniel took on our wedding day, on July 4th\n! From the moment we met him, he made us feel at ease and truly understood the vision we had for our special day. His ability to capture every moment, from the candid laughs to the intimate glances, was nothing short of magical. Daniel’s professionalism was evident from start to finish. He was punctual, organized, and incredibly thoughtful in his approach. Not only did he make sure to get all the classic shots, but he also had a fantastic eye for those unexpected, beautiful moments that you don’t even realize are happening until you see them in the photos. It felt like he was right there with us, blending into the background yet capturing every important detail. The photos themselves are absolutely breathtaking! The lighting, composition, and overall quality of the images are stunning. We are so happy with how our wedding day was documented. I can’t tell you how many times I’ve looked through the gallery and relived the joy of that day through Daniel’s lens.\n\nThank you so much Daniel, for being a part of our wedding and creating memories we will cherish forever. We can’t recommend you enough to anyone looking for a talented, thoughtful, and creative photographer. You truly went above and beyond!",
+      "author": "Shannon Moores",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-07"
+    },
+    {
+      "text": "Daniel and Andre are the absolute best team! We had the pleasure of doing a little doggy photo shoot with our elderly yellow lab before our wedding providing an opportunity to meet Daniel before our big day. He’s a fun guy! We had great conversations, received guidance on poses (we needed it 😂), and had an overall fantastic experience getting some beautiful shots. Fast forward to our wedding day. Daniel and Andre are a force to be reckoned with. From the moment they got to our venue to the end of the night they never stopped! They got all the photo and video shots using unique angles, candid moments, staging moments, and running around in between to make it all happen. I would hire both of these talented gentlemen in a heartbeat and recommend them to all friends and family. Thank you both for capturing our day!",
+      "author": "Vika Taco",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-10-20"
+    },
+    {
+      "text": "We used Daniel Fugaciu as our photographer for our wedding at the Hotel Dupont and we were SO glad that we did. His talents are incredible and he delivered on everything that we asked for and more. He is extremely creative in getting unique and beautiful shots while also capturing candid shots of some of the most important moments. He even stayed an extra hour longer during our reception to ensure he captured as much of our day as possible. He truly went above and beyond - laying on the wet (it rained) ground for different shots, scoping out different areas in the city for us that would be ideal months beforehand, remaining available whenever we had a question or needed to get in touch with him before, during or after the wedding, etc - and it showed in the pictures we got back from him. I honestly cannot say enough about Daniel and his team. He was so prepared and ready the day of that the picture-taking potion of the day felt like it flew by and was fun and relaxed. He also sent us a few pictures back almost immediately after the wedding for a sneak peak and thank-you card purposes, with the rest of the pictures being available not too long thereafter. His pricing was also very reasonable and clearly explained beforehand. Both my husband and I cannot recommend Daniel enough and will definitely be using him again ourselves in the future. If you want great photographs of your wedding or any other special events, definitely go with him - you will not be disappointed!",
+      "author": "Ashley Boyle",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-01-07"
+    },
+    {
+      "text": "Daniel, is a true professional photographer, who has perfected his craft. I cannot recommend him enough. My wife and got married in September, and Daniel did all of our photography for the day. His consultations before the big day were very well thought-out and they really helped our day move along seamlessly. He captured all the moments we were looking for and much more in a broad array of styles and angles, and lighting.  He did all of this while blending in seamlessly with our guest and events allowing us to fully enjoy our big day. Most of the time we forgot Daniel was even there, but boy did he deliver on the images, Quality and Quantity. I shared our online album Daniel created for us with all of my co-workers. I received nothing but complements on the actual photography. Well done Daniel, and Thank you!",
+      "author": "BentArch",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-12-19"
+    },
+    {
+      "text": "Highest recommendation for Daniel! He is an absolute professional in all aspects of his work; starting from online and email communication, user-friendly options for photo services, punctuality of his responses, and the thrilling artistry and quality of his work. Daniel is a professional photographer in the full definition of the word; this is reflected in his work. We had a wonderful time taking photos with him on our wedding day - he set both of us at ease and took what are likely some of the best photographs of us ever taken. He has an artistic eye and fulfilled out dream of taking a photo in front of a stream of icicles over a rocky wall in February, with the result being a beautiful and surreal night-time photo... Would absolutely hire him again.",
+      "author": "BenjaminAndOlga",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-03-18"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Wedding party group portrait outdoors with bride, groom, and attendants by weeping willow trees",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Bride and groom walking down church aisle toward crucifix during wedding ceremony",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Daniel Fugaciu Photography photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Bride and groom share first dance in ornate ballroom with guests watching",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Newlyweds kissing under ornate metal archway with illuminated lanterns at night",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Bride and groom pose outside brick wedding venue building on clear day.",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Bride and groom pose together in courtyard of historic stone building with green garage doors",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Bride and groom tossing bouquet in formal garden with manicured hedges and trees",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Wedding ceremony in gothic church with elegant arches and stained glass windows",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Man sitting on wooden boardwalk with traditional Dutch windmill in background",
+      "category": "exterior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 29,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {
+    "facebook": "https://facebook.com/tr?ev=6034590363914&amp;cd[value]=0.01&amp;cd[currency]=USD&amp;noscript=1",
+    "instagram": "https://instagram.com/danielfugaciuphoto/",
+    "twitter": "https://twitter.com/Eyenvent"
+  },
+  "competitors": [],
+  "brandColors": {
+    "primary": "#c9a84c",
+    "accent": "#c9a84c",
+    "note": "Extracted from business website"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "window.fbAsyncInit = function() { FB.init({ xfbml : true, version : 'v10.0' }); }; (function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js'; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk')); html.no-js .nojsmenu { position: initial !important; left: auto !important; top: auto !important; color: initial !important; } html.js, html.js body {margin:0;padding:0;} html.NonGalleryPage .PageUIContent { min-height: 100%; } .PageTemplateUIContent { position: static !important; width:auto !important; overflow: visible; } .PageUIContent .GGTextContent { position: relative; } .PageUIContent { background-color: #FFFFFF; } .NonGalleryPage .PageUIContent #content { position: relative; } .GGTextContent, .GGTextContent * { font-size: 15px; color: #000000; line-height 1.25; } .GGTextContent:not(.CaptionContainer):Not(.PageInformationArea) { background-color: #FFFFFF; max-width: 860px; left: 50%; margin-left: -430px !important; padding: 45px 15px 45px 15px; } .GalleryUISiteNavigation { position: absolute; width: 100%; height: auto; top: 0px; bottom: auto; left: 0px; right: auto; } .GGTextContent div, .GGTextContent p, .GGTextContent ul, .GGTextContent ol, .GGTextContent table, .GGTextContent dl, .GGTextContent blockquote, .GGTextContent pre { margin: 0; margin-bottom: 10px; } .GGTextContent > p, .GGTextContent > div, .GGTextContent.CaptionContainer > span > p, .GGTextContent.PageInformationArea > span > p, .GGTextContent.CaptionContainer > span > div, .GGTextContent.PageInformationArea > span > div { padding: 0px 0px 0px 0px; } .GGTextContent div.CloseButton, .GGTextContent div.GalleryUIScrollBarVertical { padding: 0; } .GGTextContent > blockquote { margin: 30px; } .GGTextContent h1, .GGTextContent h2, .GGTextContent h3, .GGTextContent h4, .GGTextContent h5 { -moz-box-sizing: border-box; box-sizing: border-box; white-space: normal; margin: 0; font-weight: bold; background-color: #ffffff; } .GGTextContent h1 { font-size: 30px; color: #000000; line-height: 1.45; } .GGTextContent > h1 { padding: 0px 0px 10px 0px; } .GGTextContent h2 { font-size: 24px; color: #000000; line-height: 1.25; } .GGTextContent > h2, .GGTextContent .GGResponsiveTable td > h2, .CaptionContainer.GGTextContent > span > h2 { padding: 20px 0px 10px 0px; } .GGTextContent h3 { font-size: 20px; color: #000000; line-height: 1.25; } .GGTextContent > h3 { padding: 20px 0px 5px 0px; } .GGTextContent h4 { font-size: 18px; color: #000000; line-height: 1.45; } .GGTextContent > h4 { padding: 15px 0px 5px 0px; } .GGTextContent h5 { font-size: 12px; color: #000000; line-height: 1.45; } .GGTextContent > h5 { padding: 10px 0px 10px 0px; } ul.GalleryUIMenu {list-style: none;margin: 0;padding: 0} ul.GalleryUIMenu a {text-decoration: none} ul.GalleryUIMenu li {position: relative; white-space: nowrap} .GalleryUISiteNavigation {background-"
+}

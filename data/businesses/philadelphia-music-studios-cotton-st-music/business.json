@@ -1,0 +1,150 @@
+{
+  "name": "Philadelphia Music Studios - Cotton St. Music",
+  "slug": "philadelphia-music-studios-cotton-st-music",
+  "category": "guitar teacher",
+  "address": "108 Cotton St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19127",
+  "phone": "(267) 482-7211",
+  "email": "user@domain.com",
+  "website": "https://www.philadelphiamusicstudios.com/",
+  "rating": 5,
+  "reviewCount": 17,
+  "tagline": "",
+  "brandNarrative": "At Philadelphia Music Studios we offer affordable professional services because we believe that its not about the glam and glitz, yet more about the love of music and the building of a community. Our staff is knowledgable, and experienced at helping you achieve your musical goals. Come and make some music with us.\n\n\n  \n#block-cc1477c6e7d19c1e9589 {\n    \n    \n    \n    \n  }\n\n  #block-cc1477c6e7d19c1e9589 .sqs-html-content {\n    \n    }\n    \n  #block-cc1477c6e7d19c1e9589 {\n    mix-blend-mode: var(--tweak-text-block-blend\n  );\n  }\n  \n  \n  \n  \n  \n\n#block-cc1477c6e7d19c1e9589 {\n      \n    @media screen and (max-width: 767px) {\n          \n          \n          }\n    \n  \n    }#block-cc1477c6e7d19c1e9589 .sqs-html-content {\n      \n    @media screen and (max-width: 767px) {\n          \n          }\n    \n  }@media screen and (max-width: 767px) {\n          \n          \n\n          \n          \n          \n        }",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "11:00 AM – 10:00 PM",
+    "Tuesday": "11:00 AM – 10:00 PM",
+    "Wednesday": "11:00 AM – 10:00 PM",
+    "Thursday": "11:00 AM – 10:00 PM",
+    "Friday": "11:00 AM – 10:00 PM",
+    "Saturday": "11:00 AM – 10:00 PM",
+    "Sunday": "11:00 AM – 10:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Mike is a treasure for local musicians.  His studios are great.  Good equipment and he keeps them clean and well ventilated and cool in the summer.  Mike is super easy to work with.  He’s also a really good guitar teacher for all levels.  And he’s got a nice repair shop.",
+      "author": "Ed Rogers",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-23"
+    },
+    {
+      "text": "Great rehearsal space, convenient to parking (and good unload/load access), good acoustics, and extremely helpful staff for tech/logistical/comfort help. Already kicking myself for risking making it harder to book the space!",
+      "author": "Brian Kearney",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-23"
+    },
+    {
+      "text": "Fantastic location for rehearsing with groups. Mike provided a space that was great for filming a few YouTube videos. We parked a block or two north of the rehearsal space after load-in. Will be back again soon!",
+      "author": "Tinuke Oyefule",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-02-05"
+    },
+    {
+      "text": "Great place to massage your muse. Mike has it all. Pure sweetness",
+      "author": "harryhones",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-24"
+    },
+    {
+      "text": "Mike and co are the best! This is my go-to rehearsal space and I also use them for my guitar setups.",
+      "author": "Tyler Sensenig",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-26"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Professional music studio with colorful stage lighting, drum kit, and amplifiers",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Vinyl record with red and white Philadelphia Music Studios label on black disc",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Philadelphia Music Studios - Cotton St. Music photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Professional recording studio with drums, microphones, and amplifiers under blue lighting",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Bright red brick building with black trim and windows on corner street",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Band performing live on stage in intimate indoor venue with red lighting",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Acoustic guitar displayed in music repair workshop surrounded by tools and equipment",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Close-up of classical guitar with seven strings and treble clef pegs on workbench",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Philadelphia Music Studios - Cotton St. Music photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Two young students learning guitar during a music lesson with laptop instruction guide visible",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 17,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {
+    "facebook": "https://facebook.com/2008/fbml"
+  },
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "0 Skip to Content @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) { .header-blur-background { } } Philadelphia Music Studios Home About Recording Rehearsals Lessons Repairs Staff .top-bun, .patty, .bottom-bun { height: 1px; } Open Menu Close Menu Philadelphia Music Studios Home About Recording Rehearsals Lessons Repairs Staff .top-bun, .patty, .bottom-bun { height: 1px; } Open Menu Close Menu Home About Recording Rehearsals Lessons Repairs Staff Professional Recording Studio, Band Rehearsal/Practice Space, Music/Recording Lessons, Instrument Repairs/Sales .fe-block-3a4bfb4a3284e8c24f37 {mix-blend-mode: ; } Check us out on Facebook!! .fe-block-24be46477b8e1e6d0e9e {mix-blend-mode: ; } Have a Band? Starting a band? Do you need a place to rehearse? Are you looking record your next/first album? Need to refine your chops? Instrument/Gear need some tweaking? Hoping to network with local musicians? Look no further.... .fe-block-701d3c3b3cc7ba704561 {mix-blend-mode: ; } 2 Locations: (Roxbox) 6183 Ridge Ave. 2nd Floor, Philadelphia, Pa 19128, USA (Cotton St. Music) 108-110 Cotton St. Philadelphia, Pa 19127, USA 267-482-7211 philadelphiamusicstudios@gmail.com .fe-block-66e4a313bad60e77f05be892 {mix-blend-mode: ; } Powered by Squarespace .fe-block-713fe491a2c303b33937 {mix-blend-mode: ; }"
+}

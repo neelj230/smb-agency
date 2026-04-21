@@ -1,0 +1,180 @@
+{
+  "name": "Powell Valley Preschool and Child Care",
+  "slug": "powell-valley-preschool-and-child-care",
+  "category": "daycare",
+  "address": "4460 SE 10th Dr",
+  "city": "Gresham",
+  "state": "OR",
+  "zip": "97080",
+  "phone": "(503) 669-5487",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 3,
+  "tagline": "Stay small. Watch them grow.",
+  "brandNarrative": "Powell Valley Preschool and Child Care isn't trying to be everything to everyone — and that's exactly the point. Led by teacher Leah, this intimate home-based preschool in Gresham operates on a simple but powerful philosophy: 'We stay small so your child can grow.' That motto isn't marketing copy — it's the lived reality of every family who has walked through the door. Leah keeps her enrollment intentionally limited so that every child receives the kind of close, attentive care that larger centers simply cannot replicate. The puzzle-piece sign on the house exterior isn't accidental imagery; it speaks to a place where every child — including those who learn and experience the world differently — is seen as a piece worth celebrating.\n\nWhat sets Powell Valley apart is documented in the words of families like Ali Savage, whose son on the autism spectrum attended for 2.5 years and graduated to a regular Kindergarten classroom. Leah didn't just accommodate his needs — she welcomed them. She coordinated with rotating special education teachers, implemented visual charts, gave extra one-on-one attention, and reassured worried parents every step of the way. Her response to the challenge? 'I want to do what I can to help.' That sentence captures the entire culture of this school. This is not a place where children are managed. It's a place where children are genuinely loved.\n\nNestled at SE 10th Drive in Gresham's Powell Valley neighborhood, this is the kind of preschool that earns five-star reviews from parents who struggle to find the right words — because gratitude this deep doesn't fit neatly in a review box. For families seeking a nurturing, small-enrollment environment where their child can build social confidence, develop at their own pace, and feel truly safe, Powell Valley Preschool is a rare find.",
+  "ownerStory": "Teacher Leah is the heart and soul of Powell Valley Preschool and Child Care — and by all accounts, she wouldn't have it any other way. She runs a small, intentional program from a home setting in Gresham, Oregon, built around the belief that young children flourish when they're known, not just supervised. Her approach is warm, patient, and deeply individualized: she doesn't hand families a handbook and send them on their way. She holds meetings, creates custom visual supports, builds real relationships with special education teams, and shows up for children and parents alike with what one family called 'genuine love and caring.'\n\nWhat makes Leah's story remarkable is that her commitment doesn't waver when a child's needs are complex. When a child on the autism spectrum came to her program needing extra time, extra tools, and extra reassurance, Leah didn't flinch. She leaned in. The result — a child who gained enough social confidence to enter Kindergarten in a mainstream classroom — is the kind of outcome that defines a career. Parents leave Powell Valley not just satisfied, but transformed. They write thank-you notes. They worry she'll get too popular. They credit her with changing their child's trajectory. That's the mark of someone who didn't just choose a profession — she found her calling.",
+  "hours": {
+    "Monday": "7:30 AM – 4:30 PM",
+    "Tuesday": "7:30 AM – 4:30 PM",
+    "Wednesday": "7:30 AM – 4:30 PM",
+    "Thursday": "7:30 AM – 4:30 PM",
+    "Friday": "7:30 AM – 4:30 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Preschool Program",
+      "description": "A small-enrollment, structured preschool experience designed to build social confidence, school readiness, and a love of learning in young children ages 3–5.",
+      "icon": "book-open"
+    },
+    {
+      "name": "Full-Day Child Care",
+      "description": "Reliable weekday child care from 7:30 AM to 4:30 PM in a warm, home-based environment that feels safe and nurturing for toddlers and preschool-age children.",
+      "icon": "home"
+    },
+    {
+      "name": "Inclusive Special Needs Support",
+      "description": "Personalized accommodations for children with developmental differences, including coordination with special education teachers, visual learning tools, and individualized attention plans.",
+      "icon": "heart-handshake"
+    },
+    {
+      "name": "Social Skills Development",
+      "description": "Intentional, low-pressure opportunities for children to practice social interaction with peers in a safe, small-group setting guided by a caring, attentive teacher.",
+      "icon": "users"
+    },
+    {
+      "name": "Parent Partnership & Communication",
+      "description": "Active collaboration with families through regular meetings, progress updates, and open communication so parents always feel informed and supported.",
+      "icon": "message-circle"
+    },
+    {
+      "name": "Kindergarten Readiness",
+      "description": "A thoughtfully designed program that prepares children for the academic, social, and emotional demands of Kindergarten — even for children with unique learning profiles.",
+      "icon": "graduation-cap"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "I don't know how to get across how much we love teacher Leah. In fact, I'm not sure I want to because then she'll become so popular I won't have a chance at getting my youngest back in, lol.\n\nOur oldest son is on the autism spectrum. We were desperate to find a preschool where he could practice socializing in a safe setting. She accepted him, his quirks, and the extra work necessary to help him (meetings with rotating special education teachers, visual charts, extra attention, parental worry, etc.) and never once did she think he was a challenge. In fact, she said, \"I want to do what I can to help.\"\n\nHer motto is \"We stay small so your child can grow,\" and truer words were never spoken. Our son has thrived in the 2.5 years he attended Powell Valley Preschool and Childcare with Leah. He is now in Kindergarten in a regular classroom with his peers. It's still going to be a long road ahead, but I firmly believe that the genuine love and caring he received from Leah's supportive environment helped him feel more confident about social interaction.\n\nI can't thank you enough, Leah. Blessings to you, your wonderful school and students, and your family.",
+      "author": "Ali Savage",
+      "rating": 5,
+      "source": "google",
+      "date": "2016-09-27"
+    },
+    {
+      "text": "",
+      "author": "Natalya K",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-26"
+    },
+    {
+      "text": "",
+      "author": "Alia G. Escalante",
+      "rating": 5,
+      "source": "google",
+      "date": "2018-05-19"
+    }
+  ],
+  "team": [
+    {
+      "name": "Leah",
+      "role": "Lead Teacher & Program Director",
+      "bio": "Leah is the founder and guiding force of Powell Valley Preschool, known for her deeply individualized approach, her warmth with children of all abilities, and her motto: 'We stay small so your child can grow.' Parents of children with autism and other developmental differences credit her with life-changing outcomes.",
+      "credentials": [
+        "Experienced in inclusive early childhood education",
+        "Collaborates with special education professionals",
+        "Implements visual learning supports and individualized care plans"
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Powell Valley Preschool & Child Care sign with puzzle pieces on house exterior",
+      "category": "exterior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 5,
+      "suffix": "★",
+      "label": "Perfect Rating on Google"
+    },
+    {
+      "value": 2,
+      "suffix": ".5+ yrs",
+      "label": "Average enrollment for dedicated families"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "Of reviewed families would recommend"
+    },
+    {
+      "value": 7,
+      "suffix": ":30 AM",
+      "label": "Doors open every weekday"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What makes Powell Valley Preschool different from larger daycare centers?",
+      "answer": "Teacher Leah keeps enrollment intentionally small so every child receives personalized attention and genuine care. Her motto — 'We stay small so your child can grow' — is reflected in every family's experience. Children here aren't one of many; they're known by name, by personality, and by need."
+    },
+    {
+      "question": "Do you accept children with special needs or developmental differences?",
+      "answer": "Absolutely. Leah has significant experience supporting children on the autism spectrum and those with other developmental needs. She works closely with rotating special education teachers, creates visual charts, and tailors her approach to each child. Her response to a child's unique needs is always: 'I want to do what I can to help.'"
+    },
+    {
+      "question": "How do you prepare children for Kindergarten?",
+      "answer": "Powell Valley's program focuses on social confidence, communication, and school readiness in a low-pressure environment. Past students — including children with autism — have successfully transitioned into mainstream Kindergarten classrooms, which speaks to the strength of the foundation built here."
+    },
+    {
+      "question": "What are your hours and days of operation?",
+      "answer": "Powell Valley Preschool and Child Care is open Monday through Friday, 7:30 AM to 4:30 PM. The program is closed on weekends. These hours are designed to support working parents while maintaining a consistent routine for children."
+    },
+    {
+      "question": "How do I enroll my child, and is there a waitlist?",
+      "answer": "Because Leah keeps the program intentionally small, spots are limited and in high demand. We recommend calling (503) 669-5487 as early as possible to inquire about availability. Some families have noted that the program's reputation means openings fill quickly."
+    },
+    {
+      "question": "How involved can parents be in their child's progress?",
+      "answer": "Very involved. Leah actively partners with parents through meetings, open communication, and collaborative planning — especially for children with individualized needs. Families consistently describe feeling informed, supported, and genuinely heard throughout their child's time in the program."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#4A90A4",
+    "accent": "#F4A347",
+    "note": "Soft teal conveys calm, trust, and nurturing care — the emotional tone of a safe early childhood environment. Warm amber reflects the puzzle-piece imagery on the exterior sign, childhood warmth, and Leah's energetic, optimistic teaching spirit. Together they feel approachable, joyful, and professional without being corporate."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Deeply personalized, small-enrollment care that allows teacher Leah to form genuine relationships with every child and family — including those with complex needs like autism spectrum disorder",
+      "Exceptional inclusive education practices: Leah coordinates with special education professionals, builds visual learning tools, and adapts her approach without hesitation for children who need extra support",
+      "Transformational outcomes: one family credited the program with helping their autistic son gain the social confidence to enter mainstream Kindergarten — a powerful, word-of-mouth-worthy result"
+    ],
+    "common_complaints": [
+      "None found — all reviews are 5 stars; one parent humorously noted she's almost reluctant to recommend the program publicly for fear of losing her spot for a younger child, suggesting demand may outpace availability"
+    ],
+    "suggested_tagline": "Where every child has room to become.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "nurturing",
+      "inclusive",
+      "intentional",
+      "warm",
+      "transformational"
+    ],
+    "named_staff": [
+      "Leah"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

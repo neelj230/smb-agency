@@ -1,0 +1,186 @@
+{
+  "name": "Albany Heating & Air Conditioning",
+  "slug": "albany-heating-air-conditioning",
+  "category": "hvac contractor",
+  "address": "707 Broadalbin St SW",
+  "city": "Albany",
+  "state": "OR",
+  "zip": "97321",
+  "phone": "(541) 366-7090",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 7,
+  "tagline": "Straight Talk, Fair Prices, Real Results.",
+  "brandNarrative": "Albany Heating & Air Conditioning has built its reputation not on flashy promises, but on something harder to find: honesty. Customers like Donavan Moore, who has worked with the company for years, point to their 'professional attitude, helpful advice, and fair prices' as the reasons they keep coming back. J. Colt Dickman puts it plainly — they're 'upfront about pricing and they stand by their work.' In an industry where surprise charges and vague timelines are common frustrations, Albany Heating & Air Conditioning has carved out a niche by doing the opposite.\n\nThe shop itself carries a personality that mirrors its team — welcoming, no-nonsense, and genuinely skilled. Reviewers highlight their speed and accuracy, with E F specifically recommending them for stainless work and praising how 'accurate, fast, and easy to work with' the team is. Tyler Minnick called it 'an awesome place' and pointed to 'excellent communication and such a friendly place' as standout qualities. This isn't accidental — it's the result of a team that clearly enjoys what they do and respects the people they do it for.\n\nOperating seven days a week from 7 AM to 9 PM, Albany Heating & Air Conditioning makes themselves available when most contractors clock out. Whether it's a residential heating repair on a Saturday evening or a commercial sheet metal fabrication project midweek, they show up — professionally, affordably, and ready to get it right the first time.",
+  "ownerStory": "The story of Albany Heating & Air Conditioning is written in the loyalty of its customers. People like Donavan Moore don't stick with a company 'for a long time' unless something real is being delivered — consistent quality, straight answers, and prices that don't leave you feeling taken advantage of. The business has navigated a location move that one longtime customer noted took them 'too far from the og shop,' yet the five-star ratings held firm. That kind of loyalty isn't earned by accident.\n\nAt its core, this is a business built on craft and character. The team's specialization in precision sheet metal work — including stainless fabrication — signals a level of technical depth that goes beyond the average HVAC contractor. They don't just install and service heating and cooling systems; they fabricate the components with the kind of accuracy that customers notice and reviewers brag about. Albany Heating & Air Conditioning operates like a skilled trades shop that still remembers what customer service actually means.",
+  "hours": {
+    "Monday": "7:00 AM – 9:00 PM",
+    "Tuesday": "7:00 AM – 9:00 PM",
+    "Wednesday": "7:00 AM – 9:00 PM",
+    "Thursday": "7:00 AM – 9:00 PM",
+    "Friday": "7:00 AM – 9:00 PM",
+    "Saturday": "7:00 AM – 9:00 PM",
+    "Sunday": "7:00 AM – 9:00 PM"
+  },
+  "services": [
+    {
+      "name": "Heating System Installation & Repair",
+      "description": "Full installation and repair of residential and commercial heating systems, done accurately and on schedule at fair, upfront prices.",
+      "icon": "flame"
+    },
+    {
+      "name": "Air Conditioning Installation & Service",
+      "description": "Expert installation, maintenance, and repair of central air conditioning units and split systems for homes and businesses.",
+      "icon": "wind"
+    },
+    {
+      "name": "Custom Sheet Metal Fabrication",
+      "description": "Precision custom sheet metal work including stainless steel fabrication, highly recommended by customers for accuracy and quality.",
+      "icon": "layers"
+    },
+    {
+      "name": "HVAC System Maintenance & Tune-Up",
+      "description": "Scheduled preventative maintenance to keep heating and cooling systems running efficiently and extend equipment lifespan.",
+      "icon": "settings"
+    },
+    {
+      "name": "Ductwork Design & Installation",
+      "description": "Custom duct fabrication and installation leveraging in-house sheet metal expertise for optimal airflow and energy efficiency.",
+      "icon": "git-branch"
+    },
+    {
+      "name": "Emergency HVAC Service",
+      "description": "Seven-days-a-week availability from 7 AM to 9 PM means help is available when your system fails at the worst possible moment.",
+      "icon": "alert-triangle"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Great people to work with. Nice shop. They recently moved, but too far from og shop.",
+      "author": "E Brown",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-08-15"
+    },
+    {
+      "text": "I've had dealings with this company for a long time.  They have a great professional attitude, helpful advice, and fair prices. This is a great company to work with.",
+      "author": "Donavan Moore",
+      "rating": 5,
+      "source": "google",
+      "date": "2016-10-14"
+    },
+    {
+      "text": "Accurate Fast and easy to work with, prices are good, I recommend them especially for stainless work.",
+      "author": "E F",
+      "rating": 5,
+      "source": "google",
+      "date": "2015-04-13"
+    },
+    {
+      "text": "Great Company, great quality work, upfront about pricing and they stand by their work.",
+      "author": "J. Colt Dickman",
+      "rating": 5,
+      "source": "google",
+      "date": "2012-02-05"
+    },
+    {
+      "text": "What an awesome place! Excellent communication and such a friendly place!",
+      "author": "Tyler Minnick",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-03-30"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Outdoor air conditioning unit with dusty white top and metal mesh sides against brick wall.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Sheet Metal Solutions Inc storefront with black windows and blue logo signage",
+      "category": "exterior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 5,
+      "suffix": "★",
+      "label": "Perfect Rating Across All Reviews"
+    },
+    {
+      "value": 7,
+      "suffix": "+",
+      "label": "Verified Customer Reviews"
+    },
+    {
+      "value": 7,
+      "suffix": " Days",
+      "label": "Available Every Day of the Week"
+    },
+    {
+      "value": 14,
+      "suffix": " Hrs",
+      "label": "Daily Service Window (7AM–9PM)"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Are your prices upfront, or will I get surprised by hidden fees?",
+      "answer": "Transparency is one of the things customers mention most. As J. Colt Dickman noted, Albany Heating & Air Conditioning is 'upfront about pricing and they stand by their work' — no surprises, no bait-and-switch."
+    },
+    {
+      "question": "Do you offer sheet metal fabrication, including stainless steel work?",
+      "answer": "Yes — and it's one of their specialties. Customers specifically recommend them for stainless work, citing accuracy and fair pricing as standout qualities."
+    },
+    {
+      "question": "Are you available on weekends or evenings?",
+      "answer": "Albany Heating & Air Conditioning is open seven days a week from 7:00 AM to 9:00 PM, including Saturdays and Sundays — so you're not stuck waiting until Monday."
+    },
+    {
+      "question": "What makes Albany Heating & Air Conditioning different from other HVAC contractors?",
+      "answer": "Longtime customers point to three things: a professional and friendly attitude, genuinely helpful advice, and fair prices. They don't just complete the job — they communicate clearly and stand behind their work."
+    },
+    {
+      "question": "Did the business recently move locations?",
+      "answer": "Yes, they have moved from their original location. One reviewer mentioned the new shop is farther away but confirmed it's still the same great team and quality of work."
+    },
+    {
+      "question": "How quickly can I expect service or a response?",
+      "answer": "Speed is a consistent theme in customer reviews. Customers describe the team as 'accurate, fast, and easy to work with,' and communication is frequently highlighted as excellent."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#1B3F6E",
+    "accent": "#E8A020",
+    "note": "Deep navy blue conveys trust, professionalism, and technical reliability — core traits echoed in every review. The warm amber-orange accent reflects the dual nature of heating and cooling work, adds energy and approachability, and stands out against the cool primary without feeling corporate."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Consistent pricing transparency and honesty — multiple reviewers independently praise upfront, fair pricing with no hidden surprises",
+      "Exceptional communication and friendly team culture — 'excellent communication' and 'professional attitude' appear across unrelated reviews, signaling a genuine team-wide trait",
+      "Technical precision and specialty fabrication — specific callout for stainless steel work accuracy suggests a higher-skill offering that differentiates them from standard HVAC contractors"
+    ],
+    "common_complaints": [
+      "One reviewer noted the new location is farther from the original shop, which may be a mild inconvenience for some longtime local customers"
+    ],
+    "suggested_tagline": "Honest Work. Fair Price. Done Right.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "trustworthy",
+      "professional",
+      "approachable",
+      "precise",
+      "communicative"
+    ],
+    "named_staff": []
+  },
+  "dataSources": [
+    "google"
+  ]
+}

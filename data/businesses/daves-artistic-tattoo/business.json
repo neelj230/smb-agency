@@ -223,15 +223,7 @@
     ],
     "suggested_tagline": "Where nervous walks in, confident walks out.",
     "photo_quality": "fair",
-    "personality_keywords": [
-      "warm",
-      "calming",
-      "funny",
-      "precise",
-      "genuine"
-    ],
-    "named_staff": [
-      "Dave"
-    ]
+    "personality_keywords": ["warm", "calming", "funny", "precise", "genuine"],
+    "named_staff": ["Dave"]
   }
 }

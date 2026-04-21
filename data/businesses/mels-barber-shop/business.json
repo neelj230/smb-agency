@@ -1,0 +1,136 @@
+{
+  "name": "Mel's Barber Shop",
+  "slug": "mels-barber-shop",
+  "category": "barber",
+  "address": "962 NW Circle Blvd",
+  "city": "Corvallis",
+  "state": "OR",
+  "zip": "97330",
+  "phone": "(541) 360-9373",
+  "email": "",
+  "website": null,
+  "rating": 4.7,
+  "reviewCount": 213,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Closed",
+    "Tuesday": "8:00 AM – 5:30 PM",
+    "Wednesday": "8:00 AM – 5:30 PM",
+    "Thursday": "8:00 AM – 5:30 PM",
+    "Friday": "8:00 AM – 5:30 PM",
+    "Saturday": "8:00 AM – 2:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "This place is wonderful! The owners are such nice guys and the service is top tier. I will definitely be going back 😁",
+      "author": "Holly E.",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-29"
+    },
+    {
+      "text": "Brady has been the best barber for me in town when I was a grad student in Corvallis at OSU. He gave excellent, time efficient, hair cuts, and always made sure I was happy with each one. He was able to adjust quickly to the styles I wanted too. Brady was always exceptionally professional and pleasant to chat with each visit. He treated me kindly with utmost respect. I will miss going there and having our chats now that I am out of state. I highly recommend this shop!",
+      "author": "ron samia",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-03-21"
+    },
+    {
+      "text": "I choose Mel’s Barber shop as my first hair cut in the states after survey through Google maps review. As per the review, friendly, professional and good service. Definitely will come back again.",
+      "author": "Adam Khoo",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-10-01"
+    },
+    {
+      "text": "This was my second time there. As a woman, I wasn't sure about a barber shop but I'll never go back to a salon again. These guys are great and I like not having to make an appointment!",
+      "author": "Kay Kohlmeyer",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-07-29"
+    },
+    {
+      "text": "I’ve had good and poor hair cut experiences here. After my last experience I won’t be returning. Received possibly the worst hair cut I’ve ever experienced. Lopsided, uneven and just not good. Don’t recommend.",
+      "author": "Kevin Bateman",
+      "rating": 1,
+      "source": "google",
+      "date": "2024-04-13"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Mel's Barber Shop storefront with illuminated sign and glass entrance doors",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Close-up of layered hair with blonde highlights and modern styling from behind",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "OSU-themed barber shop interior with vintage chair and college memorabilia on walls",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Close-up of a child's short haircut showing layered styling and fade technique.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Man getting haircut in barber shop with sports memorabilia on walls",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Mel's Barber Shop storefront with illuminated sign and open door entrance.",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Young person in barber shop with red and black striped sports jersey displayed on wall",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Barber shop interior with client receiving haircut, sports jersey displayed on wall",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 213,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.7,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

@@ -1,0 +1,239 @@
+{
+  "name": "Oregon Coast Childcare",
+  "slug": "oregon-coast-childcare",
+  "category": "daycare",
+  "address": "7659 NW Logan Rd",
+  "city": "Lincoln City",
+  "state": "OR",
+  "zip": "97367",
+  "phone": "(503) 313-8668",
+  "email": "",
+  "website": null,
+  "rating": 4.5,
+  "reviewCount": 15,
+  "tagline": "Where the coast becomes their classroom.",
+  "brandNarrative": "Oregon Coast Childcare in Lincoln City is not your typical daycare. Built around the belief that children learn best when they're digging in tide pools, baking blueberry muffins, and building bird feeders from toilet paper rolls, this is a place where every day feels like an adventure. Lead educator Diana runs a small, intentional childcare program out of a warm home setting just steps from the Oregon coast — and kids don't just tolerate it, they wake up in the morning begging to go. Parents consistently describe Diana's program as the rare thing: childcare that actually feels like early childhood education, wrapped in the kind of nurturing that makes you feel like your child is with family.\n\nDiana brings over 35 years of early childhood education experience to every craft project, every beach hike, and every snack prep session where kids get to help measure and mix. She photographs children throughout the day and sends updates to working parents — a small gesture that carries enormous emotional weight for a parent sitting at a desk miles away. Reviews from families visiting for summer stays, maternity leave, and coast weekends all tell the same story: Diana meets children where they are, adapts to wildly different schedules, and somehow makes every child feel like a regular.\n\nWhat makes Oregon Coast Childcare genuinely special is the intersection of natural environment and structured learning. Children spot deer, chipmunks, and coastal birds in the yard, make chalk race tracks on the driveway, explore tide flats, and harvest vegetables from an actual garden. For families splitting time between Portland and the coast, relocating for a season, or just needing dependable care while on an extended visit, Diana offers something coastal Oregon desperately lacks: flexible, high-quality childcare that doesn't require a long-term commitment to access.",
+  "ownerStory": "Diana has spent more than three decades doing one thing exceptionally well — helping young children feel safe, curious, and wildly excited about the world around them. A former preschool teacher with deep roots in early childhood education, she launched Oregon Coast Childcare to fill a genuine gap on the Oregon coast, where quality childcare is notoriously hard to find. Her program isn't built on a corporate curriculum or a rigid schedule. It's built on the idea that a three-year-old who helps bake muffins, tends a garden, and hunts for crabs at low tide is getting an education that no worksheet can replicate.\n\nFamilies who find Diana often describe it as lucky — and they're not wrong. She has an uncommon ability to make flexible arrangements work, whether that's accommodating a work-from-home parent commuting between Portland and Lincoln City, supporting a family on maternity leave who wants structure for their older child, or welcoming back past families who've moved away but return to the coast and immediately call her first. Former families who no longer live in the area still consider her their go-to. That kind of loyalty isn't built through marketing. It's built by a person who genuinely shows up, every single day, for the children in her care.",
+  "hours": {
+    "Monday": "7:00 AM – 6:00 PM",
+    "Tuesday": "7:00 AM – 6:00 PM",
+    "Wednesday": "7:00 AM – 6:00 PM",
+    "Thursday": "7:00 AM – 6:00 PM",
+    "Friday": "7:00 AM – 6:00 PM",
+    "Saturday": "7:00 AM – 6:00 PM",
+    "Sunday": "7:00 AM – 6:00 AM"
+  },
+  "services": [
+    {
+      "name": "Full-Day Childcare",
+      "description": "Structured, nature-rich daily care available Monday through Saturday from 7 AM to 6 PM for toddlers and preschool-age children.",
+      "icon": "sun"
+    },
+    {
+      "name": "Flexible & Seasonal Care",
+      "description": "Adaptable scheduling for families visiting the coast seasonally, on extended stays, or splitting time between Lincoln City and other cities like Portland.",
+      "icon": "calendar"
+    },
+    {
+      "name": "Outdoor & Nature Exploration",
+      "description": "Daily outdoor adventures including beach hikes, wildlife spotting, and hands-on exploration of the natural Oregon coast environment.",
+      "icon": "tree-pine"
+    },
+    {
+      "name": "Early Childhood Education Activities",
+      "description": "Preschool-level learning through crafts, games, puzzles, dance, and structured activities led by an educator with over 35 years of experience.",
+      "icon": "book-open"
+    },
+    {
+      "name": "Garden & Cooking Experiences",
+      "description": "Children participate in growing and harvesting vegetables in the garden and help prepare healthy snacks like blueberry muffins in the kitchen.",
+      "icon": "sprout"
+    },
+    {
+      "name": "Arts & Crafts Program",
+      "description": "Creative hands-on projects including toilet paper roll bird feeders, chalk art, colorful paper crafts, and other imagination-driven activities.",
+      "icon": "palette"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "We were looking for a flexible childcare option on the coast as I work from home and often go between the coast and our home in Portland and needed good childcare for my 3yr old daughter when we are there. Diana has been amazing! She is flexible and we are so excited my daughter can have such great care in the summer when we spend lots of time in Lincoln city. Diana takes the kids on lots of outdoor adventure to the beach and my daughter had so much fun and really enjoyed her time there. It’s great knowing she’s well cared for and knowing Diana has so much early childhood education experience is great too. Definitely recommend!",
+      "author": "Amanda Kotzian",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-04-26"
+    },
+    {
+      "text": "I cannot day enough positive things about teacher Diana and the time my kids have been able to spend with her over the years. She incorporates outside exploration, healthy (and fun!) snacks where kids get to help with preparation,  crafts, and downtime as needed. We’ve moved out of the area and she is still my go to when I need to come to the coast.",
+      "author": "Theresa Harper",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-03-10"
+    },
+    {
+      "text": "Diana at Oregon Coast Childcare is such an amazing person and teacher! My boys absolutely love her and have so much fun being there. She has over 35 years of childhood education experience and really takes pride in providing and safe, fun and nature driven environment for the kids. I really love how much learning and exploration is done outside. The kids do so many fun things such as hikes to the beach, baking blueberry muffins, making toilet paper roll bird feeders, creating chalk race tracks, just to name a few! One of my favorite things she does is send me photos of my boys throughout the day while at work; it really makes me feel good knowing how well my boys are looked after. 10/10 highly recommend bringing your littles here!",
+      "author": "Jesse Ward",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-03-18"
+    },
+    {
+      "text": "Our 2 year old had a great time here! He loved going and was excited to have fun with Diana each time. She does a great job engaging the kids with games, puzzles, dance, and outdoor adventures. He learned a lot! There’s a lot of wildlife around and he loved seeing the birds, deer chipmunks, etc. Diana was also super flexible and great to work with our schedules. We’re very grateful to have found this place as childcare on the coast is hard to find.",
+      "author": "David & Natashia Szugyi",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-01-15"
+    },
+    {
+      "text": "We had such a positive experience with Diana and Oregon Coast Childcare. We were visiting for our maternity leave for a month, and didn't want our 3 year old to lose the structure and education he was getting at preschool at home. Our son would wake up in the morning begging to go to Diana's house, she was absolutely amazing with him. She was a preschool teacher in her past which made his time there so beneficial, where he was still doing many of the educational things he was getting at home while in her care. Thank you to the moon, Diana! Because of you, we were able to get both the structure and education benefits, while also nesting into our new family of four. If we're ever back in Lincoln City, we know who to call.",
+      "author": "Lindsay Maisch",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-10-24"
+    }
+  ],
+  "team": [
+    {
+      "name": "Diana",
+      "role": "Lead Educator & Owner",
+      "bio": "With over 35 years of early childhood education experience and a background as a preschool teacher, Diana creates a safe, nature-driven, and genuinely joyful environment that children look forward to every single day. Parents praise her flexibility, her warmth, and her habit of sending photo updates throughout the day so families always feel connected.",
+      "credentials": [
+        "35+ years early childhood education experience",
+        "Former preschool teacher",
+        "Specializes in nature-based and experiential learning"
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Woman reading a children's book with two young children on a living room floor",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Three young children engaged in a creative craft activity with colorful paper pieces at a wooden table.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Two children playing with water and sand near wooden structures on beach.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Two young children engaged in a creative craft activity at a wooden table indoors.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Child engaged in colorful arts and crafts project with paper tubes and materials.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Child in otter hat playing on rocky beach with ocean and cliffs behind",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Young child playing cornhole game outdoors on driveway with pink playhouse nearby",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Children working in a lush garden, holding tools and harvesting vegetables.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Three children playing with buckets on a sandy beach with cliffs behind them",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Colorful wooden toy train set with stacked blocks on carpet playroom floor",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 4.5,
+      "suffix": "★",
+      "label": "Average Customer Rating"
+    },
+    {
+      "value": 15,
+      "suffix": "+",
+      "label": "Verified Family Reviews"
+    },
+    {
+      "value": 35,
+      "suffix": "+",
+      "label": "Years of Early Childhood Education Experience"
+    },
+    {
+      "value": 6,
+      "suffix": " days",
+      "label": "Days a Week, 7 AM – 6 PM"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Do you offer flexible or short-term childcare for families visiting the coast?",
+      "answer": "Yes — flexible scheduling is one of Diana's specialties. Oregon Coast Childcare regularly serves families who split time between Lincoln City and Portland, visitors on extended stays, and families on maternity leave who want to maintain structure for older children. Reach out by phone to discuss your specific schedule needs."
+    },
+    {
+      "question": "What makes Oregon Coast Childcare different from other daycare options?",
+      "answer": "Diana brings over 35 years of early childhood education experience and a preschool teaching background to every single day. The program blends structured learning with hands-on nature exploration — think beach hikes, garden harvesting, baking, and crafts — in a warm home setting. Children consistently leave having learned something new, and many beg to come back."
+    },
+    {
+      "question": "What ages do you serve?",
+      "answer": "Oregon Coast Childcare primarily serves toddlers and preschool-age children. Reviews mention children as young as 2 years old thriving in the program. Contact Diana directly at (503) 313-8668 to discuss whether the program is a good fit for your child's age and needs."
+    },
+    {
+      "question": "Will I receive updates about my child during the day?",
+      "answer": "Absolutely. Diana regularly sends parents photos of their children throughout the day — a detail multiple families specifically highlighted as meaningful. It helps working parents feel connected and reassured, especially those who are away from their child for the first time in a new environment."
+    },
+    {
+      "question": "What kinds of activities do the children do each day?",
+      "answer": "No two days are identical, but expect a rich mix of beach hikes, wildlife spotting (deer, chipmunks, coastal birds), vegetable gardening, baking sessions, arts and crafts, puzzles, dance, chalk games, and water and sand play. The program is intentionally rooted in the natural coastal environment surrounding Lincoln City."
+    },
+    {
+      "question": "Is childcare really hard to find on the Oregon coast?",
+      "answer": "Multiple families mentioned that quality childcare on the Oregon coast is genuinely scarce — which is part of what makes Oregon Coast Childcare so valued by the community. If you're planning a coastal stay or relocating, it's worth calling ahead at (503) 313-8668 to check availability early."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#2E6B4F",
+    "accent": "#E8934A",
+    "note": "Deep coastal sage green reflects the nature-based, outdoor-first philosophy and the lush Oregon coast environment seen in garden and beach photos. Warm amber-orange captures the handmade, creative, craft-table energy — muffins baking, paper crafts, chalk on driveways — and the warmth of Diana's nurturing personality. Together they feel earthy, joyful, and trustworthy without being corporate."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Diana's exceptional personal warmth and 35+ years of professional early childhood education expertise create a rare combination of emotional safety and genuine learning outcomes that parents deeply trust.",
+      "Nature-immersive programming — beach hikes, gardening, wildlife encounters, and outdoor play — differentiates this childcare from any indoor-only competitor and leverages the unique Lincoln City coastal environment as a living classroom.",
+      "Outstanding scheduling flexibility for seasonal, visiting, and split-location families fills a critical unmet need on the Oregon coast where quality childcare is scarce, creating intense loyalty even among families who have moved away."
+    ],
+    "common_complaints": [
+      "None found — all 15 reviews are positive with no recurring concerns, criticisms, or service gaps mentioned."
+    ],
+    "suggested_tagline": "Real learning. Real nature. Really Diana.",
+    "photo_quality": "good",
+    "personality_keywords": [
+      "nurturing",
+      "adventurous",
+      "flexible",
+      "experienced",
+      "nature-driven"
+    ],
+    "named_staff": [
+      "Diana"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

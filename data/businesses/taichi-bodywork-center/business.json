@@ -1,0 +1,151 @@
+{
+  "name": "TaiChi Bodywork Center",
+  "slug": "taichi-bodywork-center",
+  "category": "massage therapist",
+  "address": "4325 Main St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19127",
+  "phone": "(267) 265-8088",
+  "email": "",
+  "website": "https://taichibodyworkcenter.onbuildhealth.com/",
+  "rating": 4.1,
+  "reviewCount": 164,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "10:00 AM – 10:00 PM",
+    "Tuesday": "10:00 AM – 10:00 PM",
+    "Wednesday": "10:00 AM – 10:00 PM",
+    "Thursday": "10:00 AM – 10:00 PM",
+    "Friday": "10:00 AM – 10:00 PM",
+    "Saturday": "10:00 AM – 10:00 PM",
+    "Sunday": "10:00 AM – 10:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "2.8.26\n60min $60\n90min $90\n\nReally amazing massage. I have several issues with my muscles and fascia that require a strong massage and that is exactly what this was. It was so good.\n\nSome of the other patrons seemed to have had a more relaxing massage, so if that's what you're looking for that I'm sure that's available as well.\n\nThe facility is pretty typical for the Thai massage places I've been too: rooms with curtains for doors, walls that don't go quite to the ceiling, etc. Very clean.\n\nMae did a fantastic job and I will absolutely be back.",
+      "author": "Anna Johnson",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-08"
+    },
+    {
+      "text": "Here’s a shorter, more concise version:\n\nWe had a great couples massage experience. The therapists were attentive, checked in about pressure and comfort, and made sure we both felt relaxed throughout the session. The atmosphere was calm and professional.\n\nThe pricing was very reasonable for the quality of service, with no hidden fees or pressure to upgrade. We left feeling relaxed and felt it was excellent value for the price. We would definitely book again.",
+      "author": "Kurt Magda",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-10"
+    },
+    {
+      "text": "Love the place. I've been going there for almost 20 years now. Ever since their old location down the street across from the fire station. Very professional and skilled staff. If the tech is new there might be slight language barrier so take your time and make sure you are understood. You can't beat the price. It's been $1 a minute since I started going. So don't be cheap and tip the tech well. Basically tip $10 for every 30 minutes you get.  1/2 hour-pay $30 tip $10. You get 90 minutes-pay $90 tip $30. If they find that spot that has been killing you, tip them more",
+      "author": "Damon Cunningham",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-14"
+    },
+    {
+      "text": "Had a 60 minute massage and it was excellent. Not familiar with this technique of massage but I really enjoyed it. I got a medium pressure massage and it was on the more intense side which I enjoyed. It's not a fancy place but for the price and technique, can't wait to go back again.",
+      "author": "Laila Reilly",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-08"
+    },
+    {
+      "text": "I booked a 90 min massage online, but halfway through my therapist left for several minutes then returned to try to make me take a cell phone call with her colleague and eventually use a translator app. My massage was being cut to 60 minutes because some man arrived and complained about waiting. I was charged for a full 60 minutes in spite of the lapse and interruption.\n\nThis is my first time returning here in 6ish years after another bad experience where the front desk man started a major argument with my therapist and then tried to switch places with her doing my massage halfway. Should have learned my lesson then.\n\nAnyway the massage is good but you will likely have to have a language barrier discussion while naked in the middle.",
+      "author": "Veronica",
+      "rating": 2,
+      "source": "google",
+      "date": "2026-03-08"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "TaiChi Bodywork Center photo 1",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Minimal massage or medical treatment room with bed and storage shelving",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Spa reception area with pricing board, flowers, water cooler, and Asian floral artwork",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "TaiChi Bodywork Center photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Long hallway with blue walls, wooden flooring, and multiple doors",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Twin beds in a spa or massage therapy room with warm lighting and wall art",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Modern blue hallway with LED lighting and dark wood-look flooring",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Street view of historic neighborhood with brick buildings, shops, and arched bridge overhead",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "TaiChi Bodywork Center photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Sparse institutional bedroom with two beds, wall clock, and minimal furnishings",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 164,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.1,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {
+    "facebook": "https://facebook.com/p/Tai-Chi-Bodywork-Center-100065770951479/",
+    "yelp": "https://yelp.com/biz/tai-chi-bodywork-center-philadelphia"
+  },
+  "competitors": [],
+  "brandColors": {
+    "primary": "#121519",
+    "accent": "#6f788b",
+    "note": "Extracted from business website"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "Loading... TaiChi Bodywork Center Booking Services TaiChi Bodywork Spa Center Welcome to TaiChi Bodywork Center, your sanctuary for holistic healing in the heart of Manayunk, Philadelphia. Book Appointment Our Location Hours Mon - Sun10am - 10pm Location 4325 Main St.Philadelphia, PA 19127 Services Bodywork Phone (267) 265-8088 About Us Welcome to TaiChi Bodywork Center, your sanctuary for holistic healing in the heart of Manayunk, Philadelphia. Located at 4325 Main St, our center is dedicated to providing personalized bodywork therapies that help restore balance to the body, mind, and spirit.Our licensed massage therapists are trained in a variety of traditional techniques, including Tui Na, acupressure, and reflexology, all rooted in the principles of Traditional Chinese Medicine. These treatments are designed to relieve tension, reduce pain, and support overall well-being. Whether you're seeking relief from chronic discomfort or looking to de-stress, our sessions are tailored to meet your unique needs.At TaiChi Bodywork Center, we believe in the power of skilled touch to restore, relax, and renew. Let us support your wellness journey in a peaceful and welcoming setting. Services & Prices Bodywork 60min $ 60.00 Combo 60min $ 60.00 Couples Bodywork 60min $ 120.00 View All Services Testimonials What our customers say about us: I’ve had a wonderful experience every time I’ve come here for massage. It’s a great deal. Me and my partner go whenever we can. Ashley H. 5 Stars If you're looking for a massage that offers great value for your money, TaiChi Bodywork Center is an excellent choice. I left feeling relaxed and satisfied, and I will be returning for another session soon! Terry G. 5 Stars Love getting massages here! I got a couple massage with my boyfriend and they accommodated us in the same room. Great pressure and felt so nice afterwards. Would highly recommend. We’ll be back! Michele E. 5 Stars Super helpful to get massage here to get sore muscles working together again. Most therapeutic massage I've ever had! Ivan D. 5 Stars TaiChi Bodywork Center Booking Services © All rights reserved. Powered By Build Health | 薄荷科技"
+}

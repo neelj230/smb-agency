@@ -1,0 +1,141 @@
+{
+  "name": "Mobile Mechanic Pdx",
+  "slug": "mobile-mechanic-pdx",
+  "category": "mobile mechanic",
+  "address": "15206 NW Sweetgale Ln",
+  "city": "Portland",
+  "state": "OR",
+  "zip": "97229",
+  "phone": "(503) 482-8686",
+  "email": "",
+  "website": null,
+  "rating": 4.9,
+  "reviewCount": 27,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "5:30 AM – 5:30 PM",
+    "Tuesday": "Closed",
+    "Wednesday": "Closed",
+    "Thursday": "Closed",
+    "Friday": "Closed",
+    "Saturday": "Closed",
+    "Sunday": "9:00 AM – 3:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Todd is one of most knowledgeable and honest mechanics you'll ever meet.\nAfter working on my dad's truck (which drives lovely now) and diagnosing my car, we have complete satisfaction with all the work he's done and wouldn't hesitate in recommending him to anyone.\nHe is also very reasonable with his pricing, do not go to the dealership and throw away money like we did before we found Todd. 10/10 service",
+      "author": "Lu-dee",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-06-24"
+    },
+    {
+      "text": "Todd is fantastic!! My alternator went out last night after normal business hours and I was so freaked out. I found Todd on google and, forgetting how late it was, called him around 9:30 pm (sorry Todd!) but he answered immediately and was so friendly and helpful. He gave me a rough estimate over the phone and made an appointment to come over and fix it the next day. I was blown away by his great customer service. He was really flexible regarding a particular need I had, and he kept me in the loop for the entire process, even checking in with me before he bought the part to make sure it was what I needed. He showed up today right on time and even with all the tricky quirks of my very old car, he had it repaired fast and I was back on the road within a couple hours. I felt my car was in great hands with him. His prices are more than fair and he was so accommodating every step of the way, making an otherwise anxiety-inducing experience into an easy, stress-free time. Thanks so much Todd, you're a lifesaver!",
+      "author": "Evelyn Alvarado",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-08-21"
+    },
+    {
+      "text": "Todd is the absolute best! He was patient and thorough! He met me in Vancouver even though he is based in the Beaverton area and he was quick about fixing my car and communicated well with me! I thought it was the whole starter that needed to be replaced but it was just the relay so he even saved me money and didn’t try to rob me like a lot of other mechanics do! So if you need a trustworthy mechanic who will get the job done in a quick and professional manner, go to Todd!",
+      "author": "Marcela Southmayd",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-02-14"
+    },
+    {
+      "text": "Drove 5 hours to look at a car to buy in Portland and the owner had told me everything was good except needing a new water pump.  I had Todd meet me at the sellers place to do a vehicle inspection and Todd saved me from making a huge mistake in buying that car.  His knowledge coupled with all the right tools got to the bottom of what was wrong with the car.  It would have needed a complete engine overhaul  for around $5000.    I can't thank him enough.   I was confidently able to walk away from the sale knowing that this was NOT the car for me.   Aside from being a great mechanic he was also a really easy going and nice guy.   Thanks Todd! you saved me from a major headache.",
+      "author": "Scott Sullivan",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-05-09"
+    },
+    {
+      "text": "Todd did a fantastic job repairing my front brakes on my Kia. Before I even booked the appointment, a quote was sent in to get them repaired that was much more affordable than what the dealership wanted. Todd came to my office, let me know what he was going to do, how long it was expected to take and texted me when he was done! The brakes are perfect! He even replaced the springs and other hardware that had worn out. I’ll definitely be using Todd on my other vehicles too! A+ service, definitely will recommend him to everyone I know.",
+      "author": "Kale Beyer",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-07-22"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Mechanic working on automotive parts and components on workshop floor",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Red metal workbench tool with vises and clamps in workshop setting",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Mechanic working on vehicle suspension system in garage workshop",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Mechanic disassembling transmission components and gears on workshop floor",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Worker in blue gloves performing maintenance or inspection on industrial equipment",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Innova 3100 RS diagnostic scanner displaying Saturn vehicle fault code P0122",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Mechanic holding a pressure gauge over open car engine during diagnostic testing.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Mechanic in blue cap inspecting car engine under open hood outdoors",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Mechanic working on vehicle brake system under car with tools and equipment",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 27,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

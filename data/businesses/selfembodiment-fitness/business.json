@@ -1,0 +1,148 @@
+{
+  "name": "SelfEmbodiment Fitness",
+  "slug": "selfembodiment-fitness",
+  "category": "personal trainer",
+  "address": "604 S 9th St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19147",
+  "phone": "(267) 422-2827",
+  "email": "mp@selfembodiment.com",
+  "website": "https://selfembodiment.com/",
+  "rating": 5,
+  "reviewCount": 76,
+  "tagline": "",
+  "brandNarrative": "The site will be available soon. Thank you for your patience!\n\nFor pricing and initial steps to personal training, email Malcolm (Owner/Trainer) at mp@selfembodiment.com, and you'll receive a prompt reply. We look forward to training with you!",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "6:00 AM – 9:30 PM",
+    "Tuesday": "6:00 AM – 9:30 PM",
+    "Wednesday": "6:00 AM – 9:30 PM",
+    "Thursday": "6:00 AM – 9:30 PM",
+    "Friday": "6:00 AM – 6:30 PM",
+    "Saturday": "7:00 AM – 1:30 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I’ve been training with Malcolm for almost three years, and he’s completely changed the way I approach fitness. It used to feel like a chore, but now it’s just part of my routine—and something I actually enjoy.\n\nMalcolm knows how to push you without overdoing it. He’s consistent, smart about programming, and genuinely cares about your progress. I’ve gotten stronger, more confident, and learned a lot along the way.\n\nHe’s also become a good friend, which says a lot about the kind of person he is. Couldn’t recommend him more.",
+      "author": "Garret Starr",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-10"
+    },
+    {
+      "text": "SelfEmbodiment Gym is truly a one-of-a-kind place in Philadelphia. From the moment you walk in, the space is clean, welcoming, and filled with an energy that motivates you to give your best.\n\nMalcolm is more than just a personal trainer. He is a man of great character, discipline, and integrity. He does not just talk about fitness, health, and consistency. He lives the lifestyle every single day and leads by example.\n\nI have been training at SelfEmbodiment 2 to 3 times a week for almost five years, and every single session has been unique, challenging, and tailored to my personal goals.\n\nMalcolm knows how to adapt programs to life’s changes while still keeping you progressing forward. What makes the experience even more inspiring is seeing not only my own growth in strength and body transformation but also watching other clients achieve incredible progress alongside me.\n\nThe environment Malcolm has built is warm, encouraging, and supportive. No matter your fitness level, you feel like you belong. He pushes you when you need it, guides you with patience, and always ensures you are moving closer to your goals. Training here has been one of the best decisions I have made, and I highly recommend SelfEmbodiment Gym to anyone looking for real results with a trainer who truly embodies the lifestyle he teaches.",
+      "author": "Renee D",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-28"
+    },
+    {
+      "text": "My husband and I have been training with Malcolm since Dec 2019, and the experience has been transformative. What sets Malcolm apart is his deep knowledge and attention to detail. He ensures that every exercise is performed with perfect form to maximize results and prevent injury. He’s incredibly supportive, always encouraging us to push our limits while respecting our boundaries.\nSince working with Malcolm, I have seen significant improvements in my strength and energy level.\nIf you’re looking for a trainer who genuinely cares about your progress and invests in your success, Malcolm is the one to call. Highly recommend him as a personal trainer!",
+      "author": "Sangeeta Vohra",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-12-28"
+    },
+    {
+      "text": "I've been training with Malcom for 1.5 years and can't recommend him enough. After going through a major surgery in 2019 and unable to work out for 3 years after that I knew I needed someone to start from scratch and help me stay motivated. Malcolm understood where I was and my needs and slowly but surely helped build me back up. I've practiced yoga prior to my surgery but have never had a personal trainer for strength training or weightlifting. Malcolm has been patient but also motivating to keep me progressing in this strength training journey and now I feel the best I've ever felt. I always thought it was about how I looked but feeling strong helps me feel empowered and confident and I can't thank Malcolm enough!",
+      "author": "jinny kim",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-03-10"
+    },
+    {
+      "text": "I’m not much of a gym person, never have been. I’ve had multiple trainers and I’ve never been able to stick with it. I started working with Malcolm one year ago and not only have the physical results far exceeded my expectations, but he has given me all the needed information about what my body needs and how to take optimum care of myself ongoing.\n\nMalcolm is patient, kind, extraordinarily informative. Highly recommend across-the-board.",
+      "author": "Admin Account",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-10-21"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "SelfEmbodiment Fitness photo 1",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Indoor fitness equipment display featuring yellow and black suspension training straps and exercise gear",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "SelfEmbodiment Fitness photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Fitness enthusiasts perform battle rope exercises outdoors near urban bridge.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Woman performing barbell squat exercise in modern gym facility with equipment",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Personal trainer instructing female client in modern gym facility with equipment",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "SelfEmbodiment Fitness photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Woman exercising with sled push machine in modern gym facility",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Fitness gym storefront with purple signage advertising strength and toning classes",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Bright neon yellow spray bottles with black labels displayed on white retail shelf",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 76,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#111111",
+    "accent": "#111111",
+    "note": "Extracted from business website"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "SelfEmbodiment Fitness Maintenance mode is onThe site will be available soon. Thank you for your patience! For pricing and initial steps to personal training, email Malcolm (Owner/Trainer) at mp@selfembodiment.com, and you'll receive a prompt reply. We look forward to training with you! © SelfEmbodiment 2026 User LoginLost Password /* <![CDATA[ */ var mtnc_front_options = {\"body_bg\":\"https://selfembodiment.com/wp-content/uploads/2025/12/test.jpg\",\"gallery_array\":[],\"blur_intensity\":\"5\",\"font_link\":[\"Open Sans:300,300italic,regular,italic,600,600italic,700,700italic,800,800italic:300\"]}; //# sourceURL=_frontend-js-extra /* ]]> */"
+}

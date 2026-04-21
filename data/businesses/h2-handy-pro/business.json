@@ -1,0 +1,148 @@
+{
+  "name": "H2 Handy Pro",
+  "slug": "h2-handy-pro",
+  "category": "handyman",
+  "address": "61535 S Hwy 97 #9-184",
+  "city": "Bend",
+  "state": "OR",
+  "zip": "97702",
+  "phone": "(503) 577-5860",
+  "email": "",
+  "website": "http://www.h2handypro.com/",
+  "rating": 4.8,
+  "reviewCount": 22,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "7:00 AM – 6:00 PM",
+    "Tuesday": "7:00 AM – 6:00 PM",
+    "Wednesday": "7:00 AM – 6:00 PM",
+    "Thursday": "7:00 AM – 6:00 PM",
+    "Friday": "7:00 AM – 6:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "We got our first bid from Wade for our fireplace remodel and never looked anywhere else.  Wade spent a lot of time with us inquiring about our desires and designs for our project.  He came highly recommended so we looked no further.  Sonja was very prompt and quick with her communication, I could text or email her and have an answer within the hour. She also spent time with me picking out the best materials for the project.  The project was timely and very professionally completed.  Wade and Sonja are both personable and stand on integrity. Subcontractors were great as well.We absolutely love our new look!  Thank you H2 Handypro!",
+      "author": "Cherie Powell",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-01-03"
+    },
+    {
+      "text": "We used H2 Handy Pro to make substantial changes to our fireplace in 2019. This included replacing the wood fireplace with a gas fireplace, new mantel and hearth, new adjacent cabinets, audio-visual and electrical cabling.\n\nThis extensive project include many tradesmen: cabinet maker, stone mason, electrician, low-voltage wiring for the TV and stereo and much more. We repositioned our fireplace, lowering it, and H2 Handy Pro was able to match our existing stone so that the new fireplace looks like it was the original installation in the massive 20' tall stacked stone Chimney.\n\nWe found Wade and Sahnya to be very professional to work with. They helped our project evolve into something much better than our original concept. Their work was satisfactory in every way, and we feel that we got a good value.",
+      "author": "Tim Odell",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-02-04"
+    },
+    {
+      "text": "We moved to Sisters from Alaska this year. I needed to remodel a spare room to accommodate all the stuff that my wife would not otherwise allow in the new house.  Central to this project was the addition of a fireplace. The name \"Wade at H2 HandyPro\" kept coming up as I made inquiries about stoves, rock, and flooring.  So I looked Wade up and immediately found him thoughtful and knowledgeable.  He helped me find the best materials I could afford. More importantly, he put together a team of craftsmen, suppliers, and installers who could do the kind of work I wanted, as well as managed the permits and utility hookups.  Sahnya was invaluable in keeping the schedule and helping me with design considerations. I'm sure that as projects go, this was small potatoes, but we were treated all along like this was the their most important job.  Finally, I made a bunch of new friends and picked up not a few construction tricks. I would not hesitate to recommend H2 HandyPro to anyone considering quality work.  In fact, I have done so already.  It was apparent from the beginning that H2 had a good reputation.  I know now they have earned it.",
+      "author": "Mark Mew",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-12-10"
+    },
+    {
+      "text": "We used Wade to completely redo our mantel and to say we are pleased is a gross understatement. It has completely changed how we live in our home. He gave us such a  family centric area to gather…we never leave our living room. Qulity, craftsmanship, perfection come to mind. Sahnya is super responsive, friendly, and personable. She made triply sure everything we wanted aligned with the vision board. We could not be more pleased with choosing H2. Simply the best.",
+      "author": "Chase J",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-02-20"
+    },
+    {
+      "text": "Wade, the contractor at H2 Handy Pro, was professional, friendly, knowledgeable and helpful from the start. The company has a strong reputation in the area, so there was a few-months' wait time before construction on our project could begin, but Wade let us know that upfront, so there was no unexpected delay.\nOnce work began, Wade was consistently informative and available to answer any questions we had. His office assistant Sahnya was also helpful and quick to respond to our phone calls, emails or texts.\nWade saw to it that every aspect of our project was done by well-qualified people. He was on-site to start and follow up with each subcontractor. He was reliable and professional throughout the project timeline.\nMost importantly, the results are absolutely gorgeous. We now have a whole new fireplace, mantle and porcelain tile wall in our den, more beautiful than we even imagined. I whole-heartedly  recommend Wade and H2 Handy Pro.",
+      "author": "Elizabeth Warnimont",
+      "rating": 5,
+      "source": "google",
+      "date": "2018-11-24"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Modern living room with stacked stone fireplace, linear gas insert, and wooden flooring.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Cozy log cabin interior with stone fireplace, active fire, and rustic wooden furnishings",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Modern fireplace with stone brick surround and linear gas flames burning brightly",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Modern living room with stone fireplace, electric insert, built-in shelving, and flat-screen TV",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "H2 Handy Pro photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Illuminated spiral logo sign with white and orange neon rings on wall",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Modern kitchen countertop with granite surface, subway tile backsplash, and wooden cabinets",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Modern fireplace with black marble base and glass enclosure in contemporary living space",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Modern interior with brick fireplace, potted plant, and natural sunlight streaming through windows",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "H2 Handy Pro photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 22,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.8,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "res268.servconfig.com"
+}

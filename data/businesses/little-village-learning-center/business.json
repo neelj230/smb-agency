@@ -1,0 +1,188 @@
+{
+  "name": "Little Village Learning Center",
+  "slug": "little-village-learning-center",
+  "category": "daycare",
+  "address": "445 High St SE #140",
+  "city": "Salem",
+  "state": "OR",
+  "zip": "97301",
+  "phone": "(503) 363-3866",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 5,
+  "tagline": "Where Little Ones Become Our Family",
+  "brandNarrative": "Little Village Learning Center isn't just a daycare — it's the place Salem families describe as 'a blessing.' Located in the heart of Salem on High Street, this center has built something rare in childcare: a community where parents feel like they belong just as much as their children do. Christine Clair says it plainly — the owner and teachers 'pour their hearts' into every single day, caring for infants and toddlers with the kind of professional consistency that lets working parents breathe easy. That's not a marketing promise; it's what families experience every morning at drop-off.\n\nWhat separates Little Village is the trust it earns. Hector Garcia, a parent who has tried multiple childcare settings, calls this the place where his entire family was 'the most happiest' — and specifically credits Mrs. Johnson and her staff as 'like family.' That word — family — appears again and again in how parents describe this place. It's the through-line. It's the brand. It's not manufactured warmth; it's what happens when a team works as hard as Christine describes, day after day, in a small and intentional learning environment.\n\nWith perfect five-star reviews across every single rating, Little Village has achieved something most childcare centers never do: unanimous love from the families it serves. Open Monday through Friday from 6:30 AM to 5:00 PM, the center's schedule is built around the real rhythms of working families. Mrs. Johnson's leadership sets the tone — trusted, consistent, deeply caring — and her staff follows that example with every diaper changed, every lesson taught, and every child greeted by name.",
+  "ownerStory": "Mrs. Johnson didn't set out to run just another childcare business — she built Little Village Learning Center to be the kind of place she'd want for her own children. Parents like Hector Garcia trust her completely, calling her and her team 'the most trusted caretakers' they've ever encountered across multiple childcare experiences. That's the reputation of someone who shows up every single day with intention. She and her staff work with a visible dedication that parents like Christine Clair notice and appreciate — calling out specifically how hard they work and how much heart they pour into the center's culture and care.\n\nWhat Mrs. Johnson has created at 445 High Street is a village in the truest sense — a place where infants and toddlers are held with care, where toddlers are guided with patience, and where parents are welcomed as partners. Families don't just drop their kids off here; they join something. That distinction is what earns Little Village its perfect rating and its reputation as one of Salem's most genuinely trusted early childhood environments.",
+  "hours": {
+    "Monday": "6:30 AM – 5:00 PM",
+    "Tuesday": "6:30 AM – 5:00 PM",
+    "Wednesday": "6:30 AM – 5:00 PM",
+    "Thursday": "6:30 AM – 5:00 PM",
+    "Friday": "6:30 AM – 5:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Infant Care",
+      "description": "Nurturing, attentive care for babies in their earliest months, with consistent caregivers who parents trust completely.",
+      "icon": "baby"
+    },
+    {
+      "name": "Toddler Program",
+      "description": "Age-appropriate learning and socialization for toddlers in a structured, warm, and stimulating environment.",
+      "icon": "smile"
+    },
+    {
+      "name": "Early Learning Curriculum",
+      "description": "Developmentally appropriate activities and lessons that build foundational skills through play and exploration.",
+      "icon": "book-open"
+    },
+    {
+      "name": "Full-Day Childcare",
+      "description": "Reliable weekday care from 6:30 AM to 5:00 PM, designed to support working families with consistent daily schedules.",
+      "icon": "clock"
+    },
+    {
+      "name": "Family-Centered Environment",
+      "description": "A community-first approach where parents are treated as partners and families feel welcomed and valued every day.",
+      "icon": "heart"
+    },
+    {
+      "name": "Safe & Professional Setting",
+      "description": "A professionally run center with trained, consistent staff who parents describe as trustworthy and deeply caring.",
+      "icon": "shield-check"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "We love Little Village. The owner and teachers pour their hearts into making this a great place for our kids. I can't believe how hard they work. We have a toddler and infant who attend. It is such a blessing to have a professional, consistent, and caring daycare to count on.",
+      "author": "Christine Clair",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-04-02"
+    },
+    {
+      "text": "Ball the places that my children have went to this was the place that not only they but we as parents where the most happiest about.   Mrs. Johnson and her staff are the most trusted  caretakers and they are like family.",
+      "author": "Hector L. Garcia",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-08-14"
+    },
+    {
+      "text": "This place is such a blessing for our family. Thank you Little Village.",
+      "author": "Jill Miguez",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-09-06"
+    },
+    {
+      "text": "",
+      "author": "Travis Hanson",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-05-25"
+    },
+    {
+      "text": "",
+      "author": "Yolanda Mata",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-12-31"
+    }
+  ],
+  "team": [
+    {
+      "name": "Mrs. Johnson",
+      "role": "Owner & Director",
+      "bio": "Parents call Mrs. Johnson one of the most trusted caretakers they've ever encountered — someone who leads her team like family and earns the loyalty of every family who walks through the door.",
+      "credentials": [
+        "Trusted by multiple Salem families",
+        "Named personally by parents as a reason they stayed",
+        "Leads a team described as consistent, caring, and professional"
+      ]
+    }
+  ],
+  "photos": [],
+  "stats": [
+    {
+      "value": 5,
+      "suffix": "★",
+      "label": "Perfect Rating Across All Reviews"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "Of Reviewers Would Recommend"
+    },
+    {
+      "value": 5,
+      "suffix": "+",
+      "label": "Days a Week of Reliable Care"
+    },
+    {
+      "value": 2,
+      "suffix": "",
+      "label": "Age Groups Served: Infants & Toddlers"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What age groups does Little Village Learning Center serve?",
+      "answer": "Little Village cares for both infants and toddlers. Parents like Christine Clair have both an infant and a toddler enrolled simultaneously, and the team is experienced in meeting the different developmental needs of each age group."
+    },
+    {
+      "question": "What makes Little Village different from other daycares in Salem?",
+      "answer": "Families who have tried multiple childcare providers — like Hector Garcia — consistently say Little Village is the place where they felt happiest and most at ease. The difference comes down to trust: Mrs. Johnson and her staff are described as 'like family,' not just service providers."
+    },
+    {
+      "question": "What are your hours, and are you open on weekends?",
+      "answer": "Little Village is open Monday through Friday, 6:30 AM to 5:00 PM. The center is closed on Saturdays and Sundays, making it ideal for families with standard workweek schedules."
+    },
+    {
+      "question": "How consistent is the staff at Little Village?",
+      "answer": "Consistency is one of the qualities parents specifically call out. Christine Clair describes the center as 'professional, consistent, and caring' — which means families can count on seeing the same familiar faces caring for their children each day."
+    },
+    {
+      "question": "How do I enroll my child or learn about availability?",
+      "answer": "The best way to connect with Little Village Learning Center is to call directly at (503) 363-3866. Given the center's strong reputation and loyal families, it's worth reaching out early to ask about current openings."
+    },
+    {
+      "question": "Is the environment warm and welcoming for parents too, or just children?",
+      "answer": "Parents consistently describe Little Village as a blessing for their entire family — not just their kids. The culture Mrs. Johnson has built makes parents feel included, valued, and at ease. It's a community, not just a drop-off point."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#4A90A4",
+    "accent": "#F9A825",
+    "note": "Soft teal conveys trust, calm, and nurturing — the emotional tone parents use to describe Little Village. Warm golden yellow reflects the joy, warmth, and 'blessing' language used repeatedly in reviews. Together they feel safe, bright, and family-forward without being babyish or corporate."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Exceptionally trusted staff led by Mrs. Johnson, who parents describe as family rather than service providers",
+      "Consistent, professional care for both infants and toddlers that working parents can genuinely rely on",
+      "Deep emotional connection with families — multiple reviewers use words like 'blessing' and 'most happiest,' indicating loyalty well beyond satisfaction"
+    ],
+    "common_complaints": [
+      "None found — all five reviews are five stars with no negative feedback or concerns expressed"
+    ],
+    "suggested_tagline": "Trusted Care. Real Family. Every Day.",
+    "photo_quality": "poor",
+    "personality_keywords": [
+      "trustworthy",
+      "heart-driven",
+      "family-like",
+      "consistent",
+      "professional"
+    ],
+    "named_staff": [
+      "Mrs. Johnson"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

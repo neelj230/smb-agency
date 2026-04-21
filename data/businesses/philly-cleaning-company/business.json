@@ -1,0 +1,148 @@
+{
+  "name": "Philly Cleaning Company",
+  "slug": "philly-cleaning-company",
+  "category": "house cleaner",
+  "address": "570 N 5th St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19123",
+  "phone": "(215) 714-2163",
+  "email": "",
+  "website": "http://phillycleaningco.com/",
+  "rating": 4.9,
+  "reviewCount": 28,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "8:00 AM – 6:00 PM",
+    "Tuesday": "8:00 AM – 6:00 PM",
+    "Wednesday": "8:00 AM – 6:00 PM",
+    "Thursday": "8:00 AM – 6:00 PM",
+    "Friday": "8:00 AM – 6:00 PM",
+    "Saturday": "8:00 AM – 6:00 PM",
+    "Sunday": "8:00 AM – 6:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Im really impressed with this cleaning company! I hired them for a deep clean and honestly they cleaned things that I wouldn't even think of cleaning. Ive been recommending them to everyone I know because of the quality of the service!",
+      "author": "Keely Gilmore",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-22"
+    },
+    {
+      "text": "The best cleaning services in the Philadelphia area, hands down. I’ve received deep cleans and bi-weekly standard cleans, every job has been done to perfection. I would recommend Philly Cleaning Company to anyone looking for trustworthy and premium 5 star cleaning services.",
+      "author": "Hayley Ann",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-19"
+    },
+    {
+      "text": "I’ve used them for Airbnbs, tenant turnovers, and do cleanups after rehabs. Professional, responsive and ensures that the work is done to the highest of standards. This is def my go to company",
+      "author": "Nadijah Campbell",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-27"
+    },
+    {
+      "text": "Very well run & organized company. It was very easy to book through their website. The cleaners showed up on time & did a fantastic job cleaning my home. Highly recommend",
+      "author": "Kevin Rimler",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-19"
+    },
+    {
+      "text": "5 stars! The team was professional, on time, and did an excellent job. They removed all the dust from the corners, baseboards, and hard-to-reach spots, and left the floors and surfaces spotless. My home looks and feels so fresh. Great communication and reliable service. Highly recommend!",
+      "author": "Nick W123",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-16"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Philly Cleaning Company photo 1",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Modern kitchen with dark cabinets, stainless steel appliances, and gray tile flooring.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Philly Cleaning Company photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Modern kitchen with light countertops, beige cabinets, black faucet, and green backsplash.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Open empty refrigerator showing shelves, drawers, and door compartments",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Philly Cleaning Company photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Modern living room with beige sofa, leather chair, wooden table, and large window",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "White fiberglass shower stall with chrome frame and built-in shelving units",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Philly Cleaning Company photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Clean laundry room with white washer, dryer, window, and closed door.",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 28,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "setTimeout(()=>{document.body.classList.remove('tjs-component-loader')},3000)"
+}

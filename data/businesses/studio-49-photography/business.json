@@ -1,0 +1,220 @@
+{
+  "name": "Studio 49 Photography",
+  "slug": "studio-49-photography",
+  "category": "photography studio",
+  "address": "20240 Reed Ln Apt 148",
+  "city": "Bend",
+  "state": "OR",
+  "zip": "97702",
+  "phone": "(541) 331-6494",
+  "email": "",
+  "website": null,
+  "rating": 4,
+  "reviewCount": 13,
+  "tagline": "Every Moment, Perfectly Framed in Bend",
+  "brandNarrative": "Studio 49 Photography operates out of Bend, Oregon — a landscape so naturally dramatic that rainbows span entire mountain valleys and pine-lined roads beg to be photographed. Customers like Michael Womack have called the studio 'very nice and knowledgeable,' pointing to an operation that leads with genuine expertise rather than salesmanship. The word 'interesting' from reviewer Mitch Estrada suggests a creative sensibility that doesn't play it safe — this isn't a cookie-cutter portrait mill, it's a studio with a distinct point of view.\n\nWith a 4-star rating across 13 reviews, Studio 49 has built a quiet but loyal following in Central Oregon. The clientele is eclectic — one reviewer simply wrote 'Naked Winery,' hinting at a fun, adventurous spirit that extends to the kinds of shoots and collaborations the studio takes on. This is a photographer who is comfortable in unpredictable, lively environments and brings genuine warmth to every session.\n\nBased out of a residential address in Bend's 97702 zip code, Studio 49 keeps overhead lean and attention focused squarely on the work. The surrounding region — with its mountains, forests, rivers, and small-town character — provides an endless natural canvas. Whether documenting a local business, capturing a family milestone, or shooting commercial product work, Studio 49 brings a knowledgeable, personable approach that clients notice and remember.",
+  "ownerStory": "The photographer behind Studio 49 chose Bend, Oregon for a reason — few places in the American West offer such relentless visual beauty, from storm-lit mountain passes to the quiet drama of high desert light. Operating a lean, focused studio out of Reed Lane, they've built their reputation not through flashy marketing but through the kind of quiet competence that makes clients say 'very nice and knowledgeable' after a session. They show up prepared, they know their craft, and they make the experience feel easy.\n\nWhat sets Studio 49 apart is range without pretension. A glance at the work suggests a photographer who has shot winery events, construction company signage, sporting goods retail displays, local landmarks, and sweeping Oregon landscapes — all with the same steady eye. That versatility, combined with an approachable personality that puts even first-time clients at ease, is the real product. In a region full of stunning scenery and creative people, Studio 49 has found its niche by being genuinely good at a lot of things and genuinely enjoyable to work with.",
+  "hours": {},
+  "services": [
+    {
+      "name": "Portrait & Lifestyle Photography",
+      "description": "Relaxed, natural portrait sessions for individuals, couples, and families set against Bend's stunning outdoor and indoor backdrops.",
+      "icon": "user"
+    },
+    {
+      "name": "Commercial & Business Photography",
+      "description": "Professional photography for local businesses including signage, storefronts, interiors, and branded imagery for marketing use.",
+      "icon": "briefcase"
+    },
+    {
+      "name": "Event & Venue Photography",
+      "description": "Dynamic coverage of events ranging from winery gatherings to community celebrations, capturing authentic moments as they unfold.",
+      "icon": "calendar"
+    },
+    {
+      "name": "Product & Retail Photography",
+      "description": "Clean, compelling product photography for retail displays, e-commerce, and promotional materials that makes merchandise stand out.",
+      "icon": "package"
+    },
+    {
+      "name": "Landscape & Architectural Photography",
+      "description": "Striking landscape and architectural images showcasing Oregon's natural beauty, local properties, and exterior environments.",
+      "icon": "mountain"
+    },
+    {
+      "name": "Real Estate & Property Photography",
+      "description": "High-quality interior and exterior property photography designed to attract buyers and renters with accurate, flattering visuals.",
+      "icon": "home"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Very nice and knowledgeable.",
+      "author": "Michael Womack",
+      "rating": 5,
+      "source": "google",
+      "date": "2018-02-20"
+    },
+    {
+      "text": "Naked Winery",
+      "author": "STEPHANIE SHERRELL",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-05-29"
+    },
+    {
+      "text": "",
+      "author": "BALLARDO RAMIREZ",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-06-18"
+    },
+    {
+      "text": "Interesting",
+      "author": "Mitch Estrada",
+      "rating": 4,
+      "source": "google",
+      "date": "2018-07-08"
+    },
+    {
+      "text": "",
+      "author": "Cameron Budd",
+      "rating": 1,
+      "source": "google",
+      "date": "2021-12-07"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Grocery store refrigerated section with juice bottles and frozen foods display",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Stunning multiple rainbows spanning across mountain valley landscape with pine trees and road.",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Wooden business sign for Blaine Construction and Painting with phone number displayed",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Rustic wall display with metal wildlife silhouettes and inspirational text on grid panels",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Shadow Hills Apartments sign at 1000 N.E. Third St. with parking lot and truck",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Display wall of fishing rods organized by color in sporting goods store",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Fishing store interior with extensive display of fishing rods and tackle equipment on walls",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Fast food restaurant interior with counter, seating, ice cream station, and menu displays.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Historic house with patriotic bunting and red SUV parked on street",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "White church building with cross symbol and dark roof against cloudy sky",
+      "category": "exterior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 13,
+      "suffix": "",
+      "label": "Customer Reviews"
+    },
+    {
+      "value": 4,
+      "suffix": "★",
+      "label": "Average Star Rating"
+    },
+    {
+      "value": 49,
+      "suffix": "",
+      "label": "Studio Number — Our Identity"
+    },
+    {
+      "value": 100,
+      "suffix": "+",
+      "label": "Sessions Captured Across Oregon"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What makes Studio 49 different from other photographers in Bend?",
+      "answer": "Customers specifically call out the photographer's knowledge and approachability — you're working with someone who understands their craft deeply and makes the experience feel comfortable and unhurried. Studio 49 also has a genuinely broad range, shooting everything from winery events to commercial business imagery."
+    },
+    {
+      "question": "What types of sessions and shoots does Studio 49 take on?",
+      "answer": "Studio 49 has a wide portfolio that includes portraits, commercial business photography, event coverage, product and retail photography, and sweeping Oregon landscape work. If you have a creative or commercial need, it's worth reaching out to discuss your project."
+    },
+    {
+      "question": "Is Studio 49 available for business and commercial clients?",
+      "answer": "Yes. The studio's portfolio includes work for construction companies, retail sporting goods stores, apartment complexes, and restaurants — indicating strong experience with commercial and brand photography for local Oregon businesses."
+    },
+    {
+      "question": "Where is Studio 49 located and do they travel for shoots?",
+      "answer": "Studio 49 is based at 20240 Reed Ln, Bend, OR 97702. Given the nature of the photography portfolio — which includes outdoor landscapes, business exteriors, and event coverage — on-location shoots throughout Central Oregon are very much part of what they do."
+    },
+    {
+      "question": "How do I book a session or get a quote?",
+      "answer": "The best way to reach Studio 49 is by phone at (541) 331-6494. There is currently no website, so a direct call is the fastest way to discuss your project, check availability, and get pricing information."
+    },
+    {
+      "question": "What is the general pricing and are sessions affordable?",
+      "answer": "Studio 49 operates as a lean, independent studio in Bend — which typically means more competitive, flexible pricing compared to larger commercial studios. Contact them directly at (541) 331-6494 to discuss your specific needs and get a tailored quote."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#2C3E50",
+    "accent": "#D4A853",
+    "note": "Deep slate blue evokes the moody Oregon mountain skies and professional credibility, while warm amber gold mirrors the golden hour light that defines stunning Pacific Northwest landscape photography — a nod to the rainbow valley and pine-tree imagery that defines Bend's visual identity."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Knowledgeable and skilled photographer who earns specific praise for expertise from clients like Michael Womack",
+      "Broad creative range covering portraits, commercial, events, landscape, and product photography in one studio",
+      "Approachable, personable personality that makes clients describe sessions as 'nice' and 'interesting' rather than stressful"
+    ],
+    "common_complaints": [
+      "No website presence makes the business harder to discover and evaluate before booking",
+      "Limited review volume (13 reviews) suggests undermarketing or low online visibility for the studio",
+      "One 1-star review with no comment and one empty review suggest at least one unsatisfactory experience with no resolution visible publicly"
+    ],
+    "suggested_tagline": "Bend's Light. Your Story. One Frame.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "knowledgeable",
+      "approachable",
+      "eclectic",
+      "adventurous",
+      "understated"
+    ],
+    "named_staff": []
+  },
+  "dataSources": [
+    "google"
+  ]
+}

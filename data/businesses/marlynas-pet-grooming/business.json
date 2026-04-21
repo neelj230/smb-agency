@@ -200,7 +200,5 @@
     ],
     "named_staff": []
   },
-  "dataSources": [
-    "google"
-  ]
+  "dataSources": ["google"]
 }

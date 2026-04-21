@@ -419,31 +419,10 @@
       "id": "figtree-inter",
       "display": "Figtree",
       "body": "Inter",
-      "display_weights": [
-        400,
-        500,
-        600,
-        700,
-        900
-      ],
-      "body_weights": [
-        400,
-        600,
-        700
-      ],
-      "vibe": [
-        "friendly",
-        "approachable",
-        "professional",
-        "warm",
-        "rounded"
-      ],
-      "sources": [
-        "plumbing",
-        "handyman",
-        "dreelio",
-        "opurent"
-      ],
+      "display_weights": [400, 500, 600, 700, 900],
+      "body_weights": [400, 600, 700],
+      "vibe": ["friendly", "approachable", "professional", "warm", "rounded"],
+      "sources": ["plumbing", "handyman", "dreelio", "opurent"],
       "next_font_import": "import { Figtree, Inter } from 'next/font/google'",
       "notes": "The workhorse pairing. Figtree's rounded terminals feel welcoming without sacrificing professionalism. Great for any business that wants to feel approachable."
     },
@@ -451,29 +430,10 @@
       "id": "geist-inter",
       "display": "Geist",
       "body": "Inter",
-      "display_weights": [
-        300,
-        400,
-        500,
-        600,
-        700,
-        900
-      ],
-      "body_weights": [
-        400,
-        600,
-        700
-      ],
-      "vibe": [
-        "modern",
-        "clean",
-        "current",
-        "geometric",
-        "minimal"
-      ],
-      "sources": [
-        "neative"
-      ],
+      "display_weights": [300, 400, 500, 600, 700, 900],
+      "body_weights": [400, 600, 700],
+      "vibe": ["modern", "clean", "current", "geometric", "minimal"],
+      "sources": ["neative"],
       "next_font_import": "import { Inter } from 'next/font/google'\n// Geist via next/font/local or @vercel/font",
       "notes": "Vercel's own font. Full weight range gives incredible flexibility. Feels cutting-edge and clean."
     },
@@ -481,29 +441,10 @@
       "id": "satoshi-inter",
       "display": "Satoshi",
       "body": "Inter",
-      "display_weights": [
-        400,
-        500,
-        600,
-        700,
-        800
-      ],
-      "body_weights": [
-        400,
-        600,
-        700
-      ],
-      "vibe": [
-        "calm",
-        "clean",
-        "geometric",
-        "balanced",
-        "zen"
-      ],
-      "sources": [
-        "pilatestemplate",
-        "mindify"
-      ],
+      "display_weights": [400, 500, 600, 700, 800],
+      "body_weights": [400, 600, 700],
+      "vibe": ["calm", "clean", "geometric", "balanced", "zen"],
+      "sources": ["pilatestemplate", "mindify"],
       "next_font_import": "// Satoshi via next/font/local (fontshare.com)\nimport { Inter } from 'next/font/google'",
       "notes": "Clean geometric sans with a calming quality. Works wonderfully when you want the site to feel serene and trustworthy."
     },
@@ -511,30 +452,10 @@
       "id": "playfair-inter",
       "display": "Playfair Display",
       "body": "Inter",
-      "display_weights": [
-        400,
-        500,
-        600,
-        700,
-        800,
-        900
-      ],
-      "body_weights": [
-        400,
-        600,
-        700
-      ],
-      "vibe": [
-        "elegant",
-        "classic",
-        "sophisticated",
-        "editorial",
-        "timeless"
-      ],
-      "sources": [
-        "arpeggio",
-        "gardener"
-      ],
+      "display_weights": [400, 500, 600, 700, 800, 900],
+      "body_weights": [400, 600, 700],
+      "vibe": ["elegant", "classic", "sophisticated", "editorial", "timeless"],
+      "sources": ["arpeggio", "gardener"],
       "next_font_import": "import { Playfair_Display, Inter } from 'next/font/google'",
       "notes": "The classic serif + sans combo. Playfair's high contrast strokes feel luxurious. Variable version supports optical sizing."
     },
@@ -543,14 +464,8 @@
       "display": "Carattere",
       "secondary": "Red Hat Mono",
       "body": "Inter",
-      "display_weights": [
-        400
-      ],
-      "body_weights": [
-        400,
-        600,
-        700
-      ],
+      "display_weights": [400],
+      "body_weights": [400, 600, 700],
       "vibe": [
         "decorative",
         "architectural",
@@ -558,9 +473,7 @@
         "consulting",
         "bold"
       ],
-      "sources": [
-        "agevia"
-      ],
+      "sources": ["agevia"],
       "next_font_import": "import { Red_Hat_Mono, Inter } from 'next/font/google'\n// Carattere via next/font/google",
       "notes": "Unusual triple-font system. Decorative script for impact, monospace for data/labels, Inter for body. Creates a layered, sophisticated typographic hierarchy."
     },
@@ -568,28 +481,10 @@
       "id": "bevietnam-inter",
       "display": "Be Vietnam Pro",
       "body": "Inter",
-      "display_weights": [
-        400,
-        500,
-        600,
-        700,
-        900
-      ],
-      "body_weights": [
-        400,
-        600,
-        700
-      ],
-      "vibe": [
-        "bold",
-        "punchy",
-        "creative",
-        "energetic",
-        "standout"
-      ],
-      "sources": [
-        "ehunter"
-      ],
+      "display_weights": [400, 500, 600, 700, 900],
+      "body_weights": [400, 600, 700],
+      "vibe": ["bold", "punchy", "creative", "energetic", "standout"],
+      "sources": ["ehunter"],
       "next_font_import": "import { Be_Vietnam_Pro, Inter } from 'next/font/google'",
       "notes": "Vietnamese-optimized but works beautifully for Latin text too. Slightly narrower and more compact than Inter \u2014 makes bold headlines pop."
     },
@@ -597,27 +492,10 @@
       "id": "openrunde-inter",
       "display": "Open Runde",
       "body": "Inter",
-      "display_weights": [
-        400,
-        500,
-        600,
-        700
-      ],
-      "body_weights": [
-        400,
-        600,
-        700
-      ],
-      "vibe": [
-        "rounded",
-        "warm",
-        "friendly",
-        "soft",
-        "approachable"
-      ],
-      "sources": [
-        "dreelio"
-      ],
+      "display_weights": [400, 500, 600, 700],
+      "body_weights": [400, 600, 700],
+      "vibe": ["rounded", "warm", "friendly", "soft", "approachable"],
+      "sources": ["dreelio"],
       "next_font_import": "// Open Runde via next/font/local\nimport { Inter } from 'next/font/google'",
       "notes": "Even rounder than Figtree. Every corner is softened. Creates an incredibly welcoming, non-intimidating feel."
     },
@@ -626,27 +504,10 @@
       "display": "Switzer",
       "secondary": "Fragment Mono",
       "body": "Inter",
-      "display_weights": [
-        400,
-        500,
-        600,
-        700
-      ],
-      "body_weights": [
-        400,
-        600,
-        700
-      ],
-      "vibe": [
-        "technical",
-        "sophisticated",
-        "multi-color",
-        "modern",
-        "sharp"
-      ],
-      "sources": [
-        "etery"
-      ],
+      "display_weights": [400, 500, 600, 700],
+      "body_weights": [400, 600, 700],
+      "vibe": ["technical", "sophisticated", "multi-color", "modern", "sharp"],
+      "sources": ["etery"],
       "next_font_import": "// Switzer via next/font/local (fontshare.com)\nimport { Fragment_Mono, Inter } from 'next/font/google'",
       "notes": "Switzer is a clean geometric sans with slightly sharper geometry than Inter. Paired with Fragment Mono for technical labels/metadata."
     },
@@ -654,25 +515,10 @@
       "id": "instrument-serif-inter",
       "display": "Instrument Serif",
       "body": "Inter",
-      "display_weights": [
-        400
-      ],
-      "body_weights": [
-        400,
-        600,
-        700
-      ],
-      "vibe": [
-        "warm",
-        "editorial",
-        "inviting",
-        "readable",
-        "classic-modern"
-      ],
-      "sources": [
-        "neelrjain",
-        "rjmgt"
-      ],
+      "display_weights": [400],
+      "body_weights": [400, 600, 700],
+      "vibe": ["warm", "editorial", "inviting", "readable", "classic-modern"],
+      "sources": ["neelrjain", "rjmgt"],
       "next_font_import": "import { Instrument_Serif, Inter } from 'next/font/google'",
       "notes": "Warm editorial serif that feels personal and inviting. Single weight but high impact at display sizes."
     },
@@ -680,25 +526,9 @@
       "id": "space-grotesk-inter",
       "display": "Space Grotesk",
       "body": "Inter",
-      "display_weights": [
-        300,
-        400,
-        500,
-        600,
-        700
-      ],
-      "body_weights": [
-        400,
-        600,
-        700
-      ],
-      "vibe": [
-        "modern",
-        "technical",
-        "geometric",
-        "confident",
-        "structured"
-      ],
+      "display_weights": [300, 400, 500, 600, 700],
+      "body_weights": [400, 600, 700],
+      "vibe": ["modern", "technical", "geometric", "confident", "structured"],
       "sources": [],
       "next_font_import": "import { Space_Grotesk, Inter } from 'next/font/google'",
       "notes": "Geometric sans with distinctive character shapes. Feels more structured and technical than Figtree \u2014 confident without being cold."
@@ -707,25 +537,9 @@
       "id": "syne-dmsans",
       "display": "Syne",
       "body": "DM Sans",
-      "display_weights": [
-        400,
-        500,
-        600,
-        700,
-        800
-      ],
-      "body_weights": [
-        400,
-        500,
-        700
-      ],
-      "vibe": [
-        "creative",
-        "bold",
-        "artistic",
-        "playful",
-        "expressive"
-      ],
+      "display_weights": [400, 500, 600, 700, 800],
+      "body_weights": [400, 500, 700],
+      "vibe": ["creative", "bold", "artistic", "playful", "expressive"],
       "sources": [],
       "next_font_import": "import { Syne, DM_Sans } from 'next/font/google'",
       "notes": "Syne has unusual letter shapes that demand attention. Paired with the softer DM Sans for readability. For businesses with personality."
@@ -734,16 +548,8 @@
       "id": "libre-baskerville-sourcesans",
       "display": "Libre Baskerville",
       "body": "Source Sans 3",
-      "display_weights": [
-        400,
-        700
-      ],
-      "body_weights": [
-        300,
-        400,
-        600,
-        700
-      ],
+      "display_weights": [400, 700],
+      "body_weights": [300, 400, 600, 700],
       "vibe": [
         "professional",
         "established",
@@ -760,27 +566,10 @@
       "display": "Neue Haas Grotesk Display",
       "secondary": "Fragment Mono",
       "body": "Inter",
-      "display_weights": [
-        400,
-        500,
-        600,
-        700
-      ],
-      "body_weights": [
-        400,
-        600,
-        700
-      ],
-      "vibe": [
-        "premium",
-        "designer",
-        "minimal",
-        "high-end",
-        "refined"
-      ],
-      "sources": [
-        "marcus-hale"
-      ],
+      "display_weights": [400, 500, 600, 700],
+      "body_weights": [400, 600, 700],
+      "vibe": ["premium", "designer", "minimal", "high-end", "refined"],
+      "sources": ["marcus-hale"],
       "next_font_import": "// Neue Haas Grotesk via next/font/local\nimport { Fragment_Mono, Inter } from 'next/font/google'",
       "notes": "The original Helvetica, in display form. Paired with monospace accents for a designer-portfolio feel."
     },
@@ -788,26 +577,10 @@
       "id": "geist-mono-full",
       "display": "Geist Mono",
       "body": "Geist Mono",
-      "display_weights": [
-        400,
-        500,
-        600,
-        700
-      ],
-      "body_weights": [
-        400,
-        500
-      ],
-      "vibe": [
-        "technical",
-        "developer",
-        "systematic",
-        "precise",
-        "raw"
-      ],
-      "sources": [
-        "stelvio"
-      ],
+      "display_weights": [400, 500, 600, 700],
+      "body_weights": [400, 500],
+      "vibe": ["technical", "developer", "systematic", "precise", "raw"],
+      "sources": ["stelvio"],
       "next_font_import": "// Geist Mono via @vercel/font or next/font/local",
       "notes": "Full monospace site. Every element in mono creates a systematized, data-driven aesthetic. Bold choice."
     },
@@ -816,24 +589,10 @@
       "display": "Ranchers",
       "secondary": "Caveat",
       "body": "Inter",
-      "display_weights": [
-        400
-      ],
-      "body_weights": [
-        400,
-        600,
-        700
-      ],
-      "vibe": [
-        "playful",
-        "festival",
-        "fun",
-        "energetic",
-        "bold"
-      ],
-      "sources": [
-        "groovory"
-      ],
+      "display_weights": [400],
+      "body_weights": [400, 600, 700],
+      "vibe": ["playful", "festival", "fun", "energetic", "bold"],
+      "sources": ["groovory"],
       "next_font_import": "import { Ranchers, Caveat, Inter } from 'next/font/google'",
       "notes": "Ranchers is a chunky display font with personality. Caveat adds a handwritten touch. For businesses that don't take themselves too seriously."
     },
@@ -842,28 +601,10 @@
       "display": "Outfit",
       "secondary": "Poppins",
       "body": "Inter",
-      "display_weights": [
-        400,
-        500,
-        600,
-        700,
-        800,
-        900
-      ],
-      "body_weights": [
-        400,
-        600,
-        700
-      ],
-      "vibe": [
-        "modern",
-        "clean",
-        "versatile",
-        "balanced"
-      ],
-      "sources": [
-        "najmai"
-      ],
+      "display_weights": [400, 500, 600, 700, 800, 900],
+      "body_weights": [400, 600, 700],
+      "vibe": ["modern", "clean", "versatile", "balanced"],
+      "sources": ["najmai"],
       "next_font_import": "import { Outfit, Poppins, Inter } from 'next/font/google'",
       "notes": "Triple geometric sans stack. Outfit for large headlines, Poppins for section titles, Inter for body. Subtle hierarchy through similar but distinct fonts."
     },
@@ -871,30 +612,10 @@
       "id": "manrope-inter",
       "display": "Manrope",
       "body": "Inter",
-      "display_weights": [
-        200,
-        300,
-        400,
-        500,
-        600,
-        700,
-        800
-      ],
-      "body_weights": [
-        400,
-        600,
-        700
-      ],
-      "vibe": [
-        "modern",
-        "flexible",
-        "versatile",
-        "clean",
-        "wide-range"
-      ],
-      "sources": [
-        "pearl"
-      ],
+      "display_weights": [200, 300, 400, 500, 600, 700, 800],
+      "body_weights": [400, 600, 700],
+      "vibe": ["modern", "flexible", "versatile", "clean", "wide-range"],
+      "sources": ["pearl"],
       "next_font_import": "import { Manrope, Inter } from 'next/font/google'",
       "notes": "Extremely wide weight range (200-800) means one font can do whisper-thin labels AND bold headlines. Maximum flexibility."
     },
@@ -902,26 +623,10 @@
       "id": "roboto-condensed-inter",
       "display": "Roboto Condensed",
       "body": "Inter",
-      "display_weights": [
-        300,
-        400,
-        700
-      ],
-      "body_weights": [
-        400,
-        600,
-        700
-      ],
-      "vibe": [
-        "compact",
-        "modern",
-        "efficient",
-        "industrial",
-        "dense"
-      ],
-      "sources": [
-        "hexa"
-      ],
+      "display_weights": [300, 400, 700],
+      "body_weights": [400, 600, 700],
+      "vibe": ["compact", "modern", "efficient", "industrial", "dense"],
+      "sources": ["hexa"],
       "next_font_import": "import { Roboto_Condensed, Inter } from 'next/font/google'",
       "notes": "Condensed fonts pack more text into headlines. Creates an information-dense, newspaper-like feel at large sizes."
     },
@@ -929,23 +634,10 @@
       "id": "squeak-system",
       "display": "Squeak Bold",
       "body": "System Sans",
-      "display_weights": [
-        700
-      ],
-      "body_weights": [
-        400,
-        600
-      ],
-      "vibe": [
-        "personality",
-        "brand",
-        "quirky",
-        "memorable",
-        "fun"
-      ],
-      "sources": [
-        "posthog"
-      ],
+      "display_weights": [700],
+      "body_weights": [400, 600],
+      "vibe": ["personality", "brand", "quirky", "memorable", "fun"],
+      "sources": ["posthog"],
       "next_font_import": "// Squeak Bold via next/font/local\n// System sans for body",
       "notes": "PostHog's custom brand font. Shows that a single distinctive display font paired with system sans can create a strong brand identity cheaply."
     },
@@ -953,27 +645,10 @@
       "id": "dmsans-inter",
       "display": "DM Sans",
       "body": "Inter",
-      "display_weights": [
-        400,
-        500,
-        600,
-        700
-      ],
-      "body_weights": [
-        400,
-        600,
-        700
-      ],
-      "vibe": [
-        "soft",
-        "friendly",
-        "modern",
-        "approachable",
-        "gentle"
-      ],
-      "sources": [
-        "gardener"
-      ],
+      "display_weights": [400, 500, 600, 700],
+      "body_weights": [400, 600, 700],
+      "vibe": ["soft", "friendly", "modern", "approachable", "gentle"],
+      "sources": ["gardener"],
       "next_font_import": "import { DM_Sans, Inter } from 'next/font/google'",
       "notes": "Slightly rounder and softer than Inter at display sizes. Gentle, non-aggressive. Wonderful when you want warmth."
     },
@@ -981,14 +656,8 @@
       "id": "hedvig-letters-inter",
       "display": "Hedvig Letters Serif",
       "body": "Inter",
-      "display_weights": [
-        400
-      ],
-      "body_weights": [
-        400,
-        600,
-        700
-      ],
+      "display_weights": [400],
+      "body_weights": [400, 600, 700],
       "vibe": [
         "professional",
         "established",
@@ -996,9 +665,7 @@
         "trustworthy",
         "serif-modern"
       ],
-      "sources": [
-        "stratex"
-      ],
+      "sources": ["stratex"],
       "next_font_import": "import { Hedvig_Letters_Serif, Inter } from 'next/font/google'",
       "notes": "A refined serif with contemporary proportions. Reads as professional consulting without feeling stuffy. Pairs beautifully with Inter's neutrality. Great for any business that wants authority with approachability."
     },
@@ -1006,30 +673,10 @@
       "id": "bricolage-grotesque-inter",
       "display": "Bricolage Grotesque",
       "body": "Inter",
-      "display_weights": [
-        200,
-        300,
-        400,
-        500,
-        600,
-        700,
-        800
-      ],
-      "body_weights": [
-        400,
-        600,
-        700
-      ],
-      "vibe": [
-        "quirky",
-        "friendly",
-        "distinctive",
-        "characterful",
-        "warm"
-      ],
-      "sources": [
-        "linea"
-      ],
+      "display_weights": [200, 300, 400, 500, 600, 700, 800],
+      "body_weights": [400, 600, 700],
+      "vibe": ["quirky", "friendly", "distinctive", "characterful", "warm"],
+      "sources": ["linea"],
       "next_font_import": "import { Bricolage_Grotesque, Inter } from 'next/font/google'",
       "notes": "A variable grotesque with unusual letterform details \u2014 slightly quirky terminals and stroke endings that give it personality. Wide weight range. Feels like someone hand-picked each letter. For businesses that want to stand out with warmth."
     },
@@ -1037,29 +684,10 @@
       "id": "cormorant-garamond-inter",
       "display": "Cormorant Garamond",
       "body": "Inter",
-      "display_weights": [
-        300,
-        400,
-        500,
-        600,
-        700
-      ],
-      "body_weights": [
-        400,
-        600,
-        700
-      ],
-      "vibe": [
-        "luxury",
-        "editorial",
-        "timeless",
-        "high-contrast",
-        "elegant"
-      ],
-      "sources": [
-        "mariven",
-        "nordiq"
-      ],
+      "display_weights": [300, 400, 500, 600, 700],
+      "body_weights": [400, 600, 700],
+      "vibe": ["luxury", "editorial", "timeless", "high-contrast", "elegant"],
+      "sources": ["mariven", "nordiq"],
       "next_font_import": "import { Cormorant_Garamond, Inter } from 'next/font/google'",
       "notes": "Ultra-high contrast serif \u2014 thin hairlines and thick strokes create incredible drama at display sizes. Feels more luxurious than Playfair Display. Perfect for hospitality, design studios, premium services. The italic is especially beautiful."
     },
@@ -1067,30 +695,10 @@
       "id": "general-sans-inter",
       "display": "General Sans",
       "body": "Inter",
-      "display_weights": [
-        200,
-        300,
-        400,
-        500,
-        600,
-        700
-      ],
-      "body_weights": [
-        400,
-        600,
-        700
-      ],
-      "vibe": [
-        "clean",
-        "modern",
-        "slightly-rounded",
-        "versatile",
-        "premium"
-      ],
-      "sources": [
-        "essentia",
-        "heatfix"
-      ],
+      "display_weights": [200, 300, 400, 500, 600, 700],
+      "body_weights": [400, 600, 700],
+      "vibe": ["clean", "modern", "slightly-rounded", "versatile", "premium"],
+      "sources": ["essentia", "heatfix"],
       "next_font_import": "// General Sans via next/font/local (fontshare.com)\nimport { Inter } from 'next/font/google'",
       "notes": "A modern geometric sans with subtly rounded terminals \u2014 cleaner than Figtree, warmer than Geist. Versatile across weights. The kind of font that makes everything look considered and premium without trying too hard."
     },
@@ -1098,19 +706,8 @@
       "id": "clash-display-inter",
       "display": "Clash Display",
       "body": "Inter",
-      "display_weights": [
-        200,
-        300,
-        400,
-        500,
-        600,
-        700
-      ],
-      "body_weights": [
-        400,
-        600,
-        700
-      ],
+      "display_weights": [200, 300, 400, 500, 600, 700],
+      "body_weights": [400, 600, 700],
       "vibe": [
         "bold",
         "geometric",
@@ -1118,9 +715,7 @@
         "display-focused",
         "modern"
       ],
-      "sources": [
-        "mobius"
-      ],
+      "sources": ["mobius"],
       "next_font_import": "// Clash Display via next/font/local (fontshare.com)\nimport { Inter } from 'next/font/google'",
       "notes": "A display-first geometric sans with very distinctive uppercase forms. The heavy weights are incredibly impactful for hero text. The light weights are elegant and airy. For when you want the typography itself to be a design statement."
     },
@@ -1129,24 +724,10 @@
       "display": "Pinyon Script",
       "secondary": "Playfair Display",
       "body": "Inter",
-      "display_weights": [
-        400
-      ],
-      "body_weights": [
-        400,
-        600,
-        700
-      ],
-      "vibe": [
-        "therapeutic",
-        "calming",
-        "personal",
-        "handwritten",
-        "nature"
-      ],
-      "sources": [
-        "foresttherapy"
-      ],
+      "display_weights": [400],
+      "body_weights": [400, 600, 700],
+      "vibe": ["therapeutic", "calming", "personal", "handwritten", "nature"],
+      "sources": ["foresttherapy"],
       "next_font_import": "import { Pinyon_Script, Playfair_Display, Inter } from 'next/font/google'",
       "notes": "Script font for the logo/brand name creates an intimate, personal feel \u2014 like a handwritten letter. Paired with a serif for headings and sans for body. For wellness, therapy, personal services, or any business where the human touch matters more than the corporate brand."
     },
@@ -1154,20 +735,8 @@
       "id": "inter-display-inter",
       "display": "Inter Display",
       "body": "Inter",
-      "display_weights": [
-        300,
-        400,
-        500,
-        600,
-        700,
-        800,
-        900
-      ],
-      "body_weights": [
-        400,
-        600,
-        700
-      ],
+      "display_weights": [300, 400, 500, 600, 700, 800, 900],
+      "body_weights": [400, 600, 700],
       "vibe": [
         "ultra-clean",
         "typography-focused",
@@ -1175,10 +744,7 @@
         "precise",
         "real-estate"
       ],
-      "sources": [
-        "realisting",
-        "realdev"
-      ],
+      "sources": ["realisting", "realdev"],
       "next_font_import": "import { Inter } from 'next/font/google'\n// Inter Display via next/font/local (variable font from rsms.me/inter)",
       "notes": "Inter Display is optimized for large sizes \u2014 slightly tighter spacing, more optical adjustments than regular Inter. When you want the cleanest possible typography without any font personality getting in the way. The content speaks; the font stays invisible. Both Realisting and RealDev use this to let their stunning photography be the star."
     }
@@ -1193,17 +759,8 @@
         "text_dark": "#081d3a",
         "text_muted": "#4e5c71"
       },
-      "vibe": [
-        "trustworthy",
-        "energetic",
-        "professional",
-        "bold"
-      ],
-      "sources": [
-        "plumbing",
-        "neative",
-        "handyman"
-      ],
+      "vibe": ["trustworthy", "energetic", "professional", "bold"],
+      "sources": ["plumbing", "neative", "handyman"],
       "notes": "Blue communicates trust and reliability. Yellow adds warmth and energy. The most proven SMB service palette \u2014 but could also work for a tech startup or a school."
     },
     {
@@ -1216,16 +773,8 @@
         "text_dark": "#192119",
         "text_muted": "#6b6e6b"
       },
-      "vibe": [
-        "growth",
-        "fresh",
-        "natural",
-        "alive",
-        "vibrant"
-      ],
-      "sources": [
-        "gardener"
-      ],
+      "vibe": ["growth", "fresh", "natural", "alive", "vibrant"],
+      "sources": ["gardener"],
       "notes": "Rich green with light green accents. Feels alive and growing. Works for anything connected to nature, health, or growth \u2014 but also a bold choice for finance or education."
     },
     {
@@ -1236,17 +785,8 @@
         "text_muted": "#575757",
         "bg_light": "#fafafa"
       },
-      "vibe": [
-        "warm",
-        "calm",
-        "trustworthy",
-        "intimate",
-        "premium"
-      ],
-      "sources": [
-        "pilatestemplate",
-        "mindify"
-      ],
+      "vibe": ["warm", "calm", "trustworthy", "intimate", "premium"],
+      "sources": ["pilatestemplate", "mindify"],
       "notes": "Burgundy/mauve on clean off-white. Feels warm and calming without being clinical. Great for any business where trust and personal connection matter."
     },
     {
@@ -1259,16 +799,8 @@
         "bg_light": "#fdfcee",
         "text_muted": "#506556"
       },
-      "vibe": [
-        "sophisticated",
-        "edgy",
-        "architectural",
-        "bold",
-        "modern"
-      ],
-      "sources": [
-        "agevia"
-      ],
+      "vibe": ["sophisticated", "edgy", "architectural", "bold", "modern"],
+      "sources": ["agevia"],
       "notes": "Near-black with electric lime. Feels expensive and intentional. The lime pops dramatically against dark backgrounds. Bold choice for any business that wants to feel premium and different."
     },
     {
@@ -1280,16 +812,8 @@
         "text_dark": "#000000",
         "text_muted": "#6f6f75"
       },
-      "vibe": [
-        "bold",
-        "cinematic",
-        "high-energy",
-        "confident",
-        "striking"
-      ],
-      "sources": [
-        "arpeggio"
-      ],
+      "vibe": ["bold", "cinematic", "high-energy", "confident", "striking"],
+      "sources": ["arpeggio"],
       "notes": "Clean white canvas with a single, powerful orange accent. The restraint makes the orange hit harder. For any business with confidence and a strong visual identity."
     },
     {
@@ -1299,16 +823,8 @@
         "text": "#ffffff",
         "accent": "#ff0000"
       },
-      "vibe": [
-        "luxury",
-        "premium",
-        "cinematic",
-        "exclusive",
-        "powerful"
-      ],
-      "sources": [
-        "opurent"
-      ],
+      "vibe": ["luxury", "premium", "cinematic", "exclusive", "powerful"],
+      "sources": ["opurent"],
       "notes": "Pure black background with white text and red accents. Minimal palette, maximum impact. The red cursor/dot is a signature element. For any business that wants to feel exclusive."
     },
     {
@@ -1321,16 +837,8 @@
         "text_light": "#ffffff",
         "text_muted": "#a3a3a3"
       },
-      "vibe": [
-        "sophisticated",
-        "tech",
-        "intelligent",
-        "deep",
-        "premium"
-      ],
-      "sources": [
-        "etery"
-      ],
+      "vibe": ["sophisticated", "tech", "intelligent", "deep", "premium"],
+      "sources": ["etery"],
       "notes": "Deep navy/purple with vibrant purple accents. Multi-color system with blues, purples, and greens. Feels intelligent and sophisticated."
     },
     {
@@ -1343,16 +851,8 @@
         "text_dark": "#1a1a1a",
         "white": "#ffffff"
       },
-      "vibe": [
-        "playful",
-        "creative",
-        "soft",
-        "modern",
-        "inviting"
-      ],
-      "sources": [
-        "draftr"
-      ],
+      "vibe": ["playful", "creative", "soft", "modern", "inviting"],
+      "sources": ["draftr"],
       "notes": "Soft lavender background with purple CTAs. Feels creative and approachable. The gradient is subtle but adds depth."
     },
     {
@@ -1370,9 +870,7 @@
         "natural",
         "grounded"
       ],
-      "sources": [
-        "stratex"
-      ],
+      "sources": ["stratex"],
       "notes": "Dark forest green on cream/white. Feels established and grounded. The green reads as both professional and natural."
     },
     {
@@ -1385,16 +883,8 @@
         "accent_orange": "#c9502e",
         "accent_green": "#0ea158"
       },
-      "vibe": [
-        "premium",
-        "warm",
-        "editorial",
-        "multi-accent",
-        "sophisticated"
-      ],
-      "sources": [
-        "ehunter"
-      ],
+      "vibe": ["premium", "warm", "editorial", "multi-accent", "sophisticated"],
+      "sources": ["ehunter"],
       "notes": "Dark base with warm cream accents. Multiple accent colors used sparingly. The warm tones on dark background create an editorial, magazine-like feel."
     },
     {
@@ -1406,16 +896,8 @@
         "bg_light": "#f4f1ee",
         "text_dark": "#1a1a1a"
       },
-      "vibe": [
-        "airy",
-        "clean",
-        "trustworthy",
-        "open",
-        "calm"
-      ],
-      "sources": [
-        "dreelio"
-      ],
+      "vibe": ["airy", "clean", "trustworthy", "open", "calm"],
+      "sources": ["dreelio"],
       "notes": "Light blue sky gradients fading to white. Cloud/sky imagery enhances the airy feel. Green CTAs pop against the blue. Incredibly inviting."
     },
     {
@@ -1427,16 +909,8 @@
         "text_light": "#ffffff",
         "text_muted": "#888888"
       },
-      "vibe": [
-        "modern",
-        "tech",
-        "warm-dark",
-        "dynamic",
-        "bold"
-      ],
-      "sources": [
-        "platform"
-      ],
+      "vibe": ["modern", "tech", "warm-dark", "dynamic", "bold"],
+      "sources": ["platform"],
       "notes": "Dark background with warm coral/orange accents. The warmth of the accents prevents the dark theme from feeling cold or sterile."
     },
     {
@@ -1446,16 +920,8 @@
         "bg": "#ffffff",
         "text_dark": "#000000"
       },
-      "vibe": [
-        "editorial",
-        "bold",
-        "intellectual",
-        "artistic",
-        "minimal"
-      ],
-      "sources": [
-        "virgilabloh"
-      ],
+      "vibe": ["editorial", "bold", "intellectual", "artistic", "minimal"],
+      "sources": ["virgilabloh"],
       "notes": "Single powerful blue on white. Virgil Abloh's signature. Proves that one bold color + black + white is all you need."
     },
     {
@@ -1466,16 +932,8 @@
         "text_light": "#ffffff",
         "bg_gradient": "linear-gradient(135deg, #0A2540, #1a3a5c)"
       },
-      "vibe": [
-        "premium",
-        "fintech",
-        "deep",
-        "trustworthy",
-        "polished"
-      ],
-      "sources": [
-        "stripe-press"
-      ],
+      "vibe": ["premium", "fintech", "deep", "trustworthy", "polished"],
+      "sources": ["stripe-press"],
       "notes": "Deep navy with purple accent. The gold standard for 'trust + premium tech.' Gradient adds subtle depth."
     },
     {
@@ -1486,16 +944,8 @@
         "text_dark": "#2a2a2a",
         "accent": "#d4956a"
       },
-      "vibe": [
-        "warm",
-        "professional",
-        "inviting",
-        "crafted",
-        "artisanal"
-      ],
-      "sources": [
-        "rjmgt"
-      ],
+      "vibe": ["warm", "professional", "inviting", "crafted", "artisanal"],
+      "sources": ["rjmgt"],
       "notes": "Warm copper tones on cream. Feels hand-crafted and intentional. Like walking into a well-designed office."
     },
     {
@@ -1505,16 +955,8 @@
         "bg_dark": "#1a1a2e",
         "text_light": "#ffffff"
       },
-      "vibe": [
-        "tech",
-        "AI",
-        "innovative",
-        "mysterious",
-        "bold"
-      ],
-      "sources": [
-        "xtract"
-      ],
+      "vibe": ["tech", "AI", "innovative", "mysterious", "bold"],
+      "sources": ["xtract"],
       "notes": "Purple on dark background. The classic 'AI/tech' palette. Creates an innovative, forward-looking feel."
     },
     {
@@ -1524,16 +966,8 @@
         "bg_light": "#F9F3FE",
         "text_dark": "#1a1a1a"
       },
-      "vibe": [
-        "SaaS",
-        "product",
-        "clean",
-        "modern",
-        "light"
-      ],
-      "sources": [
-        "najmai"
-      ],
+      "vibe": ["SaaS", "product", "clean", "modern", "light"],
+      "sources": ["najmai"],
       "notes": "Lighter purple on lavender background. Softer than Xtract purple. Feels more consumer-friendly and inviting."
     },
     {
@@ -1543,16 +977,8 @@
         "bg": "#ffffff",
         "text_dark": "#000000"
       },
-      "vibe": [
-        "energetic",
-        "festival",
-        "alive",
-        "bold",
-        "high-contrast"
-      ],
-      "sources": [
-        "groovory"
-      ],
+      "vibe": ["energetic", "festival", "alive", "bold", "high-contrast"],
+      "sources": ["groovory"],
       "notes": "High-contrast green on white. Maximum energy. Feels alive and exciting."
     },
     {
@@ -1562,16 +988,8 @@
         "bg": "#ffffff",
         "text_dark": "#000000"
       },
-      "vibe": [
-        "bold",
-        "minimal",
-        "warm",
-        "confident",
-        "clean"
-      ],
-      "sources": [
-        "aidanjs"
-      ],
+      "vibe": ["bold", "minimal", "warm", "confident", "clean"],
+      "sources": ["aidanjs"],
       "notes": "Single bold orange on white. Minimal and confident. The warmth of orange is more approachable than red."
     },
     {
@@ -1581,16 +999,8 @@
         "text_dark": "#1C1C1C",
         "accent": "#FF2E2E"
       },
-      "vibe": [
-        "retro",
-        "warm",
-        "nostalgic",
-        "cozy",
-        "editorial"
-      ],
-      "sources": [
-        "ferry"
-      ],
+      "vibe": ["retro", "warm", "nostalgic", "cozy", "editorial"],
+      "sources": ["ferry"],
       "notes": "Warm cream background with red accent. Feels nostalgic and cozy. The cream background is warmer than pure white."
     },
     {
@@ -1603,16 +1013,8 @@
         "text_dark": "#2a2a2a",
         "text_muted": "#6b6b6b"
       },
-      "vibe": [
-        "natural",
-        "calm",
-        "premium",
-        "organic",
-        "minimal"
-      ],
-      "sources": [
-        "essentia"
-      ],
+      "vibe": ["natural", "calm", "premium", "organic", "minimal"],
+      "sources": ["essentia"],
       "notes": "Off-white with sage green accents. The muted green feels organic and trustworthy \u2014 like a dermatologist's office, not a pharmacy. Great for health, beauty, wellness, or any business that wants to feel clean and considered. The 3D product renders pop beautifully against this backdrop."
     },
     {
@@ -1632,10 +1034,7 @@
         "intimate",
         "retreat"
       ],
-      "sources": [
-        "foresttherapy",
-        "mariven"
-      ],
+      "sources": ["foresttherapy", "mariven"],
       "notes": "Dark forest green with warm cream text and gold accents. Like being inside a luxury forest cabin at night. The warmth of the cream/gold prevents the dark green from feeling cold. Incredible for retreats, hospitality, spas, or any business where the environment IS the product."
     },
     {
@@ -1648,17 +1047,8 @@
         "accent": "#c4a355",
         "accent_dark": "#8a7230"
       },
-      "vibe": [
-        "real-estate",
-        "editorial",
-        "premium",
-        "warm",
-        "inviting"
-      ],
-      "sources": [
-        "realisting",
-        "realdev"
-      ],
+      "vibe": ["real-estate", "editorial", "premium", "warm", "inviting"],
+      "sources": ["realisting", "realdev"],
       "notes": "Warm cream/ivory background with near-black text and gold accents. The cream is warmer than pure white \u2014 it feels like quality paper. Used on two of the most exceptional real estate sites. Works for any business that deals in premium physical spaces or products."
     },
     {
@@ -1678,9 +1068,7 @@
         "warm-darkness",
         "food"
       ],
-      "sources": [
-        "bamzi"
-      ],
+      "sources": ["bamzi"],
       "notes": "Deep emerald green background with burnt orange accents and warm cream text. The dark green evokes natural ingredients while the orange stimulates appetite. A color palette that makes food photography look incredible. Also works for bars, coffee shops, or premium grocery."
     },
     {
@@ -1692,17 +1080,8 @@
         "text_dark": "#1a1a1a",
         "text_muted": "#666666"
       },
-      "vibe": [
-        "bold",
-        "energetic",
-        "direct",
-        "high-impact",
-        "urgent"
-      ],
-      "sources": [
-        "heatfix",
-        "linea"
-      ],
+      "vibe": ["bold", "energetic", "direct", "high-impact", "urgent"],
+      "sources": ["heatfix", "linea"],
       "notes": "Clean white with a single powerful red-orange accent. The red creates urgency and energy \u2014 'Get Started Now' hits different in vermillion. Works for services where speed and reliability matter (HVAC, emergency services, delivery) but also creative agencies that want to feel bold."
     },
     {
@@ -1722,9 +1101,7 @@
         "calm",
         "design"
       ],
-      "sources": [
-        "nordiq"
-      ],
+      "sources": ["nordiq"],
       "notes": "Sandy/warm white with muted gold-brown accents. Feels like raw linen and untreated wood. The entire palette is warm neutrals \u2014 no cold tones anywhere. Perfect for design studios, architecture firms, furniture, or any business where materials and craftsmanship matter."
     },
     {
@@ -1737,16 +1114,8 @@
         "text_dark": "#1a1a1a",
         "text_muted": "#555555"
       },
-      "vibe": [
-        "playful",
-        "kid-friendly",
-        "energetic",
-        "summer",
-        "fun"
-      ],
-      "sources": [
-        "suntrail"
-      ],
+      "vibe": ["playful", "kid-friendly", "energetic", "summer", "fun"],
+      "sources": ["suntrail"],
       "notes": "White background with multiple primary-color accents (red, green, yellow). The combination of bold primaries on white is universally fun and approachable. Great for camps, kids' activities, family businesses, events, or anything that should feel joyful and accessible."
     },
     {
@@ -1759,17 +1128,8 @@
         "accent": "#c5a97d",
         "accent_light": "#e8d5b0"
       },
-      "vibe": [
-        "maritime",
-        "luxury",
-        "adventure",
-        "premium",
-        "nighttime"
-      ],
-      "sources": [
-        "yachtera",
-        "luxerra"
-      ],
+      "vibe": ["maritime", "luxury", "adventure", "premium", "nighttime"],
+      "sources": ["yachtera", "luxerra"],
       "notes": "Deep midnight navy with gold accents and white text. The gold on navy feels inherently luxurious \u2014 like a yacht club membership card. Works for any luxury service, premium automotive, high-end hospitality, or adventure experiences where the premium positioning matters."
     }
   ],
@@ -1778,19 +1138,8 @@
       "id": "fullscreen-video-hero",
       "name": "Full-Screen Video Background",
       "description": "Full-viewport video playing behind bold text. Cinematic, immersive. The video provides motion without requiring user interaction. Text is minimal \u2014 the video does the talking.",
-      "sources": [
-        "opurent",
-        "ehunter",
-        "yogus",
-        "mariven",
-        "yachtera"
-      ],
-      "vibe": [
-        "cinematic",
-        "premium",
-        "bold",
-        "immersive"
-      ],
+      "sources": ["opurent", "ehunter", "yogus", "mariven", "yachtera"],
+      "vibe": ["cinematic", "premium", "bold", "immersive"],
       "implementation": {
         "html": "<section class='relative h-screen overflow-hidden'><video autoplay muted loop playsinline class='absolute inset-0 w-full h-full object-cover'><source src='hero.mp4' type='video/mp4'/></video><div class='relative z-10'><!-- text overlay --></div></section>",
         "notes": "Use object-fit: cover. Add a dark overlay (bg-black/40) for text readability. Video should be compressed to under 5MB for performance."
@@ -1800,18 +1149,8 @@
       "id": "large-photo-quote-box",
       "name": "Large Service Photo + CTA Box Overlay",
       "description": "Full-width background photo of the service or product. Minimal bold text. A prominent action box (quote form, booking CTA) overlaid on the image. Can't miss the CTA.",
-      "sources": [
-        "neative",
-        "handyman",
-        "gardener",
-        "heatfix"
-      ],
-      "vibe": [
-        "direct",
-        "clear",
-        "conversion-focused",
-        "professional"
-      ],
+      "sources": ["neative", "handyman", "gardener", "heatfix"],
+      "vibe": ["direct", "clear", "conversion-focused", "professional"],
       "implementation": {
         "html": "relative container with bg-cover image, absolute positioned card/form with bg-white shadow-lg",
         "notes": "The overlay card should have enough opacity/shadow to be clearly readable. Keep text to under 10 words. CTA should be high-contrast."
@@ -1821,15 +1160,8 @@
       "id": "dark-animated-text-bar",
       "name": "Dark Background + Animated Text Sliding Bar",
       "description": "Dark or image background with text that slides/scrolls in a horizontal bar. Rotating or animated elements (icons, badges). Bold display font for the main headline.",
-      "sources": [
-        "agevia"
-      ],
-      "vibe": [
-        "sophisticated",
-        "dynamic",
-        "premium",
-        "architectural"
-      ],
+      "sources": ["agevia"],
+      "vibe": ["sophisticated", "dynamic", "premium", "architectural"],
       "implementation": {
         "notes": "Use Framer Motion animateX for the sliding bar. Rotating elements via Framer Motion rotate animation. Film grain overlay optional for texture."
       }
@@ -1838,16 +1170,8 @@
       "id": "massive-text-pan-in",
       "name": "Massive Colored Text Panning In Over Photo",
       "description": "Oversized brand/business name text animates in (pans from side) over a bold background photo. Movie-trailer energy. The text IS the design element.",
-      "sources": [
-        "arpeggio",
-        "luxerra"
-      ],
-      "vibe": [
-        "cinematic",
-        "bold",
-        "theatrical",
-        "high-energy"
-      ],
+      "sources": ["arpeggio", "luxerra"],
+      "vibe": ["cinematic", "bold", "theatrical", "high-energy"],
       "implementation": {
         "notes": "Framer Motion initial={{ x: -200, opacity: 0 }} animate={{ x: 0, opacity: 1 }} with a large font-size (8-12vw). Background image with object-fit cover."
       }
@@ -1856,15 +1180,8 @@
       "id": "3d-product-scroll",
       "name": "3D Product/Dashboard Moving Toward You",
       "description": "A product mockup or dashboard in perspective that translates toward the user on scroll. Cloud/sky gradient background. Feels like the product is emerging from the screen.",
-      "sources": [
-        "dreelio"
-      ],
-      "vibe": [
-        "tech",
-        "modern",
-        "engaging",
-        "dynamic"
-      ],
+      "sources": ["dreelio"],
+      "vibe": ["tech", "modern", "engaging", "dynamic"],
       "implementation": {
         "notes": "CSS perspective + transform: translateZ() linked to scroll position via Framer Motion useScroll + useTransform. Start with scale(0.8) translateZ(-100px) and animate to scale(1) translateZ(0)."
       }
@@ -1873,16 +1190,8 @@
       "id": "3d-particles-selfwriting",
       "name": "3D Particle Animation + Self-Writing Text",
       "description": "Animated 3D dots/particles in the background. Large text that writes/types itself as user scrolls. 3D blocks or geometric shapes parallaxing on the side. The most technically impressive hero pattern.",
-      "sources": [
-        "platform"
-      ],
-      "vibe": [
-        "tech",
-        "impressive",
-        "innovative",
-        "premium",
-        "dynamic"
-      ],
+      "sources": ["platform"],
+      "vibe": ["tech", "impressive", "innovative", "premium", "dynamic"],
       "exceptional": true,
       "implementation": {
         "notes": "Three.js or canvas for particle system. Framer Motion useScroll for text reveal (clip-path or character-by-character). 3D blocks via CSS transforms with parallax offset."
@@ -1892,15 +1201,8 @@
       "id": "contained-card-hero",
       "name": "Contained Card Hero with Photo + Rating",
       "description": "Hero content inside a rounded card/container with a background color. Professional photo inside the card. Star rating or trust badge prominently displayed. The card sits on a white/light page \u2014 it feels designed, not default.",
-      "sources": [
-        "stratex"
-      ],
-      "vibe": [
-        "professional",
-        "trustworthy",
-        "polished",
-        "contained"
-      ],
+      "sources": ["stratex"],
+      "vibe": ["professional", "trustworthy", "polished", "contained"],
       "implementation": {
         "notes": "rounded-2xl overflow-hidden with bg-[brand-color]. Image with object-cover on one side. Star rating component with yellow stars. White text on colored background."
       }
@@ -1909,15 +1211,8 @@
       "id": "product-assembly-hero",
       "name": "Product Mockups Assembling Together",
       "description": "Multiple UI elements, browser windows, or product screenshots that animate together into a cohesive composition. Pieces come from different directions and assemble like a puzzle.",
-      "sources": [
-        "draftr"
-      ],
-      "vibe": [
-        "playful",
-        "creative",
-        "satisfying",
-        "modern"
-      ],
+      "sources": ["draftr"],
+      "vibe": ["playful", "creative", "satisfying", "modern"],
       "implementation": {
         "notes": "Multiple Framer Motion elements with staggered animations. Each piece has different initial positions (x, y, rotation) and animates to final position. Slight overlap creates depth."
       }
@@ -1926,16 +1221,8 @@
       "id": "typing-text-hero",
       "name": "Text That Types Itself as You Scroll",
       "description": "Hero text characters appear one by one as the user scrolls, like someone is typing in real time. Creates a narrative, story-telling feel. Engaging and interactive.",
-      "sources": [
-        "etery",
-        "platform"
-      ],
-      "vibe": [
-        "engaging",
-        "narrative",
-        "interactive",
-        "modern"
-      ],
+      "sources": ["etery", "platform"],
+      "vibe": ["engaging", "narrative", "interactive", "modern"],
       "implementation": {
         "notes": "Framer Motion useScroll to track progress. Map scroll progress to character count. Display characters 0..N where N = scrollProgress * totalChars. CSS blink cursor animation: @keyframes blink { 0%-50% opacity: 1, 51%-100% opacity: 0 }"
       }
@@ -1944,15 +1231,8 @@
       "id": "warm-photo-floating-tags",
       "name": "Warm Photo + Floating Tags",
       "description": "Portrait or lifestyle photo with small tag/label elements floating around it (like Convenient, Caring, Confidential). Soft colors, mission statement text alongside. Calming and personal.",
-      "sources": [
-        "mindify"
-      ],
-      "vibe": [
-        "warm",
-        "personal",
-        "calming",
-        "trustworthy"
-      ],
+      "sources": ["mindify"],
+      "vibe": ["warm", "personal", "calming", "trustworthy"],
       "implementation": {
         "notes": "Photo with relative positioning. Tags as absolute-positioned elements with Framer Motion float animation (subtle y oscillation). Tags can have rounded-full bg-primary/10 text-primary styling."
       }
@@ -1961,15 +1241,8 @@
       "id": "simple-blue-photo-cta",
       "name": "Clean Color Block + Service Photo + Clear CTA",
       "description": "Solid color background (blue, green, any brand color). Service professional photo framed in a contrasting color block (yellow square, white card). Bold clear headline. Big CTA button. Simple and effective.",
-      "sources": [
-        "plumbing"
-      ],
-      "vibe": [
-        "trustworthy",
-        "clean",
-        "simple",
-        "professional"
-      ],
+      "sources": ["plumbing"],
+      "vibe": ["trustworthy", "clean", "simple", "professional"],
       "implementation": {
         "notes": "Split layout: text on left (2/3), photo on right (1/3) in a colored frame. bg-primary text-white for the section. CTA button in accent color. Very achievable with basic Tailwind."
       }
@@ -1978,15 +1251,8 @@
       "id": "stars-gallery-strip",
       "name": "Stars Rating + Name + Horizontal Gallery Strip",
       "description": "Clean white hero with star rating prominently displayed, business name and tagline, a CTA button, and a horizontal strip of photos/gallery across the bottom of the hero section.",
-      "sources": [
-        "pilatestemplate"
-      ],
-      "vibe": [
-        "clean",
-        "visual",
-        "social-proof-first",
-        "modern"
-      ],
+      "sources": ["pilatestemplate"],
+      "vibe": ["clean", "visual", "social-proof-first", "modern"],
       "implementation": {
         "notes": "Stars as a row of SVG star icons. Gallery strip as overflow-x-auto flex gap-4 with images. Or CSS scroll-snap for smooth carousel behavior."
       }
@@ -1995,15 +1261,8 @@
       "id": "editorial-grid-hero",
       "name": "Editorial Asymmetric Grid Hero",
       "description": "Content arranged in an asymmetric editorial grid \u2014 different sized blocks of text, images, and whitespace. Feels like a magazine spread. Strong typographic hierarchy.",
-      "sources": [
-        "virgilabloh"
-      ],
-      "vibe": [
-        "editorial",
-        "artistic",
-        "intellectual",
-        "bold"
-      ],
+      "sources": ["virgilabloh"],
+      "vibe": ["editorial", "artistic", "intellectual", "bold"],
       "implementation": {
         "notes": "CSS Grid with named areas and asymmetric column/row spans. Mix of font sizes (display + caption). Generous whitespace between elements."
       }
@@ -2012,15 +1271,8 @@
       "id": "product-icon-follows-scroll",
       "name": "Product Icon That Follows You Down the Page",
       "description": "A 3D-rendered product (skin cream jar, shoe, tool) physically moves down the page as you scroll, appearing at different positions in different contexts. The product IS the visual thread tying the entire page together. Exceptionally engaging \u2014 the user can't forget what's being sold.",
-      "sources": [
-        "essentia"
-      ],
-      "vibe": [
-        "engaging",
-        "premium",
-        "brand-forward",
-        "innovative"
-      ],
+      "sources": ["essentia"],
+      "vibe": ["engaging", "premium", "brand-forward", "innovative"],
       "exceptional": true,
       "implementation": {
         "notes": "Position the product with position: fixed or position: sticky. Use Framer Motion useScroll to track page progress. Map scrollYProgress to translate coordinates, scale, and rotation. The product should appear in 3-5 different 'stations' as the user scrolls. Each station has different styling/context. Requires high-quality 3D render or PNG cutout with transparency."
@@ -2030,15 +1282,8 @@
       "id": "blurred-to-clear-reveal",
       "name": "Blurred Background That Clears on Scroll",
       "description": "Huge bold text (buy. sell. rent.) on a blurred/dark background photo that progressively becomes clearer and more transparent as user scrolls down. Creates intrigue, then reveal. The blur-to-clear transition draws you in.",
-      "sources": [
-        "realisting"
-      ],
-      "vibe": [
-        "intriguing",
-        "cinematic",
-        "real-estate",
-        "premium"
-      ],
+      "sources": ["realisting"],
+      "vibe": ["intriguing", "cinematic", "real-estate", "premium"],
       "exceptional": true,
       "implementation": {
         "notes": "Background image with CSS filter: blur(Npx). Framer Motion useScroll + useTransform to map scrollYProgress to blur value (from 20px to 0) and opacity (from 0.3 to 1). Text on top with z-index. Text can also fade/scale as user scrolls past it."
@@ -2048,15 +1293,8 @@
       "id": "video-timelapse-hero",
       "name": "Cinematic Timelapse Video Background",
       "description": "High-quality construction/process timelapse video playing behind minimal text. The speed-up creates energy and implies progress and transformation. More dynamic than static video. User called this 'simply amazing.'",
-      "sources": [
-        "realdev"
-      ],
-      "vibe": [
-        "dynamic",
-        "ambitious",
-        "transformative",
-        "cinematic"
-      ],
+      "sources": ["realdev"],
+      "vibe": ["dynamic", "ambitious", "transformative", "cinematic"],
       "exceptional": true,
       "implementation": {
         "notes": "Same as fullscreen-video-hero but the video content is a timelapse. Key difference: timelapse videos are shorter, punchier, and show transformation \u2014 perfect for construction, manufacturing, renovation, or any 'before/after' business. Compress to WebM + MP4 fallback, keep under 8MB. Dark overlay for text readability."
@@ -2066,16 +1304,8 @@
       "id": "fullscreen-nature-immersion",
       "name": "Full-Screen Nature Photo Hero",
       "description": "Massive nature/environment photo fills entire viewport. Small availability badge ('5 spots left for November'). Script or serif heading. CTA button. Photo does all the talking \u2014 the business IS the environment. Exceptionally powerful for place-based businesses.",
-      "sources": [
-        "foresttherapy"
-      ],
-      "vibe": [
-        "immersive",
-        "calming",
-        "nature",
-        "place-based",
-        "therapeutic"
-      ],
+      "sources": ["foresttherapy"],
+      "vibe": ["immersive", "calming", "nature", "place-based", "therapeutic"],
       "implementation": {
         "notes": "Full-viewport hero with object-cover image. Small badge component (rounded-full bg-white/80 text-sm) for urgency/scarcity. Script font for logo/heading creates intimacy. Keep text to absolute minimum \u2014 let the image work. CTA in a warm accent color."
       }
@@ -2084,17 +1314,8 @@
       "id": "giant-logo-typography-hero",
       "name": "Giant Brand Name Typography Over Product",
       "description": "Business name in enormous letters (filling viewport width) overlaid on or behind a product photo. The typography IS the design. Nordiq has 'NORDIQ' in massive sans filling the viewport with a chair in the 'Q'. Mobius has 'M\u00f6bius\u00ae' spanning the bottom. Minimal everything else.",
-      "sources": [
-        "nordiq",
-        "mobius"
-      ],
-      "vibe": [
-        "design-statement",
-        "bold",
-        "typographic",
-        "premium",
-        "minimal"
-      ],
+      "sources": ["nordiq", "mobius"],
+      "vibe": ["design-statement", "bold", "typographic", "premium", "minimal"],
       "implementation": {
         "notes": "Font-size: 15-25vw for the massive text. Use mix-blend-mode or z-index layering to weave the text with the product image. The product can sit 'inside' a letter or float over the text. Requires careful composition \u2014 the font choice matters enormously at this scale. Works best with geometric or high-contrast sans-serif."
       }
@@ -2103,16 +1324,8 @@
       "id": "draggable-image-cards-hero",
       "name": "Hero with Draggable/Flowing Image Cards",
       "description": "Image portfolio cards that users can drag across the screen or that auto-flow horizontally. Dotted background pattern. Italic accent words in title. Interactive from the first second \u2014 users engage immediately by dragging cards.",
-      "sources": [
-        "linea"
-      ],
-      "vibe": [
-        "interactive",
-        "portfolio",
-        "playful",
-        "creative",
-        "engaging"
-      ],
+      "sources": ["linea"],
+      "vibe": ["interactive", "portfolio", "playful", "creative", "engaging"],
       "implementation": {
         "notes": "Framer Motion drag prop on each card: <motion.div drag='x' dragConstraints={{ left: -500, right: 500 }}>. Cards positioned in a row with overflow visible. Dotted background via CSS radial-gradient. Title with specific words in italic (<em>) and possibly a different color. Stars/rating badge above title."
       }
@@ -2124,58 +1337,32 @@
       "name": "Service Cards with Icons AND Photos",
       "category": "services",
       "description": "Grid of service cards where each card has both an icon and a photo. Visual redundancy helps users scan quickly. Clean titles and brief descriptions.",
-      "sources": [
-        "neative",
-        "gardener"
-      ],
-      "vibe": [
-        "clear",
-        "scannable",
-        "professional"
-      ]
+      "sources": ["neative", "gardener"],
+      "vibe": ["clear", "scannable", "professional"]
     },
     {
       "id": "services-alternating-layout",
       "name": "Alternating Text/Image Service Rows",
       "category": "services",
       "description": "Services displayed in alternating rows \u2014 text left / image right, then image left / text right. Each service has a numbered list of sub-items (01, 02, 03...) in monospace. Creates visual rhythm.",
-      "sources": [
-        "agevia"
-      ],
-      "vibe": [
-        "architectural",
-        "premium",
-        "detailed"
-      ]
+      "sources": ["agevia"],
+      "vibe": ["architectural", "premium", "detailed"]
     },
     {
       "id": "services-dark-interactive-cards",
       "name": "Dark Interactive Service Cards",
       "category": "services",
       "description": "Dark cards with interactive elements per service. Typing animations, dynamic counters, moving elements. Each card feels alive.",
-      "sources": [
-        "etery"
-      ],
-      "vibe": [
-        "tech",
-        "dynamic",
-        "impressive"
-      ]
+      "sources": ["etery"],
+      "vibe": ["tech", "dynamic", "impressive"]
     },
     {
       "id": "services-scroll-pinned-cascade",
       "name": "Scroll-Pinned Card Cascade",
       "category": "services",
       "description": "The section stays pinned to the viewport while service cards cascade/slide through it as the user scrolls. The page doesn't move \u2014 only the cards change. Incredibly immersive.",
-      "sources": [
-        "agevia"
-      ],
-      "vibe": [
-        "premium",
-        "immersive",
-        "impressive",
-        "dynamic"
-      ],
+      "sources": ["agevia"],
+      "vibe": ["premium", "immersive", "impressive", "dynamic"],
       "implementation": {
         "notes": "position: sticky on the section container. Height set to N * 100vh (where N = number of cards). Cards absolutely positioned and animated via Framer Motion useScroll with offset breakpoints."
       }
@@ -2185,258 +1372,136 @@
       "name": "Simple Color Rectangle Cards",
       "category": "services",
       "description": "Clean rectangular cards with consistent padding, subtle background color, service title, and brief description. Minimal decoration. The simplicity IS the design.",
-      "sources": [
-        "plumbing",
-        "handyman",
-        "pilatestemplate"
-      ],
-      "vibe": [
-        "clean",
-        "simple",
-        "professional",
-        "accessible"
-      ]
+      "sources": ["plumbing", "handyman", "pilatestemplate"],
+      "vibe": ["clean", "simple", "professional", "accessible"]
     },
     {
       "id": "process-numbered-image-cards",
       "name": "Numbered Steps with Image Cards",
       "category": "process",
       "description": "3-4 numbered steps, each with an image card showing that step being performed. Numbers are large and prominent. Builds confidence by showing exactly how it works.",
-      "sources": [
-        "neative",
-        "plumbing",
-        "handyman"
-      ],
-      "vibe": [
-        "clear",
-        "confidence-building",
-        "visual"
-      ]
+      "sources": ["neative", "plumbing", "handyman"],
+      "vibe": ["clear", "confidence-building", "visual"]
     },
     {
       "id": "process-tabbed-fullwidth",
       "name": "Numbered Tabs with Full-Width Photos",
       "category": "process",
       "description": "Process steps as numbered tabs at the top (01 Discover, 02 Select, 03 Experience, 04 Return). Clicking/scrolling each tab reveals a full-width photo and description for that step.",
-      "sources": [
-        "opurent"
-      ],
-      "vibe": [
-        "premium",
-        "cinematic",
-        "interactive"
-      ]
+      "sources": ["opurent"],
+      "vibe": ["premium", "cinematic", "interactive"]
     },
     {
       "id": "process-globe-rotation",
       "name": "Steps Rotating Around a Globe/Arc",
       "category": "process",
       "description": "Process steps orbit around a central globe or arc graphic as the user scrolls. Each step appears at a different position around the circle. Scroll-driven rotation.",
-      "sources": [
-        "agevia"
-      ],
-      "vibe": [
-        "impressive",
-        "global",
-        "dynamic",
-        "premium"
-      ]
+      "sources": ["agevia"],
+      "vibe": ["impressive", "global", "dynamic", "premium"]
     },
     {
       "id": "process-handdrawn-arrows",
       "name": "Numbered Steps with Hand-Drawn Connectors",
       "category": "process",
       "description": "Simple 1-2-3 numbered process with hand-drawn arrow SVGs connecting the steps. Feels personal and approachable, not corporate.",
-      "sources": [
-        "mindify"
-      ],
-      "vibe": [
-        "personal",
-        "warm",
-        "approachable",
-        "simple"
-      ]
+      "sources": ["mindify"],
+      "vibe": ["personal", "warm", "approachable", "simple"]
     },
     {
       "id": "testimonials-featured-plus-grid",
       "name": "Featured Large Testimonial + Smaller Cards",
       "category": "testimonials",
       "description": "One large, featured testimonial with a big photo at the top. Below it, a grid or row of smaller testimonial cards with avatars. Creates hierarchy \u2014 one star review, plus supporting voices.",
-      "sources": [
-        "agevia",
-        "essentia"
-      ],
-      "vibe": [
-        "premium",
-        "editorial",
-        "trustworthy"
-      ]
+      "sources": ["agevia", "essentia"],
+      "vibe": ["premium", "editorial", "trustworthy"]
     },
     {
       "id": "testimonials-auto-scroll-colored",
       "name": "Horizontally Auto-Scrolling Colored Boxes",
       "category": "testimonials",
       "description": "Testimonial cards in colored boxes that auto-scroll horizontally. The color of the boxes matches the brand palette. Creates continuous motion \u2014 the section feels alive.",
-      "sources": [
-        "gardener",
-        "yogus"
-      ],
-      "vibe": [
-        "dynamic",
-        "vibrant",
-        "energetic"
-      ]
+      "sources": ["gardener", "yogus"],
+      "vibe": ["dynamic", "vibrant", "energetic"]
     },
     {
       "id": "testimonials-dark-quote-cards",
       "name": "Dark Cards with Large Quote Marks",
       "category": "testimonials",
       "description": "Dark background cards with oversized quote mark decorations (\" \"). Client name and role below. Cards can be in a horizontal carousel.",
-      "sources": [
-        "etery"
-      ],
-      "vibe": [
-        "premium",
-        "sophisticated",
-        "dark"
-      ]
+      "sources": ["etery"],
+      "vibe": ["premium", "sophisticated", "dark"]
     },
     {
       "id": "testimonials-star-review-cards",
       "name": "Star Rating Review Cards",
       "category": "testimonials",
       "description": "White cards with star ratings (gold stars), review text, and reviewer name. Clean and familiar \u2014 looks like Google/Yelp reviews embedded on the site.",
-      "sources": [
-        "handyman"
-      ],
-      "vibe": [
-        "trustworthy",
-        "familiar",
-        "clean"
-      ]
+      "sources": ["handyman"],
+      "vibe": ["trustworthy", "familiar", "clean"]
     },
     {
       "id": "stats-dark-number-cards",
       "name": "Dark Cards with Large Numbers",
       "category": "stats",
       "description": "Row of dark/black cards, each with a large white number ($2.8M, 120K, 200,000+) and a label below. Numbers animate/count up when scrolled into view.",
-      "sources": [
-        "agevia",
-        "etery"
-      ],
-      "vibe": [
-        "impressive",
-        "bold",
-        "data-driven"
-      ]
+      "sources": ["agevia", "etery"],
+      "vibe": ["impressive", "bold", "data-driven"]
     },
     {
       "id": "stats-light-counter-row",
       "name": "Light Background Counter Row",
       "category": "stats",
       "description": "Large numbers on a light/white background in a horizontal row. Numbers count up from 0 with animated counting. Labels below each number.",
-      "sources": [
-        "mindify",
-        "handyman",
-        "realdev"
-      ],
-      "vibe": [
-        "clean",
-        "professional",
-        "credible"
-      ]
+      "sources": ["mindify", "handyman", "realdev"],
+      "vibe": ["clean", "professional", "credible"]
     },
     {
       "id": "comparison-table",
       "name": "With Us vs Without Us Comparison",
       "category": "conversion",
       "description": "Side-by-side table comparing 'Other options' vs 'Working with us'. One side has X marks (red/gray), the other has checkmarks (green/brand color). Powerful conversion tool.",
-      "sources": [
-        "agevia",
-        "etery",
-        "stratex"
-      ],
-      "vibe": [
-        "persuasive",
-        "clear",
-        "conversion-focused"
-      ]
+      "sources": ["agevia", "etery", "stratex"],
+      "vibe": ["persuasive", "clear", "conversion-focused"]
     },
     {
       "id": "team-portraits-credentials",
       "name": "Team Photos with Credential Tags",
       "category": "team",
       "description": "Row of portrait photos with names, handwritten-style or serif font names, and small tag/label components showing specializations or credentials. Users can quickly scan to find the right person.",
-      "sources": [
-        "mindify",
-        "pilatestemplate",
-        "stratex"
-      ],
-      "vibe": [
-        "personal",
-        "trustworthy",
-        "professional"
-      ]
+      "sources": ["mindify", "pilatestemplate", "stratex"],
+      "vibe": ["personal", "trustworthy", "professional"]
     },
     {
       "id": "team-warm-portrait-row",
       "name": "Warm Portrait Photo Row on Dark Background",
       "category": "team",
       "description": "Row of warm, well-lit portrait photos on a dark background. Names and roles below. The warm lighting contrasts with the dark bg \u2014 people look approachable and real.",
-      "sources": [
-        "etery",
-        "mobius"
-      ],
-      "vibe": [
-        "warm",
-        "real",
-        "human",
-        "premium"
-      ]
+      "sources": ["etery", "mobius"],
+      "vibe": ["warm", "real", "human", "premium"]
     },
     {
       "id": "faq-colored-accordion",
       "name": "Colored Numbered Accordion FAQ",
       "category": "faq",
       "description": "FAQ accordion where each item has a numbered label (001, 002...) and sits on a colored background (brand accent color). Feels designed, not default. The numbers add order and scanability.",
-      "sources": [
-        "agevia"
-      ],
-      "vibe": [
-        "designed",
-        "organized",
-        "premium"
-      ]
+      "sources": ["agevia"],
+      "vibe": ["designed", "organized", "premium"]
     },
     {
       "id": "faq-clean-minimal",
       "name": "Clean Minimal Accordion FAQ",
       "category": "faq",
       "description": "Simple question/answer accordion with clean typography and minimal decoration. Plus/minus or chevron toggle icon. The questions are the design \u2014 no visual noise.",
-      "sources": [
-        "plumbing",
-        "stratex"
-      ],
-      "vibe": [
-        "clean",
-        "simple",
-        "accessible"
-      ]
+      "sources": ["plumbing", "stratex"],
+      "vibe": ["clean", "simple", "accessible"]
     },
     {
       "id": "gallery-aesthetic-grid",
       "name": "Aesthetic Image Grid",
       "category": "gallery",
       "description": "6-up or 9-up image grid with consistent spacing. Images may have hover effects (slight zoom, overlay). CSS Grid auto-fill with minmax for responsiveness.",
-      "sources": [
-        "gardener",
-        "suntrail"
-      ],
-      "vibe": [
-        "visual",
-        "curated",
-        "professional"
-      ],
+      "sources": ["gardener", "suntrail"],
+      "vibe": ["visual", "curated", "professional"],
       "implementation": {
         "css": "grid grid-cols-2 md:grid-cols-3 gap-4",
         "notes": "Images with aspect-ratio: 4/3. Hover: scale-105 opacity-90 transition. Use next/image with fill and object-cover."
@@ -2447,14 +1512,8 @@
       "name": "Horizontal Scrolling Image Gallery",
       "category": "gallery",
       "description": "Full-width horizontal scrolling gallery of images. Can be auto-scrolling or manual. Images peek from the edges to indicate more content.",
-      "sources": [
-        "pilatestemplate"
-      ],
-      "vibe": [
-        "modern",
-        "visual",
-        "dynamic"
-      ],
+      "sources": ["pilatestemplate"],
+      "vibe": ["modern", "visual", "dynamic"],
       "implementation": {
         "css": "flex overflow-x-auto gap-4 snap-x snap-mandatory",
         "notes": "Each image as snap-start. Hide scrollbar with scrollbar-hide utility. Optional: CSS scroll-snap for smooth snapping."
@@ -2465,74 +1524,40 @@
       "name": "Modular Overlapping Project Cards",
       "category": "gallery",
       "description": "Project/portfolio cards with mixed light and dark backgrounds that slightly overlap each other. Different sizes create visual hierarchy. Feels curated and editorial.",
-      "sources": [
-        "ehunter",
-        "arpeggio"
-      ],
-      "vibe": [
-        "editorial",
-        "premium",
-        "curated"
-      ]
+      "sources": ["ehunter", "arpeggio"],
+      "vibe": ["editorial", "premium", "curated"]
     },
     {
       "id": "product-grid-specs",
       "name": "Product Grid with Specs and Pricing",
       "category": "gallery",
       "description": "Grid of product cards on dark background with studio-quality photos. Each card shows specs (size, power, type) and pricing. Clean labels, consistent layout.",
-      "sources": [
-        "opurent"
-      ],
-      "vibe": [
-        "premium",
-        "e-commerce",
-        "detailed"
-      ]
+      "sources": ["opurent"],
+      "vibe": ["premium", "e-commerce", "detailed"]
     },
     {
       "id": "blog-asymmetric-cards",
       "name": "Asymmetric Blog Card Grid",
       "category": "blog",
       "description": "Blog section with one large featured card (with photo, title, author, tag) and 2-3 smaller cards below/beside it. Category tags in colored pills.",
-      "sources": [
-        "dreelio",
-        "agevia"
-      ],
-      "vibe": [
-        "editorial",
-        "content-rich",
-        "modern"
-      ]
+      "sources": ["dreelio", "agevia"],
+      "vibe": ["editorial", "content-rich", "modern"]
     },
     {
       "id": "industries-tag-grid",
       "name": "Industry/Service Tag Grid",
       "category": "services",
       "description": "Grid of industry or service categories as tag-like boxes with icons. Colored background. Each tag is clickable or hoverable. Shows breadth of expertise at a glance.",
-      "sources": [
-        "agevia"
-      ],
-      "vibe": [
-        "organized",
-        "comprehensive",
-        "scannable"
-      ]
+      "sources": ["agevia"],
+      "vibe": ["organized", "comprehensive", "scannable"]
     },
     {
       "id": "sections-overlapping-parallax",
       "name": "Overlapping Rectangular Sections",
       "category": "layout",
       "description": "Content sections that literally cover each other up as you scroll. Each section slides over the previous one at a different scroll speed. Creates a 'layered paper' depth effect.",
-      "sources": [
-        "mindify",
-        "arpeggio"
-      ],
-      "vibe": [
-        "dynamic",
-        "layered",
-        "premium",
-        "immersive"
-      ],
+      "sources": ["mindify", "arpeggio"],
+      "vibe": ["dynamic", "layered", "premium", "immersive"],
       "implementation": {
         "notes": "position: sticky on each section. Increasing z-index per section. Framer Motion translateY at different rates per section. Background color per section to cover the previous."
       }
@@ -2542,42 +1567,24 @@
       "name": "Full-Width Mission Statement CTA",
       "category": "cta",
       "description": "Large serif text with a mission statement or call to action. Centered. Generous whitespace above and below. A single prominent CTA button. Simple and powerful.",
-      "sources": [
-        "mindify"
-      ],
-      "vibe": [
-        "elegant",
-        "simple",
-        "focused"
-      ]
+      "sources": ["mindify"],
+      "vibe": ["elegant", "simple", "focused"]
     },
     {
       "id": "footer-big-logo",
       "name": "Oversized Logo Footer",
       "category": "footer",
       "description": "Footer with a massive version of the logo/business name as the dominant visual element. Navigation links and contact info are secondary. The logo anchors the end of the page.",
-      "sources": [
-        "agevia"
-      ],
-      "vibe": [
-        "bold",
-        "brand-forward",
-        "memorable"
-      ]
+      "sources": ["agevia"],
+      "vibe": ["bold", "brand-forward", "memorable"]
     },
     {
       "id": "scaling-footer-takeover",
       "name": "Scaling Footer Takeover",
       "category": "footer",
       "description": "The footer section scales up from small to fill the viewport as you scroll to the bottom. Creates an immersive ending \u2014 the website 'opens up' at the end.",
-      "sources": [
-        "arpeggio"
-      ],
-      "vibe": [
-        "dramatic",
-        "immersive",
-        "memorable"
-      ],
+      "sources": ["arpeggio"],
+      "vibe": ["dramatic", "immersive", "memorable"],
       "implementation": {
         "notes": "Framer Motion useScroll with transform: scale() going from 0.5 to 1.0 based on scroll position near bottom of page."
       }
@@ -2587,14 +1594,8 @@
       "name": "Partner/Client Logo Bar with Hover Effects",
       "category": "trust",
       "description": "Row of partner or client logos, typically grayscale, that gain color or subtle animation on hover. Shows credibility at a glance. 'We've partnered with' heading above.",
-      "sources": [
-        "stratex"
-      ],
-      "vibe": [
-        "professional",
-        "trustworthy",
-        "credible"
-      ],
+      "sources": ["stratex"],
+      "vibe": ["professional", "trustworthy", "credible"],
       "implementation": {
         "css": "filter grayscale(100%) opacity-60 hover:grayscale(0) hover:opacity-100 transition-all duration-300",
         "notes": "Logos in a flex row with gap. Grayscale by default, full color on hover. Can also auto-scroll as a marquee for many logos."
@@ -2605,43 +1606,24 @@
       "name": "Rotating Team Image Carousel",
       "category": "team",
       "description": "Team member photos in a rotating bar/carousel that auto-cycles through team members. Each rotation reveals a new face. More dynamic than a static grid.",
-      "sources": [
-        "stratex"
-      ],
-      "vibe": [
-        "dynamic",
-        "modern",
-        "engaging"
-      ]
+      "sources": ["stratex"],
+      "vibe": ["dynamic", "modern", "engaging"]
     },
     {
       "id": "proven-process-steps",
       "name": "Proven Process Methodology Layout",
       "category": "process",
       "description": "Step-by-step methodology display that shows how the business works \u2014 positioned as an educational journey. Different from simple numbered steps \u2014 this feels like a strategic framework with descriptions, icons, and a visual flow connecting them.",
-      "sources": [
-        "stratex"
-      ],
-      "vibe": [
-        "professional",
-        "educational",
-        "trustworthy"
-      ]
+      "sources": ["stratex"],
+      "vibe": ["professional", "educational", "trustworthy"]
     },
     {
       "id": "modular-product-reveal",
       "name": "Modular Product Parts Snapping Into Place",
       "category": "gallery",
       "description": "Product/work showcase where individual parts (cards, mockups, screenshots) fade in and snap into position with a modular, component-based feel. Each piece appears independent but assembles into a cohesive layout.",
-      "sources": [
-        "platform"
-      ],
-      "vibe": [
-        "tech",
-        "satisfying",
-        "modular",
-        "dynamic"
-      ],
+      "sources": ["platform"],
+      "vibe": ["tech", "satisfying", "modular", "dynamic"],
       "implementation": {
         "notes": "Framer Motion staggered entrance with each element having slightly different initial position/rotation. Use spring transitions for the snapping feel. Layout with CSS Grid for final positions."
       }
@@ -2651,15 +1633,8 @@
       "name": "Flowing Analytics Charts & Data Visualizations",
       "category": "showcase",
       "description": "Multiple chart/visualization components that animate in concert \u2014 bars grow, lines draw, numbers count, all synchronized. Creates a 'living dashboard' feel. The most visually complex section pattern found.",
-      "sources": [
-        "platform"
-      ],
-      "vibe": [
-        "impressive",
-        "data-driven",
-        "premium",
-        "dynamic"
-      ],
+      "sources": ["platform"],
+      "vibe": ["impressive", "data-driven", "premium", "dynamic"],
       "exceptional": true,
       "implementation": {
         "notes": "SVG charts with stroke-dashoffset animation for line drawing. Bar heights animated with Framer Motion. All triggered by intersection observer. Staggered timing creates the 'flowing' feel."
@@ -2670,16 +1645,8 @@
       "name": "Beautifully Designed Pricing Cards",
       "category": "conversion",
       "description": "3-tier pricing section with visually distinct cards. The recommended tier is highlighted with a different color or larger card. Clean typography, clear feature lists, prominent CTA per tier. Not just functional \u2014 designed to be beautiful.",
-      "sources": [
-        "draftr",
-        "platform",
-        "pilatestemplate"
-      ],
-      "vibe": [
-        "conversion-focused",
-        "clear",
-        "polished"
-      ],
+      "sources": ["draftr", "platform", "pilatestemplate"],
+      "vibe": ["conversion-focused", "clear", "polished"],
       "implementation": {
         "notes": "3 cards in a flex/grid row. Middle card slightly larger (scale-105) with primary color bg or border. Feature list with checkmarks. Monthly/yearly toggle optional. CTA button per card."
       }
@@ -2689,15 +1656,8 @@
       "name": "Tool Integrations Flowing In Sequentially",
       "category": "trust",
       "description": "Integration partner logos or tool icons that flow/animate into view one by one in a beautiful sequential entrance. Creates a feeling of an ecosystem coming together.",
-      "sources": [
-        "etery"
-      ],
-      "vibe": [
-        "tech",
-        "connected",
-        "modern",
-        "dynamic"
-      ],
+      "sources": ["etery"],
+      "vibe": ["tech", "connected", "modern", "dynamic"],
       "implementation": {
         "notes": "Framer Motion staggerChildren with each logo having initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}. Stagger delay of 0.05-0.1s per item."
       }
@@ -2707,14 +1667,8 @@
       "name": "Text/Elements Moving Spatially Through Section",
       "category": "showcase",
       "description": "A text element or visual that physically moves through the section space as you scroll \u2014 like 'Buyers' text moving down the screen in a voice assistant demo. Creates spatial storytelling.",
-      "sources": [
-        "etery"
-      ],
-      "vibe": [
-        "narrative",
-        "dynamic",
-        "engaging"
-      ],
+      "sources": ["etery"],
+      "vibe": ["narrative", "dynamic", "engaging"],
       "implementation": {
         "notes": "Framer Motion useScroll + useTransform to map scroll progress to translateY of the moving element. The element moves within a fixed-height container."
       }
@@ -2724,29 +1678,16 @@
       "name": "Cinematic Preview Card (Movie Theater Feel)",
       "category": "hero",
       "description": "A large card that floats over the hero content with a 'Design that captivates today and inspires tomorrow' type message. Feels like a movie theater preview card \u2014 dramatic framing, centered, with a slight shadow/glow.",
-      "sources": [
-        "arpeggio"
-      ],
-      "vibe": [
-        "cinematic",
-        "dramatic",
-        "premium",
-        "theatrical"
-      ]
+      "sources": ["arpeggio"],
+      "vibe": ["cinematic", "dramatic", "premium", "theatrical"]
     },
     {
       "id": "elements-pan-from-sides",
       "name": "Rectangular Elements Panning In From Sides on Scroll",
       "category": "scroll-driven",
       "description": "Large rectangular cards or components slide in from the left or right side of the viewport as you scroll. Each new element takes over the previous one. Creates a 'flipping through a portfolio' feel.",
-      "sources": [
-        "arpeggio"
-      ],
-      "vibe": [
-        "dynamic",
-        "premium",
-        "modular"
-      ],
+      "sources": ["arpeggio"],
+      "vibe": ["dynamic", "premium", "modular"],
       "implementation": {
         "notes": "Framer Motion useScroll + useTransform. Map scroll progress to translateX from \u00b1100vw to 0. Alternate left/right per element."
       }
@@ -2756,14 +1697,8 @@
       "name": "Section Expands to Fill Entire Viewport",
       "category": "scroll-driven",
       "description": "A section starts as a contained card/block and expands to fill the entire viewport as you scroll into it. Big text fills the screen. Creates an immersive moment mid-page, not just at the end.",
-      "sources": [
-        "arpeggio"
-      ],
-      "vibe": [
-        "immersive",
-        "bold",
-        "dramatic"
-      ],
+      "sources": ["arpeggio"],
+      "vibe": ["immersive", "bold", "dramatic"],
       "implementation": {
         "notes": "Framer Motion useScroll + useTransform. Map scroll progress to: width from max-w-4xl to 100vw, padding from px-8 to px-0, borderRadius from 2xl to 0. Content scales up inside."
       }
@@ -2773,15 +1708,8 @@
       "name": "Class/Appointment Schedule Table",
       "category": "utility",
       "description": "Clean, scannable table showing class times, appointment slots, or service schedules. Day/time grid format. Color-coded by type. Essential for any appointment-based business.",
-      "sources": [
-        "pilatestemplate",
-        "yogus"
-      ],
-      "vibe": [
-        "clear",
-        "functional",
-        "organized"
-      ],
+      "sources": ["pilatestemplate", "yogus"],
+      "vibe": ["clear", "functional", "organized"],
       "implementation": {
         "notes": "HTML table or CSS Grid. Columns for days, rows for time slots. Color-coded pills for class types. Responsive: stack to a list on mobile. hover:bg-primary/5 for row highlighting."
       }
@@ -2791,14 +1719,8 @@
       "name": "Designed Location Map Integration",
       "category": "utility",
       "description": "An embedded map that's designed into the page \u2014 not just a dropped-in Google Maps iframe. Custom styling, brand-colored pins, integrated with surrounding content (address, hours, directions). Signals professionalism.",
-      "sources": [
-        "pilatestemplate"
-      ],
-      "vibe": [
-        "professional",
-        "local",
-        "polished"
-      ],
+      "sources": ["pilatestemplate"],
+      "vibe": ["professional", "local", "polished"],
       "implementation": {
         "notes": "Google Maps embed with custom styling (snazzy maps or Maps JS API with custom theme). Or static map image with a 'Get Directions' link. Frame with rounded corners and shadow to match site aesthetic."
       }
@@ -2808,14 +1730,8 @@
       "name": "Animated Diagram/Flowchart",
       "category": "showcase",
       "description": "Process or architecture diagrams that animate on scroll \u2014 lines draw, nodes appear, connections form. Shows relationships between elements visually rather than just describing them.",
-      "sources": [
-        "draftr"
-      ],
-      "vibe": [
-        "tech",
-        "visual",
-        "educational"
-      ],
+      "sources": ["draftr"],
+      "vibe": ["tech", "visual", "educational"],
       "implementation": {
         "notes": "SVG paths with stroke-dasharray + stroke-dashoffset animation. Nodes fade in with staggered timing. Lines draw between nodes as scroll progresses."
       }
@@ -2825,14 +1741,8 @@
       "name": "Why Choose Us Checklist Format",
       "category": "conversion",
       "description": "A 'Why Choose Us' section presented as a checklist rather than a grid of cards. Each point has a checkmark, interesting text styling, and possibly icons. Scannable and persuasive.",
-      "sources": [
-        "etery"
-      ],
-      "vibe": [
-        "persuasive",
-        "clear",
-        "distinctive"
-      ],
+      "sources": ["etery"],
+      "vibe": ["persuasive", "clear", "distinctive"],
       "implementation": {
         "notes": "Unordered list with custom checkmark icons (lucide-react Check). Each item with bold lead text + lighter description. Alternating subtle background colors optional."
       }
@@ -2842,15 +1752,8 @@
       "name": "Scroll-Away Feature Reasons",
       "category": "features",
       "description": "Features/reasons displayed one at a time, each scrolling away to reveal the next. 'Five ingredients, nothing more' \u2192 scroll \u2192 next reason appears. Full-viewport storytelling. Each reason gets the entire screen. The user's attention is captured one point at a time.",
-      "sources": [
-        "essentia"
-      ],
-      "vibe": [
-        "focused",
-        "storytelling",
-        "premium",
-        "impactful"
-      ],
+      "sources": ["essentia"],
+      "vibe": ["focused", "storytelling", "premium", "impactful"],
       "exceptional": true,
       "implementation": {
         "notes": "Each reason is a full-viewport (h-screen) sticky section. Use Framer Motion useScroll with offset breakpoints to control which reason is visible. Total container height = N * 100vh. Opacity and translateY transitions between reasons. Keep text minimal per reason \u2014 one powerful statement + supporting paragraph."
@@ -2861,15 +1764,8 @@
       "name": "Step Process with Image Fade-Away",
       "category": "process",
       "description": "Steps 1-2-3 displayed next to a heading ('Your new skincare routine is beautifully simple'). Each step's image fades into/covers the previous one as you scroll or click. The transition IS the navigation \u2014 watching the image morph from step to step is the experience.",
-      "sources": [
-        "essentia"
-      ],
-      "vibe": [
-        "elegant",
-        "smooth",
-        "narrative",
-        "premium"
-      ],
+      "sources": ["essentia"],
+      "vibe": ["elegant", "smooth", "narrative", "premium"],
       "implementation": {
         "notes": "Split layout: text steps on left, image frame on right. Use AnimatePresence with Framer Motion to crossfade images. Steps can auto-advance on scroll (useScroll) or be clickable tabs. Each step has: step number, title, brief description. Image container with overflow: hidden and smooth opacity transitions."
       }
@@ -2879,15 +1775,8 @@
       "name": "E-commerce Product Unboxing Layout",
       "category": "product",
       "description": "Product shown inside its packaging/box with size toggles (Standard 50ml / Travel 20ml), original vs sale price, and 'Add to Bag' CTA. The unboxing presentation makes the product feel premium \u2014 you can almost feel the packaging.",
-      "sources": [
-        "essentia"
-      ],
-      "vibe": [
-        "premium",
-        "e-commerce",
-        "tactile",
-        "conversion"
-      ],
+      "sources": ["essentia"],
+      "vibe": ["premium", "e-commerce", "tactile", "conversion"],
       "implementation": {
         "notes": "Split layout: product image (inside open box) on left, product details on right. Size selector as pill-style toggle buttons. Price with strikethrough on original. Green/muted CTA button. Thumbnails for alternate views on the side. Rounded container with subtle shadow."
       }
@@ -2897,15 +1786,8 @@
       "name": "Process + Materials Split Layout",
       "category": "process",
       "description": "Left column: numbered process steps (01 Sourcing, 02 Design & Proportion, 03 Crafting, 04 Finishing & Assembly) with descriptions. Right column: materials list with botanical/hand-drawn illustrations (Birch, Pine, Oak, Ash) with descriptions. Two parallel narratives on one page.",
-      "sources": [
-        "nordiq"
-      ],
-      "vibe": [
-        "craftsmanship",
-        "detailed",
-        "educational",
-        "design-studio"
-      ],
+      "sources": ["nordiq"],
+      "vibe": ["craftsmanship", "detailed", "educational", "design-studio"],
       "implementation": {
         "notes": "CSS Grid with 2 columns on desktop (single column mobile). Left: numbered list with serif headings, body text descriptions. Right: material items with small illustration/icon + name + description. Horizontal dividers between items. Clean serif typography for headings."
       }
@@ -2915,15 +1797,8 @@
       "name": "Geographic Neighborhood Exploration Grid",
       "category": "navigation",
       "description": "Grid of neighborhood/area photos with location names and arrow icons. Clicking one fills half the screen with a detailed 'flyer' view \u2014 almost a mini-site for that area. User called the Brickell flyer 'really nice, almost sexy.' Interactive geographic discovery.",
-      "sources": [
-        "realisting"
-      ],
-      "vibe": [
-        "interactive",
-        "geographic",
-        "premium",
-        "explorable"
-      ],
+      "sources": ["realisting"],
+      "vibe": ["interactive", "geographic", "premium", "explorable"],
       "exceptional": true,
       "implementation": {
         "notes": "CSS Grid of location cards with hover effects (slight zoom, overlay). On click: AnimatePresence panel slides in from right covering 50% of viewport. Panel contains: hero image, area name, description, key stats, listing previews, 'View All' CTA. Close button returns to grid. Images should have parallax-lite on scroll (background-position shift)."
@@ -2934,15 +1809,8 @@
       "name": "Beautiful Property/Service Submission Form",
       "category": "conversion",
       "description": "Multi-field form that's so well-designed you WANT to fill it out. Each field has generous spacing, subtle animations, and the overall form feels like a product, not a chore. Fields animate in on focus. The form IS a design element.",
-      "sources": [
-        "realisting"
-      ],
-      "vibe": [
-        "conversion",
-        "beautiful",
-        "designed",
-        "premium"
-      ],
+      "sources": ["realisting"],
+      "vibe": ["conversion", "beautiful", "designed", "premium"],
       "implementation": {
         "notes": "Large input fields with subtle bottom borders (not full boxes). Labels above in muted text, animate to smaller on focus. Generous vertical spacing (space-y-8). Fields fade-up stagger on section entrance. Submit button full-width with brand color. Optional: progress indicator for multi-step forms."
       }
@@ -2952,15 +1820,8 @@
       "name": "Visual Agency/Competitor Comparison",
       "category": "conversion",
       "description": "Side-by-side comparison with a large, beautiful background image and a checklist overlay. More visual and dramatic than a simple table \u2014 the background image adds emotional weight. The image makes you FEEL the difference, not just read it.",
-      "sources": [
-        "realisting"
-      ],
-      "vibe": [
-        "persuasive",
-        "cinematic",
-        "emotional",
-        "conversion"
-      ],
+      "sources": ["realisting"],
+      "vibe": ["persuasive", "cinematic", "emotional", "conversion"],
       "implementation": {
         "notes": "Full-width section with a large background image (object-cover). Dark overlay for readability. Two columns of checklist items floating over the image. Left column: competitor (X marks, muted text). Right column: us (checkmarks, bright text, brand color). The visual context of the bg image reinforces the message."
       }
@@ -2970,15 +1831,8 @@
       "name": "Big Text Restaurant Menu Display",
       "category": "menu",
       "description": "Menu in huge, appetizing typography divided into segments (Starters, Mains, Desserts). Menu item names are the design \u2014 oversized serif or display type, minimal descriptions. Chef photo with blockquote completes the story. The menu IS the website.",
-      "sources": [
-        "bamzi"
-      ],
-      "vibe": [
-        "appetizing",
-        "bold",
-        "restaurant",
-        "typography-driven"
-      ],
+      "sources": ["bamzi"],
+      "vibe": ["appetizing", "bold", "restaurant", "typography-driven"],
       "implementation": {
         "notes": "Menu items in large display font (text-3xl to text-5xl). Price right-aligned on same line. Brief description in smaller muted text below. Category headers in uppercase with decorative rule. Two-column layout for desktop. Chef photo with blockquote in a separate card below menu."
       }
@@ -2988,15 +1842,8 @@
       "name": "Image Cards That Become Videos on Hover/Click",
       "category": "showcase",
       "description": "Cards showing static images that transition to playing videos when hovered or clicked. User said this 'really levels up a website.' The surprise of motion from a static card is delightful.",
-      "sources": [
-        "yogus"
-      ],
-      "vibe": [
-        "dynamic",
-        "modern",
-        "engaging",
-        "premium"
-      ],
+      "sources": ["yogus"],
+      "vibe": ["dynamic", "modern", "engaging", "premium"],
       "implementation": {
         "notes": "Card with relative positioning. Image visible by default. Video element below image with opacity-0. On hover: image fades out (opacity-0), video fades in (opacity-100) and starts playing. Use onMouseEnter to call video.play() and onMouseLeave to call video.pause(). Video should be muted and looping. Preload='metadata' to avoid loading all videos upfront."
       }
@@ -3006,15 +1853,8 @@
       "name": "Nature-Themed Pricing Highlight",
       "category": "pricing",
       "description": "Pricing cards where the recommended option is highlighted by a natural element \u2014 a leaf sprouting over a forest background to indicate 'most popular.' Thematic, not generic. Much more memorable than a simple 'Most Popular' badge.",
-      "sources": [
-        "foresttherapy"
-      ],
-      "vibe": [
-        "thematic",
-        "creative",
-        "nature",
-        "memorable"
-      ],
+      "sources": ["foresttherapy"],
+      "vibe": ["thematic", "creative", "nature", "memorable"],
       "implementation": {
         "notes": "3 pricing cards. Middle card (recommended) has a unique visual treatment: leaf SVG icon sprouting from the top edge, different background (forest photo with overlay, or just a richer brand color). Other cards have clean/minimal treatment. The contrast makes the recommended option irresistible. Adapt the theme to the business \u2014 a restaurant might use a fork, a contractor might use a blueprint."
       }
@@ -3024,15 +1864,8 @@
       "name": "Cards That Zoom In From Below Screen",
       "category": "entrance",
       "description": "About/feature cards start transparent and positioned below the visible viewport, then zoom into view and become opaque as user scrolls. Dramatic reveal \u2014 feels like the content is rising to meet you. User called this 'great.'",
-      "sources": [
-        "foresttherapy"
-      ],
-      "vibe": [
-        "dramatic",
-        "elegant",
-        "modern",
-        "surprising"
-      ],
+      "sources": ["foresttherapy"],
+      "vibe": ["dramatic", "elegant", "modern", "surprising"],
       "implementation": {
         "notes": "Framer Motion initial={{ opacity: 0, y: 100, scale: 0.8 }} whileInView={{ opacity: 1, y: 0, scale: 1 }} transition={{ duration: 0.8, ease: 'easeOut' }}. Apply to each card with staggered delay. viewport={{ once: true, margin: '-100px' }} to trigger before cards are fully in view."
       }
@@ -3042,15 +1875,8 @@
       "name": "Large Typography Stats with Animation",
       "category": "stats",
       "description": "Stats displayed as massive typographic elements (40+ years, 87% on-time delivery) with animated counters and elegant serif/display fonts. The numbers ARE the design \u2014 not in cards, but free-floating on the page with generous whitespace. Monumental feel.",
-      "sources": [
-        "realdev"
-      ],
-      "vibe": [
-        "monumental",
-        "impressive",
-        "typographic",
-        "premium"
-      ],
+      "sources": ["realdev"],
+      "vibe": ["monumental", "impressive", "typographic", "premium"],
       "implementation": {
         "notes": "Stats in huge display font (text-8xl to text-9xl). Animated counting via useMotionValue + animate. Each stat on its own horizontal band/row with lots of vertical spacing. Description text in smaller size next to or below the number. Serif or display font for the numbers, sans for descriptions. Optional: plus sign or percent animates in after the count completes."
       }
@@ -3060,16 +1886,8 @@
       "name": "Glassmorphism / Frosted Glass Cards",
       "category": "testimonials",
       "description": "Cards with semi-transparent backgrounds, backdrop blur, and thin borders that create a 'glassy' premium feel. Used for testimonials overlaid on video or image backgrounds \u2014 the content behind bleeds through with a frosted effect. User specifically praised Yogus's 'glassy feel and transparent boxes with testimonials.'",
-      "sources": [
-        "yogus"
-      ],
-      "vibe": [
-        "premium",
-        "modern",
-        "transparent",
-        "glassy",
-        "layered"
-      ],
+      "sources": ["yogus"],
+      "vibe": ["premium", "modern", "transparent", "glassy", "layered"],
       "implementation": {
         "css": "backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px); background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.15); border-radius: 1rem;",
         "notes": "Works best over video or image backgrounds where the blur creates visible frosting. On dark backgrounds use rgba(255,255,255,0.08). On light backgrounds use rgba(255,255,255,0.6). Add subtle border for definition. Can combine with box-shadow for depth. Ensure fallback for browsers without backdrop-filter support."
@@ -3080,15 +1898,8 @@
       "name": "Sequential Construction/Build Animation",
       "category": "showcase",
       "description": "Animation showing a property (or product) being built step-by-step \u2014 from foundation to finished building. Each scroll increment reveals the next construction phase. User called RealDev's version 'simply stunning.' Can be implemented as a sprite sequence, layered images revealed on scroll, or a controlled video scrub.",
-      "sources": [
-        "realdev"
-      ],
-      "vibe": [
-        "impressive",
-        "transformative",
-        "narrative",
-        "premium"
-      ],
+      "sources": ["realdev"],
+      "vibe": ["impressive", "transformative", "narrative", "premium"],
       "exceptional": true,
       "implementation": {
         "notes": "Option 1 (Image sequence): 20-40 images of build stages. useScroll maps scrollYProgress to frame index. Display current frame. Option 2 (Layered reveal): Stack transparent PNGs of each build phase. Each layer fades in at a scroll threshold. Option 3 (Video scrub): Video of construction, currentTime controlled by scroll position (video.currentTime = scrollProgress * video.duration). Option 3 is most impressive but requires a good source video."
@@ -3099,16 +1910,8 @@
       "name": "Decorative Geometric Shape Accents",
       "category": "decoration",
       "description": "Small geometric shapes (triangles, circles, squares, diamonds) scattered throughout the design as visual accents. They add personality and playfulness without dominating. Suntrail uses colored triangles and circles that 'stand out' as design elements. Can be static or subtly animated.",
-      "sources": [
-        "suntrail"
-      ],
-      "vibe": [
-        "playful",
-        "fun",
-        "kid-friendly",
-        "decorative",
-        "whimsical"
-      ],
+      "sources": ["suntrail"],
+      "vibe": ["playful", "fun", "kid-friendly", "decorative", "whimsical"],
       "implementation": {
         "notes": "Position decorative SVG shapes using absolute positioning. Use brand colors with reduced opacity. Scatter at section transitions and alongside headings. Optional: subtle float animation (translateY oscillation over 3-5s). Keep shapes small (16-32px). Use CSS rotation for variety. Can also be implemented as CSS pseudo-elements (::before, ::after) with clip-path for triangles."
       }
@@ -3118,15 +1921,8 @@
       "name": "Rotating/Cycling Words Display",
       "category": "hero",
       "description": "A section of text where one word cycles through alternatives \u2014 e.g., 'We create [clarity / imagination / beauty / design]' with each word rotating in on a timer or scroll. Different from 'scattered words assembling' \u2014 this is inline word replacement within a sentence. Nordiq uses rotating words in its studio tour section.",
-      "sources": [
-        "nordiq"
-      ],
-      "vibe": [
-        "dynamic",
-        "modern",
-        "engaging",
-        "typographic"
-      ],
+      "sources": ["nordiq"],
+      "vibe": ["dynamic", "modern", "engaging", "typographic"],
       "implementation": {
         "notes": "AnimatePresence with mode='wait'. Array of words cycling on a setInterval (2-3s). Each word exits upward with opacity 0, enters from below with opacity 1. Or use Framer Motion layoutId for smooth morphing. CSS overflow: hidden on the word container to clip the animation. Fixed-width container prevents layout shift."
       }
@@ -3136,15 +1932,8 @@
       "name": "Large Text Flowing Across the Screen",
       "category": "typography",
       "description": "Large display text that pans/flows horizontally across the screen, often as a decorative or branding element. Bamzi's 'Big Tex flows across the screen nicely.' The text moves continuously or on scroll, creating kinetic energy. Similar to a marquee but with much larger, bolder typography.",
-      "sources": [
-        "bamzi"
-      ],
-      "vibe": [
-        "bold",
-        "kinetic",
-        "brand-forward",
-        "dynamic"
-      ],
+      "sources": ["bamzi"],
+      "vibe": ["bold", "kinetic", "brand-forward", "dynamic"],
       "implementation": {
         "notes": "Text in text-6xl to text-9xl with font-bold. Framer Motion animate={{ x: [0, -totalWidth] }} with repeat: Infinity for continuous flow. Or useScroll + useTransform for scroll-driven movement. Multiple lines can move in opposite directions for added dynamism. Use will-change: transform and translateZ(0) for GPU acceleration."
       }
@@ -3154,16 +1943,8 @@
       "name": "Property/Product Detail Page Layout",
       "category": "page-layout",
       "description": "A full detail page layout: large hero image or video at top that hooks you in, followed by descriptive text, specs/features grid, photo gallery, and CTA. RealDev's Orient Sky Penthouse page has 'big image with all the different components' plus 'a video would play and then there's a bunch of words and details at the bottom \u2014 hooks you in at the beginning.'",
-      "sources": [
-        "realdev",
-        "realisting"
-      ],
-      "vibe": [
-        "premium",
-        "immersive",
-        "detailed",
-        "conversion"
-      ],
+      "sources": ["realdev", "realisting"],
+      "vibe": ["premium", "immersive", "detailed", "conversion"],
       "implementation": {
         "notes": "Structure: (1) Full-width hero image or video (min-h-[60vh]), (2) Title + price + key specs row, (3) Description in max-w-prose, (4) Features grid (2-3 columns), (5) Photo gallery (grid or horizontal scroll), (6) Location/map, (7) CTA section. Each section fades up on scroll. Hero video autoplays muted. On mobile, stack everything single-column."
       }
@@ -3173,15 +1954,8 @@
       "name": "Symmetrical Blog Grid with Panning Images",
       "category": "blog",
       "description": "Blog/news section with a consistent, symmetrical card grid. Each card has an image that subtly pans (shifts position) on scroll, creating life and movement across the grid. Different from the 'asymmetric blog cards' pattern \u2014 this uses uniform card sizes for a clean, organized look. RealDev uses this with 'consistent images and how they panned out.'",
-      "sources": [
-        "realdev"
-      ],
-      "vibe": [
-        "organized",
-        "consistent",
-        "dynamic",
-        "editorial"
-      ],
+      "sources": ["realdev"],
+      "vibe": ["organized", "consistent", "dynamic", "editorial"],
       "implementation": {
         "notes": "CSS Grid: grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6. Each card has overflow-hidden. Image inside with object-cover and a slight translateY transform linked to scroll (useScroll on each card, map to small translateY range like [-20, 20]). This creates subtle parallax within each card. Category tags as colored pills. Consistent card heights via aspect-ratio."
       }
@@ -3191,15 +1965,8 @@
       "name": "Studio Tour / Playable Interactive Content",
       "category": "showcase",
       "description": "A section showcasing a studio, workspace, or behind-the-scenes content with playable video or interactive elements. Nordiq features 'studio tour with playable content and rotating words' \u2014 a section that invites exploration rather than passive scrolling. Combines video, interactive elements, and text.",
-      "sources": [
-        "nordiq"
-      ],
-      "vibe": [
-        "immersive",
-        "behind-the-scenes",
-        "personal",
-        "explorable"
-      ],
+      "sources": ["nordiq"],
+      "vibe": ["immersive", "behind-the-scenes", "personal", "explorable"],
       "implementation": {
         "notes": "Split layout: video/image carousel on one side, descriptive text with rotating keywords on the other. Video plays inline (not fullscreen) with custom play button overlay. Can include a grid of behind-the-scenes photos below. Play button: absolute centered, rounded-full bg-white/80 with Play icon from lucide-react. On click: video.play() and hide button."
       }
@@ -3212,10 +1979,7 @@
       "category": "entrance",
       "description": "Elements fade in and slide up slightly when they enter the viewport. The baseline animation \u2014 every site should have this.",
       "complexity": "simple",
-      "sources": [
-        "all",
-        "heatfix"
-      ],
+      "sources": ["all", "heatfix"],
       "implementation": {
         "framer_motion": "initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}",
         "notes": "Apply to every section below the fold. Use viewport={{ once: true }} so it only triggers once."
@@ -3227,10 +1991,7 @@
       "category": "entrance",
       "description": "A group of elements (cards, list items) fade in one after another with a slight delay between each. Creates a cascading effect.",
       "complexity": "simple",
-      "sources": [
-        "all",
-        "suntrail"
-      ],
+      "sources": ["all", "suntrail"],
       "implementation": {
         "framer_motion": "Parent: variants={{ hidden: {}, visible: { transition: { staggerChildren: 0.1 } } }} initial='hidden' whileInView='visible'\nChild: variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }}"
       }
@@ -3252,12 +2013,7 @@
       "category": "motion",
       "description": "Content (testimonials, logos, images) auto-scrolls horizontally in an infinite loop. Creates continuous motion \u2014 the section feels alive even without interaction.",
       "complexity": "simple",
-      "sources": [
-        "gardener",
-        "dreelio",
-        "hexa",
-        "yogus"
-      ],
+      "sources": ["gardener", "dreelio", "hexa", "yogus"],
       "implementation": {
         "notes": "Duplicate the content array and use CSS animation: @keyframes scroll { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }. animation: scroll 30s linear infinite. Or Framer Motion animate={{ x: [0, -totalWidth/2] }} with repeat: Infinity."
       }
@@ -3287,9 +2043,7 @@
       "category": "texture",
       "description": "Subtle dot pattern as a background texture. Adds visual interest without distraction. Can be CSS radial-gradient or SVG.",
       "complexity": "simple",
-      "sources": [
-        "handyman"
-      ],
+      "sources": ["handyman"],
       "implementation": {
         "css": "background-image: radial-gradient(circle, #00000010 1px, transparent 1px); background-size: 20px 20px;"
       }
@@ -3300,9 +2054,7 @@
       "category": "texture",
       "description": "Subtle noise texture overlay on hero or full page. Creates a warm, analog, printed feel. Adds tactile quality to flat digital surfaces.",
       "complexity": "simple",
-      "sources": [
-        "virgilabloh"
-      ],
+      "sources": ["virgilabloh"],
       "implementation": {
         "css": ".grain::after { content: ''; position: fixed; inset: 0; background: url('/noise.png'); mix-blend-mode: hard-light; opacity: 0.03; pointer-events: none; z-index: 9999; }"
       }
@@ -3313,10 +2065,7 @@
       "category": "scroll-driven",
       "description": "A section pins to the viewport while internal content (cards, images, text) animates through as the user scrolls. The page appears to stop scrolling while the content changes. Incredibly immersive.",
       "complexity": "complex",
-      "sources": [
-        "agevia",
-        "mobius"
-      ],
+      "sources": ["agevia", "mobius"],
       "implementation": {
         "notes": "Outer container height: N * 100vh. Inner container: position: sticky; top: 0; height: 100vh; overflow: hidden. Use Framer Motion useScroll with container ref to track progress within the section. Map progress to which card is visible."
       }
@@ -3327,11 +2076,7 @@
       "category": "scroll-driven",
       "description": "Each content section has position: sticky and slides over the previous section as you scroll. Creates a layered, stacking effect \u2014 like shuffling through a deck of cards.",
       "complexity": "complex",
-      "sources": [
-        "arpeggio",
-        "mindify",
-        "mariven"
-      ],
+      "sources": ["arpeggio", "mindify", "mariven"],
       "implementation": {
         "notes": "Each section: position: sticky; top: 0; z-index: N (increasing). Each section needs a solid background color to cover the previous. Framer Motion can add subtle scale/rotation transforms per section."
       }
@@ -3342,9 +2087,7 @@
       "category": "scroll-driven",
       "description": "An element moves in 3D space (toward the user) as they scroll. Uses CSS perspective and translateZ. Creates a dramatic depth effect.",
       "complexity": "complex",
-      "sources": [
-        "dreelio"
-      ],
+      "sources": ["dreelio"],
       "implementation": {
         "css": "perspective: 1000px on parent",
         "framer_motion": "useScroll + useTransform to map scrollYProgress to translateZ value. Start at translateZ(-200px) rotateX(10deg) and animate to translateZ(0) rotateX(0)."
@@ -3356,9 +2099,7 @@
       "category": "scroll-driven",
       "description": "An image or mockup starts zoomed in (scale > 1) and scales down as the user scrolls, gradually revealing the full picture. Satisfying reveal effect.",
       "complexity": "complex",
-      "sources": [
-        "dreelio"
-      ],
+      "sources": ["dreelio"],
       "implementation": {
         "framer_motion": "useScroll + useTransform to map scrollYProgress to scale. From scale(1.5) to scale(1). Optional: also map to borderRadius change."
       }
@@ -3369,10 +2110,7 @@
       "category": "scroll-driven",
       "description": "Characters appear one by one as the user scrolls, like someone is typing. Creates a narrative, story-telling feel. Engaging and interactive.",
       "complexity": "complex",
-      "sources": [
-        "etery",
-        "platform"
-      ],
+      "sources": ["etery", "platform"],
       "implementation": {
         "notes": "Framer Motion useScroll to track progress. Map scrollYProgress (0-1) to character count (0-totalChars). Render text.substring(0, visibleChars). Add CSS blinking cursor: @keyframes blink { 0%,50% { opacity: 1 } 51%,100% { opacity: 0 } }"
       }
@@ -3383,9 +2121,7 @@
       "category": "scroll-driven",
       "description": "Multiple rows of text/items where odd rows scroll left and even rows scroll right (or vice versa). Creates a dynamic, kinetic feeling.",
       "complexity": "complex",
-      "sources": [
-        "agevia"
-      ],
+      "sources": ["agevia"],
       "implementation": {
         "framer_motion": "useScroll + useTransform. Odd rows: translateX maps from 0 to -100. Even rows: translateX maps from 0 to 100. Creates a spreading/diverging effect."
       }
@@ -3396,9 +2132,7 @@
       "category": "scroll-driven",
       "description": "Process steps positioned around a central circle/globe. As the user scrolls, the active step rotates around the circle. Scroll-driven rotation transform.",
       "complexity": "complex",
-      "sources": [
-        "agevia"
-      ],
+      "sources": ["agevia"],
       "implementation": {
         "notes": "Central element with position: relative. Steps positioned with transform: rotate(Ndeg) translateX(radius) rotate(-Ndeg). Framer Motion useScroll maps progress to the rotation angle."
       }
@@ -3409,9 +2143,7 @@
       "category": "scroll-driven",
       "description": "A section or element starts small and scales up to fill the entire viewport as the user scrolls to it. Dramatic, immersive ending effect.",
       "complexity": "complex",
-      "sources": [
-        "arpeggio"
-      ],
+      "sources": ["arpeggio"],
       "implementation": {
         "framer_motion": "useScroll with target ref. useTransform to map scrollYProgress to scale from 0.5 to 1.0. Also map to borderRadius from '2rem' to '0rem' for a rounded-to-fullscreen effect."
       }
@@ -3422,9 +2154,7 @@
       "category": "ambient",
       "description": "Animated dots/particles floating in 3D space behind the content. Creates depth and visual interest without distracting from the content. Can use Three.js, canvas, or pure CSS.",
       "complexity": "complex",
-      "sources": [
-        "platform"
-      ],
+      "sources": ["platform"],
       "implementation": {
         "notes": "Lightweight option: CSS dots with different animation-duration values for parallax effect. Medium: Canvas 2D with requestAnimationFrame. Heavy: Three.js with BufferGeometry points. Always check performance \u2014 particles should never make the page lag."
       }
@@ -3435,9 +2165,7 @@
       "category": "motion",
       "description": "Text or logos scrolling continuously in a marquee/ticker style. Can be single or multi-row. Infinite scroll creates rhythm and movement.",
       "complexity": "simple",
-      "sources": [
-        "hexa"
-      ],
+      "sources": ["hexa"],
       "implementation": {
         "css": "@keyframes marquee { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }\n.marquee { animation: marquee 20s linear infinite; }",
         "notes": "Duplicate content to create seamless loop. Use will-change: transform for GPU acceleration. Pause on hover with animation-play-state: paused."
@@ -3449,9 +2177,7 @@
       "category": "interaction",
       "description": "Replace the default cursor with a custom element (colored dot, branded circle). Can grow/shrink on hover. Creates a premium, designed feel.",
       "complexity": "simple",
-      "sources": [
-        "opurent"
-      ],
+      "sources": ["opurent"],
       "implementation": {
         "notes": "Div following mouse via onMouseMove \u2192 setState. Framer Motion for smooth trailing: animate={{ x: mouseX, y: mouseY }} with spring transition. Mix-blend-mode: difference for invert effect."
       }
@@ -3462,9 +2188,7 @@
       "category": "motion",
       "description": "Retro split-flap airport-style number display. Numbers flip mechanically. Creates a nostalgic, tactile feel.",
       "complexity": "complex",
-      "sources": [
-        "ferry"
-      ],
+      "sources": ["ferry"],
       "implementation": {
         "notes": "Each digit has top and bottom halves. CSS rotateX(90deg) on the flipping half. TransformOrigin: bottom for top half flip, top for bottom half flip. Sequential animation with staggered delays."
       }
@@ -3475,10 +2199,7 @@
       "category": "color-motion",
       "description": "Background color subtly shifts via gradient transitions as user scrolls between sections. Creates a fluid, connected feel where the page breathes with color rather than having hard section breaks. DRAFTR uses lavender-to-deeper-purple transitions with animated elements inside each gradient zone.",
       "complexity": "medium",
-      "sources": [
-        "draftr",
-        "dreelio"
-      ],
+      "sources": ["draftr", "dreelio"],
       "implementation": {
         "notes": "Use CSS linear-gradient backgrounds on sections with overlapping colors at boundaries. Framer Motion useScroll + useTransform to interpolate background-color based on scroll position. Or simpler: each section has a gradient bg that naturally flows into the next section's gradient start color."
       }
@@ -3489,9 +2210,7 @@
       "category": "scroll-driven",
       "description": "A 3D product render physically tracks the user's scroll position, appearing at different places on the page in different contexts. The product moves from the hero \u2192 features section \u2192 testimonials \u2192 CTA, serving as a visual thread.",
       "complexity": "complex",
-      "sources": [
-        "essentia"
-      ],
+      "sources": ["essentia"],
       "exceptional": true,
       "implementation": {
         "notes": "Product image with position: fixed. Framer Motion useScroll to get scrollYProgress for the full page. Map scrollYProgress to an array of positions (translateX, translateY, scale, rotation) using useTransform with breakpoints. Each breakpoint = a 'station' where the product rests. Use will-change: transform for performance. The product PNG needs transparent background."
@@ -3503,9 +2222,7 @@
       "category": "motion",
       "description": "Text appears character by character as if being typed, auto-playing on a timer (not tied to scroll). 'Five proven ingredients that actually work. Less bottles. Better skin.' Different from scroll-typing \u2014 this is ambient and plays when the section enters view.",
       "complexity": "medium",
-      "sources": [
-        "essentia"
-      ],
+      "sources": ["essentia"],
       "implementation": {
         "notes": "Use Framer Motion animate with a custom variant that maps to text length. On whileInView trigger, animate a counter from 0 to text.length over N seconds. Display text.substring(0, counter). Add a blinking cursor span after the last character. Pause briefly between sentences (detect periods). Can chain multiple sentences with delays."
       }
@@ -3516,10 +2233,7 @@
       "category": "entrance",
       "description": "Multiple images on a page animate in from opposite sides simultaneously \u2014 some from left, some from right. Creates a dynamic, converging energy. The collision of opposing motions is visually exciting.",
       "complexity": "medium",
-      "sources": [
-        "linea",
-        "mariven"
-      ],
+      "sources": ["linea", "mariven"],
       "implementation": {
         "notes": "Alternate images between initial={{ x: -100, opacity: 0 }} and initial={{ x: 100, opacity: 0 }}. Odd items from left, even from right (or vice versa). whileInView={{ x: 0, opacity: 1 }}. Stagger with 0.1-0.2s delay. Creates a satisfying convergence when multiple images slide in simultaneously."
       }
@@ -3530,9 +2244,7 @@
       "category": "scroll-driven",
       "description": "As user scrolls, story sentences appear one by one while images 'wave' in and out from the sides at different parallax rates. The about section becomes a cinematic narrative experience. User called RealDev's version 'simply amazing.'",
       "complexity": "complex",
-      "sources": [
-        "realdev"
-      ],
+      "sources": ["realdev"],
       "exceptional": true,
       "implementation": {
         "notes": "Container with height: 300-500vh for scroll distance. position: sticky inner content. useScroll to track progress. Sentences mapped to scroll ranges (0-0.2 = sentence 1, 0.2-0.4 = sentence 2, etc.). Images with different useTransform rates for parallax \u2014 some enter from left, some from right, at different speeds. Opacity tied to scroll position. Each sentence fades in as previous fades. The key is the IMAGES having personality \u2014 they wave, rotate slightly, scale."
@@ -3544,9 +2256,7 @@
       "category": "scroll-driven",
       "description": "A product (furniture, car, artifact) appears to rotate as user scrolls, showing it from multiple angles. Can use a sprite sheet of pre-rendered angles or CSS 3D transforms on a single image.",
       "complexity": "complex",
-      "sources": [
-        "nordiq"
-      ],
+      "sources": ["nordiq"],
       "implementation": {
         "notes": "Option 1 (sprite sheet): Sequence of 24-36 images at different angles. useScroll maps to frame index. Display the correct frame image. Option 2 (3D CSS): perspective + rotateY transform linked to scroll. Option 3 (Three.js): Load GLTF model, rotate on scroll. For most SMB sites, Option 1 with high-quality product photos is the best balance of quality vs. complexity."
       }
@@ -3557,9 +2267,7 @@
       "category": "motion",
       "description": "Individual words ('clarity', 'imagination', 'beauty', 'design') scattered across the viewport at random positions and sizes, then assembling into a coherent sentence or layout as user scrolls or after a time delay.",
       "complexity": "medium",
-      "sources": [
-        "mobius"
-      ],
+      "sources": ["mobius"],
       "implementation": {
         "notes": "Each word as a Framer Motion element with initial position scattered (random x, y coordinates across viewport). On scroll or timer trigger, animate all words to their final positions (forming a sentence or grid). Use spring transitions for organic movement. The words should feel like they're 'finding their place.' Font size can also change during animation."
       }
@@ -3570,9 +2278,7 @@
       "category": "scroll-driven",
       "description": "A video plays while text elements move in coordination \u2014 words flow alongside the video content. Mobius uses this to create a unified narrative where video and typography are one system, not separate elements.",
       "complexity": "complex",
-      "sources": [
-        "mobius"
-      ],
+      "sources": ["mobius"],
       "implementation": {
         "notes": "Video element with currentTime controlled by scroll position (useScroll \u2192 video.currentTime = progress * duration). Text elements positioned absolutely and animated with the same scroll progress. Key: both video and text share the same timing source (scroll position), creating perfect sync. Requires careful choreography \u2014 map out what text appears at what video timestamp."
       }
@@ -3590,95 +2296,49 @@
         "pilatestemplate",
         "mindify"
       ],
-      "vibe": [
-        "clean",
-        "effective",
-        "simple"
-      ]
+      "vibe": ["clean", "effective", "simple"]
     },
     {
       "id": "full-nav-dark",
       "name": "Full Navigation on Dark Background",
       "description": "6-8 navigation links on a dark background. White text. CTA button in accent color. Works with dark-themed sites.",
-      "sources": [
-        "agevia",
-        "etery",
-        "ehunter",
-        "opurent"
-      ],
-      "vibe": [
-        "premium",
-        "comprehensive",
-        "dark"
-      ]
+      "sources": ["agevia", "etery", "ehunter", "opurent"],
+      "vibe": ["premium", "comprehensive", "dark"]
     },
     {
       "id": "contained-nav-in-hero",
       "name": "Navigation Inside Contained Hero Card",
       "description": "Nav sits inside the hero's bounded card/container rather than spanning full width. Creates a cohesive, designed unit.",
-      "sources": [
-        "stratex"
-      ],
-      "vibe": [
-        "polished",
-        "contained",
-        "designed"
-      ]
+      "sources": ["stratex"],
+      "vibe": ["polished", "contained", "designed"]
     },
     {
       "id": "overlay-hamburger-fullscreen",
       "name": "Full-Screen Overlay Menu",
       "description": "Hamburger icon that opens a full-screen overlay menu. Large text links. Dark or branded background. Dramatic and immersive.",
-      "sources": [
-        "jorge"
-      ],
-      "vibe": [
-        "dramatic",
-        "immersive",
-        "premium"
-      ]
+      "sources": ["jorge"],
+      "vibe": ["dramatic", "immersive", "premium"]
     },
     {
       "id": "nav-with-live-clock",
       "name": "Navigation with Live Time/Location",
       "description": "Nav includes a live clock or location indicator (e.g., 'London 4:33PM'). Adds a personal, real-time touch. Small detail, big personality.",
-      "sources": [
-        "ehunter"
-      ],
-      "vibe": [
-        "personal",
-        "detailed",
-        "premium"
-      ]
+      "sources": ["ehunter"],
+      "vibe": ["personal", "detailed", "premium"]
     },
     {
       "id": "nav-with-marquee-banner",
       "name": "Navigation with Scrolling Announcement Banner",
       "description": "Top marquee banner scrolling promotions/announcements above the main nav. 'Breathe Easy \u2014 Duct Cleaning 25% Off This Month' type messages auto-scrolling. Dual-purpose: navigation + promotion. Creates urgency.",
-      "sources": [
-        "heatfix"
-      ],
-      "vibe": [
-        "promotional",
-        "urgent",
-        "informative",
-        "dynamic"
-      ]
+      "sources": ["heatfix"],
+      "vibe": ["promotional", "urgent", "informative", "dynamic"]
     },
     {
       "id": "nav-centered-logo-split",
       "name": "Centered Logo with Split Navigation",
       "description": "Logo centered in the navigation bar with links split evenly on both sides. Feels balanced and premium \u2014 symmetry creates elegance. Works especially well when the brand name/logo is a strong visual element.",
-      "sources": [
-        "yachtera",
-        "nordiq"
-      ],
-      "vibe": [
-        "balanced",
-        "premium",
-        "symmetrical",
-        "elegant"
-      ]
+      "sources": ["yachtera", "nordiq"],
+      "vibe": ["balanced", "premium", "symmetrical", "elegant"]
     }
   ],
   "interactions": [
@@ -3686,9 +2346,7 @@
       "id": "mix-blend-hover",
       "name": "Mix Blend Mode on Hover",
       "description": "Images or cards use mix-blend-mode on hover to create color-shifting effects. Difference, multiply, or overlay modes create unexpected visual combinations.",
-      "sources": [
-        "virgilabloh"
-      ],
+      "sources": ["virgilabloh"],
       "implementation": {
         "css": "hover:mix-blend-mode-difference transition-all duration-300"
       }
@@ -3731,9 +2389,7 @@
       "id": "view-preview-click-through",
       "name": "Click-Through Preview Icons on Products",
       "description": "Small 'view preview' icons on product/portfolio cards that let you click through different views/angles without leaving the page. Inline product exploration \u2014 hover reveals a play/eye icon, clicking cycles through images or opens a lightbox.",
-      "sources": [
-        "nordiq"
-      ],
+      "sources": ["nordiq"],
       "implementation": {
         "notes": "Overlay icon (Eye or Play from lucide-react) positioned absolute on card, opacity-0 by default, opacity-100 on hover. On click: cycle through array of images within the same card frame, or open a modal/lightbox. Image transition via AnimatePresence with crossfade."
       }
@@ -3742,9 +2398,7 @@
       "id": "explore-half-screen-detail",
       "name": "Click-to-Expand Half-Screen Detail View",
       "description": "Clicking a grid item (neighborhood, property, service) expands it to fill half the screen with a detailed 'flyer' view. No page navigation needed \u2014 the detail panel slides in from the right. User called the Brickell detail view 'almost sexy.'",
-      "sources": [
-        "realisting"
-      ],
+      "sources": ["realisting"],
       "implementation": {
         "notes": "Grid of items. On click: AnimatePresence panel slides in from right (initial={{ x: '100%' }} animate={{ x: 0 }}) covering 50% of viewport width. Panel contains: hero image, title, description, stats, sub-items, CTA. Clicking outside or X button dismisses. On mobile: panel takes full width. The panel should feel like a self-contained mini-page."
       }
@@ -3755,9 +2409,7 @@
       "id": "editorial-asymmetric-grid",
       "name": "Editorial Asymmetric Grid",
       "description": "Content arranged in an asymmetric CSS Grid \u2014 different block sizes, intentional whitespace, magazine-like layout. Not everything has to be the same size.",
-      "sources": [
-        "virgilabloh"
-      ],
+      "sources": ["virgilabloh"],
       "implementation": {
         "notes": "CSS Grid with grid-template-columns: repeat(12, 1fr). Span different numbers of columns per element. Let some cells be empty for whitespace."
       }
@@ -3766,24 +2418,14 @@
       "id": "swiss-grid",
       "name": "Swiss/International Grid System",
       "description": "Strict modular grid with consistent gutters. Everything aligns. Typography follows a mathematical scale. Clean, precise, systematic.",
-      "sources": [
-        "stelvio"
-      ],
-      "vibe": [
-        "precise",
-        "systematic",
-        "clean"
-      ]
+      "sources": ["stelvio"],
+      "vibe": ["precise", "systematic", "clean"]
     },
     {
       "id": "full-bleed-sections",
       "name": "Alternating Full-Bleed and Constrained Sections",
       "description": "Some sections span the full viewport width (full-bleed images, colored backgrounds), while others are constrained to a max-width container. Creates visual rhythm and variety.",
-      "sources": [
-        "arpeggio",
-        "opurent",
-        "neative"
-      ],
+      "sources": ["arpeggio", "opurent", "neative"],
       "implementation": {
         "notes": "Full-bleed: w-full. Constrained: max-w-7xl mx-auto px-4. Alternate between them to create rhythm."
       }
@@ -3792,9 +2434,7 @@
       "id": "single-column-editorial",
       "name": "Single Column Editorial Reading",
       "description": "Content in a narrow single column, centered. Like reading a magazine article or blog post. Maximum readability.",
-      "sources": [
-        "energyandhumanity"
-      ],
+      "sources": ["energyandhumanity"],
       "implementation": {
         "css": "max-w-prose mx-auto",
         "notes": "max-w-prose sets ~65 characters per line \u2014 optimal for readability."
@@ -3804,11 +2444,7 @@
       "id": "split-hero-layout",
       "name": "Split Hero: Text Left, Image Right",
       "description": "Hero section split roughly 60/40 or 50/50 \u2014 text content on the left, image or visual on the right. Clean and conversion-friendly.",
-      "sources": [
-        "plumbing",
-        "stratex",
-        "dreelio"
-      ],
+      "sources": ["plumbing", "stratex", "dreelio"],
       "implementation": {
         "css": "grid grid-cols-1 lg:grid-cols-2 gap-8 items-center"
       }

@@ -1,0 +1,146 @@
+{
+  "name": "F.E.A.S.T. Private Chef/Catering/Event Dining Service",
+  "slug": "feast-private-chefcateringevent-dining-service",
+  "category": "personal chef",
+  "address": "7203 N 20th St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19138",
+  "phone": "(215) 681-5517",
+  "email": "",
+  "website": "http://www.taste-feast.com/",
+  "rating": 4.4,
+  "reviewCount": 13,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "7:00 AM – 11:00 PM",
+    "Tuesday": "7:00 AM – 11:00 PM",
+    "Wednesday": "7:00 AM – 11:00 PM",
+    "Thursday": "7:00 AM – 11:00 PM",
+    "Friday": "7:00 AM – 11:00 PM",
+    "Saturday": "7:00 AM – 11:00 PM",
+    "Sunday": "7:00 – 11:00 AM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "My husband and I hired Chef Jay in January to provide a private dinner in our home for 9 couples.  We wanted to provide our guests with a restaurant-style experience and we could not have been more thrilled by what Chef Jay put together for us.  From the first phone calls discussing the menu options and planning the event, all the way to the clean-up at the end of the night, he was one of the most pleasant, professional and thoughtful people I've ever worked with.  We chose to go with his Spanish-style tapas menu, served family style, 7 different courses.  Every single course was truly delicious.  Everything was great, but the lamb meatballs, bacon wrapped dates, steak, and garlic prawns were exceptional.  Absolutely restaurant quality food.  The crew of guests that we had for dinner are folks who are accustomed to fine dining and people were blown away.  Folks kept migrating to the kitchen while he was preparing the meal and I was worried he would get distracted, but he patiently fielded all their questions and the wait staff that he brought along to help were equally pleasant and professional to deal with.  The ladies helped me with my last minute rush of setting up for the party and did a beautiful job clearing and serving throughout the dinner.  I cannot recommend Jay highly enough for your next event.  Our party was over a month ago and folks are still talking about what a wonderful night it was - that is entirely thanks to him.  We would hire Chef Jay again in a heart beat.",
+      "author": "Joellen Meckley",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-02-23"
+    },
+    {
+      "text": "Chef Jay prepared an amazing 5 course meal for my boyfriends intimate birthday dinner! His pricing was reasonable and communicating with him was very easy. Chef jay just cooked and did his thing in the background and allowed me and my boyfriend to just be ourselves and have that quality/personal time with each other over a delicious meal! I would definitely book with him again in the future! Thanks chef jay for the great food and hospitality!",
+      "author": "Dominique Blackwell",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-12-19"
+    },
+    {
+      "text": "Chef Jay was so professional, efficient, and responsive. I reached out to him after finding him on the internet. I was looking for someone to surprise my brother and his fiance as an engagement gift and he did not dissappoint. The food was excellent, the setup awesome and he provided a great personal chef experience. I highly recommend him for your next event.",
+      "author": "Nina Harrison",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-02-07"
+    },
+    {
+      "text": "Chef Jay did an amazing job for a Sunday brunch during a small intimate bachelorette weekend in the Poconos! Leading up to that weekend, he was responsive and professional. The menu that he created was creative, delicious, and exceeded all guests expectations. I would most definitely utilize Chef Jay’s services again for future events/gatherings that I have.",
+      "author": "Elaine Pham",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-01-19"
+    },
+    {
+      "text": "I was very happy with Chef Jay and the services he provided.  We were having a funeral luncheon, and it's very hard to know how many people to expect.  He discussed options that would allow me to have plenty of food and still stay within a reasonable budget. He checked in a couple days before and confirmed everything was ready. On the day of the event he arrived at the expected time.  He and his helper set everything up, and were ready when the food was served.  They did a terrific job with cleanup as well.",
+      "author": "Garland Melinda",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-01-15"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "F.E.A.S.T. Private Chef/Catering/Event Dining Service photo 1",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Roasted vegetables and dip container arranged on a serving platter",
+      "category": "food"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Multiple sandwiches with salmon, greens, and toothpicks displayed on a tray",
+      "category": "food"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Seared salmon fillet with crispy spiced crust on fresh vegetable salad bed",
+      "category": "food"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Plated dish with sliced steak, asparagus, and white beans on white plate",
+      "category": "food"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Braised meat dish with vegetables in rich brown sauce on white plate",
+      "category": "food"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Gourmet plated dish with herb-crusted patty and fresh vegetable slaw garnish",
+      "category": "food"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "F.E.A.S.T. Private Chef/Catering/Event Dining Service photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "FEAST catering logo with fork, knife, plate design and tagline",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "F.E.A.S.T. Private Chef/Catering/Event Dining Service photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 13,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.4,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

@@ -217,9 +217,7 @@
       "Fast, efficient service without sacrificing quality — a client was fully served in under 20 minutes, making this ideal for busy schedules",
       "Strong first-impression conversion — multiple first-time visitors explicitly stated they would return, indicating consistent onboarding and client experience"
     ],
-    "common_complaints": [
-      "None found in available reviews"
-    ],
+    "common_complaints": ["None found in available reviews"],
     "suggested_tagline": "Where Immaculate Is the Standard.",
     "photo_quality": "fair",
     "personality_keywords": [
@@ -229,8 +227,6 @@
       "detail-oriented",
       "communicative"
     ],
-    "named_staff": [
-      "Win"
-    ]
+    "named_staff": ["Win"]
   }
 }

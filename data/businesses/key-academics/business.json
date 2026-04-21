@@ -1,0 +1,126 @@
+{
+  "name": "Key Academics",
+  "slug": "key-academics",
+  "category": "tutor",
+  "address": "600 W Germantown Pike #400",
+  "city": "Plymouth Meeting",
+  "state": "PA",
+  "zip": "19462",
+  "phone": "(610) 940-1625",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 5,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "8:30 AM – 5:30 PM",
+    "Tuesday": "8:30 AM – 5:30 PM",
+    "Wednesday": "8:30 AM – 5:30 PM",
+    "Thursday": "8:30 AM – 5:30 PM",
+    "Friday": "8:30 AM – 5:30 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I would highly recommend Key Academics for SAT/ACT tutoring.  My daughter was a somewhat reluctant student, but the organization and pacing of the program along with the quality and caring of the instructors got her through the process.  Her scores improved and she was accepted to her top choice college!",
+      "author": "Caren Levin",
+      "rating": 5,
+      "source": "google",
+      "date": "2016-01-06"
+    },
+    {
+      "text": "I had a stellar experience using Key Academics for Chinese lessons.  I will be going to China for 2 weeks and wanted to learn basic conversational skills.  This wasn't going to be easy on my own, as my good study habits were quickly forgotten after graduating college in 2013.\n\nHoward, my tutor, prepared custom lesson plans geared towards life as a tourist and made things really easy!  I learned a lot and am far more prepared to visit China after using Key Academics!\n\nI would highly recommended using Key Academics for second language tutoring at any age.",
+      "author": "Spencer luboff",
+      "rating": 5,
+      "source": "google",
+      "date": "2017-06-28"
+    },
+    {
+      "text": "I highly recommend Key Academics, their tutor Jack is very skilled and flexible. He tutored my daughter for 7 months, she was in the Philadelphia School District which had her grades behind. After tutoring with Jack she is exactly where she need to be and she enjoyed every bit of tutoring. Any one that needs any kind of help whether you are an adult or child will find what you need here. Two thumbs up...",
+      "author": "Kahyan Harris",
+      "rating": 5,
+      "source": "google",
+      "date": "2016-01-20"
+    },
+    {
+      "text": "The tutors at Key Academics were instrumental in my score improvements. Key Academics tutoring is affordable! I would recommend this company to anyone because they are very flexible with whatever the student's needs are.",
+      "author": "Laurel Yaros",
+      "rating": 5,
+      "source": "google",
+      "date": "2014-05-04"
+    },
+    {
+      "text": "I was recommended this tutoring company from a friend and I'm very glad I used it! My SAT scores increased in all areas because of the practice I received. The tutors where very friendly and flexible to my needs!",
+      "author": "Roni Fellah",
+      "rating": 5,
+      "source": "google",
+      "date": "2015-05-05"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Two women reviewing documents together at a desk during a business meeting.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Teacher or tutor helping young student with schoolwork at wooden desk indoors",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Four professionals collaborating at a table in an office workspace",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Key Academics photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Key Academics photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Man and woman reviewing documents together in bright office interior space",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 5,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

@@ -123,9 +123,7 @@
       "name": "Saturday Frank",
       "role": "Mechanic",
       "bio": "Affectionately nicknamed by regulars, Saturday Frank is part of the tight-knit team Garrett Gallagher has relied on and referred friends to for years.",
-      "credentials": [
-        "Recognized by name by long-term loyal customers"
-      ]
+      "credentials": ["Recognized by name by long-term loyal customers"]
     }
   ],
   "photos": [
@@ -233,11 +231,6 @@
       "neighborhood-rooted",
       "consistent"
     ],
-    "named_staff": [
-      "Frank",
-      "Butch",
-      "Anthony",
-      "Saturday Frank"
-    ]
+    "named_staff": ["Frank", "Butch", "Anthony", "Saturday Frank"]
   }
 }

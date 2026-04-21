@@ -1,0 +1,146 @@
+{
+  "name": "Jo Jo's Pro Auto Detailing",
+  "slug": "jo-jos-pro-auto-detailing",
+  "category": "auto detailing",
+  "address": "1913 S Bancroft St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19145",
+  "phone": "(215) 755-2722",
+  "email": "",
+  "website": null,
+  "rating": 4.8,
+  "reviewCount": 145,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM – 6:00 PM",
+    "Tuesday": "9:00 AM – 6:00 PM",
+    "Wednesday": "9:00 AM – 6:00 PM",
+    "Thursday": "9:00 AM – 6:00 PM",
+    "Friday": "9:00 AM – 6:00 PM",
+    "Saturday": "9:00 AM – 5:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Brought my BMW in with a nasty scuff, and these guys really came through. They took the time to look it over, explained what they’d do, and honestly went above what I expected. The car looks perfect now, like you’d never know there was damage. Super fair pricing (much less than I thought!), quick turnaround, and just genuinely good people who care about their work. I’ll definitely be back next time I need detailing.",
+      "author": "Jose Martinez",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-05"
+    },
+    {
+      "text": "Jo-Jos is the best in the business! I’ve been coming here for years and everytime I pick up my car I’m blown away! Precise detail on everything they do. Family run business with amazing employees.",
+      "author": "Jon Michael Panucci",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-14"
+    },
+    {
+      "text": "Incredible place, can’t recommend it enough. Their entire staff are among the friendliest I’ve ever met. You’d think that might be compensating for doing a less than stellar job on the detailing itself but that couldn’t be further from the truth. Took my 10+ year old Honda Civic today that was filthy and it legitimately looks brand new inside. Give Jo Jo’s your business! You won’t be disappointed",
+      "author": "Tyler Smith",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-13"
+    },
+    {
+      "text": "Took my older Audi Q5 in for a much-needed cleaning (my awesome terrier, Rocky, sheds a lot!) and I was beyond pleased when I picked up. My car was spotless and shined like it just came off the showroom floor. This is the best detailing service I’ve ever experienced and worth every penny. No detail was overlooked. Also felt great to support a family-owned business. If your vehicle needs some TLC, drive as fast as you can to Jo Jo’s!  Recommended without hesitation! Thank you Jo Jo’s!!",
+      "author": "Nick Bewsey",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-18"
+    },
+    {
+      "text": "Jo Jo's is the place to be for detailing your car. I went there to detail my Tesla Model Y that I haven't detailed since I got the car. I got the car back at the end of the day and WOW the car was spotless. They even buffed out the scuff on my fender that I got from the sidewalk. Now it looks new!\nThis is a family owned business and I will always support them for my car detailing!",
+      "author": "David LI",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-08"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Jo Jo's Pro Auto Detailing photo 1",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Black luxury Porsche SUV parked in underground parking garage structure.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Gray Lexus luxury SUV parked on street with open door displayed",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Black Audi convertible with retractable hardtop roof displayed in parking lot",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "White Mini Cooper parked in showroom with other vehicles visible in background",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Black Mercedes-Benz G-Class SUV parked on urban street in front of auto shop",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Black Ford F150 pickup truck parked on urban street near brick buildings",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "White auto detailing shop storefront with garage doors and black SUV parked outside",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Mini Cooper car interior showing steering wheel, dashboard, and gray fabric seats",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Black convertible sports car with red racing stripes parked in front of garage",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 145,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.8,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

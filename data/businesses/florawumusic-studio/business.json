@@ -1,0 +1,111 @@
+{
+  "name": "FloraWuMusic Studio",
+  "slug": "florawumusic-studio",
+  "category": "piano teacher",
+  "address": "4511 Larchwood Ave",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19143",
+  "phone": "(267) 456-5226",
+  "email": "florawumusicco@florawumusic.com",
+  "website": "http://florawumusic.com/",
+  "rating": 5,
+  "reviewCount": 4,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "10:00 AM – 9:00 PM",
+    "Tuesday": "10:00 AM – 9:00 PM",
+    "Wednesday": "Closed",
+    "Thursday": "10:00 AM – 9:00 PM",
+    "Friday": "10:00 AM – 9:00 PM",
+    "Saturday": "10:00 AM – 9:00 PM",
+    "Sunday": "10:00 AM – 9:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Mrs. Flora Wu is a very great teacher. I observed how she teaches students and had a conversation with one of her students. She is full of patient and enthusiasm when she teaches students. Most her students had very good performance in the piano contest. Mrs. Flora cooperates with parents closely to keep the kids on the right track and get improved. I decided to enroll my son to Mrs. Flora's class when my son is ready.",
+      "author": "Annie Peng",
+      "rating": 5,
+      "source": "google",
+      "date": "2018-10-24"
+    },
+    {
+      "text": "I really love Mrs.Flora's classes. She is truly the best piano teacher around.",
+      "author": "Evan Wu",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-10"
+    },
+    {
+      "text": "Ms. Flora Ye has been an exceptional piano teacher for my daughters, and we feel very fortunate to have found her. My older one learned with Ms. Ye for 12 years. She brings not only a high level of musical expertise, but also a thoughtful and inspiring approach to teaching that truly resonates with students.\nWhat stands out most is Ms. Ye’s ability to balance technical rigor with genuine encouragement. She sets high standards while creating a supportive environment where my daughter feels motivated to learn. Her lessons are structured yet engaging, and she has a remarkable talent for tailoring her teaching style to the individual needs and personality of each student.\nMs. Ye genuinely cares about her students for their growth and development. Her friendship, encouragement, and inspiration will always be with my daughters.",
+      "author": "Luo Wenqin",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-04-02"
+    },
+    {
+      "text": "",
+      "author": "Patrick Li",
+      "rating": 5,
+      "source": "google",
+      "date": "2018-10-15"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Woman in red dress teaching young child piano lesson at grand piano",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Flora Wu Music Studio logo with English and Chinese text on tan background",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Close-up of a full 88-key piano keyboard with black and white keys",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Navigation menu with Home, About, Awards, and Contacts buttons in colorful watercolor style",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 4,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#cc0000",
+    "accent": "#990000",
+    "note": "Extracted from business website"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "poor"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "<!-- google_ad_client = \"pub-5245056948837433\"; /* 160x600, created 4/23/10 */ google_ad_slot = \"8182662678\"; google_ad_width = 160; google_ad_height = 600; //--> Our Mission About Awards Students' story Piano and Music Events Contact info Photos FAQs Chinese 叶老师谈学钢琴 VIDEOS Welcome to Flora Wu Music Studio! -\"let Music be your lifetime friend\" Our Mission Flora Wu Music Studio, Inc., is headquartered and operated in the greater Philadelphia area. It is where piano and you will be great friends. Private piano lessons are offered to Children (ages 3 and up) and Adults. We welcome students of all levels. At the end of each school year, we organize Students Recitals to celebrate every student's accomplishments. Kindly contact us to schedule your Interview & Enrollment appointment. The mission of the Flora Wu Music is to provide the high quality of piano instruction for preschool, school age children, adults and seniors. Our scheduling is flexible and we believe that music lessons should be affordable for everyone. News : Congratulation! Andrew Li , Nuojin Han, Yi-An Lu recently won the first prize and second prize of the Crescendo International Piano Competition in December 2021. Jia-ming Gong and Sofia Lathrop-Olmedo won the preliminary round of the 16th Dr. Kiszely Piano Competition and were invited to perform at the winners' concert in 2022. Eleanor Hao, Yi-le Lu won the Grand Prize of the Rising Talent Festival in February 2022; Owen Kuster, Evan Wu won the second prize at the Golden Key International Piano Competition in March 2022; Nuojin Han, Vivienne Song, Annabelle Kuster, Sebastian Dong, Olivia Wangensteen won the first prize and second prize of the Little Mozart International Piano Competition in 2022; Nuojin Han, Caroline Dong, Olivia Wangensteen, Grace Lu, Vivienne Song, Bowen Song, Kai Zheng all received the highest honor certificate for the spring festival which was held in April 2022. <!-- google_ad_client = \"pub-5245056948837433\"; /* 300x250, created 4/23/10 */ google_ad_slot = \"9356181551\"; google_ad_width = 169; google_ad_height = 140; //--> About | Contacts | Links | Home Powered by Flora Wu Music LLC. Copyright © 2008-2011 Florawumusic.com LLC.All rights reserved var gaJsHost = ((\"https:\" == document.location.protocol) ? \"https://ssl.\" : \"http://www.\"); document.write(unescape(\"%3Cscript src='\" + gaJsHost + \"google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E\")); try { var pageTracker = _gat._getTracker(\"UA-15846452-1\"); pageTracker._trackPageview(); } catch(err) {}"
+}

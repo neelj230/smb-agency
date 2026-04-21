@@ -1,0 +1,146 @@
+{
+  "name": "BARBER-Q (Downtown)",
+  "slug": "barber-q-downtown",
+  "category": "barber",
+  "address": "635 SW Morrison St",
+  "city": "Portland",
+  "state": "OR",
+  "zip": "97205",
+  "phone": "(503) 223-8002",
+  "email": "",
+  "website": "https://barberqdowntown.com/",
+  "rating": 4.8,
+  "reviewCount": 162,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:30 AM – 6:30 PM",
+    "Tuesday": "9:30 AM – 6:30 PM",
+    "Wednesday": "9:30 AM – 6:30 PM",
+    "Thursday": "9:30 AM – 6:30 PM",
+    "Friday": "9:30 AM – 6:30 PM",
+    "Saturday": "9:30 AM – 5:30 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Was in town for work and it was only a couple blocks from my hotel. Figured I'd swing by and get cleaned up. Ended up being the best haircut I've gotten in a while. I forget the guys name, but he took his time and did a great job",
+      "author": "Devin McRae",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-14"
+    },
+    {
+      "text": "While their prices were higher than what I'm accustomed to in small town USA, I got a very nice haircut.  I liked that they gave appointments so I did not have to spend time waiting.",
+      "author": "Jeff Phillips",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-06-27"
+    },
+    {
+      "text": "If this review was just about the quality of haircuts at Barber-Q, I'd give it 5 stars. But I have to take one star off after some recent changes.\n\nThere's no doubt that Xuan does a fantastic job with haircuts and beard trims. Ever since I discovered Barber-Q a few years ago, I've been seeing him consistently and exclusively. He's the kind of barber who actually remembers your hair and style preferences after a couple of visits.\n\nThe Nw21 location is closing soon and this is awful news for those of us who frequent this cute spot. The rates at the downtown location are more expensive. I wanted to book an appointment for a tapered cut+beard trim+hair wash. This was going to cost me $55+$30+$10=$95 before a tip. Much as I enjoy getting a haircut at BQ, I can't justify spending ~$100/visit. Plus there's the hassle of downtown parking, whereas the NW21 was much easier to visit.\n\nSome people may not find the rates to be unreasonable for a good haircut. But you can definitely get a good quality haircut in Portland for less.\n\nI am glad Xuan enjoys a loyal clientele but unfortunately, BQ has gotten too expensive for me. 😕",
+      "author": "Vikram Srinivasan",
+      "rating": 4,
+      "source": "google",
+      "date": "2025-08-28"
+    },
+    {
+      "text": "If you just want a sick fade to like an inch or two on top, they're fine, but I wouldn't go if you have longer or thick and wavy hair. I had to fix the two trims I got from this place.",
+      "author": "Chris Mank",
+      "rating": 3,
+      "source": "google",
+      "date": "2026-01-17"
+    },
+    {
+      "text": "I got my hair cut from Xuan and I put in my notes before going that my hair is curly. Unfortunately I don’t think they know how to cut curly hair and it was done too short and the cutting method left my curls damaged and what looks like split ends. I’m pretty disappointed since I paid and tipped well and the reviews were good. I went in there with nice curly hair and just needed it trimmed down but not cut so harshly and so short. If you have curly hair I wouldn’t recommend. :(",
+      "author": "Isa Martinez Moore",
+      "rating": 2,
+      "source": "google",
+      "date": "2025-08-31"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Modern hair salon interior with multiple styling stations, mirrors, and professional lighting",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Modern barbershop interior with neon sign, reception desk, and barber stations",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Barber-Q barbershop storefront with yellow signage and traditional barber pole",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Street view of barbershop storefront with red vehicle and trees on urban sidewalk",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Modern barbershop interior with black and white checkered floor, styling chairs, and reception desk.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Back view of person with short haircut in modern salon with mirror and lighting",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Barber-Q Haircuts sidewalk sign displaying prices and business hours on brick",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Barber shop interior with beverage cooler and pricing menu board on wall",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Street-level storefront of Pacific Building and The Collective shops with signage and entrance doors.",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Professional haircut showing fade style with floral neck tattoo design",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 162,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.8,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

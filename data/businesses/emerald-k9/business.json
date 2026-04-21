@@ -222,11 +222,7 @@
       "trust-building",
       "passionate"
     ],
-    "named_staff": [
-      "Kaley"
-    ]
+    "named_staff": ["Kaley"]
   },
-  "dataSources": [
-    "google"
-  ]
+  "dataSources": ["google"]
 }

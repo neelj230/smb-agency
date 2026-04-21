@@ -230,11 +230,7 @@
       "boutique",
       "trustworthy"
     ],
-    "named_staff": [
-      "Linda"
-    ]
+    "named_staff": ["Linda"]
   },
-  "dataSources": [
-    "google"
-  ]
+  "dataSources": ["google"]
 }

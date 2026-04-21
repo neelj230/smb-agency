@@ -1,0 +1,101 @@
+{
+  "name": "MaidPro Lafayette Hill",
+  "slug": "maidpro-lafayette-hill",
+  "category": "house cleaner",
+  "address": "450 Germantown Pike # 1",
+  "city": "Lafayette Hill",
+  "state": "PA",
+  "zip": "19444",
+  "phone": "(267) 647-9315",
+  "email": "",
+  "website": "https://www.maidpro.com/lafayette-hill?utm_source=gmb&utm_medium=organic",
+  "rating": 4.9,
+  "reviewCount": 55,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "8:00 AM – 6:00 PM",
+    "Tuesday": "8:00 AM – 6:00 PM",
+    "Wednesday": "8:00 AM – 6:00 PM",
+    "Thursday": "8:00 AM – 6:00 PM",
+    "Friday": "8:00 AM – 6:00 PM",
+    "Saturday": "9:00 AM – 6:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "We hired MaidPro to do a cleaning of our home before a holiday party. Iyona and Shyann came out and got right to work. They did a great job on the bathrooms and kitchen. We really appreciated the help!",
+      "author": "Tamara Young",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-17"
+    },
+    {
+      "text": "Kimberly at MaidPro is great! Very thorough and follows up to ask if everything looks great- and it always does! Would definitely recommend her for house cleaning services. She also loves dogs!",
+      "author": "Robert Emerson",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-03"
+    },
+    {
+      "text": "We have used MaidPro for a couple years and always have a good experience. Every cleaner we have had is professional and provides a great clean. For most of this year we have had Latay who is always great! We previously had ShyAnn who was also great.",
+      "author": "Rachael Mierzwa",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-27"
+    },
+    {
+      "text": "MaidPro consistently provides great service. Isabella just did a cleaning of our home and you can tell she treated it as though it was her own!",
+      "author": "Laura Kreiser",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-22"
+    },
+    {
+      "text": "Isabella from the ambler location did such a great job on our house today! Would definitely recommend her and have her back again!!!",
+      "author": "Daniel Smith",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-18"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Woman cleaning large white lamp with cloth, Maidpro branding visible",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 55,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "poor"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "name": "USA Cleaning",
+  "slug": "usa-cleaning",
+  "category": "cleaning service",
+  "address": "207 E 5th Ave",
+  "city": "Eugene",
+  "state": "OR",
+  "zip": "97401",
+  "phone": "(541) 780-2222",
+  "email": "",
+  "website": null,
+  "rating": 4.8,
+  "reviewCount": 28,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "8:00 AM – 5:00 PM",
+    "Tuesday": "9:00 AM – 5:00 PM",
+    "Wednesday": "9:00 AM – 5:00 PM",
+    "Thursday": "9:00 AM – 5:00 PM",
+    "Friday": "9:00 AM – 5:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "They did an amazing job and helped revive my carpet\n\nI definitely recommend them for all carpet cleaning services\n\nSmall or big",
+      "author": "Jesse Bravo",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-02-23"
+    },
+    {
+      "text": "We have used USA cleaning to deep clean our home before moving in, and cleaning the carpets at our rental property! They were so thorough and even checked in to make sure everything was up to standard after the job was done. Couldn’t recommend them enough!",
+      "author": "McCall Habermehl",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-07-08"
+    },
+    {
+      "text": "Fastest, most reliable company to hire when moving/ needing a little extra coziness in your home! 5 stars isn’t enough. 10/10 would recommend! Lead was highly professional and have never had such a positive interaction with a cleaning company!",
+      "author": "Kelcee Justus",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-11-28"
+    },
+    {
+      "text": "The wonderful Corinne came and was undaunted by the condition that she faced. She spent the necessary time to seemingly restore the abused carpets, and I am totally pleased. USA is my go-to cleaner from now on;  gratitude and allegiance assured. Did I mention how friendly they are?",
+      "author": "Judy Roberts",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-06-20"
+    },
+    {
+      "text": "We have been using this company for 6 years! Very professional, friendly, affordable and efficient! Definitely highly recommend their services! Shout out to Korin for doing a wonderful job every time! Thank you!",
+      "author": "Mindy Vedder",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-06-19"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Spacious bedroom with wooden furniture, green bedding, and large windows overlooking garden",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Spacious living room with plaid sofa, grand piano, and scenic waterfront view",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Office interior with dark carpet, wooden trim, and light wood furniture and cabinets.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Home office and study room with wooden furniture, bookshelves, desk, and computer setup.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Spacious bedroom with wooden bed, windows, vintage furniture, and beige carpeting.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Blue and white USA Cleaning Services van parked in lot near arena building",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Modern living room with cream leather recliner and rust-colored carpet flooring",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Before and after photos of a cleaned toilet bowl in a bathroom.",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 28,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.8,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

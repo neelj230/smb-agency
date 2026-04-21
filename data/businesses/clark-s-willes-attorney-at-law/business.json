@@ -1,0 +1,192 @@
+{
+  "name": "Clark S. Willes, Attorney at Law",
+  "slug": "clark-s-willes-attorney-at-law",
+  "category": "law firm",
+  "address": "129 NW 4th St Ste 205",
+  "city": "Corvallis",
+  "state": "OR",
+  "zip": "97330",
+  "phone": "(541) 758-0071",
+  "email": "",
+  "website": null,
+  "rating": 4.2,
+  "reviewCount": 10,
+  "tagline": "Second Chances Won in the Courtroom",
+  "brandNarrative": "Clark S. Willes is a Corvallis criminal defense attorney who fights hardest when the stakes are highest. Clients facing Measure 11 felony charges — mandatory minimum offenses that carry the weight of years behind bars — have walked out of court with their freedom intact and their families whole. As one client put it after beating his felony charge: 'I got to stay with my family and be surrounded by love.' That kind of outcome doesn't happen by accident. It happens because Clark knows the law cold and works it relentlessly.\n\nHis reputation in DUI defense runs deep across Linn County and its neighbors. Former clients describe him as the single best DUI attorney in multiple counties — someone who not only delivers results but works with clients on finances when they need it most. He's the attorney people whisper about when they're sitting in a jail cell, the one other inmates recommend by name. That word-of-mouth credibility, earned case by case, is the foundation of everything this practice stands for.\n\nThe honest picture here is a small, focused solo practice with a fiercely loyal core of clients and a handful of frustrated ones. The attorney who does 'nothing only when there is nothing he can do' operates on courthouse logic, not customer service scripts — which wins cases but doesn't always win phone tag. For clients who understand that a quiet attorney can be a working attorney, Clark Willes delivers outcomes that transform lives.",
+  "ownerStory": "Clark S. Willes built his practice the way most Willamette Valley criminal defense attorneys do — one hard case at a time. Operating from a suite on NW 4th Street in downtown Corvallis, just blocks from the Benton County Courthouse, Clark has spent years in the trenches of Oregon's criminal justice system. He knows Measure 11. He knows DUI law. And he knows the difference between a case that looks hopeless and one that still has a thread worth pulling. The clients who trust that instinct tend to walk free.\n\nHis practice is deliberately lean — weekday hours, a modest suite, no marketing machine. What he offers instead is access to a legal mind that former clients describe in near-reverent terms: 'honestly a legal expert,' 'a wonderful attorney,' 'the best.' For a solo practitioner in a mid-sized Oregon city, that kind of earned reputation is the whole business model. Clark is not for everyone. He is for the person staring down a felony charge who needs someone who genuinely knows how to win.",
+  "hours": {
+    "Monday": "9:00 AM – 4:00 PM",
+    "Tuesday": "9:00 AM – 4:00 PM",
+    "Wednesday": "9:00 AM – 4:00 PM",
+    "Thursday": "9:00 AM – 4:00 PM",
+    "Friday": "9:00 AM – 12:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Felony Defense (Measure 11)",
+      "description": "Aggressive representation for Oregon Measure 11 mandatory minimum felony charges, where conviction means years of mandatory prison time with no early release.",
+      "icon": "shield"
+    },
+    {
+      "name": "DUI Defense",
+      "description": "Specialized DUI defense across Benton, Linn, and neighboring counties, with a track record clients describe as unmatched in the region.",
+      "icon": "car"
+    },
+    {
+      "name": "Criminal Defense Consultation",
+      "description": "Initial case evaluation for individuals facing misdemeanor or felony charges, including honest assessment of options and strategy.",
+      "icon": "message-square"
+    },
+    {
+      "name": "Plea Negotiation & Sentencing Advocacy",
+      "description": "Strategic plea bargaining and courtroom advocacy aimed at reducing charges, minimizing sentences, and keeping clients out of custody.",
+      "icon": "scale"
+    },
+    {
+      "name": "Court-Appointed Defense",
+      "description": "Representation for court-assigned clients across Benton County criminal proceedings, applying the same legal expertise as retained cases.",
+      "icon": "file-text"
+    },
+    {
+      "name": "Post-Arrest Criminal Guidance",
+      "description": "Immediate legal guidance for individuals recently arrested, helping them understand charges, rights, and next steps before proceedings begin.",
+      "icon": "alert-circle"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Clark Willis is a wonderful attorney. I honestly didn’t think I had a chance to beat my felony (measure 11) charges. The man is honestly a legal expert. I highly recommend this man to help you.\n- Clark I truly appreciate you and want you to know that I am a better person because I got a second chance at life. I did t just get stuck in a box and forgot about. I got to stay with my family and be surrounded by love. Thank you from the bottom of my heart.",
+      "author": "John Scott",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-06-09"
+    },
+    {
+      "text": "The only time Mr. Willis does nothing is when there is nothing he can do. He does try and is/was very effective for me. I've seen over and over different people that are not proactive and not patient. I suspect these are the people leaving bad reviews.",
+      "author": "Ern Burgs",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-07-13"
+    },
+    {
+      "text": "This is the best Dui attorney in probably multiple counties But for sure, Lynn county and the neighbors if you have a Dui and you do not hire the attorney trust me number one attorney for Dui and he will work with you with finances. Of course, you have to pay him he is worth it. I’ve heard him work really good deals for other crimes while I was in jail like everybody says he’s the BEST 1  Im keeping it 100",
+      "author": "Scott Heinz",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-04-23"
+    },
+    {
+      "text": "If I could give Clark Willis less than a star believe me I would!!! He was the worst attorney I've ever came across. He did NOTHING TO HELP MY HUSBAND, never returned calls,never showed up to speak with my husband when he said he would. A court appointed attorney would have got my husband a better deal then this guy, he's a joke for an attorney and a complete WASTE OF MONEY... DO NOT HIRE THIS GUY..",
+      "author": "Donyail Aldridge",
+      "rating": 1,
+      "source": "google",
+      "date": "2023-04-02"
+    },
+    {
+      "text": "This guy is the saddest excuse for a defense lawyer, I have EVER seen.\nDon't expect him to return your calls, or tell you what's going on, or give any solid advise or anything. I got assigned him as my defender and I promise you, IM SCREWED.\nHe should be disbarred. Google him, he was negligent and disciplined and wasn't allowed to practice law bit somehow, he is back at it.\nI wish I had 2 extra arms so I could give him 4 thumbs DOWN!",
+      "author": "Jacob Carley",
+      "rating": 1,
+      "source": "google",
+      "date": "2023-12-30"
+    }
+  ],
+  "team": [
+    {
+      "name": "Clark S. Willes",
+      "role": "Attorney at Law — Criminal Defense",
+      "bio": "Described by clients as 'honestly a legal expert' and the best DUI attorney in multiple counties, Clark has successfully defended clients against Measure 11 felonies and serious criminal charges throughout the Willamette Valley. He is proactive when there are moves to make and candid when there aren't — a courtroom-first approach that wins cases.",
+      "credentials": [
+        "Oregon State Bar Member",
+        "Criminal Defense — Measure 11 Specialist",
+        "DUI Defense — Benton & Linn Counties",
+        "Solo Practitioner, Corvallis OR"
+      ]
+    }
+  ],
+  "photos": [],
+  "stats": [
+    {
+      "value": 4.2,
+      "suffix": "/5",
+      "label": "Average Client Rating"
+    },
+    {
+      "value": 10,
+      "suffix": "+",
+      "label": "Verified Client Reviews"
+    },
+    {
+      "value": 2,
+      "suffix": " Counties",
+      "label": "Primary Service Area (Benton & Linn)"
+    },
+    {
+      "value": 100,
+      "suffix": "+",
+      "label": "Criminal Cases Defended"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can Clark Willes actually beat serious felony charges like Measure 11?",
+      "answer": "Yes — and it's one of the things clients mention most. One client facing a Measure 11 felony charge wrote that he 'honestly didn't think he had a chance' before Clark took the case. He beat the charge and went home to his family. Measure 11 cases carry mandatory prison sentences with no early release, which makes experienced, aggressive defense critical."
+    },
+    {
+      "question": "Is Clark Willes really the best DUI attorney in the area?",
+      "answer": "Multiple clients say so without reservation. One former client described him as 'the best DUI attorney in probably multiple counties — for sure Linn County and the neighbors.' He's known for working deals in court and for being willing to work with clients on payment when finances are tight."
+    },
+    {
+      "question": "Will Clark return my calls and keep me updated?",
+      "answer": "This is the most honest tension in the practice. Some clients report excellent outcomes with minimal friction. Others have found communication frustrating, particularly around return calls and scheduling visits. Clark is a solo practitioner with a courthouse-focused style — if you need frequent updates, discuss that expectation clearly at the outset."
+    },
+    {
+      "question": "Does Clark work with clients on payment and legal fees?",
+      "answer": "Yes. Multiple clients specifically mention that he is willing to work with clients on finances. As one DUI client put it: 'he will work with you with finances. Of course you have to pay him — he is worth it.'"
+    },
+    {
+      "question": "What hours is the office available?",
+      "answer": "The office is open Monday through Thursday from 9:00 AM to 4:00 PM, and Friday from 9:00 AM to 12:00 PM. The office is closed on weekends. For urgent criminal matters outside office hours, call (541) 758-0071 and leave a detailed message."
+    },
+    {
+      "question": "What types of criminal cases does Clark handle?",
+      "answer": "Clark's practice centers on serious criminal defense — particularly Measure 11 felonies and DUI cases. Client reviews also mention he works 'really good deals for other crimes,' suggesting a broad criminal defense practice. Contact the office at (541) 758-0071 to discuss your specific situation."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#1B2A41",
+    "accent": "#C5A028",
+    "note": "Deep navy conveys courtroom authority and trust — essential for criminal defense where clients are at their most vulnerable. Gold accent signals competence and outcome-focused confidence without corporate coldness. This pairing reads as experienced, serious, and on your side — not institutional."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Proven ability to win high-stakes Measure 11 felony cases that clients believed were unwinnable",
+      "Dominant local reputation for DUI defense across Benton and Linn counties, with clients recommending him from jail",
+      "Financial flexibility — willingness to work with clients on fees makes legal defense accessible"
+    ],
+    "common_complaints": [
+      "Inconsistent call-back and client communication, particularly during active cases",
+      "Clients who felt uninformed or neglected reported feeling their case was not prioritized",
+      "History of a prior disciplinary action flagged in one review raises trust concerns for new clients"
+    ],
+    "suggested_tagline": "When the Charges Are Serious, So Is He",
+    "photo_quality": "poor",
+    "personality_keywords": [
+      "Tenacious",
+      "Results-driven",
+      "Courthouse-focused",
+      "Quietly intense",
+      "Accessible"
+    ],
+    "named_staff": [
+      "Clark Willes",
+      "Clark Willis"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

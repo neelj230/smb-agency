@@ -1,0 +1,146 @@
+{
+  "name": "Q's Corner Barbershop",
+  "slug": "qs-corner-barbershop",
+  "category": "barber",
+  "address": "724 High St NE",
+  "city": "Salem",
+  "state": "OR",
+  "zip": "97301",
+  "phone": "(503) 364-5054",
+  "email": "",
+  "website": null,
+  "rating": 4.6,
+  "reviewCount": 209,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM – 3:00 PM",
+    "Tuesday": "9:00 AM – 5:00 PM",
+    "Wednesday": "9:00 AM – 5:00 PM",
+    "Thursday": "9:00 AM – 5:00 PM",
+    "Friday": "9:00 AM – 5:00 PM",
+    "Saturday": "9:00 AM – 3:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Hello to whom all is reading,\nQ is an experienced Barber in all types and textures of hair and has been licensed for over 20 years and his work shows .\n\nWhen I was a teenager, my friends and I would go and see Q as we thought of him as :\n(AIR JORDAN ) of cutting hair, no one had the skills or style he had and his shop was always constantly busy.\nQ THE BARBER had inspired me to become a barber from seeing his success and passion behind his work, to where later in life I went to school to become a barber and eventually open a well known shop in Southern California called ‘Justin’s Fades & Hairstyles’.\n\nI flew into town from  Southern California to come and visit family, so I didn’t have the time to get my haircut before I flew in to town.\nI reached out to Q and had made an appointment with him. He sharpened me up with a clean fade and sharp beard lines.\nHe deserves all the reviews and compliments as he demonstrates daily that they are well deserved.",
+      "author": "Justin Balint",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-30"
+    },
+    {
+      "text": "Best experience I've ever had. Q was patient and he actually listened to what I wanted. He's great with kids, and he is definitely the best barber I have ever come across. I would recommend everyone who needs a cut, to go to Q's corner barbershop.",
+      "author": "Mike “MFDIESEL” Castaneda",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-29"
+    },
+    {
+      "text": "Q is by far the greatest barber in Salem! Personable, friendly and genuine! I've been coming to Q for almost 11-12 years now! And that will continue for years to come!",
+      "author": "Tony Lones",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-04"
+    },
+    {
+      "text": "When you first walk in, you’re warmly welcomed. On time for appointments and excellent service/ haircut was exactly what I asked for him to do.",
+      "author": "kelvin jackson",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-04"
+    },
+    {
+      "text": "Excellent experience from start to finish. Q is a top-notch barbershop with a professional barber who pay great attention to detail. The fades are excellent, clean, sharp, and consistently on point. The shop is welcoming, well-run, and you can count on quality every visit. If you’re looking for a reliable, high-quality haircut, this is the place! Highly recommend!!",
+      "author": "Mark Harris",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-01"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Barber shop interior with multiple barbers cutting hair at stations with mirrors",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Back view of braided hairstyle in a salon or beauty shop interior",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Hair salon interior showing person with long braided hairstyle from behind",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Person wearing glasses and headset sitting at desk in office setting",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Barber cutting young boy's hair in salon with red and white striped cape",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Justin's Fades & Hairstyles barbershop interior with pool table and branded wall mural",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Gray storefront of Calle Alta Café with parked cars in front lot",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "White metal garage door with three window panels displaying Q's Corner Barbershop signage and logos",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Two people collaborating at computer in office setting with overhead lighting",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Person with styled hair in black leather jacket sitting indoors with others in background",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 209,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.6,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

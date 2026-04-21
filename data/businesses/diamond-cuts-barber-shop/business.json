@@ -1,0 +1,151 @@
+{
+  "name": "Diamond Cuts Barber Shop",
+  "slug": "diamond-cuts-barber-shop",
+  "category": "barber",
+  "address": "191 High St SE",
+  "city": "Salem",
+  "state": "OR",
+  "zip": "97301",
+  "phone": "(503) 302-2490",
+  "email": "diamondcuts36@gmail.com",
+  "website": "http://diamondcutsalem.booksy.net/",
+  "rating": 4.6,
+  "reviewCount": 177,
+  "tagline": "",
+  "brandNarrative": "Find your Booksy specialist by city \n                            Charlotte\n                         \n                                    Barbershop\n                                \n                                    Hair Salon\n                                \n                                    Massage\n                                \n                                    Tattoo Shop\n                                \n                                    Hair Removal\n                                \n                                    Nail Salon\n                                \n                                    Brows & Lashes\n                                \n                                    Makeup\n                                \n                                    Box Braids\n                                \n                                    Dreadlocks\n                                \n                                    Eyelash Extensions\n                                \n                                    Female Haircut\n                                \n                                    Male Haircut\n                                \n                            Columbus\n                         \n                                    Barbershop\n                                \n                                    Hair Salon\n                                \n                                    Massage\n                                \n                                    Tattoo Sh",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Closed",
+    "Tuesday": "9:00 AM – 6:00 PM",
+    "Wednesday": "9:00 AM – 6:00 PM",
+    "Thursday": "9:00 AM – 6:00 PM",
+    "Friday": "9:00 AM – 6:00 PM",
+    "Saturday": "9:00 AM – 6:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I came in here four days ago I didn't have an appointment. They were able to get me in with a little wait time and it was well worth it . It was  my first time but I will definitely be back . The atmosphere and the customer service was top notch and the cut was on point",
+      "author": "calvin brown",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-15"
+    },
+    {
+      "text": "If you’re looking for a nice fade, look no more.\nThe service here is great every time, the conversations are always fun and full of laughs.\nThis is the only place I will get my hair cut in Salem. My fade is perfect, every time.",
+      "author": "Joseph Morgan",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-03-07"
+    },
+    {
+      "text": "Great place for haircuts and very friendly guys even though I didn’t book correctly they still got me in for a cut I appreciate it",
+      "author": "Jude",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-25"
+    },
+    {
+      "text": "Louie is the best! Such a kind and wholesome guy. The cut was great too!",
+      "author": "Sam Steinbrugge",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-04"
+    },
+    {
+      "text": "Walked in with my son hoping to get an unscheduled haircut, they didn’t have any openings at the moment, but gave me their card. Walked by the store later that day, they went outside to tell me they had a cancellation and invited me right in.\nMy son got the best haircut of his life, Toni did an incredible job, he clearly has mastered his profession. Was so accommodating and understanding with my young son, I was blown away by how smoothly everything went.\nBarbershop is crisp, clean, and everyone there was kind of professional. Make sure you stop by and give them your business!",
+      "author": "Travis",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-02-23"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Brick corner building with Diamond Cuts barbershop storefront and red trim",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Diamond Cuts Barber Shop display case showing hair care products and styling tools",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Diamond Cuts barbershop storefront with brick facade and open sign displayed",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Diamond Cuts Barber Shop storefront window with diamond and scissors logo signage",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Modern barbershop interior with professional chairs, ring light, and styling stations",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Professional haircut showing clean fade and styled top hair in barbershop",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Night street view of brick building with orange awning and parking sign",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Man with short haircut in red shirt inside barbershop or salon",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Young man with short buzzcut hairstyle in barbershop chair wearing black shirt",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Man with styled hair and beard in barbershop interior with mirrors and styling products",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 177,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.6,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {
+    "facebook": "https://facebook.com/diamondcutsbarber/",
+    "instagram": "https://instagram.com/diamondcutbarbers"
+  },
+  "competitors": [],
+  "brandColors": {
+    "primary": "#e5f5f6",
+    "accent": "#00a3ad",
+    "note": "Extracted from business website"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "Booksy logo 1 Click on the three-dot menu icon in the top-right corner of the browser window2 Select \"Settings\" from the dropdown menu.3 Scroll down and click on \"Privacy and security\" in the left sidebar.4 Click on \"Site settings\" and scroll down to find the \"Location\" option.5 Toggle the switch to allow sites to request your physical location.6 Go back to Booksy and in the location search window click \"Use my current location\". Read more: When? Preferred time April 2026 Sun Mon Tue Wed Thu Fri Sat 29303112345678910111213141516171819202122232425262728293012 Schedule us Hair Barber Nails Skin care Brows and lashes Massage Makeup Wellness and spa More... Braids and locsTattoosMedical aestheticsHair removalHome servicesPiercingPet servicesDental and orthodonticsHealth and fitnessProfessional servicesOther Diamond cuts barbershop 191 High St SE, Salem, 97301 Book now Show all photos Diamond cuts barbershop 191 High St SE, Salem, 97301 ★ 4.9 (1547 reviews) Entrepreneur Services Popular Services Custom cut (NO BEARD) Bald fade / taper fade with scissor and texture on top. Eyebrows $5 extra $45.00 45min Book Diamond package is Any haircut of your choice. Beard and eye brows included. Product/style/blow dry finish. Eyebrows included $55.00 1h Book Basic cut (NO BEARD) Scissor cut (or clipper) on top, sides no shorter than size 2 ( 1/4 of an inch) eyebrows $5 extra $35.00+ 30min Book Other Services Diamond package is Any haircut of your choice. Beard and eye brows included. Product/style/blow dry finish. Eyebrows included $55.00 1h Book Custom cut (NO BEARD) Bald fade / taper fade with scissor and texture on top. Eyebrows $5 extra $45.00 45min Book Basic cut (NO BEARD) Scissor cut (or clipper) on top, sides no shorter than size 2 ( 1/4 of an inch) eyebrows $5 extra $35.00+ 30min Book Men’s beard shape up Beard trim and edged up. With razor finish (only) $25.00 20min Book Amenities Parking space Wi-Fi Credit cards accepted Accessible for people with disabilities Child-friendly Reviews How reviews work 4.9 1547 reviews 5 1512 4 15 3 4 2 3 1 13 Lauren Confirmed client Apr 4, 2026 Service: Basic cut (NO BEARD) Staff: Louie we love loui! Jose is our backup if loui is out. they both are amazing and 10/10 humans and barbers! Dennis Confirmed client Apr 3, 2026 Service: Diamond package is Staff: Jose Always a good experience at diamond cuts Cande Confirmed client Apr 2, 2026 Service: Custom cut (NO BEARD) Staff: Louie My kid loves this place he likes that they listen to what he wants and he always loves the end result. Louie is really good at what he does. I 100 pe...rcent recommend him or any of them. We will never go anywhere else. show more Isaiah Confirmed client Mar 19, 2026 Service: Basic cut (NO BEARD) Staff: Jose Best experience! Good barbers Bryan Confirmed client Mar 16, 2026 Service: Custom cut (NO BEARD) Staff: Hernan Hernan consistently does a great work! Brady Confirmed client Mar 13, 2026 Service: Diamond package is Staff: Jose great as always Ian"
+}

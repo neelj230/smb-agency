@@ -1,0 +1,251 @@
+{
+  "name": "Jazzy’s Doggy Spaw",
+  "slug": "jazzys-doggy-spaw",
+  "category": "pet groomer",
+  "address": "628 N Riverside Ave # C",
+  "city": "Medford",
+  "state": "OR",
+  "zip": "97501",
+  "phone": "(541) 531-0947",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 11,
+  "tagline": "Where dogs leave happier than they arrived.",
+  "brandNarrative": "Jazzy's Doggy Spaw isn't your average clip-and-go grooming shop — it's a place where even the most reluctant, shady-background rescue dogs make real progress, and temperamental shih tzus end up not wanting to leave the groomer's arms. That's the kind of magic that happens at 628 N Riverside in Medford, Oregon, where Fabby and Jazzy have built something genuinely rare: a grooming experience rooted in patience, kindness, and a deep understanding of anxious animals. Customers like Judith have been returning for over two years because Fabby works with dogs like Freddy — a stray who 'does not cooperate with grooming at all' — and turns each visit into measurable progress. Dolores's temperamental shih tzu was carried out in Fabby's arms after a single visit, completely at ease, which says more than any award plaque ever could.\n\nThe space itself reflects the care behind the brand. Reviews describe it as adorable and spotlessly clean, with an open play-and-lounge area that lets dogs decompress rather than spend their entire visit crated and stressed. Photos show a modern interior with decorative fencing, artificial grass patches, and a large circular pet bed where dogs genuinely relax — design choices that feel deliberate and animal-forward. Grooming results run the gamut from pearl-collar-and-pink-bow polished to creative color work with bright orange fur dye, proving the team can read what each pet parent actually wants and deliver it precisely. The shop earned a Best Pet Grooming Company 2025 award, and based on the consistency of the reviews, it's easy to see why.",
+  "ownerStory": "Jazzy is the name behind the spaw, and from the moment she opened her doors in Medford, it was clear this wasn't a business built on volume — it was built on trust. Groomer Fabby, who is the heart of the day-to-day client experience, has cultivated a reputation that loyal customers like Regina, Judith, and Dolores talk about with genuine affection. Fabby's approach is disarmingly simple: she goes slow when a dog needs it, reaches for scissors instead of clippers when a sensitive face demands it, and treats every animal as an individual rather than an appointment slot. When Dolores's shih tzu — a dog with a documented history of grooming anxiety — chose to stay in Fabby's arms at pickup instead of rushing to her owner, that moment captured everything Jazzy's Doggy Spaw stands for. This is a place run by people who clearly love animals more than they love efficiency.",
+  "hours": {
+    "Monday": "10:00 AM – 5:00 AM",
+    "Tuesday": "10:00 AM – 5:00 PM",
+    "Wednesday": "10:00 AM – 5:00 PM",
+    "Thursday": "10:00 AM – 5:00 PM",
+    "Friday": "10:00 AM – 5:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Full Groom & Style",
+      "description": "Complete bath, blow-dry, breed-specific haircut, and finishing touches including bows, bandanas, or accessories — tailored exactly to what you ask for.",
+      "icon": "scissors"
+    },
+    {
+      "name": "Anxiety-Sensitive Grooming",
+      "description": "A slow, patient grooming process designed for dogs with behavioral challenges, fear responses, or difficult grooming histories — Fabby specializes in this.",
+      "icon": "heart"
+    },
+    {
+      "name": "Creative Color & Style",
+      "description": "Pet-safe fur dye and bold styling for owners who want their pup to stand out, like the vibrant orange color work featured in the shop's portfolio.",
+      "icon": "palette"
+    },
+    {
+      "name": "Face & Paw Detail Trim",
+      "description": "Precision scissor work around the face, eyes, and paws — especially important for temperamental breeds where careful hands make all the difference.",
+      "icon": "sparkles"
+    },
+    {
+      "name": "Bath & Brush-Out",
+      "description": "Deep cleansing bath, conditioner, thorough brush-out, and blow-dry for dogs who need freshening without a full haircut.",
+      "icon": "droplets"
+    },
+    {
+      "name": "Open Lounge & Play Time",
+      "description": "Dogs enjoy access to the shop's open lounge area with a pet bed and play space, so they stay calm and social rather than anxious while they wait.",
+      "icon": "dog"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Fabby is so patient and kind.  I have been taking my dog Freddy over 2 years.  He is a stray with a shady background.  He does not cooperate with grooming at all. But a lot of progress has been made with Fabby's help. Thanks again Fabby for being you ...  ❤️",
+      "author": "Judith Stodola",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-12"
+    },
+    {
+      "text": "Our first visit here and we are very pleased. Our sweet Izabella looked so beautiful. The owner is kind, the shop is adorable and clean. We were impressed and continue to have our baby groomed 🐾",
+      "author": "Kim Hurd",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-02-15"
+    },
+    {
+      "text": "Fabby is the most amazing groomer. My dog Mitz loves her. She always makes him the most handsome dog ever",
+      "author": "Regina Beeler",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-03-01"
+    },
+    {
+      "text": "I have a shih tzu and she's very temperamental. She was incredibly patient and accommodating. Using scissors when necessary. Taking extra time with her around her face. When it was time to pick her up she presented her to me carrying her and my dog did not want to leave her arms. That's with ONE visit. She's absolutely enamored. I love the open area for the dogs to play and lounge in. The groom itself was very high quality and exactly what I asked for. My dog wasn't tense or scared when I picked her up as I've had with other groomers due to her behavior issues.",
+      "author": "Dolores Sotelo",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-04-06"
+    },
+    {
+      "text": "Jazzy is so good at what she does I have had my bichon done by her and she makes my little girl look so pretty! I recommend anybody looking for a groomer Jazzy's dog grooming is where to go, she's the best!",
+      "author": "Melissa Viera",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-07-02"
+    }
+  ],
+  "team": [
+    {
+      "name": "Fabby",
+      "role": "Lead Groomer & Animal Whisperer",
+      "bio": "Fabby is the reason customers keep coming back year after year. Known for extraordinary patience with anxious and difficult dogs, she uses scissors over clippers when needed, takes her time around sensitive areas, and has earned the trust of dogs who've never tolerated grooming before. Multiple customers describe her as 'amazing' and credit her personally for the transformation in their pets' comfort and appearance.",
+      "credentials": [
+        "Anxiety-Sensitive Grooming",
+        "Scissor Specialist",
+        "2+ Year Client Retention",
+        "Best Pet Grooming Company 2025"
+      ]
+    },
+    {
+      "name": "Jazzy",
+      "role": "Owner & Groomer",
+      "bio": "Jazzy founded the Doggy Spaw and brings the same warmth and skill to every groom — customers praise her for making bichons look pristine and for building a shop with a personality as distinctive as its name.",
+      "credentials": [
+        "Business Owner",
+        "Creative Styling",
+        "Best Pet Grooming Company 2025"
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Award plaque for Jazzy's Doggy Spaw, Best Pet Grooming Company 2025",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "White fluffy dog standing in modern interior space with decorative fence and green wall.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Groomed small dog with pink bow and pearl collar on black mat",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Three dogs relaxing together on a large circular white pet bed indoors.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Tabby and white cat sitting on beige couch, looking at camera",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Black Labrador dog standing on outdoor patio with white fence behind",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "White fluffy dog wearing black bow tie on grooming table",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Golden Retriever lying on grooming table in pet salon interior space",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Gray poodle standing indoors on tile floor near artificial grass patch",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Small dog with bright orange fur dye wearing white patterned sweater indoors.",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 5,
+      "suffix": "★",
+      "label": "Perfect Rating Across All Reviews"
+    },
+    {
+      "value": 11,
+      "suffix": "+",
+      "label": "Verified 5-Star Reviews"
+    },
+    {
+      "value": 2,
+      "suffix": "+ yrs",
+      "label": "Longest Customer Loyalty Documented"
+    },
+    {
+      "value": 2025,
+      "suffix": "",
+      "label": "Best Pet Grooming Company Award"
+    }
+  ],
+  "faq": [
+    {
+      "question": "My dog is anxious and has had bad experiences at other groomers. Can you help?",
+      "answer": "Absolutely — this is actually one of our specialties. Groomer Fabby has worked with dogs described as uncooperative, temperamental, and rescue dogs with difficult backgrounds. She works at the dog's pace, uses scissors instead of clippers when needed, and takes extra time around sensitive areas like the face. Many of our regulars came to us after failing at other grooming salons."
+    },
+    {
+      "question": "What makes Jazzy's Doggy Spaw different from other groomers in Medford?",
+      "answer": "Our open lounge area lets dogs relax and socialize instead of sitting in a crate the whole time. Our groomers are known for patience and genuine love for animals — customers regularly report that their dogs didn't want to leave. We also deliver exactly the groom you ask for, whether that's a classic breed cut, a precise scissor trim, or creative color styling."
+    },
+    {
+      "question": "Do you work with small or temperamental breeds?",
+      "answer": "Yes — we regularly groom shih tzus, bichons, and other small or reactive breeds. Fabby is experienced in handling dogs that other groomers struggle with, and she adapts her technique to suit each dog's temperament."
+    },
+    {
+      "question": "What are your hours and how do I book an appointment?",
+      "answer": "We're open Tuesday through Friday, 10:00 AM to 5:00 PM. We are closed on Saturdays and Sundays. To book an appointment, give us a call at (541) 531-0947 — we don't currently have online booking, so a phone call is the best way to get scheduled."
+    },
+    {
+      "question": "Do you offer creative or fashion grooming like fur coloring?",
+      "answer": "Yes! In addition to classic grooming, we offer creative styling including pet-safe fur dye. Our portfolio includes bold color work like vibrant orange dye with stylish sweater pairings — perfect for pet parents who want their pup to make a statement."
+    },
+    {
+      "question": "Is the shop clean and safe for my pet?",
+      "answer": "Cleanliness is something customers consistently notice and praise. The shop is described as spotlessly clean with a modern, well-designed interior including a dedicated lounge area, artificial grass, and open play space — all designed to keep your dog comfortable and stress-free during their visit."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#6B4F8E",
+    "accent": "#F4A7C3",
+    "note": "Soft lavender purple evokes a spa-like calm and premium feel that matches the 'Spaw' branding — elevated, gentle, and a little playful. Blush pink as an accent nods to the pink bows and pearl accessories in the grooming photos, and reflects the warmth and femininity present in the shop's personality. Together they feel boutique, caring, and distinctly not corporate."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Extraordinary patience and skill with anxious, reactive, and behaviorally difficult dogs — a genuine differentiator that multiple customers highlight independently",
+      "Deeply personal, relationship-driven service that builds long-term client loyalty, with customers returning for 2+ years and praising staff by name",
+      "Beautiful, stress-reducing physical environment with open lounge space and modern decor that sets the shop apart from typical grooming salons"
+    ],
+    "common_complaints": [
+      "None found — all 11 reviews are 5-star with no negative feedback or concerns raised"
+    ],
+    "suggested_tagline": "Your anxious pup's new favorite place.",
+    "photo_quality": "good",
+    "personality_keywords": [
+      "patient",
+      "warm",
+      "boutique",
+      "gentle",
+      "skilled"
+    ],
+    "named_staff": [
+      "Fabby",
+      "Jazzy"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

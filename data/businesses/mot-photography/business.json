@@ -1,0 +1,146 @@
+{
+  "name": "MOT Photography",
+  "slug": "mot-photography",
+  "category": "photography studio",
+  "address": "19671 Hollygrape St",
+  "city": "Bend",
+  "state": "OR",
+  "zip": "97702",
+  "phone": "(503) 830-1113",
+  "email": "",
+  "website": "https://www.motphotography.com/",
+  "rating": 5,
+  "reviewCount": 146,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "6:00 AM – 10:00 PM",
+    "Tuesday": "6:00 AM – 10:00 PM",
+    "Wednesday": "6:00 AM – 10:00 PM",
+    "Thursday": "6:00 AM – 10:00 PM",
+    "Friday": "6:00 AM – 10:00 PM",
+    "Saturday": "6:00 AM – 10:00 PM",
+    "Sunday": "6:00 AM – 10:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Tom was truly one of the best decisions we made for our wedding. His energy and enthusiasm for his craft are completely unmatched. He brought such a fun, exciting presence to the day that it honestly felt like he wasn’t just working, he was celebrating right alongside us.\n\nWhat stood out most was his genuine care and forethought for his clients. From the very beginning, I never had to worry about a single thing. He guided us with total confidence, took the reins when we needed it, and made the entire process feel effortless and stress free.\n\nEvery single person who interacted with him absolutely loved him. My family and friends still rave about him! He was a true highlight of our day and night, not just as our photographer, but as part of the experience itself.\n\nAnd the photos… they are beyond perfect. They’re something I genuinely cherish and admire every single day. Tom didn’t just capture how everything looked, he captured how it felt. We could not recommend him more highly.",
+      "author": "Caity Rose Wineland",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-25"
+    },
+    {
+      "text": "Tom at MOT Photography was our engagement/wedding photographer this past year and if I could leave more than 5 stars, I would.\n\nFrom our initial meeting with him, we clicked right away and knew he was the right guy for the job. He was warm, welcoming, professional, and laid everything out for us so there were no lingering questions or concerns.\n\nFor our engagement shoot, we took a shot in the dark and asked Tom if he would be willing to climb Tumalo mountain (at 3am at the end of April) for a sunrise engagement shoot. Without question, Tom agreed and made the uphill trek with us in snow shoes in the dark in FREEZING weather. Though we were tough subjects to shoot because of the conditions, the pictures that Tom took exceeded our expectations and were exactly what we had in mind (we've had so many people ask if it was a green screen behind us, because the photos were that beautiful).\n\nCome wedding day, Tom was on it with communication, organization, and was wonderful at keeping us on track for not only photos, but for our entire timeline. He was so professional all day long, while also being able to have fun and make jokes with us, our friends, and our family. We got our pictures back from the wedding in a timely matter (we even got to see 20 edited photos during our wedding) and are absolutely in love with them. He took all of our wants and needs into consideration and the pictures reflect that completely and tell a whole story of our big day.\n\nI would recommend Tom to anybody for their wedding photograpy, and we are so happy with our decision. Thank you Tom!",
+      "author": "Kelsey Ross",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-03"
+    },
+    {
+      "text": "If you’re thinking of booking with Tom, just do it! Tom was the first vendor we booked immediately after our first conversation. We knew his energy was exactly what we needed for our wedding! The entire experience with Tom was pleasant and easy. I know anyone planning a wedding right now can appreciate that!\n\nIf had to choose words to describe Tom quickly, I’d say energy and quality. His energy and vibe is unmatched! By quality I don’t just mean the quality of the photos, but the overall experience with him from start to finish. One instance I’m thinking about is how Tom went out of his way to get barber recommendations from his friends last minute for us. He also accommodated an odd request to photoshop glasses on my father in law (long story). Haha!\n\nI could keep going on about the different experiences we had and how much everyone enjoyed working with Tom at our wedding,  but it’s hard to incorporate all the reasons I’d recommend working with him in a review. Just trust me and all the other 5 star reviews. You won’t regret it.",
+      "author": "Ashley Wolff",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-06"
+    },
+    {
+      "text": "Working with MOT Photography was an amazing experience from start to finish. It’s clear when someone genuinely loves what they do; their enthusiasm is infectious. Tom is that kind of person. His work was incredible, and he made us feel confident and comfortable with every shot. Weddings are a lot of work, and to find a vendor who can make the planning feel fun is not to be overlooked. We loved our engagement photos and our wedding photos were a dream. I would book Tom again and again. You should, too.",
+      "author": "Jess D.",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-08"
+    },
+    {
+      "text": "Tom was the most fantastic photographer we could have asked for. We loved working with him and so many of our wedding guests have gone out of their way to say how awesome he was.\nTom was so great in planning out our package and was SO creative and professional with what he captured. Tom also was able to provide his expertise to make sure our day didn’t have hiccups. I HIGHLY recommend Tom for anyone, his energy makes the process SO fun!\nTom’s pricing was just right for us and honestly we got SO much from him in that package, we couldn’t have done it without him.",
+      "author": "Laurel Swaney",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-30"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Couple in wedding attire embracing on a forest road with golden sunlight",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Couple holding dried flowers outdoors in natural green garden setting",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Family of three standing together on a tree-lined rural road",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Couple holding hands wading in river with mountains and forest backdrop",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Smiling couple embracing outdoors, man kissing woman's cheek in casual setting",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Bride and groom posing outdoors with flowing veil in scenic landscape setting",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Silhouetted couple holding hands on rocky outcrop overlooking misty forested lake valley",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "MOT Photography photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Couple kissing in snowy mountain landscape with snow-covered peaks behind them",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "MOT Photography photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 146,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

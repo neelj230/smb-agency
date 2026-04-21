@@ -1,0 +1,150 @@
+{
+  "name": "Bond Street Barber Shop",
+  "slug": "bond-street-barber-shop",
+  "category": "barber",
+  "address": "841 NW Bond St",
+  "city": "Bend",
+  "state": "OR",
+  "zip": "97703",
+  "phone": "(541) 312-2121",
+  "email": "bondstreetbarbershop@gmail.com",
+  "website": "http://www.bondstreetbarbers.com/",
+  "rating": 4.5,
+  "reviewCount": 396,
+  "tagline": "",
+  "brandNarrative": "Established in 2003, BSBS as the locals know it, quickly became the place where locals go for haircuts.\n\nWe have assembled an award winning group of barbers. Our mens haircuts have been voted \"The Best\" by The Source readers poll 17 years in a row.\n\nOur talented barbers listen to you and give you exactly the haircut you want. From trendy Euro haircuts to military haircuts and everything in between BSBS is the place to go. We have provided haircuts for infants as young as 7 months old to our oldest customer, a mere 98 years old.\n\nWe are a business that enjoys giving back to our community. We have raised in excess of 100,000 dollars for our community. We love Bend and Bend loves us. Please come in and say hello.  The best haircuts, hot shaves, fades and ethnic haircuts in Bend.\n\nWe offer a complimentary Boneyard RPM or other seasonal Boneyard Beer on tap.",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "8:00 AM – 5:00 PM",
+    "Tuesday": "8:00 AM – 5:00 PM",
+    "Wednesday": "8:00 AM – 5:00 PM",
+    "Thursday": "8:00 AM – 5:00 PM",
+    "Friday": "8:00 AM – 5:00 PM",
+    "Saturday": "8:00 AM – 5:00 PM",
+    "Sunday": "8:00 AM – 5:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Brad has been cutting my hair for over a year and every time it’s been amazing. I have never had a barber give so much attention to detail on my cut as him. Every time it looks even better and this last cut was the best I’ve had in years. The shop itself is also super cool and they offer you a beer with your cut as well. There are no appointments so you have to put your name on a list, but for anyone complaining about wait times - most traditional barbershops I’ve been in around the country operate this way. The haircut you’ll get here is worth it.",
+      "author": "Cameron H",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-07-28"
+    },
+    {
+      "text": "Where do you go in Bend when you want a fresh cut… good vibes… and free beers on tap while you’re at it?\n\nBond Street Barber Shop. Every time.\n\nThese guys are legit artists with the clippers. I walked out feeling sharp and relaxed—and the free beer definitely didn’t hurt!\n\nAwesome barbers, cool atmosphere, and the kind of place you actually look forward to visiting.\n\nFive stars, no question",
+      "author": "Anthony Sayles",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-07-09"
+    },
+    {
+      "text": "Friendly, free beer, tv's, clean. Great staff. Brad is awesome. Meticulous, really takes his craft seriously. Been living in Bend for 3 years now and after trying a few shops I only go there now.",
+      "author": "John Erving",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-12"
+    },
+    {
+      "text": "So this is my second time at this barber shop. I didn’t know where to go for my son’s hair ended up going here since they had walk ins. Let me tell you…. This the barber shop y’all need. For my son’s hair Seth fixed up the hair emergency he had. Then I got my brother who is visiting a cut by Gustavo. AMAZING service AMAZING atmosphere, Friendly & kid friendly. This is going to be your regular spot for a barber shop. This place is awesome. Thank you guys.",
+      "author": "Mckailah Sane",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-07-18"
+    },
+    {
+      "text": "Absolutely Amazing Amanda P. Is Probably, Potentially the Very Best Barber You'll Have ever really all the honor and pleasure to get friggin amazin' top'o'de'line service from!",
+      "author": "Lake Tore D. Dacklin",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-17"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Traditional barbershop interior with vintage decor, barber chairs, and staff serving customers",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Empty barbershop interior with vintage chairs, mirrors, and wood flooring.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Professional barber tools arranged on wooden surface including clippers, scissors, and brushes.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Barber showcasing detailed neck design haircut in barbershop interior",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Client showcasing fresh fade haircut at barbershop with styling chair visible",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Suavecito pomade container displayed next to styled hair in barbershop setting",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Bond Street Barber Shop storefront with neon signs and classic barber pole",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Back view of man with short haircut in barbershop interior",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Golf clubhouse bar counter with beer tap, memorabilia, and TV screen displaying golfer",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Street view of downtown shopping area with storefronts, parked cars, and autumn trees",
+      "category": "exterior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 396,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {
+    "facebook": "https://facebook.com/pg/bondstreetbarbershop/"
+  },
+  "competitors": [],
+  "brandColors": {
+    "primary": "#003366",
+    "accent": "#003366",
+    "note": "Extracted from business website"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "Bond Street Barber Shopof Bend, Oregon 541-312-2121bondstreetbarbershop@gmail.com841 NW Bond StBend, Oregon 97703 HomeAbout UsHaircutsBeards and ShavesCommunityTestimonialsContact Us Quality Haircuts from then and now. Adult haircuts $40Bald/Skin Fade $50Kids haircuts $35 (12 & Under, Skin Fades $50)Hot Towel Straight Razor Face/Head Shave $50Beard Trim $25 (Longer beards $30)Razor Designs vary, ask your barberWe are a walk-in only shop, no appointments necessary. We take credit cards and other digital forms of payment. var flex_options = { animation: \"fade\", slideshowSpeed: 5000, /* Speed of the slideshow cycling, in milliseconds */ animationSpeed: 600, pauseOnAction: true, controlNav: true, /* Navigation for paging control of each clide? Note: Leave true for manualControls usage */ directionNav: true } Call Us Contact Us Bond Street Barber Shop of Bend, OregonBond Street Barber Shop, where the locals go.Established in 2003, BSBS as the locals know it, quickly became the place where locals go for haircuts.We have assembled an award winning group of barbers. Our mens haircuts have been voted \"The Best\" by The Source readers poll 17 years in a row.Our talented barbers listen to you and give you exactly the haircut you want. From trendy Euro haircuts to military haircuts and everything in between BSBS is the place to go. We have provided haircuts for infants as young as 7 months old to our oldest customer, a mere 98 years old.We are a business that enjoys giving back to our community. We have raised in excess of 100,000 dollars for our community. We love Bend and Bend loves us. Please come in and say hello. The best haircuts, hot shaves, fades and ethnic haircuts in Bend.We offer a complimentary Boneyard RPM or other seasonal Boneyard Beer on tap. Shop HoursMonday - 8 AM - 5 PMTuesday - 8 AM - 5 PMWednesday - 8 AM - 5 PMThursday - 8 AM - 5 PMFriday - 8 AM - 5 PMSaturday - 8 AM - 5 PMSunday - 8 AM - 5 PMWe are hiring skilled and talented barbers now.Email us at bondstreetbarbershop@gmail.com Leave a Google Review Testimonials Great old school style barber shop in the heart of downtown. You get a beer while you wait your turn or while you\\'re in the chair, and if there is a University of Oregon game being played at the time you can be sure it\\'ll be on the big screen! zach starr, Bend Oregon Resident I cut my dreads off and came in here to get my hair fixed. This place was really cool and the guys were friendly and gave me a really good beer to drink while I got my hair cut. Bend Oregon Resident, So I went there on Saturday and right from the moment I walked in the service was great. They were really friendly and highly service oriented. It is not a place for a \\'quick\\' hair cut. They cut my hair the way I asked, trimmed my beard and every straight razored the back of my neck to give me a clean looking cut. The problem I have with other places is they cut your hair so fast that there is always a hair or two that are obviously longer then the rest. T"
+}

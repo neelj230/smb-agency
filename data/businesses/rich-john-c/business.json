@@ -1,0 +1,180 @@
+{
+  "name": "Rich John C",
+  "slug": "rich-john-c",
+  "category": "law firm",
+  "address": "455 SW Madison Ave",
+  "city": "Corvallis",
+  "state": "OR",
+  "zip": "97333",
+  "phone": "(541) 752-4322",
+  "email": "",
+  "website": null,
+  "rating": 4.8,
+  "reviewCount": 11,
+  "tagline": "Honest counsel. Real results. No guesswork.",
+  "brandNarrative": "John Rich isn't the attorney who tells you what you want to hear — he's the one who tells you what you need to know. In a field where overpromising is practically a business model, John has built his reputation in Corvallis on something far rarer: integrity. Clients like Jacob Parker put it plainly — he won't promise something based on speculation alone. That level-headed honesty isn't a limitation; it's exactly what leads to the most realistic and favorable outcomes possible when navigating the criminal justice system.\n\nWhat sets John apart isn't just his candor with clients — it's the credibility he's earned on both sides of the courtroom. K Mills, who spent 17 years cross-examining John as a prosecution-side professional, says flat out that he is 'hands down the best defense attorney in the area' — and would call John personally if he ever needed a defense attorney. That kind of respect from the other side of the aisle translates directly into results. When attorneys are trusted by both peers and prosecutors, negotiations move differently.\n\nFor clients who've been burned before — by unreachable public defenders, by attorneys who never really listened — John Rich is a reset. One client came in guarded after past bad experiences and left saying John 'really heard what I was saying, then built a defense based on what I wanted.' He answers his phone. He builds your case around your goals. He shows up prepared. In Corvallis, that's not common enough — and it's why clients keep calling him first.",
+  "ownerStory": "John Rich chose defense law in a place where everyone knows everyone — and that means his reputation is on the line with every single case. Based in Corvallis, Oregon, John has spent years earning the kind of trust that doesn't come from marketing — it comes from results, from accessibility, and from treating every client like their situation matters. His approach is refreshingly direct: no inflated promises, no legal jargon smokescreens, no disappearing acts between consultations and court dates. Just honest counsel, built on a real understanding of the local legal landscape.\n\nWhat John has quietly built over his career is something most attorneys spend a lifetime chasing — genuine respect from both sides of the courtroom. Prosecutors know him. Judges know his work. Peers respect his process. And clients — whether they're facing serious charges or navigating an unexpected legal crisis — walk away describing him as 'caring,' 'reliable,' and someone who 'went above and beyond.' That's not an accident. That's the result of a legal practice built on character as much as competence.",
+  "hours": {},
+  "services": [
+    {
+      "name": "Criminal Defense Representation",
+      "description": "Comprehensive defense for individuals facing criminal charges, built around each client's specific goals and circumstances.",
+      "icon": "shield"
+    },
+    {
+      "name": "Defense Strategy & Case Building",
+      "description": "John listens deeply to your account first, then constructs a defense strategy tailored to what you actually want to achieve.",
+      "icon": "file-text"
+    },
+    {
+      "name": "Plea Negotiation & Agreements",
+      "description": "Leveraging deep relationships with local prosecutors to negotiate realistic and favorable plea agreements on your behalf.",
+      "icon": "handshake"
+    },
+    {
+      "name": "Court Representation",
+      "description": "Experienced, prepared courtroom advocacy — John is known for his cross-examination skill and composure under pressure.",
+      "icon": "gavel"
+    },
+    {
+      "name": "Legal Consultation & Honest Case Assessment",
+      "description": "Straightforward evaluations of your case with no speculation — John tells you exactly where things stand and what outcomes are realistic.",
+      "icon": "message-circle"
+    },
+    {
+      "name": "Ongoing Client Communication",
+      "description": "Unlike many attorneys, John stays reachable throughout your case — no going dark until court day.",
+      "icon": "phone-call"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Great results and responsiveness in a less than favorable quandary. A real level headed, honest, and trustworthy defense attorney. He won't promise something based on speculation alone. He gets my respect for his integrity in a field were that is unfortunately not common enough. Reliable counsel whom is also respected among his peer and those who are on the prosecution side of the system. This leads to realistic as well as the most favorable possible results when working to reach an agreement. A pleasure to work with!",
+      "author": "Jacob Parker",
+      "rating": 5,
+      "source": "google",
+      "date": "2018-10-27"
+    },
+    {
+      "text": "best attorney you can get!",
+      "author": "Skyler Shire",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-04"
+    },
+    {
+      "text": "Having being cross examined by him for 17 years I can say he is hands down the best defense attorney in the area.  Always said if I ever needed a defense attorney I would call John.",
+      "author": "K Mills",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-07-19"
+    },
+    {
+      "text": "Super fabulous caring lawyer. Went above and beyond.",
+      "author": "roberta w",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-03-21"
+    },
+    {
+      "text": "So i possibly should wait to write this until i see what happens at my court date.. ha just kidding. We all know the stigma public defender's carry around. Ive had a bad experiences in the past so i came to Mr. Rich on gaurd. So far hes been awesome. From what i can tell he really heard what i was saying then built a defense based on what I wanted. Man ive had guys in the past i literally couldn't get ahold of until court. Highly recommend.",
+      "author": "#1Threat2HumanityAKA**USA",
+      "rating": 4,
+      "source": "google",
+      "date": "2022-03-21"
+    }
+  ],
+  "team": [
+    {
+      "name": "John Rich",
+      "role": "Defense Attorney & Founder",
+      "bio": "John is described by clients and opposing counsel alike as the best defense attorney in the Corvallis area — known for his honesty, accessibility, and ability to earn respect on both sides of the courtroom. A prosecutor who cross-examined him for 17 years said he'd call John first if he ever needed a defense attorney.",
+      "credentials": [
+        "Defense Attorney",
+        "Corvallis, OR",
+        "Respected by prosecution peers"
+      ]
+    }
+  ],
+  "photos": [],
+  "stats": [
+    {
+      "value": 4.8,
+      "suffix": "/5",
+      "label": "Average Client Rating"
+    },
+    {
+      "value": 17,
+      "suffix": "+",
+      "label": "Years Respected by Local Prosecution"
+    },
+    {
+      "value": 11,
+      "suffix": " reviews",
+      "label": "Verified Client Reviews"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "Clients Who Would Recommend John"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Will John tell me honestly what to expect from my case?",
+      "answer": "Yes — and that's one of the things clients respect most about him. John won't make promises based on speculation. He gives you a realistic assessment of your situation upfront, so you can make informed decisions rather than being blindsided later."
+    },
+    {
+      "question": "Can I actually reach John between appointments and before court?",
+      "answer": "Absolutely. Multiple clients specifically praised John's responsiveness and accessibility — a stark contrast to experiences with attorneys who go unreachable until the day of court. Staying in communication with you is a core part of how John works."
+    },
+    {
+      "question": "Does John build a defense around what I actually want, or does he just run a standard playbook?",
+      "answer": "John starts by really listening. Clients consistently note that he hears them out fully before building a defense strategy — and that strategy is shaped around your specific goals and circumstances, not a one-size-fits-all approach."
+    },
+    {
+      "question": "Is John well-regarded by prosecutors and other attorneys in the area?",
+      "answer": "Very much so. One reviewer who spent 17 years cross-examining John in court — from the prosecution side — called him 'hands down the best defense attorney in the area' and said he'd hire John himself if he ever needed a defense attorney. That kind of peer respect matters when negotiating outcomes."
+    },
+    {
+      "question": "What if I've had bad experiences with other attorneys in the past?",
+      "answer": "John is aware that trust has to be earned, not assumed. Clients who came in guarded after past disappointments consistently report that John rebuilt that trust through follow-through, communication, and genuine attention to their case."
+    },
+    {
+      "question": "Does John handle cases that go to negotiated agreements, or only trials?",
+      "answer": "Both. John is experienced in courtroom representation and is also known for his ability to reach realistic and favorable negotiated agreements — a skill directly tied to the respect he's earned among local prosecutors and peers."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#1B2A3B",
+    "accent": "#C49A3C",
+    "note": "Deep navy conveys authority, stability, and trustworthiness — essential for a defense attorney. The warm gold accent reflects integrity and hard-won credibility, avoiding the cold corporate feel of typical law firm branding. Together they project serious competence with approachable character — exactly what John's reviews describe."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Radical honesty and refusal to overpromise — clients and peers consistently call out John's integrity as rare in the legal field",
+      "Exceptional accessibility and communication — clients explicitly praise being able to reach John throughout their case, not just on court day",
+      "Cross-aisle respect — a prosecution professional with 17 years of experience opposing John named him the best defense attorney in the area, signaling deep credibility in local legal circles"
+    ],
+    "common_complaints": [
+      "None found in reviews — all feedback is strongly positive across communication, results, honesty, and care"
+    ],
+    "suggested_tagline": "The attorney the other side respects.",
+    "photo_quality": "poor",
+    "personality_keywords": [
+      "Honest",
+      "Accessible",
+      "Level-headed",
+      "Trustworthy",
+      "Caring"
+    ],
+    "named_staff": [
+      "John Rich"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

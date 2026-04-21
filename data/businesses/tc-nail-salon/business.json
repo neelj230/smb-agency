@@ -107,19 +107,13 @@
       "name": "Anna",
       "role": "Nail Technician – Pedicure & Ingrown Toenail Specialist",
       "bio": "Anna specializes in pedicures with a particular skill for ingrown toenail care, earning the deep trust of clients who specifically request her services and wait patiently for her chair.",
-      "credentials": [
-        "Pedicure Services",
-        "Ingrown Toenail Care"
-      ]
+      "credentials": ["Pedicure Services", "Ingrown Toenail Care"]
     },
     {
       "name": "Mom",
       "role": "Senior Nail Technician & Co-Owner",
       "bio": "Known affectionately as 'the mother,' this senior family member delivers pedicures that long-time clients describe as 'perfection,' anchoring the salon's reputation for consistent, quality care.",
-      "credentials": [
-        "Pedicure Services",
-        "9+ Years Client Relationships"
-      ]
+      "credentials": ["Pedicure Services", "9+ Years Client Relationships"]
     }
   ],
   "photos": [
@@ -249,10 +243,6 @@
       "neighborhood institution",
       "detail-obsessed"
     ],
-    "named_staff": [
-      "Mai",
-      "Anna",
-      "Mom"
-    ]
+    "named_staff": ["Mai", "Anna", "Mom"]
   }
 }

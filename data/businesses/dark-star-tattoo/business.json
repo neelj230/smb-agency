@@ -1,0 +1,146 @@
+{
+  "name": "Dark Star Tattoo",
+  "slug": "dark-star-tattoo",
+  "category": "tattoo",
+  "address": "2360 State St",
+  "city": "Salem",
+  "state": "OR",
+  "zip": "97301",
+  "phone": "(503) 763-9696",
+  "email": "",
+  "website": null,
+  "rating": 4.7,
+  "reviewCount": 110,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Closed",
+    "Tuesday": "11:00 AM – 7:00 PM",
+    "Wednesday": "11:00 AM – 7:00 PM",
+    "Thursday": "11:00 AM – 7:00 PM",
+    "Friday": "11:00 AM – 7:00 PM",
+    "Saturday": "11:00 AM – 7:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Cilla was amazing. The wife and I stopped in for spontaneous tattoos. She drew them up the way we described, did amazing work and it was cheaper than expected, all in the same day! She'll get our tattoo business from now on.",
+      "author": "Scott Potter",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-03"
+    },
+    {
+      "text": "Great place to get an excellent tattoo from talented and personable artists......Erik and Ryan are great artists that can really bring your vision to life. Erik did an amazing job on my lively wife's dragon tatoo with geisha. These guys are great and the prices are amazing.",
+      "author": "Erik Mahmoudi",
+      "rating": 5,
+      "source": "google",
+      "date": "2017-10-20"
+    },
+    {
+      "text": "Fantastic artists. All of them have there own styles. Very laid back and chill vibes. I went to Erik for a full back piece and he has done an awesome job. They pride themselves on there work. This is my go to forever I love it here.",
+      "author": "J J",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-04-22"
+    },
+    {
+      "text": "Love coming her! Erik is my artist, but Ryan is awesome too! Definitely a fun place, and they have amazing talent.",
+      "author": "Eva Coppedge",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-11-30"
+    },
+    {
+      "text": "I'm town for vacation and made an appointment with Ryan to get some work done to remember this trip. A friend and I booked appointments and send pictures of the art ideas and locations and he had sketches ready to go over when we arrived. Loved that he took the idea but offered an artist approach to make it my/his own and what would look best in the area and would age well.\nShop was comfortable and welcoming. Chair was comfy for sitting for 3 hours. Ryan was chill and nice to talk with making the experience overall very good. I would recommend the shop and especially Ryan to others.",
+      "author": "Lawana Martin",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-09-30"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Colorful tattoo artwork featuring skull, brain, gun, and sci-fi elements",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Vibrant colorful tattoo sleeve featuring skull, UFOs, and sci-fi imagery",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Dark Star Tattoo photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Close-up tattoo of acoustic guitar with sheet music and decorative elements on forearm",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Colorful fantasy landscape tattoo featuring cave entrance, flowers, and mystical scenery",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Dark Star Tattoo shop storefront sign with skull logo on gray building wall",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Colorful detailed tattoo featuring demons and glowing green laser beams on arm",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Display case with decorative skeleton figures wearing flower garland and colorful base ornament",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Dark Star Tattoo photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Detailed black and gray steampunk tattoo featuring gears and mechanical elements on shoulder",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 110,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.7,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

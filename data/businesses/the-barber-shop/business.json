@@ -1,0 +1,146 @@
+{
+  "name": "The Barber Shop",
+  "slug": "the-barber-shop",
+  "category": "barber",
+  "address": "130 E 13th Ave",
+  "city": "Eugene",
+  "state": "OR",
+  "zip": "97401",
+  "phone": "(541) 844-1755",
+  "email": "",
+  "website": "https://m.facebook.com/TheBarbershopEugene/",
+  "rating": 4.5,
+  "reviewCount": 227,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:30 AM – 5:30 PM",
+    "Tuesday": "9:30 AM – 5:30 PM",
+    "Wednesday": "9:30 AM – 5:30 PM",
+    "Thursday": "9:30 AM – 5:30 PM",
+    "Friday": "9:30 AM – 5:30 PM",
+    "Saturday": "11:00 AM – 4:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Mary, thank you for cutting my hair today and also for the wonderful conversation. You’re a gift to your community. Unfortunately, I can’t be there on a regular basis because I live on the southern Oregon coast, but whenever I make it that way, I will definitely go no where else.\n\nSCO DUCKS",
+      "author": "Jeffrey Fisk",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-27"
+    },
+    {
+      "text": "Loved it! I was 11 minutes late and they still got me and my boy in and done with great cuts!! And it cost less than basically everywhere around me. I really enjoyed the atmosphere there too. All around just great! Pic is of my boy during his cut. If I remember I'll post a shot of after later.",
+      "author": "Greg Owens",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-08-05"
+    },
+    {
+      "text": "The Barber Shop is the only barbershop that matters.\n\n$15 cuts that are on par with the $30+ cuts you'd get elsewhere, & you even get a free barley pop, with your patronage. 🍺🍺🍺\n\nAaaaaaand if you're wondering, the products they have are top notch as well. Specifically, I'm a major fan of the Bonafide & Layrite matte stuff.\n\nSeriously. I love this place so much, I had to design them business cards that matched their greatness. So, go in & grab a few to spread the word!",
+      "author": "Nick Gaskill",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-12-31"
+    },
+    {
+      "text": "I’ve been coming here to get my hair cut with Darren for almost 7 years now, and he has reliably given me a phenomenal haircut time after time again. He always keeps me company and the value is great ($20 for a cut). I highly recommend it!",
+      "author": "Lucas Castillo Delgado",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-09-01"
+    },
+    {
+      "text": "Jim tells a lot of great stories, and gives a fast and clean haircut. Always enjoyable to have him as a barber. I've gone here 3 times repeatedly because service is prompt, prices are reasonable, and Jim is an entertaining & interesting person.",
+      "author": "Bones",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-10-16"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Barber shop interior with stylist cutting customer's hair while wearing mask",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "The Barber Shop storefront with red and white signage and open neon sign displayed",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Interior of sports bar with patrons seated at counter and trash bin with face mask disposal sign.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Barber giving haircut to young boy in barbershop with cape drape",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Interior of a barber shop with customers and staff, large windows overlooking street.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Barber shop interior with stylist working on male client in chair",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Storefront of The Barber Shop with large windows and brick facade",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Barber shop interior with stylist cutting customer's hair at counter",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Barber wearing mask cuts young client's hair in shop interior",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Empty barbershop interior with wooden furniture, mirrors, and styling stations",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 227,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

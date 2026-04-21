@@ -1,0 +1,174 @@
+{
+  "name": "Dreamer's Daycare",
+  "slug": "dreamers-daycare",
+  "category": "daycare",
+  "address": "2979 Bailey Ave",
+  "city": "Medford",
+  "state": "OR",
+  "zip": "97504",
+  "phone": "(541) 772-0619",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 4,
+  "tagline": "Where little dreamers grow into themselves.",
+  "brandNarrative": "Dreamer's Daycare isn't just a place to drop your kids off — it's a community that families return to year after year, decade after decade. One parent, Michelle Hobson, has trusted Dreamer's with her daughter for over ten years, starting when she was just 18 months old. That kind of loyalty doesn't happen by accident. It happens because Nicole and her team have built something rare: a daycare with genuine structure, daily enrichment through music, reading, and art, and the kind of warm, welcoming atmosphere that makes children feel genuinely at home.\n\nWhat separates Dreamer's Daycare from the rest of the Rogue Valley is the intentionality behind everything they do. This isn't a babysitting operation — it's a developmental environment. Nicole's teachers are CPR and first aid certified, continuously investing in their own training, and knowledgeable in caring for children with handicaps. That commitment to inclusion and safety means every child, regardless of ability, has a place here. Play time is built in. So is structure. So is love.\n\nFor parents in Medford and the surrounding valley, Dreamer's has become more than a childcare solution — it's a trusted second home. The reviews speak in the language of hearts and decades, not just stars. Donelle Evans described it simply: 'Loved this for my daughter.' That warmth, that sense of belonging, is the real product Dreamer's Daycare delivers every single day.",
+  "ownerStory": "Nicole has spent years building something that most childcare providers only talk about: a daycare where structure meets soul. At Dreamer's Daycare on Bailey Ave in Medford, she and her team have created a curriculum-rich environment that balances the predictability children need with the creativity they thrive on — music sessions, story time, art projects, and open play woven together into a daily rhythm that kids look forward to. Nicole doesn't just hire teachers; she builds a team that keeps growing, keeps training, and keeps showing up with the same care on day one as on year ten.\n\nWhat makes Nicole's approach stand out is her commitment to every child in her care, including those with special needs. Families trust her not only because she is certified and credentialed, but because she has proven over many years that she sees each child as an individual. The 10-year relationship with one family isn't an anomaly — it's the standard Nicole sets for herself. Dreamer's Daycare is her life's work, and it shows in every parent who says, simply, that they loved it.",
+  "hours": {},
+  "services": [
+    {
+      "name": "Structured Daily Programming",
+      "description": "A consistent daily schedule balancing learning, creative play, and rest to give children the routine they need to thrive.",
+      "icon": "calendar-check"
+    },
+    {
+      "name": "Music & Arts Enrichment",
+      "description": "Daily music and art activities designed to spark creativity, self-expression, and early cognitive development.",
+      "icon": "music"
+    },
+    {
+      "name": "Early Literacy & Reading Time",
+      "description": "Guided reading sessions that build early language skills and a lifelong love of books in a nurturing group setting.",
+      "icon": "book-open"
+    },
+    {
+      "name": "Inclusive Care for Children with Special Needs",
+      "description": "Knowledgeable, compassionate support for children with handicaps, ensuring every child feels welcomed and valued.",
+      "icon": "heart-handshake"
+    },
+    {
+      "name": "Supervised Free Play",
+      "description": "Safe, stimulating playtime that builds social skills, motor development, and childhood joy under attentive supervision.",
+      "icon": "smile"
+    },
+    {
+      "name": "Infant & Toddler Care",
+      "description": "Loving, age-appropriate care for children as young as 18 months in a warm and secure environment.",
+      "icon": "baby"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Best daycare in the valley. My daughter has been going there since she was 18 months old (10 years).  Nicole and her teachers provide structure, music, reading, art, play time, and a welcoming community. They are always continuing their training, certified in CPR and first aide, knowledgeable with children with handicaps.",
+      "author": "Michelle Hobson",
+      "rating": 5,
+      "source": "google",
+      "date": "2016-01-29"
+    },
+    {
+      "text": "Loved this for my daughter❤️",
+      "author": "Donelle Evans",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-01-17"
+    },
+    {
+      "text": "",
+      "author": "Ashly Russell",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-04-16"
+    },
+    {
+      "text": "",
+      "author": "Kerri Jensen",
+      "rating": 5,
+      "source": "google",
+      "date": "2015-11-16"
+    }
+  ],
+  "team": [
+    {
+      "name": "Nicole",
+      "role": "Owner & Lead Teacher",
+      "bio": "Nicole founded and leads Dreamer's Daycare with a hands-on approach, building a team that is continuously trained, CPR and first aid certified, and deeply knowledgeable about caring for children of all abilities. Families have trusted her for over a decade.",
+      "credentials": [
+        "CPR Certified",
+        "First Aid Certified",
+        "Special Needs Care Training",
+        "Continuous Professional Development"
+      ]
+    }
+  ],
+  "photos": [],
+  "stats": [
+    {
+      "value": 5,
+      "suffix": "★",
+      "label": "Perfect Rating on Google"
+    },
+    {
+      "value": 10,
+      "suffix": "+",
+      "label": "Years Some Families Have Trusted Us"
+    },
+    {
+      "value": 18,
+      "suffix": " mo+",
+      "label": "Youngest Age We Welcome"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "CPR & First Aid Certified Staff"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What age groups does Dreamer's Daycare accept?",
+      "answer": "Dreamer's Daycare welcomes children starting as young as 18 months old, providing loving, age-appropriate care through early childhood. Contact Nicole directly at (541) 772-0619 to discuss your child's specific age and needs."
+    },
+    {
+      "question": "What does a typical day look like for my child?",
+      "answer": "Each day is thoughtfully structured to include music, reading, art, and open play time — giving children both the creative enrichment and the predictable routine they need to feel safe and engaged."
+    },
+    {
+      "question": "Does Dreamer's Daycare accommodate children with special needs or disabilities?",
+      "answer": "Yes. Nicole and her team are specifically knowledgeable in caring for children with handicaps and are committed to creating an inclusive, welcoming environment for every child regardless of ability."
+    },
+    {
+      "question": "Are the teachers certified in safety training?",
+      "answer": "Absolutely. All teachers at Dreamer's Daycare are certified in CPR and first aid, and the team continually pursues ongoing professional training to stay current with best practices in early childhood care."
+    },
+    {
+      "question": "What makes Dreamer's Daycare different from other daycares in the Rogue Valley?",
+      "answer": "Parents describe Dreamer's as the best daycare in the valley — and many have kept their children enrolled for 10 or more years. The combination of structured enrichment programming, inclusive care, continuous teacher training, and a genuine sense of community sets Dreamer's apart."
+    },
+    {
+      "question": "How do I enroll my child or learn more?",
+      "answer": "The best way to get started is to call Nicole directly at (541) 772-0619. Dreamer's Daycare is located at 2979 Bailey Ave in Medford, OR 97504. No website is currently available, so a phone call is the fastest way to ask questions and schedule a visit."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#5B8CCC",
+    "accent": "#F7C948",
+    "note": "Soft sky blue reflects trust, nurturing, and calm — exactly what parents want to feel dropping their child off. Warm golden yellow captures childhood wonder, creativity, and the joy of art and music that reviewers specifically mentioned. Together they feel playful but professional, warm but safe."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Exceptional long-term family loyalty — one parent enrolled her daughter for over 10 years, signaling deep trust and consistent quality",
+      "Holistic enrichment curriculum — music, reading, art, and structured play are all explicitly mentioned, showing this is far more than basic childcare",
+      "Inclusive and credentialed care — staff are CPR/first aid certified, continuously trained, and specifically equipped to support children with handicaps"
+    ],
+    "common_complaints": [
+      "None found — all reviews are 5 stars and no negative themes appear in any written feedback"
+    ],
+    "suggested_tagline": "Ten years in, still their favorite place.",
+    "photo_quality": "poor",
+    "personality_keywords": [
+      "nurturing",
+      "structured",
+      "inclusive",
+      "community-driven",
+      "trusted"
+    ],
+    "named_staff": [
+      "Nicole"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

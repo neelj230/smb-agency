@@ -1,0 +1,240 @@
+{
+  "name": "Willpower Electric, LLC",
+  "slug": "willpower-electric-llc",
+  "category": "electrician",
+  "address": "24 Ehrman Way",
+  "city": "Medford",
+  "state": "OR",
+  "zip": "97501",
+  "phone": "(541) 535-3965",
+  "email": "",
+  "website": null,
+  "rating": 4.8,
+  "reviewCount": 16,
+  "tagline": "Real Power. Real Savings. Real Simple.",
+  "brandNarrative": "Willpower Electric isn't just another electrician — they're the team that helped a Talent, OR homeowner go fully carbon neutral in 12 months, watched a 4,000+ square-foot home drop its electric bill from $300+ to $38 a month, and spent 30 minutes on a free phone call walking a confused tiny-home owner through her inherited solar system just because it was the right thing to do. Led by Bruce, the company's heart and hands-on force, Willpower Electric handles everything from initial consultation and system design to utility coordination, state permitting, and tax credit filing — making genuinely complex energy projects feel manageable for everyday homeowners.\n\nWhat sets Willpower apart is a rare combination of technical depth and human warmth. Customers consistently describe Bruce as kind, honest, and thorough — the kind of electrician who shows up within 48 hours, explains exactly what your home needs, and tells you the truth even when it costs him a sale. One customer received a competing quote demanding full wire replacement; Bruce solved the same problem in 10 minutes at a reasonable price. That's not a fluke — it's a pattern across every review. The business handles grid-tied solar, battery backup systems, EV charging station installation, solar charge controllers, AllEarth solar trackers, and commercial rooftop installations, bringing a full-spectrum renewable energy capability to Southern Oregon.\n\nBased in Medford and serving the greater Rogue Valley, Willpower Electric operates Monday through Friday with a focused, professional team that treats every project — from a quick panel diagnosis to a 10.35 kW grid-tied residential installation — with the same level of care. Their photos tell the story visually: rooftop arrays against mountain vistas, ground-mounted systems in rural forest settings, ChargePoint EV charging stations, and workers in safety gear doing the real work in all weather. This is a company that has clearly earned its 4.8-star reputation one honest job at a time.",
+  "ownerStory": "Bruce is the kind of electrician who still drops by a year after installation just to review your generation data with you over the holidays. That's not a sales call — that's someone who genuinely wants to know if the system worked. Customers across Medford and the Rogue Valley describe him as the face, voice, and driving force behind Willpower Electric: answering his own phone, returning calls promptly, showing up within 48 hours for quotes, and spending real time explaining the technical side of solar in plain language. He's been spotted on rooftops in wet weather, walking homeowners through complex battery backup configurations, and navigating the maze of Pacific Power coordination and Oregon tax credit filings so his clients never have to.\n\nWhat makes Bruce's story compelling isn't a slick origin narrative — it's a consistent track record of doing the harder, more honest thing. He told one customer her wiring was fine when a competitor said she needed full replacement. He helped a first-time solar inheritor troubleshoot her tiny-home system over the phone at no charge. He guided a family through designing a solar array so efficient that their 4,000-square-foot home nearly reached net-zero energy. The name 'Willpower' isn't accidental — it reflects the persistence, integrity, and genuine belief in clean energy that drives this business forward every single day.",
+  "hours": {
+    "Monday": "8:00 AM – 5:00 PM",
+    "Tuesday": "8:00 AM – 5:00 PM",
+    "Wednesday": "8:00 AM – 5:00 PM",
+    "Thursday": "8:00 AM – 5:00 PM",
+    "Friday": "8:00 AM – 5:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Residential Solar Installation",
+      "description": "Full-service rooftop and ground-mounted solar system design and installation, including grid-tied systems with battery backup, tailored to your home's orientation, shading, and energy goals.",
+      "icon": "sun"
+    },
+    {
+      "name": "Battery Backup Systems",
+      "description": "Solar-integrated battery storage systems that keep your home powered during grid outages, recharged continuously by your solar array.",
+      "icon": "battery-charging"
+    },
+    {
+      "name": "Commercial Solar Installation",
+      "description": "Rooftop solar panel systems for commercial buildings, engineered for maximum generation and installed with professional-grade metal framing and weatherproofing.",
+      "icon": "building-2"
+    },
+    {
+      "name": "EV Charging Station Installation",
+      "description": "Professional installation of electric vehicle charging stations including ChargePoint and similar systems for residential and commercial properties.",
+      "icon": "plug-zap"
+    },
+    {
+      "name": "Electrical Panel Service & Repair",
+      "description": "Honest diagnostics, repair, and upgrades for residential electrical panels — fast, efficient, and priced fairly with no unnecessary upsells.",
+      "icon": "zap"
+    },
+    {
+      "name": "Solar Permitting, Utility Coordination & Tax Credit Filing",
+      "description": "End-to-end administrative support including coordination with Pacific Power, state permitting, and Oregon solar tax credit filing so you don't have to navigate it alone.",
+      "icon": "file-check"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Bruce came out within 48 hours of my call and provided a thorough quote and explanation of our home's electric needs. He was kind and professional and we will highly recommend his business to our friends and family. We look forward to calling again when we're ready for solar power!",
+      "author": "Kayla Rapet",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-01-15"
+    },
+    {
+      "text": "This month (December 2017) marks 1 year since the installation of the 10.35 kW grid tied solar electric system at my residence in Talent, OR.\nI couldn't be happier!\nBruce dropped by today (12/30/17) and we reviewed the generation data for the last 12 months. Despite the smoke this past summer, the system generated as much energy as I consumed - which means my home is carbon neutral!\nSo Giving myself a big pat on the back and checking that off on my bucket list.\nEveryone won't be as fortunate as I am. I have nearly ideal roof orientation and only minor shading from trees, etc.\nMany, many thanks to Bruce and his entire team at Will Power Electric! They helped every step of the way from initial consulting through design, through coordination with the state and Pacific Power, and filing for the tax credits. They made complex stuff seem easy.\nThe system Will Power installed is quite robust as it includes a battery backup system that is recharged by the solar system even during power outages. If Bruce says they can handle it - they can!\nThis entire event and its outcome could not have been better.",
+      "author": "Joseph Wismann",
+      "rating": 5,
+      "source": "google",
+      "date": "2017-12-31"
+    },
+    {
+      "text": "Willpower’s expertise, equipment and technology coupled with their outstanding work has made our solar experience stellar in every way.  We love our Allearth tracker and our first bill went from 300 plus dollars to 38 dollars a month even dealing with clouds and smoke!  When we upgrade our 20 year old heating and cooling system in our next phase we will achieve a near 0 energy house with over 4000 square feet and a 7.92KW system - that is fantastic!",
+      "author": "Gary Riley",
+      "rating": 5,
+      "source": "google",
+      "date": "2018-11-06"
+    },
+    {
+      "text": "I inherited a solar system in my tiny home and have very little knowledge or experience. I was having trouble so I called around to hopefully get some advice. Bruce returned my call promptly and then spent 30 minutes on the phone with me explaining both the basics of solar power and the specifics of my system. He walked me through the steps to hopefully solve my problem in the most cost and time efficient way. I look forward to hiring his services in the future!",
+      "author": "Bridgette Extraordiaire",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-12-29"
+    },
+    {
+      "text": "I use this electrican today and it took him 10 minutes to solve my electrical problem. Mr. Will was professional, efficient and he explained everything he had to do.  And the price was reasonable. I receive another estimate and was told I had to have wires replaced. Thank you Mr. Will for your honesty",
+      "author": "Pamela Arrington",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-05-25"
+    }
+  ],
+  "team": [
+    {
+      "name": "Bruce",
+      "role": "Owner & Lead Electrician",
+      "bio": "Bruce is the hands-on driving force behind Willpower Electric — personally handling consultations, system design, installations, and follow-up visits. Customers praise him for his honesty, promptness, and ability to make complex solar and electrical concepts genuinely understandable.",
+      "credentials": [
+        "Grid-tied solar system design",
+        "Battery backup integration",
+        "Utility & permitting coordination",
+        "Oregon tax credit filing support"
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Single-story commercial building with blue roof and solar panels in parking lot",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Solar panels installed on rooftop with mountain valley landscape in background",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Ground-mounted solar panel array with four panels in rural forest setting",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Solar panel installation on commercial building roof with blue metal frame and trees.",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Solar panel array mounted on snow-covered ground with mountain vista backdrop",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Technician in yellow helmet repairs electrical panel with circuit boards and wiring.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "ChargePoint+ electric vehicle charging station with orange EV charging only sign",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Four FLEXmax solar charge controllers mounted above control panel with monitoring display.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Worker installing electrical wiring on solar panel system outdoors",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Worker in yellow safety gear installing equipment on wet metal roof",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 4.8,
+      "suffix": "★",
+      "label": "Average Customer Rating"
+    },
+    {
+      "value": 16,
+      "suffix": "+",
+      "label": "Verified Customer Reviews"
+    },
+    {
+      "value": 7,
+      "suffix": "+",
+      "label": "Years Serving the Rogue Valley"
+    },
+    {
+      "value": 10,
+      "suffix": ".35 kW",
+      "label": "Largest Documented Residential System Installed"
+    }
+  ],
+  "faq": [
+    {
+      "question": "How quickly can I expect a response or quote after contacting Willpower Electric?",
+      "answer": "Bruce typically responds promptly and has been known to come out for a thorough on-site quote within 48 hours of an initial call, as multiple customers have noted."
+    },
+    {
+      "question": "Can Willpower Electric handle everything from design through permits and utility hookup?",
+      "answer": "Yes — they manage the entire process end to end, including solar system design, coordination with Pacific Power, state permitting, and filing for Oregon tax credits, so you don't have to navigate those steps alone."
+    },
+    {
+      "question": "Will my solar system actually offset my full energy usage?",
+      "answer": "Results vary by roof orientation, shading, and system size, but Willpower has helped customers achieve full carbon neutrality (a 10.35 kW system in Talent generated as much as the home consumed) and dramatic bill reductions (one 7.92 kW system brought a $300+ monthly bill down to $38)."
+    },
+    {
+      "question": "Do you offer battery backup in case the grid goes down?",
+      "answer": "Yes — Willpower installs solar-integrated battery backup systems that continue charging from your solar panels even during a power outage, keeping your home running independently."
+    },
+    {
+      "question": "I already have a solar system installed by someone else — can Willpower Electric help me troubleshoot or service it?",
+      "answer": "Absolutely. Bruce has helped customers with inherited or third-party-installed solar systems, including walking homeowners through diagnostics over the phone and providing on-site service when needed."
+    },
+    {
+      "question": "Are your prices honest and competitive?",
+      "answer": "Customers consistently highlight Willpower's pricing as fair and transparent. In one case, Bruce resolved an electrical issue in 10 minutes at a reasonable price after a competitor had quoted unnecessary and costly wire replacement."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#1B4D8E",
+    "accent": "#F5A623",
+    "note": "Deep solar blue reflects trust, technical expertise, and clean energy — grounding the brand in professionalism and the Southern Oregon sky. The warm amber-orange accent mirrors sunlight and solar panels, nodding directly to the company's core product while conveying optimism and energy without feeling corporate."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Bruce's personal responsiveness and hands-on involvement in every project builds deep customer trust and loyalty",
+      "End-to-end solar project management — from design through permitting, utility coordination, and tax credit filing — removes all friction for homeowners",
+      "Radical honesty and fair pricing: multiple reviews specifically call out Bruce for solving problems efficiently and refusing to upsell unnecessary work"
+    ],
+    "common_complaints": [
+      "None found — all 16 reviews are 5-star and no negative themes appear in the review data"
+    ],
+    "suggested_tagline": "Solar Done Right. By Someone Who Cares.",
+    "photo_quality": "good",
+    "personality_keywords": [
+      "honest",
+      "knowledgeable",
+      "responsive",
+      "hands-on",
+      "genuinely helpful"
+    ],
+    "named_staff": [
+      "Bruce"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

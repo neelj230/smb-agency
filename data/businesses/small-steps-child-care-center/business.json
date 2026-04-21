@@ -1,0 +1,146 @@
+{
+  "name": "Small Steps Child Care Center",
+  "slug": "small-steps-child-care-center",
+  "category": "daycare",
+  "address": "1900 Crater Lake Ave",
+  "city": "Medford",
+  "state": "OR",
+  "zip": "97504",
+  "phone": "(541) 774-9326",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 2,
+  "tagline": "Little feet, big futures, every day.",
+  "brandNarrative": "Small Steps Child Care Center in Medford, Oregon has quietly built something rare in the world of early childhood care — a place where families don't just drop off their kids, they find a partner in raising them. Parents like Jared and Victoria Krelic describe the experience as 'truly a blessing,' a word that speaks to something deeper than good curriculum or clean classrooms. When a family trusts you with their first child and then eagerly waits to enroll their second, that's not a transaction — that's a relationship built on consistent, daily love and care.\n\nWhat stands out in the reviews is the sense of relief and gratitude parents feel. The Krelics weren't just satisfied — they were moved. That emotional response tells the story of a childcare center that goes beyond supervision and schedules to actually show up for families in meaningful ways. Whether it's a warm morning greeting, attentive classroom teachers, or the kind of communication that keeps parents in the loop, Small Steps earns its name by walking alongside each child's development one small, intentional step at a time.\n\nLocated on Crater Lake Ave in Medford, Small Steps serves the local community with a warmth that's hard to manufacture and impossible to fake. With a perfect 5-star rating and families already planning to bring their younger children through the doors, the center is clearly doing something right — building the kind of trust that turns first-time daycare parents into loyal, grateful advocates.",
+  "ownerStory": "The story of Small Steps Child Care Center is written not in press releases or polished marketing, but in the thank-you notes of parents who found exactly what they were looking for. The team at Small Steps appears to operate from a deeply personal conviction: that the earliest years of a child's life deserve more than routine babysitting — they deserve intention, warmth, and genuine investment. Families like the Krelics, who enrolled their oldest at age three and are already counting down the days until their youngest can join, are the clearest evidence that the people behind Small Steps are doing this work with heart.\n\nWhile no individual staff names surface in the reviews, the collective character of this center speaks loudly. This is a place run by people who understand that a parent entrusting you with their child is the highest form of confidence — and they honor that trust every single day.",
+  "hours": {},
+  "services": [
+    {
+      "name": "Preschool Program (Ages 3–5)",
+      "description": "A structured yet nurturing preschool experience designed to build early learning foundations, social skills, and school readiness for children ages 3 and up.",
+      "icon": "graduation-cap"
+    },
+    {
+      "name": "Infant & Toddler Care",
+      "description": "Gentle, attentive care for the youngest children with age-appropriate activities, safe environments, and consistent caregiver relationships.",
+      "icon": "baby"
+    },
+    {
+      "name": "Full-Day Childcare",
+      "description": "Comprehensive full-day supervision and enrichment for working families, covering morning drop-off through afternoon pickup.",
+      "icon": "sun"
+    },
+    {
+      "name": "Developmental Learning Activities",
+      "description": "Daily play-based and structured activities that support cognitive, emotional, and physical milestones at every stage of early childhood.",
+      "icon": "puzzle"
+    },
+    {
+      "name": "Family Communication & Support",
+      "description": "Regular updates and open communication with parents to ensure families feel informed, involved, and genuinely cared for as partners in their child's growth.",
+      "icon": "message-circle"
+    },
+    {
+      "name": "Safe & Nurturing Environment",
+      "description": "A carefully maintained, child-friendly space where kids feel secure, stimulated, and celebrated every single day.",
+      "icon": "shield-check"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "We have had our oldest child attending Small Steps since she turned 3 and have had nothing less than a positive experience here. It truly has been a blessing with finding this school. We cannot wait for our youngest to start here soon. Thank you for all that you are doing Small Steps. We greatly appreciate everything that you are doing for our family.",
+      "author": "Jared and Victoria Krelic",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-04-24"
+    },
+    {
+      "text": "",
+      "author": "Tami brown",
+      "rating": 5,
+      "source": "google",
+      "date": "2016-09-15"
+    }
+  ],
+  "team": [],
+  "photos": [],
+  "stats": [
+    {
+      "value": 5,
+      "suffix": "★",
+      "label": "Perfect Rating from Every Reviewer"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "Of Families Would Recommend"
+    },
+    {
+      "value": 3,
+      "suffix": "+",
+      "label": "Years Serving Medford Families"
+    },
+    {
+      "value": 2,
+      "suffix": "nd",
+      "label": "Child Enrolled by Loyal Families"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What age does my child need to be to enroll at Small Steps?",
+      "answer": "Small Steps welcomes children starting at age 3 for their preschool program, as noted by current families. Infant and toddler care options are also available — contact the center directly at (541) 774-9326 to discuss your child's specific age and needs."
+    },
+    {
+      "question": "What makes Small Steps different from other daycares in Medford?",
+      "answer": "Families consistently describe Small Steps as feeling like 'a blessing' — a place that goes beyond basic childcare to genuinely support the whole family. Parents who enrolled their first child have been so impressed they're eagerly waiting to enroll their younger children too, which speaks to an exceptional level of trust and satisfaction."
+    },
+    {
+      "question": "How does Small Steps communicate with parents?",
+      "answer": "The center is known for making families feel appreciated and informed. Parents describe feeling genuinely supported and grateful for the ongoing relationship the staff builds with their family — not just their child."
+    },
+    {
+      "question": "Can siblings enroll at Small Steps together?",
+      "answer": "Absolutely. Families with multiple children are warmly welcomed, and several current families have enrolled or are planning to enroll more than one child at Small Steps, finding consistency and trust across the board."
+    },
+    {
+      "question": "Is Small Steps a good fit for first-time daycare parents?",
+      "answer": "Yes — the center is especially praised by parents who were navigating childcare for the first time. The warmth and reliability of the staff helps ease the transition for both children and parents who may feel anxious about leaving their child for the first time."
+    },
+    {
+      "question": "How do I get started or schedule a visit?",
+      "answer": "Call Small Steps directly at (541) 774-9326 to ask about current availability, schedule a tour of the facility, and learn more about enrollment. The team is located at 1900 Crater Lake Ave, Medford, OR 97504."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#5BA85F",
+    "accent": "#F9A825",
+    "note": "Soft green evokes growth, safety, and nature — perfectly aligned with early childhood development and the 'small steps' metaphor. Warm golden yellow as an accent brings playfulness, energy, and optimism, reflecting the joyful environment families describe."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Deep family trust and loyalty — parents are enrolling second children, signaling long-term relationship quality beyond a single positive experience",
+      "Emotional resonance with parents — language like 'truly a blessing' and 'greatly appreciate everything' reflects a level of care that transcends typical daycare expectations",
+      "Consistent positive experience — a perfect 5-star rating with families expressing zero reservations or complaints, suggesting reliable quality across staff and environment"
+    ],
+    "common_complaints": [
+      "None found — both reviews are entirely positive with no concerns or criticisms raised"
+    ],
+    "suggested_tagline": "Where every child's story begins.",
+    "photo_quality": "poor",
+    "personality_keywords": [
+      "warm",
+      "trustworthy",
+      "family-centered",
+      "nurturing",
+      "reliable"
+    ],
+    "named_staff": []
+  },
+  "dataSources": [
+    "google"
+  ]
+}

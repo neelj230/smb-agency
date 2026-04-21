@@ -1,0 +1,232 @@
+[
+  {
+    "slug": "bellish-nail-lounge",
+    "template": "_reference-warm-editorial",
+    "category": "nail salon"
+  },
+  {
+    "slug": "boss-plumbing-heating",
+    "template": "_reference-bold-stats",
+    "category": "plumber"
+  },
+  {
+    "slug": "barbershop-denim",
+    "template": "_reference-dark-immersive",
+    "category": "barber"
+  },
+  {
+    "slug": "the-bakeshop-on-twentieth",
+    "template": "_reference-restaurant-dark",
+    "category": "bakery"
+  },
+  {
+    "slug": "no-ka-oi-tiki-tattoo",
+    "template": "_reference-ehunter",
+    "category": "tattoo parlor"
+  },
+  {
+    "slug": "major-league-cuts",
+    "template": "_reference-marketing",
+    "category": "barber"
+  },
+  {
+    "slug": "queen-nails-spa",
+    "template": "_reference-wellness-glass",
+    "category": "nail salon"
+  },
+  {
+    "slug": "daves-artistic-tattoo",
+    "template": "_reference-warm-editorial",
+    "category": "tattoo parlor"
+  },
+  {
+    "slug": "oregon-coast-childcare",
+    "template": "_reference-gardener",
+    "category": "daycare"
+  },
+  {
+    "slug": "rothe-florists-flower-delivery",
+    "template": "_reference-warm-editorial",
+    "category": "florist"
+  },
+  {
+    "slug": "laugh-learn-childcare",
+    "template": "_reference-handyman",
+    "category": "daycare"
+  },
+  {
+    "slug": "kens-automotive",
+    "template": "_reference-trades-clean",
+    "category": "auto repair"
+  },
+  {
+    "slug": "a-precious-pet",
+    "template": "_reference-gardener",
+    "category": "pet groomer"
+  },
+  {
+    "slug": "willpower-electric-llc",
+    "template": "_reference-heatfix",
+    "category": "electrician"
+  },
+  {
+    "slug": "cozy-cottage-child-care",
+    "template": "_reference-clean-services",
+    "category": "daycare"
+  },
+  {
+    "slug": "studio-49-photography",
+    "template": "_reference-cleaning",
+    "category": "photography studio"
+  },
+  {
+    "slug": "ertell-electric-llc",
+    "template": "_reference-bold-stats",
+    "category": "electrician"
+  },
+  {
+    "slug": "jazzys-doggy-spaw",
+    "template": "_reference-dark-immersive",
+    "category": "pet groomer"
+  },
+  {
+    "slug": "rich-john-c",
+    "template": "_reference-heatfix",
+    "category": "law firm"
+  },
+  {
+    "slug": "precious-angels-llc",
+    "template": "_reference-kids-camp",
+    "category": "daycare"
+  },
+  {
+    "slug": "waynes-tax-services-inc",
+    "template": "_reference-trades-clean",
+    "category": "accounting firm"
+  },
+  {
+    "slug": "liebert-liebert-cpa",
+    "template": "_reference-agevia",
+    "category": "accounting firm"
+  },
+  {
+    "slug": "clark-s-willes-attorney-at-law",
+    "template": "_reference-dreelio",
+    "category": "law firm"
+  },
+  {
+    "slug": "early-learning-center",
+    "template": "_reference-dark-immersive",
+    "category": "daycare"
+  },
+  {
+    "slug": "toms-electrical",
+    "template": "_reference-clean-services",
+    "category": "electrician"
+  },
+  {
+    "slug": "amandas-mvp-grooming-llc",
+    "template": "_reference-opurent",
+    "category": "pet groomer"
+  },
+  {
+    "slug": "hillsboro-electric-llc",
+    "template": "_reference-trades-clean",
+    "category": "electrician"
+  },
+  {
+    "slug": "pattys-little-minions-childcare-llc",
+    "template": "_reference-warm-editorial",
+    "category": "daycare"
+  },
+  {
+    "slug": "real-learning-llc",
+    "template": "_reference-gardener",
+    "category": "tutoring service"
+  },
+  {
+    "slug": "albany-heating-air-conditioning",
+    "template": "_reference-stratex",
+    "category": "hvac contractor"
+  },
+  {
+    "slug": "david-a-corden",
+    "template": "_reference-arpeggio",
+    "category": "law firm"
+  },
+  {
+    "slug": "douglas-m-bomarito-law-firm",
+    "template": "_reference-ehunter",
+    "category": "law firm"
+  },
+  {
+    "slug": "little-village-learning-center",
+    "template": "_reference-bold-stats",
+    "category": "daycare"
+  },
+  {
+    "slug": "current-electric",
+    "template": "_reference-cleaning",
+    "category": "electrician"
+  },
+  {
+    "slug": "rockwellfoto",
+    "template": "_reference-mobius",
+    "category": "photography studio"
+  },
+  {
+    "slug": "dreamers-daycare",
+    "template": "_reference-draftr",
+    "category": "daycare"
+  },
+  {
+    "slug": "grace-childcare-medford-oregon",
+    "template": "_reference-heatfix",
+    "category": "daycare"
+  },
+  {
+    "slug": "village-childcare-llc",
+    "template": "_reference-bamzi",
+    "category": "daycare"
+  },
+  {
+    "slug": "powell-valley-preschool-and-child-care",
+    "template": "_reference-forest-therapy",
+    "category": "daycare"
+  },
+  {
+    "slug": "b-easy-grooming",
+    "template": "_reference-agevia",
+    "category": "pet groomer"
+  },
+  {
+    "slug": "the-highway-is-green-photography",
+    "template": "_reference-opurent",
+    "category": "photography studio"
+  },
+  {
+    "slug": "bernt-jacobsen-attorney",
+    "template": "_reference-platform",
+    "category": "law firm"
+  },
+  {
+    "slug": "henderson-electric",
+    "template": "_reference-stratex",
+    "category": "electrician"
+  },
+  {
+    "slug": "linda-lamprecht-cpa-pc",
+    "template": "_reference-arpeggio",
+    "category": "accounting firm"
+  },
+  {
+    "slug": "happy-trails-childcare",
+    "template": "_reference-dreelio",
+    "category": "daycare"
+  },
+  {
+    "slug": "small-steps-child-care-center",
+    "template": "_reference-etery",
+    "category": "daycare"
+  }
+]

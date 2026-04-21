@@ -1,0 +1,146 @@
+{
+  "name": "Repair Remodel Contractors LLC",
+  "slug": "repair-remodel-contractors-llc",
+  "category": "handyman",
+  "address": "3895 Tulare Ave S",
+  "city": "Salem",
+  "state": "OR",
+  "zip": "97302",
+  "phone": "(503) 302-3653",
+  "email": "",
+  "website": null,
+  "rating": 4.9,
+  "reviewCount": 15,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "8:00 AM – 5:00 PM",
+    "Tuesday": "8:00 AM – 5:00 PM",
+    "Wednesday": "8:00 AM – 5:00 PM",
+    "Thursday": "8:00 AM – 5:00 PM",
+    "Friday": "8:00 AM – 5:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Terrific !  Repair &Remodel is more than the name indicates.  There is team of 6 ( if needed) for jobs big or small.\nMy kitchen fan repair above my  stove was tricky and the solution was cleaver.  Gas line and electric power  were safely handled and the workers  were made aware of the shut off valve in the basement  BEFORE. ANY WORK STARTED .  The wall needed repairs and holes filled and then dry wall applied.  Now I can paint it easily .\nJob 2 . A second story storm sash with  dry rot . Window retrieved and in their workshop, repaired, repainted and after 1 day rehung .\nBoth projects done so well.  Costs  via a proposal were made clear and much less than I would have thought with the time involved .   Certainly fair pricing .\n\nSalem customer",
+      "author": "Cathy Pozar",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-24"
+    },
+    {
+      "text": "I never write reviews,  but John and his team exceeded every expectation we had. He thoughtfully designed and expertly built our basic outdoor shower idea into the most beautiful and serene shower and experience.  He even surprised us at the end with these fine finish details.  It amazes me how architecturally it blends perfectly with our home and natural outdoor environment. Excellent quality work and attention to detail.  From beginning to end we had great communication and knew what was happening all of the time and when they’d be there etc. which isn’t always the case with contractors.  They were very efficient.  I could go on and on, but hope this review will let others know they’re in the best hands. Extremely caring people and cleaned up well also! Thanks again John and entire Repair and Remodel team!!",
+      "author": "Beachcombing Ray",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-18"
+    },
+    {
+      "text": "Fantastic job! John and his crew were fast and efficient. Kind and wanted to make sure we’re satisfied with work. We needed emergency deck repair and we didn’t have funds to do a complete new deck, John came up with a solution that was safe and helped saved us money. We’re grateful that his motivation was to help us and not focused on what could make him the most money. I respect that the motives is to create a relationship for future opportunities and to be known in the Salem area as someone you can depend on. We found John business card at AC Hardware few months ago. Needed some small work on a door so we called, we were satisfied. Then we had an emergency with our deck and reached out again for this bigger job.",
+      "author": "Nenah - Starting From Scratch",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-24"
+    },
+    {
+      "text": "John and his crew were punctual, polite and very detail oriented.  We are a non profit and in the process of expanding our office.  I grabbed John's card from Ace Hardware specifically for his handyman services.  I will be calling Repair Remodel back again when I have another project for them.",
+      "author": "Jennifer Humbert",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-12"
+    },
+    {
+      "text": "Got John Ritter's card from South Salem Ace and when I texted him, he called back almost immediately to set up an appointment to give us am estimate for a bathroom update and repair.\nJohn was punctual and respectful of the house, gave a competitive quote and also gave free advice on how to cut costs! He and his crew did great work and finished ON TIME: no delays or unexpected surprises. I will recommend him to our friends and neighbors.",
+      "author": "Daisy Leung",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-07-30"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Modern dining room with white shiplap walls, chandelier, and kitchen pass-through window",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Modern kitchen interior with white cabinets, granite countertops, and wood island",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Modern kitchen with white cabinets, gray countertops, stainless steel appliances, and tile flooring.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Modern white kitchen with island, stainless steel appliances, and wood flooring",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Repair Remodel Contractors LLC photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Modern taupe composite deck stairs with horizontal siding attached to residential house exterior.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Two workers installing or inspecting a stainless steel gas range in a yellow kitchen",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Kitchen renovation in progress with yellow cabinets and newspaper-covered countertop",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Outdoor shower enclosure with wooden walls and hanging showerhead against house",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Beige horizontal siding fence panel installed on residential house exterior",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 15,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

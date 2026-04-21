@@ -1,0 +1,146 @@
+{
+  "name": "KingZ Hand Wash & Detail Center",
+  "slug": "kingz-hand-wash-detail-center",
+  "category": "auto detailing",
+  "address": "1207-09 Passyunk Ave",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19147",
+  "phone": "(267) 707-8002",
+  "email": "",
+  "website": null,
+  "rating": 4.6,
+  "reviewCount": 126,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "8:00 AM – 6:00 PM",
+    "Tuesday": "8:00 AM – 6:00 PM",
+    "Wednesday": "8:00 AM – 6:00 PM",
+    "Thursday": "8:00 AM – 6:00 PM",
+    "Friday": "8:00 AM – 7:00 PM",
+    "Saturday": "8:00 AM – 7:00 PM",
+    "Sunday": "9:00 AM – 2:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "KingZ made my 2010 SUV look like a 2025.  I had the interior cleaned and shampood due to the interior looking like it had been in a flood, as I purchased it from an auto auction.  I normally am pretty good with cleaning my cars interior however, this job was too much for me, so I decided to use a detailer for the first time.  Glad I did!  Every inch of the interior looks new.  The air vents are even shining, along with the center console, seat belt fasteners!!!  Nothing was overlooked.  I'll definitely be back with my other car.",
+      "author": "Yukon Denali",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-24"
+    },
+    {
+      "text": "Nice work. They are trusted with my classics. And another beautiful job. Thank you!!",
+      "author": "Harry Gratz",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-26"
+    },
+    {
+      "text": "Suspicious of any bad reviews of this place. They put in the WORK to scrub down my absolutely disgusting family car every time. They don’t care what your kids smear in the back seats, they will get it out!!",
+      "author": "Sara Gruen",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-07"
+    },
+    {
+      "text": "First and last time coming here, customer service was ok. I called ahead to see what packages they offered I have a brand new car so I didn’t need a shampoo. The woman said I needed. A basic interior clean and explained it took about a half hour to 45 minutes. Vacuum all crevices, wipe down everything inside. Wash my mats ect. I had to pull over and clean it again after they were done whatever they used  on my back seat left some residue in my car. Dash wasn’t even wiped with a rag, will not ever come here again. Maybe educate the people that answer the phones so they don’t provide false info if that is if she was wrong or the people were just lazy. I feel like he rushed because a bmw came in right behind me. Doors weren’t even wiped. They literally spent 7 minutes or lesss on my car because I was on hold with my bank before I even got there , maybe a minute. I thought they were going to pull it on the curb to do the inside but apparently they were done.\n\nI just won’t return here again 🤷‍♀️",
+      "author": "Shannon Zsirai",
+      "rating": 2,
+      "source": "google",
+      "date": "2025-10-06"
+    },
+    {
+      "text": "Broke my brake lights, draining my battery and requiring me to take it to a mechanic to fix. Tried to get a small refund for the price of the mechanic and they refused and said I was lying. Do not recommend.",
+      "author": "Emily Rose",
+      "rating": 1,
+      "source": "google",
+      "date": "2025-10-03"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "KingZ Hand Wash & Detail Center photo 1",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Silver sedan parked inside auto repair shop with blue walls and equipment",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "KingZ Hand Wash Detail Center storefront with blue and white facade and decorative chairs",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "KingZ Hand Wash & Detail Center photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "White Ford F-Series tow truck with hydraulic lift parked at gas station",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Black convertible sports car undergoing repair in auto shop garage",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Dark blue Toyota Camry parked in industrial garage with wet concrete floor",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "White Mazda CX-5 SUV displayed in covered parking area, front three-quarter view.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Mini Cooper parked on urban street with roof rack and orange warning sign visible",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Silver sedan car parked on driveway, overhead view showing exterior condition",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 126,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.6,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

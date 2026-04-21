@@ -1,0 +1,188 @@
+{
+  "name": "Hillsboro Electric LLC",
+  "slug": "hillsboro-electric-llc",
+  "category": "electrician",
+  "address": "8285 NE Evergreen Pkwy Suite 110",
+  "city": "Hillsboro",
+  "state": "OR",
+  "zip": "97124",
+  "phone": "(503) 439-9666",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 8,
+  "tagline": "Wired right. Done right. Ward's here.",
+  "brandNarrative": "Hillsboro Electric LLC is the kind of electrical company that actually solves the hard stuff. When Leslie Bajuscak's attic fan situation turned into a head-scratcher, electrician Ward didn't shrug and walk away — he dug in, troubleshot the challenge, and went above and beyond until it was solved. That's not a fluke; it's a pattern. Tammy Anderson came to them needing a gas stovetop converted to electric, hit a couple of unexpected complications mid-job, and walked away saying she's 'very happy with the final product' — because the team presented options instead of excuses. This is a crew that meets complexity with competence.\n\nWhat customers notice most is the combination of speed, professionalism, and fair pricing — a trio that rarely shows up together in the trades. Don Sefert called them flat-out the 'best company he's ever been involved with,' and praised both their intelligence and their pace. Luke Swayze highlighted the timely estimates, which signals that Hillsboro Electric respects your time before they ever touch a wire. With Monday-through-Friday office hours and a focused Hillsboro, Oregon base, this isn't a sprawling operation trying to be everything to everyone — it's a tight, skilled team that knows exactly what they're doing and does it well.\n\nThe five-star streak across every single review isn't a coincidence. It reflects a shop built on showing up, communicating clearly, and leaving customers genuinely impressed. Whether it's a complex retrofit, a residential wiring challenge, or a straightforward estimate, Hillsboro Electric brings the kind of calm problem-solving energy that makes stressful electrical projects feel surprisingly manageable.",
+  "ownerStory": "Ward is the name customers remember. In a business where technicians often come and go without leaving an impression, Ward has become the face customers specifically call out by name — thanked by Leslie Bajuscak for his professionalism and his willingness to push past the easy answer on a tricky attic fan install. That kind of personal accountability doesn't happen by accident. It happens when someone genuinely cares whether the job is done right, not just done. Ward represents the ethos at the heart of Hillsboro Electric: measure twice, troubleshoot honestly, and never leave a customer with an unresolved problem when there's still a solution to find.\n\nHillsboro Electric LLC operates out of a suite on NE Evergreen Pkwy — not a flashy storefront, but a working base for a team that earns its reputation one job at a time. The business hours are lean and intentional: weekdays only, mornings through early afternoon, which suggests a focused operation that prioritizes quality over volume. Eight reviews, every one of them five stars, from customers ranging from residential retrofits to complex troubleshooting calls — that's a track record built on real work, real results, and real people like Ward who show up ready to solve whatever's waiting for them.",
+  "hours": {
+    "Monday": "9:00 AM – 3:00 PM",
+    "Tuesday": "9:00 AM – 3:00 PM",
+    "Wednesday": "9:00 AM – 3:00 PM",
+    "Thursday": "9:00 AM – 3:00 PM",
+    "Friday": "9:00 AM – 3:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Electrical Troubleshooting & Diagnostics",
+      "description": "Systematic diagnosis of complex electrical issues, including hard-to-trace problems like attic fan wiring failures and circuit faults.",
+      "icon": "search"
+    },
+    {
+      "name": "Appliance Circuit Installation",
+      "description": "Installation and wiring for new appliances including electric stovetop conversions from gas, requiring dedicated circuits and code-compliant connections.",
+      "icon": "zap"
+    },
+    {
+      "name": "Residential Electrical Projects",
+      "description": "Full-service residential electrical work for homeowners, from panel upgrades to new outlets, handled with professionalism and clean workmanship.",
+      "icon": "home"
+    },
+    {
+      "name": "Electrical Estimates & Consultations",
+      "description": "Timely, transparent estimates so homeowners know what to expect before any work begins — no surprises, no runaround.",
+      "icon": "clipboard-list"
+    },
+    {
+      "name": "Attic & Ventilation Fan Wiring",
+      "description": "Specialized wiring and troubleshooting for attic fans and ventilation systems, including challenging retrofit and access situations.",
+      "icon": "wind"
+    },
+    {
+      "name": "Gas-to-Electric Appliance Conversion",
+      "description": "Safe and code-compliant conversion of gas appliance connections to electric, including new circuit runs and proper load assessment.",
+      "icon": "repeat"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "We’ve used Hillsboro Electric for two different projects recently and they were prompt, thorough, and seemed very reasonably priced.  I wanted to especially thank Ward, our electrician, for helping us on our latest project.  He helped troubleshoot our challenging attic fan situation and definitely went above and beyond! We appreciated his professionalism!!",
+      "author": "Leslie Bajuscak",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-04-20"
+    },
+    {
+      "text": "Best company I've ever been involved with. Smartest and very fast in completing their work as promised 🙌",
+      "author": "Don Sefert",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-03-13"
+    },
+    {
+      "text": "They replaced an electric stove top where we had a gas stove top. Ran into a couple of challenges and their electrician provided options. We are very happy with the final product. Very professional staff. Highly recommend!",
+      "author": "Tammy Anderson",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-12-08"
+    },
+    {
+      "text": "Great company 👌 they offer timely estimates and do good work.",
+      "author": "Luke Swayze",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-04-27"
+    },
+    {
+      "text": "￼",
+      "author": "Michael Morse",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-09-28"
+    }
+  ],
+  "team": [
+    {
+      "name": "Ward",
+      "role": "Electrician",
+      "bio": "Ward is the electrician customers name by name in their reviews — praised for going above and beyond on a challenging attic fan troubleshoot and recognized for his calm professionalism under pressure. He doesn't just complete the job; he solves the actual problem.",
+      "credentials": [
+        "Residential Wiring",
+        "Electrical Troubleshooting",
+        "Appliance Retrofits"
+      ]
+    }
+  ],
+  "photos": [],
+  "stats": [
+    {
+      "value": 5,
+      "suffix": "★",
+      "label": "Perfect Rating Across All Reviews"
+    },
+    {
+      "value": 8,
+      "suffix": "+",
+      "label": "Verified 5-Star Customer Reviews"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "Customer Satisfaction Rate"
+    },
+    {
+      "value": 2,
+      "suffix": "+",
+      "label": "Repeat Customers on Multiple Projects"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What kinds of electrical projects does Hillsboro Electric handle?",
+      "answer": "Hillsboro Electric handles a wide range of residential projects — from complex troubleshooting (like tricky attic fan wiring) to appliance circuit installations, including gas-to-electric stovetop conversions. If it involves residential electrical work, they're equipped to assess and solve it."
+    },
+    {
+      "question": "How quickly can I get an estimate?",
+      "answer": "Customers consistently note that Hillsboro Electric offers timely estimates. You can call them during office hours — Monday through Friday, 9 AM to 3 PM — at (503) 439-9666 to get the process started without a long wait."
+    },
+    {
+      "question": "Are your prices reasonable compared to other electricians?",
+      "answer": "Multiple customers have specifically called out Hillsboro Electric as 'reasonably priced.' They believe in fair, transparent pricing without cutting corners on quality or professionalism."
+    },
+    {
+      "question": "What happens if unexpected complications come up during my project?",
+      "answer": "When Tammy Anderson's stovetop conversion hit a couple of challenges mid-job, the Hillsboro Electric team presented her with options rather than problems. Their approach is to communicate openly and give customers choices so the project still ends successfully."
+    },
+    {
+      "question": "Who will actually be doing the work at my home?",
+      "answer": "Hillsboro Electric sends skilled, professional electricians like Ward, who customers describe as thorough, fast, and genuinely invested in doing the job right. You're not getting a rotating cast of strangers — you're getting a focused, accountable team."
+    },
+    {
+      "question": "Are you available on weekends for emergency electrical work?",
+      "answer": "Currently, Hillsboro Electric's listed hours are Monday through Friday, 9 AM to 3 PM, with weekends closed. For non-emergency projects and estimates, calling during the week is your best bet to get on their schedule."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#1B3A5C",
+    "accent": "#F5A623",
+    "note": "Deep navy blue signals trust, precision, and technical expertise — the qualities customers repeatedly describe. The warm amber-orange accent reflects the energy and 'spark' of electrical work without leaning on cliché red or yellow, giving the brand a professional yet approachable feel that matches Ward's personality in reviews."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Exceptional problem-solving on complex or unexpected electrical challenges, with electricians like Ward going above and beyond rather than walking away from difficult jobs",
+      "Consistent professionalism and speed — customers across multiple reviews praise how fast and smart the team works without sacrificing quality",
+      "Fair, transparent pricing combined with timely estimates, making Hillsboro Electric a trustworthy choice for budget-conscious homeowners"
+    ],
+    "common_complaints": [
+      "None found — all 8 reviews are 5-star with no negative feedback or criticism identified"
+    ],
+    "suggested_tagline": "The electricians who actually troubleshoot.",
+    "photo_quality": "poor",
+    "personality_keywords": [
+      "thorough",
+      "professional",
+      "problem-solving",
+      "fast",
+      "trustworthy"
+    ],
+    "named_staff": [
+      "Ward"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

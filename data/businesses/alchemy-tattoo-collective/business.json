@@ -1,0 +1,151 @@
+{
+  "name": "Alchemy Tattoo Collective",
+  "slug": "alchemy-tattoo-collective",
+  "category": "tattoo",
+  "address": "220 Liberty St NE",
+  "city": "Salem",
+  "state": "OR",
+  "zip": "97301",
+  "phone": "(971) 599-5932",
+  "email": "info@indiantypefoundry.com",
+  "website": "http://www.alchemytattoosalem.com/",
+  "rating": 4.6,
+  "reviewCount": 154,
+  "tagline": "",
+  "brandNarrative": "Welcome Welcome Welcome Welcome Welcome Welcome Welcome Welcome HomeTattoo Portfolios/BookingPiercingsAboutMoreHomeTattoo Portfolios/BookingPiercingsAboutHomeTattoo Portfolios/BookingPiercingsAbout",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "12:00 – 6:00 PM",
+    "Tuesday": "12:00 – 6:00 PM",
+    "Wednesday": "12:00 – 6:00 PM",
+    "Thursday": "12:00 – 6:00 PM",
+    "Friday": "12:00 – 6:00 PM",
+    "Saturday": "12:00 – 6:00 PM",
+    "Sunday": "12:00 – 6:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Fernando is hands-down the best when it comes to tattooing. His skill, precision, and attention to detail are next-level, and you can tell he truly cares about his craft and his clients. He takes the time to listen, makes you feel completely comfortable, and delivers work that somehow exceeds expectations every time. The line work is flawless, the shading is beautiful, and the final result feels both artistic and personal. If you’re looking for someone you can fully trust with your skin, Fernando is absolutely the one.",
+      "author": "Tamra Southerton",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-27"
+    },
+    {
+      "text": "I have been coming to this shop for a couple years. They ALWAYS have a variety of amazing artists specializing in various styles of tattoos. I highly recommend this shop. Ellie is extremely creative and her artistry is brilliant!!! ❤️‍🔥 Whether you choose her flash, or a custom, YOU WILL NOT BE DISAPPOINTED.\n\nAnother artist, who does phenomenal color tattoos, is Kilee (localdreamertattoos)\n\nOne of the owners, Bexey, has done some tattoos for me and I get non stop compliments on my arm. 😍\n\nGO TO THIS SHOP NOWWWWWWW! Your artist is waiting. 🖤🖤🖤",
+      "author": "Lindsey Powers",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-07-24"
+    },
+    {
+      "text": "I had such a great experience with Ellie of Ellie Rose tattoo! The whole booking experience was really well communicated and Ellie puts in so much work outside of the appointment to get the vibe of the concept right. i made an appointment for a gauzy ribbon Bow and Ellie sent through so many different types and was super helpful In helping me narrow down what I wanted. Ultimately we found the perfect design and then Ellie made sure I was 100% happy with the placement! Moving it for me several times. I highly recommend booking with Ellie if you value creative one of a kind concepts, and unique flash. Ellie is so sweet and talented and takes so much time outside the appointment to make sure you're really happy with the design. I'll definitely be booking again.",
+      "author": "Ynez Mahoney",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-04-20"
+    },
+    {
+      "text": "A friend and I did a walk-in today and met Dru, who did amazing Mothman's for us! He was super chill and fun to talk with/vibe during the tattooing. Would highly recommend meeting him and seeing his amazing work! Genuinely such a great tattoo experience, would really recommend him for people newer to tattoos as he's such an easy to connect with guy.",
+      "author": "Kayla Thommen",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-20"
+    },
+    {
+      "text": "Amazing experience going in for a walk in tattoo. My best friend and I got tattooed by Drew. He was very kind, funny, and talented. If you have a tattoo idea call him up. Drew is for sure my new favorite tattoo artist. Couldn’t have asked for a better experience.",
+      "author": "Kurtis Totten",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-20"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Alchemy Tattoo Collective photo 1",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Colorful flower tattoo on shoulder displayed next to matching reference image on laptop screen",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Black and gray portrait tattoo of masked figure on human skin",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Alchemy Tattoo Collective photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Modern office or showroom interior with leather seating, granite countertops, and display areas",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Tattoo of a coin featuring a profile portrait labeled Drew with circular border design",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Storefront of Alchemy Tattoo and Collective tattoo shop with green awning and brick facade",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Detailed black and gray tattoo of a nun with skull face on person's upper arm",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Detailed tattoo of plague doctor character with top hat and long beak mask on arm",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Close-up of person's arm displaying tattoo of ribbons and bow design indoors.",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 154,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.6,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {
+    "facebook": "https://facebook.com/332575743813320",
+    "instagram": "https://instagram.com/alchemy_tattoo_salem"
+  },
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "Welcome Welcome Welcome Welcome Welcome Welcome Welcome Welcome HomeTattoo Portfolios/BookingPiercingsAboutMoreHomeTattoo Portfolios/BookingPiercingsAboutHomeTattoo Portfolios/BookingPiercingsAbout Welcome to Alchemy Tattoo Collective TattoosAt Alchemy Tattoo Collective , we specialize in creating unique and personalized tattoos that showcase our clients' individuality. Our team of licensed and experienced artists work closely with each client to ensure that their vision is brought to life in a beautiful and lasting way.Portfolios and bookingPiercingsWhether you're looking for a simple ear piercing or a more complex body piercing, Aaron has you covered. With over 13 years of experience, he uses only the highest quality jewelry and equipment to ensure a safe and comfortable experience.Contact Aaron Our StudioMike Rau Connect With Us Check out 105.5 The MoonEngage to Launch Copyright © 2026 Alchemy Tattoo Collective - All Rights Reserved.Powered by \"use strict\";Core.utils.onAllowCookieTracking(function () {const queryString = window.location.search;const urlParams = new URLSearchParams(queryString);const whiteList = ['gclid', 'fbclid', 'gdan_clid'];const belongToList = list => item => list.includes(item);const belongToWhiteList = belongToList(whiteList);Array.from(urlParams).forEach(param => {const [queryKey, queryResult] = param;if (!belongToWhiteList(queryKey)) return;localStorage.setItem(queryKey, queryResult);});}); \"use strict\";Core.utils.onAllowCookieTracking(() => {if (!document.cookie.includes(\"x-visitor-id\")) {!function (o, i, e = 60) {const t = new Date();t.setTime(t.getTime() + 864e5 * e);const n = `expires=${t.toUTCString()}`;document.cookie = `${o}=${i};${n};path=/`;}(\"x-visitor-id\", crypto.randomUUID(), 60);}});"
+}

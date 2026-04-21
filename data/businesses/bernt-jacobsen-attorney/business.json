@@ -1,0 +1,154 @@
+{
+  "name": "Bernt Jacobsen Attorney",
+  "slug": "bernt-jacobsen-attorney",
+  "category": "law firm",
+  "address": "7609 SW Beveland St",
+  "city": "Portland",
+  "state": "OR",
+  "zip": "97223",
+  "phone": "(503) 892-9301",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 2,
+  "tagline": "Gets It Done. Every Time.",
+  "brandNarrative": "Bernt Jacobsen Attorney is the kind of law practice that earns its reputation through results, not rhetoric. With a perfect 5-star rating and a client who said it plainly — 'The attorney who gets it done!' — this is a firm built on execution. In a world where legal matters drag on, breed anxiety, and rarely deliver clear answers, Bernt Jacobsen cuts through the noise and moves things forward. That clarity is rare. Clients notice it immediately.\n\nLocated in Portland's southwest corridor on Beveland Street, the firm operates with disciplined hours — Monday through Thursday from 8 AM to 5 PM, and wrapping early on Fridays. This isn't a 24/7 legal mill grinding through volume. It's a focused, intentional practice where attention is the product. The compact hours signal something about the philosophy: quality over quantity, depth over breadth. When you get Bernt Jacobsen on your case, you get real legal focus.\n\nThe firm's identity is crystallized in four words left by a real client: 'The attorney who gets it done.' No fluff, no hedging — just a practitioner who delivers outcomes. In legal matters, that reputation is everything. Whether navigating complex personal legal challenges or steering a business through uncertain legal terrain, clients leave this office knowing they had an advocate who was actually in their corner and actually moved the needle.",
+  "ownerStory": "Bernt Jacobsen built this practice on a simple but powerful premise: clients come to an attorney because they need something resolved, not just discussed. With an office in the Tigard-area of Portland and a practice model that prioritizes direct, results-focused representation, Jacobsen has earned the kind of word-of-mouth praise that no marketing budget can manufacture. 'The attorney who gets it done' isn't a slogan — it's what a real client said after working with him.\n\nThe law is complicated enough without an attorney who obscures it further. Jacobsen's approach strips away the unnecessary complexity and focuses on what the client actually needs: a clear strategy, honest communication, and relentless follow-through. That combination — competence paired with action — is what makes this a practice people trust and return to. In Portland's crowded legal market, Bernt Jacobsen has carved out something simple and valuable: a reputation for delivering.",
+  "hours": {
+    "Monday": "8:00 AM – 5:00 PM",
+    "Tuesday": "8:00 AM – 5:00 PM",
+    "Wednesday": "8:00 AM – 5:00 PM",
+    "Thursday": "8:00 AM – 5:00 PM",
+    "Friday": "8:00 AM – 3:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Legal Consultation & Case Strategy",
+      "description": "One-on-one consultations where Bernt Jacobsen evaluates your situation and builds a clear, actionable legal strategy tailored to your goals.",
+      "icon": "message-square"
+    },
+    {
+      "name": "Contract Review & Drafting",
+      "description": "Thorough review and drafting of contracts to protect your interests before you sign or negotiate any binding agreement.",
+      "icon": "file-text"
+    },
+    {
+      "name": "Business Law & Transactions",
+      "description": "Legal guidance for business formation, operations, disputes, and transactional matters to keep your business on solid legal ground.",
+      "icon": "briefcase"
+    },
+    {
+      "name": "Civil Litigation & Dispute Resolution",
+      "description": "Assertive representation in civil disputes — in court or at the negotiating table — with a focus on achieving real outcomes efficiently.",
+      "icon": "scale"
+    },
+    {
+      "name": "Estate Planning & Documents",
+      "description": "Wills, powers of attorney, and estate planning documents drafted with precision to protect you and your family's future.",
+      "icon": "shield"
+    },
+    {
+      "name": "Real Estate Legal Services",
+      "description": "Legal support for residential and commercial real estate transactions, title issues, and property disputes in the Portland metro area.",
+      "icon": "home"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "The attorney who gets it done!",
+      "author": "Simply Exhausted",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-12-11"
+    },
+    {
+      "text": "",
+      "author": "Ellyn Greenwald",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-05-24"
+    }
+  ],
+  "team": [],
+  "photos": [],
+  "stats": [
+    {
+      "value": 5,
+      "suffix": "★",
+      "label": "Perfect Client Rating"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "5-Star Reviews"
+    },
+    {
+      "value": 8,
+      "suffix": " AM",
+      "label": "Early Start Every Weekday"
+    },
+    {
+      "value": 1,
+      "suffix": "",
+      "label": "Focused Attorney, Undivided Attention"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What makes Bernt Jacobsen different from other Portland attorneys?",
+      "answer": "Clients sum it up themselves: 'The attorney who gets it done.' Bernt Jacobsen is known for cutting through complexity, communicating clearly, and delivering real results — not just legal opinions. The focus is on your outcome, not billable hours."
+    },
+    {
+      "question": "How do I schedule a consultation?",
+      "answer": "You can reach the office directly by phone at (503) 892-9301. The office is open Monday through Thursday from 8:00 AM to 5:00 PM and Friday from 8:00 AM to 3:00 PM. Calling early in the week gives you the best chance of a same-week appointment."
+    },
+    {
+      "question": "What types of legal matters does this firm handle?",
+      "answer": "While specific practice areas vary, the firm's reputation is built on practical, results-driven legal work. Common areas for a firm of this profile include business law, contracts, civil disputes, estate planning, and real estate matters. Call to discuss your specific situation."
+    },
+    {
+      "question": "Is the firm accepting new clients?",
+      "answer": "The best way to find out is to call (503) 892-9301 during business hours. Given the firm's focused model, Bernt Jacobsen is selective about caseload to ensure every client receives full attention."
+    },
+    {
+      "question": "Where is the office located and is there parking?",
+      "answer": "The office is located at 7609 SW Beveland St, Portland, OR 97223, in the Tigard area of southwest Portland. The location is easily accessible from major southwest Portland routes with convenient local parking typical of the area."
+    },
+    {
+      "question": "Does the firm offer free initial consultations?",
+      "answer": "Consultation policies vary. Contact the office directly at (503) 892-9301 to ask about initial consultation options and how to best describe your legal matter before your first appointment."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#1B3A5C",
+    "accent": "#C8973A",
+    "note": "Deep navy conveys trust, authority, and calm competence — the emotional foundation of a results-driven law practice. The warm gold accent signals achievement, value, and the kind of confident execution that earned the 'gets it done' reputation. Together they feel established without being stuffy — approachable but serious."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Results-oriented reputation — clients literally describe the attorney as someone who 'gets it done,' which is the highest compliment in legal services",
+      "Perfect 5-star rating signals consistent client satisfaction and zero documented dissatisfaction",
+      "Focused, boutique practice model suggests personalized attention and intentional caseload management"
+    ],
+    "common_complaints": [
+      "None found — no negative feedback in available reviews"
+    ],
+    "suggested_tagline": "Your Legal Problem, Actually Solved.",
+    "photo_quality": "poor",
+    "personality_keywords": [
+      "results-driven",
+      "decisive",
+      "trustworthy",
+      "focused",
+      "no-nonsense"
+    ],
+    "named_staff": []
+  },
+  "dataSources": [
+    "google"
+  ]
+}

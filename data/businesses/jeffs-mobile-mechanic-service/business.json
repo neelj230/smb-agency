@@ -1,0 +1,146 @@
+{
+  "name": "Jeffs Mobile Mechanic Service",
+  "slug": "jeffs-mobile-mechanic-service",
+  "category": "mobile mechanic",
+  "address": "10719 SW Boones Ferry Rd",
+  "city": "Portland",
+  "state": "OR",
+  "zip": "97219",
+  "phone": "(503) 505-8502",
+  "email": "",
+  "website": null,
+  "rating": 4.7,
+  "reviewCount": 132,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "8:00 AM – 6:00 PM",
+    "Tuesday": "8:00 AM – 6:00 PM",
+    "Wednesday": "8:00 AM – 6:00 PM",
+    "Thursday": "8:00 AM – 6:00 PM",
+    "Friday": "8:00 AM – 6:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "So my check engine light came on yesterday and I called around and decided to go with Jeff because he seemed honest, kind and fair over the phone. And he did not disappoint! He was able to fit me in today (the next day) and diagnosed/resolved my issue in a quick and efficient manner. I felt taken care of and priced extremely fairly, and felt that I could check in with him if I continued to see issues.",
+      "author": "Saya Stephenson",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-05"
+    },
+    {
+      "text": "Best experience I’ve had with a mechanic in Portland. Jeff and Kirsten came out to my place, assessed the damage and got my car running quickly and efficiently. They were straight up with me about the condition of the car, and let me know about a couple issues I might need to address in the future. They didn’t try to sell me anything I didn’t need and they were very fair about pricing. I would recommend these guys in a heart beat.",
+      "author": "Hannah Purroy",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-08"
+    },
+    {
+      "text": "Jeff came out and worked on my van. When nobody else could tell me why my van wasn't running properly Jeff came out diagnosed the issue almost immediately, was honest, fair priced. Fixed my van and only charged me for an hours rate even though it took him longer than an hour. Would recommend to anybody with car issues. He truly knows his stuff!",
+      "author": "James Piel",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-06"
+    },
+    {
+      "text": "I just wanted to say that it was so nice and convenient to have him come to my place! I have an old Pontiac Grand am and the O2 sensor needed to be replaced. He drove all over to find the part and was great about updating me on where he was and when he would be arriving. He fixed the problem and was on his way. Very nice guy, knows what he’s doing, is upfront about everything and I felt like it was a very reasonable price for them coming to you and doing all the hard work:) I will definitely be using them again.:)",
+      "author": "Heather Rochelle Lux",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-17"
+    },
+    {
+      "text": "You never know who's going to show up when you call a company like this. All I can say is that Jeff was everything you could ever want in a mobile mechanic, honest, knowledgeable, showed integrity, skill, and much more. Thank you Jeff for the work you did on my Chevrolet. No wonder they call you the Chevy man! Thanks for the amazing work!",
+      "author": "Meliss Gavin",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-07"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Rolls-Royce Spirit of Ecstasy hood ornament on luxury vehicle dashboard",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Front view of classic Rolls-Royce luxury car with iconic grille and Spirit of Ecstasy hood ornament",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Open car engine bay showing motor and components during maintenance or repair work",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Red classic car with open hood displaying custom engine at car show",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Blue Chevrolet Chevelle SS with open hood displaying engine in garage workshop.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Black vintage hot rod convertible with exposed engine displayed in driveway",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Classic orange hot rod truck undergoing engine restoration in garage workshop",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Vintage classic automobiles displayed indoors, including brown and cream-colored trucks",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Light blue vintage sedan with white roof parked in residential driveway",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "White vehicle with front-end damage undergoing repair in garage workshop.",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 132,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.7,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

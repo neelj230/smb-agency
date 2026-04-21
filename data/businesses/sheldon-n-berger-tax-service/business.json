@@ -180,11 +180,7 @@
       "approachable",
       "results-driven"
     ],
-    "named_staff": [
-      "Sheldon Berger"
-    ]
+    "named_staff": ["Sheldon Berger"]
   },
-  "dataSources": [
-    "google"
-  ]
+  "dataSources": ["google"]
 }

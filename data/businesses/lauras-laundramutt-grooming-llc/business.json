@@ -239,12 +239,7 @@
       "Warm",
       "Community-rooted"
     ],
-    "named_staff": [
-      "Ariel",
-      "Carol"
-    ]
+    "named_staff": ["Ariel", "Carol"]
   },
-  "dataSources": [
-    "google"
-  ]
+  "dataSources": ["google"]
 }

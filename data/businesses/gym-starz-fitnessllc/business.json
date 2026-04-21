@@ -1,0 +1,151 @@
+{
+  "name": "Gym Starz FitnessLLC",
+  "slug": "gym-starz-fitnessllc",
+  "category": "personal trainer",
+  "address": "970 Pulaski Dr",
+  "city": "King of Prussia",
+  "state": "PA",
+  "zip": "19406",
+  "phone": "(323) 680-0190",
+  "email": "",
+  "website": "https://www.gymstarz.fit/",
+  "rating": 4.9,
+  "reviewCount": 36,
+  "tagline": "",
+  "brandNarrative": "Personal Training\n          King of Prussia Personal Training for lasting strength and confidence.\n          Gymstarz Fitness delivers evidence-based workouts, elite coaching, and relentless accountability to help you transform.\n          \n            Book My Free Strategy Session\n            View Approach\n          \n        \n      \n    \n\n    \n      \n        \n          \n            Client Transformations\n            Before & After\n            Swipe through real client transformations.\n          \n        \n        \n      \n    \n\n    \n      \n        \n          Specialized Programs\n          Specialized Training Programs in KOP\n          Find the program built for your goals, your schedule, and your competitive edge.\n        \n        \n          \n            Weight Loss & Fat Loss Coaching\n            Young Athlete Development\n            Boxing & Powerlifting\n          \n          \n            \n              \n              \n                Strength + Conditioning\n                Balanced training for strength, power, and endurance.\n              \n            \n            \n              \n              \n                Performance Analytics\n                Track progress with weekly check-ins and metrics.\n              \n            \n            \n              \n              \n                Recovery Protocols\n                Mobility, sleep, and stress strategy built in.\n              \n            \n          \n        \n      \n    \n\n    \n      \n        \n          Elite Fitness Coaching",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM – 5:00 PM",
+    "Tuesday": "9:00 AM – 5:00 PM",
+    "Wednesday": "9:00 AM – 5:00 PM",
+    "Thursday": "9:00 AM – 5:00 PM",
+    "Friday": "9:00 AM – 5:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I cant say enough good things about Sam.  He has helped me so much on my fitness journey. He cares about each of his clients and is always encouraging and motivational.  I am doing things I never thought possible at my age.  I am stronger and feel amazing.  Great trainer and a great person!",
+      "author": "Paula McGoldrick",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-07-25"
+    },
+    {
+      "text": "Sam is the best trainer!! Super friendly and always motivating. He makes working out fun and always has different exercises and types of workouts planned for you in advanced of your session. I have seen a huge difference in my strength, and endurance while strictly working out with Sam. Since day 1 he has been helping me achieve my goals of fat loss and muscle gain. I have been hitting milestones with Sam and I am grateful for him to be a part of my journey. I highly recommend to train with Sam, you will learn a lot about health and fitness and also see you are capable of much more then you can imagine!!",
+      "author": "Prashant Patel",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-01-09"
+    },
+    {
+      "text": "Y'all I love having Sam as a trainer! The workouts are challenging but fun to do. He is also really good about keeping me motivated and pushing me to my best without being to aggressive.  He listens when I say I'm not comfortable with certain exercises and modifies them accordingly. Working out with Sam has really made me more comfortable with going to the gym in my own.",
+      "author": "Summer Kate",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-05-09"
+    },
+    {
+      "text": "Training with Sam has been an absolute pleasure. He took the time to understand your goals and will cater workouts accordingly. The motivation during workouts and coaching his mind to muscle connection way have made a huge difference. It has helped in seeing better results.\n\nIf you’re lucky, some days he might workout with you. Great guy to fun to workout with too.",
+      "author": "Shreyas Amin",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-10-20"
+    },
+    {
+      "text": "Sam is an amazing trainer. He is extremely knowledgeable, takes time to know your goals, and has always gotten back to me quickly with any questions I’ve had for him. Gym starz is more than training, it is an amazing support system through your fitness journey. Over my first 3 months, Sam helped me lose 40 pounds. You won’t regret giving him a call.",
+      "author": "Christian Fisher",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-07-06"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Man exercising with kettlebells in modern fitness facility gym",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Smiling man wearing black sleeveless shirt with G★Z logo indoors",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Woman performing pull-up exercise on bar in modern gym facility with yellow walls",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Two people exercising with kettlebells in a bright yellow gym facility with treadmills and equipment.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Woman exercising with resistance band in modern gym facility with equipment",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Three people performing plank exercises together in a modern gym facility with equipment",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Woman performing shoulder press with curved barbell in gym facility",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Gym Starz FitnessLLC photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Woman in gym with kettlebells and weight equipment on green floor",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Gym Starz FitnessLLC photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 36,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {
+    "facebook": "https://facebook.com/GymStarzFitness",
+    "instagram": "https://instagram.com/gymstarzfitness/"
+  },
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "Gym Starz Fitness Home Transformations Programs Coaching Nutrition Content Book Session Call Us Book Now Home Client Transformations Specialized Programs Elite Coaching Approach Nutrition Coaching Fitness Content Book a Session Call Us Book Now Personal Training King of Prussia Personal Training for lasting strength and confidence. Gymstarz Fitness delivers evidence-based workouts, elite coaching, and relentless accountability to help you transform. Book My Free Strategy Session View Approach Client Transformations Before & After Swipe through real client transformations. Specialized Programs Specialized Training Programs in KOP Find the program built for your goals, your schedule, and your competitive edge. Weight Loss & Fat Loss Coaching Young Athlete Development Boxing & Powerlifting Strength + Conditioning Balanced training for strength, power, and endurance. Performance Analytics Track progress with weekly check-ins and metrics. Recovery Protocols Mobility, sleep, and stress strategy built in. Elite Fitness Coaching in KOP: The Gymstarz Approach We build performance through evidence-based training, progressive overload, and precise coaching. Every program is customized to your goals, schedule, and recovery capacity. Founder Spotlight Our mission is to provide the best personal training in King of Prussia, empowering you to transform your body and mind through sustainable fitness habits. At Gym Starz, we don't just train for a season; we build a lifestyle with no finish line. Custom Strength & HIIT Programs: Tailored King of Prussia fitness classes designed for maximum fat loss and muscle gain. Evidence-Based Nutrition: Precision macro-counting plans and nutritional coaching to fuel your transformation. Elite Accountability: Weekly check-ins to ensure you hit your milestones during your 90-day body transformation. 90-Day Commitment Stop guessing and start growing. Our 90-Day Transformation Program provides the elite coaching and relentless accountability you need to see real results. We don't just give you a workout; we provide the tools for long-term fitness independence. Meet the Founder Letter from Sam Nelson Welcome to Gym Starz Fitness. I built this brand for people who want more than workouts — you want a life transformation. Our high-intensity coaching blends performance science with relentless accountability to reshape your body and your mindset. Every session is designed to challenge, elevate, and move you closer to the athlete you know you can become. If you are ready for focused, elite-level coaching in King of Prussia, I cannot wait to train you. 15-Second Welcome Video Video Placeholder Nutrition Strategy Elite Fitness Coaching in KOP starts with precision nutrition Dial in macronutrients, simplify meal planning, and build sustainable habits. Our nutrition guidance supports lean muscle, fat loss, and performance. Free Guide Free 7-Day Macro Starter Guide Send My Guide No spam. Just actionable nutrition steps. Science-Backed Fat L"
+}

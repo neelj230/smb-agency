@@ -1,0 +1,95 @@
+{
+  "name": "Townsend Auto Repair",
+  "slug": "townsend-auto-repair",
+  "category": "auto repair",
+  "address": "205 SE Yew Ln",
+  "city": "Bend",
+  "state": "OR",
+  "zip": "97702",
+  "phone": "(541) 382-1482",
+  "email": "",
+  "website": null,
+  "rating": 4.9,
+  "reviewCount": 80,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "8:00 AM – 5:00 PM",
+    "Tuesday": "8:00 AM – 5:00 PM",
+    "Wednesday": "8:00 AM – 5:00 PM",
+    "Thursday": "8:00 AM – 5:00 PM",
+    "Friday": "8:00 AM – 5:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I had my granny plug stripped out. Jesse did the work and did a great job. He is honest and that worth is priceless. I will definitely use Jesse in the future. I would highly recommend Jesse.",
+      "author": "Mike Massey",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-08"
+    },
+    {
+      "text": "Jesse is such a great mechanic! We have been going to him for almost 7 years and all I can say is that he is truly an honest, caring, hardworking mechanic. We are so thankful to have found him. If you go here, you definitely are in good hands:)",
+      "author": "Bex Harris",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-07-24"
+    },
+    {
+      "text": "Wish I could give more than 5 stars! Jesse is the best- I've trusted him with a handful of repairs and services for my car, and he does a stellar job every time! Townsend consistently delivers thorough and honest work, which can be very hard to come by. I'm so grateful to have a go-to shop with outstanding technicians I can always count on- thank you so much for all your hard work!",
+      "author": "Brenna Burk",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-09-06"
+    },
+    {
+      "text": "My partner and I go to Jesse for every issue we have with our vehicles. He is awesome. Honest and a good person all-around. I will always trust Townsend!",
+      "author": "Andy Sommerville",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-06-11"
+    },
+    {
+      "text": "Super kind and caring service. Very understanding and was able to help us out in a pinch. Highly recommend this place.",
+      "author": "Milos Jovanovic",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-17"
+    }
+  ],
+  "team": [],
+  "photos": [],
+  "stats": [
+    {
+      "value": 80,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "poor"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

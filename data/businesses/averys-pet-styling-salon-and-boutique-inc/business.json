@@ -1,0 +1,146 @@
+{
+  "name": "Avery's Pet Styling Salon and Boutique, Inc.",
+  "slug": "averys-pet-styling-salon-and-boutique-inc",
+  "category": "mobile pet groomer",
+  "address": "8503 West Chester Pike",
+  "city": "Upper Darby Township",
+  "state": "PA",
+  "zip": "19082",
+  "phone": "(877) 528-3797",
+  "email": "",
+  "website": "https://www.averyspetstyle.com/",
+  "rating": 4.4,
+  "reviewCount": 72,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "8:00 AM – 4:00 PM",
+    "Tuesday": "8:00 AM – 4:00 PM",
+    "Wednesday": "8:00 AM – 4:00 PM",
+    "Thursday": "8:00 AM – 4:00 PM",
+    "Friday": "8:00 AM – 4:00 PM",
+    "Saturday": "9:00 AM – 3:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "We absolutely love Avery’s mobile grooming service. Our golden retriever does not do well in a traditional grooming setting so having the ability to walk out our front door and have her groomed immediately is fantastic. They’re always so friendly, are reliable and do a great job!",
+      "author": "Sarah Oswalt",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-04-15"
+    },
+    {
+      "text": "Avery has been our groomer for 2 years now for both of our fur babies, cat and dog. Each visit is very professional and the babies are groomed very well and are happy after each visit. But this time our groomer was Nicole and she was fabulous with our Kai, our 2 year old Terrier mix. He came back in the house so happy and excited, he really really likes her and he looks great!!!!! I do not have anything to say negative about the other groomers they did a great job too but I think Nicole is a Dog Whisperer. Thank you so much Nicole we will be requesting you going forward. Avery Rock's you hired her, great choice!!!!!",
+      "author": "William Rhim Jr",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-08-07"
+    },
+    {
+      "text": "We’ve used Taria and Avery’s for several years for our two borzois Charlotte and Fiona. They are SO beautiful when they’ve been groomed!  Nichole came today and did a phenomenal job on their coats, nails, teeth, etc. We love Avery’s!!! 🥰🐩😍🐩",
+      "author": "Hennie Shore",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-10-23"
+    },
+    {
+      "text": "I could not be happier with Avery’s Pet Styling Mobile Grooming Service! Our labradoodle (Charlie) is 6 months old and has been groomed twice by Avery’s. The groomers we have encountered are both professional, kind and do an amazing job. The mobile service makes not only my family’s life easier, but Charlie’s too. Follow up grooming appointments have been easy to schedule every 6 weeks. I highly recommend Avery’s!",
+      "author": "Gretchen Kreiger-Barnes",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-03-08"
+    },
+    {
+      "text": "Cynthia was very nice and good with our dog. She did a beautiful job with the grooming and we are happy with her.",
+      "author": "John Bast",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-09-04"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Small tan and white dog standing on black mat at grooming salon",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Goldendoodle dog sitting on tiled kitchen floor wearing red collar tag",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Bulldog lying on floor inside airplane cabin with passenger visible in background",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Small dog wearing pink harness in grooming salon interior",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Woman wearing mask holding black dog in front of salon storefront sign",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Avery's Pet Styling Salon and Boutique, Inc. photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Gray terrier dog sitting on brick patio surrounded by mulch and fallen leaves",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Avery's Pet Styling Salon and Boutique, Inc. photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Kitten in yellow patterned box being held up by person's hand",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Tabby cat lying on light gray carpet inside a boat cabin",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 72,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.4,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "name": "Hair by Nona",
+  "slug": "hair-by-nona",
+  "category": "barber",
+  "address": "Attitudes Salon",
+  "city": "61396 S Hwy 97 suite 102",
+  "state": "",
+  "zip": "",
+  "phone": "(541) 519-1019",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 44,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "1:00 – 4:00 PM",
+    "Tuesday": "1:00 – 4:00 PM",
+    "Wednesday": "1:00 – 4:00 PM",
+    "Thursday": "1:00 – 4:00 PM",
+    "Friday": "10:00 AM – 5:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Nona is literally AMAZING!!! Super friendly and compassionate and REALLY knows how to cut hair! She was my stylist at her previous location and when she moved up in the world, my business followed... I would highly recommend her for any style of hair. She has the confidence and the results are a direct reflection of that...",
+      "author": "Kenneth Eyle",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-03-04"
+    },
+    {
+      "text": "⭐⭐⭐⭐⭐\nNona is absolutely incredible. I had heard she moved from her from her previous location, and I’m so glad I did—starting her own place was the best move she could’ve made. The quality of the haircut, the overall experience, and the attention to detail are on a completely different level now. You can tell she finally has the freedom to take her time, focus on you, and deliver a truly personalized experience without feeling rushed to get to the next person in line.\n\nShe goes above and beyond in ways you don’t expect. The nose and ear waxing was surprisingly easy and completely painless, and having a shampoo included in the cost is such a nice touch. You leave feeling clean, refreshed, and not itchy—without being hit with extra add-on charges. It’s those details that really set her apart.\n\nOn top of her skill, Nona’s personality makes the whole experience even better. She’s sincere, engaging, and genuinely enjoyable to talk to—it honestly feels like spending time with a friend while getting a great haircut at the same time. If you’re looking for a barber/stylist who truly cares about her craft and her clients, Nona is it. Couldn’t recommend her more.",
+      "author": "Jason W.",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-13"
+    },
+    {
+      "text": "Nona does the best skin fade in town. Very efficient, detailed and easy to talk to. You will leave feeling great! Highly recommend!",
+      "author": "Sean Hoover",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-03-04"
+    },
+    {
+      "text": "Nona absolutely nailed my haircut. Clean, sharp, and exactly what I wanted. Super friendly and professional—best cut I’ve had in a long time. Highly recommend!",
+      "author": "Dennis Ahrens",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-01-15"
+    },
+    {
+      "text": "Nona is by far the best hair/stylist and barber in Bend. Her attention to detail is un-matched and her talent speaks for itself. If you care about your hair like I do, then I would highly recommend stopping by and seeing her. She'll hook you up with a proper cut! ✂️",
+      "author": "Elliot Keitges",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-17"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Wooden engraved sign for Hair By Nona salon with scissors and comb design",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Attitudes Salon storefront with parking lot and bare tree on clear day",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Man wearing blue beanie and hoodie against red wall backdrop with plant",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Handwritten price list for barbershop and waxing services displayed on paper",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 44,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "fair"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

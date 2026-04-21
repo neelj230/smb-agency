@@ -225,11 +225,7 @@
       "nurturing",
       "joyful"
     ],
-    "named_staff": [
-      "Sabrina"
-    ]
+    "named_staff": ["Sabrina"]
   },
-  "dataSources": [
-    "google"
-  ]
+  "dataSources": ["google"]
 }

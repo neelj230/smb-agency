@@ -118,31 +118,77 @@
       "name": "Marco Benedetti",
       "role": "Owner & Master Plumber",
       "bio": "26 years of experience. Licensed Master Plumber PA #MP-032841. Born in Naples, raised in South Philly.",
-      "credentials": ["Master Plumber License", "Backflow Certified", "Green Plumber Certified"]
+      "credentials": [
+        "Master Plumber License",
+        "Backflow Certified",
+        "Green Plumber Certified"
+      ]
     },
     {
       "name": "Nick Benedetti",
       "role": "Lead Technician",
       "bio": "Marco's son. 8 years in the trade. Specializes in water heater installations and boiler systems.",
-      "credentials": ["Journeyman Plumber License", "Rinnai Certified Installer"]
+      "credentials": [
+        "Journeyman Plumber License",
+        "Rinnai Certified Installer"
+      ]
     },
     {
       "name": "Carlos Rivera",
       "role": "Senior Plumber",
       "bio": "12 years of experience. Sewer and drain specialist. Camera inspection and trenchless repair expert.",
-      "credentials": ["Journeyman Plumber License", "Trenchless Technology Certified"]
+      "credentials": [
+        "Journeyman Plumber License",
+        "Trenchless Technology Certified"
+      ]
     }
   ],
   "photos": [
-    { "src": "/photos/exterior-van.jpg", "alt": "Marco's Plumbing van parked outside a South Philly row home", "category": "exterior" },
-    { "src": "/photos/team-group.jpg", "alt": "Marco and his crew standing in front of the shop", "category": "team" },
-    { "src": "/photos/bathroom-remodel-1.jpg", "alt": "Completed bathroom remodel with subway tile and rainfall shower", "category": "work" },
-    { "src": "/photos/bathroom-remodel-2.jpg", "alt": "Before and after of a full bathroom renovation", "category": "work" },
-    { "src": "/photos/water-heater-install.jpg", "alt": "New Bradford White water heater installation in basement", "category": "work" },
-    { "src": "/photos/drain-camera.jpg", "alt": "Sewer camera inspection in progress", "category": "work" },
-    { "src": "/photos/marco-portrait.jpg", "alt": "Marco Benedetti, owner and master plumber", "category": "team" },
-    { "src": "/photos/boiler-service.jpg", "alt": "Boiler maintenance and repair service", "category": "work" },
-    { "src": "/photos/interior-shop.jpg", "alt": "Inside the Marco's Plumbing shop and parts inventory", "category": "interior" }
+    {
+      "src": "/photos/exterior-van.jpg",
+      "alt": "Marco's Plumbing van parked outside a South Philly row home",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/team-group.jpg",
+      "alt": "Marco and his crew standing in front of the shop",
+      "category": "team"
+    },
+    {
+      "src": "/photos/bathroom-remodel-1.jpg",
+      "alt": "Completed bathroom remodel with subway tile and rainfall shower",
+      "category": "work"
+    },
+    {
+      "src": "/photos/bathroom-remodel-2.jpg",
+      "alt": "Before and after of a full bathroom renovation",
+      "category": "work"
+    },
+    {
+      "src": "/photos/water-heater-install.jpg",
+      "alt": "New Bradford White water heater installation in basement",
+      "category": "work"
+    },
+    {
+      "src": "/photos/drain-camera.jpg",
+      "alt": "Sewer camera inspection in progress",
+      "category": "work"
+    },
+    {
+      "src": "/photos/marco-portrait.jpg",
+      "alt": "Marco Benedetti, owner and master plumber",
+      "category": "team"
+    },
+    {
+      "src": "/photos/boiler-service.jpg",
+      "alt": "Boiler maintenance and repair service",
+      "category": "work"
+    },
+    {
+      "src": "/photos/interior-shop.jpg",
+      "alt": "Inside the Marco's Plumbing shop and parts inventory",
+      "category": "interior"
+    }
   ],
   "stats": [
     { "value": 26, "suffix": "+", "label": "Years in Business" },

@@ -1,0 +1,146 @@
+{
+  "name": "JJU Maintenance LLC",
+  "slug": "jju-maintenance-llc",
+  "category": "handyman",
+  "address": "4381 Webb Ave NE",
+  "city": "Salem",
+  "state": "OR",
+  "zip": "97305",
+  "phone": "(971) 217-7135",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 11,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM – 5:00 PM",
+    "Tuesday": "9:00 AM – 5:00 PM",
+    "Wednesday": "9:00 AM – 5:00 PM",
+    "Thursday": "9:00 AM – 5:00 PM",
+    "Friday": "9:00 AM – 5:00 PM",
+    "Saturday": "9:00 AM – 1:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Due to my limited budget I am doing replacements a bit at a time for my house. JJU was able to do this small job for me.  It turned out awesome.  I later hired him to replace an interior window frame, finish a bathroom door frame and repair closet doors. Will continue to use his services!",
+      "author": "Karla Morales R",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-05-31"
+    },
+    {
+      "text": "They were friendly and professional. I just wanted them to do the plumbing underneath.  I was doing the job myself and didn’t need for them to go any further and for once someone listened!",
+      "author": "Sue Anne Kuk",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-03-31"
+    },
+    {
+      "text": "Very professional! Highly recommended! Jairo has come to our home in several occasions, he has helped with replacing our garbage disposal, re-stained our hardwood floors, assembled furniture, installed our security cameras, paint our ceiling when we had a leak, unclogged our bathtub, repaired and painted our deck and even created a wall closet for my children's bedroom. Every job he has done for us we have not been disappointed. He is also bilingual (Spanish/English) which is a big help for my family and I. Need a job well done call JJU Maintenance.",
+      "author": "Julio Cesar Sanchez Sanchez",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-01-13"
+    },
+    {
+      "text": "Jairo did a great job installing my garbage disposal. He was very professional, on time, and made sure everything was working correctly and no leaks were present before he left. He made sure he left the area nice and clean as well i would definitely use him for future projects in my home.",
+      "author": "Adriana Sanchez",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-03-16"
+    },
+    {
+      "text": "I called Jairo back for a second time for several odd jobs of maintenance around the house. It is obvious he really cares about you as the customer and wants to get things done exactly how you want. Jairo did an exceptional job doing small repairs on doors, counters, window cleaning, and exhaust cleaning. I know when I need some repairs again, I will be calling him back.",
+      "author": "Danny Solivan",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-03-27"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Interior construction site with exposed wooden beams, insulation, and scaffolding during renovation.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Blue residential house exterior with deck, windows, and surrounding trees and vegetation.",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Underground utility trench with pipe installation and safety equipment on residential property",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Wooden post-and-beam structure under construction with ladder and tools on site.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Room under renovation with elegant black and silver damask wallpaper installation",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "JJU Maintenance LLC photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Gazebo construction in progress with white truck and materials on-site",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "JJU Maintenance LLC photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "JJU Maintenance LLC photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Person organizing supplies in a modern kitchen with white cabinets and stainless steel appliances.",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 11,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

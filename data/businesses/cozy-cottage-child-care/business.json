@@ -1,0 +1,239 @@
+{
+  "name": "Cozy Cottage Child Care",
+  "slug": "cozy-cottage-child-care",
+  "category": "daycare",
+  "address": "882 20th St NE",
+  "city": "Salem",
+  "state": "OR",
+  "zip": "97301",
+  "phone": "(503) 371-4841",
+  "email": "",
+  "website": null,
+  "rating": 4.6,
+  "reviewCount": 13,
+  "tagline": "Where littles learn, laugh, and belong.",
+  "brandNarrative": "Cozy Cottage Child Care is exactly what its name promises — a warm, home-based haven in Salem, Oregon where children don't just get watched, they genuinely thrive. Run by Carol, whose deep experience and natural warmth have earned her a loyal following of families who describe her as 'like family,' Cozy Cottage stands out because it operates with the reliability and love that big institutional daycares simply can't replicate. Parents like Sara M. have trusted Carol with their children for over eight years — not because it was convenient, but because it worked, day in and day out, without fail.\n\nWhat sets Cozy Cottage apart is the learning that happens organically alongside the care. Toddlers go home counting to 13 and singing their ABCs. Kids learn manners alongside arts and crafts. Preschool-aged children leave with real milestones under their belts. One parent was floored that her daughter, just shy of two years old, was already speaking in full sentences — progress she credits directly to the stimulating, structured environment Carol and her staff maintain every weekday. The turquoise-walled classroom, educational posters, and colorful play spaces visible in the facility photos tell the same story: this place takes child development seriously, even while keeping everything cozy and joyful.\n\nFor working parents — especially first-timers navigating the terrifying leap of trusting someone else with their baby — Carol brings a rare gift: peace of mind. She accommodates 6 AM start times, later pickups, lunch-break nursing visits, and schedule curveballs without flinching. She doesn't just open a door; she makes families feel welcomed into something real. The big backyard where kids run free in summer, the hot breakfast before school drop-off, the after-school snacks — these aren't perks, they're proof that Cozy Cottage treats every child like their own.",
+  "ownerStory": "Carol, the heart and hands behind Cozy Cottage Child Care, didn't build this place to run a business — she built it because she genuinely loves children and understands what parents need to feel safe leaving their most precious people behind. With years of hands-on experience and a reputation for flexibility and reliability that local families talk about in glowing, specific terms, Carol has become the kind of caregiver parents call when they land in a new city and don't know where to start. First-time moms describe her as the person who made everything feel 'seamless.' Veteran parents describe her as irreplaceable. She's known by name in every review, invited parents in during lunch breaks to nurse their babies, and maintained relationships with families across nearly a decade without a single story of being left in a lurch.\n\nWhat makes Carol exceptional isn't just her experience — it's her consistency. She shows up, her staff shows up, and the kids in her care show up ready to learn. She runs a home that feels like a home but operates with the structure and intention of a real early childhood program. For the families of Salem, OR who've found her, Cozy Cottage isn't a backup plan. It's the plan.",
+  "hours": {
+    "Monday": "6:00 AM – 6:00 PM",
+    "Tuesday": "6:00 AM – 6:00 PM",
+    "Wednesday": "6:00 AM – 6:00 PM",
+    "Thursday": "6:00 AM – 6:00 PM",
+    "Friday": "6:00 AM – 6:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Full-Day Infant & Toddler Care",
+      "description": "Nurturing daily care for babies and toddlers in a home-like setting, with attentive staff who treat each child with family-level love and consistency.",
+      "icon": "baby"
+    },
+    {
+      "name": "Structured Preschool Program",
+      "description": "A daily early learning curriculum for younger children covering alphabet, counting, and foundational milestones through songs, play, and guided activities.",
+      "icon": "book-open"
+    },
+    {
+      "name": "Before & After School Care",
+      "description": "Reliable school-day support including morning breakfast, drop-off at school, afternoon pickup, and a snack before parents finish their workday.",
+      "icon": "clock"
+    },
+    {
+      "name": "Flexible Schedule Accommodations",
+      "description": "Custom care scheduling that adapts to early 6 AM starts, later pickups, and last-minute changes so working parents never get left without coverage.",
+      "icon": "calendar"
+    },
+    {
+      "name": "Arts, Crafts & Play-Based Learning",
+      "description": "Daily creative and hands-on activities — from arts and crafts to educational game mats and outdoor play — that build skills while keeping kids genuinely happy.",
+      "icon": "palette"
+    },
+    {
+      "name": "Summer Program with Outdoor Play",
+      "description": "A summer care option featuring a large backyard where kids can run, explore, and enjoy active play in a safe, supervised outdoor environment.",
+      "icon": "sun"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "My son attends cozy cottage and we love it. Carol has a ton of experience and her staff truly care about my son. As a first time mom- and new to Salem- finding daycare was hard, but right from the start Carol made me feel comfortable and welcomed. She made the transition to go back to work seemless and is flexible with my schedule as things come up. I've enjoyed getting to know Carol over time, would highly recommend.",
+      "author": "Jenna Perske",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-07-17"
+    },
+    {
+      "text": "My daughter has been going to Cozy Cottage for over 8 years.  We have always had a great experience. They are very professional and welcoming into their home.  There are no worries about having someone that is unreliable and will leave you hanging without someone to watch the kiddos while you have to work.  They have always been flexible with my work schedule from the times I started work at 6am, to the nights I worked later. It's a great peace of mind knowing that I can drop my daughter off in the morning, she'll be fed breakfast, dropped off at school, and then picked up after school and given a snack before I get off work. This is definitely a safe place to take your children, and not have to worry about what's going to happen to them while you are at work. Having a structured preschool time during the day for the younger kids is amazing, my daughter would come home at the end of the day singing her ABCs, and knowing how to count and other great milestones.  Summer is great fun, they have a huge backyard that the kids can run around and play in.  Overall, this is a great place to have your kids spend their time while you are busy at work. :)",
+      "author": "Sara M",
+      "rating": 5,
+      "source": "google",
+      "date": "2014-01-30"
+    },
+    {
+      "text": "My daughter has been going to Cozy Cottage since she was 14 Months old.  I am so grateful i found cozy cottage.  It was a hard transition for the both of us to start daycare.  My daughter is very smart for her age (she will be 2 in May) and i know a lot of her learning comes from being at cozy cottage 5 days a week.  She can count to 13 and sing her ABC's.  She also talks in sentences.  I go to work and i know she is being taken care of the way i would be taking care of her.  They are like family to me and my girl and i could not have found a better place for us.",
+      "author": "Tommy Smith",
+      "rating": 5,
+      "source": "google",
+      "date": "2015-04-16"
+    },
+    {
+      "text": "Great daycare/preschool. We feel very comfortable leaving our two children there. They learn so much (even manners), do arts & crafts, and seem to have a great time. Its definitely more than just a daycare.",
+      "author": "Kristofer Rash",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-12-31"
+    },
+    {
+      "text": "I really like Carol and her staff. She is accommodating and flexible with my busy schedule. I am able to go over on my lunch break to nurse my baby and I have gotten to know her. I really appreciate the care and love she gives my little one.",
+      "author": "Susan Griffin",
+      "rating": 5,
+      "source": "google",
+      "date": "2017-05-12"
+    }
+  ],
+  "team": [
+    {
+      "name": "Carol",
+      "role": "Owner & Lead Caregiver",
+      "bio": "Carol is the cornerstone of Cozy Cottage — named personally by nearly every reviewer for her warmth, flexibility, and deep experience. Parents describe her as someone who makes first-time moms feel immediately at ease, welcomes nursing mothers during lunch breaks, and has built decade-long relationships with families who simply never wanted to leave.",
+      "credentials": [
+        "Years of professional childcare experience",
+        "Flexible and reliable scheduling",
+        "Known for genuine family-level care"
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Young children sitting on carpet playing with colorful educational game mat indoors",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Daycare classroom with turquoise walls, cribs, educational posters, and toys",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Colorful children's playground with slide, tunnel, and play structures in outdoor garden setting.",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Cozy kitchen with wooden furniture, white appliances, and green carpet flooring.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Black cat lying on brown fabric indoors near decorative pink and white window decorations",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Children sitting on carpet playing with colorful game mat in classroom setting",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Young girl posing with black dog in playroom surrounded by colorful toys",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Young girl in purple and pink princess costume with tiara sitting on couch indoors",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Baby sitting in colorful Fisher-Price bouncer seat with toys nearby",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Woman in red holding smiling baby in light blue outfit indoors",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 4.6,
+      "suffix": "★",
+      "label": "Average Customer Rating"
+    },
+    {
+      "value": 13,
+      "suffix": "+",
+      "label": "Verified Family Reviews"
+    },
+    {
+      "value": 8,
+      "suffix": "+ yrs",
+      "label": "Longest Family Relationship on Record"
+    },
+    {
+      "value": 6,
+      "suffix": " AM",
+      "label": "Early Open Time for Working Parents"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What ages does Cozy Cottage Child Care accept?",
+      "answer": "Cozy Cottage welcomes children from infancy (babies in bouncer seats are visible in facility photos) through school age, including toddlers as young as 14 months and children old enough to be dropped off and picked up from school."
+    },
+    {
+      "question": "How flexible are the hours for working parents with unusual schedules?",
+      "answer": "Very flexible. Cozy Cottage opens at 6:00 AM Monday through Friday and stays open until 6:00 PM. Multiple parents have noted that Carol accommodates early 6 AM start times, later pickups, and last-minute schedule changes without issue."
+    },
+    {
+      "question": "Is this just babysitting, or is there real learning happening?",
+      "answer": "It's genuinely more than daycare. Children go home counting, singing their ABCs, speaking in full sentences, and learning manners — all described by real parents in reviews. A structured preschool-style program runs daily for younger children alongside arts, crafts, and play-based activities."
+    },
+    {
+      "question": "Can I visit or check in on my child during the day?",
+      "answer": "Yes — Carol actively welcomes parent involvement. One mother mentions coming in on her lunch break to nurse her baby, which Carol accommodated warmly. The environment is open and welcoming, not closed off."
+    },
+    {
+      "question": "What does a typical day look like for a school-age child?",
+      "answer": "For school-age kids, Cozy Cottage provides breakfast in the morning, a drop-off at school, afternoon pickup after school ends, and a snack before parents are done with work — a full wraparound care solution."
+    },
+    {
+      "question": "How long do families typically stay with Cozy Cottage?",
+      "answer": "Many families stay for years. One reviewer's daughter attended for over eight years. This kind of long-term loyalty speaks to the consistency and reliability that Carol and her staff provide."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#4A90A4",
+    "accent": "#F4A261",
+    "note": "The turquoise pulls directly from the daycare classroom walls visible in facility photos — it's already the real color of this space. The warm amber accent reflects the cozy, home-kitchen warmth seen in the wooden furniture and the family-first emotional tone of every review. Together they feel nurturing, cheerful, and trustworthy without being sterile or corporate."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Exceptional personal reliability — Carol and her staff are consistently described as flexible, dependable, and never leaving families without care coverage",
+      "Real early learning outcomes — multiple parents cite specific milestones like counting, ABCs, and full sentences that their children reached at Cozy Cottage",
+      "Deep family-like relationships — parents stay for years and describe Carol by name with genuine affection, indicating trust and emotional investment far beyond typical daycare"
+    ],
+    "common_complaints": [
+      "None found — all 13 reviews are positive with no recurring criticism or concern raised"
+    ],
+    "suggested_tagline": "More than daycare. More like family.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "warm",
+      "reliable",
+      "nurturing",
+      "flexible",
+      "family-centered"
+    ],
+    "named_staff": [
+      "Carol"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

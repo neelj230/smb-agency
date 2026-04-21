@@ -1,0 +1,146 @@
+{
+  "name": "Calvin's Handymans Services LLC",
+  "slug": "calvins-handymans-services-llc",
+  "category": "handyman",
+  "address": "2290 Northgate Ave NE",
+  "city": "Salem",
+  "state": "OR",
+  "zip": "97301",
+  "phone": "(971) 432-0963",
+  "email": "",
+  "website": "http://calvinshandyservicesllc.com/",
+  "rating": 4.2,
+  "reviewCount": 5,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Open 24 hours",
+    "Tuesday": "Open 24 hours",
+    "Wednesday": "Open 24 hours",
+    "Thursday": "Open 24 hours",
+    "Friday": "Open 24 hours",
+    "Saturday": "Open 24 hours",
+    "Sunday": "Open 24 hours"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I use their services to install a Murphy bed. I had no instructions. They took the time to look it up and find out how to hang it properly. I paid the price they quoted. They were very easy to communicate with. They were very punctual. Very nice.",
+      "author": "Joy Hocking",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-03-09"
+    },
+    {
+      "text": "I had an urgent toilet issue that needed taken care of. I called a couple other companies and received no-callback. I called Calvin’s 24 hour handyman service. Calvin got back to me right away and was able to come out that same night. Calvin was awesome and professional and fix the issue that I couldn’t fix. I would highly recommend Calvin’s handyman service!!!",
+      "author": "Carisa",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-06-25"
+    },
+    {
+      "text": "We hired Calvin to do some general maintenance and they have gave me an estimate lower than anybody else in the area and even noticed some other problems with the house that could cost more in the future fixing it for a very good price.",
+      "author": "Cole Patrick",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-01-26"
+    },
+    {
+      "text": "Calvin is great to work with. Would highly recommend.",
+      "author": "Tyler Ashworth",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-03-18"
+    },
+    {
+      "text": "I hired Calvin to fix some plumbing in my new home. He did a terrible job isolating the problem, diverted to something else (which come to find out he made way worse), and didnt even address the problem we called him out for. He is the type of handyman that comes to collect his service fee and do as little work as possible. I would never recommend his services.",
+      "author": "Miranda Starr",
+      "rating": 1,
+      "source": "google",
+      "date": "2024-02-11"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Residential landscape renovation with protective sheeting covering front yard area during construction.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Calvin's Handymans Services LLC photo 2",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Interior view of glass doors with blinds leading to residential room space",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Landscaping project showing river rock installation and hardscape design in residential driveway",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Yellow and black Worx electric lawn aerator on residential grass yard during daytime",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Wooden four-poster bed with white bedding in bedroom with shelf and decorations",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Worker in safety vest watering newly laid sod in residential driveway area with hose",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Landscaper preparing soil bed in residential yard with tools and plants visible",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Calvin's Handymans Services LLC photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Interior doorway with stained glass floral window panel decoration",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 5,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.2,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

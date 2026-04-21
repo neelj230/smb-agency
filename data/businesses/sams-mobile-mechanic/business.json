@@ -1,0 +1,121 @@
+{
+  "name": "Sams mobile mechanic",
+  "slug": "sams-mobile-mechanic",
+  "category": "mobile mechanic",
+  "address": "434 E Loudon St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19120",
+  "phone": "(267) 339-2180",
+  "email": "",
+  "website": "https://samsmobile.cbsservicesusa.com/",
+  "rating": 5,
+  "reviewCount": 4,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {},
+  "services": [],
+  "reviews": [
+    {
+      "text": "This guy is a class act. He was prompt, professional and his manner was outstanding. I will utilize him again.",
+      "author": "Tony Agnew",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-27"
+    },
+    {
+      "text": "Excellent service, knowledgeable explained everything in detail. Made recommendations. Our second time using the service. Would definitely use the mobile service again as well as recommend to anyone in the area.",
+      "author": "A Simms",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-02"
+    },
+    {
+      "text": "Came next day, brought the parts, and replaced my starter!",
+      "author": "Domenic Ardolino",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-05"
+    },
+    {
+      "text": "Sam is AMAZING!! Always so helpful and a phone call away.",
+      "author": "JoAnne Loiselet",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-03-21"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Modified Land Rover 110 with open hood displaying custom engine and intake system at car show",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Close-up of car steering wheel assembly with exposed wiring and components during repair or installation",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Dark blue Volkswagen vehicle displayed at dealership lot with chrome trim",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Black Land Rover with Marshal tire mounted on rear, parked in lot",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Interior view of Volkswagen vehicle dashboard and steering wheel at dealership",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Rusty vehicle suspension system showing corroded coil spring and brake components needing repair",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Close-up of automotive engine components showing motor, wiring, and metal housing parts",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Used car alternator lying on asphalt ground, held by gloved hand.",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 4,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "name": "Dee Mobile mechanic",
+  "slug": "dee-mobile-mechanic",
+  "category": "mobile mechanic",
+  "address": "4100 N 8th St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19140",
+  "phone": "(267) 780-0341",
+  "email": "",
+  "website": null,
+  "rating": 4.4,
+  "reviewCount": 81,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Open 24 hours",
+    "Tuesday": "Open 24 hours",
+    "Wednesday": "Open 24 hours",
+    "Thursday": "Open 24 hours",
+    "Friday": "Open 24 hours",
+    "Saturday": "Open 24 hours",
+    "Sunday": "Open 24 hours"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Great service and communication! Kept it 100% on everything wrong with the Car. Gave me a great deal on the labor and came out within a couple days to fix the car in less than a couple hours. Good dude, honest work",
+      "author": "Thomas Brown",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-23"
+    },
+    {
+      "text": "Extremely happy with his work. Dee is honest and answers fast. Called looking for work on my truck and he came the same day and fixed my truck for a cheap price. Will definitely be using him in the future and referring him to others.",
+      "author": "Cheyenne Marie",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-21"
+    },
+    {
+      "text": "Dee’s Mobile Mechanic did a great job fixing my coolant tank issue. They were quick and very transparent about pricing and clearly explained what was wrong with my vehicle. Honest, professional, and reliable service.",
+      "author": "Catoo Legagneur",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-24"
+    },
+    {
+      "text": "Dee is a great machanic he came to replace my starter on my truck worked fast and got the job done with no issues he his prices are more then fare compared to others I priced for the work.. THANKS ALOT MAN",
+      "author": "marco vanderbilt",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-18"
+    },
+    {
+      "text": "Dee came out to diagnose a few of our vehicles. When he arrived he had no tools, no jump starter and asked to use anything that we had on hand. For all of them he said they needed gas and a new battery. Not sure how you can diagnose a vehicle without getting under it or really getting in the hood with the proper tools or equipment. As expected, when we bought new batteries and fueled them up they still wouldn’t start. Would love to support black business, but only those that are ethical and honest. We were scammed.",
+      "author": "Sydney",
+      "rating": 1,
+      "source": "google",
+      "date": "2026-02-21"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Wall-mounted motivational sign about entrepreneurship with pendant lamp overhead",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Close-up of vehicle brake assembly showing rotor, caliper, and suspension components",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Innova SD35 diagnostic scanner displaying transmission code P0720 input speed sensor circuit error",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Disassembled automotive transmission component with dirt and rust buildup",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Close-up of a bright white LED light bulb glowing against neutral background",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Stack of Australian banknotes with security features displayed on dark fabric",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Mechanic performing tire and brake work on dark vehicle in driveway.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Mechanic working on vehicle suspension components and brake system under car",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Collection of tools laid out on concrete ground including wrench, pipe, and power drill.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Car tire change in progress on street with tools and cardboard box visible",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 81,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.4,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "name": "David A. Corden",
+  "slug": "david-a-corden",
+  "category": "law firm",
+  "address": "230 SW 6th St",
+  "city": "Corvallis",
+  "state": "OR",
+  "zip": "97333",
+  "phone": "(541) 752-1422",
+  "email": "",
+  "website": null,
+  "rating": 4.9,
+  "reviewCount": 7,
+  "tagline": "Mountains Moved. Records Clean. Case Closed.",
+  "brandNarrative": "David A. Corden is not the kind of attorney who hands your case off and bills by the hour. In Corvallis, Oregon, he is the lawyer people call when the stakes are personal — when a drug charge threatens to follow you for life, when a custody battle puts your child's future on the line. Clients like Jolyn Jacobs know this firsthand: David not only won her case in 2011, he made sure nothing went on her record. That kind of outcome isn't accidental. It is the result of someone who genuinely goes 'over and above,' as Jolyn put it, rather than simply going through the motions.\n\nElroy Beard described David as someone who can 'move mountains' — and used that phrase to explain how David helped him secure full custody of his son. That is not legal boilerplate; that is a father talking about his child. Heather Monson praised David's speed and efficiency, landing a deal she was genuinely pleased with. What emerges from these reviews is a consistent portrait: a lawyer who is fast when speed matters, thorough when thoroughness counts, and — perhaps most importantly — a person worth knowing, not just a professional worth hiring.\n\nOperating out of a quiet address on SW 6th Street in Corvallis, David Corden's practice carries the feel of a trusted local institution rather than a faceless firm. His 4.9-star rating across clients spanning over a decade tells its own story: people come back, people refer, and people remember what he did for them long after the case is closed.",
+  "ownerStory": "David A. Corden has built his legal career one high-stakes moment at a time. Based in Corvallis, Oregon, he has spent years representing individuals at some of the most vulnerable points in their lives — facing criminal charges, fighting for custody of their children, navigating legal systems that can feel designed to grind people down. His clients do not describe him in abstract terms. They say he moved mountains. They say he went over and above. They remember him years later and still say thank you.\n\nWhat sets David apart is not a wall of credentials or a team of associates — it is the direct, personal investment he brings to every case. He is both the attorney of record and the person who picks up the phone. For the families and individuals of Corvallis who need someone in their corner, David Corden has made a career out of being exactly that.",
+  "hours": {},
+  "services": [
+    {
+      "name": "Criminal Defense",
+      "description": "Aggressive representation for criminal charges — from drug offenses to misdemeanors — with a focus on protecting your record and your future.",
+      "icon": "shield"
+    },
+    {
+      "name": "Drug Charge Defense",
+      "description": "Targeted defense strategy for drug-related charges, including fighting for case dismissal and clean-record outcomes as achieved for past clients.",
+      "icon": "shield-off"
+    },
+    {
+      "name": "Child Custody",
+      "description": "Strategic advocacy in custody disputes, including full custody cases, with a client-centered approach that keeps your child's best interest front and center.",
+      "icon": "heart-handshake"
+    },
+    {
+      "name": "Plea Negotiation & Case Resolution",
+      "description": "Efficient negotiation to secure favorable deals for clients who need fast, satisfactory resolution without prolonged courtroom battles.",
+      "icon": "handshake"
+    },
+    {
+      "name": "Family Law",
+      "description": "Legal guidance through family matters including divorce, custody arrangements, and parental rights in Benton County and surrounding areas.",
+      "icon": "users"
+    },
+    {
+      "name": "General Legal Counsel",
+      "description": "Reliable personal legal representation for individuals who need a trusted attorney to be there when it matters most.",
+      "icon": "briefcase"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Way back in 2011 I hired Mr Corden to fight a drug charge , he nit only one my case for me he also made sure nothing went on my record.\nMr Gorden went over and above for me. I would highly recommend David. Thanks again for what you did for me. JOLYN J",
+      "author": "Jolyn Jacobs",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-10-10"
+    },
+    {
+      "text": "He really really can move mountains ...he help facilitate getting full custody of my son. Not only is he a great lawyer he is a great person!",
+      "author": "Elroy “Juicehead” Beard",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-07-21"
+    },
+    {
+      "text": "He worked fast and efficiently to get me a deal I was pleased with he is great attorney",
+      "author": "Heather Monson",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-06-01"
+    },
+    {
+      "text": "",
+      "author": "mike smith",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-04-15"
+    },
+    {
+      "text": "Overall David has been there when I needed him most.",
+      "author": "Ye Ole Yankee Trader",
+      "rating": 4,
+      "source": "google",
+      "date": "2015-09-05"
+    }
+  ],
+  "team": [
+    {
+      "name": "David A. Corden",
+      "role": "Attorney & Founder",
+      "bio": "Described by clients as someone who 'moves mountains' and goes 'over and above,' David brings direct personal involvement to every case — from winning drug charges outright to securing full custody for parents fighting for their children.",
+      "credentials": [
+        "Criminal Defense",
+        "Family Law",
+        "Child Custody",
+        "Plea Negotiation"
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Two-story residential house with white siding and green shutters at 508",
+      "category": "exterior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 4.9,
+      "suffix": "★",
+      "label": "Average Client Rating"
+    },
+    {
+      "value": 13,
+      "suffix": "+",
+      "label": "Years Serving Corvallis"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "Personal Attorney Attention"
+    },
+    {
+      "value": 7,
+      "suffix": " Reviews",
+      "label": "All Verified Client Experiences"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can David Corden actually get charges removed from my record?",
+      "answer": "Yes — one client specifically noted that David not only won her drug case but made sure nothing went on her record. Record protection is a core part of how David approaches criminal defense cases."
+    },
+    {
+      "question": "How quickly does David work on cases?",
+      "answer": "Heather Monson praised David for working 'fast and efficiently' to reach a deal she was pleased with. David understands that legal uncertainty is its own burden, and he moves with purpose to resolve cases without unnecessary delays."
+    },
+    {
+      "question": "Does David handle custody cases, including full custody?",
+      "answer": "Absolutely. David helped one client successfully obtain full custody of his son — a result that client described as 'moving mountains.' He handles contested and complex custody matters throughout the Corvallis area."
+    },
+    {
+      "question": "Is David Corden the attorney I'll actually work with, or will I be passed to someone else?",
+      "answer": "David runs a personal practice, which means you work directly with him — not a paralegal or junior associate. Clients consistently describe a direct, invested relationship with David himself."
+    },
+    {
+      "question": "What makes David different from other attorneys in Corvallis?",
+      "answer": "Clients describe him not just as a great lawyer but as 'a great person.' His 4.9-star rating and reviews spanning over a decade reflect someone who earns trust through outcomes and character, not just credentials."
+    },
+    {
+      "question": "Has David been practicing for a long time?",
+      "answer": "Client reviews reference cases going back to at least 2011, indicating over a decade of active legal practice in the Corvallis area. He has built a reputation for being there 'when it matters most.'"
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#1B3A5C",
+    "accent": "#C9A84C",
+    "note": "Deep navy conveys trust, authority, and stability — the emotional foundation clients seek in a criminal defense and family law attorney. Gold accent reflects the premium, personal caliber of David's outcomes-driven practice without feeling corporate or cold."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Exceptional case outcomes — including clean-record results on criminal charges and full custody wins that clients describe as extraordinary",
+      "Personal, invested attorney relationship — clients consistently feel David goes 'over and above' rather than treating them as a file number",
+      "Long-term client trust and loyalty — reviews span over a decade, with clients remembering and recommending David years after their cases closed"
+    ],
+    "common_complaints": [
+      "None found — all substantive reviews are positive with no recurring criticisms or service concerns identified"
+    ],
+    "suggested_tagline": "When It Matters Most, He Shows Up.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "Tenacious",
+      "Personal",
+      "Trustworthy",
+      "Results-driven",
+      "Humane"
+    ],
+    "named_staff": [
+      "David A. Corden",
+      "David Corden",
+      "Mr. Corden",
+      "Mr. Gorden"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

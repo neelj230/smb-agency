@@ -1,0 +1,151 @@
+{
+  "name": "Dillingers Barber Shop",
+  "slug": "dillingers-barber-shop",
+  "category": "barber",
+  "address": "3516 NE 15th Ave",
+  "city": "Portland",
+  "state": "OR",
+  "zip": "97212",
+  "phone": "(503) 421-4646",
+  "email": "dillingersbarber@gmail.com",
+  "website": "http://www.dillingersbarbershop.com/",
+  "rating": 4.8,
+  "reviewCount": 158,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "10:00 AM – 7:00 PM",
+    "Tuesday": "10:00 AM – 7:00 PM",
+    "Wednesday": "10:00 AM – 7:00 PM",
+    "Thursday": "10:00 AM – 7:00 PM",
+    "Friday": "10:00 AM – 7:00 PM",
+    "Saturday": "10:00 AM – 7:00 PM",
+    "Sunday": "10:00 AM – 5:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I’ve been going to Alex every few weeks for the last four years now - so it’s probably time I write a review and tell everyone how amazing she is!\nI really can’t say enough good things about this barber. Alex isn’t just good, she is CONSISTENTLY good - and that’s almost more important to me as a fellow service industry professional. She is attentive and intuitive, and a friendly and engaging conversationalist as well.\nI’ve given Alex’s card to many, many folks after they’ve complimented my hair. I always enjoy my time in her chair and I always leave feeling good about myself because my hair looks fantastic.\nEveryone else in the shop is also super friendly and the vibes are always good. Truly always a pleasant experience at Dillinger’s, and I’m so grateful for Alex!",
+      "author": "Rowan Taki",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-17"
+    },
+    {
+      "text": "I love this spot. I’ve been getting my hair cut with Alex for the past three years—she’s terrific. About a year ago I started taking my toddler. She was calm and gentle with him and he now really likes going there. Great cut and service, will keep going",
+      "author": "Andrew deCoriolis",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-14"
+    },
+    {
+      "text": "Dillingers is a solid barbershop. Ive been coming here for 7+ years and have never had a bad cut - however thats mostly because 95% of them have been from Alex who I highly reccomend!",
+      "author": "Timothy Navarrette",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-25"
+    },
+    {
+      "text": "DJ is great with my kids. He does a great job cutting the kids’ hair and an even better job making them feel comfortable and confident. 5 stars for grownup haircut and conversation as well.",
+      "author": "David J Raphael",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-07-24"
+    },
+    {
+      "text": "This place is great! From the polite staff, to the lobby area, and the amazing level of skill their barber’s possess, I recommend Dillingers if you want a great haircut & experience!",
+      "author": "Doug Moe",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-08-25"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Retro barber shop interior with vintage signs, wooden counter, and Wolverine projection on wall",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Young boy with mohawk hairstyle in barbershop interior with chairs and decor",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Eclectic interior space with vintage furniture, wall art, and decorative shelving displaying various items.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Modern interior space with decorative wall art, pendant lights, plants, and leather seating",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Vintage barber shop interior with wooden ceiling, classic chairs, and colorful artwork",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Barber with tattoos giving haircut to client in modern salon interior",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Young boy in barbershop with vintage decor and barber chairs visible",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Barber with tattoos cuts client's hair in professional salon setting",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Vintage barbershop interior with Kendall Motor Oil sign, shelving, and magazines on table",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Barbershop wall display with vintage signs, clock, and decorative items",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 158,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.8,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {
+    "facebook": "https://facebook.com/dillingersbarbershoppdx",
+    "instagram": "https://instagram.com/theportlandbarber?igsh=MzRlODBiNWFlZA=="
+  },
+  "competitors": [],
+  "brandColors": {
+    "primary": "#3c434a",
+    "accent": "#1f1f1f",
+    "note": "Extracted from business website"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "Services Barbers Hours Book Now Services Barbers Hours Book Now Services Barbers Hours Book Now Click Here For A Fresh New You Book Now Click Here For A Fresh New You Book Now Click Here For A Fresh New You Book Now Click Here For A Fresh New You Book Now Click Here For A Fresh New You Book Now Click Here For A Fresh New You Book Now Click Here For A Fresh New You Book Now Join The Robot Revolution Assimilate Address 3516 NE 15th Ave, Portland, Oregon 97212 Call Us 503.421.4646 For Booking Email Us dillingersbarber@gmail.com Years 75 Years Experience Clients 6281 Satisfied Clients Barbers 8 Professional Barbers Haircut 8675309 Quality Hair Cuts Find the right service for you Haircut $ 40+ Haircut service using clippers and/or shears. Includes hot towel, back of neck shave, and vibro massage. Specialty/Skin Fade $ 45+ Haircut for those who need a bit more time or technical attention Buzz Cut $ 32 Clipper cut one length all over. Includes hot towel, back of neck shave, and vibro massage. Bang Trim $ 10+ Trimming of the fringe area (bangs) using shears or clippers. This is not a full hair cut Beard Trim $ 20+ Just a trim and shape of beard and/or mustache. Service does not include hot towel or neck shave Beard Trim/Line-Up $ 30+ Trim of the beard and mustache with a full straight razor line-up. Includes hot towel, back of neck shave, and vibro massage. Razor Shave $ 40+ Partial or complete shaving of the face with a straight razor. Includes hot towel, back of neck shave, and vibro massage. Razor Head Shave $ 40+ Traditional straight razor shave of the head. Includes hot towel, back of neck shave, and vibro massage. Haircut/Beard Trim $ 65+ Classic haircut and beard trim with clippers and/or shears. Includes hot towel, back of neck shave, and vibro massage. Haircut/Line-up $ 70+ Classic haircut and beard line-up with a straight razor. Includes hot towel, back of neck shave, and vibro massage. Haircut & Shave $ 70+ Classic haircut and straight razor face shave. Includes hot towel, back of neck shave, and vibro massage. Redkin Grey Blend $ 32 A custom color blend designed to naturally mask grey hair. Haircut/Grey Blend $ 65+ Haircut with shears and/or clippers and grey blending color. Includes hot towel, back of neck shave, and vibro massage. Our Barbers And Stylists Meet The (obviously not robot)Team! Morgan Hann Morgan Hann DJ Meyers Barber/Stylist DJ Meyers Barber/Stylist Aaron Coleman Barber/Stylist Aaron Coleman Barber/Stylist Zoe Anderson Barber Zoe Anderson Barber Alex Jeffrey Barber Alex Jeffrey Barber Danika Atkisson Barber Danika Atkisson Barber Cort Fife Barber Cort Fife Barber Patrick Abernethy Owner / Master Barber Patrick Abernethy Owner / Master Barber Shop Hours Make an Appointment Today! Mon 10 AM - 7 PM Tues 10 AM - 7 PM Wed 8 AM - 7 PM Thur 8 AM - 7 PM Fri 8 AM - 7 PM Sat 8 AM - 7 PM Sun 8 AM - 6 PM Latest Blog We Love To Share Our Story & Experience Nov142023 Happy Holidays to everyone! It’s hard to believe that this festive time of"
+}

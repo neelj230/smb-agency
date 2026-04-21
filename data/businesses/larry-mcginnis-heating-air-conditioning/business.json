@@ -99,10 +99,7 @@
       "name": "Jason",
       "role": "HVAC Technician",
       "bio": "Jason is Larry's trusted field technician, praised by property manager David Brown for delivering superb, timely service — including a same-day furnace repair that had a home's heat restored within three hours of the initial call.",
-      "credentials": [
-        "HVAC Field Technician",
-        "Rapid Response Repairs"
-      ]
+      "credentials": ["HVAC Field Technician", "Rapid Response Repairs"]
     }
   ],
   "photos": [],
@@ -179,12 +176,7 @@
       "Compassionate",
       "Unpretentious"
     ],
-    "named_staff": [
-      "Larry McGinnis",
-      "Jason"
-    ]
+    "named_staff": ["Larry McGinnis", "Jason"]
   },
-  "dataSources": [
-    "google"
-  ]
+  "dataSources": ["google"]
 }

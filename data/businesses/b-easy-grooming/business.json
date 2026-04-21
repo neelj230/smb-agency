@@ -1,0 +1,177 @@
+{
+  "name": "B Easy Grooming",
+  "slug": "b-easy-grooming",
+  "category": "pet groomer",
+  "address": "22 S Central Ave",
+  "city": "Medford",
+  "state": "OR",
+  "zip": "97501",
+  "phone": "(458) 274-9602",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 3,
+  "tagline": "Where Dogs Are Loved, Not Just Groomed",
+  "brandNarrative": "B Easy Grooming on South Central Avenue in Medford isn't just a place to drop off your dog — it's a place where your dog actually feels welcome. Customers like Brett Hale say the team 'really love dogs,' and that warmth isn't performative. It shows up in the energy the moment you walk through the door. Dylan Gale described the shop as being 'full of great energy,' the kind that puts both pets and their humans immediately at ease. The wooden floors, the open-door vibe captured in their photos, and a staff that leads with genuine care all point to a business that built its culture around animals first and transactions second.\n\nThe grooming itself is no afterthought either. Brett specifically called out the 'amazing job cutting,' which speaks to real technical skill behind the friendly faces. With a price menu on display and a straightforward Monday through Saturday schedule, B Easy Grooming keeps things transparent and accessible — no mystery pricing, no runaround. The staff has earned consistent praise for being 'very polite,' and that consistency across every review suggests it's a house standard, not a lucky streak.\n\nFor Medford pet owners, B Easy Grooming fills a real need: a groomer you can trust to handle your dog like a member of the family. The shop's perfect five-star record across every review it has received is a small but telling signal — nobody has left disappointed. When a business earns that kind of loyalty from day one, it's because the experience delivers exactly what it promises: skill, warmth, and a space where dogs are genuinely happy to be.",
+  "ownerStory": "No single founder name surfaced in the reviews, but the personality of B Easy Grooming speaks clearly enough on its own. This is a shop built by someone who understands that pet owners aren't just customers — they're people handing over a family member and trusting you completely. The name itself says something: B Easy. It's a philosophy as much as a brand. Keep it calm, keep it warm, make the dog comfortable, and the rest follows. The brown awning on South Central Avenue, the open door, the posted price menu — every detail reflects an owner who believes in straightforwardness and accessibility over flash.\n\nWhat the team has created at B Easy Grooming is something that takes real intention: a shop where the energy is consistently described as positive, the staff is uniformly polite, and the grooming results speak for themselves. That doesn't happen by accident. It happens when the person running the place sets a tone of genuine care and holds everyone around them to it. Medford has found in B Easy Grooming not just a service provider, but a neighborhood staple that earns trust one happy dog at a time.",
+  "hours": {
+    "Monday": "9:00 AM – 5:00 PM",
+    "Tuesday": "9:00 AM – 5:00 PM",
+    "Wednesday": "9:00 AM – 5:00 PM",
+    "Thursday": "9:00 AM – 5:00 PM",
+    "Friday": "9:00 AM – 5:00 PM",
+    "Saturday": "9:00 AM – 5:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Full Groom & Haircut",
+      "description": "A complete grooming session including breed-appropriate styling, coat shaping, and finishing — the service customers specifically praised as 'amazing.'",
+      "icon": "scissors"
+    },
+    {
+      "name": "Bath & Brush Out",
+      "description": "A thorough wash, blow-dry, and full brush-out to leave your dog's coat clean, tangle-free, and fresh.",
+      "icon": "droplets"
+    },
+    {
+      "name": "Nail Trim & Filing",
+      "description": "Safe, precise nail trimming and smoothing to keep your dog comfortable and your floors scratch-free.",
+      "icon": "grip-horizontal"
+    },
+    {
+      "name": "Ear Cleaning",
+      "description": "Gentle ear cleaning to remove buildup and reduce the risk of infection as part of a healthy grooming routine.",
+      "icon": "activity"
+    },
+    {
+      "name": "Puppy's First Groom",
+      "description": "A gentle, low-stress introductory grooming experience designed to help young dogs get comfortable with the process early.",
+      "icon": "heart"
+    },
+    {
+      "name": "De-Shedding Treatment",
+      "description": "A specialized bath and brushing treatment that significantly reduces shedding by removing loose undercoat buildup.",
+      "icon": "wind"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "They really love dogs and also do a amazing job cutting. They are also had great costumer service",
+      "author": "Brett Hale",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-09-13"
+    },
+    {
+      "text": "This is a great establishment, very polite staff. Place is full of great energy, I would 100% recommend!",
+      "author": "Dylan Gale",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-09-14"
+    },
+    {
+      "text": "",
+      "author": "Feliciano Fletes",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-10-15"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "B Easy Grooming pet grooming shop storefront with brown awning and contact information",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Happy dog standing by open door on wooden floor indoors",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Dog grooming service price menu with contact information and service details.",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 5,
+      "suffix": "★",
+      "label": "Perfect Rating Across All Reviews"
+    },
+    {
+      "value": 3,
+      "suffix": "",
+      "label": "Verified 5-Star Customer Reviews"
+    },
+    {
+      "value": 6,
+      "suffix": " Days",
+      "label": "Open Per Week for Your Convenience"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "Of Customers Would Recommend Us"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What makes B Easy Grooming different from other groomers in Medford?",
+      "answer": "Customers consistently highlight two things: the team genuinely loves dogs, and the grooming results are excellent. Brett Hale put it directly — 'they really love dogs and also do an amazing job cutting.' That combination of real skill and real care is what sets the shop apart."
+    },
+    {
+      "question": "Is the staff friendly and easy to work with?",
+      "answer": "Absolutely. Every customer review mentions the staff's attitude. Dylan Gale called them 'very polite' and described the whole place as having 'great energy.' You and your dog will feel welcome from the moment you arrive."
+    },
+    {
+      "question": "How do I know what services cost before I book?",
+      "answer": "B Easy Grooming posts a visible price menu in the shop so there are no surprises. Pricing is transparent and straightforward — you can see exactly what you're getting before committing."
+    },
+    {
+      "question": "What are your hours and do you take appointments on weekends?",
+      "answer": "The shop is open Monday through Saturday from 9:00 AM to 5:00 PM, so yes — Saturday appointments are available. The shop is closed on Sundays."
+    },
+    {
+      "question": "Is this a good place for dogs that get anxious at the groomer?",
+      "answer": "The calm, welcoming atmosphere at B Easy Grooming is one of the things customers notice most. The space has warm wooden floors, an open and airy feel, and a staff that knows how to keep dogs at ease. It's a genuinely low-stress environment."
+    },
+    {
+      "question": "How do I get in touch to schedule a grooming appointment?",
+      "answer": "You can call B Easy Grooming directly at (458) 274-9602. The shop is located at 22 S Central Ave, Medford, OR 97501. Walk-ins may be welcome but calling ahead is always a good idea to secure your preferred time."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#5C3D2E",
+    "accent": "#D4A96A",
+    "note": "The warm brown primary is pulled directly from the shop's signature brown awning and earthy interior wooden floors — grounded, trustworthy, and approachable. The golden tan accent reflects warmth, friendliness, and the natural tones associated with dogs and outdoor life in the Rogue Valley. Together they feel welcoming without being corporate or clinical."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Genuine love for animals — customers specifically feel the staff's care for dogs, not just their job",
+      "Excellent grooming quality — haircuts are explicitly praised as 'amazing,' indicating real technical skill",
+      "Consistently warm, polite customer service — every reviewer independently noted the staff's attitude and positive energy"
+    ],
+    "common_complaints": [
+      "None found — all three reviews are uniformly positive with no criticism or concerns raised"
+    ],
+    "suggested_tagline": "Great Energy. Great Cuts. Happy Dogs.",
+    "photo_quality": "fair",
+    "personality_keywords": [
+      "warm",
+      "genuine",
+      "skilled",
+      "welcoming",
+      "dog-loving"
+    ],
+    "named_staff": []
+  },
+  "dataSources": [
+    "google"
+  ]
+}

@@ -1,86 +1,313 @@
 business_name,category,slug,address,phone,email,website_url,website_score,google_rating,review_count,photo_count,priority_tier,status,preview_url,outreach_status
-Boss Plumbing & Heating,plumber,boss-plumbing-heating,"259 W Johnson St, Philadelphia, PA 19144, USA",(267) 748-4314,,https://www.bossplumbingheating.com/,0,4.8,227,10,B,scraped,,not_contacted
-Main Attraction Unisex Salon,barber,main-attraction-unisex-salon,"5610 Lancaster Ave, Philadelphia, PA 19139, USA",,,http://www.mausalon.com/,5,4.8,251,10,B,scraped,,not_contacted
-Barbershop Denim,barber,barbershop-denim,"1517 South St, Philadelphia, PA 19146, USA",(267) 930-3980,,http://www.barbershopdenimphilly.com/,35,4.9,528,10,B,scraped,,not_contacted
-June The Barber,barber,june-the-barber,"179 W Berks St, Philadelphia, PA 19122, USA",(215) 403-6860,,https://juniestakz.booksy.com/,35,4.9,137,10,B,scraped,,not_contacted
-Major League Cuts,barber,major-league-cuts,"5124 Market St, Philadelphia, PA 19139, USA",(215) 747-1119,,,0,4.5,326,10,A,scraped,,not_contacted
-Head Game,barber,head-game,"5316 W Girard Ave, Philadelphia, PA 19131, USA",(215) 883-1597,,,0,4.6,61,10,A,scraped,,not_contacted
-Roman’s Barbershop,barber,romans-barbershop,"2120 Walnut St First Floor, Philadelphia, PA 19103, USA",(445) 234-0403,,http://romansphiladelphia.com/,35,4.9,127,10,B,scraped,,not_contacted
-South Street Barbers,barber,south-street-barbers,"1316 South St, Philadelphia, PA 19147, USA",(267) 273-1445,,http://southstreetbarbers1316.booksy.com/,30,4.6,419,10,B,scraped,,not_contacted
-B Auto Repair Inc,auto repair,b-auto-repair-inc,"1701 N 54th St #7, Philadelphia, PA 19131, USA",(215) 477-8575,,,0,4.8,149,8,A,scraped,,not_contacted
-United Auto Repair,auto repair,united-auto-repair,"6163 Lancaster Ave, Philadelphia, PA 19151, USA",(215) 871-8440,,,0,4.3,178,8,A,scraped,,not_contacted
-Apache's Auto Clinic,auto repair,apaches-auto-clinic,"5727 Haverford Ave #35, Philadelphia, PA 19131, USA",(215) 476-6500,,,0,4.5,28,4,A,scraped,,not_contacted
-Lee's Automotive Service,auto repair,lees-automotive-service,"5947 Lancaster Ave, Philadelphia, PA 19151, USA",(215) 879-2883,,,0,4.5,115,5,A,scraped,,not_contacted
-Fitzroy's Auto Repair,auto repair,fitzroys-auto-repair,"5100 W Thompson St, Philadelphia, PA 19131, USA",(215) 473-6565,,,0,4.9,17,0,A,scraped,,not_contacted
-Paco's Auto Repair shop,auto repair,pacos-auto-repair-shop,"5302 Warren St, Philadelphia, PA 19131, USA",(267) 748-7397,,,0,4.8,17,4,A,scraped,,not_contacted
-Judge Auto Repair Inc,auto repair,judge-auto-repair-inc,"5804 Chestnut St, Philadelphia, PA 19139, USA",(215) 528-6004,,,0,4.5,74,10,A,scraped,,not_contacted
-Ant’s Auto Repair and Tow,auto repair,ants-auto-repair-and-tow,"2750 N Broad St, Philadelphia, PA 19132, USA",(267) 774-6361,,,0,4.7,105,10,A,scraped,,not_contacted
-S. Murphy Auto Repair,auto repair,s-murphy-auto-repair,"5539 Chestnut St, Philadelphia, PA 19139, USA",(215) 472-2759,,,0,4.6,199,10,A,scraped,,not_contacted
-Kens Automotive,auto repair,kens-automotive,"341 N 10th St, Philadelphia, PA 19107, USA",(215) 829-9898,,http://kens-automotive.shopgenie.site/,10,4.8,726,10,B,scraped,,not_contacted
-DJ Tire and Auto Repair,auto repair,dj-tire-and-auto-repair,"6008 Lancaster Ave, Philadelphia, PA 19151, USA",(215) 760-8576,,,0,4,74,9,A,scraped,,not_contacted
-BUTCH'S AUTO REPAIR SHOP,auto repair,butchs-auto-repair-shop,"217 N Daggett St, Philadelphia, PA 19139, USA",(215) 471-5694,,,0,4.7,49,6,A,scraped,,not_contacted
-Mike's Automotive,auto repair,mikes-automotive,"427 N Gross St, Philadelphia, PA 19151, USA",(215) 471-5111,,,0,4.7,41,10,A,scraped,,not_contacted
-Duran's LANDSCAPING LLC,landscaper,durans-landscaping-llc,"4832 N Hope St, Philadelphia, PA 19120, USA",(267) 970-1289,,http://duranlandscapingllc.com/,35,4.9,40,10,B,scraped,,not_contacted
-Bright Landscaping,landscaper,bright-landscaping,"5604 Gainor Rd, Philadelphia, PA 19131, USA",(267) 351-5557,,,0,0,0,10,A,scraped,,not_contacted
-Moma's Care Cleaning,cleaning service,momas-care-cleaning,"6140 Lansdowne Ave, Philadelphia, PA 19151, USA",(267) 990-2478,,https://www.momascarecleaning.com/,0,4.5,55,10,B,scraped,,not_contacted
-Cleaning Force LLC,cleaning service,cleaning-force-llc,"2101 N 63rd St, Philadelphia, PA 19151, USA",(610) 809-5003,,http://cleaningforceco.com/,10,4.6,45,10,B,scraped,,not_contacted
-Top Tier Philly Cleaning Company,cleaning service,top-tier-philly-cleaning-company,"370 W Johnson St, Philadelphia, PA 19144, USA",(215) 399-6743,,,0,5,36,2,A,scraped,,not_contacted
-Maid in Cleaning,cleaning service,maid-in-cleaning,"2449 Golf Rd #22, Philadelphia, PA 19131, USA",(800) 782-5802,,,0,4.9,39,0,A,scraped,,not_contacted
-The Bakeshop on Twentieth,bakery,the-bakeshop-on-twentieth,"269 S 20th St, Philadelphia, PA 19103, USA",(215) 644-9714,,https://bakeshopon20th.com/?utm_source=google,10,4.6,433,10,B,scraped,,not_contacted
-Oteri's Italian Bakery,bakery,oteris-italian-bakery,"6323 Woodland Ave, Philadelphia, PA 19142, USA",(215) 724-0793,,http://oterisitalianbakery.com/,20,4.1,359,10,B,scraped,,not_contacted
-Hong Kong Bakery Shop,bakery,hong-kong-bakery-shop,"917 Race St, Philadelphia, PA 19107, USA",(215) 925-1288,,,0,3.1,93,10,A,scraped,,not_contacted
-No Ka Oi Tiki Tattoo,tattoo parlor,no-ka-oi-tiki-tattoo,"610 S 4th St, Philadelphia, PA 19147, USA",(215) 925-1766,,http://www.nokaoitikitattoo.com/,35,4.5,458,10,B,scraped,,not_contacted
-Dave's Artistic Tattoo,tattoo parlor,daves-artistic-tattoo,"5 N 63rd St, Philadelphia, PA 19139, USA",(215) 471-3113,,,0,4.7,388,10,A,scraped,,not_contacted
-J R's Tattoo & Body Piercing,tattoo parlor,j-rs-tattoo-body-piercing,"6110 Market St, Philadelphia, PA 19139, USA",(215) 474-5020,,,0,4.3,161,10,A,scraped,,not_contacted
-VNails and Spa,nail salon,vnails-and-spa,"5101 Walnut St Unit 3, Philadelphia, PA 19139, USA",(215) 852-9475,,,0,4.5,166,10,A,scraped,,not_contacted
-Queen Nails & Spa,nail salon,queen-nails-spa,"16 N 3rd St, Philadelphia, PA 19106, USA",(215) 592-1629,,https://queennailsandspapa.com/,0,4.7,576,10,B,scraped,,not_contacted
-Mai Lashes & Nail Spa,nail salon,mai-lashes-nail-spa,"2910 S 70th St Unit 3, Philadelphia, PA 19142, USA",(267) 969-5262,,,0,4.8,319,10,A,scraped,,not_contacted
-PeCa'Le Salon,nail salon,pecale-salon,"457 Fairmount Ave, Philadelphia, PA 19123, USA",(267) 975-1437,,https://pecalesalon.as.me/,35,5,534,10,B,scraped,,not_contacted
-Solace Nail Salon,nail salon,solace-nail-salon,"6141 Market St, Philadelphia, PA 19139, USA",(610) 968-9982,,http://solacenailsalon.com/?utm_source=gmb&utm_medium=referral,10,4.1,92,10,B,scraped,,not_contacted
-T&C Nail salon,nail salon,tc-nail-salon,"5227 Chestnut St, Philadelphia, PA 19139, USA",(215) 472-4377,,,0,4.2,133,10,A,scraped,,not_contacted
-Blossom LA Nail Bar Center City,nail salon,blossom-la-nail-bar-center-city,"315 S 13th St unit a, Philadelphia, PA 19107, USA",(215) 869-8718,,https://www.blossomlanailbar.com/,10,4.5,299,10,B,scraped,,not_contacted
-Tran Nails,nail salon,tran-nails,"5244 Market St, Philadelphia, PA 19139, USA",(215) 474-1881,,,0,4.5,196,10,A,scraped,,not_contacted
-VIP TT Nails Salon,nail salon,vip-tt-nails-salon,"1985 N 63rd St, Philadelphia, PA 19151, USA",(215) 596-0950,,https://g.co/kgs/DRSozc,25,4.2,126,10,B,scraped,,not_contacted
-Luxe Nail Bar,nail salon,luxe-nail-bar,"212 S 40th St, Philadelphia, PA 19104, USA",(215) 382-0727,,,0,3.7,348,10,A,scraped,,not_contacted
-Bellish Nail Lounge,nail salon,bellish-nail-lounge,"841 S 52nd St, Philadelphia, PA 19143, USA",(484) 649-1931,,http://bellishnails.booksy.com/,30,5,40,10,B,scraped,,not_contacted
-United Tailoring Shop,tailor,united-tailoring-shop,"2303 N Broad St, Philadelphia, PA 19132, USA",(215) 229-7760,,,0,4.9,237,10,A,scraped,,not_contacted
-Sunsilk Tailor,tailor,sunsilk-tailor,"2024 Chestnut St, Philadelphia, PA 19103, USA",(610) 862-1456,,https://sunsilksuits.com/,25,5,77,10,B,scraped,,not_contacted
-Best Seasons and alteration,tailor,best-seasons-and-alteration,"239 N 10th St, Philadelphia, PA 19107, USA",(267) 597-4441,,,0,4.3,68,4,A,scraped,,not_contacted
-Kim's Cleaners & Tailoring,tailor,kims-cleaners-tailoring,"2008 Sansom St, Philadelphia, PA 19103, USA",(215) 557-1556,,,0,4.6,131,10,A,scraped,,not_contacted
-New Master tailor and cleaners,tailor,new-master-tailor-and-cleaners,"1620 Spruce St, Philadelphia, PA 19103, USA",(215) 735-1499,,,0,4.3,58,3,A,scraped,,not_contacted
-Steve’s Old City Cleaners & Tailors,tailor,steves-old-city-cleaners-tailors,"102 Chestnut St, Philadelphia, PA 19106, USA",(215) 427-2550,,,0,4.8,107,10,A,scraped,,not_contacted
-Scioli Pat,tailor,scioli-pat,"1744 Passyunk Ave, Philadelphia, PA 19148, USA",(215) 334-0990,,,0,4.6,78,5,A,scraped,,not_contacted
-Overhill Flowers,florist,overhill-flowers,"6231 Lancaster Ave, Philadelphia, PA 19151, USA",(215) 473-1842,,https://www.overhillflowers.com/,10,4.7,18,10,B,scraped,,not_contacted
-Roses Florist,florist,roses-florist,"36th and Chestnut, Sheraton University City Hotel, 3551 Chestnut St, Philadelphia, PA 19104, USA",(215) 387-3440,,https://www.uofprosesflorist.com/?utm_source=google&utm_medium=gbp&y_source=1_MjA4OTE5NjMtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D,10,4.3,77,10,B,scraped,,not_contacted
-Regan's Flower Shop,florist,regans-flower-shop,"1219 N 52nd St #23, Philadelphia, PA 19131, USA",(215) 879-3810,,,0,5,7,9,A,scraped,,not_contacted
-Rothe Florists & Flower Delivery,florist,rothe-florists-flower-delivery,"7148 Germantown Ave, Philadelphia, PA 19119, USA",(215) 247-0832,,https://www.rotheflorists.com/?utm_source=google&utm_medium=gmb-website-link&utm_campaign=tmf-gmb,10,4.9,460,10,B,scraped,,not_contacted
-Woodcrest Flowers,florist,woodcrest-flowers,"N 58th St, Philadelphia, PA 19131, USA",(267) 323-4549,,,0,4.1,9,9,A,scraped,,not_contacted
-Creative Vases,florist,creative-vases,"543 S 52nd St, Philadelphia, PA 19143, USA",(267) 897-1050,,https://www.creativevasesflorist.com/?utm_source=google&utm_medium=gbp&y_source=1_MTA2NTIzNDU5Ni03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D,10,4.8,17,10,B,scraped,,not_contacted
-Poor Richard's Catering,catering,poor-richards-catering,"5070 Parkside Ave, Philadelphia, PA 19131, USA",(215) 871-0605,,https://poorrichardscatering.com/,0,5,9,0,B,scraped,,not_contacted
-Sculpt'd Philly,pilates studio,sculptd-philly,"950 N 2nd St, Philadelphia, PA 19123, USA",,,,0,4.6,22,0,A,new,,not_contacted
-PHILLY YOGA FACTORY,yoga studio,philly-yoga-factory,"1520 Sansom St, Philadelphia, PA 19102, USA",(215) 977-9642,,,0,4.5,6,1,A,new,,not_contacted
-Farmhouse Kitchen Thai Cuisine | Pearl District,restaurant,farmhouse-kitchen-thai-cuisine-pearl-district,"121 NW 9th Ave, Portland, OR 97209, USA",(971) 754-4966,,https://farmhousethai.com/pearl-district?utm_source=google,10,4.9,7480,10,B,new,,not_contacted
-West End Dental,dentist,west-end-dental,"833 SW 11th Ave #300, Portland, OR 97205, USA",(503) 446-2957,,https://west-end-dental.com/,0,4.9,114,10,B,new,,not_contacted
-LA Fitness,gym,la-fitness,"1270 NE Weidler St, Portland, OR 97232, USA",(503) 734-2950,,https://www.lafitness.com/Pages/clubhome.aspx?clubid=556&utm_source=google&utm_medium=googlemaps&utm_campaign=maps,0,3.7,515,10,B,new,,not_contacted
-Multnomah Athletic Club,gym,multnomah-athletic-club,"1849 SW Salmon St, Portland, OR 97205, USA",(503) 223-6251,,https://themac.com/,10,4.4,435,10,B,new,,not_contacted
-Chenoweth Law Group LLC,law firm,chenoweth-law-group-llc,"510 SW 5th Ave Fourth Floor, Portland, OR 97204, USA",(503) 446-6261,,https://www.chenowethlaw.com/?npcmp=dir:local:3262352:97204,10,4.3,91,2,B,new,,not_contacted
-BCK Attorneys at Law,law firm,bck-attorneys-at-law,"2722 NE 33rd Ave, Portland, OR 97212, USA",(503) 238-9720,,http://www.bckattorneys.com/,0,5,169,4,B,new,,not_contacted
-Liebert & Liebert CPA,accounting firm,liebert-liebert-cpa,"Parking lot, 4300 NE Broadway Suite 3, Portland, OR 97213, USA",(503) 287-4992,,,0,4.4,10,1,A,new,,not_contacted
-"Snyder & Foster, CPA's, PC",accounting firm,snyder-foster-cpas-pc,"9011 SW Beaverton Hillsdale Hwy, Portland, OR 97225, USA",(503) 974-0818,,,0,4.4,7,1,A,new,,not_contacted
-Northside Electric,electrician,northside-electric,"2920 22nd St SE, Salem, OR 97302, USA",(503) 585-4879,,http://www.northsideelectric.com/,30,4.7,199,10,B,new,,not_contacted
-DISTINCT ELECTRIC,electrician,distinct-electric,"4742 Liberty Rd S #219, Salem, OR 97302, USA",(503) 586-9355,,http://distinctelectricsalem.com/,10,5,33,2,B,new,,not_contacted
-Cozy Cottage Child Care,daycare,cozy-cottage-child-care,"882 20th St NE, Salem, OR 97301, USA",(503) 371-4841,,,0,4.6,13,10,A,new,,not_contacted
-Early Learning Center,daycare,early-learning-center,"765 14th St NE, Salem, OR 97301, USA",(503) 391-4964,,,0,5,8,0,A,new,,not_contacted
-Little Village Learning Center,daycare,little-village-learning-center,"445 High St SE #140, Salem, OR 97301, USA",(503) 363-3866,,,0,5,5,0,A,new,,not_contacted
-HAPPPY DAYCARE LLC,daycare,happpy-daycare-llc,"1195 Royalty Dr NE, Salem, OR 97301, USA",(503) 884-3448,,,0,5,1,10,A,new,,not_contacted
-Patty's Little Minions Childcare LLC,daycare,pattys-little-minions-childcare-llc,"4807 Camelot Ct NE, Salem, OR 97301, USA",(503) 881-3580,,,0,5,7,10,A,new,,not_contacted
-Quedi HVAC Solutions Eugene,hvac contractor,quedi-hvac-solutions-eugene,"42 W 13th Ave, Eugene, OR 97401, USA",(541) 824-0693,,http://quedihvacsolutionseugene.online/,0,5,16,0,B,new,,not_contacted
-Heating & Air Conditioning Inc,hvac contractor,heating-air-conditioning-inc,"441 W 5th Ave, Eugene, OR 97401, USA",(541) 234-7445,,,0,5,1,0,A,new,,not_contacted
-My professional business,hvac contractor,my-professional-business,"548 Greenfield Ave, Eugene, OR 97404, USA",(541) 729-3252,,,0,4.8,17,0,A,new,,not_contacted
-Eugene Heating and Air Conditioning,hvac contractor,eugene-heating-and-air-conditioning,"2130 W 7th Ave, Eugene, OR 97402, USA",(541) 234-4801,,,0,4.9,17,1,A,new,,not_contacted
-PureFit Lagree Studio,pilates studio,purefit-lagree-studio,"20370 Empire Ave Suite #C1 Suite C-1, Bend, OR 97703, USA",(541) 480-5020,,http://www.purefitlagreestudioor.com/,0,5,80,10,B,new,,not_contacted
-In-Joy Pilates,pilates studio,in-joy-pilates,"532 SW 13th St, Bend, OR 97702, USA",(541) 280-7570,,,0,5,1,0,A,new,,not_contacted
-In-Joy Pilates,pilates studio,in-joy-pilates,"62828 Montara Dr, Bend, OR 97701, USA",(541) 280-7570,,,0,5,1,0,A,new,,not_contacted
-MOT Photography,photography studio,mot-photography,"19671 Hollygrape St, Bend, OR 97702, USA",(503) 830-1113,,https://www.motphotography.com/,10,5,145,10,B,new,,not_contacted
-Studio 49 Photography,photography studio,studio-49-photography,"20240 Reed Ln Apt 148, Bend, OR 97702, USA",(541) 331-6494,,,0,4,13,10,A,new,,not_contacted
-Therapydia Physical Therapy - Tanasbourne,physical therapist,therapydia-physical-therapy-tanasbourne,"9282 NE Windsor St, Hillsboro, OR 97006, USA",(503) 606-8849,,https://therapydia.com/brand/therapydia/locations/tanasbourne/?utm_source=google&utm_medium=organic&utm_campaign=google_business_page&utm_id=gbp,0,5,184,6,B,new,,not_contacted
+Boss Plumbing & Heating,plumber,boss-plumbing-heating,"259 W Johnson St, Philadelphia, PA 19144, USA",(267) 748-4314,,https://www.bossplumbingheating.com/,0,4.8,227,10,B
+Main Attraction Unisex Salon,barber,main-attraction-unisex-salon,"5610 Lancaster Ave, Philadelphia, PA 19139, USA",,,http://www.mausalon.com/,5,4.8,251,10,B
+Barbershop Denim,barber,barbershop-denim,"1517 South St, Philadelphia, PA 19146, USA",(267) 930-3980,,http://www.barbershopdenimphilly.com/,35,4.9,528,10,B
+June The Barber,barber,june-the-barber,"179 W Berks St, Philadelphia, PA 19122, USA",(215) 403-6860,,https://juniestakz.booksy.com/,35,4.9,137,10,B
+Major League Cuts,barber,major-league-cuts,"5124 Market St, Philadelphia, PA 19139, USA",(215) 747-1119,,,0,4.5,326,10,A
+Head Game,barber,head-game,"5316 W Girard Ave, Philadelphia, PA 19131, USA",(215) 883-1597,,,0,4.6,61,10,A
+Roman’s Barbershop,barber,romans-barbershop,"2120 Walnut St First Floor, Philadelphia, PA 19103, USA",(445) 234-0403,,http://romansphiladelphia.com/,35,4.9,127,10,B
+South Street Barbers,barber,south-street-barbers,"1316 South St, Philadelphia, PA 19147, USA",(267) 273-1445,,http://southstreetbarbers1316.booksy.com/,30,4.6,419,10,B
+B Auto Repair Inc,auto repair,b-auto-repair-inc,"1701 N 54th St #7, Philadelphia, PA 19131, USA",(215) 477-8575,,,0,4.8,149,8,A
+United Auto Repair,auto repair,united-auto-repair,"6163 Lancaster Ave, Philadelphia, PA 19151, USA",(215) 871-8440,,,0,4.3,178,8,A
+Apache's Auto Clinic,auto repair,apaches-auto-clinic,"5727 Haverford Ave #35, Philadelphia, PA 19131, USA",(215) 476-6500,,,0,4.5,28,4,A
+Lee's Automotive Service,auto repair,lees-automotive-service,"5947 Lancaster Ave, Philadelphia, PA 19151, USA",(215) 879-2883,,,0,4.5,115,5,A
+Fitzroy's Auto Repair,auto repair,fitzroys-auto-repair,"5100 W Thompson St, Philadelphia, PA 19131, USA",(215) 473-6565,,,0,4.9,17,0,A
+Paco's Auto Repair shop,auto repair,pacos-auto-repair-shop,"5302 Warren St, Philadelphia, PA 19131, USA",(267) 748-7397,,,0,4.8,17,4,A
+Judge Auto Repair Inc,auto repair,judge-auto-repair-inc,"5804 Chestnut St, Philadelphia, PA 19139, USA",(215) 528-6004,,,0,4.5,74,10,A
+Ant’s Auto Repair and Tow,auto repair,ants-auto-repair-and-tow,"2750 N Broad St, Philadelphia, PA 19132, USA",(267) 774-6361,,,0,4.7,105,10,A
+S. Murphy Auto Repair,auto repair,s-murphy-auto-repair,"5539 Chestnut St, Philadelphia, PA 19139, USA",(215) 472-2759,,,0,4.6,199,10,A
+Kens Automotive,auto repair,kens-automotive,"341 N 10th St, Philadelphia, PA 19107, USA",(215) 829-9898,,http://kens-automotive.shopgenie.site/,10,4.8,726,10,B
+DJ Tire and Auto Repair,auto repair,dj-tire-and-auto-repair,"6008 Lancaster Ave, Philadelphia, PA 19151, USA",(215) 760-8576,,,0,4,74,9,A
+BUTCH'S AUTO REPAIR SHOP,auto repair,butchs-auto-repair-shop,"217 N Daggett St, Philadelphia, PA 19139, USA",(215) 471-5694,,,0,4.7,49,6,A
+Mike's Automotive,auto repair,mikes-automotive,"427 N Gross St, Philadelphia, PA 19151, USA",(215) 471-5111,,,0,4.7,41,10,A
+Duran's LANDSCAPING LLC,landscaper,durans-landscaping-llc,"4832 N Hope St, Philadelphia, PA 19120, USA",(267) 970-1289,,http://duranlandscapingllc.com/,35,4.9,40,10,B
+Bright Landscaping,landscaper,bright-landscaping,"5604 Gainor Rd, Philadelphia, PA 19131, USA",(267) 351-5557,,,0,0,0,10,A
+Moma's Care Cleaning,cleaning service,momas-care-cleaning,"6140 Lansdowne Ave, Philadelphia, PA 19151, USA",(267) 990-2478,,https://www.momascarecleaning.com/,0,4.5,55,10,B
+Cleaning Force LLC,cleaning service,cleaning-force-llc,"2101 N 63rd St, Philadelphia, PA 19151, USA",(610) 809-5003,,http://cleaningforceco.com/,10,4.6,45,10,B
+Top Tier Philly Cleaning Company,cleaning service,top-tier-philly-cleaning-company,"370 W Johnson St, Philadelphia, PA 19144, USA",(215) 399-6743,,,0,5,36,2,A
+Maid in Cleaning,cleaning service,maid-in-cleaning,"2449 Golf Rd #22, Philadelphia, PA 19131, USA",(800) 782-5802,,,0,4.9,39,0,A
+The Bakeshop on Twentieth,bakery,the-bakeshop-on-twentieth,"269 S 20th St, Philadelphia, PA 19103, USA",(215) 644-9714,,https://bakeshopon20th.com/?utm_source=google,10,4.6,433,10,B
+Oteri's Italian Bakery,bakery,oteris-italian-bakery,"6323 Woodland Ave, Philadelphia, PA 19142, USA",(215) 724-0793,,http://oterisitalianbakery.com/,20,4.1,359,10,B
+Hong Kong Bakery Shop,bakery,hong-kong-bakery-shop,"917 Race St, Philadelphia, PA 19107, USA",(215) 925-1288,,,0,3.1,93,10,A
+No Ka Oi Tiki Tattoo,tattoo parlor,no-ka-oi-tiki-tattoo,"610 S 4th St, Philadelphia, PA 19147, USA",(215) 925-1766,,http://www.nokaoitikitattoo.com/,35,4.5,458,10,B
+Dave's Artistic Tattoo,tattoo parlor,daves-artistic-tattoo,"5 N 63rd St, Philadelphia, PA 19139, USA",(215) 471-3113,,,0,4.7,388,10,A
+J R's Tattoo & Body Piercing,tattoo parlor,j-rs-tattoo-body-piercing,"6110 Market St, Philadelphia, PA 19139, USA",(215) 474-5020,,,0,4.3,161,10,A
+VNails and Spa,nail salon,vnails-and-spa,"5101 Walnut St Unit 3, Philadelphia, PA 19139, USA",(215) 852-9475,,,0,4.5,166,10,A
+Queen Nails & Spa,nail salon,queen-nails-spa,"16 N 3rd St, Philadelphia, PA 19106, USA",(215) 592-1629,,https://queennailsandspapa.com/,0,4.7,576,10,B
+Mai Lashes & Nail Spa,nail salon,mai-lashes-nail-spa,"2910 S 70th St Unit 3, Philadelphia, PA 19142, USA",(267) 969-5262,,,0,4.8,319,10,A
+PeCa'Le Salon,nail salon,pecale-salon,"457 Fairmount Ave, Philadelphia, PA 19123, USA",(267) 975-1437,,https://pecalesalon.as.me/,35,5,534,10,B
+Solace Nail Salon,nail salon,solace-nail-salon,"6141 Market St, Philadelphia, PA 19139, USA",(610) 968-9982,,http://solacenailsalon.com/?utm_source=gmb&utm_medium=referral,10,4.1,92,10,B
+T&C Nail salon,nail salon,tc-nail-salon,"5227 Chestnut St, Philadelphia, PA 19139, USA",(215) 472-4377,,,0,4.2,133,10,A
+Blossom LA Nail Bar Center City,nail salon,blossom-la-nail-bar-center-city,"315 S 13th St unit a, Philadelphia, PA 19107, USA",(215) 869-8718,,https://www.blossomlanailbar.com/,10,4.5,299,10,B
+Tran Nails,nail salon,tran-nails,"5244 Market St, Philadelphia, PA 19139, USA",(215) 474-1881,,,0,4.5,196,10,A
+VIP TT Nails Salon,nail salon,vip-tt-nails-salon,"1985 N 63rd St, Philadelphia, PA 19151, USA",(215) 596-0950,,https://g.co/kgs/DRSozc,25,4.2,126,10,B
+Luxe Nail Bar,nail salon,luxe-nail-bar,"212 S 40th St, Philadelphia, PA 19104, USA",(215) 382-0727,,,0,3.7,348,10,A
+Bellish Nail Lounge,nail salon,bellish-nail-lounge,"841 S 52nd St, Philadelphia, PA 19143, USA",(484) 649-1931,,http://bellishnails.booksy.com/,30,5,40,10,B
+United Tailoring Shop,tailor,united-tailoring-shop,"2303 N Broad St, Philadelphia, PA 19132, USA",(215) 229-7760,,,0,4.9,237,10,A
+Sunsilk Tailor,tailor,sunsilk-tailor,"2024 Chestnut St, Philadelphia, PA 19103, USA",(610) 862-1456,,https://sunsilksuits.com/,25,5,77,10,B
+Best Seasons and alteration,tailor,best-seasons-and-alteration,"239 N 10th St, Philadelphia, PA 19107, USA",(267) 597-4441,,,0,4.3,68,4,A
+Kim's Cleaners & Tailoring,tailor,kims-cleaners-tailoring,"2008 Sansom St, Philadelphia, PA 19103, USA",(215) 557-1556,,,0,4.6,131,10,A
+New Master tailor and cleaners,tailor,new-master-tailor-and-cleaners,"1620 Spruce St, Philadelphia, PA 19103, USA",(215) 735-1499,,,0,4.3,58,3,A
+Steve’s Old City Cleaners & Tailors,tailor,steves-old-city-cleaners-tailors,"102 Chestnut St, Philadelphia, PA 19106, USA",(215) 427-2550,,,0,4.8,107,10,A
+Scioli Pat,tailor,scioli-pat,"1744 Passyunk Ave, Philadelphia, PA 19148, USA",(215) 334-0990,,,0,4.6,78,5,A
+Overhill Flowers,florist,overhill-flowers,"6231 Lancaster Ave, Philadelphia, PA 19151, USA",(215) 473-1842,,https://www.overhillflowers.com/,10,4.7,18,10,B
+Roses Florist,florist,roses-florist,"36th and Chestnut, Sheraton University City Hotel, 3551 Chestnut St, Philadelphia, PA 19104, USA",(215) 387-3440,,https://www.uofprosesflorist.com/?utm_source=google&utm_medium=gbp&y_source=1_MjA4OTE5NjMtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D,10,4.3,77
+Regan's Flower Shop,florist,regans-flower-shop,"1219 N 52nd St #23, Philadelphia, PA 19131, USA",(215) 879-3810,,,0,5,7,9,A
+Rothe Florists & Flower Delivery,florist,rothe-florists-flower-delivery,"7148 Germantown Ave, Philadelphia, PA 19119, USA",(215) 247-0832,,https://www.rotheflorists.com/?utm_source=google&utm_medium=gmb-website-link&utm_campaign=tmf-gmb,10,4.9,460,10,B
+Woodcrest Flowers,florist,woodcrest-flowers,"N 58th St, Philadelphia, PA 19131, USA",(267) 323-4549,,,0,4.1,9,9,A
+Creative Vases,florist,creative-vases,"543 S 52nd St, Philadelphia, PA 19143, USA",(267) 897-1050,,https://www.creativevasesflorist.com/?utm_source=google&utm_medium=gbp&y_source=1_MTA2NTIzNDU5Ni03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D,10,4.8,17,10,B
+Poor Richard's Catering,catering,poor-richards-catering,"5070 Parkside Ave, Philadelphia, PA 19131, USA",(215) 871-0605,,https://poorrichardscatering.com/,0,5,9,0,B
+Sculpt'd Philly,pilates studio,sculptd-philly,"950 N 2nd St, Philadelphia, PA 19123, USA",,,,0,4.6,22,0,A
+PHILLY YOGA FACTORY,yoga studio,philly-yoga-factory,"1520 Sansom St, Philadelphia, PA 19102, USA",(215) 977-9642,,,0,4.5,6,1,A
+Farmhouse Kitchen Thai Cuisine | Pearl District,restaurant,farmhouse-kitchen-thai-cuisine-pearl-district,"121 NW 9th Ave, Portland, OR 97209, USA",(971) 754-4966,,https://farmhousethai.com/pearl-district?utm_source=google,10,4.9,7480,10,B
+West End Dental,dentist,west-end-dental,"833 SW 11th Ave #300, Portland, OR 97205, USA",(503) 446-2957,,https://west-end-dental.com/,0,4.9,114,10,B
+LA Fitness,gym,la-fitness,"1270 NE Weidler St, Portland, OR 97232, USA",(503) 734-2950,,https://www.lafitness.com/Pages/clubhome.aspx?clubid=556&utm_source=google&utm_medium=googlemaps&utm_campaign=maps,0,3.7,515,10,B
+Multnomah Athletic Club,gym,multnomah-athletic-club,"1849 SW Salmon St, Portland, OR 97205, USA",(503) 223-6251,,https://themac.com/,10,4.4,435,10,B
+Chenoweth Law Group LLC,law firm,chenoweth-law-group-llc,"510 SW 5th Ave Fourth Floor, Portland, OR 97204, USA",(503) 446-6261,,https://www.chenowethlaw.com/?npcmp=dir:local:3262352:97204,10,4.3,91,2,B
+BCK Attorneys at Law,law firm,bck-attorneys-at-law,"2722 NE 33rd Ave, Portland, OR 97212, USA",(503) 238-9720,,http://www.bckattorneys.com/,0,5,169,4,B
+Liebert & Liebert CPA,accounting firm,liebert-liebert-cpa,"Parking lot, 4300 NE Broadway Suite 3, Portland, OR 97213, USA",(503) 287-4992,,,0,4.4,10,1
+"Snyder & Foster, CPA's, PC",accounting firm,snyder-foster-cpas-pc,"9011 SW Beaverton Hillsdale Hwy, Portland, OR 97225, USA",(503) 974-0818,,,0,4.4,7
+Northside Electric,electrician,northside-electric,"2920 22nd St SE, Salem, OR 97302, USA",(503) 585-4879,,http://www.northsideelectric.com/,30,4.7,199,10,B
+DISTINCT ELECTRIC,electrician,distinct-electric,"4742 Liberty Rd S #219, Salem, OR 97302, USA",(503) 586-9355,,http://distinctelectricsalem.com/,10,5,33,2,B
+Cozy Cottage Child Care,daycare,cozy-cottage-child-care,"882 20th St NE, Salem, OR 97301, USA",(503) 371-4841,,,0,4.6,13,10,A
+Early Learning Center,daycare,early-learning-center,"765 14th St NE, Salem, OR 97301, USA",(503) 391-4964,,,0,5,8,0,A
+Little Village Learning Center,daycare,little-village-learning-center,"445 High St SE #140, Salem, OR 97301, USA",(503) 363-3866,,,0,5,5,0,A
+HAPPPY DAYCARE LLC,daycare,happpy-daycare-llc,"1195 Royalty Dr NE, Salem, OR 97301, USA",(503) 884-3448,,,0,5,1,10,A
+Patty's Little Minions Childcare LLC,daycare,pattys-little-minions-childcare-llc,"4807 Camelot Ct NE, Salem, OR 97301, USA",(503) 881-3580,,,0,5,7,10,A
+Quedi HVAC Solutions Eugene,hvac contractor,quedi-hvac-solutions-eugene,"42 W 13th Ave, Eugene, OR 97401, USA",(541) 824-0693,,http://quedihvacsolutionseugene.online/,0,5,16,0,B
+Heating & Air Conditioning Inc,hvac contractor,heating-air-conditioning-inc,"441 W 5th Ave, Eugene, OR 97401, USA",(541) 234-7445,,,0,5,1,0,A
+My professional business,hvac contractor,my-professional-business,"548 Greenfield Ave, Eugene, OR 97404, USA",(541) 729-3252,,,0,4.8,17,0,A
+Eugene Heating and Air Conditioning,hvac contractor,eugene-heating-and-air-conditioning,"2130 W 7th Ave, Eugene, OR 97402, USA",(541) 234-4801,,,0,4.9,17,1,A
+PureFit Lagree Studio,pilates studio,purefit-lagree-studio,"20370 Empire Ave Suite #C1 Suite C-1, Bend, OR 97703, USA",(541) 480-5020,,http://www.purefitlagreestudioor.com/,0,5,80,10,B
+In-Joy Pilates,pilates studio,in-joy-pilates,"532 SW 13th St, Bend, OR 97702, USA",(541) 280-7570,,,0,5,1,0,A
+In-Joy Pilates,pilates studio,in-joy-pilates,"62828 Montara Dr, Bend, OR 97701, USA",(541) 280-7570,,,0,5,1,0,A
+MOT Photography,photography studio,mot-photography,"19671 Hollygrape St, Bend, OR 97702, USA",(503) 830-1113,,https://www.motphotography.com/,10,5,145,10,B
+Studio 49 Photography,photography studio,studio-49-photography,"20240 Reed Ln Apt 148, Bend, OR 97702, USA",(541) 331-6494,,,0,4,13,10,A
+Therapydia Physical Therapy - Tanasbourne,physical therapist,therapydia-physical-therapy-tanasbourne,"9282 NE Windsor St, Hillsboro, OR 97006, USA",(503) 606-8849,,https://therapydia.com/brand/therapydia/locations/tanasbourne/?utm_source=google&utm_medium=organic&utm_campaign=google_business_page&utm_id=gbp,0,5,184,6,B
+Barbershop Denim,barber,barbershop-denim,"1517 South St, Philadelphia, PA 19146, USA",(267) 930-3980,,http://www.barbershopdenimphilly.com/,35,4.9,531,10,B
+Roman’s Barbershop,barber,romans-barbershop,"2120 Walnut St First Floor, Philadelphia, PA 19103, USA",(445) 234-0403,,http://romansphiladelphia.com/,35,4.9,128,10,B
+Queen Nails & Spa,nail salon,queen-nails-spa,"16 N 3rd St, Philadelphia, PA 19106, USA",(215) 592-1629,,https://queennailsandspapa.com/,0,4.7,577,10,B
+Blossom LA Nail Bar Center City,nail salon,blossom-la-nail-bar-center-city,"315 S 13th St unit a, Philadelphia, PA 19107, USA",(215) 869-8718,,https://www.blossomlanailbar.com/,10,4.5,310,10,B
+Talon Nail Bar,nail salon,talon-nail-bar,"509 S 4th St, Philadelphia, PA 19147, USA",(267) 600-7602,,,0,4.8,221,10,A
+Omnia Spa - Old City,nail salon,omnia-spa-old-city,"205 Race St, Philadelphia, PA 19106, USA",(267) 805-6400,,http://www.omniaspa.com/oldcity,10,4.7,306,10,B
+Bellagio Spa & Nail Care,nail salon,bellagio-spa-nail-care,"2550 Grant Ave # 110, Philadelphia, PA 19114, USA",(215) 437-7526,,https://bellagiospaandnailcarephiladelphia.com/,0,4.8,690,10,B
+Four Seasons Nail,nail salon,four-seasons-nail,"1103 Filbert St, Philadelphia, PA 19107, USA",(215) 925-1065,,,0,4.3,185,10,A
+La Maison Nails Spa,nail salon,la-maison-nails-spa,"1807 Chestnut St 2nd Floor, Philadelphia, PA 19103, USA",(215) 864-0199,,,0,4.1,306,10,A
+Sunsilk Tailor,tailor,sunsilk-tailor,"2024 Chestnut St, Philadelphia, PA 19103, USA",(610) 862-1456,,https://sunsilksuits.com/,25,5,79,10,B
+Best Seasons and alteration,tailor,best-seasons-and-alteration,"239 N 10th St, Philadelphia, PA 19107, USA",(267) 597-4441,,,0,4.3,68,4,A
+Kim's Cleaners & Tailoring,tailor,kims-cleaners-tailoring,"2008 Sansom St, Philadelphia, PA 19103, USA",(215) 557-1556,,,0,4.6,131,10,A
+United Tailoring Shop,tailor,united-tailoring-shop,"2303 N Broad St, Philadelphia, PA 19132, USA",(215) 229-7760,,,0,4.9,240,10,A
+New Master tailor and cleaners,tailor,new-master-tailor-and-cleaners,"1620 Spruce St, Philadelphia, PA 19103, USA",(215) 735-1499,,,0,4.3,58,3,A
+Anh Custom Tailors,tailor,anh-custom-tailors,"771 S 4th St #75, Philadelphia, PA 19147, USA",(215) 733-9214,,,0,3.9,57,3,A
+Jaizelle Hanna Studio,tailor,jaizelle-hanna-studio,"3044 Richmond St, Philadelphia, PA 19134, USA",(215) 520-5928,,,0,5,284,10,A
+Alpha Dog Grooming Services,pet groomer,alpha-dog-grooming-services,"2245 Grays Ferry Ave Store Front, Philadelphia, PA 19146, USA",(215) 982-2706,,,0,4.9,133,10,A
+Pets and the City Shop,pet groomer,pets-and-the-city-shop,"1649 S 17th St, Philadelphia, PA 19145, USA",(215) 467-8000,,https://rymaps.org/business/pets-and-the-city-shop-igiua5,0,4.8,123,10,B
+Kar’s Royal Pet Grooming,pet groomer,kars-royal-pet-grooming,"1169 Hellerman St, Philadelphia, PA 19111, USA",(215) 333-1209,,,0,4.5,126,10,A
+10th Street Laundromat,laundromat,10th-street-laundromat,"1143 S 10th St, Philadelphia, PA 19147, USA",(215) 463-3100,,,0,4.5,80,10,A
+Laundromat of Pine Street LLC,laundromat,laundromat-of-pine-street-llc,"309 S 48th St, Philadelphia, PA 19143, USA",(215) 748-8883,,,0,3.8,307,10,A
+U Do We Do Locust Laundromat,laundromat,u-do-we-do-locust-laundromat,"4303 Locust St, Philadelphia, PA 19104, USA",(215) 387-1697,,,0,4.5,136,9,A
+South Street Laundry,laundromat,south-street-laundry,"1611 South St, Philadelphia, PA 19146, USA",(201) 600-3346,,http://www.southstlaundry.com/,30,4.7,28,10,B
+PHLaundry,laundromat,phlaundry,"2334 S 22nd St, Philadelphia, PA 19145, USA",(267) 888-2522,,,0,4.5,254,10,A
+Super Clean Laundromat Express,laundromat,super-clean-laundromat-express,"6835 Old York Rd, Philadelphia, PA 19126, USA",(267) 368-5590,,,0,4.4,172,10,A
+Man of the house 215,handyman,man-of-the-house-215,"5850 N 13th St, Philadelphia, PA 19141, USA",(267) 292-8435,,,0,4.9,76,10,A
+Our Neighborhood Handyman / ONH Construction,handyman,our-neighborhood-handyman-onh-construction,"319 W Seymour St, Philadelphia, PA 19144, USA",(888) 856-6182,,https://ourneighborhoodhandyman.com/,0,4.9,28,8,B
+Houdini Lock & Safe,locksmith,houdini-lock-safe,"616 S Broad St, Philadelphia, PA 19146, USA",(215) 884-2500,,http://www.houdinionline.com/,30,4.1,55,10,B
+Express Local Locksmith - North Philadelphia,locksmith,express-local-locksmith-north-philadelphia,"1446 N Franklin St, Philadelphia, PA 19122, USA",(267) 704-6134,,https://expresslocallocksmith.com/north-philadelphia/,20,5,182,10,B
+Rothe Florists & Flower Delivery,florist,rothe-florists-flower-delivery,"7148 Germantown Ave, Philadelphia, PA 19119, USA",(215) 247-0832,,https://www.rotheflorists.com/?utm_source=google&utm_medium=gmb-website-link&utm_campaign=tmf-gmb,10,4.9,467,10,B
+Roses Florist,florist,roses-florist,"36th and Chestnut, Sheraton University City Hotel, 3551 Chestnut St, Philadelphia, PA 19104, USA",(215) 387-3440,,https://www.uofprosesflorist.com/?utm_source=google&utm_medium=gbp&y_source=1_MjA4OTE5NjMtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D,10,4.3,77
+Orchid Flower Shop,florist,orchid-flower-shop,"1633 Chancellor St, Philadelphia, PA 19103, USA",(215) 545-2155,,http://www.orchidflowershop.org/,10,4.6,56,10,B
+5th Street Florists,florist,5th-street-florists,"2830 N 5th St, Philadelphia, PA 19133, USA",(267) 423-0151,,http://5thstflorist.wix.com/5thstflorist,10,4.4,51,10,B
+Manayunk Pooch Scoochers,dog walker,manayunk-pooch-scoochers,"571 Jamestown Ave., Philadelphia, PA 19128, USA",(646) 510-2902,,http://www.manayunkpoochscoochers.com/,30,5,39,2,B
+Boots 'n Paws,dog walker,boots-n-paws,"7932 Germantown Ave, Philadelphia, PA 19118, USA",,,https://bootsnpawsphilly.com/,10,5,2,4,B
+Jo Jo's Pro Auto Detailing,auto detailing,jo-jos-pro-auto-detailing,"1913 S Bancroft St, Philadelphia, PA 19145, USA",(215) 755-2722,,,0,4.8,145,10,A
+J & B Auto Detailings LLC,auto detailing,j-b-auto-detailings-llc,"2903 Southampton Rd A, Philadelphia, PA 19154, USA",(215) 673-2588,,http://www.jandbautodetail.com/,30,4.9,313,10,B
+Gabe’s Auto Detailing & Ceramic Coating | Tint,auto detailing,gabes-auto-detailing-ceramic-coating-tint,"5317 N Howard St, Philadelphia, PA 19120, USA",(267) 252-9593,,,0,4.9,391,10,A
+"Alpha Auto Works- Paint Protection Film, Ceramic Coating, Window Tint and Vinyl Car Wrap",auto detailing,alpha-auto-works-paint-protection-film-ceramic-coating-window-tint-and-vinyl-car-wrap,"10067 Sandmeyer Ln W415, Philadelphia, PA 19116, USA",(445) 444-3744,,https://alphaautoshop.com/?utm_source=gbp,0,5,533
+Detailing World Philly,auto detailing,detailing-world-philly,"4220 Whitaker Ave, Philadelphia, PA 19124, USA",(267) 209-3480,,https://detailingworldpa.com/,0,4.9,89,10,B
+FR Auto Detail,auto detailing,fr-auto-detail,"6450 Harbison Ave, Philadelphia, PA 19149, USA",(215) 284-7800,,,0,4.8,98,10,A
+KingZ Hand Wash & Detail Center,auto detailing,kingz-hand-wash-detail-center,"1207-09 Passyunk Ave, Philadelphia, PA 19147, USA",(267) 707-8002,,,0,4.6,126,10,A
+Cmcleaning Residential & Commercial,carpet cleaning,cmcleaning-residential-commercial,"4800 Fillmore Terrace, Philadelphia, PA 19124, USA",(267) 367-0392,,,0,5,210,10,A
+Arch Carpets Care,carpet cleaning,arch-carpets-care,"1024 Arch St, Philadelphia, PA 19107, USA",(215) 960-9118,,,0,5,60,4,A
+Eli Carpet & Upholstery Cleaning,carpet cleaning,eli-carpet-upholstery-cleaning,"8914 Frankford Ave, Philadelphia, PA 19136, USA",(445) 203-2598,,http://elicarpetupholsterycleaning.com/,10,4.7,38,4,B
+Two Men and a Truck Moving,moving company,two-men-and-a-truck-moving,"2092 W Main St Suite D, Norristown, PA 19403, USA",(484) 482-0143,,https://twomenandatruck.com/movers/pa/philadelphia?utm_source=google&utm_medium=organic&utm_campaign=gmb,10,4.4,758,10,B
+We Pick Things Up and Put Them Down LLC,moving company,we-pick-things-up-and-put-them-down-llc,"1700 Market St #1005, Philadelphia, PA 19103, USA",(888) 905-1162,,http://www.wepickthingsup.com/,5,4.9,64,8,B
+Stevie's Mobile Mechanic,mobile mechanic,stevies-mobile-mechanic,"18049 N 13th Ave, Phoenix, AZ 85023, USA",(602) 654-6118,,,0,4.4,27,6,A
+BARBER-Q (Downtown),barber,barber-q-downtown,"635 SW Morrison St, Portland, OR 97205, USA",(503) 223-8002,,https://barberqdowntown.com/,0,4.8,162,10,B
+Rose City Barbers,barber,rose-city-barbers,"5018 NE 22nd Ave, Portland, OR 97211, USA",(503) 284-6008,,http://www.rosecitybarbers.com/,50,4.9,463,10,B
+North End Barber Company,barber,north-end-barber-company,"7433 N Leavitt Ave, Portland, OR 97203, USA",(971) 277-7030,,http://www.northendbarbercompany.com/,50,4.9,380,10,B
+Hair M Downtown,barber,hair-m-downtown,"1101 SW Main St, Portland, OR 97205, USA",(503) 517-0570,,http://www.hairmgrooming.com/,55,4.7,317,10,B
+Dillingers Barber Shop,barber,dillingers-barber-shop,"3516 NE 15th Ave, Portland, OR 97212, USA",(503) 421-4646,,http://www.dillingersbarbershop.com/,55,4.8,158,10,B
+Best Auto Repair,auto repair,best-auto-repair,"4222 NE Martin Luther King Jr Blvd, Portland, OR 97211, USA",(503) 287-5715,,,0,4.4,96,10,A
+Hansen Mechanical,auto repair,hansen-mechanical,"1405 SE 8th Ave, Portland, OR 97214, USA",(503) 206-5918,,http://hmpdx.com/,50,5,113,3,B
+Maxim Auto Care,auto repair,maxim-auto-care,"1024 SE Stephens St, Portland, OR 97214, USA",(503) 484-3448,,,0,5,149,7,A
+Steve's Automotive,auto repair,steves-automotive,"22 NW 14th Ave, Portland, OR 97209, USA",(503) 227-4112,,http://www.stevesautomotive.com/,30,4.4,111,5,B
+Danny's Auto Repair LLC,auto repair,dannys-auto-repair-llc,"7631 NE Sandy Blvd, Portland, OR 97213, USA",(503) 284-1043,,,0,4.5,101,4,A
+Elite Auto Service,auto repair,elite-auto-service,"930 Commercial St NE, Salem, OR 97301, USA",(503) 602-7178,,http://www.eliteautosalem.com/,35,4.8,144,5,B
+Precision Auto Care,auto repair,precision-auto-care,"1255 Sunnyview Rd NE, Salem, OR 97301, USA",(503) 362-1603,,http://www.precisionautocare.us/,55,4.7,103,4,B
+McFarland's Mobile Mechanics,auto repair,mcfarlands-mobile-mechanics,"2530 State St, Salem, OR 97301, USA",(971) 241-7057,,http://mcfarlandsmobile.com/,45,4.1,282,10,B
+Westgate Auto Center,auto repair,westgate-auto-center,"690 Wallace Rd NW, Salem, OR 97304, USA",(503) 363-2438,,,0,4.9,76,3,A
+Brooks Automotive,auto repair,brooks-automotive,"4985 Brooklake Rd NE, Salem, OR 97305, USA",(503) 390-4229,,https://brooksautomotiverepair.business.site/,10,4.9,77,10,B
+Payless Auto and Collision,auto repair,payless-auto-and-collision,"1810 12th St SE, Salem, OR 97302, USA",(503) 581-2079,,https://paylessautoandcollision.com/,10,4.3,137,10,B
+Graham Landscape & Design LLC,landscaper,graham-landscape-design-llc,"34024 Old Willamette Hwy S, Eugene, OR 97405, USA",(541) 729-8029,,http://graham-landscape.com/,55,4.8,348,10,B
+All Seasons Landscape Maintenance,landscaper,all-seasons-landscape-maintenance,"90000 Prairie Rd Unit #57, Eugene, OR 97402, USA",(541) 579-4393,,http://www.aslm.us/,30,4.9,28,10,B
+4 Seasons Landscaping & Maintenance,landscaper,4-seasons-landscaping-maintenance,"2511 W 11th Ave Suite D, Eugene, OR 97402, USA",(541) 895-5242,,http://4seasonslandscapingpro.com/,55,4.8,33,10,B
+PNW Landscapes,landscaper,pnw-landscapes,"4634 Harriett St, Eugene, OR 97402, USA",(541) 600-6146,,http://pnwlandscapes.com/,55,4.7,81,10,B
+Ace Handyman Services Bend,handyman,ace-handyman-services-bend,"1375 SE Wilson Ave, Bend, OR 97702, USA",(541) 224-5833,,https://www.acehandymanservices.com/offices/bend?utm_source=google&utm_medium=gmb&utm_campaign=Google%20Business%20Profile%20-%20Bend%20(GBP/Pin),25,4.9,32,10,B
+Bend River Handyman,handyman,bend-river-handyman,"734 SE 5th St, Bend, OR 97702, USA",(209) 362-7576,,http://bendriverhandyman.com/,40,4.9,14,10,B
+House Doctors Handyman of Central Oregon,handyman,house-doctors-handyman-of-central-oregon,"320 SW Century Dr Suite 405-169, Bend, OR 97702, USA",(541) 678-5058,,http://housedoctors.com/handyman-centraloregon,10,4.9,18,10,B
+H2 Handy Pro,handyman,h2-handy-pro,"61535 S Hwy 97 #9-184, Bend, OR 97702, USA",(503) 577-5860,,http://www.h2handypro.com/,5,4.8,22,10,B
+Atlasta Lock & Safe Co,locksmith,atlasta-lock-safe-co,"702 SE Grand Ave, Portland, OR 97214, USA",(503) 233-8761,,http://www.atlastalock.com/,55,4.6,304,10,B
+KeyTech,locksmith,keytech,"1023 SW 4th St, Gresham, OR 97080, USA",(503) 854-5502,,,0,5,260,10,A
+Scapegoat Tattoo,tattoo,scapegoat-tattoo,"433 SE 13th Ave, Portland, OR 97214, USA",(503) 232-4628,,https://www.scapegoattattoo.com/,55,4.9,123,10,B
+Mad Auto Repair,auto repair,mad-auto-repair,"3707 W 1st Ave, Eugene, OR 97402, USA",(541) 654-5102,,http://madautorepair.com/,55,4.9,49,9,B
+Elevated Barber Lounge,barber,elevated-barber-lounge,"144 Lancaster Dr SE, Salem, OR 97317, USA",(971) 209-2777,,https://www.elevatebarberlounge.com/,45,5,486,10,B
+Fade Sessions Barber Shop,barber,fade-sessions-barber-shop,"267 Commercial St SE, Salem, OR 97301, USA",(503) 989-4863,,,0,4.8,137,10,A
+Daryl's Style & Barber Shop,barber,daryls-style-barber-shop,"3360 Triangle Dr SE, Salem, OR 97302, USA",(503) 363-4165,,,0,4.7,294,10,A
+Diamond Cuts Barber Shop,barber,diamond-cuts-barber-shop,"191 High St SE, Salem, OR 97301, USA",(503) 302-2490,,http://diamondcutsalem.booksy.net/,30,4.6,177,10,B
+Q's Corner Barbershop,barber,qs-corner-barbershop,"724 High St NE, Salem, OR 97301, USA",(503) 364-5054,,,0,4.6,209,10,A
+Bond Street Barber Shop,barber,bond-street-barber-shop,"841 NW Bond St, Bend, OR 97703, USA",(541) 312-2121,,http://www.bondstreetbarbers.com/,55,4.5,396,10,B
+Hair by Nona,barber,hair-by-nona,"Attitudes Salon, 61396 S Hwy 97 suite 102, Bend, OR 97702, USA",(541) 519-1019,,,0,5,44,4
+The Barber League,barber,the-barber-league,"61445 S Hwy 97, Bend, OR 97702, USA",(408) 960-3085,,https://cdl.booksy.com/1ymXSFVLHV,35,4.5,79,10,B
+Members Only Barber Shop,barber,members-only-barber-shop,"1824 Division St, Bend, OR 97701, USA",(541) 323-0494,,http://mobcuts.com/,0,5,16,8,B
+Landscape East & West,landscaper,landscape-east-west,"15601 SE 90th Ave, Clackamas, OR 97015, USA",(503) 256-5302,,https://www.landscapeeast.com/,0,4.5,114,10,B
+Jennings plumbing & mechanical,plumber,jennings-plumbing-mechanical,"2733 Georgia St, Medford, OR 97501, USA",(541) 261-5724,,http://www.jenningstheplumber.com/,30,4.8,36,3,B
+spartan plumbing in medford oregon,plumber,spartan-plumbing-in-medford-oregon,"1507 Sage Rd Suite B, Medford, OR 97501, USA",(541) 500-1787,,http://www.plumbing-by-spartan.com/Contact-Us/,50,5,7,10,B
+Patterson Plumbing Co.,plumber,patterson-plumbing-co,"2086 Lars Way, Medford, OR 97501, USA",(541) 773-2768,,,0,4.8,12,4,A
+Kottke Plumbing,plumber,kottke-plumbing,"3839 S Pacific Hwy, Medford, OR 97501, USA",(541) 773-1166,,,0,5,1,0,A
+Mel's Barber Shop,barber,mels-barber-shop,"962 NW Circle Blvd, Corvallis, OR 97330, USA",(541) 360-9373,,,0,4.7,213,8,A
+City Barber Shop,barber,city-barber-shop,"104 SW 3rd St, Corvallis, OR 97333, USA",(541) 752-7056,,,0,4.4,108,3,A
+Mindy's Hair Affair,barber,mindys-hair-affair,"1906 SW 3rd St, Corvallis, OR 97333, USA",(541) 753-0125,,,0,4.8,145,10,A
+Tailor Chic,tailor,tailor-chic,"1031 SW Morrison St #2627, Portland, OR 97205, USA",(971) 708-2575,,https://m.facebook.com/tailorchic1031/,50,4.9,115,10,B
+Tai's Tailor,tailor,tais-tailor,"2247 SE 106th Ave, Portland, OR 97216, USA",(503) 771-2193,,,0,4.9,65,2,A
+Perfecto Tailoring,tailor,perfecto-tailoring,"1033 SW Yamhill St, Portland, OR 97205, USA",(503) 267-4439,,,0,4.8,37,3,A
+Broadway Alteration Station,tailor,broadway-alteration-station,"2706 NE Broadway, Portland, OR 97232, USA",(503) 287-7712,,,0,4.2,77,9,A
+Hidden Opulence HQ,tailor,hidden-opulence-hq,"1319 SE Martin Luther King Jr Blvd Suite 214, Portland, OR 97214, USA",(503) 451-3779,,https://hiddenopulence-orders.as.me/,35,4.9,36,10,B
+Ali’s Alterations,tailor,alis-alterations,"16502 SE Division St, Portland, OR 97236, USA",(971) 344-8383,,,0,4.9,149,10,A
+Khanh Tailors & Alterations,tailor,khanh-tailors-alterations,"7824 SE Division St, Portland, OR 97206, USA",(503) 560-6071,,,0,4.7,63,10,A
+Aladdin Alterations & Design,tailor,aladdin-alterations-design,"4325 SE Milwaukie Ave, Portland, OR 97202, USA",(503) 839-4999,,,0,4.9,42,10,A
+BESAEV TAILOR SHOP,tailor,besaev-tailor-shop,"1009 SW 6th Ave, Portland, OR 97204, USA",(619) 317-9261,,,0,5,26,10,A
+Campos Landscaping Maintenance LLC,landscaper,campos-landscaping-maintenance-llc,"1073 S 6th St, Independence, OR 97351, USA",(971) 209-8683,,,0,4.8,56,10,A
+Birch Landscape LLC,landscaper,birch-landscape-llc,"6426 Pond Ln S, Salem, OR 97306, USA",(503) 871-0821,,http://birchlandscapellc.com/,55,5,8,10,B
+Norway Landscape,landscaper,norway-landscape,"4575 Auburn Rd NE, Salem, OR 97301, USA",(503) 779-3125,,https://www.norwaylandscape.net/,0,5,7,7,B
+Trailhead Barbershop,barber,trailhead-barbershop,"384 E 40th Ave, Eugene, OR 97405, USA",(541) 868-0141,,http://trailheadbarbershop.booksy.com/,30,4.9,93,10,B
+Amber’s Barbershop,barber,ambers-barbershop,"20 W 17th Ave, Eugene, OR 97401, USA",(541) 343-2181,,,0,4.8,156,10,A
+The Barber Shop,barber,the-barber-shop,"130 E 13th Ave, Eugene, OR 97401, USA",(541) 844-1755,,https://m.facebook.com/TheBarbershopEugene/,50,4.5,227,10,B
+Jeffs Mobile Mechanic Service,mobile mechanic,jeffs-mobile-mechanic-service,"10719 SW Boones Ferry Rd, Portland, OR 97219, USA",(503) 505-8502,,,0,4.7,132,10,A
+Mobile Mechanic Pdx,mobile mechanic,mobile-mechanic-pdx,"15206 NW Sweetgale Ln, Portland, OR 97229, USA",(503) 482-8686,,,0,4.9,27,9,A
+Danny's Mobile Mechanic LLC,mobile mechanic,dannys-mobile-mechanic-llc,"301 NW Eastman Pkwy, Gresham, OR 97030, USA",(971) 419-6162,,,0,4.5,28,6,A
+McFarland's Mobile Mechanics,mobile mechanic,mcfarlands-mobile-mechanics,"2530 State St, Salem, OR 97301, USA",(971) 241-7057,,http://mcfarlandsmobile.com/,45,4.1,282,10,B
+Ace Handyman Services Salem,handyman,ace-handyman-services-salem,"3630 Boone Rd SE Suite 6C, Salem, OR 97317, USA",(503) 563-0900,,http://acehandymanservices.com/offices/salem?utm_source=gbp&utm_medium=organic&utm_campaign=Google%20Business%20Profile%20(GBP),20,4.9,361,10,B
+Salem Dan Handyman,handyman,salem-dan-handyman,"482 Powderhorn Ct SE, Salem, OR 97317, USA",(971) 209-8038,,,0,5,7,4,A
+JJU Maintenance LLC,handyman,jju-maintenance-llc,"4381 Webb Ave NE, Salem, OR 97305, USA",(971) 217-7135,,,0,5,11,10,A
+Repair Remodel Contractors LLC,handyman,repair-remodel-contractors-llc,"3895 Tulare Ave S, Salem, OR 97302, USA",(503) 302-3653,,,0,4.9,15,10,A
+Calvin's Handymans Services LLC,handyman,calvins-handymans-services-llc,"2290 Northgate Ave NE, Salem, OR 97301, USA",(971) 432-0963,,http://calvinshandyservicesllc.com/,0,4.2,5,10,B
+Tru-Shine,cleaning service,tru-shine,"4634 Harriett St, Eugene, OR 97402, USA",(541) 505-0621,,http://trushine.org/,40,4.7,81,10,B
+Merry Maids of Eugene,cleaning service,merry-maids-of-eugene,"5140 Franklin Blvd #5, Eugene, OR 97403, USA",(541) 402-5853,,https://merrymaids.com/home-cleaners-eugene-or?utm_source=google&utm_medium=organic&utm_campaign=gmb,10,4.3,95,10,B
+USA Cleaning,cleaning service,usa-cleaning,"207 E 5th Ave, Eugene, OR 97401, USA",(541) 780-2222,,,0,4.8,28,8,A
+Christina's Custom Cleaning LLC,cleaning service,christinas-custom-cleaning-llc,"2191 Keith Way, Eugene, OR 97401, USA",(714) 395-2825,,,0,4.6,10,10,A
+Portland's Pampered Pets,pet grooming,portlands-pampered-pets,"4236 SE Hawthorne Blvd, Portland, OR 97215, USA",(503) 233-2799,,,0,4.5,215,10,A
+Velux Grooming co.,pet grooming,velux-grooming-co,"4257 NE Broadway, Portland, OR 97213, USA",(971) 340-8986,,,0,5,26,10,A
+Coats & Tails,pet grooming,coats-tails,"2319 NW Westover Rd, Portland, OR 97210, USA",(503) 295-7979,,http://www.coats-n-tails.com/,55,4.7,100,10,B
+Emerald K9,pet grooming,emerald-k9,"1720 NW Lovejoy St ste 112, Portland, OR 97209, USA",(971) 413-5772,,,0,4.9,37,10,A
+Yappy Dog Pet Grooming - Portland OR,pet grooming,yappy-dog-pet-grooming-portland-or,"6715 SW Beaverton Hillsdale Hwy, Portland, OR 97225, USA",(503) 477-4347,,,0,4.6,73,10,A
+First Rate Automotive,auto repair,first-rate-automotive,"1345 NE 2nd St, Bend, OR 97701, USA",(541) 610-4010,,http://www.firstrateon2ndstreet.com/,55,4.8,59,7,B
+Townsend Auto Repair,auto repair,townsend-auto-repair,"205 SE Yew Ln, Bend, OR 97702, USA",(541) 382-1482,,,0,4.9,80,0,A
+Tuner Automotive,auto repair,tuner-automotive,"20712 Carmen Loop Suite 140, Bend, OR 97702, USA",(541) 639-2553,,http://www.tunerautomotive.com/,45,4.8,106,10,B
+Auto Clinic of Bend,auto repair,auto-clinic-of-bend,"915 SE Armour Rd b, Bend, OR 97702, USA",(541) 385-5468,,,0,4.5,133,10,A
+Zenith Automotive,auto repair,zenith-automotive,"1030 SE Hwy 97 Ste 8, Bend, OR 97702, USA",(541) 388-0443,,,0,5,37,0,A
+Cascade Car Craft LLC,auto repair,cascade-car-craft-llc,"910 SE Wilson Ave A2, Bend, OR 97701, USA",(541) 497-3610,,http://www.cascadecarcraft.com/,55,5,73,10,B
+The Goodtime Barbershop,barber,the-goodtime-barbershop,"100 E 6th St, Medford, OR 97504, USA",(541) 261-5747,,http://www.thegoodtimebarbershop.com/,55,4.9,126,10,B
+The Parlor Barbershop,barber,the-parlor-barbershop,"135 S Central Ave, Medford, OR 97501, USA",(541) 879-8694,,,0,5,27,5,A
+The Fella's Barber Shop,barber,the-fellas-barber-shop,"12 S Central Ave, Medford, OR 97501, USA",(541) 363-7270,,https://fellasbarber.shop/,50,4.5,147,9,B
+541 Barbershop,barber,541-barbershop,"703 Stokes Rd, Medford, NJ 08055, USA",(609) 451-0040,,http://www.541barbershop.com/,45,4.7,75,7,B
+Portland Florist Shop,florist,portland-florist-shop,"11807 NE Glisan St #1, Portland, OR 97220, USA",(503) 257-9165,,http://www.portlandfloristshop.com/,10,4.4,294,10,B
+Kern Park Flower Shoppe,florist,kern-park-flower-shoppe,"6713 SE Holgate Blvd, Portland, OR 97206, USA",(503) 771-9000,,https://www.kernparkportlandflowers.com/?utm_source=google&utm_medium=gbp&y_source=1_NDA5ODExODgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D,10,4.9,827,10,B
+Grand Avenue Florist,florist,grand-avenue-florist,"909 SE Yamhill St, Portland, OR 97214, USA",(503) 234-7673,,https://www.grandaveflorist.com/?utm_source=google&utm_medium=gbp&y_source=1_MTIyNjgxNjUtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D,10,4.7,107,10,B
+Flowers Tommy Luke,florist,flowers-tommy-luke,"906 SW Taylor St, Portland, OR 97205, USA",(503) 228-3140,,https://flowerstommyluke.com/?utm_source=gmb&utm_medium=gmb-website-link&utm_campaign=tf-gmb,10,4.9,154,10,B
+Arranged & Rooted,florist,arranged-rooted,"7824 SW Capitol Hwy, Portland, OR 97219, USA",(971) 401-4755,,http://arrangedandrooted.com/,10,5,202,10,B
+Forbidden INK Tattoo's,tattoo,forbidden-ink-tattoos,"1212 Hawthorne Ave NE, Salem, OR 97305, USA",(503) 930-5278,,,0,4.8,196,10,A
+Oregon Tattoo Co,tattoo,oregon-tattoo-co,"104 Commercial St SE, Salem, OR 97301, USA",(503) 365-0726,,https://zzmaps.xyz/business/oregon-tattoo-co-SG_bxBGY,55,4.7,227,10,B
+Hot Rod Betties' Tattoo and Tattoo School,tattoo,hot-rod-betties-tattoo-and-tattoo-school,"940 Edgewater St NW, Salem, OR 97304, USA",(503) 763-6844,,http://hotrodbettiestattoo.com/,45,4.7,218,10,B
+Alchemy Tattoo Collective,tattoo,alchemy-tattoo-collective,"220 Liberty St NE, Salem, OR 97301, USA",(971) 599-5932,,http://www.alchemytattoosalem.com/,55,4.6,154,10,B
+Blackcraft Tattoo,tattoo,blackcraft-tattoo,"2195 Hyacinth St NE Suite 145, Salem, OR 97301, USA",(503) 584-1370,,,0,4.9,54,10,A
+Dark Star Tattoo,tattoo,dark-star-tattoo,"2360 State St, Salem, OR 97301, USA",(503) 763-9696,,,0,4.7,110,10,A
+Morbid Monarch Inks,tattoo,morbid-monarch-inks,"3507 Commercial St SE, Salem, OR 97302, USA",,,,0,5,10,10,A
+Piercings By Aaron (Inside Alchemy Tattoo Collective),tattoo,piercings-by-aaron-inside-alchemy-tattoo-collective,"220 Liberty St NE, Salem, OR 97301, USA",(503) 332-3298,,https://alchemytattoosalem.com/piercings,55,4.9,71,10,B
+Unalome Tattoo,tattoo,unalome-tattoo,"3535 Commercial St SE, Salem, OR 97302, USA",(503) 560-9882,,https://web.getporter.io/shop/unalome-tattoo,40,5,27,10,B
+Dee Mobile mechanic,mobile mechanic,dee-mobile-mechanic,"4100 N 8th St, Philadelphia, PA 19140, USA",(267) 780-0341,,,0,4.4,81,10,A
+Mobile mechanic (we come to you ),mobile mechanic,mobile-mechanic-we-come-to-you-,"3 Kelly St, Philadelphia, PA 19143, USA",(215) 954-9909,,http://www.myoncallmechanic.weebly.com/,55,3.7,166,10,B
+Mike's 24hr mobile mechanic,mobile mechanic,mikes-24hr-mobile-mechanic,"1909 N Taylor St, Philadelphia, PA 19121, USA",(267) 825-2122,,http://mikes-24hr.com/,20,4.2,36,10,B
+Sams mobile mechanic,mobile mechanic,sams-mobile-mechanic,"434 E Loudon St, Philadelphia, PA 19120, USA",(267) 339-2180,,https://samsmobile.cbsservicesusa.com/,0,5,4,8,B
+Autotek mobile automotive specialist,mobile mechanic,autotek-mobile-automotive-specialist,"902 Wynnewood Rd, Philadelphia, PA 19151, USA",(267) 444-7077,,,0,4.8,32,3,A
+JeanandJazz Mobile Detail,mobile car detailing,jeanandjazz-mobile-detail,"Germantown Ave, Philadelphia, PA 19119, USA",(917) 482-3660,,https://pocketsuite.io/book/jeanandjazz,50,5,350,10,B
+Aeyes Mobile Detailing,mobile car detailing,aeyes-mobile-detailing,"1911-A W Chew Ave, Philadelphia, PA 19141, USA",(215) 778-8720,,http://aeyesmobiledetailing.com/,40,4.9,208,10,B
+Upper Darby Mobile Detailing,mobile car detailing,upper-darby-mobile-detailing,"25 Powell Ln, Upper Darby Township, PA 19082, USA",(215) 909-2154,,,0,5,154,10,A
+215 Mobile Detailing,mobile car detailing,215-mobile-detailing,"E 2nd St, Lansdale, PA 19446, USA",(445) 867-7488,,http://215detail.com/,55,5,137,10,B
+Jo Jo's Pro Auto Detailing,mobile car detailing,jo-jos-pro-auto-detailing,"1913 S Bancroft St, Philadelphia, PA 19145, USA",(215) 755-2722,,,0,4.8,145,10,A
+E&J Mobile Detailing,mobile car detailing,ej-mobile-detailing,"E Airy St, Norristown, PA 19401, USA",(610) 772-6310,,https://eandjmobiledetailing.godaddysites.com/,10,5,9,10,B
+Gaby’s Mobile Pet Spa,mobile pet groomer,gabys-mobile-pet-spa,"Prospect Park, PA 19076, USA",(267) 896-0499,,http://www.gabysmobilepetspa.com/,55,5,47,10,B,scraped
+"Avery's Pet Styling Salon and Boutique, Inc.",mobile pet groomer,averys-pet-styling-salon-and-boutique-inc,"8503 West Chester Pike, Upper Darby Township, PA 19082, USA",(877) 528-3797,,https://www.averyspetstyle.com/,0,4.4,72,10
+Emily Wren Photography,wedding photographer,emily-wren-photography,"2930 Jasper St #306, Philadelphia, PA 19134, USA",,,http://www.emilywren.com/,55,5,43,10,B
+Peach Plum Pear Photo,wedding photographer,peach-plum-pear-photo,"2424 E York St #206, Philadelphia, PA 19125, USA",(215) 834-0549,,http://www.peachplumpearphoto.com/,55,5,90,10,B
+BeauMonde Originals,wedding photographer,beaumonde-originals,"3128 N 35th St, Philadelphia, PA 19132, USA",(215) 435-1418,,http://www.beaumondeoriginals.com/,0,4.9,60,10,B
+Daniel Fugaciu Photography,wedding photographer,daniel-fugaciu-photography,"1749 Lawrence Rd, Havertown, PA 19083, USA",(267) 603-1611,,http://danielweddings.com/,40,4.9,29,10,B
+Creative Mind Productions.,wedding photographer,creative-mind-productions,"426 E Allegheny Ave, Philadelphia, PA 19134, USA",(267) 423-6993,,,0,5,776,10,A
+Philly Personal Fitness,personal trainer,philly-personal-fitness,"1140 Frankford Ave, Philadelphia, PA 19125, USA",(267) 979-2649,,http://phillypersonalfitness.com/,55,5,61,10,B
+SelfEmbodiment Fitness,personal trainer,selfembodiment-fitness,"604 S 9th St, Philadelphia, PA 19147, USA",(267) 422-2827,,https://selfembodiment.com/,45,5,76,10,B
+Diana K Beauty,makeup artist,diana-k-beauty,"1430 Orchard Hill Ln, Rydal, PA 19046, USA",,,http://www.dianakbeauty.com/,55,5,82,10,B
+Julie Kate & Co - Wedding Makeup Artist,makeup artist,julie-kate-co-wedding-makeup-artist,"1735 Chestnut St suite 2, Philadelphia, PA 19103, USA",(215) 439-2201,,http://www.juliekatemakeup.com/,55,5,7,10,B
+Leeluxe studio,makeup artist,leeluxe-studio,"2710 W Girard Ave, Philadelphia, PA 19130, USA",,,https://bookmefacedbylee.as.me/,45,5,4,9,B
+Zahirah Joy,makeup artist,zahirah-joy,"4034 Westminster Ave, Philadelphia, PA 19104, USA",(267) 320-1309,,http://zahirahjoy.com/,55,5,37,10,B
+Mayed Up,makeup artist,mayed-up,"1421 Old York Rd, Abington, PA 19001, USA",(267) 808-0375,,http://www.mayedup.com/,20,5,32,10,B
+Walk This Way LLC,dog walker,walk-this-way-llc,"4312 Main St, Philadelphia, PA 19127, USA",(215) 760-3148,,http://www.wtwdogwalk.com/,55,4.6,10,3,B
+Manayunk Pooch Scoochers,dog walker,manayunk-pooch-scoochers,"571 Jamestown Ave., Philadelphia, PA 19128, USA",(646) 510-2902,,http://www.manayunkpoochscoochers.com/,30,5,39,2,B
+Boots 'n Paws,dog walker,boots-n-paws,"7932 Germantown Ave, Philadelphia, PA 19118, USA",,,https://bootsnpawsphilly.com/,10,5,2,4,B
+Grounded Paws Dog Walking and Pet Care LLC,dog walker,grounded-paws-dog-walking-and-pet-care-llc,"Dog Town, Plymouth Meeting, PA 19462, USA",(610) 632-5137,,https://www.groundedpawspets.com/,50,5,9,10,B
+ASH - Archie's School House LLC,dog trainer,ash-archies-school-house-llc,"ASH - Office, 633 Boyer Rd, Cheltenham, PA 19012, USA",(267) 785-1335,,https://archiesschoolhouse.com/,55,5,45,10
+Y2K9s Dog Sports Club,dog trainer,y2k9s-dog-sports-club,"601 Davisville Rd, Willow Grove, PA 19090, USA",(215) 821-9259,,http://www.y2k9s.net/,55,4.6,108,10,B
+SoozyPooch LLC,dog trainer,soozypooch-llc,"800 N 2nd St Suite 199, Philadelphia, PA 19123, USA",(717) 201-6290,,http://www.soozypooch.com/,40,5,10,2,B
+MaidPro Lafayette Hill,house cleaner,maidpro-lafayette-hill,"450 Germantown Pike # 1, Lafayette Hill, PA 19444, USA",(267) 647-9315,,https://www.maidpro.com/lafayette-hill?utm_source=gmb&utm_medium=organic,10,4.9,55,1,B
+Top Tier Philly Cleaning Company,house cleaner,top-tier-philly-cleaning-company,"370 W Johnson St, Philadelphia, PA 19144, USA",(215) 399-6743,,,0,5,36,2,A
+Philly Cleaning Company,house cleaner,philly-cleaning-company,"570 N 5th St, Philadelphia, PA 19123, USA",(215) 714-2163,,http://phillycleaningco.com/,45,4.9,28,10,B
+School of Keys,piano teacher,school-of-keys,"2555 E Dauphin St, Philadelphia, PA 19125, USA",,,http://www.schoolofkeys.org/contact,50,5,55,10,B
+Piano Lessons with Traci,piano teacher,piano-lessons-with-traci,"48 N 3rd St, Philadelphia, PA 19106, USA",(610) 597-9474,,,0,5,17,1,A
+FloraWuMusic Studio,piano teacher,florawumusic-studio,"4511 Larchwood Ave, Philadelphia, PA 19143, USA",(267) 456-5226,,http://florawumusic.com/,40,5,4,1,B
+Zen Piano Studio,piano teacher,zen-piano-studio,"25 E City Ave, Philadelphia, PA 19131, USA",(917) 770-7678,,http://www.zenpianostudio.com/,45,5,8,7,B
+Marzena's Piano Studio,piano teacher,marzenas-piano-studio,"140 E Park Ave, Ambler, PA 19002, USA",(215) 542-9683,,http://marzenaspianostudio.com/,55,5,26,10,B
+Sakanyan Music Academy,piano teacher,sakanyan-music-academy,"201 Green Ln, Philadelphia, PA 19127, USA",(661) 336-8490,,https://sakanyanmusicacademy.mymusicstaff.com/About-Astghik-Sakanyan,50,5,13,10,B
+Philadelphia Music Studios - Cotton St. Music,guitar teacher,philadelphia-music-studios-cotton-st-music,"108 Cotton St, Philadelphia, PA 19127, USA",(267) 482-7211,,https://www.philadelphiamusicstudios.com/,55,5,17,10,B
+Notary Public of Philadelphia *Appointment Only*,mobile notary,notary-public-of-philadelphia-appointment-only,"4302 Market St, Philadelphia, PA 19104, USA",(267) 253-2288,,,0,4.9,200,5,A
+RhythMix Entertainment,mobile dj,rhythmix-entertainment,"14051 Townsend Rd, Philadelphia, PA 19154, USA",(215) 488-5898,,http://www.rhythmixent.com/,55,5,140,10,B
+Eclipse DJ Entertainers,mobile dj,eclipse-dj-entertainers,"840 1st Ave Suite 350, King of Prussia, PA 19406, USA",(610) 637-5979,,http://www.poweredbyeclipse.com/,50,5,679,10,B
+"Essence of Serenity Massage Therapy, LLC",massage therapist,essence-of-serenity-massage-therapy-llc,"1516 N 5th St, Philadelphia, PA 19122, USA",(856) 449-0673,,http://essenceofserenitymassagetherapy.com/,55,5,388,10
+Our Kingdom Spa and Massage,massage therapist,our-kingdom-spa-and-massage,"6730 Germantown Ave, Philadelphia, PA 19119, USA",(215) 398-8725,,http://www.ourkingdomspa.com/,20,5,101,7,B
+Justin Shelley's (BCLMT) Advanced Massage & Bodywork Solutions,massage therapist,justin-shelleys-bclmt-advanced-massage-bodywork-solutions,"1220 N Broad St, Philadelphia, PA 19121, USA",,,,0,4.4,110,10,A
+"Judy Moon and Associates, Massage Therapy",massage therapist,judy-moon-and-associates-massage-therapy,"829 Spruce St #300, Philadelphia, PA 19107, USA",(267) 671-0861,,http://www.judymoon.com/,45,4.8,44,10
+Integrative Body Therapy Center,massage therapist,integrative-body-therapy-center,"124 Chestnut St Suite 18, Philadelphia, PA 19106, USA",(877) 797-5349,,https://www.massagebook.com/therapists/IBTCenter?src=external,10,5,44,10,B
+Tibet Healing Spa,massage therapist,tibet-healing-spa,"1008 Arch St, Philadelphia, PA 19107, USA",(215) 625-2888,,https://tibethealingspa1.com/,0,4.3,254,10,B
+TaiChi Bodywork Center,massage therapist,taichi-bodywork-center,"4325 Main St, Philadelphia, PA 19127, USA",(267) 265-8088,,https://taichibodyworkcenter.onbuildhealth.com/,50,4.1,164,10,B
+Thyme Bandit Personal Chef Service,personal chef,thyme-bandit-personal-chef-service,"Building One, 300 Welsh Rd Building 100, Horsham, PA 19044, USA",(847) 809-4418,,http://www.thymebanditchef.com/,45,5,4,10
+F.E.A.S.T. Private Chef/Catering/Event Dining Service,personal chef,feast-private-chefcateringevent-dining-service,"7203 N 20th St, Philadelphia, PA 19138, USA",(215) 681-5517,,http://www.taste-feast.com/,10,4.4,13,10,B
+Moe Pristine Washing,power washing,moe-pristine-washing,"1126 Marlborough St, Philadelphia, PA 19125, USA",(267) 357-9796,,http://moepristine.com/,20,4.8,50,10,B
+Dirt Busters,power washing,dirt-busters,"245 E Main St, Norristown, PA 19401, USA",(610) 279-1383,,https://www.dirtbustersinc.com/,50,4.7,33,5,B
+Key Academics,tutor,key-academics,"600 W Germantown Pike #400, Plymouth Meeting, PA 19462, USA",(610) 940-1625,,,0,5,5,6,A
+Growth Learning Tutoring Services,tutor,growth-learning-tutoring-services,"7551 Haverford Ave, Philadelphia, PA 19151, USA",(267) 441-0847,,https://rymap.org/business/growth-learning-tutoring-services-r9r05h,40,5,60,8,B
+Victoria Urban Outreach Tutoring Service,tutor,victoria-urban-outreach-tutoring-service,"346 E Walnut Ln Suite 8, Philadelphia, PA 19144, USA",(267) 312-9345,,http://www.vuots.org/,55,5,12,2,B
+Tutor Philly,tutor,tutor-philly,"3610 Indian Queen Ln, Philadelphia, PA 19129, USA",(267) 225-0146,,,0,0,0,1,A
+Take Action Tutoring Company LLC,tutor,take-action-tutoring-company-llc,"1100 N Front St, Philadelphia, PA 19123, USA",(215) 510-9949,,https://www.canva.com/design/DAFj9mHcmmk/KygsVNabHBgzp_tKns_LPA/view?utm_content=DAFj9mHcmmk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink,10,5,14,10,B
+Mathnasium of Center City,tutor,mathnasium-of-center-city,"322 N Broad St, Philadelphia, PA 19102, USA",(215) 358-6284,,https://www.mathnasium.com/math-centers/centercity,10,5,60,10,B
+Mr. Camden Mobile Mechanic,mobile mechanic,mr-camden-mobile-mechanic,"1632 Carman St, Camden, NJ 08105, USA",(856) 446-8644,,,0,5,3,7,A
+Top Notch Mobile Mechanic,mobile mechanic,top-notch-mobile-mechanic,"201 Broadway, Gloucester City, NJ 08030, USA",(267) 334-1729,,,0,4.7,34,0,A
+RAF mobile mechanic,mobile mechanic,raf-mobile-mechanic,"813 Cooper St, Woodbury, NJ 08096, USA",(856) 294-6016,,,0,4.9,30,6,A
+Bayer Mobile Repairs,mobile mechanic,bayer-mobile-repairs,"W Somerdale Rd, Somerdale, NJ 08083, USA",(856) 761-4656,,http://bayermobilerepairs.com/,55,5,11,10,B
+In-Home Personal Training King of Prussia,personal trainer,in-home-personal-training-king-of-prussia,"120 8th St, Bridgeport, PA 19405, USA",(484) 269-3220,,http://www.chestercountytraining.com/,30,5,21,5,B
+HybridFlex Training LLC,personal trainer,hybridflex-training-llc,"970 Pulaski Dr, King of Prussia, PA 19406, USA",(484) 380-5909,,http://www.thehybridflex.com/,50,5,19,10,B
+Gym Starz FitnessLLC,personal trainer,gym-starz-fitnessllc,"970 Pulaski Dr, King of Prussia, PA 19406, USA",(323) 680-0190,,https://www.gymstarz.fit/,55,4.9,36,10,B
+"Alnaar Athletics, LLC",personal trainer,alnaar-athletics-llc,"167 Town Center Rd, King of Prussia, PA 19406, USA",(856) 412-0307,,,0,0,0,10
+Level 40 Training & Performance Center,personal trainer,level-40-training-performance-center,"102 Queens Dr, King of Prussia, PA 19406, USA",(252) 538-3540,,,0,0,0,10,A
+8 Days Later,personal trainer,8-days-later,"971 Pulaski Dr, King of Prussia, PA 19406, USA",(215) 262-6679,,http://www.8dlfitness.com/contact.htm,0,5,3,0,B
+F45 Training King of Prussia,personal trainer,f45-training-king-of-prussia,"190 Town Center Rd Unit B, King of Prussia, PA 19406, USA",(484) 231-8377,,https://f45training.com/studio/kingofprussia/,10,5,9,10,B
+LA Fitness,personal trainer,la-fitness,"200 Village Drive, King of Prussia, PA 19406, USA",(215) 716-9093,,https://www.lafitness.com/Pages/clubhome.aspx?clubid=1182&utm_source=google&utm_medium=googlemaps&utm_campaign=maps,0,4.4,1211,10,B
+Daniel Fugaciu Photography,wedding photographer,daniel-fugaciu-photography,"1749 Lawrence Rd, Havertown, PA 19083, USA",(267) 603-1611,,http://danielweddings.com/,40,4.9,29,10,B
+Annie Hosfeld Photography,wedding photographer,annie-hosfeld-photography,"511 Marks Rd, Oreland, PA 19075, USA",(267) 496-5339,,http://www.anniehosfeld.com/,45,5,29,10,B
+Alex Lowy Photography LLC,wedding photographer,alex-lowy-photography-llc,"246 Haverford Ave 2nd floor, Narberth, PA 19072, USA",(610) 664-1475,,http://www.lowyphoto.com/,0,4.8,12,0,B

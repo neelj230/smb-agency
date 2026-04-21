@@ -1,0 +1,151 @@
+{
+  "name": "Rose City Barbers",
+  "slug": "rose-city-barbers",
+  "category": "barber",
+  "address": "5018 NE 22nd Ave",
+  "city": "Portland",
+  "state": "OR",
+  "zip": "97211",
+  "phone": "(503) 284-6008",
+  "email": "user@domain.com",
+  "website": "http://www.rosecitybarbers.com/",
+  "rating": 4.9,
+  "reviewCount": 463,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM – 6:00 PM",
+    "Tuesday": "9:00 AM – 6:00 PM",
+    "Wednesday": "9:00 AM – 6:00 PM",
+    "Thursday": "9:00 AM – 6:00 PM",
+    "Friday": "9:00 AM – 6:00 PM",
+    "Saturday": "9:00 AM – 4:00 PM",
+    "Sunday": "9:00 AM – 4:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I met Eli a little over a year ago thanks to my wonderful wife! Just look at the transformation this man has performed on me, it’s hard to describe or put in to words, but I always feel unstoppable and on top of the world when I leave his chair! The self worth and self love I have again is absolutely amazing. No matter what I got going on Eli has always been open and understanding, and I can’t thank you enough for the amazing wedding day early morning cut! This dude hardly knew me, but I know he could tell what he’s done for me from the first time I sat in the chair, and the fact he said yes to getting up at the ass crack of dawn for me on my day, I can’t thank you enough bro. And the boys! Eli is patient, understanding and listens to my sons, but also keeps in mind what mom wants in the end, so it’s a win win, boys feel like they got what they wanted , and mom is amazed with the clean fade, and hair out of the eyes, I’m honored to be a part of your journey bro, I’m sad for what’s happened in the past month or so, but I’m also excited, your an artist bro, let your skill shine it’s gonna take you far 👊 I can’t thank you enough, I’ve told you before, ain’t no one else touching my hair ever again. Love you man thank you for all of it 👊 buckle up! Your journey is only starting my guy\n\nMy first time at rose city barbers was today,\nnormally Eli would cut us in his salon at home in canby, wherever Eli is i got no problems with the trek, but I can say this place is pretty nice! From the sports to the drink fridge to the professionals to the clients everyone was respectful and made sure we were good, I noticed 2 other boys coming in with there dads and I can tell you everyone there cares, listens and makes us feel on top of the world, self care and self image ain’t just for the girls, it’s life changing what it can do for us guys 👊",
+      "author": "William Fortune",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-03-01"
+    },
+    {
+      "text": "Recently got a haircut from Eli and I will be going back. Great price outstanding haircut. Eli kept it professional and friendly while providing a great service, highly recommend to anyone looking for a new barber!",
+      "author": "wyatt Ramos",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-13"
+    },
+    {
+      "text": "Eli Escobar is one of the best barbers I've ever had the pleasure of meeting and i feel lucky to have him cut my hair, he learns and gets better with every cut he gives. He adapts very well to every customer and his attention to detail is very impressive. I hope to keep him as my barber until the end of time!!!",
+      "author": "David Arellano",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-14"
+    },
+    {
+      "text": "Just like many teens, my 8th grade son wants to look gooood.  Eli does the job! He is extremely skilled with scissors and clippers, and spends lots of time making a cut that is stylish and fits my son’s face. We travel all the way from SW Portland to Eli! Highly recommend.",
+      "author": "Kat Applegarth",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-14"
+    },
+    {
+      "text": "Not the greatest photos, but my boys are always happy when we see Eli! He always does such a great job. He listens to the request and he makes them comfortable… my boys don’t even show him a reference photo they truly just trust him. And he gets it right every time. So excited to hear about his availability opening up!",
+      "author": "Erin Cooley",
+      "rating": 5,
+      "source": "google",
+      "date": "2026-02-14"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "White corner barbershop building with red tile roof and black signage reading Road City Barbery",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Person standing against colorful geometric mural on exterior building wall",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Modern barbershop interior with black walls, neon signs, barber chairs, and TVs",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Man receiving haircut in modern barbershop with black and white decor",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Person wearing striped shirt and cream scarf indoors near window overlooking parking lot",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Side profile of man with modern fade haircut in indoor salon setting",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Man in red shirt posing inside modern salon with ring lights and white furniture",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Man in sunglasses relaxing under umbrella in garden setting outdoors",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Man with fresh haircut in barber shop interior with styling chairs",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Modern white building exterior with spiral metal balcony and parked cars visible",
+      "category": "exterior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 463,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {
+    "facebook": "https://facebook.com/2008/fbml",
+    "instagram": "https://instagram.com/rosecitybarbers"
+  },
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "Home Book Now Contact/HOURS Home Book Now Contact/HOURS Welcome to Rose City Barbers. A barbershop servicing the Alberta Arts district in Portland OR. Book an appointment and come hang out. We look forward to seeing you soon."
+}

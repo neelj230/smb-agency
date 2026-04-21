@@ -1,0 +1,146 @@
+{
+  "name": "Tibet Healing Spa",
+  "slug": "tibet-healing-spa",
+  "category": "massage therapist",
+  "address": "1008 Arch St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19107",
+  "phone": "(215) 625-2888",
+  "email": "",
+  "website": "https://tibethealingspa1.com/",
+  "rating": 4.3,
+  "reviewCount": 254,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "10:00 AM – 10:00 PM",
+    "Tuesday": "10:00 AM – 10:00 PM",
+    "Wednesday": "10:00 AM – 10:00 PM",
+    "Thursday": "10:00 AM – 10:00 PM",
+    "Friday": "10:00 AM – 10:00 PM",
+    "Saturday": "10:00 AM – 10:00 PM",
+    "Sunday": "10:00 AM – 10:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I need deep massages as I have a lot of tenseness and knots in my upper shoulders. My masseuse not only got all of my tension out but recommending cupping. I had the best sleep ever afterwards. Cannot wait to come back, especially at this price point. So worth it.",
+      "author": "Brooklyn Krause",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-23"
+    },
+    {
+      "text": "I walked into Tibet Healing Spa with persistent lower back stiffness that regular massages couldn't fully shake. The owner was incredibly informative. They took the time to explain the ancient practice of moxibustion – something I was curious about but hadn't tried before.\nThe experience was nothing short of amazing. The warmth from the moxa was deeply penetrating yet completely comfortable, not hot or scary at all. It felt like a wave of soothing heat melting away the deep-seated tension in my back that I've carried for months. Unlike a typical massage, the relaxing and warming effect continued for hours, even days afterward. I felt a significant boost in my energy and a lasting sense of calm.\nThe studio itself is serene and clean, and the practitioner was highly skilled, ensuring my comfort and safety throughout. For anyone in Philadelphia looking for genuine, therapeutic relief—especially for aches, stiffness, or just a profound reset—I cannot recommend their moxibustion service enough. It’s a game-changer. Thank you!",
+      "author": "Ria Moni",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-29"
+    },
+    {
+      "text": "I've been going to this shop for several years, and every visit feels like home. I especially like the technicians here. Their techniques are very delicate and they can always pinpoint my pain points. After the massage, my cervical pain has been greatly relieved. The shop's environment is very warm and relaxing. If you're looking for a place to relax, this is the right place!",
+      "author": "Mitzi Dixon",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-09-28"
+    },
+    {
+      "text": "0/10 experience, don't do it!!!!!!! My head is severely bruised and I am in IMMENSE pain.\nI don't normally leave reviews but I have to warn people about this experience. I went for a head spa after seeing how popular and relaxing they look online. This s experience was perhaps anything BUT relaxing. First of all the staff is not kind, they seem to be laughing AT us and not able to communicate well. The service starts and I am SHOCKED at how painful and rough they were being. I mean, really really tough on my scalp. The staff was laughing which made me feel like I should just get through it without saying anything. It really was just a poor experience over all.\n\nThe night after and still the morning after, I can't play my head down on a pillow and it's painful to the touch. I'm really disappointed and I never paid so much money to be in agony in my life. Don't go.\n\nOH and you know the sprinkler head spa thing you see in all the videos and pictures in this place? They used it for about half a second. The rest was just painful scrubbing and awful massaging.",
+      "author": "The Champions",
+      "rating": 1,
+      "source": "google",
+      "date": "2025-12-13"
+    },
+    {
+      "text": "I had a very disappointing experience at Tibet Healing Spa. The massage was far too rough and not relaxing at all.\n\nOn top of that, the receptionist was very forgetful and provided a service I did not request. When I raised concerns, I was met with a nasty attitude and was asked why I didn’t say anything earlier — even though I couldn’t clearly determine how long I had been in the massage room.\n\nOverall, the customer service and experience were unprofessional and left me very uncomfortable. I would not return.",
+      "author": "Christina Pierre-Noel",
+      "rating": 1,
+      "source": "google",
+      "date": "2026-02-14"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Modern massage or spa treatment room with black recliners and footrests",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Tibet Healing Spa storefront with signage advertising massage services and pricing",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Modern spa reception area with orange seating, neon signage, and elegant ceiling fixture.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Modern hallway with potted plants, nesting tables, and glass door entrance",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Tibet Healing Spa photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Tibet Healing Spa photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Tibet Spa storefront sign displaying massage and treatment prices and services",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Long hallway with purple curtained dressing rooms and decorative artwork on walls",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Modern storefront display with TV screen showing colorful content and welcoming signage",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Modern spa relaxation room with three reclined massage chairs and Asian artwork",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 254,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.3,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

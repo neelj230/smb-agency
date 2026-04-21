@@ -229,8 +229,6 @@
       "neighborhood-trusted",
       "overdelivering"
     ],
-    "named_staff": [
-      "Mr. Murphy"
-    ]
+    "named_staff": ["Mr. Murphy"]
   }
 }

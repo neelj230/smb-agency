@@ -1,0 +1,144 @@
+{
+  "name": "Thyme Bandit Personal Chef Service",
+  "slug": "thyme-bandit-personal-chef-service",
+  "category": "personal chef",
+  "address": "Building One",
+  "city": "300 Welsh Rd Building 100",
+  "state": "",
+  "zip": "",
+  "phone": "(847) 809-4418",
+  "email": "",
+  "website": "http://www.thymebanditchef.com/",
+  "rating": 5,
+  "reviewCount": 4,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "Open 24 hours",
+    "Tuesday": "Open 24 hours",
+    "Wednesday": "Open 24 hours",
+    "Thursday": "Open 24 hours",
+    "Friday": "Open 24 hours",
+    "Saturday": "Open 24 hours",
+    "Sunday": "Open 24 hours"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Can't say enough good things about working with Thyme Bandit. CT and Erica were amazingly communicative from start to finish. We wanted something memorable for a bachelor party and gave CT the reigns to create an amazing menu that everyone immediately fell in love with from the first appetizer to the last strip of chocolate covered bacon. Not only was the food outstanding, CT left the kitchen cleaner than when he arrived. 100% A+ 5 star service.",
+      "author": "Lim Tederman",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-06-26"
+    },
+    {
+      "text": "Chef CT was amazing, friendly and professional. He prepared an amazing birthday breakfast for us on my fiancé's birthday - his nutella crème brule french toast was to die for (we still reminisce about it daily). He was very flexible, knew exactly what we needed and it was an easy in and out process, no complications. He even CLEANED up before he left! Thank you so much - will definitely use him again!",
+      "author": "renita persaud",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-10-06"
+    },
+    {
+      "text": "We couldn't have been happier! We booked CT for a 70th birthday party. We wanted a seriously delicious and beautiful meal, but we also wanted to include the young grandkids, so a fancy restaurant wasn't appealing. We got EXACTLY what we were looking for! The grownups enjoyed a top-notch four course meal, Grandma felt relaxed and pampered and the kids were able to enjoy themselves. Big thanks to CT... We'll certainly be in touch again!",
+      "author": "Rebecca Popowsky",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-02-03"
+    },
+    {
+      "text": "CT masterfully chefed my bachelor party. He prepared three amazing courses and left my kitchen cleaner than I left it to him. We are already looking for excuses to book him again.",
+      "author": "David Pondelick",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-07-13"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Plated scallop with quinoa crust, green onions, and roasted vegetables on black dish",
+      "category": "food"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Plated desserts with crepes, whipped cream, fresh strawberries, and mint garnish",
+      "category": "food"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Oysters with caviar and greens served in glass bowl with white wine",
+      "category": "food"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Thyme Bandit Personal Chef Service photo 4",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Thyme Bandit Personal Chef Service photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Thyme Bandit Personal Chef Service photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Thyme Bandit Personal Chef Service photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Three bowls of golden dessert with cream, nuts, and caramel sauce",
+      "category": "food"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Elegant plated dessert with crispy noodles and red sauce on floral china",
+      "category": "food"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Appetizers with tomato slices, white cream, and greens on dark plate",
+      "category": "food"
+    }
+  ],
+  "stats": [
+    {
+      "value": 4,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {
+    "facebook": "https://facebook.com/thymebanditchef/?ref=br_rs",
+    "instagram": "https://instagram.com/thymebanditchef/"
+  },
+  "competitors": [],
+  "brandColors": {
+    "primary": "#2a2a2a",
+    "accent": "#fefafa",
+    "note": "Extracted from business website"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "Thyme Bandit Personal Chef Service Home About Meal Prep Catering Contact Join Our Team Philadelphia, PA 847.809.4418 Bring a Professional Chef to Your Kitchen Our goal is to bring high quality food back to the kitchen table. Whether it's bringing the restaurant to you, making dinner for the family so you don't have to, or even teaching you to cook better on your own, Thyme Bandit will be there to make it happen. We know that every customer is different, so every meal, every lesson, and every bite will be tailored to your wishes. Here at Thyme Bandit, it's all about good food for good people! (function(jQuery) { function init() { window.wSlideshow && window.wSlideshow.render({elementID:\"885807947853990345\",nav:\"none\",navLocation:\"bottom\",captionLocation:\"bottom\",transition:\"fade\",autoplay:\"1\",speed:\"5\",aspectRatio:\"auto\",showControls:\"true\",randomStart:\"false\",images:[{\"url\":\"2/2/5/3/22538836/tb-color-nobckgrnd.png\",\"width\":\"400\",\"height\":\"791\"},{\"url\":\"2/2/5/3/22538836/9498460.jpg\",\"width\":\"400\",\"height\":\"601\"},{\"url\":\"2/2/5/3/22538836/9685339.jpg\",\"width\":\"400\",\"height\":\"266\",\"caption\":\"Sea Scallop, Red Quinoa, Blackberry Gastrique, Cinnamon Foam \"},{\"url\":\"2/2/5/3/22538836/3407142.jpg\",\"width\":\"400\",\"height\":\"266\",\"caption\":\"Image by BMK Photography\"},{\"url\":\"2/2/5/3/22538836/108807.jpg\",\"width\":\"400\",\"height\":\"266\",\"caption\":\"Pan Seared Salmon with Creamy Leek Sauce--Image by BMK Photography\"}]}) } jQuery(document).ready(init); })(window.jQuery) Our cooking comes from the heart, so we love to learn my clients' tastes and aim to satisfy them. Do you service my area? We are happy to travel for free to homes within 10 miles of Center City, Philadelphia. This includes most of Philadelphia proper, the North and West Suburbs, and Camden and Cherry Hill, NJ areas.Travel to distances over 10 miles will incur a small travel fee. Home ABOUT US MEAL PREP CATERING Romantic Dinners Lessons Contact Thyme Bandit Personal Chef Service847.809.4418 - [email protected] Home About Meal Prep Catering Contact Join Our Team var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-7870337-1']); _gaq.push(['_setDomainName', 'none']); _gaq.push(['_setAllowLinker', true]); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; // NOTE: keep the [1] if you replace this code. Otherwise cookie banner scripts won't be first on the page var s = document.getElementsByTagName('script')[1]; s.parentNode.insertBefore(ga, s); })(); _W.Analytics = _W.Analytics || {'trackers': {}}; _W.Analytics.trackers.wGA = '_gaq'; // NOTE: keep the getElementsByTagName(o)**[1]** if you replace this code. Otherwise cookie banner scripts won't be first on the page ;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[]; p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments) };"
+}

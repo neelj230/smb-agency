@@ -241,12 +241,7 @@
       "unpretentious",
       "animal-intuitive"
     ],
-    "named_staff": [
-      "Courtney",
-      "Kendra"
-    ]
+    "named_staff": ["Courtney", "Kendra"]
   },
-  "dataSources": [
-    "google"
-  ]
+  "dataSources": ["google"]
 }

@@ -1,0 +1,146 @@
+{
+  "name": "Take Action Tutoring Company LLC",
+  "slug": "take-action-tutoring-company-llc",
+  "category": "tutor",
+  "address": "1100 N Front St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19123",
+  "phone": "(215) 510-9949",
+  "email": "",
+  "website": "https://www.canva.com/design/DAFj9mHcmmk/KygsVNabHBgzp_tKns_LPA/view?utm_content=DAFj9mHcmmk&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink",
+  "rating": 5,
+  "reviewCount": 14,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "3:00 – 7:30 PM",
+    "Tuesday": "3:00 – 7:30 PM",
+    "Wednesday": "3:00 – 7:30 PM",
+    "Thursday": "3:00 – 7:30 PM",
+    "Friday": "3:00 – 7:30 PM",
+    "Saturday": "11:00 AM – 3:00 PM",
+    "Sunday": "11:00 AM – 2:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Take Action Tutoring is THEEEEEEEE BEST tutoring company hands down!! They have a unique tutoring style using an individual approach with your child while  catering to their specific needs and learning style.  My daughter was on and IEP and after sessions with T.A.T, she became more confident and her progress showed on her tests, classwork and homework. Teachers began to notice a difference and she excelled from their services alone! They make teaching fun and they make it easy to learn difficult material! I love how they involve the parents with fun learning approaches too! You won’t be disappointed! My daughter lovedddddddd her tutor from TAKE ACTION TUTORING!! I can tell by my daughters’ smile and her confident level when doing tests that T.A.T . made a big difference ! I promise you guys won’t be disappointed! Get creative and fun tutors who has knowledge, patience and who genuinely cares for your children! This black owned company is more than AMAZING, they are perfect in every way! I am definitely a pleased parent!!!!",
+      "author": "Tasha Washington",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-09-15"
+    },
+    {
+      "text": "My daughter has been with this company since the second grade she is now entering the 4th grade! Mrs. P and Mr. Charles are phenomenal!! It’s hard to find genuine people that make kids love learning! My daughter was very shy and discouraged when she entered but now she’s confident and lovvvvesss going to Tutoring! I honestly couldn’t thank this company enough! The best hands down! 10 Stars!",
+      "author": "Kashief Edwards",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-09-15"
+    },
+    {
+      "text": "Best place , and best choice I made for my daughter education this place it’s a blessing! It’s also a honor to know that there’s is people who really  loves to help us also letting us know that we are not alone with our kids education. Best teachers ever they are a great team. We love this place ✨🙏🏽",
+      "author": "Yanelimar Hernandez",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-10-11"
+    },
+    {
+      "text": "Love them my son has been going to them for about 3/4 years. They treat him so well and he loves going to his tutoring services. He has come so far with their help.",
+      "author": "C M",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-10-11"
+    },
+    {
+      "text": "Great tutors, great atmosphere and an amazing place to learn! Charles and Patrice truely love what they do and it shows in every aspect of their operation. I highly recommend them to anyone looking for tutoring services. Hands down best tutoring in Philly.",
+      "author": "Quest Build and Design",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-10-12"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Night exterior of brick storefront with neon sign and metal railing entrance",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Young student writing on paper at desk during educational activity indoors.",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Group of children and adults in red shirts posing together indoors for a photo.",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Group of children and adults wearing matching black t-shirts posing against yellow background",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Take Action Tutoring Company LLC photo 5",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Take Action Tutoring Company LLC photo 6",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Young person smiling in front of vibrant red graffiti-style wall art",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Take Action Tutoring Company LLC photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Nighttime storefront of unit 102 with brick facade and metal railing entrance",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Take Action Tutoring Company LLC photo 10",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 14,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

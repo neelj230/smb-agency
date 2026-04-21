@@ -1,0 +1,67 @@
+{
+  "name": "Heating & Air Conditioning Inc",
+  "slug": "heating-air-conditioning-inc",
+  "category": "hvac contractor",
+  "address": "441 W 5th Ave",
+  "city": "Eugene",
+  "state": "OR",
+  "zip": "97401",
+  "phone": "(541) 234-7445",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 1,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "7:00 AM – 8:00 PM",
+    "Tuesday": "7:00 AM – 8:00 PM",
+    "Wednesday": "7:00 AM – 8:00 PM",
+    "Thursday": "7:00 AM – 8:00 PM",
+    "Friday": "7:00 AM – 8:00 PM",
+    "Saturday": "9:00 AM – 7:00 PM",
+    "Sunday": "9:00 AM – 7:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Best service and maintenance and install of new unit l, very promt and customer service is the best, I highly recommend",
+      "author": "vicki neet",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-09-16"
+    }
+  ],
+  "team": [],
+  "photos": [],
+  "stats": [
+    {
+      "value": 1,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "poor"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

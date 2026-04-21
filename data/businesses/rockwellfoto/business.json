@@ -1,0 +1,241 @@
+{
+  "name": "Rockwellfoto",
+  "slug": "rockwellfoto",
+  "category": "photography studio",
+  "address": "590 Weller Ln",
+  "city": "Ashland",
+  "state": "OR",
+  "zip": "97520",
+  "phone": "(541) 646-5290",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 5,
+  "tagline": "Where Vision Meets Light. Every Frame.",
+  "brandNarrative": "Rockwellfoto isn't just a photography studio — it's a creative partnership disguised as a shoot. Tucked in Ashland, Oregon, this world-class studio is built around Jeff, a photographer and videographer whose clients don't just praise his work — they talk about how much fun they had making it. Samantha Zid puts it plainly: whether you're grabbing coffee or heading into an outdoor adventure, Jeff shows up 'authentic and a joy to be around.' That energy isn't incidental — it's the entire philosophy. The studio space itself reinforces this, featuring professional Elinchrom lighting rigs, white cyclorama backdrops, vintage props, and a modern dressing room with illuminated vanity mirrors that signal to every client: you're in good hands, and this is going to be something special.\n\nWhat sets Rockwellfoto apart is the rare combination of technical mastery and genuine collaboration. Alex Leone highlights Jeff's 'eye for lighting and storytelling' as the force that elevates projects beyond simple documentation into something cinematic. Tayler Czarnezki calls him 'talented, trustworthy, and versatile' — three words that describe a creative who can shoot elegant jewelry campaigns in urban settings one day and capture sweeping mountain-view architecture the next. The studio's photo portfolio tells that same story: from moss-covered Pacific sea stacks to Paramount Pictures gates to modern loft interiors, Jeff's lens travels far and finds beauty in every context.\n\nJennifer Theel nails the deeper reason clients return: 'his commitment to excellence, his willingness to collaborate, and his desire to innovate.' Rockwellfoto is the rare studio where the process feels as rewarding as the final image. Five-star ratings across every single review aren't a coincidence — they're the natural result of a creative who treats every project like a personal mission.",
+  "ownerStory": "Jeff Rockwell built Rockwellfoto from a simple conviction: great photography is a conversation, not a transaction. Based in Ashland, Oregon — a town with its own rich creative identity — Jeff has cultivated a studio practice that spans portrait work, commercial photography, video production, and on-location shoots that have taken him from the Oregon coast to the gates of Paramount Pictures in Hollywood. His clients consistently describe him the same way: someone who listens first, collaborates fully, and then delivers imagery that exceeds what they imagined. Trevor Heinsohn's review says it in three words: 'World-class studio and talent.' That's not hyperbole — it's the reputation Jeff has earned one project at a time.\n\nJeff's approach is grounded in authenticity. He's the kind of creative you want in the room because his enthusiasm for the work is contagious. Whether he's rigging Elinchrom strobes in the studio or shooting poolside pavilions with mountain backdrops, Jeff brings the same curiosity and precision to every frame. His willingness to sit down over coffee, talk through a vision, and then go make it happen is exactly why Rockwellfoto's clients don't just leave satisfied — they leave excited to come back.",
+  "hours": {
+    "Monday": "9:00 AM – 5:00 PM",
+    "Tuesday": "9:00 AM – 5:00 PM",
+    "Wednesday": "9:00 AM – 5:00 PM",
+    "Thursday": "9:00 AM – 5:00 PM",
+    "Friday": "9:00 AM – 5:00 PM",
+    "Saturday": "9:00 AM – 1:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Portrait & Fashion Photography",
+      "description": "Studio and on-location portrait sessions featuring professional lighting, styled backdrops, and a collaborative creative process tailored to your vision.",
+      "icon": "user"
+    },
+    {
+      "name": "Commercial & Product Photography",
+      "description": "High-end product and brand imagery — from elegant jewelry campaigns to lifestyle content — crafted to elevate your marketing across all platforms.",
+      "icon": "shopping-bag"
+    },
+    {
+      "name": "Video Production & Creative Content",
+      "description": "Full-service videography and content creation that combines cinematic storytelling with precision lighting to bring your brand narrative to life.",
+      "icon": "video"
+    },
+    {
+      "name": "Architectural & Location Photography",
+      "description": "On-location shoots capturing interiors, exteriors, and environmental spaces — from modern lofts to outdoor pavilions — with a photographer's eye for mood and light.",
+      "icon": "home"
+    },
+    {
+      "name": "Studio Rental & Creative Collaboration",
+      "description": "Access Rockwellfoto's fully equipped studio — featuring Elinchrom lighting, white cyclorama, vintage props, and a professional dressing room — for your own creative projects.",
+      "icon": "aperture"
+    },
+    {
+      "name": "Event & Lifestyle Photography",
+      "description": "Dynamic event and lifestyle coverage that captures authentic moments with the storytelling depth that Jeff's clients consistently describe as his signature strength.",
+      "icon": "camera"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Incredibly talented photographer, videographer, creative guy! Whether you are sitting down for coffee, discussing the next big creative project, or sharing outdoor adventures, you can count on Jeff to be authentic and a joy to be around. He’s someone you’re excited to work with because of the quality of work you will create and the amount of fun you have along the way.",
+      "author": "Samantha Zid",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-02-19"
+    },
+    {
+      "text": "Talented, trustworthy, and versatile are only 3 out of many words to describe Jeff at Rockwellfoto! His authenticity and professionalism are proven in his work! The studio has a way of making you feel comfortable, but know you’re in an incredibly creative space to work and collaborate in!",
+      "author": "Tayler Czarnezki",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-02-19"
+    },
+    {
+      "text": "Always fun to work with while delivering excellent imagery and video content. Jeff’s eye for lighting and storytelling elevate any project to the next level. Highly recommend working with Jeff on your future content to fulfill your vision.",
+      "author": "Alex Leone",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-02-26"
+    },
+    {
+      "text": "Jeff is dedicated to providing premium quality photography results to his clients. He is successful, in part, because of his commitment to excellence, his willingness to collaborate, and his desire to innovate.",
+      "author": "jennifer theel",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-03-01"
+    },
+    {
+      "text": "World-class studio and talent!",
+      "author": "Trevor Heinsohn",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-02-19"
+    }
+  ],
+  "team": [
+    {
+      "name": "Jeff Rockwell",
+      "role": "Founder, Photographer & Videographer",
+      "bio": "Jeff is the creative force behind Rockwellfoto — a photographer, videographer, and storyteller whose clients describe him as authentic, talented, trustworthy, and genuinely fun to work with. His technical mastery of lighting is matched only by his commitment to collaboration and innovation on every project.",
+      "credentials": [
+        "Expert Elinchrom lighting specialist",
+        "Photography & videography dual expertise",
+        "On-location and studio shooting",
+        "Commercial, portrait, and architectural work",
+        "Praised for storytelling and creative vision"
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Woman wearing elegant jewelry and layered clothing in urban setting showcase",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Professional photography studio interior with Elinchrom lighting equipment and workspace",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Photographer capturing images inside modern poolside pavilion with mountain views",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Workers installing solar panels over pool area at outdoor venue",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Paramount Pictures gate entrance with palm trees and fountain under blue sky",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Woman sitting on black steps in brick alleyway wearing casual outfit",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Professional photography studio with white backdrop, lighting equipment, and vintage props including skateboard and bicycle.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Rocky sea stacks with moss and vegetation on sandy beach at low tide",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Modern loft interior with brick walls, black leather sofa, and framed artwork",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Professional vanity mirror with illuminated bulbs in modern dressing room with brick walls",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 5,
+      "suffix": "/5",
+      "label": "Average Star Rating"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Five-Star Reviews"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "Client Satisfaction Rate"
+    },
+    {
+      "value": 6,
+      "suffix": "",
+      "label": "Days a Week Available"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What makes Rockwellfoto different from other photography studios?",
+      "answer": "Every client review points to the same thing: Jeff. His combination of world-class technical skill and genuine warmth makes the entire process feel collaborative and fun — not transactional. Clients consistently say they're excited to work with him again, not just satisfied with the results."
+    },
+    {
+      "question": "What kinds of projects does Jeff shoot?",
+      "answer": "Jeff is remarkably versatile. His portfolio spans fashion and portrait photography, commercial product work, architectural and interior photography, video production, and on-location shoots ranging from the Oregon coast to Los Angeles. If it requires a great eye for light and storytelling, Jeff is in his element."
+    },
+    {
+      "question": "What is the studio space like?",
+      "answer": "The Rockwellfoto studio is a fully professional creative environment featuring Elinchrom lighting equipment, a white cyclorama backdrop, vintage props including a skateboard and bicycle, and a modern dressing room with illuminated vanity mirrors. Clients describe it as a space that makes you feel comfortable while knowing you're in a seriously creative environment."
+    },
+    {
+      "question": "Does Jeff only shoot in the studio, or does he do on-location work?",
+      "answer": "Both. Jeff works extensively on location — his portfolio includes poolside pavilions with mountain views, coastal sea stacks, urban alleyways, modern loft interiors, and even the Paramount Pictures lot. If your vision requires a specific setting, he'll make it happen."
+    },
+    {
+      "question": "How does Jeff approach creative collaboration?",
+      "answer": "Jeff starts with a conversation — sometimes literally over coffee. Clients describe his process as highly collaborative and innovation-driven. He listens to your vision, brings his own creative instincts to the table, and works with you to produce imagery that fulfills — and often exceeds — what you originally imagined."
+    },
+    {
+      "question": "What are Rockwellfoto's studio hours and how do I book?",
+      "answer": "The studio is open Monday through Friday from 9:00 AM to 5:00 PM and Saturday from 9:00 AM to 1:00 PM, with Sundays closed. To book a session or discuss your project, call (541) 646-5290 or visit the studio at 590 Weller Ln, Ashland, OR 97520."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#1C1C1E",
+    "accent": "#C9A84C",
+    "note": "Deep charcoal-black anchors the brand in the seriousness and sophistication of professional photography — evoking darkrooms, camera bodies, and cinematic depth. The warm gold accent reflects studio lighting, artistic ambition, and the premium quality Jeff's clients consistently praise. Together they communicate: world-class craft with warmth."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Jeff's authentic, warm personality creates a shoot experience clients describe as genuinely fun — a rare differentiator that drives repeat business and enthusiastic referrals",
+      "Exceptional technical versatility spanning studio portraiture, commercial product work, architectural photography, and video production — all at a high level",
+      "Collaborative creative process where clients feel heard and involved, resulting in imagery that reflects their vision elevated by Jeff's storytelling instincts"
+    ],
+    "common_complaints": [
+      "None found — all five reviews are five stars with entirely positive sentiment and no critical feedback"
+    ],
+    "suggested_tagline": "Authentic Imagery. World-Class Light. Real Fun.",
+    "photo_quality": "good",
+    "personality_keywords": [
+      "Authentic",
+      "Collaborative",
+      "Versatile",
+      "Innovative",
+      "World-class"
+    ],
+    "named_staff": [
+      "Jeff"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

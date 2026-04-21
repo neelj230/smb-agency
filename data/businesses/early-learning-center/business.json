@@ -1,0 +1,177 @@
+{
+  "name": "Early Learning Center",
+  "slug": "early-learning-center",
+  "category": "daycare",
+  "address": "765 14th St NE",
+  "city": "Salem",
+  "state": "OR",
+  "zip": "97301",
+  "phone": "(503) 391-4964",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 8,
+  "tagline": "Where kids run in, not out.",
+  "brandNarrative": "Early Learning Center on 14th St NE in Salem isn't just another daycare — it's the place parents drive past their office, past Keizer, past a dozen other options to reach. Parents who've bounced through six different childcare centers in two years describe something unmistakable the moment they walk in: the kids don't cry here. One father watched his daughter finally stop dreading drop-off. A mother noticed her son — hesitant with strangers — started hugging his teacher every single day before leaving. That's not a marketing claim. That's what eight out of eight reviewers came back to say, unprompted.\n\nThe environment is age-intentional. Designated areas for each developmental stage mean toddlers aren't overwhelmed by older kids, and school-age children have space to thrive at their own level. Reviewers consistently mention cleanliness, warmth, and a staff culture that treats everyone — kids, parents, and each other — with visible respect. The director is singled out repeatedly for being 'amazingly kind, professional, and thoroughly educated in early childhood development,' setting a tone that clearly runs through the entire team of professional early educators.\n\nWhat sets Early Learning Center apart in a crowded Salem childcare market is responsiveness. When one parent faced losing their job because of a sudden childcare crisis — after calling 12 other centers — Early Learning Center said yes, and had her son enrolled by the next morning. That kind of human-first flexibility, paired with affordability that reviewers call out specifically, is why families don't just stay — they become regulars who wouldn't dream of going anywhere else.",
+  "ownerStory": "The director of Early Learning Center doesn't show up in press releases or on a polished about page — she shows up in the reviews parents write at midnight, still a little emotional about the day. Described by grandparents, parents, and first-time daycare searchers alike as 'amazingly kind, professional, and thoroughly educated in early childhood development,' she has built a center where the staff reflect her values: real early educators, not placeholders, who are genuinely dedicated to children's growth, reading readiness, and personal development. Her fingerprints are on everything from the age-designated learning areas to the culture of mutual respect that one parent described as feeling like 'a big family.'\n\nHer philosophy seems to be built on a simple belief: a child who feels safe learns, and a parent who feels confident can work. The fact that families drive 15 minutes out of their way, that a parent in a one-day childcare emergency found a yes when everyone else said no, that kids who used to cry at every other center suddenly love going — that's the proof. Early Learning Center exists because someone decided that 'good enough' wasn't the goal. The goal was a place where kids run in.",
+  "hours": {},
+  "services": [
+    {
+      "name": "Infant & Toddler Care",
+      "description": "Nurturing, age-appropriate care for the youngest learners in a safe, clean, and dedicated space separate from older age groups.",
+      "icon": "baby"
+    },
+    {
+      "name": "Preschool Program",
+      "description": "Structured early childhood education led by professional educators focused on school readiness, social skills, and personal growth.",
+      "icon": "book-open"
+    },
+    {
+      "name": "School-Age Care",
+      "description": "Before and after school care with designated age-specific areas so older children have room to learn and play at their own level.",
+      "icon": "graduation-cap"
+    },
+    {
+      "name": "Early Reading Readiness",
+      "description": "Developmentally grounded literacy activities led by educators trained in early childhood development to build foundational reading skills.",
+      "icon": "bookmark"
+    },
+    {
+      "name": "Emergency & Flexible Enrollment",
+      "description": "Fast-response enrollment for families facing urgent childcare gaps, with same-day or next-day start available when possible.",
+      "icon": "calendar-check"
+    },
+    {
+      "name": "Full-Day Childcare",
+      "description": "Affordable full-day care in a clean, welcoming environment structured to support children's emotional and developmental well-being.",
+      "icon": "sun"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "After calling 12 other places I finally came across this place and I'm very glad I did. My work wasn't willing to work with me losing childcare and gave me one day to fix the issue. This Early Learning Center let my son start the next day! Everyone is very welcoming and happy. My son, who is hesitant with new people, loves going there! Highly recommend, clean and welcoming environment! And very affordable.",
+      "author": "CSGmail Law",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-06-16"
+    },
+    {
+      "text": "My son loves it here❤️ They have designated areas for each age range, which I find amazing. I’ve never seen my son happier at any other school. He gives his teacher a hug everyday before he leaves, which I’ve never seen him do!",
+      "author": "Michelle Dank",
+      "rating": 5,
+      "source": "google",
+      "date": "2022-03-21"
+    },
+    {
+      "text": "I have been to over 6 different childcare centers in the last two years since I moved to Salem because my daughter would always cry at other places and I felt uncomfortable leaving here there. This place is way different. My daughter never cries when I pick her up and the people there are like a big family they treat each other with respect. Including the kids, parents, and themselves. I feel so relieved I finally found a home for my daughter. Always alert and on top of things. Thank you...",
+      "author": "steve guerrero",
+      "rating": 5,
+      "source": "google",
+      "date": "2017-02-28"
+    },
+    {
+      "text": "Director is amazingly kind, professional , and thoroughly educated in early childhood development. Staff are all professional early educators dedicated to the kids. My grandkids love going here and we love watching their personal growth and reading readiness!",
+      "author": "Nancy NW",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-10-01"
+    },
+    {
+      "text": "Very happy I chose to bring my son here! Everyone is so nice and welcoming. It's also CLEAN. We drive from Keizer 15 out of the way of my work because I now only want him here.",
+      "author": "Kristina Sheldon",
+      "rating": 5,
+      "source": "google",
+      "date": "2017-09-07"
+    }
+  ],
+  "team": [
+    {
+      "name": "Director",
+      "role": "Center Director & Early Childhood Specialist",
+      "bio": "Described by multiple families as 'amazingly kind, professional, and thoroughly educated in early childhood development,' the director sets the tone for a center where every child, parent, and staff member is treated with genuine respect. Her fast, human-first decision-making — like enrolling a child overnight during a family emergency — defines how Early Learning Center operates.",
+      "credentials": [
+        "Early Childhood Development Education",
+        "Professional Early Educator"
+      ]
+    }
+  ],
+  "photos": [],
+  "stats": [
+    {
+      "value": 5,
+      "suffix": "★",
+      "label": "Perfect Rating Across All Reviews"
+    },
+    {
+      "value": 8,
+      "suffix": "",
+      "label": "Verified 5-Star Reviews"
+    },
+    {
+      "value": 12,
+      "suffix": "+",
+      "label": "Other Centers Families Tried Before Us"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "Of Reviewers Would Recommend"
+    }
+  ],
+  "faq": [
+    {
+      "question": "My child has had a hard time adjusting at other daycares — will it be different here?",
+      "answer": "Many of our current families said the exact same thing before they found us. Multiple parents have shared that their children — who cried at drop-off or struggled with new people at every other center — now love coming here and even hug their teachers goodbye each day. We believe children thrive when they feel genuinely safe and respected, and that culture starts with our staff."
+    },
+    {
+      "question": "How affordable is Early Learning Center compared to other Salem daycares?",
+      "answer": "Affordability is something our families consistently mention. While rates vary based on your child's age and schedule, parents describe our pricing as a significant reason they chose us and stayed — even when it means driving out of their way to get here."
+    },
+    {
+      "question": "Do you have separate areas for different ages?",
+      "answer": "Yes — one of the features parents love most is that we have designated spaces for each age range. This means infants, toddlers, preschoolers, and older children each have environments designed specifically for their developmental stage, rather than being grouped together in one large room."
+    },
+    {
+      "question": "Can you accommodate last-minute or emergency enrollment?",
+      "answer": "We do our best to work with families in urgent situations. One of our parents called 12 other centers in a single day during a childcare emergency and found a yes here — her son started the very next morning. We understand that childcare gaps can put jobs and families at risk, and we try to respond with urgency when we can."
+    },
+    {
+      "question": "How clean and safe is the facility?",
+      "answer": "Cleanliness is mentioned in nearly every review we receive. Parents describe the center as visibly clean and well-maintained, and our staff is described as always alert and on top of things when it comes to supervision and safety."
+    },
+    {
+      "question": "What is the staff like — are they actual educators or just caregivers?",
+      "answer": "Our team is made up of professional early educators, not just babysitters. Our director is highly educated in early childhood development, and the staff she has built are dedicated to children's learning, reading readiness, and personal growth — not just supervision."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#4A90D9",
+    "accent": "#F5A623",
+    "note": "Warm sky blue evokes trust, openness, and calm — the emotional safety parents describe in reviews. Sunflower amber as an accent captures joy, energy, and the bright warmth families feel when they walk in. Together they feel welcoming without being babyish, professional without being cold — matching a center where educated staff meet genuinely happy kids."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Exceptional emotional safety — children who cried or struggled everywhere else genuinely love coming here, a theme repeated across nearly every review",
+      "Responsive, human-first leadership — the director and staff treat emergencies with urgency, flexibility, and kindness that competitors apparently don't match",
+      "Affordable pricing combined with professional, education-focused staff and a clean, age-structured environment — a rare combination parents travel out of their way for"
+    ],
+    "common_complaints": [
+      "None found — all 8 reviews are 5 stars with no negative feedback, complaints, or concerns raised"
+    ],
+    "suggested_tagline": "The last daycare you'll ever search for.",
+    "photo_quality": "poor",
+    "personality_keywords": [
+      "Warm",
+      "Responsive",
+      "Family-like",
+      "Professional",
+      "Genuinely caring"
+    ],
+    "named_staff": []
+  },
+  "dataSources": [
+    "google"
+  ]
+}

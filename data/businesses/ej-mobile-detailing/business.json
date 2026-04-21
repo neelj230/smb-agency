@@ -1,0 +1,146 @@
+{
+  "name": "E&J Mobile Detailing",
+  "slug": "ej-mobile-detailing",
+  "category": "mobile car detailing",
+  "address": "E Airy St",
+  "city": "Norristown",
+  "state": "PA",
+  "zip": "19401",
+  "phone": "(610) 772-6310",
+  "email": "",
+  "website": "https://eandjmobiledetailing.godaddysites.com/",
+  "rating": 5,
+  "reviewCount": 9,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "10:00 AM – 8:00 PM",
+    "Tuesday": "10:00 AM – 8:00 PM",
+    "Wednesday": "10:00 AM – 8:00 PM",
+    "Thursday": "10:00 AM – 8:00 PM",
+    "Friday": "10:00 AM – 8:00 PM",
+    "Saturday": "8:30 AM – 8:00 PM",
+    "Sunday": "8:30 AM – 8:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "I had my car detailed by E&J great people and my car looks like it did when I first bought it in 2020. Elija I am happy how well you and Jerr took care of my car. I only go to the one place for my car but this is my new place to get my car washed and detailed. I am very happy and I like to bring my business to neighbourhood people. Keep up the great work.",
+      "author": "Dawn Paris",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-07-11"
+    },
+    {
+      "text": "My BMW was pretty filthy after traveling with my dog on a trip, and I don’t trust just anyone with my car. E&J got me right in with an appointment and did an amazing job cleaning the interior and exterior, and conditioning the leather. I 100% recommend them if you need your car detailed.",
+      "author": "Brandon Baker",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-07-14"
+    },
+    {
+      "text": "Probably the best car detailing place around. For one they come to you ! For two when my car was finished with them it was so clean and smelled so good. I was very impressed.",
+      "author": "Juliana Hujack",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-07-11"
+    },
+    {
+      "text": "Great job.  Thank you.  Raptor R looks R-eally clean!",
+      "author": "Dan Heller",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-10-29"
+    },
+    {
+      "text": "My car was an absolute disaster having 3 children, took it to e&j and wow. my car absolutely SPOTLESS. The owner was so sweet and polite. My car smelled amazing, looked brand new. Will DEFINITELY return",
+      "author": "Sabrina Lynn",
+      "rating": 5,
+      "source": "google",
+      "date": "2024-07-11"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Vehicle interior showing black seats with red stitching and steering wheel",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Red Hyundai Sonata sedan parked on residential street with brick buildings",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "E&J Mobile Detailing photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Black sedan car parked in lot, side view showing profile and wheels",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Bright red vehicle parked on residential street with row houses visible",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Red sports car with open door displaying luxurious red interior and dashboard",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "E&J Mobile Detailing photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Close-up of a Nissan alloy wheel with black and silver finish and tire.",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Red car interior with custom anime seat covers and yellow accents",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Red car interior view showing dashboard, steering wheel, and open door from above",
+      "category": "interior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 9,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 5,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

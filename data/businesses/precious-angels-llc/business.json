@@ -1,0 +1,225 @@
+{
+  "name": "Precious Angels LLC",
+  "slug": "precious-angels-llc",
+  "category": "daycare",
+  "address": "3070 Merriman Rd",
+  "city": "Medford",
+  "state": "OR",
+  "zip": "97501",
+  "phone": "(541) 890-8696",
+  "email": "",
+  "website": null,
+  "rating": 4.3,
+  "reviewCount": 11,
+  "tagline": "Where Kids Say 'Yay, Daycare!'",
+  "brandNarrative": "Precious Angels LLC isn't just a daycare — it's the place where kids literally cheer when they pull into the driveway. Run out of a warm, home-like setting on Merriman Road in Medford, Oregon, this in-home childcare center has earned the deep trust of local families through something simple but rare: Kim, the owner, genuinely loves the children she cares for. Parents like Erica Carson describe the relief of watching their once-anxious child shout 'Yay, daycare!' every single morning. Marcus Fulton notes his son 'thrives' here. Sara Croley's daughter has been attending for five years — and Kim's family treats her like their own. That kind of loyalty doesn't happen by accident.\n\nWhat sets Precious Angels apart is the thoughtful structure Kim has built around both children and their parents. The facility features full surveillance of all rooms and an open-door policy — parents don't knock, they just walk in. Kids follow a consistent daily schedule that weaves learning into play, and Kim goes out of her way to accommodate individual dietary needs, parenting styles, and family schedules. As Jamie Fenner put it, Kim has been 'a listening ear and an encourager' on the hard days — going far beyond standard childcare duties to support the whole family.\n\nKim's background in childhood development isn't just a credential on paper — parents notice it in how she communicates, how she structures the day, and how naturally children respond to her care. With a fully equipped outdoor playground featuring wooden towers, slides, swings, a playhouse, and ride-on toys, the backyard feels like a small paradise for little ones. Precious Angels operates Monday through Friday with early morning availability starting at 5:30 AM — because Kim understands that working parents need a partner they can actually count on.",
+  "ownerStory": "Kim, the owner and heart of Precious Angels LLC, built this daycare around a philosophy that most parents only hope to find: that a childcare provider should feel like an extension of your own family. Her education in childhood development shapes everything from the daily learning schedule to the way she communicates with parents about each child's milestones and needs. Parents consistently describe her as warm, genuine, and deeply understanding — someone who remembers that behind every drop-off is a parent heading to work with a lot of love and a little worry left behind.\n\nWhat makes Kim's story compelling is that her care isn't transactional. She has watched children grow for years — Sara Croley's daughter has been in her care for five full years — and has become a trusted figure not just for the kids, but for the moms and dads navigating the chaos of working parenthood. She accommodates schedules, dietary needs, and parenting philosophies without hesitation, and her open-door policy and full surveillance system reflect a core belief: parents should never have to wonder what's happening with their child. At Precious Angels, the door is always open — literally.",
+  "hours": {
+    "Monday": "5:30 AM – 4:30 PM",
+    "Tuesday": "5:30 AM – 4:30 PM",
+    "Wednesday": "5:30 AM – 4:30 PM",
+    "Thursday": "5:30 AM – 4:30 PM",
+    "Friday": "5:30 AM – 4:30 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Full-Day Childcare",
+      "description": "Structured weekday care from 5:30 AM to 4:30 PM, designed to support working parents with early drop-off and consistent daily routines.",
+      "icon": "home"
+    },
+    {
+      "name": "Developmental Learning Program",
+      "description": "Age-appropriate learning activities guided by Kim's childhood development education, blending structured learning with creative play throughout the day.",
+      "icon": "book-open"
+    },
+    {
+      "name": "Outdoor Play & Recreation",
+      "description": "A fully equipped backyard playground with wooden towers, slides, swings, a playhouse, and ride-on toys for active, joyful outdoor time.",
+      "icon": "sun"
+    },
+    {
+      "name": "Individualized Care Planning",
+      "description": "Kim works directly with each family to accommodate dietary needs, parenting styles, and scheduling preferences so every child feels at home.",
+      "icon": "clipboard-list"
+    },
+    {
+      "name": "Transparent Safety & Monitoring",
+      "description": "Full room surveillance and an open-door policy allow parents to check in anytime without an appointment, providing genuine peace of mind.",
+      "icon": "shield-check"
+    },
+    {
+      "name": "Parent Support & Communication",
+      "description": "Kim maintains open, proactive communication with parents — offering encouragement, updates, and a compassionate ear on the hard days.",
+      "icon": "message-circle"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "We are happy to have found a safe place our son can learn, and play and thrive in. Our son is always happy to go to daycare here and Kim has been very helpful. Shes great with Jr and takes good care of him.",
+      "author": "Marcus Fulton",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-11"
+    },
+    {
+      "text": "This in-home daycare has truly been a blessing to my kids and myself! My kids have been going here for almost a year now and they love it. Kim does her best to try and make life easier on the kids as well as the parents. Whether it be our schedule, dietary needs or parenting style she will do her best to accommodate while the kids are in her care. And more times than I can count has been just a listening ear or an encourager for for me. She goes above and beyond her job duties to give children the care they need and their parents reassurance that their kids are being taken care of well.",
+      "author": "Jamie Fenner",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-09"
+    },
+    {
+      "text": "Im happy I found a daycare that I love and my son loves. Thank you Kim for taking care of my son and for being a genuine understanding person. Jr is always happy to go to daycare. I appreciate that the kids are on a schedule and they get to learn and play. You take very good care of the children you watch and they are always happy. I would recommend this daycare to anyone!",
+      "author": "Erica Carson",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-11"
+    },
+    {
+      "text": "Im so happy I found this place. I was always scared to let anyone watch my son until he started going here. I love that this daycare has full surveillance of the rooms and a open door policy, (I dont have to knock i can just walk in) not to mention my son loves going to daycare here. Every time I pull into the driveway he literally says \"yay daycare!\". I have not had one bad feeling or incident. Kim is great at taking care of the kids she watches and shes educated about childhood development not to mention she communicates everything very well and is very understanding. I would recommend this place to anyone needing daycare! Thank you Kim for all you do.",
+      "author": "Erica Carson",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-11"
+    },
+    {
+      "text": "Can’t say enough great things about Precious Angels and Kim, the owner. My daughter has been there for about five years and Kim and her family are amazing. They treat my daughter as if she was family. It’s hard to trust anyone with your children, but I have never had a doubt in my mind with her daycare. She really goes above and beyond for all her kids that she takes care of 🩷",
+      "author": "sara croley",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-12-10"
+    }
+  ],
+  "team": [
+    {
+      "name": "Kim",
+      "role": "Owner & Primary Caregiver",
+      "bio": "Kim is the soul of Precious Angels — a childhood development-educated caregiver who parents describe as warm, genuine, and deeply trustworthy. She treats every child like family and goes far beyond her job duties to support both kids and parents through the everyday challenges of working family life.",
+      "credentials": [
+        "Childhood Development Education",
+        "Full Surveillance Safety System",
+        "Open-Door Policy",
+        "5+ Year Family Relationships"
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Sign for Precious Angels LLC childcare facility with hours and contact information displayed.",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Outdoor playground with wooden tower, slide, picnic table, and colorful play equipment.",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Charming blue and red playhouse with benches in a gravel backyard setting.",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Large wooden playground structure with yellow slides and climbing features in backyard",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Children playing in backyard with swings, playhouse, and wooden play structures",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Colorful toy car track set with red ride-on car displayed on sandy ground",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Young child playing inside a blue playground tube slide structure",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 4.3,
+      "suffix": "★",
+      "label": "Average Star Rating"
+    },
+    {
+      "value": 11,
+      "suffix": "+",
+      "label": "Verified Family Reviews"
+    },
+    {
+      "value": 5,
+      "suffix": "+ yrs",
+      "label": "Longest Family Relationship"
+    },
+    {
+      "value": 5,
+      "suffix": " days",
+      "label": "Days Open Per Week"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can I stop by unannounced to check on my child?",
+      "answer": "Absolutely. Precious Angels has a full open-door policy — parents are welcome to walk in anytime without knocking. The facility also has full surveillance of all rooms so you can always feel confident about what's happening in your child's environment."
+    },
+    {
+      "question": "What makes Precious Angels different from a larger daycare center?",
+      "answer": "This is an in-home daycare run by Kim, a childhood development-educated caregiver who personally knows every child and family. Kids follow a structured daily schedule that includes both learning and play, and Kim accommodates individual dietary needs, parenting styles, and scheduling preferences — something a large center rarely offers."
+    },
+    {
+      "question": "How does Kim handle different parenting styles and dietary needs?",
+      "answer": "Kim actively works with each family to align care with their values and preferences. Whether it's a specific diet, a particular routine, or a parenting philosophy, she does her best to honor it while the children are in her care."
+    },
+    {
+      "question": "What are your hours, and do you accommodate early work schedules?",
+      "answer": "Precious Angels is open Monday through Friday from 5:30 AM to 4:30 PM. The early 5:30 AM start time is specifically designed to support parents with demanding work schedules."
+    },
+    {
+      "question": "How long do families typically stay at Precious Angels?",
+      "answer": "Many families stay for years. One parent shared that her daughter has been attending for five full years and is treated like family by Kim and her household. This long-term loyalty speaks to the consistency and trust Kim builds over time."
+    },
+    {
+      "question": "Is there outdoor play available for the children?",
+      "answer": "Yes — the backyard features a large wooden playground structure with slides and climbing features, swings, a charming playhouse, picnic tables, and ride-on toy cars. Children have dedicated outdoor play time as part of their daily routine."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#5B8FD4",
+    "accent": "#F9A826",
+    "note": "Soft sky blue evokes trust, safety, and calm — exactly what anxious parents feel when they find this place. Warm golden yellow reflects the joy and energy of childhood play, and mirrors the yellow slides visible in the playground photos. Together they feel nurturing without being overly corporate or clinical."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Deeply personal, trust-based care from owner Kim — multiple parents describe overcoming fear of childcare specifically because of her transparency, open-door policy, and surveillance system",
+      "Exceptional long-term family loyalty — one child has attended for five years, and nearly every reviewer describes their child being genuinely happy and excited to attend",
+      "Holistic family support beyond childcare — Kim accommodates dietary needs, parenting styles, and schedules, and serves as an emotional support resource for parents on hard days"
+    ],
+    "common_complaints": [
+      "None found in available reviews — all 11 reviews are overwhelmingly positive with no recurring criticisms or concerns raised"
+    ],
+    "suggested_tagline": "The Daycare Where They Actually Want to Go",
+    "photo_quality": "good",
+    "personality_keywords": [
+      "warm",
+      "trustworthy",
+      "nurturing",
+      "transparent",
+      "family-like"
+    ],
+    "named_staff": [
+      "Kim"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

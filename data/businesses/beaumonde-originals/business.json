@@ -1,0 +1,146 @@
+{
+  "name": "BeauMonde Originals",
+  "slug": "beaumonde-originals",
+  "category": "wedding photographer",
+  "address": "3128 N 35th St",
+  "city": "Philadelphia",
+  "state": "PA",
+  "zip": "19132",
+  "phone": "(215) 435-1418",
+  "email": "",
+  "website": "http://www.beaumondeoriginals.com/",
+  "rating": 4.9,
+  "reviewCount": 60,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM – 8:00 PM",
+    "Tuesday": "9:00 AM – 8:00 PM",
+    "Wednesday": "9:00 AM – 8:00 PM",
+    "Thursday": "9:00 AM – 8:00 PM",
+    "Friday": "9:00 AM – 8:00 PM",
+    "Saturday": "9:00 AM – 8:00 PM",
+    "Sunday": "10:00 AM – 5:00 PM"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Cathie with BeauMonde Originals is that WOMAN behind the camera. From the moment we started, she made me feel like a model!  She knows how to find the light, capture the vibe, and make you look like the best version of yourself without it feeling forced or awkward. The photos? Chef’s kiss! Beaumonde Originals is officially my go-to, 10/10 would strike a pose again!",
+      "author": "Amanda Yoa",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-06-10"
+    },
+    {
+      "text": "HIGHLY recommend Cathie. I am so happy with my headshots. Well worth the investment. She truly understood my vision and they are even better than I could have imagined.",
+      "author": "Rebecca Fisher",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-11-12"
+    },
+    {
+      "text": "Cathie and her team are professionals in capturing the essence of the moment. Our group tours involved 100+ people, and Beaumonde was able to get the photography and videography of every aspect including photos of the environment, food, people, and overall joyous feelings. This wasn't the first time we've partnered with Beaumonde and certainly won't be the last. They give great direction with staged photos and show mastery of lighting and angles.\n\nphoto credit:  Beaumonde Originals",
+      "author": "City Food Tours",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-12-19"
+    },
+    {
+      "text": "I absolutely loved my experience with BeauMonde Originals. After an amazing job at a collective comedy show earlier this year, I hired Cathie for updated professional photos for my website and branding.  The entire process was seamless!  From the prep session to visualizing the shoot, Cathie was attentive and intuitive to my needs.  The day of was a breeze, we easily moved through different shots and I felt very taken care of as far as knowing where to stand, directions in posture and feeling comfortable.  I felt very at ease and the results showed! I believe that my essence was captured and showcased perfectly. Will definitely use again, thank you!!!",
+      "author": "Danielle Mercurio",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-07-20"
+    },
+    {
+      "text": "Beaumonde Originals came highly recommended by friends to capture our August 2022 wedding. I always admired BeauMonde's style and mission and kept them in the back of my mind for when the time was right. Cat and her team can be found at all the hippest events, but also show up to support the LGBTQIA+ and BIPOC communities. It was really important to us to support a local vendor who shared our same values. We worked directly with BMO's lead photographer, Melanie, and she was spectacular! She made both our engagement and wedding day shoots super fun and easy. Melanie and the team captured our aesthetic and style perfectly. Their vision, professionalism, and talent really went above and beyond anything I could have imagined! We will always think of them for any shoot in the future, as well as recommend them to anyone looking for professional photos!",
+      "author": "Elizabeth Baldoni",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-01-22"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Two women smiling outdoors, one in wedding dress, one holding professional camera",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Wedding officiant reading vows to smiling bride and groom in garden arbor",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "BeauMonde Originals photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Performer in pink coat on stage with dramatic red and blue lighting effects",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Family of four sitting together on stone wall in autumn park setting",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Couple in formal attire posing outdoors with city skyline visible in background",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Aerial view of modern residential buildings in urban neighborhood with cityscape background",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "BeauMonde Originals photo 8",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Woman wearing white 'Spread Kindness' graphic tee and cropped jeans against white brick wall",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Woman drinking champagne on outdoor urban street with festive decorations and red umbrellas",
+      "category": "exterior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 60,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.9,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

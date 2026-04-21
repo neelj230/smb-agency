@@ -1,0 +1,143 @@
+{
+  "name": "Coats & Tails",
+  "slug": "coats-tails",
+  "category": "pet grooming",
+  "address": "2319 NW Westover Rd",
+  "city": "Portland",
+  "state": "OR",
+  "zip": "97210",
+  "phone": "(503) 295-7979",
+  "email": "",
+  "website": "http://www.coats-n-tails.com/",
+  "rating": 4.7,
+  "reviewCount": 100,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {},
+  "services": [],
+  "reviews": [
+    {
+      "text": "August did a wonderful job grooming my rough collie. I have been searching for a good local collie groomer and I’m so grateful I found a great one!!!! Fennel was in bad shape when I brought him here and August did an awesome job brushing him out and barely shaved anything. Was also very timely and took half the time as the previous groomer I went to. Thank you August, you’re very good at your job ❤️",
+      "author": "Astin Kowaleski",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-05-13"
+    },
+    {
+      "text": "My rough collie came back looking like a prince after getting groomed with August.  They did SUCH an incredible job and I know Hobie is not the easiest to groom! He came back with no mats, so soft and clean, and even got his nails trimmed up. I am so impressed. Thank you so much!",
+      "author": "Abby Ross-Kennedy",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-06-15"
+    },
+    {
+      "text": "Coats & Tails is a really good dog grooming service. They do a wonderful job and offer various grooming services, such as nail trimming, haircuts, and bathing, among other needs. Pet owners came and went, bringing their dogs, and have been really satisfied with their services. If you have a dog, this is a good place to take them for grooming.",
+      "author": "Tony H",
+      "rating": 5,
+      "source": "google",
+      "date": "2025-02-23"
+    },
+    {
+      "text": "Erin is a fantastic groomer! The whole crew there is very kind and helpful. My Welsh Terrier Emrys has a lot of allergies and even though it must pain Erin to shave his bottom lip and not have him be exactly breed standard Erin has never complained and Emrys always comes out looking great! They are very good at keeping us in the loop and helping us make decisions about what would be best for the groom of my pups!\n\nWe have a new welshie puppy that has been mouthing Emrys nonstop and so they helped us decide to just go with a puppy style cut on Emrys for now since the puppy was causing mats on his fur. They have also done incredible puppy happy visits with our puppy Momo to get her used to the shop and grooming experience. Overall we are incredibly satisfied and will continue going back as long as they'll have us!",
+      "author": "Jamie Money",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-03-11"
+    },
+    {
+      "text": "I really do not recommend this place. I took my baby Lana here about 6 times. The first few times were ok, nothing to write home about but it’s convenient to my house. The last two times my dog has come home with a swollen eye. I had to take her to the vet. I thought to myself that accidents happen. When it happens twice in a row it shows a lack of care. How does that happen twice ? I sent them an email the first time to let them know it happened and then it STILL happened again. You think they would add a note to the groomer in her profile to take extra care. Obviously the business practices are not very thorough. You shouldn’t be handling animals if you don’t have the physical ability to or the empathy. They can’t speak for themselves. There are literal open sores behind her ears and I’ve now had two vet bills and dog who has NEVER been afraid of people scared to death of that place. She was physically shaking after picking her up. She regularly comes to work with me and is around people all the time. I posted a photo below to show what her eyes and hair normally look like and then what she came out with twice. Never again. I’m disgusted by an establishment whose job is to take CARE of animals doing the opposite for profit. Stay away.",
+      "author": "Katie Becker",
+      "rating": 1,
+      "source": "google",
+      "date": "2025-08-28"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Cream-colored dog resting on wooden floor indoors near green wall",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Pet salon storefront with blue signage showing dog silhouettes and address 2319",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Close-up portrait of a fluffy brown and white dog against pink background",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Small dog sitting in a veterinary clinic or pet care facility with green walls",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Small terrier dog sitting by window on blanket, wearing harness and leash",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Two small dogs, one white and one black, standing together indoors at an event",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Dog grooming salon interior with stylist, supplies, and colorful artwork on walls",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Office reception desk with family photos on wall and red poinsettia flower decoration",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Adorable fluffy tan dog wearing green collar standing on dark wooden floor",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Rough Collie dog standing on patio in front of house entrance",
+      "category": "exterior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 100,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 4.7,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {
+    "facebook": "https://facebook.com/coatsandtailsgrooming",
+    "instagram": "https://instagram.com/coats_tailspdx"
+  },
+  "competitors": [],
+  "brandColors": {
+    "primary": "#626262",
+    "accent": "#3f3f3f",
+    "note": "Extracted from business website"
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google",
+    "website"
+  ],
+  "websiteContent": "Services About Us Why a CMG? Contact Us / New Client We are currently waitlist only. If you are interested in becoming a client please fill out a new client form.​ We will reach out when we have availability.​Nail trims are by appointment. We are no longer grooming cats.​Thank you! Stay Safe! We want your pets to look & feel their best! From the moment your pet's appointment starts, to the moment their desired look is complete, we are hands-on with them! We hand dry each pup, handstrip those rare breeds that need it to keep their coat healthy, and give personal touches detailed to each and every pet that walks through our doors. We look forward to working with you and your dogs. National Dog Groomers​Association of America, Inc. International Societyof Canine Cosmetologists 2319 NW Westover Road, Portland, OR 97210​ CONTACT US:503-295-7979[email protected] HOURS:​By appointment, 7 days a weekGrooms as early as 7:30 am, and as late as 5:00 pmReceptionist available 8:30 am-close, Monday-Friday Services About Us Why a CMG? Contact Us / New Client var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-7870337-1']); _gaq.push(['_setDomainName', 'none']); _gaq.push(['_setAllowLinker', true]); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; // NOTE: keep the [1] if you replace this code. Otherwise cookie banner scripts won't be first on the page var s = document.getElementsByTagName('script')[1]; s.parentNode.insertBefore(ga, s); })(); _W.Analytics = _W.Analytics || {'trackers': {}}; _W.Analytics.trackers.wGA = '_gaq'; // NOTE: keep the getElementsByTagName(o)**[1]** if you replace this code. Otherwise cookie banner scripts won't be first on the page ;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[]; p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments) };p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[1];n.async=1; n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,'script','//cdn2.editmysite.com/js/wsnbn/snowday262.js','snowday')); var r = [99, 104, 101, 99, 107, 111, 117, 116, 46, 40, 119, 101, 101, 98, 108, 121, 124, 101, 100, 105, 116, 109, 121, 115, 105, 116, 101, 41, 46, 99, 111, 109]; var snPlObR = function(arr) { var s = ''; for (var i = 0 ; i < arr.length ; i++){ s = s + String.fromCharCode(arr[i]); } return s; }; var s = snPlObR(r); var regEx = new RegExp(s); _W.Analytics = _W.Analytics || {'trackers': {}}; _W.Analytics.trackers.wSP = 'snowday'; _W.Analytics.user_id = '23306324'; _W.Analytics.site_id = '694660283896504643'; (function(app_id, ec_hostname, discover_root_domain) { var track = window[_W.Analytics.trackers.wSP]; if (!track) return; track('newTracker', app_id, ec_hostname, { appId: app_id, post: true, platform: 'web', discoverRootDomain: discover_root_domain, cookieName:"
+}

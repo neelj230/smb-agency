@@ -1,0 +1,146 @@
+{
+  "name": "Level 40 Training & Performance Center",
+  "slug": "level-40-training-performance-center",
+  "category": "personal trainer",
+  "address": "102 Queens Dr",
+  "city": "King of Prussia",
+  "state": "PA",
+  "zip": "19406",
+  "phone": "(252) 538-3540",
+  "email": "",
+  "website": null,
+  "rating": 3.7,
+  "reviewCount": 9,
+  "tagline": "",
+  "brandNarrative": "",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "5:30 AM – 8:00 PM",
+    "Tuesday": "5:30 AM – 8:00 PM",
+    "Wednesday": "5:30 AM – 8:00 PM",
+    "Thursday": "5:30 AM – 8:00 PM",
+    "Friday": "5:30 AM – 2:00 PM",
+    "Saturday": "8:00 AM – 2:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [],
+  "reviews": [
+    {
+      "text": "Love love love this place and the trainer! They really pay attention to your own unique individual needs - and it helps that he’s extremely kind and caring. I started last week and can’t wait to keep going. If your looking for a hands on trainer you can grow with, this place is it!",
+      "author": "Sara J",
+      "rating": 5,
+      "source": "google",
+      "date": "2021-10-10"
+    },
+    {
+      "text": "Such an amazing facility with phenomenal athletes!",
+      "author": "Steph Tellez",
+      "rating": 5,
+      "source": "google",
+      "date": "2017-11-02"
+    },
+    {
+      "text": "",
+      "author": "Too “Shockdadon” Oo",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-09-18"
+    },
+    {
+      "text": "",
+      "author": "Brady Sandercock",
+      "rating": 5,
+      "source": "google",
+      "date": "2023-06-15"
+    },
+    {
+      "text": "",
+      "author": "Jesus Cervantes",
+      "rating": 1,
+      "source": "google",
+      "date": "2021-02-26"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Bright gym interior with green turf, weights, and motivational signage on walls",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Group of athletic men posing together in a gym facility with motivational wall signage.",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Level 40 Training & Performance Center photo 3",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Fitness instructor and diverse group of happy people posing together indoors at gym",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Diverse group of people posing together at a fitness training facility with motivational wall text.",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Athlete training with barbell at Level Fort Performance Center facility",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Level 40 Training & Performance Center photo 7",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Group of people posing together at a fitness gym with motivational quotes on wall",
+      "category": "team"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Level 40 Training & Performance Center photo 9",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Man wearing black t-shirt and chain accessory against branded backdrop",
+      "category": "product"
+    }
+  ],
+  "stats": [
+    {
+      "value": 9,
+      "suffix": "+",
+      "label": "Happy Customers"
+    },
+    {
+      "value": 3.7,
+      "suffix": "",
+      "label": "Google Rating"
+    }
+  ],
+  "faq": [],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "",
+    "accent": "",
+    "note": ""
+  },
+  "analysis": {
+    "top_3_strengths": [],
+    "common_complaints": [],
+    "suggested_tagline": "",
+    "photo_quality": "good"
+  },
+  "dataSources": [
+    "google"
+  ]
+}

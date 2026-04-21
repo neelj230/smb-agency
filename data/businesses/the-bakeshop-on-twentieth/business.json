@@ -11,9 +11,9 @@
   "website": "https://bakeshopon20th.com/?utm_source=google",
   "rating": 4.6,
   "reviewCount": 433,
-  "tagline": "",
-  "brandNarrative": "",
-  "ownerStory": "",
+  "tagline": "Small shop. Big feels. Real good pastries.",
+  "brandNarrative": "Tucked into a compact corner of Philadelphia's Rittenhouse Square neighborhood at 269 S 20th St, The Bakeshop on Twentieth punches well above its square footage. Customers walk in expecting a quick grab-and-go and leave raving about babka buns, sticky buns, and housemade pop tarts that look almost too good to eat. The space is intentionally small — cozy in the best sense — and regulars like Kady describe it as feeling like 'a small town bakery, but here in the city,' a rare quality to pull off on a Philadelphia block. The staff are consistently called out for being genuinely warm and welcoming, and that human energy is as much a part of the experience as the laminated croissants.\n\nThe menu walks a confident line between comfort classics and inventive bakeshop staples. The breakfast sandwiches — particularly the turkey bacon, egg, and cheese on croissant — draw loyal morning crowds, with adventurous add-ons like avocado, strawberry jelly, and sriracha making even a bacon-egg-and-cheese feel like something special. Pastry lovers gravitate toward the babka in every available flavor, the sticky buns, and the cookies and bars that reviewers love for being 'sweet but not too sweet.' The vanilla latte holds its own against the food, rounding out a morning visit that rarely disappoints.\n\nThe honest trade-off at The Bakeshop on Twentieth is space: seating is limited, and peak hours bring a rush of pickup orders that can make lingering a gamble. Regulars have adapted — many grab their order and head the few blocks to Rittenhouse Square itself, turning the bakery into a launching pad for a perfect Philadelphia morning. That rhythm, pick up something extraordinary and take it somewhere beautiful, has become part of the bakeshop's identity. With a 4.6 rating across 433 reviews, the community has clearly voted.",
+  "ownerStory": "No single founder name surfaces loudly in the reviews, but the personality of The Bakeshop on Twentieth speaks clearly through every customer account. Someone made a deliberate decision to keep this place small, to resist the pressure to scale into a sprawling café, and to pour energy into the quality of each individual item instead. That philosophy shows up in the babka buns made with enough care that they've become a signature, in the croissants that hold together under the weight of a full breakfast sandwich, and in a pop tart that customers flag as a 'popular treat' worth coming back for. The warmth that reviewers describe from the staff — the kind of easy friendliness Gemma Hurley noted right away on her first visit — doesn't happen by accident. It's the product of an operation that values the experience of every person who walks through the door, whether they're grabbing a latte to go or squeezing into one of the few seats for a proper sit-down breakfast.\n\nThe Bakeshop on Twentieth feels like it was built by someone who genuinely loves both baking and neighborhood life — who understood that Rittenhouse Square deserved a bakery with a real point of view, not just another pastry case full of generic muffins. The result is a spot with a devoted local following, a dog-friendly enough vibe that Kady's dog Peaches gets her own shoutout in the reviews, and the kind of daily energy that makes an 8 AM opening feel like something to look forward to.",
   "hours": {
     "Monday": "8:00 AM – 3:00 PM",
     "Tuesday": "8:00 AM – 3:00 PM",
@@ -23,7 +23,38 @@
     "Saturday": "8:00 AM – 4:00 PM",
     "Sunday": "8:00 AM – 3:00 PM"
   },
-  "services": [],
+  "services": [
+    {
+      "name": "Artisan Pastries & Baked Goods",
+      "description": "A rotating case of housemade pastries including babka buns, sticky buns, cookies, bars, scones, and signature pop tarts — baked fresh daily with a focus on balanced, not overwhelming sweetness.",
+      "icon": "croissant"
+    },
+    {
+      "name": "Breakfast Sandwiches",
+      "description": "Hearty morning sandwiches built on fresh croissants and housemade breads, with customizable options like avocado, sriracha, and jelly alongside classics like turkey bacon, egg, and cheese.",
+      "icon": "sandwich"
+    },
+    {
+      "name": "Specialty Coffee & Lattes",
+      "description": "Cafe-quality espresso drinks including vanilla lattes and other specialty beverages to pair with your pastry or sandwich order.",
+      "icon": "coffee"
+    },
+    {
+      "name": "Grab & Go Pickup",
+      "description": "A streamlined pickup experience designed for busy mornings, letting customers order and collect quickly — perfect for taking food to nearby Rittenhouse Square.",
+      "icon": "shopping-bag"
+    },
+    {
+      "name": "Dine-In Breakfast",
+      "description": "A small number of in-house seats for customers who want to enjoy their order on-site — best on off-peak hours, with a warm and welcoming atmosphere.",
+      "icon": "utensils"
+    },
+    {
+      "name": "Babka & Specialty Breads",
+      "description": "Signature babka offered in multiple flavors, consistently praised as a standout item and a must-try for first-time and returning visitors alike.",
+      "icon": "wheat"
+    }
+  ],
   "reviews": [
     {
       "text": "Very small space with well priced and delicious sandwiches and baked goods.\n\nI went with a friend for breakfast and we both got (turkey) bacon, egg, and cheese on croissant and loved them. It got pretty crowded with people coming in to pick-up and we were lucky to get seats to sit and eat. Would not recommend counting on dining in but would be perfect to pick something up to eat in Rittenhouse in nice weather.",
@@ -116,28 +147,78 @@
   ],
   "stats": [
     {
-      "value": 433,
-      "suffix": "+",
-      "label": "Happy Customers"
+      "value": 4.6,
+      "suffix": "/5",
+      "label": "Average Customer Rating"
     },
     {
-      "value": 4.6,
-      "suffix": "",
-      "label": "Google Rating"
+      "value": 433,
+      "suffix": "+",
+      "label": "Customer Reviews"
+    },
+    {
+      "value": 7,
+      "suffix": " days",
+      "label": "Open Every Day of the Week"
+    },
+    {
+      "value": 8,
+      "suffix": " AM",
+      "label": "Fresh Baked Goods Available From"
     }
   ],
-  "faq": [],
+  "faq": [
+    {
+      "question": "What are the must-try items at The Bakeshop on Twentieth?",
+      "answer": "Customers consistently rave about the babka buns (available in multiple flavors), the sticky buns, the housemade pop tarts, and the turkey bacon, egg, and cheese on croissant. If you're getting coffee, the vanilla latte is a crowd favorite. Basically, it's hard to go wrong — multiple reviewers describe feeling happily overwhelmed by the selection."
+    },
+    {
+      "question": "Is there seating available inside?",
+      "answer": "Yes, but it's limited. The bakeshop is intentionally small and cozy, and during peak morning hours the space fills quickly with pickup orders. If you're planning to sit and eat, arriving early or during off-peak times gives you the best chance. Many regulars recommend grabbing your order and heading to nearby Rittenhouse Square to enjoy it outside when the weather is nice."
+    },
+    {
+      "question": "What makes this bakery different from other spots in Rittenhouse?",
+      "answer": "The Bakeshop on Twentieth has a genuinely small-town bakery feel that's rare to find in the city. The staff are warm and welcoming, the food is made with clear craft and attention, and the overall vibe is cozy rather than corporate. Customers describe it as the kind of place that feels personal — a neighborhood spot that actually knows how to bake."
+    },
+    {
+      "question": "Are the prices reasonable?",
+      "answer": "Prices are in line with quality bakeries in the Rittenhouse Square area. One reviewer noted items are 'a bit pricey but reasonable for bakeries in Rittenhouse.' Given the quality of ingredients and the handmade nature of the baked goods, most customers find the value strong."
+    },
+    {
+      "question": "What are your hours and when is the best time to visit?",
+      "answer": "The bakeshop is open Monday through Sunday starting at 8:00 AM. Weekday closing time is 3:00 PM (Mon–Wed) or 4:00 PM (Thu–Fri), and weekend hours run 8:00 AM to 4:00 PM Saturday and 3:00 PM Sunday. Morning visits are popular and can get busy — if you want to browse without a rush, mid-morning on a weekday tends to be calmer."
+    },
+    {
+      "question": "Is the bakery dog-friendly?",
+      "answer": "At least one happy pup (named Peaches) has made a memorable appearance, and the staff apparently made her feel welcome with a fun 'hat.' While official pet policy isn't listed, the bakeshop has a laid-back, welcoming energy that reviewers describe as warm and community-oriented."
+    }
+  ],
   "socialLinks": {},
   "competitors": [],
   "brandColors": {
-    "primary": "",
-    "accent": "",
-    "note": "To be extracted from existing branding"
+    "primary": "#6B3F2A",
+    "accent": "#F2C97E",
+    "note": "Warm espresso brown reflects the artisan bakery craft, handmade quality, and the cozy small-town feel reviewers consistently describe. The golden amber accent echoes freshly baked babka, sticky buns, and buttery croissants — the heart of what this bakeshop does best. Together they feel inviting, honest, and rooted without being precious or overly rustic."
   },
   "analysis": {
-    "top_3_strengths": [],
-    "common_complaints": [],
-    "suggested_tagline": "",
-    "photo_quality": "good"
+    "top_3_strengths": [
+      "Exceptional baked goods quality — babka, sticky buns, croissants, and pop tarts are repeatedly singled out with genuine enthusiasm across reviews",
+      "Warm, welcoming staff and a cozy neighborhood atmosphere that creates loyal repeat customers and strong word-of-mouth",
+      "Strong breakfast sandwich program that elevates a crowded category with quality ingredients and creative customization options"
+    ],
+    "common_complaints": [
+      "Very limited seating — the small space fills quickly during peak hours and reliable dine-in is not guaranteed",
+      "Slightly higher price point, though reviewers consistently acknowledge it as fair for the neighborhood and quality level"
+    ],
+    "suggested_tagline": "Your neighborhood bakery. Worth the wait.",
+    "photo_quality": "good",
+    "personality_keywords": [
+      "cozy",
+      "artisan",
+      "welcoming",
+      "neighborhood",
+      "unpretentious"
+    ],
+    "named_staff": []
   }
 }

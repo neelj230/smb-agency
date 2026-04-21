@@ -1,0 +1,173 @@
+{
+  "name": "Linda Lamprecht, CPA PC",
+  "slug": "linda-lamprecht-cpa-pc",
+  "category": "accounting firm",
+  "address": "6475 NW Cornelius Pass Rd",
+  "city": "Hillsboro",
+  "state": "OR",
+  "zip": "97124",
+  "phone": "(503) 747-2116",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 2,
+  "tagline": "Taxes Made Painless. Results That Speak.",
+  "brandNarrative": "At Linda Lamprecht, CPA PC, complex tax situations aren't a burden — they're a challenge the team genuinely welcomes. When Sergio Jacinto walked in carrying years of unfiled returns and a tight deadline, Christiaan didn't flinch. He worked through every angle, found every opportunity, and delivered the whole thing on time. That kind of calm, thorough execution under pressure isn't accidental — it's the standard here. Linda and Christiaan have built a firm where clients leave feeling like they won, not just survived tax season.\n\nLocated on Cornelius Pass Road in Hillsboro, this boutique CPA practice operates with the focus and personal attention you'd expect from a team that knows your name, not just your tax ID. The firm handles everything from individual returns to payroll work, and clients consistently note the sense that the team is genuinely invested in their financial outcome — not just processing paperwork. The pace is deliberate, the advice is personalized, and the atmosphere is built to make something stressful feel manageable.\n\nWith a perfect five-star rating and clients who volunteer to refer friends and family without being asked, Linda Lamprecht, CPA PC has quietly built a reputation on word-of-mouth and real results. This is a firm where the work truly does speak for itself.",
+  "ownerStory": "Linda Lamprecht built her CPA practice on a simple but powerful premise: every client deserves an advocate, not just an accountant. As a licensed CPA in Hillsboro, Oregon, Linda created a firm grounded in personal accountability and genuine client care — and she assembled a team that shares that philosophy. Enter Christiaan, the team member clients rave about by name. When Sergio Jacinto described his experience as 'by far the best tax experience I've had,' he made sure to call out Christiaan specifically — praising his ability to make a multi-year tax backlog feel manageable, meet a hard deadline, and deliver the best possible outcome. That's not luck. That's a culture Linda deliberately built.\n\nTogether, Linda and Christiaan represent what a modern CPA firm should look like: technically sharp, deadline-driven, and humanly approachable. They don't just file numbers — they problem-solve, strategize, and execute. And when a client says 'your work speaks for itself,' that's the kind of review that can't be manufactured. It can only be earned.",
+  "hours": {
+    "Monday": "9:00 AM – 5:00 PM",
+    "Tuesday": "9:00 AM – 5:00 PM",
+    "Wednesday": "9:00 AM – 5:00 PM",
+    "Thursday": "9:00 AM – 5:00 PM",
+    "Friday": "9:00 AM – 5:00 PM",
+    "Saturday": "Closed",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Individual Tax Preparation",
+      "description": "Comprehensive personal tax return preparation designed to maximize your outcome, even when multiple years or complex situations are involved.",
+      "icon": "file-text"
+    },
+    {
+      "name": "Multi-Year Tax Filing & Back Taxes",
+      "description": "Expert resolution of unfiled or delinquent tax years, completed efficiently and accurately to meet IRS deadlines and minimize penalties.",
+      "icon": "clock"
+    },
+    {
+      "name": "Payroll Services",
+      "description": "Full-service payroll processing for small businesses, ensuring compliance, accuracy, and timely filings every pay period.",
+      "icon": "briefcase"
+    },
+    {
+      "name": "Tax Planning & Strategy",
+      "description": "Proactive tax planning that looks at every angle to reduce your liability and put you in the best financial position year-round.",
+      "icon": "trending-up"
+    },
+    {
+      "name": "Small Business Tax Preparation",
+      "description": "Business tax returns and year-end filings handled with the same personal attention and thoroughness given to every client.",
+      "icon": "building"
+    },
+    {
+      "name": "Accounting & Bookkeeping",
+      "description": "Ongoing financial record-keeping and accounting support to keep your business organized, compliant, and ready for tax season.",
+      "icon": "calculator"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "From the beginning to the end this has been by far the best tax experience I’ve had! Christiaan made it seem as painless as possible. He helped in every angle that he could to give me the best outcome possible. I brought him and his team a huge challenge of several years of taxes and he executed like no other. He finished it ALL in a very short a time to meet the deadline I needed. I will continue to do my taxes here and will also refer friends and family for tax and payroll work!  Thanks Christiaan and Linda your work speaks for itself.",
+      "author": "Sergio Jacinto",
+      "rating": 5,
+      "source": "google",
+      "date": "2019-09-24"
+    },
+    {
+      "text": "",
+      "author": "Rich W",
+      "rating": 5,
+      "source": "google",
+      "date": "2020-09-27"
+    }
+  ],
+  "team": [
+    {
+      "name": "Linda Lamprecht",
+      "role": "Owner & Certified Public Accountant",
+      "bio": "Linda founded this Hillsboro CPA practice with a commitment to personal, high-quality service. Clients recognize her by name and trust her team to deliver real results.",
+      "credentials": [
+        "CPA",
+        "PC (Professional Corporation)"
+      ]
+    },
+    {
+      "name": "Christiaan",
+      "role": "Tax Associate & Client Specialist",
+      "bio": "Christiaan is the team member clients rave about — praised for making complex, multi-year tax situations feel painless, for finding every available benefit, and for delivering results under tight deadlines. As one client put it, 'he executed like no other.'",
+      "credentials": []
+    }
+  ],
+  "photos": [],
+  "stats": [
+    {
+      "value": 5,
+      "suffix": "★",
+      "label": "Perfect Google Rating"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "Five-Star Reviews"
+    },
+    {
+      "value": 1,
+      "suffix": " CPA",
+      "label": "Licensed, Credentialed & Local"
+    },
+    {
+      "value": 5,
+      "suffix": " Days/Wk",
+      "label": "Available Monday–Friday"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Can you help me if I have multiple years of unfiled taxes?",
+      "answer": "Absolutely. One of our clients came to us with several years of back taxes and a hard deadline — our team handled every year completely and on time. Multi-year and delinquent filing situations are something we handle with care and efficiency."
+    },
+    {
+      "question": "What makes your firm different from a big tax chain?",
+      "answer": "At Linda Lamprecht, CPA PC, you work with a real team that knows your situation. Our clients describe their experience as 'by far the best tax experience' they've had — not because we're a franchise, but because we treat every case as a personal challenge worth solving."
+    },
+    {
+      "question": "Do you handle payroll in addition to taxes?",
+      "answer": "Yes. We provide payroll services for small businesses alongside our full range of tax preparation and planning services. Many of our clients use us for both."
+    },
+    {
+      "question": "How quickly can you complete a return, especially under a deadline?",
+      "answer": "Speed without sacrificing accuracy is something we take seriously. Our team has demonstrated the ability to work through complex, multi-year filings within tight timeframes to meet client deadlines."
+    },
+    {
+      "question": "Who will actually be working on my taxes?",
+      "answer": "You'll work directly with our team — including Christiaan, who is frequently praised by name for his thoroughness and client-first approach — under the oversight of Linda Lamprecht, CPA."
+    },
+    {
+      "question": "Do you accept new clients and referrals?",
+      "answer": "Yes, we welcome new clients. In fact, many of our clients come through personal referrals — a reflection of the trust we've built with the people we serve."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#1B3A5C",
+    "accent": "#4A9E7F",
+    "note": "Deep navy conveys trust, credentials, and professional authority — the hallmarks of a CPA firm. The green accent signals financial growth, clarity, and a forward-thinking approach. Together they feel credible but not cold, which matches the warm, client-first tone of this practice."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Exceptional handling of complex, multi-year tax situations under tight deadlines — a rare and highly valued capability",
+      "Deeply personal client experience with named staff who clients trust enough to refer friends and family",
+      "Comprehensive service range (taxes + payroll) delivered by a small, focused team that clients describe as executing 'like no other'"
+    ],
+    "common_complaints": [
+      "None found — both reviews are five stars with no negative feedback"
+    ],
+    "suggested_tagline": "Your Hardest Tax Year, Finally Done Right.",
+    "photo_quality": "poor",
+    "personality_keywords": [
+      "thorough",
+      "deadline-driven",
+      "personable",
+      "trustworthy",
+      "results-oriented"
+    ],
+    "named_staff": [
+      "Linda Lamprecht",
+      "Christiaan"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

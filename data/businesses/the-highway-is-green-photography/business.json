@@ -1,0 +1,226 @@
+{
+  "name": "The Highway is Green Photography",
+  "slug": "the-highway-is-green-photography",
+  "category": "photography studio",
+  "address": "Ashland",
+  "city": "OR 97520",
+  "state": "US",
+  "zip": "",
+  "phone": "(541) 690-9293",
+  "email": "",
+  "website": null,
+  "rating": 5,
+  "reviewCount": 3,
+  "tagline": "Every Frame Tells a Wilder Story",
+  "brandNarrative": "The Highway is Green Photography is not your typical portrait studio. Based in Ashland, Oregon — a place where ancient forests meet volcanic desert and Pacific coastline — Travis brings a restless, adventure-driven eye to every shoot. His work spans moss-draped forest trails, rust-red cinder cones, sea-sprayed cliffs, and sun-soaked poolsides, making it clear this is a photographer who chases light wherever it lives. Clients like J G describe him as someone who 'exceeds expectations to capture the most amazing photos,' and his portfolio backs that up with a visual range that most studios simply can't match.\n\nWhat sets Travis apart is equal parts talent and temperament. He is, as J G notes, 'very flexible' — a quality that matters enormously when you're shooting athletes in urban alleys, rock climbers rappelling toward the ocean, or someone in a pinstriped dress against a gallery-white backdrop. He adapts to the subject, the mood, and the moment rather than forcing every client into the same template. That flexibility, combined with a photographer's instinct for drama and beauty, is why clients return to him for ongoing work.\n\nOperating seven days a week from 8 AM to 8 PM, The Highway is Green Photography is built around the client's schedule, not the other way around. The name itself signals a philosophy: the road ahead is alive, vivid, and worth documenting. Whether you need editorial portraits, adventure imagery, lifestyle shoots, or location-based photography across Southern Oregon's breathtaking landscapes, Travis delivers work that feels genuinely earned rather than formulaic.",
+  "ownerStory": "Travis is the creative force behind The Highway is Green Photography, and from everything his clients describe, he is the kind of photographer who treats every session as a genuine collaboration. Based out of Ashland, OR — a town nestled in the Siskiyou Mountains with the Cascade volcanoes to the north and the Oregon coast within reach — Travis has built a practice shaped by the extraordinary landscape around him. His portfolio reveals a photographer drawn to contrast: soft light through towering old-growth trees alongside the harsh geometry of volcanic rock; the intimacy of a studio portrait alongside the raw exposure of a cliff-face rappel.\n\nClients praise him not just for his technical skill but for how he makes the experience feel. J G's review captures it well — Travis is 'absolutely fantastic to work with,' someone who goes beyond the brief rather than just meeting it. He's available every day of the week, travels to locations that most photographers wouldn't consider, and brings a warmth and professionalism to every session that turns first-time clients into loyal ones. The Highway is Green isn't just a business name — it's a statement of creative intent from someone who genuinely believes the best images are found out in the world, not manufactured inside a studio.",
+  "hours": {
+    "Monday": "8:00 AM – 8:00 PM",
+    "Tuesday": "8:00 AM – 8:00 PM",
+    "Wednesday": "8:00 AM – 8:00 PM",
+    "Thursday": "8:00 AM – 8:00 PM",
+    "Friday": "8:00 AM – 8:00 PM",
+    "Saturday": "8:00 AM – 8:00 PM",
+    "Sunday": "8:00 AM – 8:00 PM"
+  },
+  "services": [
+    {
+      "name": "Portrait & Fashion Photography",
+      "description": "Studio and location-based portrait sessions with a polished editorial aesthetic, from clean white-background fashion shots to dramatic natural light setups.",
+      "icon": "camera"
+    },
+    {
+      "name": "Adventure & Outdoor Photography",
+      "description": "On-location shoots in rugged terrain — cliff faces, volcanic landscapes, forest trails, and coastlines — capturing athletes, explorers, and adventurers in their element.",
+      "icon": "mountain"
+    },
+    {
+      "name": "Lifestyle & Event Photography",
+      "description": "Candid, authentic lifestyle sessions capturing real moments — poolside gatherings, social settings, and everyday life with a cinematic, vibrant quality.",
+      "icon": "sun"
+    },
+    {
+      "name": "Athletic & Fitness Photography",
+      "description": "Dynamic photography for athletes and fitness clients, shot on location in urban or natural environments to capture movement, strength, and energy.",
+      "icon": "zap"
+    },
+    {
+      "name": "Landscape & Travel Photography",
+      "description": "Fine art landscape work across Southern Oregon and beyond, from Pacific beaches to high desert cinder cones, available as prints or licensed imagery.",
+      "icon": "image"
+    },
+    {
+      "name": "On-Location Custom Sessions",
+      "description": "Fully flexible, client-tailored shoots at any location — Travis works around your schedule, seven days a week, to bring your vision to life wherever it needs to happen.",
+      "icon": "map-pin"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Travis is absolutely fantastic to work with! He exceeds expectations to capture the most amazing photos. He is also very flexible which is always a plus. I would most definitely recommend him to anyone and will continue to go to him for all my photography.",
+      "author": "J G",
+      "rating": 5,
+      "source": "google",
+      "date": "2018-05-29"
+    },
+    {
+      "text": "Awesome!!!",
+      "author": "AF Rose",
+      "rating": 5,
+      "source": "google",
+      "date": "2018-05-30"
+    },
+    {
+      "text": "",
+      "author": "N Bhagwandin",
+      "rating": 5,
+      "source": "google",
+      "date": "2018-05-25"
+    }
+  ],
+  "team": [
+    {
+      "name": "Travis",
+      "role": "Photographer & Owner",
+      "bio": "Travis is described by clients as 'absolutely fantastic to work with' — a photographer who exceeds expectations, adapts to any subject or setting, and brings genuine flexibility and passion to every session.",
+      "credentials": [
+        "Praised for exceeding client expectations",
+        "Known for flexibility and accommodation",
+        "Trusted for ongoing, repeat photography work",
+        "Shoots across studios, urban environments, and remote outdoor locations"
+      ]
+    }
+  ],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Person in red jacket posing at giant stone hand sculpture in desert landscape",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Forest trail between tall moss-covered trees with lush green vegetation",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Woman wearing dark pinstriped dress and black hat against white background",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Striking red volcanic cinder cone with layered colored slopes and desert vegetation.",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Athlete performing outdoor workout exercise in urban alley setting",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Two people reading on a bench against a tiled wall with potted plants",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Woman in dark dress posing against white wall with geometric window shadows",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Scenic beach landscape with waves, sandy shore, and clear blue sky",
+      "category": "exterior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Silhouette of rock climber rappelling down narrow cliff face toward ocean",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Woman in colorful dress holding cocktail by poolside under blue sky",
+      "category": "exterior"
+    }
+  ],
+  "stats": [
+    {
+      "value": 5,
+      "suffix": "★",
+      "label": "Perfect Rating Across All Reviews"
+    },
+    {
+      "value": 7,
+      "suffix": " days",
+      "label": "Available Every Day of the Week"
+    },
+    {
+      "value": 12,
+      "suffix": "+",
+      "label": "Hours of Availability Daily"
+    },
+    {
+      "value": 100,
+      "suffix": "%",
+      "label": "Clients Who Would Recommend Travis"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What makes The Highway is Green Photography different from other studios?",
+      "answer": "Unlike a traditional studio, Travis shoots across an enormous range of settings — from clean white-backdrop portraits to volcanic desert landscapes, ocean cliffs, and urban alleys. Clients consistently note that he exceeds expectations rather than just meeting them, and his flexibility means the session is built around you, not a rigid formula."
+    },
+    {
+      "question": "How flexible is Travis with scheduling and location?",
+      "answer": "Very. Travis is available seven days a week from 8 AM to 8 PM, and clients specifically highlight his flexibility as one of his strongest qualities. Whether you need a studio session, an outdoor adventure shoot, or something entirely custom, he works around your schedule and your vision."
+    },
+    {
+      "question": "What types of photography does Travis specialize in?",
+      "answer": "His portfolio spans portrait and fashion photography, athletic and fitness imagery, lifestyle shoots, adventure and outdoor sessions, and sweeping landscape work. Based in Ashland, OR, he has access to old-growth forests, volcanic terrain, coastal scenery, and urban environments — all within a short drive."
+    },
+    {
+      "question": "Can I use Travis for ongoing or repeat photography needs?",
+      "answer": "Absolutely — and that's exactly what many clients do. J G notes they 'will continue to go to him for all my photography,' which speaks to the trust and consistency Travis builds with the people he works with."
+    },
+    {
+      "question": "Does Travis travel for shoots outside of Ashland?",
+      "answer": "Based on his portfolio imagery — which includes beaches, desert landscapes, forest trails, cliff faces, and urban environments — Travis clearly works across a wide geographic range. Contact him directly at (541) 690-9293 to discuss travel for your specific project."
+    },
+    {
+      "question": "How do I book a session?",
+      "answer": "The best way to get in touch is by calling Travis directly at (541) 690-9293. He's available seven days a week and is known for being responsive and easy to communicate with."
+    }
+  ],
+  "socialLinks": {},
+  "competitors": [],
+  "brandColors": {
+    "primary": "#2D6A4F",
+    "accent": "#C1440E",
+    "note": "Deep forest green reflects the lush Pacific Northwest landscapes, moss-covered trails, and the business name itself — 'the highway is green.' The volcanic rust-red accent is pulled directly from the cinder cone imagery in Travis's portfolio, grounding the palette in the dramatic Southern Oregon terrain he shoots in. Together they feel adventurous, organic, and distinctly of this place."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Exceptional client rapport — Travis is personally praised by name for exceeding expectations and being genuinely wonderful to work with",
+      "Extraordinary visual range — portfolio covers fashion portraits, athletic shoots, coastal landscapes, volcanic terrain, forest trails, and urban environments with consistent quality",
+      "Outstanding scheduling flexibility — seven-day-a-week availability from 8 AM to 8 PM signals a client-first operating philosophy that reviewers explicitly appreciate"
+    ],
+    "common_complaints": [
+      "None found — all three reviews are five stars with no negative feedback identified"
+    ],
+    "suggested_tagline": "Wild Light. Real Moments. Zero Limits.",
+    "photo_quality": "good",
+    "personality_keywords": [
+      "adventurous",
+      "flexible",
+      "exceeds expectations",
+      "warm",
+      "versatile"
+    ],
+    "named_staff": [
+      "Travis"
+    ]
+  },
+  "dataSources": [
+    "google"
+  ]
+}

@@ -246,13 +246,7 @@
       "trustworthy",
       "detail-obsessed"
     ],
-    "named_staff": [
-      "Crystal",
-      "Ashley",
-      "Cody"
-    ]
+    "named_staff": ["Crystal", "Ashley", "Cody"]
   },
-  "dataSources": [
-    "google"
-  ]
+  "dataSources": ["google"]
 }
