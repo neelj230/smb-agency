@@ -10,3 +10,19 @@ sites/*/node_modules/
 sites/*/.next/
 sites/*/out/
 .env
+
+# Logs & tmp
+data/*.log
+data/.tmp-*
+*.bak
+*.csv.bak-*
+*.tsbuildinfo
+
+# Claude worktrees
+.claude/worktrees/
+
+# Prospect PII — keep local only (repo is currently public)
+data/outbound-prospects.csv
+data/no-website-prospects.csv
+data/oregon-50-cold-call.csv
+data/outreach-batch.json
