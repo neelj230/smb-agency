@@ -1,0 +1,194 @@
+@import "tailwindcss";
+
+/* Scan shared packages for Tailwind classes */
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+@source "./**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #1B3A5C;
+  --brand-accent: #4A9E7F;
+  --brand-bg: #ffffff;
+  --brand-bg-alt: #f5f5f5;
+  --brand-text: #0a0a0a;
+  --brand-muted: #6b7280;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: var(--brand-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+/* Marquee animation for carousels */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Smooth section transitions */
+section, [id] > div {
+  scroll-margin-top: 80px;
+}
+
+/* Focus-visible outlines for accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Inset border for editorial/gallery feel */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 12px;
+  z-index: 999;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  pointer-events: none;
+  border-radius: 2px;
+}
+
+/* Gradient transitions between sections */
+.section-gradient {
+  position: relative;
+}
+.section-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--brand-bg));
+  pointer-events: none;
+}
+
+/* Creative director extras */
+/* ── MARQUEE ── */
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  animation: marquee-scroll 25s linear infinite;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+/* ── TESTIMONIAL SLIDE ── */
+@keyframes slide-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.testimonial-slide {
+  animation: slide-left 40s linear infinite;
+}
+
+.testimonial-slide:hover {
+  animation-play-state: paused;
+}
+
+/* ── SCROLLBAR ── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--brand-bg-dark);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--brand-accent);
+  border-radius: 3px;
+}
+
+/* ── HERO TEXT PAN ── */
+@keyframes pan-right {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.hero-text-pan {
+  animation: pan-right 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
+/* ── RADIAL GRADIENT UTILITY ── */
+.bg-gradient-radial {
+  background: radial-gradient(
+    circle,
+    var(--tw-gradient-from) 0%,
+    var(--tw-gradient-via, transparent) 50%,
+    var(--tw-gradient-to, transparent) 100%
+  );
+}
+
+/* ── PAC-MAN CHOMP ── */
+@keyframes chomp {
+  0% {
+    d: path(
+      "M20 0 A20 20 0 1 1 20 40 A20 20 0 1 1 20 0 Z M20 20 L35 8 L35 32 Z"
+    );
+  }
+  50% {
+    d: path(
+      "M20 0 A20 20 0 1 1 20 40 A20 20 0 1 1 20 0 Z M20 20 L35 18 L35 22 Z"
+    );
+  }
+  100% {
+    d: path(
+      "M20 0 A20 20 0 1 1 20 40 A20 20 0 1 1 20 0 Z M20 20 L35 8 L35 32 Z"
+    );
+  }
+}
+
+/* ── LOGO TICKER (for why choose us) ── */
+@keyframes ticker-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.ticker-track {
+  animation: ticker-scroll 15s linear infinite;
+}
+
+/* ── CARD SLIDE ── */
+@keyframes card-slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.card-slide-track {
+  animation: card-slide 20s linear infinite;
+}

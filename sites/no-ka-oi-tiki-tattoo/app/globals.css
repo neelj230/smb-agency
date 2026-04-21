@@ -3,14 +3,15 @@
 /* Scan shared packages for Tailwind classes */
 @source "../../../packages/components/**/*.{ts,tsx}";
 @source "../../../packages/integrations/**/*.{ts,tsx}";
+@source "./**/*.{ts,tsx}";
 
 :root {
-  --brand-primary: #218544;
-  --brand-accent: #ace38f;
-  --brand-bg: #edffe3;
-  --brand-bg-alt: #d6ecce;
-  --brand-text: #192119;
-  --brand-muted: #6b6e6b;
+  --brand-primary: #1f1f1f;
+  --brand-accent: #f4e6da;
+  --brand-bg: #0a0a0a;
+  --brand-bg-alt: #141414;
+  --brand-text: #ffffff;
+  --brand-muted: #888888;
 }
 
 ::selection {
@@ -66,171 +67,38 @@ section, [id] > div {
 }
 
 /* Creative director extras */
-/* ── No Ka Oi Tiki Tattoo — custom CSS ─────────────────────── */
-
-/* Font imports */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,600;0,9..40,700;0,9..40,800;1,9..40,400&family=Inter:wght@400;500;600&display=swap');
-
-/* Brand variables */
-:root {
-  --brand-primary: #218544;
-  --brand-accent: #ace38f;
-  --brand-text: #0d1a0f;
-  --font-display: 'DM Sans', sans-serif;
-  --font-body: 'Inter', sans-serif;
+/* ── SCROLLBAR ── */
+::-webkit-scrollbar {
+  width: 4px;
 }
-
-/* Base typography */
-body {
-  font-family: var(--font-body);
-  background: #fff;
-  color: var(--brand-text);
-  -webkit-font-smoothing: antialiased;
+::-webkit-scrollbar-track {
+  background: var(--brand-bg);
 }
-
-h1, h2, h3, h4, h5, h6,
-.font-display {
-  font-family: var(--font-display);
-}
-
-/* ── Film grain overlay ────────────────────────────────────── */
-body::after {
-  content: '';
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: 9999;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
-  mix-blend-mode: overlay;
-  opacity: 0.025;
-}
-
-/* ── Dot pattern ───────────────────────────────────────────── */
-.dot-pattern {
-  background-image: radial-gradient(circle, rgba(172, 227, 143, 0.35) 1px, transparent 1px);
-  background-size: 22px 22px;
-}
-
-/* ── Tagline banner extras ─────────────────────────────────── */
-.tagline-banner {
-  position: relative;
-}
-
-/* ── Marquee strip ─────────────────────────────────────────── */
-.marquee-strip {
-  border-top: 1px solid rgba(255,255,255,0.08);
-  border-bottom: 1px solid rgba(255,255,255,0.08);
-}
-
-/* ── Service card hover ────────────────────────────────────── */
-[class*="service-card"],
-.service-card {
-  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1),
-              box-shadow 0.3s cubic-bezier(0.22, 1, 0.36, 1);
-}
-[class*="service-card"]:hover,
-.service-card:hover {
-  transform: translateY(-4px) scale(1.015);
-  box-shadow: 0 16px 48px rgba(33, 133, 68, 0.13);
-}
-
-/* ── Navbar accent ─────────────────────────────────────────── */
-nav a:hover {
-  color: var(--brand-primary) !important;
-}
-
-/* ── FAQ accordion dark theme fix ─────────────────────────── */
-#faq [class*="accordion"],
-#faq [class*="faq"] {
-  color: #fff;
-}
-#faq [class*="accordion"] button,
-#faq [class*="faq"] button {
-  color: #fff;
-}
-#faq [class*="accordion"] p,
-#faq [class*="faq"] p {
-  color: rgba(255,255,255,0.7);
-}
-#faq [class*="border"] {
-  border-color: rgba(255,255,255,0.1) !important;
-}
-
-/* ── Stats section numbers ─────────────────────────────────── */
-[class*="stat"] [class*="value"],
-[class*="stats"] [class*="value"] {
-  color: var(--brand-accent) !important;
-}
-
-/* ── Picture frame subtle inner border ────────────────────── */
-body::before {
-  content: '';
-  position: fixed;
-  inset: 8px;
-  pointer-events: none;
-  z-index: 9998;
-  border: 1px solid rgba(33, 133, 68, 0.06);
+::-webkit-scrollbar-thumb {
+  background: #333;
   border-radius: 2px;
 }
 
-/* ── CTA button brand overrides ───────────────────────────── */
-a[href^="tel"],
-button[data-cta] {
-  background-color: var(--brand-primary) !important;
-  color: #fff !important;
-}
-a[href^="tel"]:hover,
-button[data-cta]:hover {
-  background-color: #1a6e38 !important;
-}
-
-/* ── Accent pill / tag ─────────────────────────────────────── */
-.accent-pill {
-  background: var(--brand-accent);
-  color: var(--brand-primary);
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  font-size: 0.7rem;
-  border-radius: 999px;
-  padding: 0.25rem 0.75rem;
-  display: inline-block;
+/* ── VIDEO OVERLAY ── */
+.video-overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(10, 10, 10, 0.3) 0%,
+    rgba(10, 10, 10, 0.1) 40%,
+    rgba(10, 10, 10, 0.6) 100%
+  );
 }
 
-/* ── Gallery dark background image borders ────────────────── */
-#gallery img {
-  border-radius: 6px;
+/* ── PROJECT CARD HOVER ── */
+.project-card {
+  transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
-#gallery [class*="gallery"],
-#gallery [class*="image"] {
-  background: #0d1a0f;
+.project-card:hover {
+  transform: translateY(-4px);
 }
-
-/* ── Smooth scroll ─────────────────────────────────────────── */
-html {
-  scroll-behavior: smooth;
+.project-card .project-image {
+  transition: transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
-
-/* ── Section spacing normalization ────────────────────────── */
-section + section {
-  /* slight visual separation handled by bg colors */
-}
-
-/* ── Testimonial card accent ───────────────────────────────── */
-[class*="testimonial"] [class*="card"],
-[class*="review"] [class*="card"] {
-  border-left: 3px solid var(--brand-primary) !important;
-}
-
-/* ── Star color ────────────────────────────────────────────── */
-[class*="star"],
-[aria-label*="star"] {
-  color: var(--brand-accent) !important;
-}
-
-/* ── Mobile polish ─────────────────────────────────────────── */
-@media (max-width: 640px) {
-  .tagline-banner {
-    padding: 3.5rem 1.5rem;
-  }
+.project-card:hover .project-image {
+  transform: scale(1.05);
 }

@@ -5,12 +5,12 @@
 @source "../../../packages/integrations/**/*.{ts,tsx}";
 
 :root {
-  --brand-primary: #00A64C;
-  --brand-accent: #0091a6;
-  --brand-bg: #ffffff;
-  --brand-bg-alt: #e5ede9;
-  --brand-text: #000000;
-  --brand-muted: #000000;
+  --brand-primary: #BF360C;
+  --brand-accent: #FFE082;
+  --brand-bg: #FFFDF5;
+  --brand-bg-alt: #ffffff;
+  --brand-text: #3E1300;
+  --brand-muted: #6b7280;
 }
 
 ::selection {
@@ -29,12 +29,17 @@ body {
 
 /* Marquee animation for carousels */
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 /* Smooth section transitions */
-section, [id] > div {
+section,
+[id] > div {
   scroll-margin-top: 80px;
 }
 
@@ -46,7 +51,7 @@ section, [id] > div {
 
 /* Inset border for editorial/gallery feel */
 body::before {
-  content: '';
+  content: "";
   position: fixed;
   inset: 12px;
   z-index: 999;
@@ -57,7 +62,7 @@ body::before {
 
 /* Film grain overlay for warm analog feel */
 body::after {
-  content: '';
+  content: "";
   position: fixed;
   inset: 0;
   z-index: 9999;
@@ -72,7 +77,7 @@ body::after {
   position: relative;
 }
 .section-gradient::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -86,27 +91,30 @@ body::after {
 /* ── Overhill Flowers — Custom CSS ─────────────────────────────────────────── */
 
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600&display=swap");
 
 /* Brand tokens */
 :root {
-  --brand-primary: #00A64C;
-  --brand-accent: #0091a6;
-  --brand-text: #1a1a1a;
+  --brand-primary: #BF360C;
+  --brand-accent: #FFE082;
+  --brand-text: #3E1300;
   --brand-cream: #faf7f2;
   --brand-cream-dark: #f0ebe1;
-  --brand-leaf: #e8f5ee;
+  --brand-leaf: #FFF8E1;
 }
 
 /* Base typography */
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: #ffffff;
   color: var(--brand-text);
 }
 
-h1, h2, h3, h4 {
-  font-family: 'Instrument Serif', serif;
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Instrument Serif", serif;
 }
 
 /* ── Film grain overlay ───────────────────────────────────────────────────── */
@@ -138,7 +146,7 @@ h1, h2, h3, h4 {
   display: inline-flex;
   align-items: center;
   gap: 0.6rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 0.78rem;
   font-weight: 600;
   letter-spacing: 0.12em;
@@ -152,13 +160,17 @@ h1, h2, h3, h4 {
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background: rgba(255,255,255,0.55);
+  background: rgba(255, 255, 255, 0.55);
   flex-shrink: 0;
 }
 
 @keyframes overhill-scroll {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 /* ── Tagline banner ───────────────────────────────────────────────────────── */
@@ -170,19 +182,19 @@ h1, h2, h3, h4 {
 .overhill-tagline-banner {
   max-width: 860px;
   margin: 0 auto;
-  border: 1px solid rgba(0, 166, 76, 0.25);
+  border: 1px solid rgba(191, 54, 12, 0.25);
   border-radius: 2px;
   padding: 2.5rem 3rem;
   background: #ffffff;
-  box-shadow: 0 2px 32px rgba(0, 166, 76, 0.06);
+  box-shadow: 0 2px 32px rgba(191, 54, 12, 0.06);
   position: relative;
 }
 
 .overhill-tagline-banner::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 6px;
-  border: 1px solid rgba(0, 166, 76, 0.1);
+  border: 1px solid rgba(191, 54, 12, 0.1);
   border-radius: 1px;
   pointer-events: none;
 }
@@ -201,7 +213,7 @@ h1, h2, h3, h4 {
 }
 
 .overhill-tagline-text {
-  font-family: 'Instrument Serif', serif;
+  font-family: "Instrument Serif", serif;
   font-style: italic;
   font-size: clamp(1.3rem, 3vw, 2rem);
   color: var(--brand-text);
@@ -249,11 +261,11 @@ h1, h2, h3, h4 {
 
 .overhill-faq-dark button {
   color: #f0f7f3 !important;
-  border-color: rgba(255,255,255,0.12) !important;
+  border-color: rgba(255, 255, 255, 0.12) !important;
 }
 
 .overhill-faq-dark button:hover {
-  background-color: rgba(0, 166, 76, 0.12) !important;
+  background-color: rgba(191, 54, 12, 0.12) !important;
 }
 
 .overhill-faq-dark [data-state="open"],
@@ -263,7 +275,11 @@ h1, h2, h3, h4 {
 
 /* ── Dot pattern accent ───────────────────────────────────────────────────── */
 .dot-pattern {
-  background-image: radial-gradient(circle, rgba(0, 166, 76, 0.15) 1px, transparent 1px);
+  background-image: radial-gradient(
+    circle,
+    rgba(191, 54, 12, 0.15) 1px,
+    transparent 1px
+  );
   background-size: 22px 22px;
 }
 
@@ -277,7 +293,9 @@ h1, h2, h3, h4 {
 
 /* ── Hover scale for cards ────────────────────────────────────────────────── */
 .overhill-hover-card {
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
 }
 .overhill-hover-card:hover {
   transform: translateY(-4px) scale(1.015);
@@ -286,7 +304,7 @@ h1, h2, h3, h4 {
 
 /* ── Picture-frame border on hero ────────────────────────────────────────── */
 .overhill-hero-frame::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 14px;
   border: 1px solid rgba(255, 255, 255, 0.18);

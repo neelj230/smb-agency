@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #e85c2b;
+  --brand-accent: #1a2b4a;
+  --brand-bg: #fafafa;
+  --brand-bg-alt: #f0f0f0;
+  --brand-text: #0f1923;
+  --brand-muted: #5a6474;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+}
+
+section,
+[id] > div {
+  scroll-margin-top: 80px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* ── BOLD BADGE ── */
+.stat-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--brand-accent);
+  color: white;
+  padding: 6px 14px;
+  border-radius: 100px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* ── SERVICE CARD HOVER ── */
+.service-card {
+  background: white;
+  border-radius: 16px;
+  padding: 32px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+.service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+.service-card-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: var(--brand-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.25rem;
+  margin-bottom: 16px;
+}
+
+/* ── DOT PATTERN ── */
+.dot-bg {
+  background-image: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0.05) 1px,
+    transparent 1px
+  );
+  background-size: 24px 24px;
+}
+
+/* ── SCROLLBAR ── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--brand-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--brand-primary);
+  border-radius: 3px;
+}

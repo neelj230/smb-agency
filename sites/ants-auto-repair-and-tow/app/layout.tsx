@@ -1,68 +1,73 @@
-import type { Metadata } from 'next'
-import { Hedvig_Letters_Serif, Inter, JetBrains_Mono } from 'next/font/google'
-import { AnalyticsProvider } from '@/integrations/AnalyticsProvider'
-import { SchemaJsonLd } from '@/components/SchemaJsonLd'
-import './globals.css'
+import type { Metadata } from "next";
+import { Hedvig_Letters_Serif, Inter, JetBrains_Mono } from "next/font/google";
+import { AnalyticsProvider } from "@/integrations/AnalyticsProvider";
+import { SchemaJsonLd } from "@/components/SchemaJsonLd";
+import "./globals.css";
 
 const hedvig_letters_serif = Hedvig_Letters_Serif({
-  subsets: ['latin'],
-  variable: '--font-hedvig-letters-serif',
-  display: 'swap',
-  weight: ['400'],
-})
+  subsets: ["latin"],
+  variable: "--font-hedvig-letters-serif",
+  display: "swap",
+  weight: ["400"],
+});
 
 const inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-inter',
-  display: 'swap',
-  weight: ['400', '600', '700'],
-})
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+  weight: ["400", "600", "700"],
+});
 
 const mono = JetBrains_Mono({
-  subsets: ['latin'],
-  variable: '--font-mono',
-  display: 'swap',
-})
+  subsets: ["latin"],
+  variable: "--font-mono",
+  display: "swap",
+});
 
 const businessData = {
-  name: 'Ant’s Auto Repair and Tow',
-  address: '2750 N Broad St',
-  city: 'Philadelphia',
-  state: 'PA',
-  zip: '19132',
-  phone: '(267) 774-6361',
-  email: '',
+  name: "Ant’s Auto Repair and Tow",
+  address: "2750 N Broad St",
+  city: "Philadelphia",
+  state: "PA",
+  zip: "19132",
+  phone: "(267) 774-6361",
+  email: "",
   rating: 4.7,
   reviewCount: 105,
   hours: {
-    Monday: 'Open 24 hours',
-    Tuesday: 'Open 24 hours',
-    Wednesday: 'Open 24 hours',
-    Thursday: 'Open 24 hours',
-    Friday: 'Open 24 hours',
-    Saturday: 'Open 24 hours',
-    Sunday: 'Open 24 hours',
+    Monday: "Open 24 hours",
+    Tuesday: "Open 24 hours",
+    Wednesday: "Open 24 hours",
+    Thursday: "Open 24 hours",
+    Friday: "Open 24 hours",
+    Saturday: "Open 24 hours",
+    Sunday: "Open 24 hours",
   },
-}
+};
 
 export const metadata: Metadata = {
-  title: 'Ant’s Auto Repair and Tow — auto repair in Philadelphia, PA',
-  description: 'Ant’s Auto Repair and Tow is a auto repair located in Philadelphia, PA. Honest wrenches. No games. 24/7.',
-  keywords: ['auto repair', 'Philadelphia', 'PA', 'Ant’s Auto Repair and Tow'],
+  title: "Ant’s Auto Repair and Tow — auto repair in Philadelphia, PA",
+  description:
+    "Ant’s Auto Repair and Tow is a auto repair located in Philadelphia, PA. Honest wrenches. No games. 24/7.",
+  keywords: ["auto repair", "Philadelphia", "PA", "Ant’s Auto Repair and Tow"],
   openGraph: {
-    title: 'Ant’s Auto Repair and Tow',
-    description: 'Ant’s Auto Repair and Tow is a auto repair located in Philadelphia, PA. Honest wrenches. No games. 24/7.',
-    type: 'website',
+    title: "Ant’s Auto Repair and Tow",
+    description:
+      "Ant’s Auto Repair and Tow is a auto repair located in Philadelphia, PA. Honest wrenches. No games. 24/7.",
+    type: "website",
   },
-}
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${hedvig_letters_serif.variable} ${inter.variable} ${mono.variable}`}>
+    <html
+      lang="en"
+      className={`${hedvig_letters_serif.variable} ${inter.variable} ${mono.variable}`}
+    >
       <head>
         <SchemaJsonLd business={businessData} />
       </head>
@@ -70,7 +75,7 @@ export default function RootLayout({
         className="font-[family-name:var(--font-inter)] antialiased"
         style={
           {
-            '--font-display': 'var(--font-hedvig-letters-serif)',
+            "--font-display": "var(--font-hedvig-letters-serif)",
           } as React.CSSProperties
         }
       >
@@ -78,5 +83,5 @@ export default function RootLayout({
         <AnalyticsProvider />
       </body>
     </html>
-  )
+  );
 }

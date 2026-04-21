@@ -1,6 +1,6 @@
-'use client'
+"use client";
 
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef } from "react";
 import {
   motion,
   useInView,
@@ -9,7 +9,7 @@ import {
   animate,
   useScroll,
   AnimatePresence,
-} from 'framer-motion'
+} from "framer-motion";
 import {
   Palette,
   FileText,
@@ -26,7 +26,7 @@ import {
   Twitter,
   Linkedin,
   Mail,
-} from 'lucide-react'
+} from "lucide-react";
 
 /* ─────────────────────────────────────────────
    ANIMATION VARIANTS
@@ -35,21 +35,21 @@ import {
 const fadeInUp = {
   initial: { opacity: 0, y: 30 },
   whileInView: { opacity: 1, y: 0 },
-  viewport: { once: true, margin: '-80px' },
-  transition: { duration: 0.6, ease: 'easeOut' },
-}
+  viewport: { once: true, margin: "-80px" },
+  transition: { duration: 0.6, ease: "easeOut" },
+};
 
 const staggerContainer = {
   initial: {},
   whileInView: { transition: { staggerChildren: 0.1 } },
-  viewport: { once: true, margin: '-80px' },
-}
+  viewport: { once: true, margin: "-80px" },
+};
 
 const staggerItem = {
   initial: { opacity: 0, y: 24 },
   whileInView: { opacity: 1, y: 0 },
-  transition: { duration: 0.5, ease: 'easeOut' },
-}
+  transition: { duration: 0.5, ease: "easeOut" },
+};
 
 /* ─────────────────────────────────────────────
    COUNTER COMPONENT
@@ -57,32 +57,32 @@ const staggerItem = {
 
 function Counter({
   target,
-  suffix = '',
-  prefix = '',
+  suffix = "",
+  prefix = "",
 }: {
-  target: number
-  suffix?: string
-  prefix?: string
+  target: number;
+  suffix?: string;
+  prefix?: string;
 }) {
-  const ref = useRef(null)
-  const isInView = useInView(ref, { once: true })
-  const count = useMotionValue(0)
-  const rounded = useTransform(count, (v) => Math.round(v))
-  const [displayVal, setDisplayVal] = useState(0)
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+  const count = useMotionValue(0);
+  const rounded = useTransform(count, (v) => Math.round(v));
+  const [displayVal, setDisplayVal] = useState(0);
 
   useEffect(() => {
     if (isInView) {
       const controls = animate(count, target, {
         duration: 2,
-        ease: 'easeOut',
-      })
-      const unsubscribe = rounded.on('change', (v) => setDisplayVal(v))
+        ease: "easeOut",
+      });
+      const unsubscribe = rounded.on("change", (v) => setDisplayVal(v));
       return () => {
-        controls.stop()
-        unsubscribe()
-      }
+        controls.stop();
+        unsubscribe();
+      };
     }
-  }, [isInView, count, target, rounded])
+  }, [isInView, count, target, rounded]);
 
   return (
     <span ref={ref} className="font-[family-name:var(--font-fragment-mono)]">
@@ -90,7 +90,7 @@ function Counter({
       {displayVal}
       {suffix}
     </span>
-  )
+  );
 }
 
 /* ─────────────────────────────────────────────
@@ -102,32 +102,32 @@ function SelfWritingText({
   speed = 30,
   delay = 800,
 }: {
-  text: string
-  speed?: number
-  delay?: number
+  text: string;
+  speed?: number;
+  delay?: number;
 }) {
-  const [displayed, setDisplayed] = useState('')
-  const [started, setStarted] = useState(false)
-  const ref = useRef(null)
-  const isInView = useInView(ref, { once: true })
+  const [displayed, setDisplayed] = useState("");
+  const [started, setStarted] = useState(false);
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
 
   useEffect(() => {
     if (isInView && !started) {
-      const timeout = setTimeout(() => setStarted(true), delay)
-      return () => clearTimeout(timeout)
+      const timeout = setTimeout(() => setStarted(true), delay);
+      return () => clearTimeout(timeout);
     }
-  }, [isInView, started, delay])
+  }, [isInView, started, delay]);
 
   useEffect(() => {
-    if (!started) return
-    if (displayed.length >= text.length) return
+    if (!started) return;
+    if (displayed.length >= text.length) return;
 
     const timeout = setTimeout(() => {
-      setDisplayed(text.slice(0, displayed.length + 1))
-    }, speed)
+      setDisplayed(text.slice(0, displayed.length + 1));
+    }, speed);
 
-    return () => clearTimeout(timeout)
-  }, [started, displayed, text, speed])
+    return () => clearTimeout(timeout);
+  }, [started, displayed, text, speed]);
 
   return (
     <span ref={ref}>
@@ -138,7 +138,7 @@ function SelfWritingText({
         className="inline-block w-[3px] h-[1em] bg-[var(--brand-primary)] ml-1 align-baseline"
       />
     </span>
-  )
+  );
 }
 
 /* ─────────────────────────────────────────────
@@ -146,22 +146,22 @@ function SelfWritingText({
    ───────────────────────────────────────────── */
 
 function Navbar() {
-  const [scrolled, setScrolled] = useState(false)
-  const [mobileOpen, setMobileOpen] = useState(false)
+  const [scrolled, setScrolled] = useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
 
   useEffect(() => {
-    const handler = () => setScrolled(window.scrollY > 40)
-    window.addEventListener('scroll', handler, { passive: true })
-    return () => window.removeEventListener('scroll', handler)
-  }, [])
+    const handler = () => setScrolled(window.scrollY > 40);
+    window.addEventListener("scroll", handler, { passive: true });
+    return () => window.removeEventListener("scroll", handler);
+  }, []);
 
   const links = [
-    { label: 'Work', href: '#work' },
-    { label: 'Services', href: '#services' },
-    { label: 'Process', href: '#process' },
-    { label: 'About', href: '#about' },
-    { label: 'Contact', href: '#contact' },
-  ]
+    { label: "Work", href: "#work" },
+    { label: "Services", href: "#services" },
+    { label: "Process", href: "#process" },
+    { label: "About", href: "#about" },
+    { label: "Contact", href: "#contact" },
+  ];
 
   return (
     <motion.nav
@@ -170,8 +170,8 @@ function Navbar() {
       transition={{ duration: 0.5, delay: 0.2 }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? 'bg-[#0a0a0a]/90 backdrop-blur-md border-b border-white/5'
-          : 'bg-transparent'
+          ? "bg-[#0a0a0a]/90 backdrop-blur-md border-b border-white/5"
+          : "bg-transparent"
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
@@ -216,7 +216,7 @@ function Navbar() {
         {mobileOpen && (
           <motion.div
             initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
+            animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
             className="md:hidden bg-[#0a0a0a]/95 backdrop-blur-md border-b border-white/5 overflow-hidden"
           >
@@ -243,7 +243,7 @@ function Navbar() {
         )}
       </AnimatePresence>
     </motion.nav>
-  )
+  );
 }
 
 /* ─────────────────────────────────────────────
@@ -261,12 +261,12 @@ function HeroSection() {
             y: [0, -50, 30, 0],
             scale: [1, 1.15, 0.9, 1],
           }}
-          transition={{ duration: 20, repeat: Infinity, ease: 'easeInOut' }}
+          transition={{ duration: 20, repeat: Infinity, ease: "easeInOut" }}
           className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] md:w-[800px] md:h-[800px] rounded-full"
           style={{
             background:
-              'radial-gradient(circle, rgba(191,225,95,0.12) 0%, rgba(191,225,95,0.04) 40%, transparent 70%)',
-            filter: 'blur(60px)',
+              "radial-gradient(circle, rgba(191,225,95,0.12) 0%, rgba(191,225,95,0.04) 40%, transparent 70%)",
+            filter: "blur(60px)",
           }}
         />
         <motion.div
@@ -278,14 +278,14 @@ function HeroSection() {
           transition={{
             duration: 25,
             repeat: Infinity,
-            ease: 'easeInOut',
+            ease: "easeInOut",
             delay: 3,
           }}
           className="absolute bottom-1/3 right-1/4 w-[350px] h-[350px] md:w-[500px] md:h-[500px] rounded-full"
           style={{
             background:
-              'radial-gradient(circle, rgba(191,225,95,0.08) 0%, transparent 60%)',
-            filter: 'blur(40px)',
+              "radial-gradient(circle, rgba(191,225,95,0.08) 0%, transparent 60%)",
+            filter: "blur(40px)",
           }}
         />
       </div>
@@ -376,14 +376,14 @@ function HeroSection() {
       >
         <motion.div
           animate={{ y: [0, 8, 0] }}
-          transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
+          transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
           className="w-5 h-8 rounded-full border border-white/20 flex items-start justify-center p-1.5"
         >
           <motion.div className="w-1 h-1.5 rounded-full bg-[var(--brand-primary)]" />
         </motion.div>
       </motion.div>
     </section>
-  )
+  );
 }
 
 /* ─────────────────────────────────────────────
@@ -393,29 +393,29 @@ function HeroSection() {
 const projects = [
   {
     name: "Marco's Plumbing",
-    industry: 'Plumbing & Heating',
-    color: '#1d65d1',
-    status: 'live' as const,
+    industry: "Plumbing & Heating",
+    color: "#1d65d1",
+    status: "live" as const,
   },
   {
-    name: 'Rosario\'s Trattoria',
-    industry: 'Italian Restaurant',
-    color: '#c9463d',
-    status: 'coming' as const,
+    name: "Rosario's Trattoria",
+    industry: "Italian Restaurant",
+    color: "#c9463d",
+    status: "coming" as const,
   },
   {
-    name: 'Bright Smile Dental',
-    industry: 'Dental Practice',
-    color: '#2bbaa0',
-    status: 'coming' as const,
+    name: "Bright Smile Dental",
+    industry: "Dental Practice",
+    color: "#2bbaa0",
+    status: "coming" as const,
   },
   {
-    name: 'Apex Auto Repair',
-    industry: 'Auto Repair',
-    color: '#e8a838',
-    status: 'coming' as const,
+    name: "Apex Auto Repair",
+    industry: "Auto Repair",
+    color: "#e8a838",
+    status: "coming" as const,
   },
-]
+];
 
 function WorkSection() {
   return (
@@ -426,7 +426,8 @@ function WorkSection() {
             Portfolio
           </span>
           <h2 className="font-[family-name:var(--font-space-grotesk)] text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
-            Built Different<span className="text-[var(--brand-primary)]">.</span>
+            Built Different
+            <span className="text-[var(--brand-primary)]">.</span>
           </h2>
         </motion.div>
 
@@ -436,7 +437,7 @@ function WorkSection() {
               key={project.name}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: '-80px' }}
+              viewport={{ once: true, margin: "-80px" }}
               transition={{ duration: 0.6, delay: i * 0.12 }}
               className="group relative"
             >
@@ -458,15 +459,25 @@ function WorkSection() {
                     {/* Screen content — simulated site preview */}
                     <div
                       className="aspect-[16/10] relative overflow-hidden"
-                      style={{ backgroundColor: project.color + '08' }}
+                      style={{ backgroundColor: project.color + "08" }}
                     >
-                      {project.status === 'live' ? (
+                      {project.status === "live" ? (
                         <div className="absolute inset-0 p-4">
                           {/* Simulated hero section */}
                           <div className="h-full flex flex-col justify-between">
                             <div className="flex items-center gap-2 mb-3">
-                              <div className="w-6 h-6 rounded-md" style={{ backgroundColor: project.color + '30' }} />
-                              <div className="h-2 w-20 rounded-full" style={{ backgroundColor: project.color + '20' }} />
+                              <div
+                                className="w-6 h-6 rounded-md"
+                                style={{
+                                  backgroundColor: project.color + "30",
+                                }}
+                              />
+                              <div
+                                className="h-2 w-20 rounded-full"
+                                style={{
+                                  backgroundColor: project.color + "20",
+                                }}
+                              />
                               <div className="ml-auto flex gap-2">
                                 <div className="h-2 w-8 rounded-full bg-white/5" />
                                 <div className="h-2 w-8 rounded-full bg-white/5" />
@@ -475,10 +486,20 @@ function WorkSection() {
                             </div>
                             <div className="flex-1 flex items-center">
                               <div>
-                                <div className="h-3 w-40 rounded-full mb-2" style={{ backgroundColor: project.color + '25' }} />
+                                <div
+                                  className="h-3 w-40 rounded-full mb-2"
+                                  style={{
+                                    backgroundColor: project.color + "25",
+                                  }}
+                                />
                                 <div className="h-2 w-56 rounded-full mb-1 bg-white/5" />
                                 <div className="h-2 w-44 rounded-full mb-3 bg-white/5" />
-                                <div className="h-6 w-24 rounded-full" style={{ backgroundColor: project.color + '30' }} />
+                                <div
+                                  className="h-6 w-24 rounded-full"
+                                  style={{
+                                    backgroundColor: project.color + "30",
+                                  }}
+                                />
                               </div>
                             </div>
                             <div className="flex gap-3">
@@ -491,8 +512,16 @@ function WorkSection() {
                       ) : (
                         <div className="absolute inset-0 flex items-center justify-center">
                           <div className="text-center">
-                            <div className="w-10 h-10 rounded-xl mx-auto mb-3 flex items-center justify-center" style={{ backgroundColor: project.color + '15' }}>
-                              <div className="w-4 h-4 rounded-md" style={{ backgroundColor: project.color + '40' }} />
+                            <div
+                              className="w-10 h-10 rounded-xl mx-auto mb-3 flex items-center justify-center"
+                              style={{ backgroundColor: project.color + "15" }}
+                            >
+                              <div
+                                className="w-4 h-4 rounded-md"
+                                style={{
+                                  backgroundColor: project.color + "40",
+                                }}
+                              />
                             </div>
                             <div className="text-[10px] font-[family-name:var(--font-fragment-mono)] text-[var(--brand-muted)]/40 uppercase tracking-widest">
                               Coming Soon
@@ -514,7 +543,7 @@ function WorkSection() {
                       {project.industry}
                     </p>
                   </div>
-                  {project.status === 'live' && (
+                  {project.status === "live" && (
                     <div className="flex items-center gap-2 text-xs font-[family-name:var(--font-fragment-mono)] text-[var(--brand-primary)]">
                       <span className="w-1.5 h-1.5 rounded-full bg-[var(--brand-primary)] animate-pulse" />
                       Live
@@ -527,7 +556,7 @@ function WorkSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 /* ─────────────────────────────────────────────
@@ -537,41 +566,39 @@ function WorkSection() {
 const services = [
   {
     icon: Palette,
-    title: 'Bespoke Design',
+    title: "Bespoke Design",
     description:
-      'Not templates. Every site designed from our library of 185+ elements from award-winning sites.',
+      "Not templates. Every site designed from our library of 185+ elements from award-winning sites.",
   },
   {
     icon: FileText,
-    title: 'Real Content',
+    title: "Real Content",
     description:
-      'Copy written from your actual reviews, your real story, your real strengths. Never generic filler.',
+      "Copy written from your actual reviews, your real story, your real strengths. Never generic filler.",
   },
   {
     icon: Smartphone,
-    title: 'Mobile-First',
-    description:
-      'Flawless on every device. From 375px phones to 4K displays.',
+    title: "Mobile-First",
+    description: "Flawless on every device. From 375px phones to 4K displays.",
   },
   {
     icon: Zap,
-    title: 'Lightning Fast',
-    description:
-      'Lighthouse 90+ across the board. Your customers won\'t wait.',
+    title: "Lightning Fast",
+    description: "Lighthouse 90+ across the board. Your customers won't wait.",
   },
   {
     icon: Puzzle,
-    title: 'All Integrations',
+    title: "All Integrations",
     description:
-      'Contact forms, click-to-call, maps, reviews, analytics — all included from day one.',
+      "Contact forms, click-to-call, maps, reviews, analytics — all included from day one.",
   },
   {
     icon: Clock,
-    title: 'Days, Not Months',
+    title: "Days, Not Months",
     description:
-      'From concept to live website in days. Not the weeks or months agencies charge for.',
+      "From concept to live website in days. Not the weeks or months agencies charge for.",
   },
-]
+];
 
 function ServicesSection() {
   return (
@@ -595,7 +622,7 @@ function ServicesSection() {
               key={service.title}
               initial={{ opacity: 0, y: 24 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: '-60px' }}
+              viewport={{ once: true, margin: "-60px" }}
               transition={{ duration: 0.5, delay: i * 0.08 }}
               className="group p-7 rounded-2xl bg-[var(--brand-bg)] border border-white/5 hover:border-[var(--brand-primary)]/30 transition-all duration-500 hover:shadow-[0_0_30px_rgba(191,225,95,0.1)]"
             >
@@ -616,7 +643,7 @@ function ServicesSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 /* ─────────────────────────────────────────────
@@ -625,30 +652,30 @@ function ServicesSection() {
 
 const processSteps = [
   {
-    num: '01',
-    title: 'We Find You',
+    num: "01",
+    title: "We Find You",
     description:
-      'We identify businesses that deserve a better online presence.',
+      "We identify businesses that deserve a better online presence.",
   },
   {
-    num: '02',
-    title: 'We Research',
+    num: "02",
+    title: "We Research",
     description:
-      'Deep dive into your reviews, photos, story, and brand. Every detail matters.',
+      "Deep dive into your reviews, photos, story, and brand. Every detail matters.",
   },
   {
-    num: '03',
-    title: 'We Build',
+    num: "03",
+    title: "We Build",
     description:
-      'Our system generates a bespoke site using your real data. No stock photos. No lorem ipsum.',
+      "Our system generates a bespoke site using your real data. No stock photos. No lorem ipsum.",
   },
   {
-    num: '04',
-    title: 'You Go Live',
+    num: "04",
+    title: "You Go Live",
     description:
-      'Review it, request changes, and launch. Deployed on world-class infrastructure.',
+      "Review it, request changes, and launch. Deployed on world-class infrastructure.",
   },
-]
+];
 
 function ProcessSection() {
   return (
@@ -672,7 +699,7 @@ function ProcessSection() {
               key={step.num}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: '-60px' }}
+              viewport={{ once: true, margin: "-60px" }}
               transition={{ duration: 0.5, delay: i * 0.12 }}
               className="relative"
             >
@@ -690,7 +717,7 @@ function ProcessSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 /* ─────────────────────────────────────────────
@@ -698,22 +725,22 @@ function ProcessSection() {
    ───────────────────────────────────────────── */
 
 const oldWay = [
-  'Generic templates',
-  'Stock photos everywhere',
-  'Lorem ipsum text',
-  'Weeks of back-and-forth',
-  'DIY maintenance headaches',
-  '$3,000 - $5,000 agency fees',
-]
+  "Generic templates",
+  "Stock photos everywhere",
+  "Lorem ipsum text",
+  "Weeks of back-and-forth",
+  "DIY maintenance headaches",
+  "$3,000 - $5,000 agency fees",
+];
 
 const ourWay = [
-  'Bespoke design from 185+ elements',
-  'Your real photos and brand',
-  'Copy from your actual reviews',
-  'Ready in days',
-  'We handle everything',
-  'Fraction of the cost',
-]
+  "Bespoke design from 185+ elements",
+  "Your real photos and brand",
+  "Copy from your actual reviews",
+  "Ready in days",
+  "We handle everything",
+  "Fraction of the cost",
+];
 
 function ComparisonSection() {
   return (
@@ -743,7 +770,10 @@ function ComparisonSection() {
             <div className="space-y-4">
               {oldWay.map((item) => (
                 <div key={item} className="flex items-start gap-3">
-                  <Minus size={16} className="text-red-500/60 mt-0.5 flex-shrink-0" />
+                  <Minus
+                    size={16}
+                    className="text-red-500/60 mt-0.5 flex-shrink-0"
+                  />
                   <span className="text-sm text-[var(--brand-muted)]/80">
                     {item}
                   </span>
@@ -774,7 +804,7 @@ function ComparisonSection() {
         </motion.div>
       </div>
     </section>
-  )
+  );
 }
 
 /* ─────────────────────────────────────────────
@@ -782,11 +812,11 @@ function ComparisonSection() {
    ───────────────────────────────────────────── */
 
 const stats = [
-  { value: 185, suffix: '+', label: 'Design Elements' },
-  { value: 55, suffix: '+', label: 'Sites Analyzed' },
-  { value: 90, suffix: '+', label: 'Lighthouse Scores' },
-  { value: 3, suffix: '', label: 'Day Avg. Delivery' },
-]
+  { value: 185, suffix: "+", label: "Design Elements" },
+  { value: 55, suffix: "+", label: "Sites Analyzed" },
+  { value: 90, suffix: "+", label: "Lighthouse Scores" },
+  { value: 3, suffix: "", label: "Day Avg. Delivery" },
+];
 
 function StatsSection() {
   return (
@@ -821,7 +851,7 @@ function StatsSection() {
         </motion.div>
       </div>
     </section>
-  )
+  );
 }
 
 /* ─────────────────────────────────────────────
@@ -831,20 +861,20 @@ function StatsSection() {
 const testimonials = [
   {
     text: "They built our site in 3 days. Three days! It looks better than anything we could've gotten from an agency charging ten times more.",
-    author: 'Pilot Client',
-    role: 'Restaurant Owner, Philadelphia',
+    author: "Pilot Client",
+    role: "Restaurant Owner, Philadelphia",
   },
   {
     text: "I didn't even know this was possible. They used our actual Google reviews as testimonials, our real photos — it actually feels like us.",
-    author: 'Pilot Client',
-    role: 'Contractor, South Jersey',
+    author: "Pilot Client",
+    role: "Contractor, South Jersey",
   },
   {
-    text: 'The site is fast, it looks incredible on mobile, and we started getting calls from it the first week.',
-    author: 'Pilot Client',
-    role: 'Dental Practice, Main Line',
+    text: "The site is fast, it looks incredible on mobile, and we started getting calls from it the first week.",
+    author: "Pilot Client",
+    role: "Dental Practice, Main Line",
   },
-]
+];
 
 function TestimonialsSection() {
   return (
@@ -855,7 +885,8 @@ function TestimonialsSection() {
             Testimonials
           </span>
           <h2 className="font-[family-name:var(--font-space-grotesk)] text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight">
-            Don&apos;t take our word for it<span className="text-[var(--brand-primary)]">.</span>
+            Don&apos;t take our word for it
+            <span className="text-[var(--brand-primary)]">.</span>
           </h2>
         </motion.div>
 
@@ -865,16 +896,20 @@ function TestimonialsSection() {
               key={i}
               initial={{ opacity: 0, y: 24 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: '-60px' }}
+              viewport={{ once: true, margin: "-60px" }}
               transition={{ duration: 0.5, delay: i * 0.1 }}
               className="p-8 rounded-2xl bg-[var(--brand-bg-alt)] border border-white/5 relative"
             >
-              <div className="text-4xl text-[var(--brand-primary)]/20 font-serif absolute top-4 left-6">&ldquo;</div>
+              <div className="text-4xl text-[var(--brand-primary)]/20 font-serif absolute top-4 left-6">
+                &ldquo;
+              </div>
               <p className="text-sm text-[var(--brand-muted)] leading-relaxed mb-6 mt-4">
                 {t.text}
               </p>
               <div className="border-t border-white/5 pt-4">
-                <p className="text-sm font-semibold text-[var(--brand-text)]">{t.author}</p>
+                <p className="text-sm font-semibold text-[var(--brand-text)]">
+                  {t.author}
+                </p>
                 <p className="text-xs text-[var(--brand-muted)]/60">{t.role}</p>
               </div>
             </motion.div>
@@ -882,7 +917,7 @@ function TestimonialsSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 /* ─────────────────────────────────────────────
@@ -891,7 +926,10 @@ function TestimonialsSection() {
 
 function AboutSection() {
   return (
-    <section id="about" className="py-24 md:py-32 px-6 bg-[var(--brand-bg-alt)]">
+    <section
+      id="about"
+      className="py-24 md:py-32 px-6 bg-[var(--brand-bg-alt)]"
+    >
       <div className="max-w-5xl mx-auto">
         <motion.div {...fadeInUp} className="mb-12">
           <span className="font-[family-name:var(--font-fragment-mono)] text-xs text-[var(--brand-primary)] tracking-wider uppercase mb-4 block">
@@ -924,10 +962,10 @@ function AboutSection() {
           >
             <p className="text-base md:text-lg text-[var(--brand-muted)] leading-relaxed mb-6">
               I&#39;m a student at the University of Pennsylvania with a passion
-              for making small businesses look as good online as the Fortune 500.
-              I believe the local plumber, the family restaurant, the
-              neighborhood dentist — they all deserve a website that looks like a
-              million bucks.
+              for making small businesses look as good online as the Fortune
+              500. I believe the local plumber, the family restaurant, the
+              neighborhood dentist — they all deserve a website that looks like
+              a million bucks.
             </p>
             <p className="text-base md:text-lg text-[var(--brand-muted)] leading-relaxed mb-8">
               So I built a system that studies the best designs on the internet
@@ -944,7 +982,7 @@ function AboutSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
 /* ─────────────────────────────────────────────
@@ -952,13 +990,13 @@ function AboutSection() {
    ───────────────────────────────────────────── */
 
 function ContactSection() {
-  const [submitted, setSubmitted] = useState(false)
+  const [submitted, setSubmitted] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault()
+    e.preventDefault();
     // In production, this would post to the API route
-    setSubmitted(true)
-  }
+    setSubmitted(true);
+  };
 
   return (
     <section id="contact" className="py-24 md:py-32 px-6">
@@ -968,7 +1006,7 @@ function ContactSection() {
             Get Started
           </span>
           <h2 className="font-[family-name:var(--font-space-grotesk)] text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
-            Ready for a website that actually{' '}
+            Ready for a website that actually{" "}
             <span className="text-[var(--brand-primary)]">wins customers</span>?
           </h2>
           <p className="text-[var(--brand-muted)] text-lg mb-12 max-w-xl mx-auto">
@@ -1063,7 +1101,7 @@ function ContactSection() {
         )}
       </div>
     </section>
-  )
+  );
 }
 
 /* ─────────────────────────────────────────────
@@ -1119,7 +1157,7 @@ function FooterSection() {
         </div>
       </div>
     </footer>
-  )
+  );
 }
 
 /* ─────────────────────────────────────────────
@@ -1141,5 +1179,5 @@ export default function HomePage() {
       <ContactSection />
       <FooterSection />
     </main>
-  )
+  );
 }

@@ -5,12 +5,12 @@
 @source "../../../packages/integrations/**/*.{ts,tsx}";
 
 :root {
-  --brand-primary: #FF2E2E;
+  --brand-primary: #ff2e2e;
   --brand-accent: #ffb92e;
-  --brand-bg: #F4EEE3;
+  --brand-bg: #f4eee3;
   --brand-bg-alt: #e7d7cd;
-  --brand-text: #1C1C1C;
-  --brand-muted: #1C1C1C;
+  --brand-text: #1c1c1c;
+  --brand-muted: #1c1c1c;
 }
 
 ::selection {
@@ -29,12 +29,17 @@ body {
 
 /* Marquee animation for carousels */
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 /* Smooth section transitions */
-section, [id] > div {
+section,
+[id] > div {
   scroll-margin-top: 80px;
 }
 
@@ -46,7 +51,7 @@ section, [id] > div {
 
 /* Film grain overlay for warm analog feel */
 body::after {
-  content: '';
+  content: "";
   position: fixed;
   inset: 0;
   z-index: 9999;
@@ -61,7 +66,7 @@ body::after {
   position: relative;
 }
 .section-gradient::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -76,7 +81,7 @@ body::after {
 
 /* Brand tokens */
 :root {
-  --blossom-red: #FF2E2E;
+  --blossom-red: #ff2e2e;
   --blossom-gold: #ffb92e;
   --blossom-dark: #1a1014;
   --blossom-cream: #fff8f3;
@@ -85,7 +90,7 @@ body::after {
 
 /* Film grain overlay for warmth */
 body::after {
-  content: '';
+  content: "";
   position: fixed;
   inset: 0;
   pointer-events: none;
@@ -112,7 +117,9 @@ body::after {
   flex-direction: column;
   align-items: center;
   gap: 0.1rem;
-  box-shadow: 0 8px 32px rgba(255,46,46,0.18), 0 2px 8px rgba(0,0,0,0.10);
+  box-shadow:
+    0 8px 32px rgba(255, 46, 46, 0.18),
+    0 2px 8px rgba(0, 0, 0, 0.1);
   z-index: 20;
   min-width: 120px;
 }
@@ -122,14 +129,14 @@ body::after {
   letter-spacing: 0.05em;
 }
 .blossom-badge-text {
-  font-family: 'Figtree', sans-serif;
+  font-family: "Figtree", sans-serif;
   font-weight: 700;
   font-size: 0.9rem;
   color: var(--blossom-dark);
   line-height: 1.2;
 }
 .blossom-badge-sub {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 0.72rem;
   color: #888;
   text-transform: uppercase;
@@ -150,7 +157,7 @@ body::after {
   white-space: nowrap;
 }
 .blossom-ticker-item {
-  font-family: 'Figtree', sans-serif;
+  font-family: "Figtree", sans-serif;
   font-weight: 600;
   font-size: 0.85rem;
   letter-spacing: 0.1em;
@@ -166,8 +173,12 @@ body::after {
   font-size: 0.6rem;
 }
 @keyframes blossom-ticker-scroll {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 /* ─── Dark band (stats) ────────────────────────── */
@@ -192,7 +203,7 @@ body::after {
   display: inline-block;
   background: rgba(255, 46, 46, 0.08);
   color: var(--blossom-red);
-  font-family: 'Figtree', sans-serif;
+  font-family: "Figtree", sans-serif;
   font-weight: 700;
   font-size: 0.72rem;
   letter-spacing: 0.14em;
@@ -224,10 +235,14 @@ body::after {
   position: relative;
 }
 .blossom-services-wrapper::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
-  background-image: radial-gradient(circle, rgba(255,46,46,0.045) 1px, transparent 1px);
+  background-image: radial-gradient(
+    circle,
+    rgba(255, 46, 46, 0.045) 1px,
+    transparent 1px
+  );
   background-size: 28px 28px;
   pointer-events: none;
   z-index: 0;
@@ -261,15 +276,15 @@ body::after {
   justify-content: center;
 }
 .blossom-pull-quote-mark {
-  font-family: 'Figtree', sans-serif;
+  font-family: "Figtree", sans-serif;
   font-size: 4rem;
   line-height: 1;
-  color: rgba(255,255,255,0.35);
+  color: rgba(255, 255, 255, 0.35);
   flex-shrink: 0;
   margin-top: -0.5rem;
 }
 .blossom-pull-quote-text {
-  font-family: 'Figtree', sans-serif;
+  font-family: "Figtree", sans-serif;
   font-size: clamp(1.35rem, 3vw, 2rem);
   font-weight: 700;
   color: #fff;
@@ -292,12 +307,14 @@ body::after {
 /* ─── Hover scale on service cards ─────────────── */
 [class*="service"] .card,
 [class*="Service"] > div > div {
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
 }
 [class*="service"] .card:hover,
 [class*="Service"] > div > div:hover {
   transform: translateY(-4px) scale(1.012);
-  box-shadow: 0 12px 40px rgba(255,46,46,0.10);
+  box-shadow: 0 12px 40px rgba(255, 46, 46, 0.1);
 }
 
 /* ─── Responsive tweaks ────────────────────────── */

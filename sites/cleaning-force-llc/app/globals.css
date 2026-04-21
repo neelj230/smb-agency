@@ -5,12 +5,12 @@
 @source "../../../packages/integrations/**/*.{ts,tsx}";
 
 :root {
-  --brand-primary: #1e64e6;
-  --brand-accent: #f6e304;
-  --brand-bg: #f0f4fa;
-  --brand-bg-alt: #d8e0ec;
-  --brand-text: #081d3a;
-  --brand-muted: #4e5c71;
+  --brand-primary: #00695C;
+  --brand-accent: #FFB300;
+  --brand-bg: #F5FBF9;
+  --brand-bg-alt: #E8F5F0;
+  --brand-text: #1a2e28;
+  --brand-muted: #5a6b65;
 }
 
 ::selection {
@@ -29,12 +29,17 @@ body {
 
 /* Marquee animation for carousels */
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 /* Smooth section transitions */
-section, [id] > div {
+section,
+[id] > div {
   scroll-margin-top: 80px;
 }
 
@@ -46,7 +51,7 @@ section, [id] > div {
 
 /* Inset border for editorial/gallery feel */
 body::before {
-  content: '';
+  content: "";
   position: fixed;
   inset: 12px;
   z-index: 999;
@@ -60,7 +65,7 @@ body::before {
   position: relative;
 }
 .section-gradient::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -85,7 +90,7 @@ body::before {
 
 /* ── Film grain overlay ──────────────────────────────────────── */
 body::after {
-  content: '';
+  content: "";
   position: fixed;
   inset: 0;
   pointer-events: none;
@@ -130,7 +135,7 @@ body::after {
 }
 
 .cf-section-title {
-  font-family: 'Carattere', cursive;
+  font-family: "Carattere", cursive;
   font-size: clamp(2.6rem, 5vw, 4.2rem);
   font-weight: 400;
   color: var(--cf-text);
@@ -139,7 +144,7 @@ body::after {
 }
 
 .cf-section-sub {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1.05rem;
   color: #5a6378;
   max-width: 520px;
@@ -150,7 +155,7 @@ body::after {
 /* ── Overline label ──────────────────────────────────────────── */
 .cf-overline {
   display: inline-block;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.14em;
@@ -187,7 +192,7 @@ body::after {
   display: inline-flex;
   align-items: center;
   gap: 0.6rem;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 0.8rem;
   font-weight: 600;
   letter-spacing: 0.06em;
@@ -206,8 +211,12 @@ body::after {
 }
 
 @keyframes cf-scroll {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 /* ── Trust badges ────────────────────────────────────────────── */
@@ -235,7 +244,9 @@ body::after {
   border-radius: 999px;
   padding: 0.5rem 1.25rem;
   box-shadow: 0 2px 12px rgba(30, 100, 230, 0.06);
-  transition: box-shadow 0.25s, transform 0.25s;
+  transition:
+    box-shadow 0.25s,
+    transform 0.25s;
 }
 
 .cf-trust-badge:hover {
@@ -249,7 +260,7 @@ body::after {
 }
 
 .cf-trust-label {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 0.82rem;
   font-weight: 600;
   color: var(--cf-text);
@@ -296,7 +307,7 @@ body::after {
 }
 
 .cf-pullquote-mark {
-  font-family: 'Carattere', cursive;
+  font-family: "Carattere", cursive;
   font-size: 8rem;
   line-height: 0.6;
   color: rgba(0, 0, 0, 0.18);
@@ -305,7 +316,7 @@ body::after {
 }
 
 .cf-pullquote-text {
-  font-family: 'Carattere', cursive;
+  font-family: "Carattere", cursive;
   font-size: clamp(1.55rem, 2.4vw, 2.1rem);
   line-height: 1.35;
   color: var(--cf-text);
@@ -314,7 +325,7 @@ body::after {
 }
 
 .cf-pullquote-attr {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 0.85rem;
   font-weight: 700;
   letter-spacing: 0.06em;

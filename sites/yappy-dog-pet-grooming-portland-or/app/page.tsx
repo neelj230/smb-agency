@@ -1,200 +1,257 @@
-import { Navbar } from '@/components/Navbar'
-import { Footer } from '@/components/Footer'
-import { ClickToCall } from '@/components/ClickToCall'
-import { HeroSection } from '@/components/HeroSection'
-import { StatsCounter } from '@/components/StatsCounter'
-import { TestimonialCarousel } from '@/components/TestimonialCarousel'
-import { ServiceCards } from '@/components/ServiceCards'
-import { AboutSection } from '@/components/AboutSection'
-import { ProcessSteps } from '@/components/ProcessSteps'
-import { ImageGallery } from '@/components/ImageGallery'
-import { FounderQuote } from '@/components/FounderQuote'
-import { FAQAccordion } from '@/components/FAQAccordion'
-import { ContactSection } from '@/components/ContactSection'
-import type { Stat, Review, Service, ProcessStep, FAQItem, NavLink, Photo, SocialLinks } from '@/components/types'
+import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/Footer";
+import { ClickToCall } from "@/components/ClickToCall";
+import { HeroSection } from "@/components/HeroSection";
+import { StatsCounter } from "@/components/StatsCounter";
+import { TestimonialCarousel } from "@/components/TestimonialCarousel";
+import { ServiceCards } from "@/components/ServiceCards";
+import { AboutSection } from "@/components/AboutSection";
+import { ProcessSteps } from "@/components/ProcessSteps";
+import { ImageGallery } from "@/components/ImageGallery";
+import { FounderQuote } from "@/components/FounderQuote";
+import { FAQAccordion } from "@/components/FAQAccordion";
+import { ContactSection } from "@/components/ContactSection";
+import type {
+  Stat,
+  Review,
+  Service,
+  ProcessStep,
+  FAQItem,
+  NavLink,
+  Photo,
+  SocialLinks,
+} from "@/components/types";
 
 const navLinks: NavLink[] = [
-  { label: 'Reviews', href: '#reviews' },
-  { label: 'Services', href: '#services' },
-  { label: 'About', href: '#about' },
-  { label: 'Gallery', href: '#gallery' },
-  { label: 'FAQ', href: '#faq' },
-  { label: 'Contact', href: '#contact' },
-]
+  { label: "Reviews", href: "#reviews" },
+  { label: "Services", href: "#services" },
+  { label: "About", href: "#about" },
+  { label: "Gallery", href: "#gallery" },
+  { label: "FAQ", href: "#faq" },
+  { label: "Contact", href: "#contact" },
+];
 
 const stats: Stat[] = [
-  {     value: 4.6, suffix: '★', label: 'Average Star Rating' },
-  {     value: 73, suffix: '+', label: 'Customer Reviews' },
-  {     value: 5, suffix: ' days', label: 'Available Each Week (Tue–Sat)' },
-  {     value: 100, suffix: '%', label: 'Word-of-Mouth Growth' },
-]
+  { value: 4.6, suffix: "★", label: "Average Star Rating" },
+  { value: 73, suffix: "+", label: "Customer Reviews" },
+  { value: 5, suffix: " days", label: "Available Each Week (Tue–Sat)" },
+  { value: 100, suffix: "%", label: "Word-of-Mouth Growth" },
+];
 
 const services: Service[] = [
   {
-    name: 'Full Grooming & Haircut',
-    description: 'Complete breed-appropriate haircut including bath, blow-dry, trim, and finishing touches like bows — priced around $90 for small breeds.',
-    icon: 'scissors',
-    image: '/photos/photo-2.webp',
+    name: "Full Grooming & Haircut",
+    description:
+      "Complete breed-appropriate haircut including bath, blow-dry, trim, and finishing touches like bows — priced around $90 for small breeds.",
+    icon: "scissors",
+    image: "/photos/photo-2.webp",
   },
   {
-    name: 'Lion Cut',
-    description: 'Specialty sculpted lion-style trim for small, fluffy breeds — handled with precision even for anxious or wriggly dogs.',
-    icon: 'star',
-    image: '/photos/photo-3.webp',
+    name: "Lion Cut",
+    description:
+      "Specialty sculpted lion-style trim for small, fluffy breeds — handled with precision even for anxious or wriggly dogs.",
+    icon: "star",
+    image: "/photos/photo-3.webp",
   },
   {
-    name: 'Nail Trim',
-    description: 'Quick, stress-free nail filing and clipping, available as a standalone service or paired with any grooming package.',
-    icon: 'zap',
-    image: '/photos/photo-4.webp',
+    name: "Nail Trim",
+    description:
+      "Quick, stress-free nail filing and clipping, available as a standalone service or paired with any grooming package.",
+    icon: "zap",
+    image: "/photos/photo-4.webp",
   },
   {
-    name: 'Dematting & Coat Rescue',
-    description: 'Patient, expert detangling and cleanup for severely matted coats — no judgment, just results that make dogs look brand new.',
-    icon: 'heart',
-    image: '/photos/photo-5.webp',
+    name: "Dematting & Coat Rescue",
+    description:
+      "Patient, expert detangling and cleanup for severely matted coats — no judgment, just results that make dogs look brand new.",
+    icon: "heart",
+    image: "/photos/photo-5.webp",
   },
   {
-    name: 'Bath & Brush-Out',
-    description: 'Thorough shampoo, conditioning, and blow-dry with a full brush-out to restore shine and reduce shedding.',
-    icon: 'droplets',
-    image: '/photos/photo-7.webp',
+    name: "Bath & Brush-Out",
+    description:
+      "Thorough shampoo, conditioning, and blow-dry with a full brush-out to restore shine and reduce shedding.",
+    icon: "droplets",
+    image: "/photos/photo-7.webp",
   },
   {
-    name: 'Finishing & Spa Add-Ons',
-    description: 'Festive bows, bandanas, and spa-style finishing touches that make pickup feel like a reveal moment.',
-    icon: 'sparkles',
-    image: '/photos/photo-8.webp',
+    name: "Finishing & Spa Add-Ons",
+    description:
+      "Festive bows, bandanas, and spa-style finishing touches that make pickup feel like a reveal moment.",
+    icon: "sparkles",
+    image: "/photos/photo-8.webp",
   },
-]
+];
 
 const reviews: Review[] = [
   {
-    text: 'I am pleased having found such a great dog groomer near us. It was easy to schedule and the care and attention when I dropped our dog off was exceptional. Monica asked me questions and then told me what to expect. Great service all around. Looking forward to using Yappy Dog Pet Grooming again!',
-    author: 'Jennifer Rinde',
+    text: "I am pleased having found such a great dog groomer near us. It was easy to schedule and the care and attention when I dropped our dog off was exceptional. Monica asked me questions and then told me what to expect. Great service all around. Looking forward to using Yappy Dog Pet Grooming again!",
+    author: "Jennifer Rinde",
     rating: 5,
-    source: 'google',
-    date: '2026-01-10',
+    source: "google",
+    date: "2026-01-10",
   },
   {
-    text: 'I cannot speak highly enough of Yappy Dog.  Monica and the shop came recommended to us by a friend at the dog park.  The love and care for our animal was obvious before the first service began. Our dog is happy and content when he departs, shows excitement when we return, and the quality of service is fantastic.',
-    author: 'Rob Berardinelli',
+    text: "I cannot speak highly enough of Yappy Dog.  Monica and the shop came recommended to us by a friend at the dog park.  The love and care for our animal was obvious before the first service began. Our dog is happy and content when he departs, shows excitement when we return, and the quality of service is fantastic.",
+    author: "Rob Berardinelli",
     rating: 5,
-    source: 'google',
-    date: '2025-11-04',
+    source: "google",
+    date: "2025-11-04",
   },
   {
-    text: 'I love bringing my dog, Scout, to Yappy Dog Pet Grooming. Sharon and her family take such good care of my fur baby! Scout is a pretty chill dog, but he is always happy to go here and have his spa day! I appreciate how much Sharon and her team love the pups. Thank you for being such a great local groomer for Scouty!! Highly recommend :)',
-    author: 'Anisa A',
+    text: "I love bringing my dog, Scout, to Yappy Dog Pet Grooming. Sharon and her family take such good care of my fur baby! Scout is a pretty chill dog, but he is always happy to go here and have his spa day! I appreciate how much Sharon and her team love the pups. Thank you for being such a great local groomer for Scouty!! Highly recommend :)",
+    author: "Anisa A",
     rating: 5,
-    source: 'google',
-    date: '2024-04-20',
+    source: "google",
+    date: "2024-04-20",
   },
   {
-    text: 'I love this place they always get me in last minute. They are so accommodating both times. I have brought my dogs here. They have been in embarrassingly bad condition with lots of matting and bad haircuts that Mom 🌝💜👸 tried to give them at home lol they always make them look so good and very friendly staff. This is my go to place in Portland.',
-    author: 'Emma Pate',
+    text: "I love this place they always get me in last minute. They are so accommodating both times. I have brought my dogs here. They have been in embarrassingly bad condition with lots of matting and bad haircuts that Mom 🌝💜👸 tried to give them at home lol they always make them look so good and very friendly staff. This is my go to place in Portland.",
+    author: "Emma Pate",
     rating: 5,
-    source: 'google',
-    date: '2023-12-10',
+    source: "google",
+    date: "2023-12-10",
   },
   {
-    text: 'Yappy Dog Grooming is fantastic. We ask for a lion cut and nail trim for two tiny, fluffy, and neurotic dogs. For as wormy as these two dogs are if you even so much as think about them the groomers manage to get a great trim in. About $90 a head for haircut and nail trim.\nMost importantly when I go to pick up my girls they don’t come out with shell shock.',
-    author: 'Josephine Morey',
+    text: "Yappy Dog Grooming is fantastic. We ask for a lion cut and nail trim for two tiny, fluffy, and neurotic dogs. For as wormy as these two dogs are if you even so much as think about them the groomers manage to get a great trim in. About $90 a head for haircut and nail trim.\nMost importantly when I go to pick up my girls they don’t come out with shell shock.",
+    author: "Josephine Morey",
     rating: 5,
-    source: 'google',
-    date: '2021-10-08',
+    source: "google",
+    date: "2021-10-08",
   },
-]
+];
 
 const faqItems: FAQItem[] = [
   {
-    question: 'Can you handle anxious or difficult-to-groom dogs?',
-    answer: 'Absolutely. Our groomers have a calm, patient approach that works wonders even for neurotic or wriggly dogs. Multiple customers have noted that their anxious pups leave Yappy Dog relaxed and happy — not stressed or shell-shocked.',
+    question: "Can you handle anxious or difficult-to-groom dogs?",
+    answer:
+      "Absolutely. Our groomers have a calm, patient approach that works wonders even for neurotic or wriggly dogs. Multiple customers have noted that their anxious pups leave Yappy Dog relaxed and happy — not stressed or shell-shocked.",
   },
   {
-    question: 'Do you take last-minute or same-day appointments?',
-    answer: 'We do our best to accommodate last-minute requests and have a reputation for being flexible. Several customers have praised us specifically for getting them in on short notice — just give us a call at (503) 477-4347.',
+    question: "Do you take last-minute or same-day appointments?",
+    answer:
+      "We do our best to accommodate last-minute requests and have a reputation for being flexible. Several customers have praised us specifically for getting them in on short notice — just give us a call at (503) 477-4347.",
   },
   {
-    question: 'What does a full haircut and nail trim cost for a small dog?',
-    answer: 'For small breeds, a full haircut plus nail trim typically runs around $90. Pricing may vary based on coat condition, breed, and the specific services requested — we\'re happy to give you an estimate when you call.',
+    question: "What does a full haircut and nail trim cost for a small dog?",
+    answer:
+      "For small breeds, a full haircut plus nail trim typically runs around $90. Pricing may vary based on coat condition, breed, and the specific services requested — we're happy to give you an estimate when you call.",
   },
   {
-    question: 'What makes Yappy Dog different from a big grooming chain?',
-    answer: 'We\'re a family-run shop where Monica and Sharon personally ask questions about your dog before every appointment and keep things calm and caring throughout. Dogs leave happy and owners leave confident — that\'s the standard we hold ourselves to, every visit.',
+    question: "What makes Yappy Dog different from a big grooming chain?",
+    answer:
+      "We're a family-run shop where Monica and Sharon personally ask questions about your dog before every appointment and keep things calm and caring throughout. Dogs leave happy and owners leave confident — that's the standard we hold ourselves to, every visit.",
   },
   {
-    question: 'My dog\'s coat is badly matted. Can you still help?',
-    answer: 'Yes — dematting and coat rescue is something we handle regularly and without judgment. Customers have brought dogs in \'embarrassingly bad condition\' and been thrilled with the results. We\'ll assess the coat and let you know what\'s possible.',
+    question: "My dog's coat is badly matted. Can you still help?",
+    answer:
+      "Yes — dematting and coat rescue is something we handle regularly and without judgment. Customers have brought dogs in 'embarrassingly bad condition' and been thrilled with the results. We'll assess the coat and let you know what's possible.",
   },
   {
-    question: 'What are your hours and how do I book?',
-    answer: 'We\'re open Tuesday through Saturday, 9:00 AM to 5:00 PM, and closed Sunday and Monday. Call us at (503) 477-4347 to schedule — customers consistently say booking is easy and the intake process is smooth.',
+    question: "What are your hours and how do I book?",
+    answer:
+      "We're open Tuesday through Saturday, 9:00 AM to 5:00 PM, and closed Sunday and Monday. Call us at (503) 477-4347 to schedule — customers consistently say booking is easy and the intake process is smooth.",
   },
-]
+];
 
 const processSteps: ProcessStep[] = [
   {
-    title: 'Monica Asks the Right Questions',
-    description: 'At drop-off, Monica takes the time to understand your dog\'s breed, temperament, and exactly what you\'re hoping for — so nothing gets lost in translation.',
+    title: "Monica Asks the Right Questions",
+    description:
+      "At drop-off, Monica takes the time to understand your dog's breed, temperament, and exactly what you're hoping for — so nothing gets lost in translation.",
   },
   {
-    title: 'The Full Treatment Begins',
-    description: 'Bath, blow-dry, breed-appropriate cut, nail trim — every service is handled with patience, whether your dog is chill or completely wriggly.',
+    title: "The Full Treatment Begins",
+    description:
+      "Bath, blow-dry, breed-appropriate cut, nail trim — every service is handled with patience, whether your dog is chill or completely wriggly.",
   },
   {
-    title: 'The Finishing Touch',
-    description: 'A bow, a bandana, or a spa-style flourish — because pickup should feel like a reveal, not just a transaction.',
+    title: "The Finishing Touch",
+    description:
+      "A bow, a bandana, or a spa-style flourish — because pickup should feel like a reveal, not just a transaction.",
   },
   {
-    title: 'You Pick Up a Different Dog',
-    description: 'Happy, calm, and looking better than you imagined — no shell shock, no stress, just a dog who\'s ready to show off.',
+    title: "You Pick Up a Different Dog",
+    description:
+      "Happy, calm, and looking better than you imagined — no shell shock, no stress, just a dog who's ready to show off.",
   },
-]
+];
 
 const heroImage: Photo = {
-  src: '/photos/photo-1.webp',
-  alt: 'Yappy Dog Pet Grooming storefront with black awning and glass doors on sunny day',
-  category: 'exterior',
-}
+  src: "/photos/photo-1.webp",
+  alt: "Yappy Dog Pet Grooming storefront with black awning and glass doors on sunny day",
+  category: "exterior",
+};
 
 const aboutImage: Photo = {
-  src: '/photos/photo-6.webp',
-  alt: 'Bulldog lying on table with tongue out in indoor office setting',
-  category: 'interior',
-}
+  src: "/photos/photo-6.webp",
+  alt: "Bulldog lying on table with tongue out in indoor office setting",
+  category: "interior",
+};
 
 const galleryPhotos: Photo[] = [
-  { src: '/photos/photo-2.webp', alt: 'Small white and gray Shih Tzu dog with pink bow standing on wooden floor', category: 'product' },
-  { src: '/photos/photo-3.webp', alt: 'Small dog being groomed on professional grooming table at pet salon', category: 'work' },
-  { src: '/photos/photo-4.webp', alt: 'Before and after grooming photos of a small fluffy dog with festive bow', category: 'product' },
-  { src: '/photos/photo-5.webp', alt: 'Veterinarian examines golden retriever in clinic exam room with medical equipment.', category: 'work' },
-  { src: '/photos/photo-7.webp', alt: 'Husky standing on grooming table in professional pet salon facility with equipment', category: 'interior' },
-  { src: '/photos/photo-8.webp', alt: 'Gray dog standing on grooming table at professional pet grooming salon', category: 'work' },
-  { src: '/photos/photo-9.webp', alt: 'Veterinarian examines black and white spaniel on examination table at clinic', category: 'work' },
-  { src: '/photos/photo-10.webp', alt: 'Black and tan dog standing on grooming table in pet salon with professional equipment', category: 'interior' },
-]
+  {
+    src: "/photos/photo-2.webp",
+    alt: "Small white and gray Shih Tzu dog with pink bow standing on wooden floor",
+    category: "product",
+  },
+  {
+    src: "/photos/photo-3.webp",
+    alt: "Small dog being groomed on professional grooming table at pet salon",
+    category: "work",
+  },
+  {
+    src: "/photos/photo-4.webp",
+    alt: "Before and after grooming photos of a small fluffy dog with festive bow",
+    category: "product",
+  },
+  {
+    src: "/photos/photo-5.webp",
+    alt: "Veterinarian examines golden retriever in clinic exam room with medical equipment.",
+    category: "work",
+  },
+  {
+    src: "/photos/photo-7.webp",
+    alt: "Husky standing on grooming table in professional pet salon facility with equipment",
+    category: "interior",
+  },
+  {
+    src: "/photos/photo-8.webp",
+    alt: "Gray dog standing on grooming table at professional pet grooming salon",
+    category: "work",
+  },
+  {
+    src: "/photos/photo-9.webp",
+    alt: "Veterinarian examines black and white spaniel on examination table at clinic",
+    category: "work",
+  },
+  {
+    src: "/photos/photo-10.webp",
+    alt: "Black and tan dog standing on grooming table in pet salon with professional equipment",
+    category: "interior",
+  },
+];
 
-const socialLinks: SocialLinks = {}
+const socialLinks: SocialLinks = {};
 
 const businessContact = {
-  name: 'Yappy Dog Pet Grooming - Portland OR',
-  address: '6715 SW Beaverton Hillsdale Hwy',
-  city: 'Portland',
-  state: 'OR',
-  zip: '97225',
-  phone: '(503) 477-4347',
-  email: '',
+  name: "Yappy Dog Pet Grooming - Portland OR",
+  address: "6715 SW Beaverton Hillsdale Hwy",
+  city: "Portland",
+  state: "OR",
+  zip: "97225",
+  phone: "(503) 477-4347",
+  email: "",
   hours: {
-    Monday: 'Closed',
-    Tuesday: '9:00 AM – 5:00 PM',
-    Wednesday: '9:00 AM – 5:00 PM',
-    Thursday: '9:00 AM – 5:00 PM',
-    Friday: '9:00 AM – 5:00 PM',
-    Saturday: '9:00 AM – 5:00 PM',
-    Sunday: 'Closed',
+    Monday: "Closed",
+    Tuesday: "9:00 AM – 5:00 PM",
+    Wednesday: "9:00 AM – 5:00 PM",
+    Thursday: "9:00 AM – 5:00 PM",
+    Friday: "9:00 AM – 5:00 PM",
+    Saturday: "9:00 AM – 5:00 PM",
+    Sunday: "Closed",
   },
-}
+};
 
 export default function HomePage() {
   return (
@@ -208,17 +265,17 @@ export default function HomePage() {
 
       <main>
         <HeroSection
-            headline="Happy Dogs. Zero Shell Shock. Every Time."
-            subheadline="Monica and Sharon run the grooming shop Portland dog owners whisper about at the dog park. Your pup leaves wagging — not trembling. That's the whole promise."
-            ctaText="Get a Free Quote"
-            ctaHref="#contact"
-            secondaryCtaText="Call (503) 477-4347"
-            secondaryCtaHref="tel:(503) 477-4347"
-            rating={4.6}
-            reviewCount={73}
-            backgroundImage={heroImage}
-            variant="photo-bg"
-          />
+          headline="Happy Dogs. Zero Shell Shock. Every Time."
+          subheadline="Monica and Sharon run the grooming shop Portland dog owners whisper about at the dog park. Your pup leaves wagging — not trembling. That's the whole promise."
+          ctaText="Get a Free Quote"
+          ctaHref="#contact"
+          secondaryCtaText="Call (503) 477-4347"
+          secondaryCtaHref="tel:(503) 477-4347"
+          rating={4.6}
+          reviewCount={73}
+          backgroundImage={heroImage}
+          variant="photo-bg"
+        />
 
         <div id="stats">
           <StatsCounter stats={stats} variant="light" />
@@ -270,15 +327,19 @@ export default function HomePage() {
         <div id="founder" className="bg-[var(--brand-bg-alt)]">
           <FounderQuote
             founder={{
-              name: 'Monica',
-              role: 'Lead Groomer',
-              quote: 'Sharon and her family didn\'t set out to build a brand — they built a safe haven for dogs in Southwest Portland. With her team anchored by groomer Monica, Sharon has cultivated a shop where anxious dogs relax, matted coats get rescued without drama, and owners leave feeling like they handed their pet to a trusted friend rather than a stranger. Customers found Yappy Dog the old-fashioned way: a tip from a fellow dog owner at the park, a friend\'s strong recommendation, a neighbor\'s glowing praise. That organic growth is a direct reflection of how Monica and Sharon operate — attentively, warmly, and with the kind of animal intuition you can\'t fake.\n\nThe shop\'s Tuesday-through-Saturday schedule is intentional: a focused team doing focused work, never overbooked, never rushing a coat or a nail. Whether it\'s a full lion cut on a neurotic Pomeranian, a same-day rescue for a badly matted dog, or just a routine bath and trim, Yappy Dog approaches every appointment like it\'s the only one that day. That philosophy — care over volume — is written all over the reviews and visible the moment a dog wags its way back through the door at pickup.',
+              name: "Monica",
+              role: "Lead Groomer",
+              quote:
+                "Sharon and her family didn't set out to build a brand — they built a safe haven for dogs in Southwest Portland. With her team anchored by groomer Monica, Sharon has cultivated a shop where anxious dogs relax, matted coats get rescued without drama, and owners leave feeling like they handed their pet to a trusted friend rather than a stranger. Customers found Yappy Dog the old-fashioned way: a tip from a fellow dog owner at the park, a friend's strong recommendation, a neighbor's glowing praise. That organic growth is a direct reflection of how Monica and Sharon operate — attentively, warmly, and with the kind of animal intuition you can't fake.\n\nThe shop's Tuesday-through-Saturday schedule is intentional: a focused team doing focused work, never overbooked, never rushing a coat or a nail. Whether it's a full lion cut on a neurotic Pomeranian, a same-day rescue for a badly matted dog, or just a routine bath and trim, Yappy Dog approaches every appointment like it's the only one that day. That philosophy — care over volume — is written all over the reviews and visible the moment a dog wags its way back through the door at pickup.",
             }}
           />
         </div>
 
         <div id="faq">
-          <FAQAccordion heading="Things Dog Owners Actually Ask Us" items={faqItems} />
+          <FAQAccordion
+            heading="Things Dog Owners Actually Ask Us"
+            items={faqItems}
+          />
         </div>
 
         <div id="contact" className="bg-[var(--brand-bg-alt)]">
@@ -298,5 +359,5 @@ export default function HomePage() {
 
       <ClickToCall phone="(503) 477-4347" />
     </>
-  )
+  );
 }

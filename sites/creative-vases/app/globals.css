@@ -5,12 +5,12 @@
 @source "../../../packages/integrations/**/*.{ts,tsx}";
 
 :root {
-  --brand-primary: #c4a355;
-  --brand-accent: #9bc455;
+  --brand-primary: #6d5a1f;
+  --brand-accent: #5a7a2a;
   --brand-bg: #fff8ed;
   --brand-bg-alt: #efe6d8;
   --brand-text: #21201b;
-  --brand-muted: #6b6558;
+  --brand-muted: #565044;
 }
 
 ::selection {
@@ -29,12 +29,17 @@ body {
 
 /* Marquee animation for carousels */
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 /* Smooth section transitions */
-section, [id] > div {
+section,
+[id] > div {
   scroll-margin-top: 80px;
 }
 
@@ -46,7 +51,7 @@ section, [id] > div {
 
 /* Inset border for editorial/gallery feel */
 body::before {
-  content: '';
+  content: "";
   position: fixed;
   inset: 12px;
   z-index: 999;
@@ -57,7 +62,7 @@ body::before {
 
 /* Film grain overlay for warm analog feel */
 body::after {
-  content: '';
+  content: "";
   position: fixed;
   inset: 0;
   z-index: 9999;
@@ -73,7 +78,7 @@ body::after {
   overflow: hidden;
 }
 .card-hover::after {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   background: var(--brand-primary);
@@ -90,7 +95,7 @@ body::after {
   position: relative;
 }
 .section-gradient::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -106,22 +111,26 @@ body::after {
    ───────────────────────────────────────────────────────── */
 
 /* Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Inter:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Inter:wght@300;400;500;600&display=swap");
 
 /* Brand tokens */
 :root {
-  --brand-gold: #c4a355;
-  --brand-green: #9bc455;
+  --brand-gold: #8a7228;
+  --brand-green: #5a7a2a;
   --brand-cream: #fdf9f2;
   --brand-warm: #faf7f2;
   --brand-dark: #1a1a14;
   --brand-text: #1a1a14;
-  --font-display: 'Bricolage Grotesque', sans-serif;
-  --font-body: 'Inter', sans-serif;
+  --font-display: "Bricolage Grotesque", sans-serif;
+  --font-body: "Inter", sans-serif;
 }
 
 /* Typography override */
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: var(--font-display) !important;
   letter-spacing: -0.02em;
 }
@@ -172,7 +181,9 @@ body {
   padding: 0.45rem 1rem;
   border-radius: 999px;
   backdrop-filter: blur(8px);
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0,0,0,0.08);
+  box-shadow:
+    0 4px 24px rgba(0, 0, 0, 0.12),
+    0 1px 4px rgba(0, 0, 0, 0.08);
   white-space: nowrap;
   animation-delay: var(--delay, 0s);
 }
@@ -204,22 +215,27 @@ body {
   gap: 0.6rem;
   font-family: var(--font-display);
   font-size: 0.85rem;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #fff;
+  color: #1a1a14;
   padding: 0 2.2rem;
   flex-shrink: 0;
 }
 
 .cv-marquee-dot {
   font-size: 0.9rem;
-  opacity: 0.9;
+  opacity: 1;
+  color: #1a1a14 !important;
 }
 
 @keyframes cv-scroll {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 /* ── Section color contexts ── */
@@ -315,8 +331,9 @@ body {
 [class*="service-card"],
 [class*="ServiceCard"],
 [class*="card"] {
-  transition: transform 0.28s cubic-bezier(0.34, 1.56, 0.64, 1),
-              box-shadow 0.28s ease !important;
+  transition:
+    transform 0.28s cubic-bezier(0.34, 1.56, 0.64, 1),
+    box-shadow 0.28s ease !important;
 }
 
 [class*="service-card"]:hover,
@@ -337,8 +354,8 @@ body {
 .cv-section-dark [class*="Accordion"],
 .cv-section-dark [class*="faq"],
 .cv-section-dark [class*="FAQ"] {
-  --faq-border: rgba(255,255,255,0.1);
-  border-color: rgba(255,255,255,0.1) !important;
+  --faq-border: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.1) !important;
 }
 
 .cv-section-dark [class*="accordion"] button,
@@ -348,7 +365,11 @@ body {
 
 /* ── Dot pattern background (subtle) ── */
 .dot-pattern {
-  background-image: radial-gradient(circle, rgba(196,163,85,0.12) 1px, transparent 1px);
+  background-image: radial-gradient(
+    circle,
+    rgba(196, 163, 85, 0.12) 1px,
+    transparent 1px
+  );
   background-size: 22px 22px;
 }
 

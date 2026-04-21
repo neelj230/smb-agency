@@ -124,25 +124,21 @@ const stats: Stat[] = [
 // ─── Process ─────────────────────────────────────────────────────
 const process: ProcessStep[] = [
   {
-    step: 1,
     title: 'Drop Off',
     description:
-      'Bring your car or truck to 5100 W Thompson St. We listen to what you've noticed and do a thorough diagnostic from there.',
+      "Bring your car or truck to 5100 W Thompson St. We listen to what you've noticed and do a thorough diagnostic from there.",
   },
   {
-    step: 2,
     title: 'Clear Estimate',
     description:
-      'Before we touch anything, we walk you through exactly what's wrong and what it will cost. No surprises, no pressure.',
+      "Before we touch anything, we walk you through exactly what's wrong and what it will cost. No surprises, no pressure.",
   },
   {
-    step: 3,
     title: 'Expert Repair',
     description:
-      'Fitzroy and the team get to work — whether it's a tricky electrical fault, a brake job, or full engine repair.',
+      "Fitzroy and the team get to work — whether it's a tricky electrical fault, a brake job, or full engine repair.",
   },
   {
-    step: 4,
     title: 'Back on Road',
     description:
       'We do a final check, explain what was done, and send you off confident. Fixed right, every time.',

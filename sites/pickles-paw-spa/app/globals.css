@@ -5,12 +5,20 @@
 @source "../../../packages/integrations/**/*.{ts,tsx}";
 
 :root {
-  --brand-primary: #218544;
-  --brand-accent: #ace38f;
-  --brand-bg: #edffe3;
-  --brand-bg-alt: #d6ecce;
-  --brand-text: #192119;
-  --brand-muted: #6b6e6b;
+  --brand-primary: #7B1FA2;
+  --brand-primary-soft: #B48ACB;
+  --brand-accent: #F4D35E;
+  --brand-bg: #FBF6FF;
+  --brand-bg-alt: #F3E6FA;
+  --brand-text: #2A0B3A;
+  --brand-muted: #6b5a75;
+  --brand-cream: #FDF8EC;
+}
+
+@theme inline {
+  --font-display: var(--font-fraunces);
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-mono);
 }
 
 ::selection {
@@ -27,6 +35,14 @@ body {
   color: var(--brand-text);
 }
 
+/* Fraunces optical + soft tuning */
+.font-display,
+[class*="font-display"] {
+  font-family: var(--font-fraunces), serif;
+  font-variation-settings: "opsz" 144, "SOFT" 100;
+  letter-spacing: -0.02em;
+}
+
 /* Marquee animation for carousels */
 @keyframes marquee {
   from { transform: translateX(0); }
@@ -34,7 +50,8 @@ body {
 }
 
 /* Smooth section transitions */
-section, [id] > div {
+section,
+[id] > div {
   scroll-margin-top: 80px;
 }
 
@@ -44,30 +61,35 @@ section, [id] > div {
   outline-offset: 2px;
 }
 
-/* Mix-blend-mode hover effect for cards */
-.card-hover {
-  position: relative;
-  overflow: hidden;
-}
-.card-hover::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: var(--brand-primary);
-  mix-blend-mode: difference;
-  opacity: 0;
-  transition: opacity 0.4s ease;
-}
-.card-hover:hover::after {
-  opacity: 1;
+/* Soft paw-dot pattern */
+.dot-pattern {
+  background-image: radial-gradient(var(--brand-primary-soft) 1px, transparent 1px);
+  background-size: 28px 28px;
+  background-position: 0 0;
 }
 
-/* Gradient transitions between sections */
+/* Picture-frame inset for hero */
+.picture-frame {
+  box-shadow:
+    inset 0 0 0 12px var(--brand-bg),
+    inset 0 0 0 13px rgba(123, 31, 162, 0.15);
+}
+
+/* Soft pill gradient used for decorative blobs */
+.soft-blob {
+  background: radial-gradient(circle at 30% 30%,
+    rgba(180, 138, 203, 0.45),
+    rgba(244, 211, 94, 0.15) 60%,
+    transparent 75%);
+  filter: blur(60px);
+}
+
+/* Gradient fade between sections */
 .section-gradient {
   position: relative;
 }
 .section-gradient::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;

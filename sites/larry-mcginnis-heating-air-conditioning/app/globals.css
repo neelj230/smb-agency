@@ -5,12 +5,12 @@
 @source "../../../packages/integrations/**/*.{ts,tsx}";
 
 :root {
-  --brand-primary: #1B3A2D;
-  --brand-accent: #004055;
-  --brand-bg: #f5f5f0;
-  --brand-bg-alt: #ddded9;
-  --brand-text: #1a1a1a;
-  --brand-muted: #666666;
+  --brand-primary: #B85C38;
+  --brand-accent: #2B4F72;
+  --brand-bg: #FFF8F4;
+  --brand-bg-alt: #ffffff;
+  --brand-text: #2a2a2a;
+  --brand-muted: #6b7280;
 }
 
 ::selection {
@@ -29,12 +29,17 @@ body {
 
 /* Marquee animation for carousels */
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 /* Smooth section transitions */
-section, [id] > div {
+section,
+[id] > div {
   scroll-margin-top: 80px;
 }
 
@@ -46,7 +51,11 @@ section, [id] > div {
 
 /* Subtle dot pattern background */
 .dot-pattern {
-  background-image: radial-gradient(circle, var(--brand-muted) 0.5px, transparent 0.5px);
+  background-image: radial-gradient(
+    circle,
+    var(--brand-muted) 0.5px,
+    transparent 0.5px
+  );
   background-size: 24px 24px;
 }
 
@@ -55,7 +64,7 @@ section, [id] > div {
   position: relative;
 }
 .section-gradient::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -69,17 +78,17 @@ section, [id] > div {
 /* ── Larry McGinnis H&AC — custom styles ───────────────────────────────────── */
 
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Inter:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Inter:wght@400;500;600;700&display=swap");
 
 /* CSS Variables */
 :root {
-  --brand-primary: #1B3A2D;
-  --brand-accent: #004055;
-  --brand-text: #1B3A2D;
-  --brand-off-white: #F7F5F0;
-  --brand-warm-black: #0E1E16;
-  --font-display: 'Hedvig Letters Serif', Georgia, serif;
-  --font-body: 'Inter', system-ui, sans-serif;
+  --brand-primary: #B85C38;
+  --brand-accent: #2B4F72;
+  --brand-text: #2a2a2a;
+  --brand-off-white: #f7f5f0;
+  --brand-warm-black: #0e1e16;
+  --font-display: "Hedvig Letters Serif", Georgia, serif;
+  --font-body: "Inter", system-ui, sans-serif;
 }
 
 /* Font application */
@@ -87,13 +96,16 @@ body {
   font-family: var(--font-body);
 }
 
-h1, h2, h3, .lm-tagline-text {
+h1,
+h2,
+h3,
+.lm-tagline-text {
   font-family: var(--font-display);
 }
 
 /* ── Film grain overlay ──────────────────────────────────────────────────── */
 body::after {
-  content: '';
+  content: "";
   position: fixed;
   inset: 0;
   pointer-events: none;
@@ -105,9 +117,13 @@ body::after {
 
 /* ── Dot pattern background ─────────────────────────────────────────────── */
 .dot-pattern {
-  background-image: radial-gradient(circle, rgba(27,58,45,0.12) 1px, transparent 1px);
+  background-image: radial-gradient(
+    circle,
+    rgba(27, 58, 45, 0.12) 1px,
+    transparent 1px
+  );
   background-size: 24px 24px;
-  background-color: #F7F5F0;
+  background-color: #f7f5f0;
 }
 
 /* ── Dark section wrapper ───────────────────────────────────────────────── */
@@ -131,17 +147,17 @@ body::after {
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--brand-accent);
-  background: rgba(0,64,85,0.08);
-  border: 1px solid rgba(0,64,85,0.18);
+  background: rgba(0, 64, 85, 0.08);
+  border: 1px solid rgba(0, 64, 85, 0.18);
   padding: 0.35rem 0.9rem;
   border-radius: 999px;
   margin-bottom: 1.25rem;
 }
 
 .lm-label-light {
-  color: rgba(255,255,255,0.85);
-  background: rgba(255,255,255,0.08);
-  border-color: rgba(255,255,255,0.2);
+  color: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
 }
 
 /* ── Section headings ───────────────────────────────────────────────────── */
@@ -162,7 +178,7 @@ body::after {
   background: var(--brand-warm-black);
   overflow: hidden;
   padding: 0.65rem 0;
-  border-bottom: 1px solid rgba(255,255,255,0.06);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 .lm-badge-track {
@@ -175,7 +191,7 @@ body::after {
   display: inline-flex;
   align-items: center;
   gap: 0.45rem;
-  color: rgba(255,255,255,0.82);
+  color: rgba(255, 255, 255, 0.82);
   font-size: 0.78rem;
   font-weight: 600;
   letter-spacing: 0.04em;
@@ -189,8 +205,12 @@ body::after {
 }
 
 @keyframes lm-scroll-badges {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 /* ── Tagline callout ────────────────────────────────────────────────────── */
@@ -203,12 +223,12 @@ body::after {
 .lm-tagline-callout {
   max-width: 640px;
   margin: 0 auto;
-  border: 1px solid rgba(27,58,45,0.12);
+  border: 1px solid rgba(27, 58, 45, 0.12);
   border-radius: 1.5rem;
   padding: 3rem 2.5rem;
   position: relative;
   background: var(--brand-off-white);
-  box-shadow: 0 8px 48px rgba(27,58,45,0.08);
+  box-shadow: 0 8px 48px rgba(27, 58, 45, 0.08);
 }
 
 .lm-tagline-quote {
@@ -237,7 +257,7 @@ body::after {
   font-weight: 500;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: rgba(27,58,45,0.5);
+  color: rgba(27, 58, 45, 0.5);
 }
 
 /* ── About wrapper ──────────────────────────────────────────────────────── */
@@ -283,14 +303,15 @@ body::after {
 [class*="service-card"],
 [class*="ServiceCard"],
 [class*="card"] {
-  transition: transform 0.28s cubic-bezier(0.22,1,0.36,1),
-              box-shadow 0.28s cubic-bezier(0.22,1,0.36,1);
+  transition:
+    transform 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.28s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 [class*="service-card"]:hover,
 [class*="ServiceCard"]:hover {
   transform: translateY(-4px) scale(1.015);
-  box-shadow: 0 16px 48px rgba(27,58,45,0.13);
+  box-shadow: 0 16px 48px rgba(27, 58, 45, 0.13);
 }
 
 /* ── Smooth scroll ──────────────────────────────────────────────────────── */
@@ -300,10 +321,10 @@ html {
 
 /* ── Picture frame on hero ──────────────────────────────────────────────── */
 body::before {
-  content: '';
+  content: "";
   position: fixed;
   inset: 10px;
-  border: 1px solid rgba(0,0,0,0.05);
+  border: 1px solid rgba(0, 0, 0, 0.05);
   pointer-events: none;
   z-index: 9998;
   border-radius: 4px;
@@ -313,8 +334,8 @@ body::before {
 .glass {
   backdrop-filter: blur(12px) saturate(1.4);
   -webkit-backdrop-filter: blur(12px) saturate(1.4);
-  background: rgba(255,255,255,0.08);
-  border: 1px solid rgba(255,255,255,0.16);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.16);
 }
 
 /* ── Responsive adjustments ──────────────────────────────────────────────── */

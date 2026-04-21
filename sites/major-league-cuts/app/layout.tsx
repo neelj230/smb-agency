@@ -1,21 +1,21 @@
 import type { Metadata } from 'next'
-import { Hedvig_Letters_Serif, Inter, JetBrains_Mono } from 'next/font/google'
+import { Libre_Baskerville, Source_Sans_3, JetBrains_Mono } from 'next/font/google'
 import { AnalyticsProvider } from '@/integrations/AnalyticsProvider'
 import { SchemaJsonLd } from '@/components/SchemaJsonLd'
 import './globals.css'
 
-const hedvig_letters_serif = Hedvig_Letters_Serif({
+const libre_baskerville = Libre_Baskerville({
   subsets: ['latin'],
-  variable: '--font-hedvig-letters-serif',
+  variable: '--font-libre-baskerville',
   display: 'swap',
-  weight: ['400'],
+  weight: ['400', '700'],
 })
 
-const inter = Inter({
+const source_sans_3 = Source_Sans_3({
   subsets: ['latin'],
-  variable: '--font-inter',
+  variable: '--font-source-sans-3',
   display: 'swap',
-  weight: ['400', '600', '700'],
+  weight: ['300', '400', '600', '700'],
 })
 
 const mono = JetBrains_Mono({
@@ -62,15 +62,15 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${hedvig_letters_serif.variable} ${inter.variable} ${mono.variable}`}>
+    <html lang="en" className={`${libre_baskerville.variable} ${source_sans_3.variable} ${mono.variable}`}>
       <head>
         <SchemaJsonLd business={businessData} />
       </head>
       <body
-        className="font-[family-name:var(--font-inter)] antialiased"
+        className="font-[family-name:var(--font-source-sans-3)] antialiased"
         style={
           {
-            '--font-display': 'var(--font-hedvig-letters-serif)',
+            '--font-display': 'var(--font-libre-baskerville)',
           } as React.CSSProperties
         }
       >

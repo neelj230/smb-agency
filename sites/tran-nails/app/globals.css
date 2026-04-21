@@ -5,12 +5,12 @@
 @source "../../../packages/integrations/**/*.{ts,tsx}";
 
 :root {
-  --brand-primary: #f4e6da;
-  --brand-accent: #84b9ef;
-  --brand-bg: #1a1615;
-  --brand-bg-alt: #181312;
-  --brand-text: #111111;
-  --brand-muted: #666666;
+  --brand-primary: #E91E63;
+  --brand-accent: #80DEEA;
+  --brand-bg: #1A1520;
+  --brand-bg-alt: #2A2030;
+  --brand-text: #F0E8F0;
+  --brand-muted: #9ca3af;
 }
 
 ::selection {
@@ -29,12 +29,17 @@ body {
 
 /* Marquee animation for carousels */
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 /* Smooth section transitions */
-section, [id] > div {
+section,
+[id] > div {
   scroll-margin-top: 80px;
 }
 
@@ -46,7 +51,7 @@ section, [id] > div {
 
 /* Film grain overlay for warm analog feel */
 body::after {
-  content: '';
+  content: "";
   position: fixed;
   inset: 0;
   z-index: 9999;
@@ -62,7 +67,7 @@ body::after {
   overflow: hidden;
 }
 .card-hover::after {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   background: var(--brand-primary);
@@ -79,7 +84,7 @@ body::after {
   position: relative;
 }
 .section-gradient::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;

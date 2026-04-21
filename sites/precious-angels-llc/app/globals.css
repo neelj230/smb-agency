@@ -1,0 +1,127 @@
+@import "tailwindcss";
+
+/* Scan shared packages for Tailwind classes */
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+@source "./**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #5B8FD4;
+  --brand-accent: #F9A826;
+  --brand-bg: #ffffff;
+  --brand-bg-alt: #fbf7f0;
+  --brand-text: #1e293b;
+  --brand-muted: #4b5563;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: var(--brand-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+/* Marquee animation for carousels */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Smooth section transitions */
+section, [id] > div {
+  scroll-margin-top: 80px;
+}
+
+/* Focus-visible outlines for accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Mix-blend-mode hover effect for cards */
+.card-hover {
+  position: relative;
+  overflow: hidden;
+}
+.card-hover::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--brand-primary);
+  mix-blend-mode: difference;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.card-hover:hover::after {
+  opacity: 1;
+}
+
+/* Gradient transitions between sections */
+.section-gradient {
+  position: relative;
+}
+.section-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--brand-bg));
+  pointer-events: none;
+}
+
+/* Creative director extras */
+/* ── GALLERY COLLAGE ── */
+.gallery-collage {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 180px;
+  gap: 12px;
+}
+
+.gallery-collage > :nth-child(1) {
+  grid-row: span 2;
+}
+.gallery-collage > :nth-child(5) {
+  grid-column: span 2;
+}
+.gallery-collage > :nth-child(8) {
+  grid-row: span 1;
+}
+
+@media (max-width: 1024px) {
+  .gallery-collage {
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 160px;
+  }
+  .gallery-collage > :nth-child(5) {
+    grid-column: span 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery-collage {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 140px;
+  }
+}
+
+/* ── SCROLLBAR ── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--brand-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--brand-accent);
+  border-radius: 3px;
+}

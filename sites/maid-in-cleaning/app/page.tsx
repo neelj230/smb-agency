@@ -103,19 +103,16 @@ const stats: Stat[] = [
 
 const steps: ProcessStep[] = [
   {
-    step: 1,
     title: 'Call or Book',
     description:
       'Reach us at (800) 782-5802 Monday through Saturday, 7 AM–9 PM. Tell us your space, your schedule, and any special circumstances.',
   },
   {
-    step: 2,
     title: 'We Show Up',
     description:
-      'A single cleaner or coordinated team arrives on time, ready to work. You'll meet the people behind the names customers keep praising.',
+      "A single cleaner or coordinated team arrives on time, ready to work. You'll meet the people behind the names customers keep praising.",
   },
   {
-    step: 3,
     title: 'Home Transformed',
     description:
       'We leave when the job is done right — not when the clock says so. Every corner addressed, every surface spotless.',

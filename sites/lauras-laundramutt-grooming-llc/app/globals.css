@@ -5,12 +5,12 @@
 @source "../../../packages/integrations/**/*.{ts,tsx}";
 
 :root {
-  --brand-primary: #00A64C;
-  --brand-accent: #0091a6;
-  --brand-bg: #ffffff;
-  --brand-bg-alt: #e5ede9;
-  --brand-text: #000000;
-  --brand-muted: #000000;
+  --brand-primary: #D84315;
+  --brand-accent: #FFAB91;
+  --brand-bg: #FFF8F5;
+  --brand-bg-alt: #ffffff;
+  --brand-text: #3E1A10;
+  --brand-muted: #6b7280;
 }
 
 ::selection {
@@ -29,12 +29,17 @@ body {
 
 /* Marquee animation for carousels */
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 /* Smooth section transitions */
-section, [id] > div {
+section,
+[id] > div {
   scroll-margin-top: 80px;
 }
 
@@ -50,7 +55,7 @@ section, [id] > div {
   overflow: hidden;
 }
 .card-hover::after {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   background: var(--brand-primary);
@@ -67,7 +72,7 @@ section, [id] > div {
   position: relative;
 }
 .section-gradient::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -79,14 +84,14 @@ section, [id] > div {
 
 /* Creative director extras */
 /* ── Laundramutt Brand Fonts ── */
-@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Inter:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Inter:wght@400;500;600;700&display=swap");
 
 :root {
-  --font-display: 'Hedvig Letters Serif', serif;
-  --font-body: 'Inter', sans-serif;
-  --brand-primary: #00A64C;
-  --brand-accent: #0091a6;
-  --brand-text: #0f1a13;
+  --font-display: "Hedvig Letters Serif", serif;
+  --font-body: "Inter", sans-serif;
+  --brand-primary: #D84315;
+  --brand-accent: #FFAB91;
+  --brand-text: #3E1A10;
 }
 
 body {
@@ -95,13 +100,15 @@ body {
   color: var(--brand-text);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: var(--font-display);
 }
 
 /* ── Film Grain Overlay ── */
 body::after {
-  content: '';
+  content: "";
   position: fixed;
   inset: 0;
   pointer-events: none;
@@ -114,7 +121,7 @@ body::after {
 /* ── Dot Pattern Background ── */
 .dot-pattern {
   background-color: #ffffff;
-  background-image: radial-gradient(circle, #00A64C22 1px, transparent 1px);
+  background-image: radial-gradient(circle, #D8431522 1px, transparent 1px);
   background-size: 28px 28px;
 }
 
@@ -132,36 +139,41 @@ body::after {
 }
 
 @keyframes laundramutt-scroll {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 /* ── Card hover lift ── */
 [class*="ServiceCard"],
 [class*="service-card"] {
-  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1),
-              box-shadow 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+  transition:
+    transform 0.25s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.25s cubic-bezier(0.22, 1, 0.36, 1);
 }
 [class*="ServiceCard"]:hover,
 [class*="service-card"]:hover {
   transform: translateY(-5px) scale(1.012);
-  box-shadow: 0 20px 48px rgba(0, 166, 76, 0.13);
+  box-shadow: 0 20px 48px rgba(216, 67, 21, 0.13);
 }
 
 /* ── Testimonial card style ── */
 [class*="TestimonialCard"],
 [class*="testimonial-card"] {
   border-radius: 16px !important;
-  border: 1px solid rgba(0, 145, 166, 0.12) !important;
+  border: 1px solid rgba(255, 171, 145, 0.12) !important;
 }
 
 /* ── FAQ dark overrides ── */
 #faq [class*="Accordion"],
 #faq [class*="accordion"],
 #faq [class*="faq"] {
-  --faq-border: rgba(255,255,255,0.1);
+  --faq-border: rgba(255, 255, 255, 0.1);
   --faq-text: #ffffff;
-  border-color: rgba(255,255,255,0.1);
+  border-color: rgba(255, 255, 255, 0.1);
   color: #ffffff;
 }
 
@@ -174,7 +186,7 @@ body::after {
 #faq [class*="answer"],
 #faq [class*="Answer"],
 #faq p {
-  color: rgba(255,255,255,0.75) !important;
+  color: rgba(255, 255, 255, 0.75) !important;
 }
 
 /* ── Stats counter dark variant accent ── */
@@ -199,8 +211,8 @@ nav a:hover {
 section#home > div::before {
   background: linear-gradient(
     to right,
-    rgba(15, 26, 19, 0.72) 0%,
-    rgba(15, 26, 19, 0.38) 60%,
+    rgba(62, 26, 16, 0.72) 0%,
+    rgba(62, 26, 16, 0.38) 60%,
     transparent 100%
   );
 }
@@ -210,23 +222,27 @@ a[href^="tel"],
 button[class*="cta"],
 a[class*="cta"] {
   background-color: var(--brand-primary) !important;
-  transition: background-color 0.2s ease, transform 0.15s ease;
+  transition:
+    background-color 0.2s ease,
+    transform 0.15s ease;
 }
 a[href^="tel"]:hover,
 button[class*="cta"]:hover,
 a[class*="cta"]:hover {
-  background-color: #008f41 !important;
+  background-color: #BF360C !important;
   transform: translateY(-1px);
 }
 
 /* ── Gallery masonry spacing ── */
 [class*="ImageGallery"] img {
   border-radius: 12px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 [class*="ImageGallery"] img:hover {
   transform: scale(1.025);
-  box-shadow: 0 16px 40px rgba(0, 166, 76, 0.18);
+  box-shadow: 0 16px 40px rgba(216, 67, 21, 0.18);
 }
 
 /* ── About section text override for dark bg ── */
@@ -244,7 +260,7 @@ a[class*="cta"]:hover {
 
 /* ── ClickToCall floating button ── */
 [class*="ClickToCall"] {
-  box-shadow: 0 8px 30px rgba(0, 166, 76, 0.4) !important;
+  box-shadow: 0 8px 30px rgba(216, 67, 21, 0.4) !important;
 }
 
 /* ── Contact section hours grid ── */
@@ -257,8 +273,8 @@ a[class*="cta"]:hover {
 
 /* ── Footer dark ── */
 footer {
-  background: #0f1a13 !important;
-  color: rgba(255,255,255,0.8) !important;
+  background: #3E1A10 !important;
+  color: rgba(255, 255, 255, 0.8) !important;
 }
 footer a:hover {
   color: var(--brand-primary) !important;
@@ -266,13 +282,12 @@ footer a:hover {
 
 /* ── Selection color ── */
 ::selection {
-  background: #00A64C33;
+  background: #D8431533;
   color: var(--brand-text);
 }
 
-        :root {
-          --brand-primary: ${brand.green};
-          --brand-accent: ${brand.teal};
-          --brand-text: ${brand.dark};
-        }
-      
+:root {
+  --brand-primary: #D84315;
+  --brand-accent: #FFAB91;
+  --brand-text: #3E1A10;
+}

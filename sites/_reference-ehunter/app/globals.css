@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+@source "./**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #1f1f1f;
+  --brand-secondary: #1a1615;
+  --brand-accent: #f4e6da;
+  --brand-accent-blue: #84b9ef;
+  --brand-accent-orange: #c9502e;
+  --brand-accent-green: #0ea158;
+  --brand-bg: #0a0a0a;
+  --brand-bg-alt: #141414;
+  --brand-text: #ffffff;
+  --brand-muted: #888888;
+}
+
+::selection {
+  background-color: var(--brand-accent);
+  color: var(--brand-primary);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+}
+
+section,
+[id] > div {
+  scroll-margin-top: 80px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--brand-accent);
+  outline-offset: 2px;
+}
+
+/* ── SCROLLBAR ── */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--brand-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 2px;
+}
+
+/* ── VIDEO OVERLAY ── */
+.video-overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(10, 10, 10, 0.3) 0%,
+    rgba(10, 10, 10, 0.1) 40%,
+    rgba(10, 10, 10, 0.6) 100%
+  );
+}
+
+/* ── PROJECT CARD HOVER ── */
+.project-card {
+  transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.project-card:hover {
+  transform: translateY(-4px);
+}
+.project-card .project-image {
+  transition: transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.project-card:hover .project-image {
+  transform: scale(1.05);
+}

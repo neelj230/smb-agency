@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+/* Scan shared packages for Tailwind classes */
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+@source "./**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #2d5016;
+  --brand-accent: #8fb573;
+  --brand-bg: #fefdfb;
+  --brand-bg-alt: #f4f1eb;
+  --brand-text: #1a2e0d;
+  --brand-muted: #6b7e5e;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: var(--brand-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+/* Marquee animation for carousels */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Smooth section transitions */
+section, [id] > div {
+  scroll-margin-top: 80px;
+}
+
+/* Focus-visible outlines for accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Film grain overlay for warm analog feel */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+  mix-blend-mode: hard-light;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+/* Gradient transitions between sections */
+.section-gradient {
+  position: relative;
+}
+.section-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--brand-bg));
+  pointer-events: none;
+}
+
+/* Creative director extras */
+/* ── SCROLLBAR ── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--brand-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--brand-primary);
+  border-radius: 3px;
+}

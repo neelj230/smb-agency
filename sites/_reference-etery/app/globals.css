@@ -1,0 +1,150 @@
+@import "tailwindcss";
+
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+@source "./**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #0a0a0a;
+  --brand-accent: #22c55e;
+  --brand-accent-dim: #22c55e33;
+  --brand-bg: #000000;
+  --brand-bg-alt: #0d0d0d;
+  --brand-bg-card: #111111;
+  --brand-bg-card-hover: #1a1a1a;
+  --brand-text: #ffffff;
+  --brand-muted: #888888;
+  --brand-border: #222222;
+}
+
+::selection {
+  background-color: var(--brand-accent);
+  color: #000;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+}
+
+section,
+[id] > div {
+  scroll-margin-top: 80px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--brand-accent);
+  outline-offset: 2px;
+}
+
+/* ── LOGO MARQUEE ── */
+@keyframes logo-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.logo-marquee {
+  animation: logo-scroll 25s linear infinite;
+}
+
+.logo-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* ── BUYERS SCROLL ── */
+@keyframes buyers-scroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+.buyers-scroll {
+  animation: buyers-scroll 12s linear infinite;
+}
+
+/* ── INTEGRATIONS FLOW ── */
+@keyframes integrations-flow {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.integrations-flow {
+  animation: integrations-flow 20s linear infinite;
+}
+
+/* ── TESTIMONIAL ROTATE ── */
+@keyframes testimonial-rotate {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.testimonial-rotate {
+  animation: testimonial-rotate 30s linear infinite;
+}
+
+.testimonial-rotate:hover {
+  animation-play-state: paused;
+}
+
+/* ── TYPEWRITER CURSOR ── */
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.typewriter-cursor::after {
+  content: "|";
+  animation: blink 1s step-end infinite;
+  color: var(--brand-accent);
+}
+
+/* ── SCROLLBAR ── */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--brand-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 2px;
+}
+
+/* ── GLOW EFFECT ── */
+.glow-green {
+  box-shadow:
+    0 0 40px rgba(34, 197, 94, 0.15),
+    0 0 80px rgba(34, 197, 94, 0.05);
+}

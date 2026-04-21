@@ -1,164 +1,181 @@
-'use client'
+"use client";
 
-import { Navbar } from '@/components/Navbar'
-import { HeroSection } from '@/components/HeroSection'
-import { ServiceCards } from '@/components/ServiceCards'
-import { AboutSection } from '@/components/AboutSection'
-import { TestimonialCarousel } from '@/components/TestimonialCarousel'
-import { StatsCounter } from '@/components/StatsCounter'
-import { FAQAccordion } from '@/components/FAQAccordion'
-import { ContactSection } from '@/components/ContactSection'
-import { Footer } from '@/components/Footer'
-import { ClickToCall } from '@/components/ClickToCall'
-import type { NavLink, Service, Review, Stat, FAQItem } from '@/components/types'
-import { motion } from 'framer-motion'
+import { Navbar } from "@/components/Navbar";
+import { HeroSection } from "@/components/HeroSection";
+import { ServiceCards } from "@/components/ServiceCards";
+import { AboutSection } from "@/components/AboutSection";
+import { TestimonialCarousel } from "@/components/TestimonialCarousel";
+import { StatsCounter } from "@/components/StatsCounter";
+import { FAQAccordion } from "@/components/FAQAccordion";
+import { ContactSection } from "@/components/ContactSection";
+import { Footer } from "@/components/Footer";
+import { ClickToCall } from "@/components/ClickToCall";
+import type {
+  NavLink,
+  Service,
+  Review,
+  Stat,
+  FAQItem,
+} from "@/components/types";
+import { motion } from "framer-motion";
 
 // ─── Brand tokens ───────────────────────────────────────────────────────────
-const BRAND_GREEN = '#1B3A2D'
-const BRAND_TEAL  = '#004055'
+const BRAND_GREEN = "#1B3A2D";
+const BRAND_TEAL = "#004055";
 
 // ─── Navigation ─────────────────────────────────────────────────────────────
 const navLinks: NavLink[] = [
-  { label: 'Services',     href: '#services'      },
-  { label: 'Why Larry',    href: '#about'         },
-  { label: 'Reviews',      href: '#reviews'       },
-  { label: 'FAQ',          href: '#faq'           },
-  { label: 'Contact',      href: '#contact'       },
-]
+  { label: "Services", href: "#services" },
+  { label: "Why Larry", href: "#about" },
+  { label: "Reviews", href: "#reviews" },
+  { label: "FAQ", href: "#faq" },
+  { label: "Contact", href: "#contact" },
+];
 
 // ─── Services ────────────────────────────────────────────────────────────────
 const services: Service[] = [
   {
-    name: 'AC Repair & Emergency Service',
-    description: 'Same-day and weekend emergency air conditioning repairs, including capacitor replacement, electrical diagnostics, and cooling restoration — even on holidays.',
-    icon: 'zap',
+    name: "AC Repair & Emergency Service",
+    description:
+      "Same-day and weekend emergency air conditioning repairs, including capacitor replacement, electrical diagnostics, and cooling restoration — even on holidays.",
+    icon: "zap",
   },
   {
-    name: 'Heat Pump Installation & Replacement',
-    description: 'Full heat pump system replacement with energy-efficient equipment and competitive pricing that routinely comes in thousands below larger competitors.',
-    icon: 'thermometer',
+    name: "Heat Pump Installation & Replacement",
+    description:
+      "Full heat pump system replacement with energy-efficient equipment and competitive pricing that routinely comes in thousands below larger competitors.",
+    icon: "thermometer",
   },
   {
-    name: 'Furnace Repair & Diagnostics',
-    description: 'Fast furnace troubleshooting including remote diagnosis, same-day part sourcing, and rapid restoration — David Brown had heat back within three hours of his call.',
-    icon: 'flame',
+    name: "Furnace Repair & Diagnostics",
+    description:
+      "Fast furnace troubleshooting including remote diagnosis, same-day part sourcing, and rapid restoration — David Brown had heat back within three hours of his call.",
+    icon: "flame",
   },
   {
-    name: 'AC Installation',
-    description: 'New air conditioning system installation scheduled promptly, including weekend installs, when other companies are booked out for months.',
-    icon: 'wind',
+    name: "AC Installation",
+    description:
+      "New air conditioning system installation scheduled promptly, including weekend installs, when other companies are booked out for months.",
+    icon: "wind",
   },
   {
-    name: 'HVAC Estimates & Honest Assessments',
-    description: "Straightforward second opinions and replacement estimates — Larry will tell you if your unit can be repaired rather than pushing an unnecessary replacement.",
-    icon: 'clipboard-check',
+    name: "HVAC Estimates & Honest Assessments",
+    description:
+      "Straightforward second opinions and replacement estimates — Larry will tell you if your unit can be repaired rather than pushing an unnecessary replacement.",
+    icon: "clipboard-check",
   },
   {
-    name: 'Preventive Maintenance & Optimization',
-    description: 'Tune-up services to keep aging systems running efficiently, including showing homeowners how to cool down and maintain their units to prevent future failures.',
-    icon: 'settings',
+    name: "Preventive Maintenance & Optimization",
+    description:
+      "Tune-up services to keep aging systems running efficiently, including showing homeowners how to cool down and maintain their units to prevent future failures.",
+    icon: "settings",
   },
-]
+];
 
 // ─── Reviews ─────────────────────────────────────────────────────────────────
 const reviews: Review[] = [
   {
     text: "Larry is outstanding! He installed my AC on a Saturday on Memorial Day weekend. He is professional, easy to talk to, and very happy. I will absolutely call him again if I have any issues with my HVAC.",
-    author: 'Danielle Stelmach',
+    author: "Danielle Stelmach",
     rating: 5,
-    source: 'google',
+    source: "google",
   },
   {
     text: "Larry came out on a Sunday afternoon on the hottest day in recorded history when our AC stopped working. He was professional, knowledgeable and friendly. He fixed the problem quickly (it was a bad capacitor) and showed us how to cool down the unit to prevent it from happening again.",
-    author: 'Cathie Myers',
+    author: "Cathie Myers",
     rating: 5,
-    source: 'google',
+    source: "google",
   },
   {
     text: "Our AC unit has not been cooling our house and we are planning to replace. I have been scheduling estimates from many different companies and everyone is months out for installation. When I called Larry he immediately knew what the problem was with ours and said he could come out promptly.",
-    author: 'Brenda Webb',
+    author: "Brenda Webb",
     rating: 5,
-    source: 'google',
+    source: "google",
   },
   {
     text: "Our 12 year old heat pump failed and I was complaining to a friend about it. My friend recommended I give Larry a call. Larry's bid was way more reasonable and he was very responsive when I called with questions and scheduled me just a few days later.",
-    author: 'Dustin Burgess',
+    author: "Dustin Burgess",
     rating: 5,
-    source: 'google',
+    source: "google",
   },
   {
     text: "Larry McGinnis HVAC and his tech Jason are SUPERB. I have gotten extremely timely and ETHICAL service with Larry McGinnis Heating & Air Conditioning. I started using them a few years ago on the recommendation of another property manager and I am glad I did!",
-    author: 'David Brown',
+    author: "David Brown",
     rating: 5,
-    source: 'google',
+    source: "google",
   },
-]
+];
 
 // ─── Stats ───────────────────────────────────────────────────────────────────
 const stats: Stat[] = [
-  { value: 4.9,  suffix: '★',    label: 'Average Customer Rating'              },
-  { value: 34,   suffix: '+',    label: 'Verified Customer Reviews'            },
-  { value: 100,  suffix: '%',    label: '5-Star Reviews from Named Customers'  },
-  { value: 3,    suffix: ' hrs', label: 'Fastest Furnace Restoration on Record'},
-]
+  { value: 4.9, suffix: "★", label: "Average Customer Rating" },
+  { value: 34, suffix: "+", label: "Verified Customer Reviews" },
+  { value: 100, suffix: "%", label: "5-Star Reviews from Named Customers" },
+  { value: 3, suffix: " hrs", label: "Fastest Furnace Restoration on Record" },
+];
 
 // ─── FAQ ─────────────────────────────────────────────────────────────────────
 const faqItems: FAQItem[] = [
   {
-    question: 'Do you offer emergency or weekend HVAC service?',
-    answer:   "Yes — and this is one of the things customers praise most about Larry. He has responded on Sundays during record-breaking heat waves, on Memorial Day weekend, and during mid-winter furnace failures. If your system is down, call — Larry picks up.",
+    question: "Do you offer emergency or weekend HVAC service?",
+    answer:
+      "Yes — and this is one of the things customers praise most about Larry. He has responded on Sundays during record-breaking heat waves, on Memorial Day weekend, and during mid-winter furnace failures. If your system is down, call — Larry picks up.",
   },
   {
-    question: 'How does your pricing compare to other HVAC companies?',
-    answer:   "Multiple customers report that Larry's pricing is dramatically lower than competitors — one customer received quotes thousands higher from larger companies before calling Larry. The tagline says it all: Real Help. Real Fast. No Arm, No Leg.",
+    question: "How does your pricing compare to other HVAC companies?",
+    answer:
+      "Multiple customers report that Larry's pricing is dramatically lower than competitors — one customer received quotes thousands higher from larger companies before calling Larry. The tagline says it all: Real Help. Real Fast. No Arm, No Leg.",
   },
   {
-    question: 'How quickly can you schedule an appointment?',
-    answer:   "While many larger HVAC companies in the area are booked months out, Larry typically schedules within a few days — and often same-day or next-day for urgent situations. Emergency calls get same-day priority.",
+    question: "How quickly can you schedule an appointment?",
+    answer:
+      "While many larger HVAC companies in the area are booked months out, Larry typically schedules within a few days — and often same-day or next-day for urgent situations. Emergency calls get same-day priority.",
   },
   {
-    question: 'Will you tell me honestly if my unit needs to be replaced or if it can be repaired?',
-    answer:   "Absolutely — Larry is known for his honesty. He has fixed units that competitors said needed full replacement, sometimes diagnosing the issue over the phone before he even arrives. You'll get a straight answer, not a sales pitch.",
+    question:
+      "Will you tell me honestly if my unit needs to be replaced or if it can be repaired?",
+    answer:
+      "Absolutely — Larry is known for his honesty. He has fixed units that competitors said needed full replacement, sometimes diagnosing the issue over the phone before he even arrives. You'll get a straight answer, not a sales pitch.",
   },
-]
+];
 
 // ─── Contact object ──────────────────────────────────────────────────────────
 const businessContact = {
-  name:    'Larry McGinnis Heating & Air Conditioning',
-  address: '1156 Anderson Pl SE',
-  city:    'Albany',
-  state:   'OR',
-  zip:     '97322',
-  phone:   '(541) 928-0460',
-  email:   '',
-}
+  name: "Larry McGinnis Heating & Air Conditioning",
+  address: "1156 Anderson Pl SE",
+  city: "Albany",
+  state: "OR",
+  zip: "97322",
+  phone: "(541) 928-0460",
+  email: "",
+};
 
 // ─── Footer nav links ────────────────────────────────────────────────────────
 const footerLinks: NavLink[] = [
-  { label: 'Services', href: '#services' },
-  { label: 'About',    href: '#about'    },
-  { label: 'Reviews',  href: '#reviews'  },
-  { label: 'FAQ',      href: '#faq'      },
-  { label: 'Contact',  href: '#contact'  },
-]
+  { label: "Services", href: "#services" },
+  { label: "About", href: "#about" },
+  { label: "Reviews", href: "#reviews" },
+  { label: "FAQ", href: "#faq" },
+  { label: "Contact", href: "#contact" },
+];
 
 // ─── Animation helpers ────────────────────────────────────────────────────────
 const fadeUp = {
-  initial:   { opacity: 0, y: 40 },
+  initial: { opacity: 0, y: 40 },
   whileInView: { opacity: 1, y: 0 },
-  viewport:  { once: true },
+  viewport: { once: true },
   transition: { duration: 0.65, ease: [0.22, 1, 0.36, 1] },
-}
+};
 
 // ─── Badge strip component (inline — no style tags) ──────────────────────────
 function TrustBadgeStrip() {
   const badges = [
-    { icon: '🔧', label: 'Same-Day Service'        },
-    { icon: '📅', label: 'Weekends & Holidays'     },
-    { icon: '💰', label: 'Honest, Fair Pricing'    },
-    { icon: '⭐', label: '4.9-Star Rated'          },
-    { icon: '☎️', label: 'Always Picks Up'         },
-  ]
+    { icon: "🔧", label: "Same-Day Service" },
+    { icon: "📅", label: "Weekends & Holidays" },
+    { icon: "💰", label: "Honest, Fair Pricing" },
+    { icon: "⭐", label: "4.9-Star Rated" },
+    { icon: "☎️", label: "Always Picks Up" },
+  ];
 
   return (
     <div className="lm-badge-strip" aria-label="Trust indicators">
@@ -171,17 +188,23 @@ function TrustBadgeStrip() {
         ))}
       </div>
     </div>
-  )
+  );
 }
 
 // ─── Divider wave ─────────────────────────────────────────────────────────────
-function WaveDivider({ flip = false, fill = '#1B3A2D' }: { flip?: boolean; fill?: string }) {
+function WaveDivider({
+  flip = false,
+  fill = "#1B3A2D",
+}: {
+  flip?: boolean;
+  fill?: string;
+}) {
   return (
     <div
       style={{
         lineHeight: 0,
-        transform: flip ? 'scaleY(-1)' : undefined,
-        display: 'block',
+        transform: flip ? "scaleY(-1)" : undefined,
+        display: "block",
         marginBottom: -1,
       }}
     >
@@ -189,7 +212,7 @@ function WaveDivider({ flip = false, fill = '#1B3A2D' }: { flip?: boolean; fill?
         viewBox="0 0 1440 60"
         xmlns="http://www.w3.org/2000/svg"
         preserveAspectRatio="none"
-        style={{ display: 'block', width: '100%', height: 60 }}
+        style={{ display: "block", width: "100%", height: 60 }}
       >
         <path
           d="M0,30 C240,60 480,0 720,30 C960,60 1200,0 1440,30 L1440,60 L0,60 Z"
@@ -197,21 +220,22 @@ function WaveDivider({ flip = false, fill = '#1B3A2D' }: { flip?: boolean; fill?
         />
       </svg>
     </div>
-  )
+  );
 }
 
 // ─── Highlight callout ────────────────────────────────────────────────────────
 function TaglineCallout() {
   return (
-    <motion.div
-      {...fadeUp}
-      className="lm-tagline-callout"
-    >
+    <motion.div {...fadeUp} className="lm-tagline-callout">
       <span className="lm-tagline-quote">"</span>
-      <p className="lm-tagline-text">Real Help. Real Fast.<br />No Arm, No Leg.</p>
+      <p className="lm-tagline-text">
+        Real Help. Real Fast.
+        <br />
+        No Arm, No Leg.
+      </p>
       <span className="lm-tagline-attr">— Larry McGinnis, Albany OR</span>
     </motion.div>
-  )
+  );
 }
 
 // ─── Page ─────────────────────────────────────────────────────────────────────
@@ -221,8 +245,8 @@ export default function Page() {
       {/* CSS variables */}
       <div
         style={{
-          ['--brand-primary' as string]: BRAND_GREEN,
-          ['--brand-accent'  as string]: BRAND_TEAL,
+          ["--brand-primary" as string]: BRAND_GREEN,
+          ["--brand-accent" as string]: BRAND_TEAL,
         }}
       />
 
@@ -251,10 +275,17 @@ export default function Page() {
       <TrustBadgeStrip />
 
       {/* ── STATS — dark green ── */}
-      <div id="about" className="lm-dark-section" style={{ background: BRAND_GREEN }}>
+      <div
+        id="about"
+        className="lm-dark-section"
+        style={{ background: BRAND_GREEN }}
+      >
         <WaveDivider flip fill={BRAND_GREEN} />
         <div className="lm-stats-inner">
-          <motion.h2 {...fadeUp} className="lm-section-heading lm-heading-light">
+          <motion.h2
+            {...fadeUp}
+            className="lm-section-heading lm-heading-light"
+          >
             By the Numbers
           </motion.h2>
           <StatsCounter stats={stats} variant="dark" />
@@ -278,10 +309,7 @@ export default function Page() {
       </section>
 
       {/* ── SERVICES ── */}
-      <div
-        id="services"
-        className="lm-services-wrapper dot-pattern"
-      >
+      <div id="services" className="lm-services-wrapper dot-pattern">
         <motion.div {...fadeUp}>
           <div className="lm-section-label">What We Do</div>
         </motion.div>
@@ -299,7 +327,9 @@ export default function Page() {
         <WaveDivider flip fill={BRAND_TEAL} />
         <div className="lm-reviews-inner">
           <motion.div {...fadeUp}>
-            <div className="lm-section-label lm-label-light">What Customers Say</div>
+            <div className="lm-section-label lm-label-light">
+              What Customers Say
+            </div>
           </motion.div>
           <TestimonialCarousel
             heading="Real Words, Real People"
@@ -314,19 +344,16 @@ export default function Page() {
       <section
         id="faq"
         className="lm-faq-section"
-        style={{ background: '#F7F5F0' }}
+        style={{ background: "#F7F5F0" }}
       >
         <motion.div {...fadeUp} className="lm-faq-inner">
           <div className="lm-section-label">Common Questions</div>
-          <FAQAccordion
-            heading="Quick Answers"
-            items={faqItems}
-          />
+          <FAQAccordion heading="Quick Answers" items={faqItems} />
         </motion.div>
       </section>
 
       {/* ── CONTACT ── */}
-      <div id="contact" style={{ background: '#fff' }}>
+      <div id="contact" style={{ background: "#fff" }}>
         <ContactSection
           business={businessContact}
           heading="Get In Touch"
@@ -335,14 +362,10 @@ export default function Page() {
       </div>
 
       {/* ── FOOTER ── */}
-      <Footer
-        business={businessContact}
-        links={footerLinks}
-        socialLinks={{}}
-      />
+      <Footer business={businessContact} links={footerLinks} socialLinks={{}} />
 
       {/* ── STICKY CLICK-TO-CALL ── */}
       <ClickToCall phone="(541) 928-0460" />
     </>
-  )
+  );
 }

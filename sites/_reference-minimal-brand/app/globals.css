@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+@source "./**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #8b9a7e;
+  --brand-bg: #fafaf8;
+  --brand-bg-alt: #f0f0ec;
+  --brand-text: #1a1a1a;
+  --brand-muted: #6b6b6b;
+  --brand-sage: #c5cfc0;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+}
+
+section,
+[id] > div {
+  scroll-margin-top: 80px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* ── MARQUEE TICKER ── */
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-ticker {
+  animation: marquee-scroll 25s linear infinite;
+}
+
+/* ── SCROLLBAR ── */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--brand-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--brand-muted);
+  border-radius: 2px;
+}

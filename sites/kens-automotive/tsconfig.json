@@ -39,8 +39,12 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "../../packages/**/*.ts",
-    "../../packages/**/*.tsx"
+    "../../packages/components/**/*.ts",
+    "../../packages/components/**/*.tsx",
+    "../../packages/integrations/**/*.ts",
+    "../../packages/integrations/**/*.tsx",
+    "../../packages/pretext-components/**/*.ts",
+    "../../packages/pretext-components/**/*.tsx"
   ],
   "exclude": [
     "node_modules"

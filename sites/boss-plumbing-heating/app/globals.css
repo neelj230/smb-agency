@@ -3,14 +3,15 @@
 /* Scan shared packages for Tailwind classes */
 @source "../../../packages/components/**/*.{ts,tsx}";
 @source "../../../packages/integrations/**/*.{ts,tsx}";
+@source "./**/*.{ts,tsx}";
 
 :root {
-  --brand-primary: #1e64e6;
-  --brand-accent: #f6e304;
-  --brand-bg: #f0f4fa;
-  --brand-bg-alt: #d8e0ec;
-  --brand-text: #081d3a;
-  --brand-muted: #4e5c71;
+  --brand-primary: #c4431c;
+  --brand-accent: #1a2b4a;
+  --brand-bg: #fafafa;
+  --brand-bg-alt: #f0f0f0;
+  --brand-text: #0f1923;
+  --brand-muted: #5a6474;
 }
 
 ::selection {
@@ -71,214 +72,66 @@ body::before {
 }
 
 /* Creative director extras */
-/* ── FONTS ─────────────────────────────────────────────── */
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap');
-
-:root {
-  --brand-primary: #1e64e6;
-  --brand-accent: #f6e304;
-  --brand-text: #0f1923;
-  --brand-surface: #f4f5f7;
-  --brand-white: #ffffff;
-  --font-display: 'Libre Baskerville', Georgia, serif;
-  --font-body: 'Source Sans 3', system-ui, sans-serif;
-}
-
-body {
-  font-family: var(--font-body);
-  background-color: var(--brand-white);
-  color: var(--brand-text);
-}
-
-h1, h2, h3, h4 {
-  font-family: var(--font-display);
-}
-
-/* ── FILM GRAIN OVERLAY ─────────────────────────────────── */
-body::after {
-  content: '';
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: 9999;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
-  mix-blend-mode: hard-light;
-  opacity: 0.028;
-}
-
-/* ── ACCENT TICKER ──────────────────────────────────────── */
-.boss-ticker-wrap {
-  background-color: var(--brand-accent);
-  overflow: hidden;
-  padding: 12px 0;
-  border-top: 1px solid rgba(0,0,0,0.06);
-  border-bottom: 1px solid rgba(0,0,0,0.06);
-}
-
-.boss-ticker-inner {
-  display: flex;
-  width: max-content;
-  animation: boss-ticker-scroll 28s linear infinite;
-}
-
-.boss-ticker-item {
-  font-family: var(--font-body);
-  font-weight: 700;
-  font-size: 0.8rem;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: #0f1923;
-  white-space: nowrap;
-  padding: 0 12px;
+/* ── BOLD BADGE ── */
+.stat-badge {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
+  gap: 6px;
+  background: var(--brand-accent);
+  color: white;
+  padding: 6px 14px;
+  border-radius: 100px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
-.boss-ticker-dot {
-  color: var(--brand-primary);
-  font-size: 0.65rem;
-  opacity: 0.7;
+/* ── SERVICE CARD HOVER ── */
+.service-card {
+  background: white;
+  border-radius: 16px;
+  padding: 32px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
-
-@keyframes boss-ticker-scroll {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+.service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
 }
-
-/* ── TRUST BAR ───────────────────────────────────────────── */
-.boss-trust-bar {
-  background-color: var(--brand-white);
-  padding: 28px 24px;
-  border-bottom: 1px solid rgba(0,0,0,0.07);
-}
-
-.boss-trust-inner {
-  max-width: 1100px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px 20px;
-  justify-content: center;
-}
-
-.boss-trust-badge {
+.service-card-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: var(--brand-primary);
   display: flex;
   align-items: center;
-  gap: 8px;
-  background: var(--brand-surface);
-  border: 1px solid rgba(30, 100, 230, 0.12);
-  border-radius: 100px;
-  padding: 8px 16px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  justify-content: center;
+  color: white;
+  font-size: 1.25rem;
+  margin-bottom: 16px;
 }
 
-.boss-trust-badge:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(30, 100, 230, 0.12);
+/* ── DOT PATTERN ── */
+.dot-bg {
+  background-image: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0.05) 1px,
+    transparent 1px
+  );
+  background-size: 24px 24px;
 }
 
-.boss-trust-icon {
-  font-size: 1rem;
-  line-height: 1;
-}
-
-.boss-trust-label {
-  font-family: var(--font-body);
-  font-size: 0.8rem;
-  font-weight: 600;
-  letter-spacing: 0.03em;
-  color: var(--brand-text);
-}
-
-/* ── PHOTO MARQUEE ───────────────────────────────────────── */
-.boss-marquee-wrap {
-  overflow: hidden;
-  padding: 32px 0;
-  background-color: #0f1923;
-  border-top: 1px solid rgba(255,255,255,0.05);
-  border-bottom: 1px solid rgba(255,255,255,0.05);
-}
-
-.boss-marquee-track {
-  display: flex;
-  gap: 16px;
-  width: max-content;
-  animation: boss-marquee-scroll 35s linear infinite;
-}
-
-.boss-marquee-item {
-  flex-shrink: 0;
-  width: 280px;
-  height: 190px;
-  border-radius: 12px;
-  overflow: hidden;
-  border: 1px solid rgba(255,255,255,0.08);
-}
-
-.boss-marquee-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  transition: transform 0.4s ease;
-  filter: brightness(0.88) saturate(0.9);
-}
-
-.boss-marquee-item:hover img {
-  transform: scale(1.05);
-  filter: brightness(1) saturate(1);
-}
-
-@keyframes boss-marquee-scroll {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
-}
-
-/* ── SECTION OVERRIDES ───────────────────────────────────── */
-.boss-section-services {
-  padding: 80px 0;
-  background-color: var(--brand-surface);
-}
-
-.boss-section-about {
-  padding: 80px 0;
-  background-color: var(--brand-white);
-}
-
-.boss-section-faq {
-  padding: 80px 0;
-  background-color: var(--brand-surface);
-}
-
-/* ── DARK SECTION TEXT OVERRIDES ─────────────────────────── */
-.bg-\[#0f1923\] h2,
-.bg-\[#0f1923\] h3,
-.bg-\[#0f1923\] p,
-.bg-\[#0f1923\] span,
-.bg-\[#0f1923\] label {
-  color: var(--brand-white);
-}
-
-/* ── CTA / BUTTON GLOBAL STYLE ───────────────────────────── */
-a[href^="tel"] {
-  text-decoration: none;
-}
-
-/* ── SCROLLBAR STYLING ───────────────────────────────────── */
+/* ── SCROLLBAR ── */
 ::-webkit-scrollbar {
   width: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: var(--brand-surface);
+  background: var(--brand-bg);
 }
 ::-webkit-scrollbar-thumb {
   background: var(--brand-primary);
   border-radius: 3px;
-}
-
-/* ── SELECTION HIGHLIGHT ─────────────────────────────────── */
-::selection {
-  background: var(--brand-accent);
-  color: var(--brand-text);
 }

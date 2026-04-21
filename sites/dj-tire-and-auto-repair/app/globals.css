@@ -5,12 +5,12 @@
 @source "../../../packages/integrations/**/*.{ts,tsx}";
 
 :root {
-  --brand-primary: #156cc2;
-  --brand-accent: #0ea158;
-  --brand-bg: #f4f1ee;
-  --brand-bg-alt: #dcddde;
+  --brand-primary: #B71C1C;
+  --brand-accent: #37474F;
+  --brand-bg: #FAFAFA;
+  --brand-bg-alt: #F0F0F0;
   --brand-text: #1a1a1a;
-  --brand-muted: #1a1a1a;
+  --brand-muted: #5a5a5a;
 }
 
 ::selection {
@@ -29,12 +29,17 @@ body {
 
 /* Marquee animation for carousels */
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 /* Smooth section transitions */
-section, [id] > div {
+section,
+[id] > div {
   scroll-margin-top: 80px;
 }
 
@@ -46,7 +51,11 @@ section, [id] > div {
 
 /* Subtle dot pattern background */
 .dot-pattern {
-  background-image: radial-gradient(circle, var(--brand-muted) 0.5px, transparent 0.5px);
+  background-image: radial-gradient(
+    circle,
+    var(--brand-muted) 0.5px,
+    transparent 0.5px
+  );
   background-size: 24px 24px;
 }
 
@@ -55,7 +64,7 @@ section, [id] > div {
   position: relative;
 }
 .section-gradient::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -81,17 +90,20 @@ section, [id] > div {
 }
 
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap");
 
 /* Global font defaults */
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: var(--dj-text);
   background: #ffffff;
 }
 
-h1, h2, h3, h4 {
-  font-family: 'Playfair Display', serif;
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Playfair Display", serif;
 }
 
 /* ─── Dark Section Wrapper ─── */
@@ -102,7 +114,7 @@ h1, h2, h3, h4 {
 
 /* ─── Film grain overlay for hero texture ─── */
 body::after {
-  content: '';
+  content: "";
   position: fixed;
   inset: 0;
   pointer-events: none;
@@ -116,7 +128,11 @@ body::after {
 
 /* ─── Dot Pattern Utility ─── */
 .dot-pattern {
-  background-image: radial-gradient(circle, rgba(21, 108, 194, 0.18) 1px, transparent 1px);
+  background-image: radial-gradient(
+    circle,
+    rgba(21, 108, 194, 0.18) 1px,
+    transparent 1px
+  );
   background-size: 22px 22px;
 }
 
@@ -151,7 +167,7 @@ body::after {
 }
 
 .dj-trust-label {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 0.78rem;
   font-weight: 600;
   letter-spacing: 0.06em;
@@ -183,17 +199,17 @@ body::after {
 }
 
 .dj-tagline-eyebrow {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 0.72rem;
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.65);
+  color: rgba(255, 255, 255, 0.65);
   margin-bottom: 20px;
 }
 
 .dj-tagline-text {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: clamp(2.4rem, 6vw, 4rem);
   font-weight: 700;
   line-height: 1.18;
@@ -207,10 +223,10 @@ body::after {
 }
 
 .dj-tagline-sub {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 0.85rem;
   font-weight: 400;
-  color: rgba(255,255,255,0.6);
+  color: rgba(255, 255, 255, 0.6);
   letter-spacing: 0.04em;
 }
 
@@ -250,7 +266,9 @@ body::after {
 
 /* ─── Card hover scale ─── */
 .dj-card-hover {
-  transition: transform 0.22s ease, box-shadow 0.22s ease;
+  transition:
+    transform 0.22s ease,
+    box-shadow 0.22s ease;
 }
 
 .dj-card-hover:hover {

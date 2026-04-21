@@ -5,12 +5,12 @@
 @source "../../../packages/integrations/**/*.{ts,tsx}";
 
 :root {
-  --brand-primary: #156cc2;
-  --brand-accent: #0ea158;
-  --brand-bg: #f4f1ee;
-  --brand-bg-alt: #dcddde;
-  --brand-text: #1a1a1a;
-  --brand-muted: #1a1a1a;
+  --brand-primary: #1565C0;
+  --brand-accent: #FF8F00;
+  --brand-bg: #F8FBFF;
+  --brand-bg-alt: #ffffff;
+  --brand-text: #1a2744;
+  --brand-muted: #6b7280;
 }
 
 ::selection {
@@ -29,12 +29,17 @@ body {
 
 /* Marquee animation for carousels */
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 /* Smooth section transitions */
-section, [id] > div {
+section,
+[id] > div {
   scroll-margin-top: 80px;
 }
 
@@ -46,7 +51,7 @@ section, [id] > div {
 
 /* Inset border for editorial/gallery feel */
 body::before {
-  content: '';
+  content: "";
   position: fixed;
   inset: 12px;
   z-index: 999;
@@ -60,7 +65,7 @@ body::before {
   position: relative;
 }
 .section-gradient::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -72,21 +77,21 @@ body::before {
 
 /* Creative director extras */
 /* ─── Google Fonts ─────────────────────────────────────────────────── */
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;600;700&display=swap");
 
 /* ─── Brand tokens ─────────────────────────────────────────────────── */
 :root {
-  --brand-primary: #156cc2;
-  --brand-accent:  #0ea158;
-  --brand-dark:    #0f1923;
-  --brand-text:    #1a1f2e;
-  --brand-muted:   #64748b;
-  --brand-bg:      #f7f8fa;
+  --brand-primary: #1565C0;
+  --brand-accent: #FF8F00;
+  --brand-dark: #0f1923;
+  --brand-text: #1a2744;
+  --brand-muted: #6b7280;
+  --brand-bg: #F8FBFF;
 }
 
 /* ─── Base typography ──────────────────────────────────────────────── */
 .marcos-page {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   color: var(--brand-text);
   background: #fff;
 }
@@ -95,13 +100,13 @@ body::before {
 .marcos-page h2,
 .marcos-page h3,
 .marcos-page h4 {
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
   font-weight: 700;
 }
 
 /* ─── Film grain overlay ────────────────────────────────────────────── */
 .marcos-page::after {
-  content: '';
+  content: "";
   position: fixed;
   inset: 0;
   pointer-events: none;
@@ -113,14 +118,17 @@ body::before {
 
 /* ─── Dot pattern ───────────────────────────────────────────────────── */
 .dot-pattern {
-  background-image: radial-gradient(rgba(255,255,255,0.08) 1px, transparent 1px);
+  background-image: radial-gradient(
+    rgba(255, 255, 255, 0.08) 1px,
+    transparent 1px
+  );
   background-size: 22px 22px;
 }
 
 /* ─── Scrolling trust bar ───────────────────────────────────────────── */
 .trust-bar-wrapper {
-  border-top: 1px solid rgba(255,255,255,0.1);
-  border-bottom: 1px solid rgba(255,255,255,0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .trust-bar-track {
@@ -135,7 +143,7 @@ body::before {
   align-items: center;
   gap: 0.6rem;
   padding: 0 2.5rem;
-  color: rgba(255,255,255,0.92);
+  color: rgba(255, 255, 255, 0.92);
   font-size: 0.82rem;
   font-weight: 600;
   letter-spacing: 0.06em;
@@ -149,8 +157,12 @@ body::before {
 }
 
 @keyframes trustScroll {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 /* ─── Emergency banner pipe decorations ────────────────────────────── */
@@ -164,17 +176,17 @@ body::before {
   transform: translateY(-50%);
   width: 180px;
   height: 6px;
-  background: rgba(255,255,255,0.07);
+  background: rgba(255, 255, 255, 0.07);
   border-radius: 3px;
 }
 
 .pipe-deco::before,
 .pipe-deco::after {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(255,255,255,0.07);
+  background: rgba(255, 255, 255, 0.07);
   border-radius: 3px;
 }
 
@@ -190,17 +202,24 @@ body::before {
   top: 10px;
 }
 
-.pipe-deco--left  { left: 2vw; }
-.pipe-deco--right { right: 2vw; transform: translateY(-50%) scaleX(-1); }
+.pipe-deco--left {
+  left: 2vw;
+}
+.pipe-deco--right {
+  right: 2vw;
+  transform: translateY(-50%) scaleX(-1);
+}
 
 @media (max-width: 900px) {
-  .pipe-deco { display: none; }
+  .pipe-deco {
+    display: none;
+  }
 }
 
 /* ─── Emergency CTA button hover ───────────────────────────────────── */
 .emergency-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 36px rgba(0,0,0,0.28) !important;
+  box-shadow: 0 8px 36px rgba(0, 0, 0, 0.28) !important;
 }
 
 /* ─── Gallery dark section heading color fix ────────────────────────── */
@@ -211,12 +230,14 @@ body::before {
 
 /* ─── Stagger fade-up for service cards ─────────────────────────────── */
 .marcos-page [data-service-card] {
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
 }
 
 .marcos-page [data-service-card]:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 32px rgba(21,108,194,0.12);
+  box-shadow: 0 12px 32px rgba(21, 108, 194, 0.12);
 }
 
 /* ─── Gallery eyebrow label ─────────────────────────────────────────── */
@@ -226,16 +247,16 @@ body::before {
 
 /* ─── Stats dark section refinements ────────────────────────────────── */
 .marcos-page div[style*="0f1923"] {
-  border-top: 1px solid rgba(255,255,255,0.04);
-  border-bottom: 1px solid rgba(255,255,255,0.04);
+  border-top: 1px solid rgba(255, 255, 255, 0.04);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
 }
 
 /* ─── Picture frame on hero ─────────────────────────────────────────── */
 .marcos-page section#home::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 12px;
-  border: 1px solid rgba(255,255,255,0.08);
+  border: 1px solid rgba(255, 255, 255, 0.08);
   pointer-events: none;
   z-index: 5;
 }

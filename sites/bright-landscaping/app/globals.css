@@ -29,12 +29,17 @@ body {
 
 /* Marquee animation for carousels */
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 /* Smooth section transitions */
-section, [id] > div {
+section,
+[id] > div {
   scroll-margin-top: 80px;
 }
 
@@ -46,7 +51,11 @@ section, [id] > div {
 
 /* Subtle dot pattern background */
 .dot-pattern {
-  background-image: radial-gradient(circle, var(--brand-muted) 0.5px, transparent 0.5px);
+  background-image: radial-gradient(
+    circle,
+    var(--brand-muted) 0.5px,
+    transparent 0.5px
+  );
   background-size: 24px 24px;
 }
 
@@ -55,7 +64,7 @@ section, [id] > div {
   position: relative;
 }
 .section-gradient::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -71,15 +80,15 @@ section, [id] > div {
 ───────────────────────────────────────────── */
 
 /* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600&display=swap");
 
 :root {
   --brand-primary: #218544;
   --brand-accent: #ace38f;
   --brand-text: #0f1f12;
   --brand-light: #f4faf0;
-  --font-display: 'Be Vietnam Pro', sans-serif;
-  --font-body: 'Inter', sans-serif;
+  --font-display: "Be Vietnam Pro", sans-serif;
+  --font-body: "Inter", sans-serif;
 }
 
 /* ── Root ── */
@@ -101,7 +110,7 @@ section, [id] > div {
 
 /* ── Film Grain Overlay ── */
 .bright-root::after {
-  content: '';
+  content: "";
   position: fixed;
   inset: 0;
   pointer-events: none;
@@ -150,8 +159,12 @@ section, [id] > div {
 }
 
 @keyframes bright-scroll {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 /* ── Stats Wrapper ── */
@@ -184,7 +197,7 @@ section, [id] > div {
 }
 
 .bright-highlight-eyebrow::before {
-  content: '';
+  content: "";
   display: inline-block;
   width: 28px;
   height: 2px;
@@ -280,8 +293,9 @@ section, [id] > div {
 .bright-root [class*="service-card"],
 .bright-root [class*="ServiceCard"],
 .bright-root [class*="card"] {
-  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1),
-              box-shadow 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+  transition:
+    transform 0.25s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.25s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .bright-root [class*="service-card"]:hover,
@@ -297,7 +311,7 @@ section, [id] > div {
 }
 
 .bright-gallery-wrap::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   background-image: radial-gradient(circle, #218544 1px, transparent 1px);
@@ -331,10 +345,9 @@ section, [id] > div {
   background: var(--brand-light);
 }
 
-        :root {
-          --brand-primary: #218544;
-          --brand-accent: #ace38f;
-          --brand-text: #0f1f12;
-          --brand-light: #f4faf0;
-        }
-      
+:root {
+  --brand-primary: #218544;
+  --brand-accent: #ace38f;
+  --brand-text: #0f1f12;
+  --brand-light: #f4faf0;
+}

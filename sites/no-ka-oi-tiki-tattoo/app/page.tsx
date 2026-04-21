@@ -1,443 +1,692 @@
-'use client'
+// REFERENCE: EHUNTER — dark minimalist, big white text blocks animating in, fullscreen background video on scroll, overlapping project cards, live clock nav
+"use client";
 
-import { Navbar } from '@/components/Navbar'
-import { HeroSection } from '@/components/HeroSection'
-import { ServiceCards } from '@/components/ServiceCards'
-import { AboutSection } from '@/components/AboutSection'
-import { TestimonialCarousel } from '@/components/TestimonialCarousel'
-import { StatsCounter } from '@/components/StatsCounter'
-import { ImageGallery } from '@/components/ImageGallery'
-import { FAQAccordion } from '@/components/FAQAccordion'
-import { ContactSection } from '@/components/ContactSection'
-import { Footer } from '@/components/Footer'
-import { ClickToCall } from '@/components/ClickToCall'
-import type { NavLink, Photo, Service, Review, Stat, FAQItem, SocialLinks } from '@/components/types'
-import { motion, useInView } from 'framer-motion'
-import { useRef } from 'react'
+import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion";
+import { ArrowUpRight, Clock, MapPin, Mail, Play } from "lucide-react";
+import { useRef, useState, useEffect } from "react";
 
-// ── Brand tokens ─────────────────────────────────────────────
-const BRAND = {
-  green: '#218544',
-  accent: '#ace38f',
-}
+// ─── DATA ────────────────────────────────────────────────────────────────────
 
-// ── Data ─────────────────────────────────────────────────────
-const navLinks: NavLink[] = [
-  { label: 'Services', href: '#services' },
-  { label: 'Gallery', href: '#gallery' },
-  { label: 'About', href: '#about' },
-  { label: 'Reviews', href: '#reviews' },
-  { label: 'FAQ', href: '#faq' },
-  { label: 'Visit', href: '#contact' },
-]
 
-const heroPhoto: Photo = {
-  src: '/photos/photo-1.webp',
-  alt: 'No Ka Oi Tiki Tattoo photo 1',
-  category: 'exterior',
-}
+const navLinks = [
+  { label: "Services", href: "#services" },
+  { label: "About", href: "#about" },
+  { label: "Reviews", href: "#reviews" },
+  { label: "Gallery", href: "#gallery" },
+  { label: "FAQ", href: "#faq" },
+  { label: "Contact", href: "#contact" },
+];
 
-const aboutPhoto: Photo = {
-  src: '/photos/photo-2.webp',
-  alt: 'No Ka Oi Tiki Tattoo photo 2',
-  category: 'interior',
-}
-
-const galleryPhotos: Photo[] = [
-  { src: '/photos/photo-3.webp', alt: 'No Ka Oi Tiki Tattoo photo 3', category: 'work' },
-  { src: '/photos/photo-4.webp', alt: 'No Ka Oi Tiki Tattoo photo 4', category: 'work' },
-  { src: '/photos/photo-5.webp', alt: 'No Ka Oi Tiki Tattoo photo 5', category: 'work' },
-  { src: '/photos/photo-6.webp', alt: 'No Ka Oi Tiki Tattoo photo 6', category: 'work' },
-  { src: '/photos/photo-7.webp', alt: 'No Ka Oi Tiki Tattoo photo 7', category: 'work' },
-  { src: '/photos/photo-8.webp', alt: 'No Ka Oi Tiki Tattoo photo 8', category: 'work' },
-  { src: '/photos/photo-9.webp', alt: 'No Ka Oi Tiki Tattoo photo 9', category: 'work' },
-  { src: '/photos/photo-10.webp', alt: 'No Ka Oi Tiki Tattoo photo 10', category: 'work' },
-]
-
-const services: Service[] = [
+const projects = [
   {
-    name: 'Custom Tattoos',
-    description: 'Original tattoo artwork designed and executed by experienced artists, from small delicate pieces like semicolon butterflies to larger custom work.',
-    icon: 'pencil',
-    image: '/photos/photo-3.webp',
+    title: "Custom Tattoos",
+    category: "Original Artwork",
+    year: "South Philly",
+    description:
+      "Original work, from small semicolon butterflies to larger custom pieces — drawn on you, not off a flash wall.",
+    color: "#1a1615",
+    accent: "#D4A017",
+    image: "/photos/photo-3.webp",
   },
   {
-    name: 'Body Piercing',
-    description: 'Professional needle piercings for ears, nose, cartilage, and beyond — performed with sterile technique and anatomy-based placement recommendations.',
-    icon: 'circle',
-    image: '/photos/photo-4.webp',
+    title: "Needle Piercings",
+    category: "Sterile Technique",
+    year: "Tim & Judith",
+    description:
+      "Nose, cartilage, conch, and beyond — sterile technique a working nurse called the cleanest she's ever had.",
+    color: "#141414",
+    accent: "#D4A017",
+    image: "/photos/photo-5.webp",
   },
   {
-    name: 'Ear Piercing & Lobe Re-Piercing',
-    description: 'Safe, precise lobe and cartilage piercings including conch, flat, and helix — a far gentler and more accurate alternative to mall gun piercings.',
-    icon: 'ear',
-    image: '/photos/photo-5.webp',
+    title: "Lobes Done Right",
+    category: "Re-Piercing",
+    year: "No Guns",
+    description:
+      "Clients who've had both consistently say needle lobes here are less painful and far more precise than any mall gun.",
+    color: "#1a1615",
+    accent: "#D4A017",
+    image: "/photos/photo-7.webp",
   },
   {
-    name: 'Jewelry Downsizing & Changes',
-    description: 'Follow-up appointments to swap healing jewelry for shorter posts or new pieces once swelling subsides — available by walk-in or scheduled appointment.',
-    icon: 'repeat',
-    image: '/photos/photo-6.webp',
+    title: "Walk-Ins Welcome",
+    category: "No Appointment",
+    year: "~25 min wait",
+    description:
+      "Stop by during shop hours. Busy Sundays run about a 25-minute wait. Groups welcome.",
+    color: "#141414",
+    accent: "#D4A017",
+    image: "/photos/photo-9.webp",
   },
-  {
-    name: 'Special Event & Holiday Specials',
-    description: 'Seasonal promotions like the Independence Day BOGO piercing special, making it a fun destination for groups looking to celebrate with new ink or jewelry.',
-    icon: 'calendar',
-    image: '/photos/photo-7.webp',
-  },
-  {
-    name: 'Walk-In Tattooing & Piercing',
-    description: 'No appointment necessary for many services — walk-ins are welcome during shop hours with typical weekend waits around 25 minutes.',
-    icon: 'door-open',
-    image: '/photos/photo-8.webp',
-  },
-]
+];
 
-const reviews: Review[] = [
+const services = [
   {
-    text: 'I got my earlobes re-pierced and I got my first tattoo. The piercing was the best piercing experience I\'ve ever had. I highly recommend them over the mall experience with the gun. It was sooo much less painful. The tattoo was wonderful also. I got a small blue semicolon butt...',
-    author: 'Amy Singh',
-    rating: 5,
-    source: 'google',
+    name: "Custom Tattoos",
+    detail:
+      "Original tattoo artwork designed and executed by experienced artists, from small delicate pieces to larger custom work.",
   },
   {
-    text: 'Seamless piercing experience with Timothy. I got my conch done and it was quick, painless, and sterile. Very professional staff.',
-    author: 'Emilie Mooney',
-    rating: 5,
-    source: 'google',
+    name: "Body Piercing",
+    detail:
+      "Professional needle piercings performed with sterile technique and anatomy-based placement recommendations.",
   },
   {
-    text: 'Came here on a whim with my friends for some fun piercings. I called multiple places on a busy Sunday and the receptionist was super friendly and welcoming. When we got there we signed in immediately and there was about a 25 min wait for walk ins. Tim was our piercer and I have s...',
-    author: 'Ashley T (NoirFemme)',
-    rating: 5,
-    source: 'google',
+    name: "Ear Piercing & Lobe Re-Piercing",
+    detail:
+      "Safe, precise lobe and cartilage piercings — a far gentler and more accurate alternative to mall gun piercings.",
   },
-]
+  {
+    name: "Jewelry Downsizing & Changes",
+    detail:
+      "Follow-up appointments to swap healing jewelry for shorter posts or new pieces once swelling subsides.",
+  },
+];
 
-const stats: Stat[] = [
-  { value: 458, suffix: '+', label: 'Customer Reviews' },
-  { value: 4.5, suffix: '★', label: 'Average Star Rating' },
-  { value: 10, suffix: '+', label: 'Years Serving South Philly' },
-  { value: 5000, suffix: '+', label: 'Tattoos & Piercings Completed' },
-]
+const stats = [
+  { value: "458+", label: "Customer Reviews" },
+  { value: "4.5★", label: "Average Rating" },
+  { value: "10+", label: "Years in South Philly" },
+  { value: "5000+", label: "Tattoos & Piercings" },
+];
 
-const faqItems: FAQItem[] = [
-  {
-    question: 'Do you accept walk-ins or do I need an appointment?',
-    answer: 'Both! Walk-ins are welcome during regular hours. On busy Sundays expect around a 25-minute wait — call ahead if you want to plan around it.',
-  },
-  {
-    question: 'How does your piercing process compare to mall piercing guns?',
-    answer: 'Significantly better. Clients who\'ve had both experiences consistently say needle piercings here are far less painful, more precise, and heal faster. Gun piercings can cause tissue damage; needles don\'t.',
-  },
-  {
-    question: 'What makes your shop different from other Philly tattoo shops?',
-    answer: 'A combination of clean environment, artists and piercers with real personality (ask about Lazy\'s dry humor), and a welcoming vibe that doesn\'t feel intimidating for first-timers.',
-  },
-  {
-    question: 'How do I get a jewelry downsize after my piercing heals?',
-    answer: 'Downsizes are typically done about two weeks after piercing. You can come in as a walk-in before 8 PM or call ahead to confirm availability.',
-  },
-]
+// ─── LIVE CLOCK COMPONENT ────────────────────────────────────────────────────
 
-const businessContact = {
-  name: 'No Ka Oi Tiki Tattoo',
-  address: '610 S 4th St',
-  city: 'Philadelphia',
-  state: 'PA',
-  zip: '19147',
-  phone: '(215) 925-1766',
-  email: '',
-  hours: {
-    Monday: '12:00 – 9:00 PM',
-    Tuesday: '12:00 – 9:00 PM',
-    Wednesday: '12:00 – 9:00 PM',
-    Thursday: '12:00 – 9:00 PM',
-    Friday: '12:00 – 9:00 PM',
-    Saturday: '11:00 AM – 9:00 PM',
-    Sunday: '11:00 AM – 9:00 PM',
-  },
-}
+function LiveClock() {
+  const [time, setTime] = useState("");
 
-const socialLinks: SocialLinks = {}
+  useEffect(() => {
+    const update = () => {
+      const now = new Date();
+      setTime(
+        now.toLocaleTimeString("en-US", {
+          hour: "2-digit",
+          minute: "2-digit",
+          hour12: false,
+          timeZone: "America/New_York",
+        }),
+      );
+    };
+    update();
+    const interval = setInterval(update, 1000);
+    return () => clearInterval(interval);
+  }, []);
 
-const footerLinks: NavLink[] = [
-  { label: 'Services', href: '#services' },
-  { label: 'Gallery', href: '#gallery' },
-  { label: 'About', href: '#about' },
-  { label: 'FAQ', href: '#faq' },
-  { label: 'Visit Us', href: '#contact' },
-]
-
-// ── Fade-up animation wrapper ─────────────────────────────────
-function FadeUp({
-  children,
-  delay = 0,
-  className = '',
-}: {
-  children: React.ReactNode
-  delay?: number
-  className?: string
-}) {
-  const ref = useRef(null)
-  const inView = useInView(ref, { once: true, margin: '-60px' })
   return (
-    <motion.div
-      ref={ref}
-      initial={{ opacity: 0, y: 32 }}
-      animate={inView ? { opacity: 1, y: 0 } : {}}
-      transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1], delay }}
-      className={className}
-    >
-      {children}
-    </motion.div>
-  )
+    <span className="text-[var(--brand-muted)] text-xs tracking-wider font-[family-name:var(--font-body)]">
+      PHL {time}
+    </span>
+  );
 }
 
-// ── Marquee strip ─────────────────────────────────────────────
-const marqueeItems = [
-  'Custom Tattoos',
-  'Ear Piercings',
-  'Body Piercing',
-  'Walk-Ins Welcome',
-  'South Philly',
-  'Since 2009',
-  'No Ka Oi',
-  '610 S 4th St',
-]
+// ─── ANIMATIONS ──────────────────────────────────────────────────────────────
 
-function MarqueeStrip() {
-  const doubled = [...marqueeItems, ...marqueeItems]
-  return (
-    <div className="marquee-strip overflow-hidden bg-[#218544] py-3 select-none">
-      <motion.div
-        className="flex gap-10 whitespace-nowrap"
-        animate={{ x: ['0%', '-50%'] }}
-        transition={{ duration: 28, ease: 'linear', repeat: Infinity }}
-      >
-        {doubled.map((item, i) => (
-          <span key={i} className="flex items-center gap-10 text-white font-semibold tracking-widest uppercase text-xs">
-            <span>{item}</span>
-            <span className="text-[#ace38f] text-base leading-none">✦</span>
-          </span>
-        ))}
-      </motion.div>
-    </div>
-  )
-}
+const fadeUp = {
+  initial: { opacity: 0, y: 40 },
+  whileInView: { opacity: 1, y: 0 },
+  viewport: { once: true, margin: "-80px" },
+  transition: { duration: 0.8, ease: [0.25, 0.46, 0.45, 0.94] },
+};
 
-// ── Tagline banner ────────────────────────────────────────────
-function TaglineBanner() {
-  const ref = useRef(null)
-  const inView = useInView(ref, { once: true })
-  return (
-    <div ref={ref} className="tagline-banner relative overflow-hidden bg-[#0d1a0f] py-20 px-6 text-center">
-      <div className="dot-pattern absolute inset-0 opacity-20" />
-      <motion.p
-        initial={{ opacity: 0, scale: 0.95 }}
-        animate={inView ? { opacity: 1, scale: 1 } : {}}
-        transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-        className="relative z-10 font-display text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight max-w-4xl mx-auto"
-      >
-        Art That Lives{' '}
-        <span style={{ color: BRAND.accent }}>Under Your Skin.</span>
-      </motion.p>
-      <motion.p
-        initial={{ opacity: 0, y: 16 }}
-        animate={inView ? { opacity: 1, y: 0 } : {}}
-        transition={{ duration: 0.6, delay: 0.25, ease: 'easeOut' }}
-        className="relative z-10 mt-4 text-white/60 text-lg max-w-xl mx-auto"
-      >
-        South Philadelphia's home for custom tattoos & professional piercings.
-      </motion.p>
-    </div>
-  )
-}
+const stagger = {
+  initial: { opacity: 0, y: 30 },
+  whileInView: { opacity: 1, y: 0 },
+  viewport: { once: true, margin: "-60px" },
+};
 
-// ── Page ──────────────────────────────────────────────────────
-export default function Page() {
+// ─── PAGE ────────────────────────────────────────────────────────────────────
+
+export default function BusinessPage() {
+  const videoSectionRef = useRef<HTMLDivElement>(null);
+  const { scrollYProgress: videoProgress } = useScroll({
+    target: videoSectionRef,
+    offset: ["start end", "end start"],
+  });
+  const videoScale = useTransform(videoProgress, [0, 0.5], [1.15, 1]);
+  const videoOpacity = useTransform(videoProgress, [0, 0.3], [0, 1]);
+  const [mobileNav, setMobileNav] = useState(false);
+
   return (
     <>
-      {/* CSS variables */}
-      <style
-        // eslint-disable-next-line react/no-danger
-        dangerouslySetInnerHTML={{
-          __html: `
-            :root {
-              --brand-primary: #218544;
-              --brand-accent: #ace38f;
-              --brand-text: #0d1a0f;
-              --font-display: 'DM Sans', sans-serif;
-            }
-          `,
-        }}
-      />
-
-      <Navbar
-        businessName="No Ka Oi Tiki Tattoo"
-        links={navLinks}
-        ctaText="Call Now"
-        ctaHref="tel:+12159251766"
-      />
-
-      {/* HERO */}
-      <section id="home">
-        <HeroSection
-          headline="No Ka Oi Tiki Tattoo"
-          subheadline="Custom ink & professional piercings at 610 S 4th St, South Philly."
-          ctaText="Call to Book"
-          ctaHref="tel:+12159251766"
-          secondaryCtaText="See Our Work"
-          secondaryCtaHref="#gallery"
-          rating={4.5}
-          reviewCount={458}
-          variant="photo-bg"
-          backgroundImage={heroPhoto}
-        />
-      </section>
-
-      {/* MARQUEE */}
-      <MarqueeStrip />
-
-      {/* TAGLINE BANNER */}
-      <TaglineBanner />
-
-      {/* STATS — dark */}
-      <div id="stats">
-        <StatsCounter stats={stats} variant="dark" />
-      </div>
-
-      {/* SERVICES */}
-      <section id="services" className="py-20 bg-white">
-        <FadeUp className="max-w-7xl mx-auto px-6">
-          <div className="mb-12 flex flex-col md:flex-row md:items-end md:justify-between gap-4">
-            <div>
-              <span
-                className="inline-block mb-3 px-3 py-1 rounded-full text-xs font-semibold tracking-widest uppercase"
-                style={{ background: BRAND.accent, color: BRAND.green }}
+      {/* ── NAVBAR ── */}
+      <nav className="fixed top-0 left-0 right-0 z-50 mix-blend-difference">
+        <div className="max-w-[1400px] mx-auto px-6 lg:px-12 py-6 flex items-center justify-between">
+          <a
+            href="#"
+            className="font-[family-name:var(--font-display)] text-lg font-bold tracking-tight text-white"
+          >
+            NO KA OI
+          </a>
+          <div className="hidden md:flex items-center gap-8">
+            {navLinks.map((link) => (
+              <a
+                key={link.label}
+                href={link.href}
+                className="text-white/70 hover:text-white text-[13px] font-medium tracking-wide transition-colors duration-300"
               >
-                What We Do
-              </span>
-              <h2
-                className="font-display text-4xl md:text-5xl font-bold text-[#0d1a0f] leading-tight"
-              >
-                Ink & Piercings
-              </h2>
-            </div>
-            <p className="text-[#0d1a0f]/60 max-w-sm text-base leading-relaxed">
-              Walk in for a quick piercing or sit down with an artist for a one-of-a-kind tattoo. Either way, we've got you.
-            </p>
+                {link.label}
+              </a>
+            ))}
           </div>
-        </FadeUp>
-        <FadeUp delay={0.1}>
-          <ServiceCards
-            heading=""
-            services={services}
-            columns={3}
-            variant="grid"
-          />
-        </FadeUp>
+          <div className="flex items-center gap-6">
+            <LiveClock />
+            <a
+              href="#contact"
+              className="hidden sm:inline-flex items-center gap-2 text-[13px] font-medium text-white/70 hover:text-white transition-colors duration-300"
+            >
+              Let&apos;s talk <ArrowUpRight className="w-3.5 h-3.5" />
+            </a>
+            <button onClick={() => setMobileNav(!mobileNav)} className="md:hidden p-2 text-white" aria-label="Menu">
+              {mobileNav ? (
+                <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" /></svg>
+              ) : (
+                <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" /></svg>
+              )}
+            </button>
+          </div>
+        </div>
+        <AnimatePresence>
+          {mobileNav && (
+            <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: "auto" }} exit={{ opacity: 0, height: 0 }} className="md:hidden overflow-hidden backdrop-blur-xl bg-black/80 rounded-xl mx-6 mt-2" style={{ mixBlendMode: "normal" }}>
+              <div className="flex flex-col py-4 px-6 gap-4">
+                {navLinks.map((link) => (
+                  <a key={link.label} href={link.href} onClick={() => setMobileNav(false)} className="text-white/80 hover:text-white text-sm transition-colors">{link.label}</a>
+                ))}
+                <a href="#contact" onClick={() => setMobileNav(false)} className="text-white text-sm font-medium">Contact</a>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
+      </nav>
+
+      {/* ── HERO — Big white text blocks that animate in ── */}
+      <section className="relative min-h-screen flex flex-col justify-center bg-[var(--brand-bg)] overflow-hidden px-6 lg:px-12">
+        {/* Subtle grain texture */}
+        <div
+          className="absolute inset-0 opacity-[0.03]"
+          style={{
+            backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E")`,
+            backgroundSize: "128px 128px",
+          }}
+        />
+
+        <div className="relative z-10 max-w-[1400px] mx-auto w-full pt-32">
+          {/* Overline */}
+          <motion.p
+            className="text-[var(--brand-muted)] text-xs tracking-[0.25em] uppercase mb-8"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+          >
+            Tattoo & Piercing Studio
+          </motion.p>
+
+          {/* Big text blocks — each line animates independently */}
+          <div className="overflow-hidden">
+            <motion.h1
+              className="text-[clamp(3rem,10vw,8rem)] font-bold leading-[0.95] tracking-[-0.04em] text-white"
+              initial={{ y: "100%" }}
+              animate={{ y: 0 }}
+              transition={{
+                duration: 0.9,
+                ease: [0.25, 0.46, 0.45, 0.94],
+                delay: 0.3,
+              }}
+            >
+              We ink
+            </motion.h1>
+          </div>
+          <div className="overflow-hidden">
+            <motion.h1
+              className="text-[clamp(3rem,10vw,8rem)] font-bold leading-[0.95] tracking-[-0.04em] text-white"
+              initial={{ y: "100%" }}
+              animate={{ y: 0 }}
+              transition={{
+                duration: 0.9,
+                ease: [0.25, 0.46, 0.45, 0.94],
+                delay: 0.45,
+              }}
+            >
+              visuals that
+            </motion.h1>
+          </div>
+          <div className="overflow-hidden">
+            <motion.h1
+              className="text-[clamp(3rem,10vw,8rem)] font-bold leading-[0.95] tracking-[-0.04em]"
+              initial={{ y: "100%" }}
+              animate={{ y: 0 }}
+              transition={{
+                duration: 0.9,
+                ease: [0.25, 0.46, 0.45, 0.94],
+                delay: 0.6,
+              }}
+            >
+              <span className="text-[var(--brand-accent)]">move</span>{" "}
+              <span className="text-white">culture</span>
+            </motion.h1>
+          </div>
+
+          {/* Subtitle */}
+          <motion.p
+            className="mt-8 text-[var(--brand-muted)] text-base md:text-lg max-w-md leading-relaxed"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.9 }}
+          >
+            Tattoo and piercing studio in South Philly — walk-ins welcome,
+            custom work by appointment.
+          </motion.p>
+
+          {/* Scroll indicator */}
+          <motion.div
+            className="absolute bottom-12 left-6 lg:left-12 flex items-center gap-3"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5, delay: 1.2 }}
+          >
+            <div className="w-[1px] h-12 bg-white/20 relative overflow-hidden">
+              <motion.div
+                className="absolute top-0 left-0 w-full bg-white"
+                animate={{
+                  height: ["0%", "100%", "0%"],
+                  top: ["0%", "0%", "100%"],
+                }}
+                transition={{
+                  duration: 2,
+                  repeat: Infinity,
+                  ease: "easeInOut",
+                }}
+              />
+            </div>
+            <span className="text-[var(--brand-muted)] text-xs tracking-wider">
+              Scroll
+            </span>
+          </motion.div>
+        </div>
       </section>
 
-      {/* GALLERY — dark frame */}
+      {/* ── VIDEO SECTION — Full-screen background video on scroll ── */}
       <section
-        id="gallery"
-        className="py-20"
-        style={{ background: '#0d1a0f' }}
+        ref={videoSectionRef}
+        className="relative h-[120vh] overflow-hidden"
       >
-        <FadeUp className="max-w-7xl mx-auto px-6 mb-10">
-          <span
-            className="inline-block mb-3 px-3 py-1 rounded-full text-xs font-semibold tracking-widest uppercase"
-            style={{ background: BRAND.green, color: '#fff' }}
-          >
-            Portfolio
-          </span>
-          <h2 className="font-display text-4xl md:text-5xl font-bold text-white leading-tight">
-            Recent Work
-          </h2>
-        </FadeUp>
-        <FadeUp delay={0.1}>
-          <ImageGallery
-            heading=""
-            photos={galleryPhotos}
-            variant="masonry"
-          />
-        </FadeUp>
+        <motion.div
+          className="sticky top-0 h-screen w-full overflow-hidden"
+          style={{ scale: videoScale, opacity: videoOpacity }}
+        >
+          {/* Hero photo with animated color wash */}
+          <div className="absolute inset-0 bg-gradient-to-br from-[#1a1615] via-[#0a0a0a] to-[#1f1f1f]">
+            <img
+              src="/photos/photo-1.webp"
+              alt="No Ka Oi Tiki Tattoo"
+              className="absolute inset-0 w-full h-full object-cover opacity-60"
+            />
+            <div className="absolute inset-0 bg-black/40" />
+            <motion.div
+              className="absolute inset-0"
+              style={{
+                background:
+                  "linear-gradient(135deg, rgba(212,160,23,0.15) 0%, transparent 40%, rgba(26,58,42,0.2) 70%, transparent 100%)",
+              }}
+              animate={{
+                opacity: [0.3, 0.6, 0.3],
+              }}
+              transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+            />
+            {/* Film grain overlay */}
+            <div
+              className="absolute inset-0 opacity-[0.06]"
+              style={{
+                backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E")`,
+                backgroundSize: "128px 128px",
+              }}
+            />
+          </div>
+
+          {/* Video overlay gradient */}
+          <div className="video-overlay absolute inset-0 z-10" />
+
+          {/* Center play button */}
+          <div className="absolute inset-0 z-20 flex items-center justify-center">
+            <motion.div
+              className="w-24 h-24 rounded-full border border-white/30 flex items-center justify-center cursor-pointer hover:border-white/60 hover:scale-110 transition-all duration-500"
+              initial={{ scale: 0.8, opacity: 0 }}
+              whileInView={{ scale: 1, opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.3 }}
+            >
+              <Play className="w-8 h-8 text-white fill-white ml-1" />
+            </motion.div>
+          </div>
+
+          {/* Bottom caption */}
+          <div className="absolute bottom-12 left-6 lg:left-12 z-20">
+            <motion.p
+              className="text-white/50 text-xs tracking-[0.2em] uppercase"
+              {...fadeUp}
+            >
+              Fresh Ink &mdash; 2025
+            </motion.p>
+          </div>
+
+          {/* Right side caption */}
+          <div className="absolute bottom-12 right-6 lg:right-12 z-20">
+            <motion.p
+              className="text-white/50 text-xs tracking-[0.2em] uppercase"
+              {...fadeUp}
+            >
+              No Ka Oi Tiki Tattoo
+            </motion.p>
+          </div>
+        </motion.div>
       </section>
 
-      {/* ABOUT */}
-      <section id="about" className="py-20 bg-[#f5faf3]">
-        <FadeUp>
-          <AboutSection
-            heading="South Philly's Studio"
-            story="No Ka Oi Tiki Tattoo has been on S 4th Street for over a decade — a neighborhood shop where the artists actually talk to you. Clients regularly describe first-timers leaving thrilled: one came in for a lobe re-pierce and walked out with her first tattoo. Walk-ins are always welcome."
-            image={aboutPhoto}
-          />
-        </FadeUp>
-      </section>
-
-      {/* REVIEWS */}
-      <section id="reviews" className="py-20 bg-white">
-        <FadeUp className="max-w-7xl mx-auto px-6 mb-10">
-          <span
-            className="inline-block mb-3 px-3 py-1 rounded-full text-xs font-semibold tracking-widest uppercase"
-            style={{ background: BRAND.accent, color: BRAND.green }}
-          >
-            Real People
-          </span>
-          <h2 className="font-display text-4xl md:text-5xl font-bold text-[#0d1a0f] leading-tight">
-            458 Reviews
-          </h2>
-        </FadeUp>
-        <FadeUp delay={0.1}>
-          <TestimonialCarousel
-            heading=""
-            reviews={reviews}
-            variant="scroll"
-          />
-        </FadeUp>
-      </section>
-
-      {/* FAQ — dark */}
+      {/* ── PROJECTS — Overlapping editorial cards ── */}
       <section
-        id="faq"
-        className="py-20"
-        style={{ background: '#0d1a0f' }}
+        id="work"
+        className="py-32 lg:py-44 px-6 lg:px-12 bg-[var(--brand-bg)]"
       >
-        <FadeUp className="max-w-3xl mx-auto px-6">
-          <span
-            className="inline-block mb-3 px-3 py-1 rounded-full text-xs font-semibold tracking-widest uppercase"
-            style={{ background: BRAND.green, color: '#fff' }}
+        <div className="max-w-[1400px] mx-auto">
+          <motion.div {...fadeUp} className="mb-20">
+            <p className="text-[var(--brand-muted)] text-xs tracking-[0.25em] uppercase mb-4">
+              Selected Ink
+            </p>
+            <h2 className="text-[clamp(2.5rem,6vw,5rem)] font-bold leading-[1] tracking-[-0.03em] text-white">
+              Projects
+            </h2>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+            {projects.map((project, i) => (
+              <motion.div
+                key={project.title}
+                className="project-card group cursor-pointer"
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-80px" }}
+                transition={{
+                  duration: 0.7,
+                  delay: i * 0.12,
+                  ease: [0.25, 0.46, 0.45, 0.94],
+                }}
+              >
+                {/* Image */}
+                <div
+                  className="relative aspect-[4/3] rounded-lg overflow-hidden mb-5"
+                  style={{ backgroundColor: project.color }}
+                >
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                  />
+                  <div
+                    className="absolute inset-0"
+                    style={{
+                      background: `linear-gradient(135deg, ${project.accent}20 0%, transparent 40%, rgba(0,0,0,0.4) 100%)`,
+                    }}
+                  />
+                  {/* Corner accent */}
+                  <div
+                    className="absolute top-5 left-5 w-2 h-2 rounded-full"
+                    style={{ backgroundColor: project.accent }}
+                  />
+                  <div className="absolute bottom-5 right-5 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <ArrowUpRight className="w-5 h-5 text-white" />
+                  </div>
+                </div>
+
+                {/* Project info */}
+                <div className="flex items-start justify-between">
+                  <div>
+                    <h3 className="text-white text-lg font-semibold tracking-tight">
+                      {project.title}
+                    </h3>
+                    <p className="text-[var(--brand-muted)] text-sm mt-1">
+                      {project.description}
+                    </p>
+                  </div>
+                  <div className="text-right flex-shrink-0 ml-4">
+                    <span className="text-[var(--brand-muted)] text-xs tracking-wider">
+                      {project.category}
+                    </span>
+                    <p className="text-white/30 text-xs mt-1">{project.year}</p>
+                  </div>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── ABOUT — Minimal text, big statement ── */}
+      <section
+        id="about"
+        className="py-32 lg:py-44 px-6 lg:px-12 bg-[var(--brand-bg-alt)] border-t border-white/5"
+      >
+        <div className="max-w-[1400px] mx-auto">
+          <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-start">
+            <motion.div {...fadeUp}>
+              <p className="text-[var(--brand-muted)] text-xs tracking-[0.25em] uppercase mb-6">
+                About
+              </p>
+              <h2 className="text-[clamp(2rem,4vw,3.5rem)] font-bold leading-[1.1] tracking-[-0.03em] text-white">
+                Two artists,
+                <br />
+                one studio, no
+                <br />
+                <span className="text-[var(--brand-accent)]">compromises</span>
+              </h2>
+            </motion.div>
+
+            <motion.div
+              className="lg:pt-12"
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.7, delay: 0.2 }}
+            >
+              <p className="text-[var(--brand-muted)] text-base leading-[1.8] mb-8">
+                No Ka Oi Tiki Tattoo is a South Philly studio where every
+                piece starts with a conversation. The artists here work with
+                you to create something that means something.
+              </p>
+              <p className="text-[var(--brand-muted)] text-base leading-[1.8]">
+                Walk-ins are welcome for many services, and the shop keeps wait
+                times short even on busy weekends. No filler. No fluff.
+              </p>
+            </motion.div>
+          </div>
+
+          {/* Stats row */}
+          <div className="mt-24 pt-12 border-t border-white/5">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+              {stats.map((stat, i) => (
+                <motion.div
+                  key={stat.label}
+                  className="text-center md:text-left"
+                  {...stagger}
+                  transition={{ duration: 0.5, delay: i * 0.1 }}
+                >
+                  <p className="text-[clamp(2rem,4vw,3.5rem)] font-bold text-white tracking-tight">
+                    {stat.value}
+                  </p>
+                  <p className="text-[var(--brand-muted)] text-sm mt-1">
+                    {stat.label}
+                  </p>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── SERVICES — Clean list layout ── */}
+      <section
+        id="services"
+        className="py-32 lg:py-44 px-6 lg:px-12 bg-[var(--brand-bg)] border-t border-white/5"
+      >
+        <div className="max-w-[1400px] mx-auto">
+          <motion.div {...fadeUp} className="mb-16">
+            <p className="text-[var(--brand-muted)] text-xs tracking-[0.25em] uppercase mb-4">
+              Services
+            </p>
+            <h2 className="text-[clamp(2rem,4vw,3.5rem)] font-bold leading-[1.1] tracking-[-0.03em] text-white">
+              What we do
+            </h2>
+          </motion.div>
+
+          <div className="space-y-0">
+            {services.map((service, i) => (
+              <motion.div
+                key={service.name}
+                className="group flex flex-col md:flex-row md:items-center justify-between py-8 border-b border-white/5 cursor-pointer hover:border-white/20 transition-colors duration-500"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: i * 0.08 }}
+              >
+                <div className="flex items-baseline gap-4 mb-2 md:mb-0">
+                  <span className="text-white/20 text-xs font-[family-name:var(--font-body)] tabular-nums">
+                    0{i + 1}
+                  </span>
+                  <h3 className="text-white text-xl md:text-2xl font-semibold tracking-tight group-hover:text-[var(--brand-accent)] transition-colors duration-300">
+                    {service.name}
+                  </h3>
+                </div>
+                <div className="flex items-center gap-6 md:ml-4">
+                  <p className="text-[var(--brand-muted)] text-sm max-w-sm">
+                    {service.detail}
+                  </p>
+                  <ArrowUpRight className="w-4 h-4 text-white/20 group-hover:text-white/60 transition-colors duration-300 flex-shrink-0" />
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── BIG TEXT MARQUEE ── */}
+      <section className="py-20 overflow-hidden border-t border-b border-white/5 bg-[var(--brand-bg)]">
+        <motion.div
+          className="flex whitespace-nowrap"
+          animate={{ x: ["0%", "-50%"] }}
+          transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
+        >
+          {[...Array(6)].map((_, i) => (
+            <span
+              key={i}
+              className="text-[clamp(3rem,8vw,6rem)] font-bold tracking-[-0.03em] text-white/[0.04] mx-8"
+            >
+              Tattoo &middot; Piercing &middot; Custom &middot; Walk-Ins
+            </span>
+          ))}
+        </motion.div>
+      </section>
+
+      {/* ── CTA / CONTACT ── */}
+      <section
+        id="contact"
+        className="py-32 lg:py-44 px-6 lg:px-12 bg-[var(--brand-bg)]"
+      >
+        <div className="max-w-[1400px] mx-auto text-center">
+          <motion.p
+            className="text-[var(--brand-muted)] text-xs tracking-[0.25em] uppercase mb-6"
+            {...fadeUp}
           >
-            Quick Answers
-          </span>
-          <h2 className="font-display text-4xl md:text-5xl font-bold text-white leading-tight mb-10">
-            Common Questions
-          </h2>
-          <FAQAccordion heading="" items={faqItems} />
-        </FadeUp>
+            Get in touch
+          </motion.p>
+          <motion.h2
+            className="text-[clamp(2.5rem,7vw,6rem)] font-bold leading-[0.95] tracking-[-0.04em] text-white max-w-4xl mx-auto"
+            {...fadeUp}
+          >
+            Have an idea?
+            <br />
+            <span className="text-[var(--brand-accent)]">Let&apos;s talk.</span>
+          </motion.h2>
+          <motion.div className="mt-12" {...fadeUp}>
+            <a
+              href="#contact"
+              className="inline-flex items-center gap-3 bg-white text-[var(--brand-bg)] px-10 py-4 rounded-full text-sm font-semibold hover:bg-[var(--brand-accent)] transition-colors duration-300"
+            >
+              <Mail className="w-4 h-4" /> Get in Touch
+            </a>
+          </motion.div>
+        </div>
       </section>
 
-      {/* CONTACT */}
-      <section id="contact" className="py-20 bg-[#f5faf3]">
-        <FadeUp>
-          <ContactSection
-            business={businessContact}
-            heading="Find Us"
-            showMap={true}
-          />
-        </FadeUp>
-      </section>
-
-      {/* FOOTER */}
-      <Footer
-        business={businessContact}
-        links={footerLinks}
-        socialLinks={socialLinks}
-      />
-
-      {/* CLICK TO CALL */}
-      <ClickToCall phone="(215) 925-1766" />
+      {/* ── FOOTER ── */}
+      <footer className="py-16 px-6 lg:px-12 bg-[var(--brand-bg)] border-t border-white/5">
+        <div className="max-w-[1400px] mx-auto">
+          <div className="grid md:grid-cols-3 gap-12 items-start">
+            <div>
+              <span className="font-[family-name:var(--font-display)] text-lg font-bold tracking-tight text-white">
+                NO KA OI
+              </span>
+              <p className="mt-4 text-white/30 text-sm leading-relaxed max-w-xs">
+                Tattoo & Piercing · South Philadelphia
+              </p>
+            </div>
+            <div>
+              <h4 className="text-white/50 text-xs tracking-[0.2em] uppercase mb-5">
+                Navigate
+              </h4>
+              <div className="space-y-3">
+                {navLinks.map((link) => (
+                  <a
+                    key={link.label}
+                    href={link.href}
+                    className="block text-white/40 text-sm hover:text-white transition-colors duration-300"
+                  >
+                    {link.label}
+                  </a>
+                ))}
+              </div>
+            </div>
+            <div>
+              <h4 className="text-white/50 text-xs tracking-[0.2em] uppercase mb-5">
+                Contact
+              </h4>
+              <div className="space-y-3 text-white/40 text-sm">
+                <p className="flex items-center gap-2">
+                  <MapPin className="w-3.5 h-3.5 flex-shrink-0" /> 610 S 4th St, Philadelphia, PA 19147
+                </p>
+                <p className="flex items-center gap-2">
+                  <Mail className="w-3.5 h-3.5 flex-shrink-0" /> (215) 925-1766
+                </p>
+                <p className="flex items-center gap-2">
+                  <Clock className="w-3.5 h-3.5 flex-shrink-0" /> Daily, 11am&ndash;9pm
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="mt-16 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p className="text-white/20 text-xs">
+              &copy; 2026 No Ka Oi Tiki Tattoo. All rights reserved.
+            </p>
+            <div className="flex gap-6">
+              <a
+                href="#"
+                className="text-white/20 text-xs hover:text-white/50 transition-colors"
+              >
+                Instagram
+              </a>
+              <a
+                href="#"
+                className="text-white/20 text-xs hover:text-white/50 transition-colors"
+              >
+                Yelp
+              </a>
+              <a
+                href="#"
+                className="text-white/20 text-xs hover:text-white/50 transition-colors"
+              >
+                LinkedIn
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
     </>
-  )
+  );
 }

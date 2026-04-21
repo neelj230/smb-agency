@@ -5,17 +5,18 @@
 @source "../../../packages/integrations/**/*.{ts,tsx}";
 
 :root {
-  --brand-primary: #7a3b3b;
-  --brand-accent: #b57900;
-  --brand-bg: #fafafa;
-  --brand-bg-alt: #e6e3e3;
-  --brand-text: #262626;
-  --brand-muted: #575757;
+  --brand-primary: #C62828;
+  --brand-accent: #D4A843;
+  --brand-bg: #F4EEE3;
+  --brand-bg-alt: #E8E0D0;
+  --brand-text: #1C1C1C;
+  --brand-muted: #5C5549;
+  --brand-dark: #1a0f0a;
 }
 
 ::selection {
   background-color: var(--brand-primary);
-  color: var(--brand-bg);
+  color: #fff;
 }
 
 html {
@@ -29,12 +30,17 @@ body {
 
 /* Marquee animation for carousels */
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 /* Smooth section transitions */
-section, [id] > div {
+section,
+[id] > div {
   scroll-margin-top: 80px;
 }
 
@@ -44,375 +50,75 @@ section, [id] > div {
   outline-offset: 2px;
 }
 
-/* Mix-blend-mode hover effect for cards */
-.card-hover {
-  position: relative;
-  overflow: hidden;
-}
-.card-hover::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: var(--brand-primary);
-  mix-blend-mode: difference;
-  opacity: 0;
-  transition: opacity 0.4s ease;
-}
-.card-hover:hover::after {
-  opacity: 1;
-}
+/* ─── Oteri's Italian Bakery — Cream Retro Editorial ────────────────────── */
 
-/* Film grain overlay for warm analog feel */
+/* Film grain — warm, old-world bakery texture */
 body::after {
-  content: '';
-  position: fixed;
-  inset: 0;
-  z-index: 9999;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
-  mix-blend-mode: hard-light;
-  opacity: 0.4;
-  pointer-events: none;
-}
-
-/* Gradient transitions between sections */
-.section-gradient {
-  position: relative;
-}
-.section-gradient::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 120px;
-  background: linear-gradient(to bottom, transparent, var(--brand-bg));
-  pointer-events: none;
-}
-
-/* Creative director extras */
-/* ─────────────────────────────────────────────
-   Oteri's Italian Bakery — Custom CSS Extras
-   ───────────────────────────────────────────── */
-
-/* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap');
-
-/* Brand token defaults (also set inline in page for SSR) */
-:root {
-  --brand-primary: #7a3b3b;
-  --brand-accent:  #b57900;
-  --brand-text:    #1a1008;
-  --brand-bg:      #fdf8f2;
-}
-
-body {
-  font-family: 'DM Sans', sans-serif;
-  background-color: var(--brand-bg);
-  color: var(--brand-text);
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Syne', sans-serif;
-}
-
-/* ─── Film grain overlay ───────────────────── */
-body::after {
-  content: '';
+  content: "";
   position: fixed;
   inset: 0;
   pointer-events: none;
   z-index: 9999;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
-  background-repeat: repeat;
-  background-size: 128px 128px;
-  opacity: 0.025;
-  mix-blend-mode: hard-light;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+  opacity: 0.03;
+  mix-blend-mode: multiply;
 }
 
-/* ─── Dot pattern background ─────────────────── */
-.dot-pattern {
-  background-image: radial-gradient(circle, rgba(122,59,59,0.13) 1.5px, transparent 1.5px);
-  background-size: 24px 24px;
-}
-
-/* ─── Marquee ─────────────────────────────────── */
-.oteri-marquee-wrap {
-  overflow: hidden;
-  white-space: nowrap;
-  background-color: var(--brand-primary);
-  padding: 14px 0;
-  border-top: 2px solid rgba(181,121,0,0.4);
-  border-bottom: 2px solid rgba(181,121,0,0.4);
-}
-
-.oteri-marquee-track {
-  display: inline-flex;
-  animation: oteri-scroll 28s linear infinite;
-  will-change: transform;
-}
-
-.oteri-marquee-item {
-  font-family: 'Syne', sans-serif;
-  font-size: 0.85rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: #fdf8f2;
-  padding: 0 2rem;
-  display: inline-flex;
-  align-items: center;
-  gap: 0.75rem;
-  flex-shrink: 0;
-}
-
-.oteri-marquee-dot {
-  display: inline-block;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background-color: var(--brand-accent);
-  flex-shrink: 0;
-}
-
-@keyframes oteri-scroll {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
-}
-
-/* ─── Tagline strip ────────────────────────────── */
-.oteri-tagline-section {
-  position: relative;
-  padding: 6rem 2rem;
-  text-align: center;
-  overflow: hidden;
-  background-color: var(--brand-bg);
-}
-
-.oteri-tagline-eyebrow {
-  display: inline-block;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--brand-accent);
-  margin-bottom: 1rem;
-  border: 1px solid var(--brand-accent);
-  border-radius: 100px;
-  padding: 4px 16px;
-}
-
-.oteri-tagline-headline {
-  font-family: 'Syne', sans-serif;
-  font-size: clamp(2.4rem, 6vw, 5rem);
-  font-weight: 800;
-  line-height: 1.1;
-  color: var(--brand-text);
-  max-width: 820px;
-  margin: 0 auto 1.25rem;
-  letter-spacing: -0.02em;
-}
-
-.oteri-tagline-headline em {
-  font-style: italic;
-  color: var(--brand-primary);
-}
-
-.oteri-tagline-sub {
-  font-family: 'DM Sans', sans-serif;
-  font-size: 1.1rem;
-  color: #6b5040;
-  max-width: 480px;
-  margin: 0 auto;
-  line-height: 1.65;
-}
-
-/* ─── Geometric accents ────────────────────────── */
-.oteri-geo-accents {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  overflow: hidden;
-}
-
-.geo {
-  position: absolute;
-  display: block;
-  opacity: 0.18;
-}
-
-.geo-circle {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  background-color: var(--brand-primary);
-}
-
-.geo-circle.geo-small {
-  width: 18px;
-  height: 18px;
-  background-color: var(--brand-accent);
-  opacity: 0.22;
-}
-
-.geo-triangle {
-  width: 0;
-  height: 0;
-  border-left: 18px solid transparent;
-  border-right: 18px solid transparent;
-  border-bottom: 32px solid var(--brand-accent);
-  background-color: transparent !important;
-}
-
-.geo-square {
-  width: 22px;
-  height: 22px;
-  background-color: var(--brand-accent);
-  transform: rotate(20deg);
-}
-
-.geo-diamond {
-  width: 20px;
-  height: 20px;
-  background-color: var(--brand-primary);
-  transform: rotate(45deg);
-  opacity: 0.15;
-}
-
-/* ─── Stats dark wrap ──────────────────────────── */
-.oteri-stats-dark {
-  background-color: var(--brand-text);
-}
-
-/* ─── Services section ────────────────────────── */
-.oteri-services-section {
-  background-color: #fdf8f2;
-  padding: 2rem 0 4rem;
-}
-
-/* ─── Dark gallery section ────────────────────── */
-.oteri-dark-section {
-  padding: 4rem 0;
-}
-
-/* ─── About section ───────────────────────────── */
-.oteri-about-section {
-  background-color: #fdf8f2;
-  padding: 2rem 0;
-}
-
-/* ─── Reviews wrapper (dark-ish brand red) ──────── */
-.oteri-reviews-wrap {
-  padding: 4rem 0;
-}
-
-/* Invert text for dark bg review section */
-.oteri-reviews-wrap h2,
-.oteri-reviews-wrap h3,
-.oteri-reviews-wrap p,
-.oteri-reviews-wrap blockquote,
-.oteri-reviews-wrap span,
-.oteri-reviews-wrap cite {
-  color: #fdf8f2 !important;
-}
-
-.oteri-reviews-wrap [class*="card"],
-.oteri-reviews-wrap [class*="Card"] {
-  background-color: rgba(255,255,255,0.08) !important;
-  border-color: rgba(255,255,255,0.15) !important;
-}
-
-/* ─── FAQ section ─────────────────────────────── */
-.oteri-faq-section {
-  padding: 5rem 0;
-  background-color: var(--brand-bg);
-}
-
-.oteri-faq-inner {
-  max-width: 860px;
-  margin: 0 auto;
-  padding: 0 1.5rem;
-}
-
-/* ─── Contact wrapper ──────────────────────────── */
-.oteri-contact-wrap {
-  background-color: #fdf8f2;
-  border-top: 1px solid rgba(122,59,59,0.12);
-}
-
-/* ─── Hover scale cards ────────────────────────── */
-[class*="service-card"],
-[class*="ServiceCard"] {
-  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1),
-              box-shadow 0.25s ease;
-}
-
-[class*="service-card"]:hover,
-[class*="ServiceCard"]:hover {
-  transform: scale(1.025) translateY(-4px);
-  box-shadow: 0 16px 40px rgba(122,59,59,0.18);
-}
-
-/* ─── Accent color overrides ──────────────────── */
-a, button {
-  --tw-ring-color: var(--brand-primary);
-}
-
-/* CTA button flavor */
-a[href^="tel"],
-button[class*="cta"],
-a[class*="cta"] {
-  background-color: var(--brand-primary) !important;
-  color: #fdf8f2 !important;
-}
-
-a[href^="tel"]:hover,
-button[class*="cta"]:hover,
-a[class*="cta"]:hover {
-  background-color: var(--brand-accent) !important;
-}
-
-/* ─── Picture frame body border ─────────────────── */
+/* Picture frame inset — editorial feel */
 body::before {
-  content: '';
+  content: "";
   position: fixed;
   inset: 12px;
-  border: 1px solid rgba(122, 59, 59, 0.07);
+  border: 1px solid rgba(198, 40, 40, 0.06);
   pointer-events: none;
   z-index: 9998;
 }
 
-/* ─── Footer ──────────────────────────────────── */
-footer {
-  background-color: var(--brand-text) !important;
-  color: #fdf8f2 !important;
+/* Editorial horizontal rule */
+.editorial-rule {
+  width: 40px;
+  height: 1px;
+  background: var(--brand-primary);
+  margin-bottom: 1.5rem;
 }
 
-footer a {
-  color: rgba(253,248,242,0.7) !important;
+/* Gallery card hover */
+.gallery-card {
+  position: relative;
+  overflow: hidden;
 }
-footer a:hover {
-  color: var(--brand-accent) !important;
+.gallery-card img {
+  transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
-
-/* ─── Responsive tweaks ───────────────────────── */
-@media (max-width: 640px) {
-  .oteri-tagline-section {
-    padding: 4rem 1.25rem;
-  }
-  .oteri-tagline-headline {
-    font-size: 2.1rem;
-  }
-  .geo {
-    display: none;
-  }
+.gallery-card:hover img {
+  transform: scale(1.04);
 }
 
-        :root {
-          --brand-primary: ${PRIMARY};
-          --brand-accent: ${ACCENT};
-          --brand-text: #1a1008;
-          --brand-bg: #fdf8f2;
-        }
-        body { background-color: var(--brand-bg); }
-      
+/* Dark section styling */
+.section-dark {
+  background-color: var(--brand-dark);
+  color: #F4EEE3;
+}
+.section-dark .text-muted-override {
+  color: rgba(244, 238, 227, 0.6);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: var(--brand-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--brand-primary);
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--brand-accent);
+}
+
+/* Image warmth filter */
+.image-warm {
+  filter: saturate(1.05) contrast(1.02);
+}

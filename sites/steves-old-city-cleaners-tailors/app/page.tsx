@@ -1,180 +1,238 @@
-import { Navbar } from '@/components/Navbar'
-import { Footer } from '@/components/Footer'
-import { ClickToCall } from '@/components/ClickToCall'
-import { HeroSection } from '@/components/HeroSection'
-import { ImageGallery } from '@/components/ImageGallery'
-import { StatsCounter } from '@/components/StatsCounter'
-import { ServiceCards } from '@/components/ServiceCards'
-import { AboutSection } from '@/components/AboutSection'
-import { TestimonialCarousel } from '@/components/TestimonialCarousel'
-import { FounderQuote } from '@/components/FounderQuote'
-import { FAQAccordion } from '@/components/FAQAccordion'
-import { ContactSection } from '@/components/ContactSection'
-import type { Stat, Service, Review, FAQItem, NavLink, Photo, SocialLinks } from '@/components/types'
+import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/Footer";
+import { ClickToCall } from "@/components/ClickToCall";
+import { HeroSection } from "@/components/HeroSection";
+import { ImageGallery } from "@/components/ImageGallery";
+import { StatsCounter } from "@/components/StatsCounter";
+import { ServiceCards } from "@/components/ServiceCards";
+import { AboutSection } from "@/components/AboutSection";
+import { TestimonialCarousel } from "@/components/TestimonialCarousel";
+import { FounderQuote } from "@/components/FounderQuote";
+import { FAQAccordion } from "@/components/FAQAccordion";
+import { ContactSection } from "@/components/ContactSection";
+import type {
+  Stat,
+  Service,
+  Review,
+  FAQItem,
+  NavLink,
+  Photo,
+  SocialLinks,
+} from "@/components/types";
 
 const navLinks: NavLink[] = [
-  { label: 'Gallery', href: '#gallery' },
-  { label: 'Services', href: '#services' },
-  { label: 'About', href: '#about' },
-  { label: 'Reviews', href: '#reviews' },
-  { label: 'FAQ', href: '#faq' },
-  { label: 'Contact', href: '#contact' },
-]
+  { label: "Gallery", href: "#gallery" },
+  { label: "Services", href: "#services" },
+  { label: "About", href: "#about" },
+  { label: "Reviews", href: "#reviews" },
+  { label: "FAQ", href: "#faq" },
+  { label: "Contact", href: "#contact" },
+];
 
 const stats: Stat[] = [
-  {     value: 50, suffix: '+ Years', label: 'Tailoring Experience' },
-  {     value: 4.8, suffix: '★', label: 'Average Customer Rating' },
-  {     value: 107, suffix: '+', label: 'Verified Customer Reviews' },
-  {     value: 1, suffix: ' Master Tailor', label: 'Who Actually Remembers Your Name' },
-]
+  { value: 50, suffix: "+ Years", label: "Tailoring Experience" },
+  { value: 4.8, suffix: "★", label: "Average Customer Rating" },
+  { value: 107, suffix: "+", label: "Verified Customer Reviews" },
+  {
+    value: 1,
+    suffix: " Master Tailor",
+    label: "Who Actually Remembers Your Name",
+  },
+];
 
 const services: Service[] = [
   {
-    name: 'Suit & Tuxedo Tailoring',
-    description: 'Precision alterations and custom fitting for suits and tuxedos, including waist suppression, sleeve shortening, and full re-silhouetting for weddings and formal events.',
-    icon: 'shirt',
-    image: '/photos/photo-3.webp',
+    name: "Suit & Tuxedo Tailoring",
+    description:
+      "Precision alterations and custom fitting for suits and tuxedos, including waist suppression, sleeve shortening, and full re-silhouetting for weddings and formal events.",
+    icon: "shirt",
+    image: "/photos/photo-3.webp",
   },
   {
-    name: 'Bridal & Formal Gown Alterations',
-    description: 'Expert hemming and fitting of bridal gowns, bridesmaid dresses, and multi-layer formal wear with try-on fittings to ensure the perfect finish before your event.',
-    icon: 'sparkles',
-    image: '/photos/photo-4.webp',
+    name: "Bridal & Formal Gown Alterations",
+    description:
+      "Expert hemming and fitting of bridal gowns, bridesmaid dresses, and multi-layer formal wear with try-on fittings to ensure the perfect finish before your event.",
+    icon: "sparkles",
+    image: "/photos/photo-4.webp",
   },
   {
-    name: 'Dress & Garment Hemming',
-    description: 'Clean, precise hemming for dresses, pants, and skirts across a wide range of fabrics, with honest upfront guidance on what results to expect from each material.',
-    icon: 'scissors',
-    image: '/photos/photo-5.webp',
+    name: "Dress & Garment Hemming",
+    description:
+      "Clean, precise hemming for dresses, pants, and skirts across a wide range of fabrics, with honest upfront guidance on what results to expect from each material.",
+    icon: "scissors",
+    image: "/photos/photo-5.webp",
   },
   {
-    name: 'Menswear Alterations',
-    description: 'Comprehensive alterations for entire menswear collections — from trouser tapering and jacket reshaping to waistband adjustments — with expert advice on contemporary fit trends.',
-    icon: 'briefcase',
-    image: '/photos/photo-6.webp',
+    name: "Menswear Alterations",
+    description:
+      "Comprehensive alterations for entire menswear collections — from trouser tapering and jacket reshaping to waistband adjustments — with expert advice on contemporary fit trends.",
+    icon: "briefcase",
+    image: "/photos/photo-6.webp",
   },
   {
-    name: 'Dry Cleaning',
-    description: 'Professional dry cleaning for everyday garments and delicate formalwear, handled with the same care and attention that defines every service at the shop.',
-    icon: 'wind',
-    image: '/photos/photo-7.webp',
+    name: "Dry Cleaning",
+    description:
+      "Professional dry cleaning for everyday garments and delicate formalwear, handled with the same care and attention that defines every service at the shop.",
+    icon: "wind",
+    image: "/photos/photo-7.webp",
   },
   {
-    name: 'Rush & Last-Minute Alterations',
-    description: 'Expedited tailoring services for time-sensitive needs — Steve has been known to stay past closing to ensure customers aren\'t left without a solution before a big event.',
-    icon: 'zap',
-    image: '/photos/photo-8.webp',
+    name: "Rush & Last-Minute Alterations",
+    description:
+      "Expedited tailoring services for time-sensitive needs — Steve has been known to stay past closing to ensure customers aren't left without a solution before a big event.",
+    icon: "zap",
+    image: "/photos/photo-8.webp",
   },
-]
+];
 
 const reviews: Review[] = [
   {
-    text: 'Steve is amazing his skill and customer service is top tier. Steve is also just an amazing person and very easy to work with. I have had a hard time with tailors in the past but Steve makes sure that my concerns are heard and understands my wants and needs.\n\nIf your in the area I highly recommend you get an appointment with Steve. As someone who needs alterations on an rather large mens wear collection I can say with confidence I will be back!',
-    author: 'Ethan Nguyen',
+    text: "Steve is amazing his skill and customer service is top tier. Steve is also just an amazing person and very easy to work with. I have had a hard time with tailors in the past but Steve makes sure that my concerns are heard and understands my wants and needs.\n\nIf your in the area I highly recommend you get an appointment with Steve. As someone who needs alterations on an rather large mens wear collection I can say with confidence I will be back!",
+    author: "Ethan Nguyen",
     rating: 5,
-    source: 'google',
-    date: '2025-09-21',
+    source: "google",
+    date: "2025-09-21",
   },
   {
-    text: '10/10 AMZING service. I could not recommend Steve’s Old City Tailor enough. Steve was kind, attentive, and his staff was quick to turn around our suit and gown tailoring. My dress needed hemming on 5 layers of fabric, and Steve made sure I was able to try on the fitted gown and have it completed on time. Thank you, Steve!',
-    author: 'Hannah Brusca',
+    text: "10/10 AMZING service. I could not recommend Steve’s Old City Tailor enough. Steve was kind, attentive, and his staff was quick to turn around our suit and gown tailoring. My dress needed hemming on 5 layers of fabric, and Steve made sure I was able to try on the fitted gown and have it completed on time. Thank you, Steve!",
+    author: "Hannah Brusca",
     rating: 5,
-    source: 'google',
-    date: '2026-01-19',
+    source: "google",
+    date: "2026-01-19",
   },
   {
-    text: 'Steve is super personable, remembers his clients and most importantly, he’s very experienced in his craft. He’s done a really nice job on various clothes I’ve brought him, most recently a custom tux for my wedding that he tightened up with precision.\n\nWhere he stands out (for me) is his helpfulness in guiding you through the right level of tailoring (if you want it). In the past I’ve gone in without a good sense on how a certain pair of formal pants should fit and he’s very good at providing recommendations based on his experience and where he sees trends going. He\'s been in business for 50 years, but he’s well aligned with ever-changing trends and how people of all age groups might prefer the fit. I haven’t found this level of service elsewhere. I recommend all my friends in the city to go to Steve!',
-    author: 'Greg Becker',
+    text: "Steve is super personable, remembers his clients and most importantly, he’s very experienced in his craft. He’s done a really nice job on various clothes I’ve brought him, most recently a custom tux for my wedding that he tightened up with precision.\n\nWhere he stands out (for me) is his helpfulness in guiding you through the right level of tailoring (if you want it). In the past I’ve gone in without a good sense on how a certain pair of formal pants should fit and he’s very good at providing recommendations based on his experience and where he sees trends going. He's been in business for 50 years, but he’s well aligned with ever-changing trends and how people of all age groups might prefer the fit. I haven’t found this level of service elsewhere. I recommend all my friends in the city to go to Steve!",
+    author: "Greg Becker",
     rating: 5,
-    source: 'google',
-    date: '2025-09-06',
+    source: "google",
+    date: "2025-09-06",
   },
   {
-    text: '⭐️⭐️⭐️⭐️⭐️ 10/10 Service!!\nI needed a last minute dress alteration, and Steve went above and beyond! He stayed open past closing time just to help me out. You’d expect to feel rushed in that situation, but NOT with Steve! He was so welcoming and kind. My boyfriend and I would honestly come back just to hang out with him! Such a personable and incredibly talented man. Thank you again, Steve!',
-    author: 'Genevieve Nania',
+    text: "⭐️⭐️⭐️⭐️⭐️ 10/10 Service!!\nI needed a last minute dress alteration, and Steve went above and beyond! He stayed open past closing time just to help me out. You’d expect to feel rushed in that situation, but NOT with Steve! He was so welcoming and kind. My boyfriend and I would honestly come back just to hang out with him! Such a personable and incredibly talented man. Thank you again, Steve!",
+    author: "Genevieve Nania",
     rating: 5,
-    source: 'google',
-    date: '2025-10-17',
+    source: "google",
+    date: "2025-10-17",
   },
   {
-    text: 'I was recommended to come here by two friends so had high hopes -but I can\'t in good conscience ignore how poor my experience was.\n\nI had an expensive bridesmaids gown that was jersey material needing to be hemmed. Steve acknowledged the material could be tricky to work with, but assured me they could do the job and emphasized the superior quality of their work to other places, which he said justified the pricing. He said while it wouldn\'t be perfect, he\'d get it as close to the original hemming look as he could. Quality of work was important to me so I didn\'t hesitate with the quoted cost. This was for my best friend\'s black tie wedding.\n\nWhen I went to pick up my dress, the hemming job was absolutely horrible. The hem was extremely sloppy - the cut was jagged and the pressed lining wasn\'t even fully sealed. I was charged $150 for this work and when I went back to them, I was made to feel like this was acceptable and they had told me it was "a tough material to work with." I knew that it wouldn\'t be exactly as I bought it but if you look at the photos you can make your own judgment. The hemming was not to cut cleanly and had jagged edges like someone to a dull blade to it with no regard to quality.\n\nAfter listening to unapologetic explanations for almost 40 mins when I went back, I was refunded $50. I was told that there was nothing that could really be done to fix this and that no one would be able to see it since it was a floor length gown. I found this behavior to be dismissive of my concerns and felt genuinely gaslit. Given this was days before I had to leave and it didn\'t seem like I was going to be offered a really solutions, I accepted the money.\n\nI wore the dress as-is and after just one evening, there were peach fuzzes all along the hem--clear signs of poor handling.\n\nWhile they may have done a good job for others, PLEASE be cautious when it comes to the material type. I can\'t tell you how disappointed I was. I hate leaving negative reviews but I did not feel they took accountability that it was a poor job and was told "most people wouldn\'t even blink at that."\n\nI truly was so disheartened by this experience and will not be going back. Photos attached of what was given to me and then post wearing it.',
-    author: 'Shamin Jamadar',
+    text: "I was recommended to come here by two friends so had high hopes -but I can't in good conscience ignore how poor my experience was.\n\nI had an expensive bridesmaids gown that was jersey material needing to be hemmed. Steve acknowledged the material could be tricky to work with, but assured me they could do the job and emphasized the superior quality of their work to other places, which he said justified the pricing. He said while it wouldn't be perfect, he'd get it as close to the original hemming look as he could. Quality of work was important to me so I didn't hesitate with the quoted cost. This was for my best friend's black tie wedding.\n\nWhen I went to pick up my dress, the hemming job was absolutely horrible. The hem was extremely sloppy - the cut was jagged and the pressed lining wasn't even fully sealed. I was charged $150 for this work and when I went back to them, I was made to feel like this was acceptable and they had told me it was \"a tough material to work with.\" I knew that it wouldn't be exactly as I bought it but if you look at the photos you can make your own judgment. The hemming was not to cut cleanly and had jagged edges like someone to a dull blade to it with no regard to quality.\n\nAfter listening to unapologetic explanations for almost 40 mins when I went back, I was refunded $50. I was told that there was nothing that could really be done to fix this and that no one would be able to see it since it was a floor length gown. I found this behavior to be dismissive of my concerns and felt genuinely gaslit. Given this was days before I had to leave and it didn't seem like I was going to be offered a really solutions, I accepted the money.\n\nI wore the dress as-is and after just one evening, there were peach fuzzes all along the hem--clear signs of poor handling.\n\nWhile they may have done a good job for others, PLEASE be cautious when it comes to the material type. I can't tell you how disappointed I was. I hate leaving negative reviews but I did not feel they took accountability that it was a poor job and was told \"most people wouldn't even blink at that.\"\n\nI truly was so disheartened by this experience and will not be going back. Photos attached of what was given to me and then post wearing it.",
+    author: "Shamin Jamadar",
     rating: 1,
-    source: 'google',
-    date: '2025-07-14',
+    source: "google",
+    date: "2025-07-14",
   },
-]
+];
 
 const faqItems: FAQItem[] = [
   {
-    question: 'What kinds of garments does Steve specialize in?',
-    answer: 'Steve\'s strongest work is on structured formal garments — suits, tuxedos, and formal gowns. Customers rave about his precision on wedding and event attire. He also handles everyday menswear alterations across large wardrobes. For more delicate or stretchy fabrics like jersey, we recommend asking Steve directly about expected results before committing.',
+    question: "What kinds of garments does Steve specialize in?",
+    answer:
+      "Steve's strongest work is on structured formal garments — suits, tuxedos, and formal gowns. Customers rave about his precision on wedding and event attire. He also handles everyday menswear alterations across large wardrobes. For more delicate or stretchy fabrics like jersey, we recommend asking Steve directly about expected results before committing.",
   },
   {
-    question: 'How far in advance should I book before a wedding or formal event?',
-    answer: 'As early as possible is always best, but Steve has a track record of turning around event-critical work on tight timelines — including multi-layer gown hemming completed in time for a wedding. Rush and last-minute requests are accommodated when possible, and he\'s even been known to stay past closing hours for urgent needs.',
+    question:
+      "How far in advance should I book before a wedding or formal event?",
+    answer:
+      "As early as possible is always best, but Steve has a track record of turning around event-critical work on tight timelines — including multi-layer gown hemming completed in time for a wedding. Rush and last-minute requests are accommodated when possible, and he's even been known to stay past closing hours for urgent needs.",
   },
   {
-    question: 'What makes Steve different from other tailors in Philadelphia?',
-    answer: 'Fifty years of experience and a genuine interest in the person wearing the clothes. Steve doesn\'t just alter — he consults. He\'ll tell you how formal pants should fit, where trends are heading, and what level of tailoring actually makes sense for your body and wardrobe. Multiple customers say they haven\'t found this kind of guidance anywhere else in the city.',
+    question: "What makes Steve different from other tailors in Philadelphia?",
+    answer:
+      "Fifty years of experience and a genuine interest in the person wearing the clothes. Steve doesn't just alter — he consults. He'll tell you how formal pants should fit, where trends are heading, and what level of tailoring actually makes sense for your body and wardrobe. Multiple customers say they haven't found this kind of guidance anywhere else in the city.",
   },
   {
-    question: 'I have a challenging or unusual fabric — can Steve work with it?',
-    answer: 'Steve will always have an honest conversation with you upfront about difficult materials. He\'ll let you know what\'s achievable and what the realistic outcome looks like before any work begins. Transparency about tricky fabrics is part of how he operates — so don\'t hesitate to bring your garment in for a consultation first.',
+    question:
+      "I have a challenging or unusual fabric — can Steve work with it?",
+    answer:
+      "Steve will always have an honest conversation with you upfront about difficult materials. He'll let you know what's achievable and what the realistic outcome looks like before any work begins. Transparency about tricky fabrics is part of how he operates — so don't hesitate to bring your garment in for a consultation first.",
   },
   {
-    question: 'Do I need an appointment, or can I walk in?',
-    answer: 'Walk-ins are welcome, but booking an appointment is recommended — especially for bridal or formal wear with a deadline. The shop is open Tuesday through Friday 9 AM to 7 PM and Saturday 9 AM to 3:30 PM. Steve is closed Sundays and Mondays. Call (215) 427-2550 to arrange a fitting.',
+    question: "Do I need an appointment, or can I walk in?",
+    answer:
+      "Walk-ins are welcome, but booking an appointment is recommended — especially for bridal or formal wear with a deadline. The shop is open Tuesday through Friday 9 AM to 7 PM and Saturday 9 AM to 3:30 PM. Steve is closed Sundays and Mondays. Call (215) 427-2550 to arrange a fitting.",
   },
   {
-    question: 'How has Steve stayed relevant after 50 years in the business?',
-    answer: 'By actually paying attention. Customers note that despite his decades of experience, Steve stays well-aligned with how different age groups prefer their clothes to fit today. He doesn\'t push an old-school silhouette — he listens to what you want and brings his experience to help you get there.',
+    question: "How has Steve stayed relevant after 50 years in the business?",
+    answer:
+      "By actually paying attention. Customers note that despite his decades of experience, Steve stays well-aligned with how different age groups prefer their clothes to fit today. He doesn't push an old-school silhouette — he listens to what you want and brings his experience to help you get there.",
   },
-]
+];
 
 const heroImage: Photo = {
-  src: '/photos/photo-1.webp',
-  alt: 'Steve’s Old City Cleaners & Tailors photo 1',
-  category: 'exterior',
-}
+  src: "/photos/photo-1.webp",
+  alt: "Steve’s Old City Cleaners & Tailors photo 1",
+  category: "exterior",
+};
 
 const aboutImage: Photo = {
-  src: '/photos/photo-2.webp',
-  alt: 'Steve’s Old City Cleaners & Tailors photo 2',
-  category: 'interior',
-}
+  src: "/photos/photo-2.webp",
+  alt: "Steve’s Old City Cleaners & Tailors photo 2",
+  category: "interior",
+};
 
 const galleryPhotos: Photo[] = [
-  { src: '/photos/photo-3.webp', alt: 'Steve’s Old City Cleaners & Tailors photo 3', category: 'work' },
-  { src: '/photos/photo-4.webp', alt: 'Steve’s Old City Cleaners & Tailors photo 4', category: 'work' },
-  { src: '/photos/photo-5.webp', alt: 'Steve’s Old City Cleaners & Tailors photo 5', category: 'work' },
-  { src: '/photos/photo-6.webp', alt: 'Steve’s Old City Cleaners & Tailors photo 6', category: 'work' },
-  { src: '/photos/photo-7.webp', alt: 'Steve’s Old City Cleaners & Tailors photo 7', category: 'work' },
-  { src: '/photos/photo-8.webp', alt: 'Steve’s Old City Cleaners & Tailors photo 8', category: 'work' },
-  { src: '/photos/photo-9.webp', alt: 'Steve’s Old City Cleaners & Tailors photo 9', category: 'work' },
-  { src: '/photos/photo-10.webp', alt: 'Steve’s Old City Cleaners & Tailors photo 10', category: 'work' },
-]
+  {
+    src: "/photos/photo-3.webp",
+    alt: "Steve’s Old City Cleaners & Tailors photo 3",
+    category: "work",
+  },
+  {
+    src: "/photos/photo-4.webp",
+    alt: "Steve’s Old City Cleaners & Tailors photo 4",
+    category: "work",
+  },
+  {
+    src: "/photos/photo-5.webp",
+    alt: "Steve’s Old City Cleaners & Tailors photo 5",
+    category: "work",
+  },
+  {
+    src: "/photos/photo-6.webp",
+    alt: "Steve’s Old City Cleaners & Tailors photo 6",
+    category: "work",
+  },
+  {
+    src: "/photos/photo-7.webp",
+    alt: "Steve’s Old City Cleaners & Tailors photo 7",
+    category: "work",
+  },
+  {
+    src: "/photos/photo-8.webp",
+    alt: "Steve’s Old City Cleaners & Tailors photo 8",
+    category: "work",
+  },
+  {
+    src: "/photos/photo-9.webp",
+    alt: "Steve’s Old City Cleaners & Tailors photo 9",
+    category: "work",
+  },
+  {
+    src: "/photos/photo-10.webp",
+    alt: "Steve’s Old City Cleaners & Tailors photo 10",
+    category: "work",
+  },
+];
 
-const socialLinks: SocialLinks = {}
+const socialLinks: SocialLinks = {};
 
 const businessContact = {
-  name: 'Steve’s Old City Cleaners & Tailors',
-  address: '102 Chestnut St',
-  city: 'Philadelphia',
-  state: 'PA',
-  zip: '19106',
-  phone: '(215) 427-2550',
-  email: '',
+  name: "Steve’s Old City Cleaners & Tailors",
+  address: "102 Chestnut St",
+  city: "Philadelphia",
+  state: "PA",
+  zip: "19106",
+  phone: "(215) 427-2550",
+  email: "",
   hours: {
-    Monday: 'Closed',
-    Tuesday: '9:00 AM – 7:00 PM',
-    Wednesday: '9:00 AM – 7:00 PM',
-    Thursday: '9:00 AM – 7:00 PM',
-    Friday: '9:00 AM – 7:00 PM',
-    Saturday: '9:00 AM – 3:30 PM',
-    Sunday: 'Closed',
+    Monday: "Closed",
+    Tuesday: "9:00 AM – 7:00 PM",
+    Wednesday: "9:00 AM – 7:00 PM",
+    Thursday: "9:00 AM – 7:00 PM",
+    Friday: "9:00 AM – 7:00 PM",
+    Saturday: "9:00 AM – 3:30 PM",
+    Sunday: "Closed",
   },
-}
+};
 
 export default function HomePage() {
   return (
@@ -188,17 +246,17 @@ export default function HomePage() {
 
       <main>
         <HeroSection
-            headline="Fifty Years. Every Stitch Intentional."
-            subheadline="Steve doesn't just alter clothes — he stays past closing, remembers your name, and makes sure you walk out looking exactly right. That's not policy. That's who he is."
-            ctaText="Get a Free Quote"
-            ctaHref="#contact"
-            secondaryCtaText="Call (215) 427-2550"
-            secondaryCtaHref="tel:(215) 427-2550"
-            rating={4.8}
-            reviewCount={107}
-            foregroundImage={heroImage}
-            variant="split"
-          />
+          headline="Fifty Years. Every Stitch Intentional."
+          subheadline="Steve doesn't just alter clothes — he stays past closing, remembers your name, and makes sure you walk out looking exactly right. That's not policy. That's who he is."
+          ctaText="Get a Free Quote"
+          ctaHref="#contact"
+          secondaryCtaText="Call (215) 427-2550"
+          secondaryCtaHref="tel:(215) 427-2550"
+          rating={4.8}
+          reviewCount={107}
+          foregroundImage={heroImage}
+          variant="split"
+        />
 
         <div id="gallery">
           <ImageGallery
@@ -241,15 +299,19 @@ export default function HomePage() {
         <div id="founder">
           <FounderQuote
             founder={{
-              name: 'Steve',
-              role: 'Master Tailor & Owner',
-              quote: 'Steve has been in this business for five decades — long enough to have tailored for Philadelphia families across multiple generations, long enough to know that fashion trends are cyclical, and long enough to have earned the kind of quiet confidence that only comes from mastering a craft over a lifetime. He set up shop in Old City, one of Philadelphia\'s most storied neighborhoods, and never left. Customers describe him as \'personable,\' \'kind,\' and \'easy to work with\' — words that don\'t usually show up in reviews of dry cleaners, but that tell you everything about how Steve runs his shop. He doesn\'t just alter clothes; he holds consultations. He doesn\'t just take your money; he makes sure your concerns are heard.\n\nWhat\'s remarkable about Steve is that 50 years haven\'t made him rigid. Greg Becker noted that despite his decades in the trade, Steve stays well-aligned with how younger customers think about fit and style — offering guidance without imposing it. When a customer is nervous about an important event, Steve doesn\'t rush them. When it\'s past closing time and someone walks in with a problem, he stays. That\'s the kind of tailor Philadelphians pass down like a family secret — and why a shop with no website and no formal marketing still holds a 4.8-star rating on the strength of word-of-mouth alone.',
+              name: "Steve",
+              role: "Master Tailor & Owner",
+              quote:
+                "Steve has been in this business for five decades — long enough to have tailored for Philadelphia families across multiple generations, long enough to know that fashion trends are cyclical, and long enough to have earned the kind of quiet confidence that only comes from mastering a craft over a lifetime. He set up shop in Old City, one of Philadelphia's most storied neighborhoods, and never left. Customers describe him as 'personable,' 'kind,' and 'easy to work with' — words that don't usually show up in reviews of dry cleaners, but that tell you everything about how Steve runs his shop. He doesn't just alter clothes; he holds consultations. He doesn't just take your money; he makes sure your concerns are heard.\n\nWhat's remarkable about Steve is that 50 years haven't made him rigid. Greg Becker noted that despite his decades in the trade, Steve stays well-aligned with how younger customers think about fit and style — offering guidance without imposing it. When a customer is nervous about an important event, Steve doesn't rush them. When it's past closing time and someone walks in with a problem, he stays. That's the kind of tailor Philadelphians pass down like a family secret — and why a shop with no website and no formal marketing still holds a 4.8-star rating on the strength of word-of-mouth alone.",
             }}
           />
         </div>
 
         <div id="faq" className="bg-[var(--brand-bg-alt)]">
-          <FAQAccordion heading="Questions Steve Gets Every Week" items={faqItems} />
+          <FAQAccordion
+            heading="Questions Steve Gets Every Week"
+            items={faqItems}
+          />
         </div>
 
         <div id="contact">
@@ -269,5 +331,5 @@ export default function HomePage() {
 
       <ClickToCall phone="(215) 427-2550" />
     </>
-  )
+  );
 }

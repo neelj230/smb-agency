@@ -1,452 +1,518 @@
-'use client'
+// Nails To Tails — Medford, OR — Warm cute editorial
+"use client";
 
-import { Navbar } from '@/components/Navbar'
-import { HeroSection } from '@/components/HeroSection'
-import { ServiceCards } from '@/components/ServiceCards'
-import { AboutSection } from '@/components/AboutSection'
-import { TestimonialCarousel } from '@/components/TestimonialCarousel'
-import { StatsCounter } from '@/components/StatsCounter'
-import { ImageGallery } from '@/components/ImageGallery'
-import { FAQAccordion } from '@/components/FAQAccordion'
-import { ContactSection } from '@/components/ContactSection'
-import { Footer } from '@/components/Footer'
-import { ClickToCall } from '@/components/ClickToCall'
-import type { NavLink, Photo, Service, Review, Stat, FAQItem, SocialLinks } from '@/components/types'
-import { motion } from 'framer-motion'
+import { ClickToCall } from "@/components/ClickToCall";
+import type { NavLink } from "@/components/types";
+import { motion } from "framer-motion";
+import { ArrowUpRight, Phone, Star } from "lucide-react";
 
-// ─── Brand tokens ───────────────────────────────────────────────────────────
-const brand = {
-  green: '#00A64C',
-  teal: '#0091a6',
-}
+// ─── DATA ────────────────────────────────────────────────────────────────────
 
-// ─── Nav ────────────────────────────────────────────────────────────────────
 const navLinks: NavLink[] = [
-  { label: 'Services', href: '#services' },
-  { label: 'About', href: '#about' },
-  { label: 'Gallery', href: '#gallery' },
-  { label: 'Reviews', href: '#reviews' },
-  { label: 'FAQ', href: '#faq' },
-  { label: 'Contact', href: '#contact' },
-]
+  { label: "Services", href: "#services" },
+  { label: "Groomers", href: "#groomers" },
+  { label: "Reviews", href: "#reviews" },
+  { label: "Visit", href: "#visit" },
+];
 
-// ─── Hero ────────────────────────────────────────────────────────────────────
-const heroPhoto: Photo = {
-  src: '/photos/photo-1.webp',
-  alt: 'Dogs playing in indoor facility with agility equipment and tunnels.',
-  category: 'interior',
-}
+const services = [
+  {
+    n: "01",
+    name: "Full Groom & Style",
+    copy: "Breed-specific cuts, bath, blow-dry, and finishing — delivered to show-quality standards.",
+  },
+  {
+    n: "02",
+    name: "Bath & Blowout",
+    copy: "Heavy double coats come out soft as silk. Works on even the most legendary shedders.",
+  },
+  {
+    n: "03",
+    name: "Senior Pet Grooming",
+    copy: "Slower pace, softer hands. For older dogs who deserve a little extra patience.",
+  },
+  {
+    n: "04",
+    name: "Anxiety-Friendly Sessions",
+    copy: "We let nervous pups meet the space and the other dogs before a single scissor comes out.",
+  },
+  {
+    n: "05",
+    name: "Nail Trim & Paw Care",
+    copy: "Precise, quick, gentle — for dogs and cats of every size and attitude.",
+  },
+  {
+    n: "06",
+    name: "Indoor Play & Social",
+    copy: "Supervised indoor play with agility tunnels. A safe place to burn off real dog energy.",
+  },
+];
 
-// ─── Services ────────────────────────────────────────────────────────────────
-const services: Service[] = [
+const groomers = [
   {
-    name: 'Full Groom & Style',
-    description:
-      'Complete breed-specific grooming including bath, blow-dry, cut, and finishing touches — delivered to show-quality standards.',
-    icon: 'scissors',
-    image: '/photos/photo-2.webp',
+    name: "Crystal",
+    tag: "Regulars & repeat clients",
+    pup: "Manny",
+    quote: "She always makes him look so handsome — and he&apos;s always happy leaving her chair.",
+    by: "Karen Bergren, Manny's owner",
   },
   {
-    name: 'Bath & Blowout',
-    description:
-      'Deep cleansing bath followed by professional blow-dry that leaves even heavy double coats soft, silky, and shed-reduced.',
-    icon: 'wind',
-    image: '/photos/photo-3.webp',
+    name: "Ashley",
+    tag: "Senior specialist",
+    pup: "A 13-year-old pup",
+    quote: "Ashley did a fantastic job with my senior dog. He looks amazing.",
+    by: "Laina Morris",
   },
   {
-    name: 'Nail Trim & Paw Care',
-    description:
-      'Precise nail trimming for dogs and cats of all sizes and temperaments, keeping paws healthy and comfortable.',
-    icon: 'paw-print',
-    image: '/photos/photo-4.webp',
+    name: "Cody",
+    tag: "Anxious & reactive pets",
+    pup: "A Shih Tzu from NY",
+    quote: "She took extra time to make sure my dog acclimated to the building and the other pups.",
+    by: "Carol Kamph, new in town",
   },
-  {
-    name: 'Senior Pet Grooming',
-    description:
-      'Gentle, patient grooming sessions tailored to older dogs who need extra time, care, and comfort throughout the process.',
-    icon: 'heart',
-    image: '/photos/photo-5.webp',
-  },
-  {
-    name: 'Anxiety-Friendly Grooming',
-    description:
-      'Slow-introduction grooming for nervous or reactive pets, including acclimation time with the space and other animals before any grooming begins.',
-    icon: 'shield',
-    image: '/photos/photo-6.webp',
-  },
-  {
-    name: 'Indoor Doggie Play & Socialization',
-    description:
-      'A safe, supervised indoor play area with agility equipment and tunnels where dogs can socialize, play, and burn energy.',
-    icon: 'play',
-    image: '/photos/photo-7.webp',
-  },
-]
+];
 
-// ─── About ───────────────────────────────────────────────────────────────────
-const aboutPhoto: Photo = {
-  src: '/photos/photo-8.webp',
-  alt: 'Fluffy white dog with tongue out relaxing on couch with blankets',
-  category: 'interior',
-}
+const bigQuote = {
+  lead: "Christine brings her show girl Ruby here and says,",
+  text: "Nails to Tails is always a winner.",
+  author: "Christine Parker",
+  context: "Owner of Ruby · Show-ring regular",
+};
 
-// ─── Reviews ─────────────────────────────────────────────────────────────────
-const reviews: Review[] = [
-  {
-    text: "I have to say, I've been very pleased with Nails to Tails when they groom my show girl, Ruby. I know she's going to be pampered and groomed to perfection. Nails to Tails is always a winner!",
-    author: 'Christine Parker',
-    rating: 5,
-    source: 'google',
-  },
-  {
-    text: 'Ashley did a fantastic job with my senior dog! He looks amazing! I will definitely bring him back. Nails to Tails is the best!',
-    author: 'Laina Morris',
-    rating: 5,
-    source: 'google',
-  },
-  {
-    text: 'I absolutely love Crystal! She is so good with my dog Manny ❤️ She always makes him look so handsome and he is always happy with her. So glad we found her!',
-    author: 'Karen Bergren',
-    rating: 5,
-    source: 'google',
-  },
-  {
-    text: "I just moved to the area from NY and took my Shih Tzu for a full groom at a big box store. She got spooked, they couldn't give her full service and she ended up looking awful. I brought her to Nails and Tails and Cody did an awesome job cleaning up the mess. She took extra time t...",
-    author: 'Carol Kamph',
-    rating: 5,
-    source: 'google',
-  },
-  {
-    text: "Took my German Shepard husky mix dog here. She's 9 y/o. The amount of hair she sheds could supply a platoon a full set of winter coats. After her bath and blow out, her hair was soft like silk, nails were trimmed, and she smelt like a new dog.",
-    author: 'MrJdub454',
-    rating: 5,
-    source: 'google',
-  },
-]
+const dogNames = [
+  "Ruby",
+  "Manny",
+  "A 9-year-old shedder",
+  "A new-to-town Shih Tzu",
+  "A senior good boy",
+  "A boxer with opinions",
+  "A very handsome poodle",
+  "Your dog, probably",
+];
 
-// ─── Stats ───────────────────────────────────────────────────────────────────
-const stats: Stat[] = [
-  { value: 5, suffix: '★', label: 'Perfect Rating on Google' },
-  { value: 41, suffix: '+', label: 'Five-Star Reviews' },
-  { value: 7, suffix: ' days', label: 'Open Every Day of the Week' },
-  { value: 3, suffix: '+', label: 'Named Groomers Trusted by Clients' },
-]
+const contact = {
+  address: "2191 Kings Hwy",
+  city: "Medford",
+  state: "OR",
+  zip: "97501",
+  phone: "(541) 500-1775",
+};
 
-// ─── Gallery ─────────────────────────────────────────────────────────────────
-const galleryPhotos: Photo[] = [
-  { src: '/photos/photo-2.webp', alt: 'Dark curly-haired dog sitting indoors wearing a collar with ID tag', category: 'product' },
-  { src: '/photos/photo-3.webp', alt: 'Small tan and white Chihuahua wearing red plaid pajamas on tile floor', category: 'product' },
-  { src: '/photos/photo-4.webp', alt: 'Light-colored dog being shown at competition with handler holding number six', category: 'product' },
-  { src: '/photos/photo-5.webp', alt: 'Black cat wearing blue collar with bell pendant indoors', category: 'product' },
-  { src: '/photos/photo-6.webp', alt: "Close-up of a boxer dog's face with mouth open, looking directly at camera.", category: 'product' },
-  { src: '/photos/photo-7.webp', alt: 'White fluffy dog wearing purple tie sitting on floral wingback chair', category: 'product' },
-  { src: '/photos/photo-9.webp', alt: 'Two dogs playing inside a business entrance near glass doors and windows', category: 'interior' },
-  { src: '/photos/photo-10.webp', alt: 'Black poodle with pink collar and bell tag sitting on rocky forest ground', category: 'product' },
-]
-
-// ─── FAQ ─────────────────────────────────────────────────────────────────────
-const faqItems: FAQItem[] = [
-  {
-    question: 'My dog had a bad experience at another groomer. Can you help?',
-    answer:
-      "Absolutely — this is one of the things Nails To Tails does best. Groomer Cody is known for taking extra time to let anxious pets adjust to the space before any grooming begins. Many clients come to us after difficult experiences elsewhere and leave thrilled.",
-  },
-  {
-    question: 'Do you groom show dogs?',
-    answer:
-      "Yes! Several of our groomers have experience delivering competition-quality results. Christine Parker brings her show dog Ruby here and trusts us to groom her to perfection every time.",
-  },
-  {
-    question: 'Can you handle heavy shedders and double-coated breeds?',
-    answer:
-      "We sure can. One happy customer brought in a 9-year-old German Shepherd-Husky mix — a legendary shedder — and left with a dog whose coat was soft as silk. Our bath and blowout service is built for exactly this.",
-  },
-  {
-    question: 'Do you groom senior dogs?',
-    answer:
-      "Yes, and we take it seriously. Groomer Ashley specializes in gentle handling for older dogs who may need a slower pace or extra patience. Your senior pet is in good hands.",
-  },
-]
-
-// ─── Contact ─────────────────────────────────────────────────────────────────
-const businessContact = {
-  name: 'Nails To Tails & Doggie Solutions LLC pet care center',
-  address: '2191 Kings Hwy',
-  city: 'Medford',
-  state: 'OR',
-  zip: '97501',
-  phone: '(541) 500-1775',
-  email: '',
-  hours: {
-    Monday: '9:00 AM – 6:00 PM',
-    Tuesday: '9:00 AM – 6:00 PM',
-    Wednesday: '9:00 AM – 6:00 PM',
-    Thursday: '9:00 AM – 6:00 PM',
-    Friday: '9:00 AM – 6:00 PM',
-    Saturday: '9:00 AM – 6:00 PM',
-    Sunday: '9:00 AM – 6:00 PM',
-  },
-}
-
-const socialLinks: SocialLinks = {}
-
-// ─── Animation helpers ───────────────────────────────────────────────────────
-const fadeUp = {
-  hidden: { opacity: 0, y: 32 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: 'easeOut' } },
-}
-
-const stagger = {
-  visible: { transition: { staggerChildren: 0.12 } },
-}
-
-export default function Page() {
+export default function NailsToTails() {
   return (
     <>
-      {/* Google Fonts */}
-      
-
-      {/* Decorative paw-print SVG pattern layer — absolutely positioned, no layout impact */}
-      <div className="paw-pattern-bg" aria-hidden="true" />
-
-      <Navbar
-        businessName="Nails To Tails"
-        links={navLinks}
-        ctaText="Call Now"
-        ctaHref="tel:+15415001775"
-      />
-
       {/* ── HERO ─────────────────────────────────────────────────────────── */}
-      <section id="home">
-        <HeroSection
-          headline="Nails To Tails"
-          subheadline="Medford's pet care center — open 7 days a week."
-          ctaText="Book a Groom"
-          ctaHref="tel:+15415001775"
-          secondaryCtaText="See Services"
-          secondaryCtaHref="#services"
-          rating={5}
-          reviewCount={41}
-          variant="photo-bg"
-          backgroundImage={heroPhoto}
-        />
+      <section className="relative min-h-screen flex flex-col bg-[var(--brand-cream)]">
+        <nav className="relative z-50 w-full">
+          <div className="max-w-7xl mx-auto px-6 lg:px-12 py-8 flex items-center justify-between">
+            <a href="#" className="font-[family-name:var(--font-display)] text-lg font-bold text-[var(--brand-forest)] tracking-tight">
+              Nails <span className="italic font-normal">to</span> Tails
+            </a>
+            <div className="hidden md:flex items-center gap-8">
+              {navLinks.map((l) => (
+                <a
+                  key={l.label}
+                  href={l.href}
+                  className="text-[var(--brand-ink)]/70 hover:text-[var(--brand-forest)] text-sm transition-colors"
+                >
+                  {l.label}
+                </a>
+              ))}
+            </div>
+            <a
+              href="tel:+15415001775"
+              className="text-[var(--brand-forest)] text-sm font-[family-name:var(--font-mono)] tracking-tight border-b border-[var(--brand-forest)] pb-0.5"
+            >
+              (541) 500-1775
+            </a>
+          </div>
+        </nav>
+
+        <div className="relative z-10 flex-1 max-w-7xl mx-auto w-full px-6 lg:px-12 py-10 lg:py-14 grid lg:grid-cols-12 gap-12 items-center">
+          <div className="lg:col-span-7">
+            <motion.p
+              className="text-[var(--brand-amber)] text-xs uppercase tracking-[0.35em] mb-8 font-[family-name:var(--font-mono)]"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.6 }}
+            >
+              Medford, Oregon · Kings Hwy · 7 days a week
+            </motion.p>
+            <motion.h1
+              className="font-[family-name:var(--font-display)] text-[clamp(3rem,9.5vw,8.5rem)] leading-[0.9] tracking-[-0.035em] text-[var(--brand-ink)] font-semibold"
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.9, delay: 0.1 }}
+            >
+              Every coat,
+              <br />
+              <span className="italic font-normal text-[var(--brand-forest)]">every</span> personality.
+            </motion.h1>
+            <motion.p
+              className="mt-10 text-[var(--brand-muted)] text-lg max-w-md leading-relaxed"
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7, delay: 0.3 }}
+            >
+              A full pet care center in the Rogue Valley — with groomers who know your dog by name and give the nervous ones all the time they need.
+            </motion.p>
+            <motion.div
+              className="mt-12 flex flex-wrap gap-x-10 gap-y-4 items-center"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.7, delay: 0.5 }}
+            >
+              <a
+                href="tel:+15415001775"
+                className="inline-flex items-center gap-3 text-[var(--brand-forest)] text-lg font-[family-name:var(--font-display)] border-b-2 border-[var(--brand-forest)] pb-1 hover:border-[var(--brand-amber)] hover:text-[var(--brand-amber)] transition-colors"
+              >
+                Book a groom <ArrowUpRight className="w-5 h-5" />
+              </a>
+              <span className="text-xs text-[var(--brand-muted)] font-[family-name:var(--font-mono)] tracking-wider">
+                ★ 5.0 · 41 Google reviews
+              </span>
+            </motion.div>
+          </div>
+
+          <motion.div
+            className="lg:col-span-5 relative h-[400px] md:h-[560px] overflow-hidden bg-[var(--brand-forest)]"
+            initial={{ opacity: 0, scale: 1.04 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1.2, delay: 0.4 }}
+          >
+            <img
+              src="/photos/photo-8.webp"
+              alt="Fluffy white dog relaxing on couch"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute bottom-6 left-6 right-6 text-[var(--brand-cream)] font-[family-name:var(--font-mono)] text-xs tracking-[0.3em] uppercase flex justify-between">
+              <span>No. 01</span>
+              <span>After the groom</span>
+            </div>
+          </motion.div>
+        </div>
+
+        {/* dog names marquee */}
+        <div className="relative z-10 border-y border-[var(--brand-forest)]/20 overflow-hidden bg-[var(--brand-forest)]">
+          <div className="dog-ticker flex gap-12 w-max py-4 px-6">
+            {[...dogNames, ...dogNames, ...dogNames].map((m, i) => (
+              <span
+                key={i}
+                className="text-[var(--brand-amber-light)] text-xs font-[family-name:var(--font-mono)] uppercase tracking-[0.3em] whitespace-nowrap"
+              >
+                ◉ {m}
+              </span>
+            ))}
+          </div>
+        </div>
       </section>
 
-      {/* ── MARQUEE TRUST BAR ─────────────────────────────────────────────── */}
-      <div className="trust-bar-wrapper bg-[#00A64C] overflow-hidden py-3 relative">
-        <div className="trust-bar-track flex gap-0">
-          {[...Array(3)].map((_, i) => (
-            <div key={i} className="trust-bar-inner flex items-center gap-10 shrink-0 px-10">
-              {[
-                '★ 5.0 on Google',
-                '✂ Show-Quality Grooming',
-                '🐾 Open 7 Days',
-                '❤ Senior-Friendly',
-                '🛡 Anxiety-Safe',
-                '🎾 Indoor Play Area',
-              ].map((item, j) => (
-                <span
-                  key={j}
-                  className="whitespace-nowrap text-white font-semibold tracking-wide text-sm uppercase"
-                  style={{ fontFamily: 'var(--font-display)' }}
-                >
-                  {item}
+      {/* ── BIG PULL QUOTE ──────────────────────────────────────────────── */}
+      <section className="py-28 lg:py-36 px-6 lg:px-12 bg-[var(--brand-cream)]">
+        <div className="max-w-5xl mx-auto">
+          <motion.p
+            className="text-[var(--brand-amber)] text-xs uppercase tracking-[0.35em] mb-10 font-[family-name:var(--font-mono)]"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+          >
+            Ruby's people, on Ruby's grooms
+          </motion.p>
+          <motion.blockquote
+            className="font-[family-name:var(--font-display)] text-[clamp(2rem,6vw,4.75rem)] leading-[1.05] text-[var(--brand-ink)] tracking-[-0.02em] font-medium"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.9 }}
+          >
+            {bigQuote.lead}
+            <br />
+            <span className="italic text-[var(--brand-forest)]">&ldquo;{bigQuote.text}&rdquo;</span>
+          </motion.blockquote>
+          <motion.p
+            className="mt-10 text-[var(--brand-muted)] text-sm font-[family-name:var(--font-mono)] tracking-wider uppercase"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8, delay: 0.3 }}
+          >
+            — {bigQuote.author} · {bigQuote.context}
+          </motion.p>
+        </div>
+      </section>
+
+      {/* ── SERVICES — editorial list ──────────────────────────────────── */}
+      <section id="services" className="py-24 lg:py-32 px-6 lg:px-12 bg-[var(--brand-forest)] text-[var(--brand-cream)]">
+        <div className="max-w-6xl mx-auto">
+          <motion.div
+            className="mb-16 grid md:grid-cols-12 gap-8 items-end"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+          >
+            <div className="md:col-span-7">
+              <p className="text-[var(--brand-amber-light)] text-xs uppercase tracking-[0.35em] mb-6 font-[family-name:var(--font-mono)]">
+                What we do
+              </p>
+              <h2 className="font-[family-name:var(--font-display)] text-[clamp(2.25rem,5.5vw,4.5rem)] leading-[1.02] font-medium">
+                Six services.
+                <br />
+                <span className="italic">One chair per pup.</span>
+              </h2>
+            </div>
+            <p className="md:col-span-5 text-[var(--brand-cream)]/70 text-base leading-relaxed max-w-sm">
+              Show-ring regulars. Senior dogs. Shedders. Scaredy-pups. Cats too. Tell us what you&apos;re walking in with.
+            </p>
+          </motion.div>
+
+          <div className="border-t border-[var(--brand-cream)]/15">
+            {services.map((s, i) => (
+              <motion.div
+                key={s.n}
+                className="py-7 border-b border-[var(--brand-cream)]/15 grid md:grid-cols-12 gap-6 items-baseline group hover:bg-[var(--brand-cream)]/5 transition-colors px-2 md:px-4"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: i * 0.04 }}
+              >
+                <span className="md:col-span-1 font-[family-name:var(--font-mono)] text-sm text-[var(--brand-amber-light)]">
+                  {s.n}
                 </span>
-              ))}
+                <h3 className="md:col-span-4 font-[family-name:var(--font-display)] text-2xl md:text-3xl font-medium">
+                  {s.name}
+                </h3>
+                <p className="md:col-span-6 text-[var(--brand-cream)]/75 text-sm leading-relaxed">
+                  {s.copy}
+                </p>
+                <ArrowUpRight className="md:col-span-1 w-5 h-5 text-[var(--brand-amber-light)] justify-self-end opacity-0 group-hover:opacity-100 transition-opacity" />
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── GROOMERS ──────────────────────────────────────────────────── */}
+      <section id="groomers" className="py-28 lg:py-36 px-6 lg:px-12 bg-[var(--brand-cream)]">
+        <div className="max-w-6xl mx-auto">
+          <motion.div
+            className="mb-20 flex flex-col md:flex-row md:items-end md:justify-between gap-6"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
+          >
+            <div>
+              <p className="text-[var(--brand-amber)] text-xs tracking-[0.35em] uppercase mb-6 font-[family-name:var(--font-mono)]">
+                The team
+              </p>
+              <h2 className="font-[family-name:var(--font-display)] text-[clamp(2rem,5vw,4rem)] leading-[1.02] text-[var(--brand-ink)] font-medium">
+                Three groomers.
+                <br />
+                <span className="italic">Asked for by name.</span>
+              </h2>
+            </div>
+            <p className="text-[var(--brand-muted)] text-sm md:text-base max-w-sm">
+              Every client has their favorite. Request yours when you call.
+            </p>
+          </motion.div>
+
+          <div className="grid md:grid-cols-3 gap-0 border-t border-[var(--brand-ink)]/15">
+            {groomers.map((g, i) => (
+              <motion.div
+                key={g.name}
+                className="py-10 md:py-14 md:px-8 border-b md:border-b-0 md:border-r last:md:border-r-0 border-[var(--brand-ink)]/15"
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: i * 0.1 }}
+              >
+                <p className="font-[family-name:var(--font-mono)] text-xs text-[var(--brand-amber)] uppercase tracking-[0.3em] mb-6">
+                  {g.tag}
+                </p>
+                <h3 className="font-[family-name:var(--font-display)] text-4xl md:text-5xl text-[var(--brand-ink)] mb-5 leading-[1] font-medium">
+                  {g.name}.
+                </h3>
+                <p className="text-[var(--brand-muted)] text-xs font-[family-name:var(--font-mono)] uppercase tracking-wider mb-4">
+                  Notable client: {g.pup}
+                </p>
+                <blockquote className="text-[var(--brand-ink)]/80 text-sm leading-relaxed italic font-[family-name:var(--font-display)]"
+                  dangerouslySetInnerHTML={{ __html: `&ldquo;${g.quote}&rdquo;` }}
+                />
+                <p className="mt-4 text-[10px] text-[var(--brand-muted)] font-[family-name:var(--font-mono)] tracking-widest uppercase">
+                  — {g.by}
+                </p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── PHOTO BAND ─────────────────────────────────────────────── */}
+      <section className="bg-[var(--brand-forest)]/10 overflow-hidden py-0">
+        <div className="flex gap-3 dog-drift w-max">
+          {[
+            "/photos/photo-1.webp",
+            "/photos/photo-7.webp",
+            "/photos/photo-2.webp",
+            "/photos/photo-9.webp",
+            "/photos/photo-3.webp",
+            "/photos/photo-4.webp",
+            "/photos/photo-6.webp",
+            "/photos/photo-10.webp",
+            "/photos/photo-1.webp",
+            "/photos/photo-7.webp",
+            "/photos/photo-2.webp",
+            "/photos/photo-9.webp",
+            "/photos/photo-3.webp",
+            "/photos/photo-4.webp",
+            "/photos/photo-6.webp",
+            "/photos/photo-10.webp",
+          ].map((src, i) => (
+            <div key={i} className="h-56 md:h-80 w-72 md:w-96 flex-shrink-0">
+              <img src={src} alt="The salon on a regular day" className="w-full h-full object-cover" />
             </div>
           ))}
         </div>
-      </div>
-
-      {/* ── STATS — dark ────────────────────────────────────────────────────── */}
-      <section id="stats" className="bg-[#111827]">
-        <StatsCounter stats={stats} variant="dark" />
       </section>
 
-      {/* ── SERVICES ─────────────────────────────────────────────────────── */}
+      {/* ── REVIEWS ──────────────────────────────────────────── */}
+      <section id="reviews" className="py-28 lg:py-36 px-6 lg:px-12 bg-[var(--brand-cream)]">
+        <div className="max-w-7xl mx-auto">
+          <motion.div
+            className="mb-16"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7 }}
+          >
+            <p className="text-[var(--brand-amber)] text-xs uppercase tracking-[0.35em] mb-6 font-[family-name:var(--font-mono)]">
+              From Medford dog people
+            </p>
+            <h2 className="font-[family-name:var(--font-display)] text-[clamp(2rem,4.5vw,3.5rem)] leading-[1.05] text-[var(--brand-ink)] max-w-3xl font-medium">
+              Forty-one reviews.
+              <br />
+              <span className="italic">Every single one, five stars.</span>
+            </h2>
+          </motion.div>
+
+          <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
+            {[
+              {
+                text: "After her bath and blow out, her hair was soft like silk, nails were trimmed, and she smelled like a new dog.",
+                author: "MrJdub454",
+                context: "9-year-old Shepherd-Husky mix",
+              },
+              {
+                text: "I absolutely love Crystal! She is so good with my dog Manny. She always makes him look so handsome.",
+                author: "Karen Bergren",
+                context: "Manny's mom",
+              },
+              {
+                text: "Cody did an awesome job cleaning up the mess. She took extra time to make sure my dog acclimated.",
+                author: "Carol Kamph",
+                context: "Newly relocated from New York",
+              },
+            ].map((r, i) => (
+              <motion.figure
+                key={r.author}
+                className="bg-white p-8 border-t-2 border-[var(--brand-forest)]"
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: i * 0.1 }}
+              >
+                <div className="flex gap-1 mb-5">
+                  {[1, 2, 3, 4, 5].map((s) => (
+                    <Star key={s} className="w-3 h-3 fill-[var(--brand-amber)] text-[var(--brand-amber)]" />
+                  ))}
+                </div>
+                <blockquote className="font-[family-name:var(--font-display)] text-[var(--brand-ink)] text-xl leading-snug italic">
+                  &ldquo;{r.text}&rdquo;
+                </blockquote>
+                <figcaption className="mt-6 pt-4 border-t border-[var(--brand-ink)]/10">
+                  <p className="text-sm text-[var(--brand-ink)] font-medium">{r.author}</p>
+                  <p className="text-[10px] text-[var(--brand-muted)] font-[family-name:var(--font-mono)] tracking-widest uppercase mt-1">
+                    {r.context}
+                  </p>
+                </figcaption>
+              </motion.figure>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* ── CTA / CONTACT ─────────────────────────────────────────────── */}
       <section
-        id="services"
-        className="py-24 bg-[#f8faf9] dot-pattern relative"
+        id="visit"
+        className="py-28 lg:py-36 px-6 lg:px-12 bg-[var(--brand-forest)] text-[var(--brand-cream)]"
       >
-        <motion.div
-          className="container mx-auto px-4 text-center mb-12"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={fadeUp}
-        >
-          <span
-            className="inline-block text-xs font-semibold tracking-[0.18em] uppercase text-[#00A64C] mb-3"
-            style={{ fontFamily: 'var(--font-display)' }}
+        <div className="max-w-5xl mx-auto">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.8 }}
           >
-            What We Offer
-          </span>
-          <h2
-            className="text-4xl md:text-5xl font-extrabold text-[#111827] leading-tight"
-            style={{ fontFamily: 'var(--font-display)' }}
-          >
-            Every Service, <span className="text-[#00A64C]">Every Pet.</span>
-          </h2>
-          <p className="mt-4 text-[#4b5563] max-w-xl mx-auto text-base leading-relaxed">
-            From show-dog styling to senior-gentle baths — we handle it all, seven days a week.
-          </p>
-        </motion.div>
-        <ServiceCards
-          heading=""
-          services={services}
-          columns={3}
-          variant="grid"
-        />
+            <p className="text-[var(--brand-amber-light)] text-xs uppercase tracking-[0.35em] mb-8 font-[family-name:var(--font-mono)]"
+            >
+              Bring the dog
+            </p>
+            <h2 className="font-[family-name:var(--font-display)] text-[clamp(2.5rem,7vw,6rem)] leading-[0.98] font-medium">
+              Kings Hwy,
+              <br />
+              <span className="italic text-[var(--brand-amber-light)]">every day.</span>
+            </h2>
+          </motion.div>
+
+          <div className="mt-16 grid md:grid-cols-3 gap-10 font-[family-name:var(--font-mono)]">
+            <div>
+              <p className="text-[10px] uppercase tracking-[0.3em] text-[var(--brand-amber-light)] mb-3">Phone</p>
+              <a
+                href="tel:+15415001775"
+                className="text-2xl md:text-3xl font-[family-name:var(--font-display)] hover:text-[var(--brand-amber-light)] transition-colors block"
+              >
+                {contact.phone}
+              </a>
+            </div>
+            <div>
+              <p className="text-[10px] uppercase tracking-[0.3em] text-[var(--brand-amber-light)] mb-3">Find us</p>
+              <p className="text-sm leading-relaxed">
+                {contact.address}
+                <br />
+                {contact.city}, {contact.state} {contact.zip}
+              </p>
+            </div>
+            <div>
+              <p className="text-[10px] uppercase tracking-[0.3em] text-[var(--brand-amber-light)] mb-3">Hours</p>
+              <p className="text-sm leading-relaxed">
+                Mon – Sun · 9am – 6pm
+                <br />
+                Seven days a week
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-16 flex flex-wrap gap-5">
+            <a
+              href="tel:+15415001775"
+              className="inline-flex items-center gap-3 bg-[var(--brand-cream)] text-[var(--brand-ink)] px-8 py-4 rounded-full text-sm font-medium hover:bg-[var(--brand-amber-light)] transition"
+            >
+              <Phone className="w-4 h-4" /> Book a groom
+            </a>
+          </div>
+        </div>
       </section>
 
-      {/* ── ABOUT ────────────────────────────────────────────────────────── */}
-      <section id="about" className="py-0">
-        <AboutSection
-          heading="Groomed With Heart"
-          story="Nails To Tails started with a simple belief: every pet deserves a groomer who actually cares. Whether it's Ruby the show dog, a nervous rescue, or a 9-year-old husky shedding enough fur to stuff a winter coat — our groomers take the time your pet needs. We're at 2191 Kings Hwy in Medford, and we're here every single day."
-          image={aboutPhoto}
-        />
-      </section>
+      <footer className="py-10 px-6 lg:px-12 bg-[var(--brand-forest)] text-[var(--brand-cream)]/70 border-t border-[var(--brand-cream)]/15">
+        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 font-[family-name:var(--font-mono)] text-xs tracking-wider">
+          <p>Nails To Tails · Medford, OR</p>
+          <p>© 2026</p>
+        </div>
+      </footer>
 
-      {/* ── REVIEWS ─────────────────────────────────────────────────────── */}
-      <section
-        id="reviews"
-        className="bg-[#111827] py-20"
-      >
-        <motion.div
-          className="container mx-auto px-4 text-center mb-10"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={fadeUp}
-        >
-          <span
-            className="inline-block text-xs font-semibold tracking-[0.18em] uppercase text-[#00A64C] mb-3"
-            style={{ fontFamily: 'var(--font-display)' }}
-          >
-            Happy Clients
-          </span>
-          <h2
-            className="text-4xl md:text-5xl font-extrabold text-white leading-tight"
-            style={{ fontFamily: 'var(--font-display)' }}
-          >
-            Real Words. Real Pets.
-          </h2>
-        </motion.div>
-        <TestimonialCarousel
-          heading=""
-          reviews={reviews}
-          variant="scroll"
-        />
-      </section>
-
-      {/* ── GALLERY ─────────────────────────────────────────────────────── */}
-      <section id="gallery" className="py-24 bg-white">
-        <motion.div
-          className="container mx-auto px-4 text-center mb-12"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={fadeUp}
-        >
-          <span
-            className="inline-block text-xs font-semibold tracking-[0.18em] uppercase text-[#0091a6] mb-3"
-            style={{ fontFamily: 'var(--font-display)' }}
-          >
-            Paw Prints & Pretty Coats
-          </span>
-          <h2
-            className="text-4xl md:text-5xl font-extrabold text-[#111827] leading-tight"
-            style={{ fontFamily: 'var(--font-display)' }}
-          >
-            The Finished Look
-          </h2>
-        </motion.div>
-        <ImageGallery
-          heading=""
-          photos={galleryPhotos}
-          variant="masonry"
-        />
-      </section>
-
-      {/* ── PLAYFUL CTA BAND ─────────────────────────────────────────────── */}
-      <div className="cta-band relative overflow-hidden bg-[#0091a6] py-16 px-6 text-center">
-        {/* decorative circles */}
-        <span className="cta-blob cta-blob-1" aria-hidden="true" />
-        <span className="cta-blob cta-blob-2" aria-hidden="true" />
-        <motion.div
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={stagger}
-          className="relative z-10 flex flex-col items-center gap-6"
-        >
-          <motion.h2
-            variants={fadeUp}
-            className="text-3xl md:text-5xl font-extrabold text-white leading-tight max-w-2xl"
-            style={{ fontFamily: 'var(--font-display)' }}
-          >
-            Pampered Pets.{' '}
-            <span className="text-[#d4f5e4]">Every Nail. Every Tail.</span>
-          </motion.h2>
-          <motion.p variants={fadeUp} className="text-white/80 text-base max-w-md">
-            Call us or stop by — we're open Monday through Sunday, 9 AM to 6 PM.
-          </motion.p>
-          <motion.a
-            variants={fadeUp}
-            href="tel:+15415001775"
-            className="cta-btn-pill"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.97 }}
-          >
-            📞 (541) 500-1775
-          </motion.a>
-        </motion.div>
-      </div>
-
-      {/* ── FAQ ─────────────────────────────────────────────────────────── */}
-      <section id="faq" className="py-24 bg-[#f8faf9]">
-        <motion.div
-          className="container mx-auto px-4 text-center mb-12"
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={fadeUp}
-        >
-          <span
-            className="inline-block text-xs font-semibold tracking-[0.18em] uppercase text-[#00A64C] mb-3"
-            style={{ fontFamily: 'var(--font-display)' }}
-          >
-            Common Questions
-          </span>
-          <h2
-            className="text-4xl md:text-5xl font-extrabold text-[#111827] leading-tight"
-            style={{ fontFamily: 'var(--font-display)' }}
-          >
-            Good To Know
-          </h2>
-        </motion.div>
-        <FAQAccordion heading="" items={faqItems} />
-      </section>
-
-      {/* ── CONTACT ─────────────────────────────────────────────────────── */}
-      <section id="contact">
-        <ContactSection
-          business={businessContact}
-          heading="Find Us in Medford"
-          showMap={true}
-        />
-      </section>
-
-      {/* ── FOOTER ──────────────────────────────────────────────────────── */}
-      <Footer
-        business={businessContact}
-        links={navLinks}
-        socialLinks={socialLinks}
-      />
-
-      {/* ── CLICK-TO-CALL ─────────────────────────────────────────────── */}
       <ClickToCall phone="(541) 500-1775" />
     </>
-  )
+  );
 }

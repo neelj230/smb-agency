@@ -1,0 +1,149 @@
+@import "tailwindcss";
+
+/* Scan shared packages for Tailwind classes */
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+@source "./**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #5B8CCC;
+  --brand-accent: #F7C948;
+  --brand-bg: #f2f5f9;
+  --brand-bg-alt: #e8ecf2;
+  --brand-text: #1a1a2e;
+  --brand-muted: #555566;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: var(--brand-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+/* Marquee animation for carousels */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Smooth section transitions */
+section, [id] > div {
+  scroll-margin-top: 80px;
+}
+
+/* Focus-visible outlines for accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Subtle dot pattern background */
+.dot-pattern {
+  background-image: radial-gradient(circle, var(--brand-muted) 0.5px, transparent 0.5px);
+  background-size: 24px 24px;
+}
+
+/* Gradient transitions between sections */
+.section-gradient {
+  position: relative;
+}
+.section-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--brand-bg));
+  pointer-events: none;
+}
+
+/* Creative director extras */
+/* ── LOGO MARQUEE ── */
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  animation: marquee-scroll 30s linear infinite;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+/* ── GRADIENT BACKGROUNDS ── */
+.hero-gradient {
+  background: linear-gradient(
+    135deg,
+    #f0f5fc 0%,
+    #e6edf8 30%,
+    #dce6f4 60%,
+    #f2f5f9 100%
+  );
+}
+
+.card-pink-gradient {
+  background: linear-gradient(135deg, #fff0f5 0%, #ffe4ee 30%, #f5e6ff 100%);
+}
+
+.card-yellow-gradient {
+  background: linear-gradient(135deg, #fffdf0 0%, #fff8e0 30%, #fff3cc 100%);
+}
+
+.card-blue-gradient {
+  background: linear-gradient(135deg, #f0f5ff 0%, #e4eeff 30%, #e6f0ff 100%);
+}
+
+/* ── MOCKUP SHADOWS ── */
+.mockup-shadow {
+  box-shadow:
+    0 20px 60px rgba(91, 140, 204, 0.15),
+    0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+.card-shadow {
+  box-shadow:
+    0 4px 20px rgba(0, 0, 0, 0.05),
+    0 1px 4px rgba(0, 0, 0, 0.03);
+}
+
+.card-shadow-hover {
+  box-shadow:
+    0 8px 32px rgba(91, 140, 204, 0.12),
+    0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* ── PRICING TOGGLE ── */
+.toggle-bg {
+  background: #e8e4f0;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-knob {
+  transition: transform 0.3s ease;
+}
+
+/* ── SMOOTH TRANSITIONS ── */
+.transition-card {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.transition-card:hover {
+  transform: translateY(-4px);
+}

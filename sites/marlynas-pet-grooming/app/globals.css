@@ -5,12 +5,12 @@
 @source "../../../packages/integrations/**/*.{ts,tsx}";
 
 :root {
-  --brand-primary: #1B3A2D;
-  --brand-accent: #004055;
-  --brand-bg: #f5f5f0;
-  --brand-bg-alt: #ddded9;
-  --brand-text: #1a1a1a;
-  --brand-muted: #666666;
+  --brand-primary: #2D6A4F;
+  --brand-accent: #F4845F;
+  --brand-bg: #F5FAF7;
+  --brand-bg-alt: #ffffff;
+  --brand-text: #1a2e23;
+  --brand-muted: #6b7280;
 }
 
 ::selection {
@@ -29,12 +29,17 @@ body {
 
 /* Marquee animation for carousels */
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 /* Smooth section transitions */
-section, [id] > div {
+section,
+[id] > div {
   scroll-margin-top: 80px;
 }
 
@@ -46,7 +51,7 @@ section, [id] > div {
 
 /* Inset border for editorial/gallery feel */
 body::before {
-  content: '';
+  content: "";
   position: fixed;
   inset: 12px;
   z-index: 999;
@@ -60,7 +65,7 @@ body::before {
   position: relative;
 }
 .section-gradient::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -74,20 +79,22 @@ body::before {
 /* ── Marlyna's Pet Grooming — Custom CSS ─────────────────────────────────── */
 
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Inter:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Carattere&family=Inter:wght@300;400;500;600;700&display=swap");
 
 /* Brand Variables */
 :root {
-  --brand-primary: #1B3A2D;
-  --brand-accent: #004055;
-  --brand-bg: #f9f6f0;
-  --brand-text: #1B3A2D;
-  --font-display: 'Carattere', cursive;
-  --font-body: 'Inter', sans-serif;
+  --brand-primary: #2D6A4F;
+  --brand-accent: #F4845F;
+  --brand-bg: #F5FAF7;
+  --brand-text: #1a2e23;
+  --font-display: "Carattere", cursive;
+  --font-body: "Inter", sans-serif;
 }
 
 /* Display font application */
-h1, h2, .font-display {
+h1,
+h2,
+.font-display {
   font-family: var(--font-display);
 }
 
@@ -99,7 +106,7 @@ body {
 
 /* Film grain overlay — warm analog feel */
 body::after {
-  content: '';
+  content: "";
   position: fixed;
   inset: 0;
   pointer-events: none;
@@ -112,7 +119,11 @@ body::after {
 
 /* Dot pattern background helper */
 .dot-pattern {
-  background-image: radial-gradient(circle, rgba(27, 58, 45, 0.12) 1px, transparent 1px);
+  background-image: radial-gradient(
+    circle,
+    rgba(27, 58, 45, 0.12) 1px,
+    transparent 1px
+  );
   background-size: 22px 22px;
 }
 
@@ -155,7 +166,9 @@ section {
 
 /* Service card hover lift */
 .service-card {
-  transition: transform 0.28s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.28s ease;
+  transition:
+    transform 0.28s cubic-bezier(0.34, 1.56, 0.64, 1),
+    box-shadow 0.28s ease;
 }
 .service-card:hover {
   transform: translateY(-6px) scale(1.015);
@@ -182,7 +195,7 @@ section {
   position: relative;
 }
 .testimonial-dark-card::before {
-  content: '\201C';
+  content: "\201C";
   position: absolute;
   top: 12px;
   left: 20px;
@@ -230,14 +243,22 @@ footer a:hover {
 
 /* Number counter flash */
 @keyframes counter-pulse {
-  0% { opacity: 0.5; transform: scale(0.9); }
-  60% { transform: scale(1.06); }
-  100% { opacity: 1; transform: scale(1); }
+  0% {
+    opacity: 0.5;
+    transform: scale(0.9);
+  }
+  60% {
+    transform: scale(1.06);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 /* Inset picture-frame on hero */
 .hero-frame::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 14px;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -263,7 +284,12 @@ a[href^="tel"] {
 /* Soft section separator */
 .section-sep {
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(27, 58, 45, 0.15), transparent);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(27, 58, 45, 0.15),
+    transparent
+  );
   margin: 0 auto;
   max-width: 60%;
 }
@@ -281,10 +307,9 @@ a[href^="tel"] {
   }
 }
 
-        :root {
-          --brand-primary: #1B3A2D;
-          --brand-accent: #004055;
-          --brand-text: #1B3A2D;
-          --brand-bg: #f9f6f0;
-        }
-      
+:root {
+  --brand-primary: #2D6A4F;
+  --brand-accent: #F4845F;
+  --brand-text: #1a2e23;
+  --brand-bg: #F5FAF7;
+}

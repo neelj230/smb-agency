@@ -5,12 +5,12 @@
 @source "../../../packages/integrations/**/*.{ts,tsx}";
 
 :root {
-  --brand-primary: #1C4A96;
-  --brand-accent: #3400b2;
-  --brand-bg: #ffffff;
-  --brand-bg-alt: #e6e9ec;
-  --brand-text: #000000;
-  --brand-muted: #000000;
+  --brand-primary: #1A237E;
+  --brand-accent: #4DB6AC;
+  --brand-bg: #F8F9FF;
+  --brand-bg-alt: #ffffff;
+  --brand-text: #1A237E;
+  --brand-muted: #6b7280;
 }
 
 ::selection {
@@ -29,12 +29,17 @@ body {
 
 /* Marquee animation for carousels */
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 /* Smooth section transitions */
-section, [id] > div {
+section,
+[id] > div {
   scroll-margin-top: 80px;
 }
 
@@ -46,7 +51,11 @@ section, [id] > div {
 
 /* Subtle dot pattern background */
 .dot-pattern {
-  background-image: radial-gradient(circle, var(--brand-muted) 0.5px, transparent 0.5px);
+  background-image: radial-gradient(
+    circle,
+    var(--brand-muted) 0.5px,
+    transparent 0.5px
+  );
   background-size: 24px 24px;
 }
 
@@ -55,7 +64,7 @@ section, [id] > div {
   position: relative;
 }
 .section-gradient::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;

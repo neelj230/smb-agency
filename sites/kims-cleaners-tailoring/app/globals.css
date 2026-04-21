@@ -5,12 +5,12 @@
 @source "../../../packages/integrations/**/*.{ts,tsx}";
 
 :root {
-  --brand-primary: #1e64e6;
-  --brand-accent: #f6e304;
-  --brand-bg: #f0f4fa;
-  --brand-bg-alt: #d8e0ec;
-  --brand-text: #081d3a;
-  --brand-muted: #4e5c71;
+  --brand-primary: #2C3E50;
+  --brand-accent: #E74C3C;
+  --brand-bg: #FFFFFF;
+  --brand-bg-alt: #f8f9fa;
+  --brand-text: #2C3E50;
+  --brand-muted: #6b7280;
 }
 
 ::selection {
@@ -29,12 +29,17 @@ body {
 
 /* Marquee animation for carousels */
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 /* Smooth section transitions */
-section, [id] > div {
+section,
+[id] > div {
   scroll-margin-top: 80px;
 }
 
@@ -46,7 +51,11 @@ section, [id] > div {
 
 /* Subtle dot pattern background */
 .dot-pattern {
-  background-image: radial-gradient(circle, var(--brand-muted) 0.5px, transparent 0.5px);
+  background-image: radial-gradient(
+    circle,
+    var(--brand-muted) 0.5px,
+    transparent 0.5px
+  );
   background-size: 24px 24px;
 }
 
@@ -55,7 +64,7 @@ section, [id] > div {
   position: relative;
 }
 .section-gradient::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -72,8 +81,8 @@ section, [id] > div {
 
 /* ── Brand tokens ────────────────────────────────── */
 :root {
-  --kc-blue: #1e64e6;
-  --kc-yellow: #f6e304;
+  --kc-blue: #2C3E50;
+  --kc-yellow: #E74C3C;
   --kc-dark: #0f1623;
   --kc-dark-mid: #1a2236;
   --kc-light: #f7f8fc;
@@ -83,7 +92,7 @@ section, [id] > div {
 
 /* ── Film-grain overlay ──────────────────────────── */
 body::after {
-  content: '';
+  content: "";
   position: fixed;
   inset: 0;
   pointer-events: none;
@@ -111,8 +120,12 @@ body::after {
 }
 
 @keyframes kc-marquee-scroll {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 .kc-marquee-tag {
@@ -120,7 +133,7 @@ body::after {
   align-items: center;
   gap: 8px;
   color: #ffffff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 0.78rem;
   font-weight: 600;
   letter-spacing: 0.12em;
@@ -156,10 +169,14 @@ body::after {
 }
 
 .kc-reviews-bg::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse at 70% 50%, rgba(30, 100, 230, 0.05) 0%, transparent 70%);
+  background: radial-gradient(
+    ellipse at 70% 50%,
+    rgba(30, 100, 230, 0.05) 0%,
+    transparent 70%
+  );
   pointer-events: none;
 }
 
@@ -195,7 +212,7 @@ body::after {
 }
 
 .kc-quote-band::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   background: repeating-linear-gradient(
@@ -218,7 +235,7 @@ body::after {
 }
 
 .kc-quote-mark {
-  font-family: 'Pinyon Script', cursive;
+  font-family: "Pinyon Script", cursive;
   font-size: 5rem;
   line-height: 1;
   color: var(--kc-blue);
@@ -233,7 +250,7 @@ body::after {
 }
 
 .kc-quote-text {
-  font-family: 'Pinyon Script', cursive;
+  font-family: "Pinyon Script", cursive;
   font-size: clamp(1.6rem, 4vw, 2.8rem);
   color: var(--kc-dark);
   text-align: center;
@@ -245,8 +262,9 @@ body::after {
 [class*="service-card"],
 [class*="ServiceCard"],
 [class*="card"] {
-  transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1),
-              box-shadow 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+  transition:
+    transform 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.28s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 [class*="service-card"]:hover,
@@ -258,8 +276,9 @@ body::after {
 
 /* ── Gallery image hover ─────────────────────────── */
 .kc-dark-section img {
-  transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
-              filter 0.4s ease;
+  transition:
+    transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+    filter 0.4s ease;
 }
 
 .kc-dark-section img:hover {
@@ -279,12 +298,16 @@ body::after {
 
 /* ── Dot pattern utility ─────────────────────────── */
 .dot-pattern {
-  background-image: radial-gradient(circle, rgba(30, 100, 230, 0.12) 1px, transparent 1px);
+  background-image: radial-gradient(
+    circle,
+    rgba(30, 100, 230, 0.12) 1px,
+    transparent 1px
+  );
   background-size: 22px 22px;
 }
 
 /* ── Google font import ──────────────────────────── */
-@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Inter:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Inter:wght@400;500;600;700&display=swap");
 
 /* ── Responsive tweaks ───────────────────────────── */
 @media (max-width: 640px) {

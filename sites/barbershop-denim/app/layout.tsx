@@ -1,21 +1,21 @@
 import type { Metadata } from 'next'
-import { Libre_Baskerville, Source_Sans_3, JetBrains_Mono } from 'next/font/google'
+import { Space_Grotesk, Inter, JetBrains_Mono } from 'next/font/google'
 import { AnalyticsProvider } from '@/integrations/AnalyticsProvider'
 import { SchemaJsonLd } from '@/components/SchemaJsonLd'
 import './globals.css'
 
-const libre_baskerville = Libre_Baskerville({
+const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
-  variable: '--font-libre-baskerville',
+  variable: '--font-space-grotesk',
   display: 'swap',
   weight: ['400', '700'],
 })
 
-const source_sans_3 = Source_Sans_3({
+const inter = Inter({
   subsets: ['latin'],
-  variable: '--font-source-sans-3',
+  variable: '--font-inter',
   display: 'swap',
-  weight: ['300', '400', '600', '700'],
+  weight: ['400', '600', '700'],
 })
 
 const mono = JetBrains_Mono({
@@ -62,15 +62,15 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${libre_baskerville.variable} ${source_sans_3.variable} ${mono.variable}`}>
+    <html lang="en" className={`${spaceGrotesk.variable} ${inter.variable} ${mono.variable}`}>
       <head>
         <SchemaJsonLd business={businessData} />
       </head>
       <body
-        className="font-[family-name:var(--font-source-sans-3)] antialiased"
+        className="font-[family-name:var(--font-inter)] antialiased"
         style={
           {
-            '--font-display': 'var(--font-libre-baskerville)',
+            '--font-display': 'var(--font-space-grotesk)',
           } as React.CSSProperties
         }
       >

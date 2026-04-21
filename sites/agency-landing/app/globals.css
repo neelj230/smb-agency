@@ -29,7 +29,7 @@ body {
 
 /* Film grain overlay */
 .grain::after {
-  content: '';
+  content: "";
   position: fixed;
   inset: 0;
   z-index: 40;
@@ -54,7 +54,11 @@ body {
 
 /* Dot pattern decoration */
 .dot-pattern {
-  background-image: radial-gradient(circle, rgba(191, 225, 95, 0.08) 1px, transparent 1px);
+  background-image: radial-gradient(
+    circle,
+    rgba(191, 225, 95, 0.08) 1px,
+    transparent 1px
+  );
   background-size: 24px 24px;
 }
 

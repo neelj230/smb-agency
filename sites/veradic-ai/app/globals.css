@@ -1,0 +1,161 @@
+@import "tailwindcss";
+
+:root {
+  /* Purple/Violet primary — matches Veradic app */
+  --brand-primary: #7c3aed;
+  --brand-primary-light: #a78bfa;
+  --brand-primary-dark: #5b21b6;
+
+  /* Green success — correct answers, progress */
+  --brand-success: #10b981;
+  --brand-success-light: #6ee7b7;
+
+  /* Red CTA accent */
+  --brand-cta: #ef4444;
+
+  /* Dark theme base (matches veradicai.com) */
+  --brand-bg: #0f0d1b;
+  --brand-bg-alt: #161428;
+  --brand-surface: #1c1a30;
+  --brand-surface-light: #252340;
+  --brand-text: #f5f5f7;
+  --brand-text-secondary: #a0a0b8;
+  --brand-muted: #6b6b80;
+  --brand-border: rgba(255, 255, 255, 0.08);
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+section,
+[id] > div {
+  scroll-margin-top: 80px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Hero gradient — dark with subtle purple glow */
+.hero-gradient {
+  background: radial-gradient(
+    ellipse 80% 50% at 50% 0%,
+    rgba(124, 58, 237, 0.25) 0%,
+    rgba(91, 33, 182, 0.12) 30%,
+    #0f0d1b 70%
+  );
+  background-color: #0f0d1b;
+}
+
+.mono-text {
+  font-family: var(--font-mono), ui-monospace, monospace;
+  font-feature-settings: "ss01", "ss02";
+}
+
+/* ── Marquee animations ── */
+@keyframes marquee-up {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes marquee-down {
+  from {
+    transform: translateY(-50%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.marquee-up {
+  animation: marquee-up 30s linear infinite;
+}
+
+.marquee-down {
+  animation: marquee-down 30s linear infinite;
+}
+
+/* ── Topic cards — fill full column width ── */
+.topic-card {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 14px;
+  padding: 14px 16px;
+  width: 100%;
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* ── Mockup device frame (dark version) ── */
+.mockup-frame {
+  background: var(--brand-surface);
+  border-radius: 24px;
+  border: 1px solid var(--brand-border);
+  box-shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.2),
+    0 20px 40px -4px rgba(0, 0, 0, 0.3);
+}
+
+/* ── Floating animation ── */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+.float-slow {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* ── Scroll-pinned section ── */
+.scroll-pin-container {
+  position: relative;
+}
+
+/* ── Toggle pill ── */
+.toggle-pill {
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(12px);
+  border-radius: 9999px;
+  padding: 4px;
+  display: inline-flex;
+  gap: 2px;
+}
+
+.toggle-pill button {
+  padding: 8px 20px;
+  border-radius: 9999px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  transition: all 0.2s;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.toggle-pill button.active {
+  background: white;
+  color: #0f0d1b;
+}

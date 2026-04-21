@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+/* Scan shared packages for Tailwind classes */
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+@source "./**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #FF6F00;
+  --brand-accent: #4DD0E1;
+  --brand-bg: #FFF8E1;
+  --brand-bg-alt: #ffffff;
+  --brand-text: #3E2800;
+  --brand-muted: #6b7280;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: var(--brand-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+/* Marquee animation for carousels */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Smooth section transitions */
+section, [id] > div {
+  scroll-margin-top: 80px;
+}
+
+/* Focus-visible outlines for accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Mix-blend-mode hover effect for cards */
+.card-hover {
+  position: relative;
+  overflow: hidden;
+}
+.card-hover::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--brand-primary);
+  mix-blend-mode: difference;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.card-hover:hover::after {
+  opacity: 1;
+}
+
+/* Gradient transitions between sections */
+.section-gradient {
+  position: relative;
+}
+.section-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--brand-bg));
+  pointer-events: none;
+}
+
+/* Creative director extras */
+/* ── FILM GRAIN (heavier for dark sites) ── */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  mix-blend-mode: soft-light;
+  opacity: 0.06;
+}
+
+/* ── SECTION BORDERS ── */
+.section-line {
+  border-top: 1px solid rgba(245, 240, 235, 0.06);
+}
+
+/* ── HORIZONTAL RULE ── */
+.brand-hr {
+  width: 40px;
+  height: 2px;
+  background: var(--brand-primary);
+}
+
+/* ── IMAGE TREATMENT ── */
+.image-warm {
+  filter: saturate(0.85) brightness(0.9) contrast(1.05);
+  transition: filter 0.6s ease;
+}
+.image-warm:hover {
+  filter: saturate(1) brightness(1) contrast(1);
+}
+
+/* ── SCROLLBAR ── */
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-track {
+  background: var(--brand-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--brand-primary);
+  border-radius: 2px;
+}
+
+/* ── STICKY STACK OFFSET ── */
+.sticky-stack > * + * {
+  margin-top: -1px;
+}

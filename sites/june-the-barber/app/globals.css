@@ -5,12 +5,12 @@
 @source "../../../packages/integrations/**/*.{ts,tsx}";
 
 :root {
-  --brand-primary: #1C4A96;
-  --brand-accent: #3400b2;
-  --brand-bg: #ffffff;
-  --brand-bg-alt: #e6e9ec;
-  --brand-text: #000000;
-  --brand-muted: #000000;
+  --brand-primary: #1A1A1A;
+  --brand-accent: #D4AF37;
+  --brand-bg: #FFFFFF;
+  --brand-bg-alt: #F5F5F0;
+  --brand-text: #1a1a1a;
+  --brand-muted: #555a66;
 }
 
 ::selection {
@@ -29,12 +29,17 @@ body {
 
 /* Marquee animation for carousels */
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 /* Smooth section transitions */
-section, [id] > div {
+section,
+[id] > div {
   scroll-margin-top: 80px;
 }
 
@@ -46,7 +51,7 @@ section, [id] > div {
 
 /* Inset border for editorial/gallery feel */
 body::before {
-  content: '';
+  content: "";
   position: fixed;
   inset: 12px;
   z-index: 999;
@@ -60,7 +65,7 @@ body::before {
   position: relative;
 }
 .section-gradient::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -77,17 +82,17 @@ body::before {
 
 /* Brand tokens */
 :root {
-  --june-blue: #1C4A96;
-  --june-violet: #3400b2;
-  --june-ink: #0d1117;
-  --june-cream: #f5f2ee;
-  --june-warm-white: #fafaf8;
+  --june-blue: #1A1A1A;
+  --june-violet: #D4AF37;
+  --june-ink: #1a1a1a;
+  --june-cream: #F5F5F0;
+  --june-warm-white: #FFFFFF;
   --june-muted: #6b7280;
 }
 
 /* ── Root wrapper ── */
 .june-root {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: var(--june-warm-white);
   color: var(--june-ink);
   overflow-x: hidden;
@@ -139,7 +144,7 @@ body::before {
 }
 
 .june-badge-text {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 0.65rem;
   font-weight: 500;
   color: rgba(255, 255, 255, 0.85);
@@ -171,15 +176,19 @@ body::before {
 }
 
 @keyframes june-scroll {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 .june-marquee-item {
   display: inline-flex;
   align-items: center;
   gap: 0.75rem;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 0.85rem;
   font-weight: 600;
   letter-spacing: 0.08em;
@@ -199,14 +208,26 @@ body::before {
   color: #fff;
   padding: 5rem 0;
   position: relative;
+  /* Override brand vars so nested components render readable text on dark bg */
+  --brand-text: #ffffff;
+  --brand-muted: rgba(255, 255, 255, 0.7);
 }
 
 .june-dark-section::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse at 20% 50%, rgba(52, 0, 178, 0.12) 0%, transparent 60%),
-              radial-gradient(ellipse at 80% 20%, rgba(28, 74, 150, 0.1) 0%, transparent 55%);
+  background:
+    radial-gradient(
+      ellipse at 20% 50%,
+      rgba(52, 0, 178, 0.12) 0%,
+      transparent 60%
+    ),
+    radial-gradient(
+      ellipse at 80% 20%,
+      rgba(28, 74, 150, 0.1) 0%,
+      transparent 55%
+    );
   pointer-events: none;
 }
 
@@ -237,7 +258,7 @@ body::before {
 }
 
 .june-section-label-text {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 0.65rem;
   font-weight: 600;
   letter-spacing: 0.18em;
@@ -259,10 +280,14 @@ body::before {
 }
 
 .june-services-wrapper::after {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse at 50% 0%, rgba(28, 74, 150, 0.04) 0%, transparent 60%);
+  background: radial-gradient(
+    ellipse at 50% 0%,
+    rgba(28, 74, 150, 0.04) 0%,
+    transparent 60%
+  );
   pointer-events: none;
 }
 
@@ -280,14 +305,19 @@ body::before {
 
 /* ── Dot pattern utility ── */
 .dot-pattern {
-  background-image: radial-gradient(rgba(28, 74, 150, 0.1) 1px, transparent 1px);
+  background-image: radial-gradient(
+    rgba(28, 74, 150, 0.1) 1px,
+    transparent 1px
+  );
   background-size: 24px 24px;
 }
 
 /* ── Smooth hover cards ── */
 .june-root [class*="card"],
 .june-root [class*="Card"] {
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
 }
 
 .june-root [class*="card"]:hover,
@@ -319,7 +349,7 @@ body::before {
 .june-root h1,
 .june-root h2,
 .june-root h3 {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 /* ── CTA button brand override ── */

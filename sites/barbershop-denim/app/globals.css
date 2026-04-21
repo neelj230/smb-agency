@@ -3,14 +3,15 @@
 /* Scan shared packages for Tailwind classes */
 @source "../../../packages/components/**/*.{ts,tsx}";
 @source "../../../packages/integrations/**/*.{ts,tsx}";
+@source "./**/*.{ts,tsx}";
 
 :root {
-  --brand-primary: #1C4A96;
-  --brand-accent: #3400b2;
-  --brand-bg: #ffffff;
-  --brand-bg-alt: #e6e9ec;
-  --brand-text: #000000;
-  --brand-muted: #000000;
+  --brand-primary: #d4a574;
+  --brand-accent: #8b6f47;
+  --brand-bg: #0a0a0a;
+  --brand-bg-alt: #141414;
+  --brand-text: #f5f0eb;
+  --brand-muted: #a3a3a3;
 }
 
 ::selection {
@@ -66,242 +67,59 @@ section, [id] > div {
 }
 
 /* Creative director extras */
-/* ─────────────────────────────────────────────
-   Barbershop Denim — global CSS extras
-   Append to globals.css
-───────────────────────────────────────────── */
-
-/* CSS Variables */
-:root {
-  --brand-primary: #1C4A96;
-  --brand-accent: #3400b2;
-  --brand-text: #0d0d0d;
-  --brand-surface: #f5f4f0;
-  --brand-border: rgba(28, 74, 150, 0.15);
-}
-
-/* ── Film-grain overlay ─────────────────────── */
+/* ── FILM GRAIN (heavier for dark sites) ── */
 body::after {
-  content: '';
+  content: "";
   position: fixed;
   inset: 0;
   pointer-events: none;
   z-index: 9999;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
-  background-size: 160px 160px;
-  opacity: 0.025;
-  mix-blend-mode: hard-light;
-}
-
-/* ── Dot-pattern utility ────────────────────── */
-.dot-pattern {
-  background-image: radial-gradient(circle, var(--brand-primary) 1px, transparent 1px);
-  background-size: 22px 22px;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  mix-blend-mode: soft-light;
   opacity: 0.06;
 }
 
-/* ── Section label component ────────────────── */
-.bd-section-label {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  justify-content: center;
-  padding: 0 0 8px;
+/* ── SECTION BORDERS ── */
+.section-line {
+  border-top: 1px solid rgba(245, 240, 235, 0.06);
 }
 
-.bd-label-text {
-  font-family: 'Source Sans 3', sans-serif;
-  font-size: 0.7rem;
-  font-weight: 700;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--brand-primary);
-  white-space: nowrap;
-}
-
-.bd-label-line {
-  display: block;
-  height: 1px;
-  width: 48px;
+/* ── HORIZONTAL RULE ── */
+.brand-hr {
+  width: 40px;
+  height: 2px;
   background: var(--brand-primary);
-  opacity: 0.35;
 }
 
-/* ── Marquee strip ──────────────────────────── */
-.bd-marquee-section {
-  background: var(--brand-primary);
-  overflow: hidden;
-  padding: 13px 0;
-  position: relative;
+/* ── IMAGE TREATMENT ── */
+.image-warm {
+  filter: saturate(0.85) brightness(0.9) contrast(1.05);
+  transition: filter 0.6s ease;
+}
+.image-warm:hover {
+  filter: saturate(1) brightness(1) contrast(1);
 }
 
-.bd-marquee-wrapper {
-  overflow: hidden;
-  width: 100%;
-}
-
-.bd-marquee-track {
-  display: flex;
-  width: max-content;
-  animation: bd-marquee-scroll 38s linear infinite;
-}
-
-.bd-marquee-track:hover {
-  animation-play-state: paused;
-}
-
-@keyframes bd-marquee-scroll {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
-}
-
-.bd-marquee-item {
-  font-family: 'Libre Baskerville', serif;
-  font-size: 0.8rem;
-  font-style: italic;
-  font-weight: 400;
-  color: rgba(255, 255, 255, 0.88);
-  white-space: nowrap;
-  padding: 0 8px;
-  letter-spacing: 0.03em;
-}
-
-.bd-marquee-dot {
-  margin: 0 10px;
-  color: rgba(255,255,255,0.4);
-  font-style: normal;
-  font-size: 0.55rem;
-  vertical-align: middle;
-}
-
-/* ── About section wrapper ──────────────────── */
-.bd-about-wrapper {
-  background: #fff;
-  position: relative;
-  overflow: hidden;
-  padding-top: 16px;
-}
-
-.bd-about-label-wrap {
-  padding: 56px 24px 0;
-}
-
-.bd-about-parallax {
-  will-change: transform;
-}
-
-/* ── Services wrapper ───────────────────────── */
-.bd-services-wrapper {
-  background: var(--brand-surface);
-  position: relative;
-  padding-top: 16px;
-}
-
-.bd-services-label-wrap {
-  padding: 56px 24px 0;
-}
-
-/* ── Gallery wrapper ────────────────────────── */
-.bd-gallery-wrapper {
-  position: relative;
-  padding-top: 16px;
-}
-
-.bd-gallery-label-wrap {
-  padding: 56px 24px 0;
-}
-
-.bd-gallery-wrapper .bd-label-text {
-  color: rgba(255,255,255,0.6);
-}
-
-.bd-gallery-wrapper .bd-label-line {
-  background: rgba(255,255,255,0.3);
-}
-
-/* ── Reviews wrapper ────────────────────────── */
-.bd-reviews-wrapper {
-  background: #fff;
-  position: relative;
-  padding-top: 16px;
-}
-
-.bd-reviews-label-wrap {
-  padding: 56px 24px 0;
-}
-
-/* ── FAQ wrapper ────────────────────────────── */
-.bd-faq-wrapper {
-  position: relative;
-  padding-top: 16px;
-}
-
-.bd-faq-label-wrap {
-  padding: 56px 24px 0;
-}
-
-/* ── Contact wrapper ────────────────────────── */
-.bd-contact-wrapper {
-  background: #fff;
-  position: relative;
-  padding-top: 16px;
-}
-
-.bd-contact-label-wrap {
-  padding: 56px 24px 0;
-}
-
-/* ── Glass utility ──────────────────────────── */
-.glass {
-  backdrop-filter: blur(16px) saturate(180%);
-  -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.14);
-}
-
-/* ── Hover-scale card ───────────────────────── */
-.hover-scale-card {
-  transition: transform 0.28s cubic-bezier(0.34, 1.56, 0.64, 1),
-              box-shadow 0.28s ease;
-}
-
-.hover-scale-card:hover {
-  transform: scale(1.025) translateY(-3px);
-  box-shadow: 0 16px 48px rgba(28, 74, 150, 0.15);
-}
-
-/* ── Typography polish ──────────────────────── */
-h1, h2, h3, h4 {
-  font-family: 'Libre Baskerville', Georgia, serif;
-}
-
-body, p, li, input, textarea {
-  font-family: 'Source Sans 3', system-ui, sans-serif;
-}
-
-/* ── Scrollbar polish ───────────────────────── */
+/* ── SCROLLBAR ── */
 ::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
+  width: 3px;
 }
-
 ::-webkit-scrollbar-track {
-  background: var(--brand-surface);
+  background: var(--brand-bg);
 }
-
 ::-webkit-scrollbar-thumb {
   background: var(--brand-primary);
-  border-radius: 3px;
-  opacity: 0.5;
+  border-radius: 2px;
 }
 
-/* ── Selection color ────────────────────────── */
-::selection {
-  background: var(--brand-primary);
-  color: #fff;
+/* ── STICKY STACK OFFSET ── */
+.sticky-stack > * + * {
+  margin-top: -1px;
 }
 
-/* ── Smooth scroll ──────────────────────────── */
-html {
-  scroll-behavior: smooth;
+/* ── FOOTER CONTRAST FIX ──
+   Shared Footer uses bg-[var(--brand-text)] with white text.
+   On dark-theme sites where --brand-text is cream, override to keep it dark. */
+footer.bg-\[var\(--brand-text\)\] {
+  background-color: var(--brand-bg-alt) !important;
 }

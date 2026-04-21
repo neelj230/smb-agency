@@ -5,7 +5,7 @@
 @source "../../../packages/integrations/**/*.{ts,tsx}";
 
 :root {
-  --brand-primary: #FF7A27;
+  --brand-primary: #ff7a27;
   --brand-accent: #f4ff27;
   --brand-bg: #ffffff;
   --brand-bg-alt: #f2ebe7;
@@ -29,12 +29,17 @@ body {
 
 /* Marquee animation for carousels */
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 /* Smooth section transitions */
-section, [id] > div {
+section,
+[id] > div {
   scroll-margin-top: 80px;
 }
 
@@ -46,7 +51,7 @@ section, [id] > div {
 
 /* Film grain overlay for warm analog feel */
 body::after {
-  content: '';
+  content: "";
   position: fixed;
   inset: 0;
   z-index: 9999;
@@ -61,7 +66,7 @@ body::after {
   position: relative;
 }
 .section-gradient::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -76,19 +81,19 @@ body::after {
 
 /* Brand tokens */
 :root {
-  --hkb-orange: #FF7A27;
+  --hkb-orange: #ff7a27;
   --hkb-yellow: #f4ff27;
   --hkb-dark: #1a1008;
   --hkb-dark-mid: #261508;
   --hkb-cream: #fdf8f2;
   --hkb-text: #2b1500;
-  --brand-primary: #FF7A27;
+  --brand-primary: #ff7a27;
   --brand-accent: #f4ff27;
 }
 
 /* Film grain overlay */
 body::after {
-  content: '';
+  content: "";
   position: fixed;
   inset: 0;
   pointer-events: none;
@@ -100,7 +105,11 @@ body::after {
 
 /* Dot pattern utility */
 .dot-pattern {
-  background-image: radial-gradient(circle, rgba(255,122,39,0.12) 1px, transparent 1px);
+  background-image: radial-gradient(
+    circle,
+    rgba(255, 122, 39, 0.12) 1px,
+    transparent 1px
+  );
   background-size: 22px 22px;
 }
 
@@ -112,8 +121,8 @@ body::after {
   padding: 14px 0;
   position: relative;
   z-index: 10;
-  border-top: 2px solid rgba(255,255,255,0.15);
-  border-bottom: 2px solid rgba(255,255,255,0.15);
+  border-top: 2px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.15);
 }
 
 .hkb-banner-track {
@@ -124,7 +133,7 @@ body::after {
 }
 
 .hkb-banner-item {
-  font-family: 'Figtree', sans-serif;
+  font-family: "Figtree", sans-serif;
   font-size: 0.95rem;
   font-weight: 700;
   letter-spacing: 0.04em;
@@ -138,14 +147,18 @@ body::after {
 }
 
 .hkb-banner-item::after {
-  content: '·';
+  content: "·";
   margin-left: 32px;
   opacity: 0.5;
 }
 
 @keyframes hkb-scroll {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 .hkb-banner-wrap:hover .hkb-banner-track {
@@ -170,7 +183,7 @@ body::after {
 }
 
 .hkb-section-title {
-  font-family: 'Figtree', sans-serif;
+  font-family: "Figtree", sans-serif;
   font-size: clamp(2rem, 5vw, 3.2rem);
   font-weight: 900;
   color: var(--hkb-text);
@@ -180,7 +193,7 @@ body::after {
 }
 
 .hkb-section-sub {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1rem;
   color: #6b5240;
   line-height: 1.6;
@@ -190,28 +203,28 @@ body::after {
 /* ── Pills ───────────────────────────────────────────────── */
 .hkb-pill {
   display: inline-block;
-  background: rgba(255,122,39,0.12);
+  background: rgba(255, 122, 39, 0.12);
   color: var(--hkb-orange);
-  font-family: 'Figtree', sans-serif;
+  font-family: "Figtree", sans-serif;
   font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   padding: 5px 14px;
   border-radius: 100px;
-  border: 1.5px solid rgba(255,122,39,0.3);
+  border: 1.5px solid rgba(255, 122, 39, 0.3);
 }
 
 .hkb-pill--accent {
-  background: rgba(244,255,39,0.15);
+  background: rgba(244, 255, 39, 0.15);
   color: #7a7a00;
-  border-color: rgba(244,255,39,0.6);
+  border-color: rgba(244, 255, 39, 0.6);
 }
 
 .hkb-pill--light {
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
   color: var(--hkb-yellow);
-  border-color: rgba(244,255,39,0.4);
+  border-color: rgba(244, 255, 39, 0.4);
 }
 
 /* ── About ───────────────────────────────────────────────── */
@@ -241,11 +254,20 @@ body::after {
 }
 
 .hkb-reviews-dark::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse at 30% 50%, rgba(255,122,39,0.12) 0%, transparent 65%),
-              radial-gradient(ellipse at 75% 20%, rgba(244,255,39,0.06) 0%, transparent 55%);
+  background:
+    radial-gradient(
+      ellipse at 30% 50%,
+      rgba(255, 122, 39, 0.12) 0%,
+      transparent 65%
+    ),
+    radial-gradient(
+      ellipse at 75% 20%,
+      rgba(244, 255, 39, 0.06) 0%,
+      transparent 55%
+    );
   pointer-events: none;
 }
 
@@ -274,45 +296,49 @@ body::after {
 
 /* ── Floating Tags (decorative) ───────────────────────────── */
 .hkb-floating-tag {
-  background: rgba(255,255,255,0.95);
-  border: 1.5px solid rgba(255,122,39,0.25);
+  background: rgba(255, 255, 255, 0.95);
+  border: 1.5px solid rgba(255, 122, 39, 0.25);
   border-radius: 12px;
   padding: 8px 14px;
-  font-family: 'Figtree', sans-serif;
+  font-family: "Figtree", sans-serif;
   font-size: 0.82rem;
   font-weight: 700;
   color: var(--hkb-text);
-  box-shadow: 0 4px 20px rgba(255,122,39,0.12);
+  box-shadow: 0 4px 20px rgba(255, 122, 39, 0.12);
   backdrop-filter: blur(8px);
   white-space: nowrap;
   pointer-events: none;
 }
 
 /* ── Service Card Hover Enhancement ──────────────────────── */
-[class*='service'] article,
-[class*='card'] article {
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+[class*="service"] article,
+[class*="card"] article {
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
 }
 
-[class*='service'] article:hover,
-[class*='card'] article:hover {
+[class*="service"] article:hover,
+[class*="card"] article:hover {
   transform: translateY(-4px) scale(1.01);
-  box-shadow: 0 12px 40px rgba(255,122,39,0.14);
+  box-shadow: 0 12px 40px rgba(255, 122, 39, 0.14);
 }
 
 /* ── Global Typography Overrides ─────────────────────────── */
-h1, h2, h3 {
-  font-family: 'Figtree', sans-serif !important;
+h1,
+h2,
+h3 {
+  font-family: "Figtree", sans-serif !important;
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: #fffaf5;
 }
 
 /* Make sure nav blends in warmly */
 nav {
-  border-bottom: 1px solid rgba(255,122,39,0.1) !important;
+  border-bottom: 1px solid rgba(255, 122, 39, 0.1) !important;
 }
 
 /* CTA button accent ring */
@@ -333,10 +359,10 @@ section {
 
 /* Glass utility */
 .glass {
-  background: rgba(255,255,255,0.7);
+  background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255,255,255,0.4);
+  border: 1px solid rgba(255, 255, 255, 0.4);
 }
 
 /* Responsive: tighten padding on mobile */
@@ -356,8 +382,7 @@ section {
   }
 }
 
-        :root {
-          --brand-primary: ${BRAND};
-          --brand-accent: ${ACCENT};
-        }
-      
+:root {
+  --brand-primary: ${BRAND};
+  --brand-accent: ${ACCENT};
+}

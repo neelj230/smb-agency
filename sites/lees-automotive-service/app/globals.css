@@ -5,16 +5,16 @@
 @source "../../../packages/integrations/**/*.{ts,tsx}";
 
 :root {
-  --brand-primary: #1e64e6;
-  --brand-accent: #f6e304;
-  --brand-bg: #f0f4fa;
-  --brand-bg-alt: #d8e0ec;
-  --brand-text: #081d3a;
-  --brand-muted: #4e5c71;
+  --brand-primary: #37474F;
+  --brand-accent: #FF6D00;
+  --brand-bg: #FAFAFA;
+  --brand-bg-alt: #ffffff;
+  --brand-text: #263238;
+  --brand-muted: #6b7280;
 }
 
 ::selection {
-  background-color: var(--brand-primary);
+  background-color: var(--brand-accent);
   color: var(--brand-bg);
 }
 
@@ -29,12 +29,17 @@ body {
 
 /* Marquee animation for carousels */
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 /* Smooth section transitions */
-section, [id] > div {
+section,
+[id] > div {
   scroll-margin-top: 80px;
 }
 
@@ -50,7 +55,7 @@ section, [id] > div {
   overflow: hidden;
 }
 .card-hover::after {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   background: var(--brand-primary);
@@ -67,7 +72,7 @@ section, [id] > div {
   position: relative;
 }
 .section-gradient::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -82,26 +87,35 @@ section, [id] > div {
 
 /* Brand tokens */
 :root {
-  --brand-primary: #1e64e6;
-  --brand-accent:  #f6e304;
-  --brand-text:    #0f172a;
-  --brand-muted:   #f1f5f9;
+  --brand-primary: #37474F;
+  --brand-accent: #FF6D00;
+  --brand-text: #263238;
+  --brand-muted: #6b7280;
 }
 
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap");
 
 /* Typography */
-h1, h2, h3, h4, .font-display {
-  font-family: 'Syne', sans-serif;
+h1,
+h2,
+h3,
+h4,
+.font-display {
+  font-family: "Syne", sans-serif;
 }
-body, p, li, span, button, a {
-  font-family: 'DM Sans', sans-serif;
+body,
+p,
+li,
+span,
+button,
+a {
+  font-family: "DM Sans", sans-serif;
 }
 
 /* ── Film-grain overlay ────────────────────────────────────────────────── */
 body::after {
-  content: '';
+  content: "";
   position: fixed;
   inset: 0;
   pointer-events: none;
@@ -128,7 +142,7 @@ body::after {
 }
 
 .lees-marquee-item {
-  font-family: 'Syne', sans-serif;
+  font-family: "Syne", sans-serif;
   font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.12em;
@@ -138,8 +152,12 @@ body::after {
 }
 
 @keyframes leesScroll {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 /* ── Services section label ────────────────────────────────────────────── */
@@ -173,7 +191,7 @@ body::after {
   gap: 0.5rem;
   background-color: var(--brand-accent);
   color: var(--brand-text);
-  font-family: 'Syne', sans-serif;
+  font-family: "Syne", sans-serif;
   font-weight: 800;
   font-size: 0.72rem;
   letter-spacing: 0.08em;
@@ -189,8 +207,13 @@ body::after {
 }
 
 @keyframes leesFloatBadge {
-  0%, 100% { transform: translateY(0px) rotate(-2deg); }
-  50%       { transform: translateY(-8px) rotate(2deg); }
+  0%,
+  100% {
+    transform: translateY(0px) rotate(-2deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(2deg);
+  }
 }
 
 @media (max-width: 768px) {
@@ -218,7 +241,7 @@ body::after {
 }
 
 .lees-yellow-band-text {
-  font-family: 'Syne', sans-serif;
+  font-family: "Syne", sans-serif;
   font-weight: 700;
   font-size: 0.82rem;
   letter-spacing: 0.09em;
@@ -255,7 +278,11 @@ body::after {
 
 /* ── Dot pattern helper ──────────────────────────────────────────────── */
 .dot-pattern {
-  background-image: radial-gradient(circle, rgba(30, 100, 230, 0.12) 1.5px, transparent 1.5px);
+  background-image: radial-gradient(
+    circle,
+    rgba(30, 100, 230, 0.12) 1.5px,
+    transparent 1.5px
+  );
   background-size: 24px 24px;
 }
 
@@ -269,7 +296,9 @@ body::after {
 
 /* ── Hover-scale cards ───────────────────────────────────────────────── */
 .hover-scale-card {
-  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.25s ease;
+  transition:
+    transform 0.25s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.25s ease;
 }
 .hover-scale-card:hover {
   transform: scale(1.03) translateY(-3px);
@@ -298,7 +327,7 @@ body::after {
   display: inline-block;
 }
 .lees-underline-accent::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -4px;
   left: 0;
@@ -323,9 +352,8 @@ body::after {
   background: #1450b8;
 }
 
-        :root {
-          --brand-primary: #1e64e6;
-          --brand-accent: #f6e304;
-          --brand-text: #0f172a;
-        }
-      
+:root {
+  --brand-primary: #37474F;
+  --brand-accent: #FF6D00;
+  --brand-text: #263238;
+}

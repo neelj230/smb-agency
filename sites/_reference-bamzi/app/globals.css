@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+@source "./**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #dd5903;
+  --brand-accent: #0f1a1a;
+  --brand-bg: #f1ede3;
+  --brand-bg-alt: #0f1a1a;
+  --brand-text: #1a1a1a;
+  --brand-muted: #7a7a6e;
+  --brand-cream: #f1ede3;
+  --brand-dark-green: #0f1a1a;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+}
+
+section,
+[id] > div {
+  scroll-margin-top: 80px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* ── MARQUEE TEXT — big flowing text across screen ── */
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-flow {
+  animation: marquee-scroll 25s linear infinite;
+}
+
+.marquee-flow:hover {
+  animation-play-state: paused;
+}
+
+/* ── LEAF FLOAT ── */
+@keyframes leaf-float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-20px) rotate(5deg);
+  }
+}
+
+.leaf-float {
+  animation: leaf-float 6s ease-in-out infinite;
+}
+
+/* ── SCROLLBAR ── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--brand-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--brand-primary);
+  border-radius: 3px;
+}

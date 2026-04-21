@@ -158,9 +158,9 @@ const businessContact = {
 
 // ─── Marquee strip data ───────────────────────────────────────────────────────
 const marqueeItems = [
-  'Fixed Right', 'No Runaround', 'Just Paco', 'West Philly's Best',
+  'Fixed Right', 'No Runaround', 'Just Paco', "West Philly's Best",
   'Honest Prices', 'Real Diagnostics', 'Fixed Right', 'No Runaround',
-  'Just Paco', 'West Philly's Best', 'Honest Prices', 'Real Diagnostics',
+  'Just Paco', "West Philly's Best", 'Honest Prices', 'Real Diagnostics',
 ]
 
 // ─── Page ─────────────────────────────────────────────────────────────────────

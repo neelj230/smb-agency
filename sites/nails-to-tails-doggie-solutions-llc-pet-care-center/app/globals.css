@@ -1,21 +1,25 @@
 @import "tailwindcss";
 
-/* Scan shared packages for Tailwind classes */
 @source "../../../packages/components/**/*.{ts,tsx}";
 @source "../../../packages/integrations/**/*.{ts,tsx}";
+@source "./**/*.{ts,tsx}";
 
 :root {
-  --brand-primary: #00A64C;
-  --brand-accent: #0091a6;
-  --brand-bg: #ffffff;
-  --brand-bg-alt: #e5ede9;
-  --brand-text: #000000;
-  --brand-muted: #000000;
+  --brand-cream: #f5efe4;        /* warm cream */
+  --brand-forest: #3a5a43;        /* warm forest green */
+  --brand-amber: #9c5319;         /* warm amber (darkened for WCAG AA on cream) */
+  --brand-amber-light: #f7c89a;   /* lighter amber for use on dark forest bg */
+  --brand-ink: #1f2620;
+  --brand-muted: #545a53;
+  --brand-bg: var(--brand-cream);
+  --brand-primary: var(--brand-forest);
+  --brand-accent: var(--brand-amber);
+  --brand-text: var(--brand-ink);
 }
 
 ::selection {
-  background-color: var(--brand-primary);
-  color: var(--brand-bg);
+  background-color: var(--brand-forest);
+  color: var(--brand-cream);
 }
 
 html {
@@ -23,222 +27,59 @@ html {
 }
 
 body {
-  background-color: var(--brand-bg);
-  color: var(--brand-text);
+  background-color: var(--brand-cream);
+  color: var(--brand-ink);
 }
 
-/* Marquee animation for carousels */
-@keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
-}
-
-/* Smooth section transitions */
-section, [id] > div {
+section,
+[id] > div {
   scroll-margin-top: 80px;
 }
 
-/* Focus-visible outlines for accessibility */
 :focus-visible {
-  outline: 2px solid var(--brand-primary);
+  outline: 2px solid var(--brand-forest);
   outline-offset: 2px;
 }
 
-/* Mix-blend-mode hover effect for cards */
-.card-hover {
-  position: relative;
-  overflow: hidden;
+/* Dog names ticker */
+@keyframes dog-ticker-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-33.3333%);
+  }
 }
-.card-hover::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: var(--brand-primary);
-  mix-blend-mode: difference;
-  opacity: 0;
-  transition: opacity 0.4s ease;
+.dog-ticker {
+  animation: dog-ticker-scroll 38s linear infinite;
 }
-.card-hover:hover::after {
-  opacity: 1;
-}
-
-/* Gradient transitions between sections */
-.section-gradient {
-  position: relative;
-}
-.section-gradient::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 120px;
-  background: linear-gradient(to bottom, transparent, var(--brand-bg));
-  pointer-events: none;
-}
-
-/* Creative director extras */
-/* ─────────────────────────────────────────────────────────────────────
-   Nails To Tails — custom CSS extras
-   ───────────────────────────────────────────────────────────────────── */
-
-/* Fonts applied globally */
-:root {
-  --brand-primary: #00A64C;
-  --brand-accent: #0091a6;
-  --brand-text: #111827;
-}
-
-/* ── Dot pattern background ─────────────────────────────────────────── */
-.dot-pattern::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-image: radial-gradient(circle, rgba(0,166,76,0.13) 1.5px, transparent 1.5px);
-  background-size: 26px 26px;
-  pointer-events: none;
-  z-index: 0;
-}
-.dot-pattern > * {
-  position: relative;
-  z-index: 1;
-}
-
-/* ── Paw-print SVG watermark ─────────────────────────────────────────── */
-.paw-pattern-bg {
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: -1;
-  opacity: 0.025;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cellipse cx='28' cy='18' rx='6' ry='8' fill='%2300A64C'/%3E%3Cellipse cx='52' cy='18' rx='6' ry='8' fill='%2300A64C'/%3E%3Cellipse cx='16' cy='34' rx='5' ry='7' fill='%2300A64C'/%3E%3Cellipse cx='64' cy='34' rx='5' ry='7' fill='%2300A64C'/%3E%3Cellipse cx='40' cy='52' rx='16' ry='14' fill='%2300A64C'/%3E%3C/svg%3E");
-  background-size: 80px 80px;
-}
-
-/* ── Marquee / trust bar ─────────────────────────────────────────────── */
-.trust-bar-track {
-  display: flex;
-  width: max-content;
-  animation: marquee-scroll 28s linear infinite;
-  will-change: transform;
-}
-.trust-bar-inner {
-  display: flex;
-  align-items: center;
-  gap: 2.5rem;
-  padding: 0 2.5rem;
-}
-@keyframes marquee-scroll {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-33.3333%); }
-}
-.trust-bar-wrapper:hover .trust-bar-track {
+.dog-ticker:hover {
   animation-play-state: paused;
 }
 
-/* ── CTA band decorative blobs ────────────────────────────────────────── */
-.cta-band {
-  position: relative;
+/* Photo drift */
+@keyframes dog-drift {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
-.cta-blob {
-  position: absolute;
-  border-radius: 50%;
-  pointer-events: none;
+.dog-drift {
+  animation: dog-drift 60s linear infinite;
 }
-.cta-blob-1 {
-  width: 340px;
-  height: 340px;
-  background: rgba(0, 166, 76, 0.25);
-  top: -80px;
-  left: -80px;
-  filter: blur(80px);
-}
-.cta-blob-2 {
-  width: 260px;
-  height: 260px;
-  background: rgba(0, 145, 166, 0.3);
-  bottom: -60px;
-  right: -40px;
-  filter: blur(70px);
+.dog-drift:hover {
+  animation-play-state: paused;
 }
 
-/* ── CTA pill button ─────────────────────────────────────────────────── */
-.cta-btn-pill {
-  display: inline-block;
-  padding: 1rem 2.4rem;
-  background: #ffffff;
-  color: #0091a6;
-  font-family: 'Syne', sans-serif;
-  font-weight: 700;
-  font-size: 1.05rem;
-  letter-spacing: 0.02em;
-  border-radius: 9999px;
-  text-decoration: none;
-  box-shadow: 0 6px 28px rgba(0,0,0,0.18);
-  transition: box-shadow 0.25s ease, transform 0.2s ease;
+::-webkit-scrollbar {
+  width: 6px;
 }
-.cta-btn-pill:hover {
-  box-shadow: 0 10px 36px rgba(0,0,0,0.22);
-  text-decoration: none;
+::-webkit-scrollbar-track {
+  background: var(--brand-cream);
 }
-
-/* ── Service card hover lift ─────────────────────────────────────────── */
-[class*="service"] article,
-[class*="card"] article {
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+::-webkit-scrollbar-thumb {
+  background: var(--brand-forest);
+  border-radius: 3px;
 }
-[class*="service"] article:hover,
-[class*="card"] article:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 16px 48px rgba(0,0,0,0.12);
-}
-
-/* ── Gallery hover zoom ──────────────────────────────────────────────── */
-[class*="gallery"] img {
-  transition: transform 0.45s cubic-bezier(0.25,0.46,0.45,0.94);
-  will-change: transform;
-}
-[class*="gallery"] .overflow-hidden:hover img {
-  transform: scale(1.06);
-}
-
-/* ── Film grain overlay ──────────────────────────────────────────────── */
-body::after {
-  content: '';
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: 9999;
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
-  background-repeat: repeat;
-  background-size: 128px 128px;
-  opacity: 0.022;
-  mix-blend-mode: hard-light;
-}
-
-/* ── Smooth scroll ───────────────────────────────────────────────────── */
-html {
-  scroll-behavior: smooth;
-}
-
-/* ── Section transition breathing room ──────────────────────────────── */
-section + section {
-  border-top: none;
-}
-
-/* ── Heading display font enforcement ───────────────────────────────── */
-h1, h2, h3, h4, h5 {
-  font-family: 'Syne', sans-serif;
-}
-
-        @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap');
-        :root {
-          --brand-primary: #00A64C;
-          --brand-accent: #0091a6;
-          --brand-text: #111827;
-          --font-display: 'Syne', sans-serif;
-          --font-body: 'DM Sans', sans-serif;
-        }
-        body { font-family: var(--font-body); }
-        h1,h2,h3,h4,h5,h6,.display { font-family: var(--font-display); }
-      

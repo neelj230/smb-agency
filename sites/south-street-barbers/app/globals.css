@@ -1,0 +1,168 @@
+@import "tailwindcss";
+
+/* Scan shared packages for Tailwind classes */
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #2d5a3d;
+  --brand-accent: #1a1a1a;
+  --brand-bg: #f7f5f0;
+  --brand-bg-alt: #eae6dd;
+  --brand-text: #1a1a1a;
+  --brand-muted: #6b6560;
+  --brand-surface: #f0ece5;
+  --brand-border: rgba(45, 90, 61, 0.15);
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: #f7f5f0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+/* Marquee animation */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Smooth scroll targets */
+section, [id] > div {
+  scroll-margin-top: 80px;
+}
+
+/* Focus-visible outlines */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* ── Sticky stack for gallery ──────────────── */
+.sticky-stack {
+  position: relative;
+}
+
+/* ── Brand horizontal rule ─────────────────── */
+.brand-hr {
+  width: 40px;
+  height: 2px;
+  background: var(--brand-primary);
+}
+
+/* ── Section line separator ────────────────── */
+.section-line {
+  border-bottom: 1px solid var(--brand-border);
+}
+
+/* ── Stat badge ────────────────────────────── */
+.stat-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 14px;
+  border: 1px solid var(--brand-border);
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--brand-primary);
+  background: rgba(45, 90, 61, 0.06);
+}
+
+/* ── Service card ──────────────────────────── */
+.service-card {
+  padding: 28px;
+  border: 1px solid var(--brand-border);
+  border-radius: 8px;
+  background: var(--brand-bg);
+  transition: transform 0.28s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.28s ease;
+}
+
+.service-card:hover {
+  transform: scale(1.02) translateY(-2px);
+  box-shadow: 0 12px 40px rgba(45, 90, 61, 0.12);
+}
+
+/* ── Image warm tone ───────────────────────── */
+.image-warm {
+  filter: saturate(0.92) contrast(1.04);
+}
+
+/* ── Scrollbar polish ──────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--brand-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--brand-primary);
+  border-radius: 3px;
+  opacity: 0.5;
+}
+
+/* ── Typography polish ─────────────────────── */
+h1, h2, h3, h4 {
+  font-family: var(--font-display), system-ui, sans-serif;
+}
+
+/* ── Barber stripe accent ──────────────────── */
+.barber-stripe {
+  position: relative;
+}
+
+.barber-stripe::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  background: repeating-linear-gradient(
+    to bottom,
+    var(--brand-primary) 0px,
+    var(--brand-primary) 8px,
+    transparent 8px,
+    transparent 16px,
+    #c75b3a 16px,
+    #c75b3a 24px,
+    transparent 24px,
+    transparent 32px
+  );
+}
+
+/* ── Dark section styling ──────────────────── */
+.dark-section {
+  background: var(--brand-accent);
+  color: #f7f5f0;
+}
+
+.dark-section .brand-hr {
+  background: #c75b3a;
+}
+
+/* ── Dot pattern background ────────────────── */
+.dot-bg {
+  position: relative;
+}
+
+.dot-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle, var(--brand-primary) 0.5px, transparent 0.5px);
+  background-size: 28px 28px;
+  opacity: 0.04;
+  pointer-events: none;
+}

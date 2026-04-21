@@ -5,12 +5,12 @@
 @source "../../../packages/integrations/**/*.{ts,tsx}";
 
 :root {
-  --brand-primary: #1e64e6;
-  --brand-accent: #f6e304;
-  --brand-bg: #f0f4fa;
-  --brand-bg-alt: #d8e0ec;
-  --brand-text: #081d3a;
-  --brand-muted: #4e5c71;
+  --brand-primary: #3D7A68;
+  --brand-accent: #F2C94C;
+  --brand-bg: #FAFAF5;
+  --brand-bg-alt: #ffffff;
+  --brand-text: #2a2a2a;
+  --brand-muted: #6b7280;
 }
 
 ::selection {
@@ -29,12 +29,17 @@ body {
 
 /* Marquee animation for carousels */
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 /* Smooth section transitions */
-section, [id] > div {
+section,
+[id] > div {
   scroll-margin-top: 80px;
 }
 
@@ -46,7 +51,7 @@ section, [id] > div {
 
 /* Inset border for editorial/gallery feel */
 body::before {
-  content: '';
+  content: "";
   position: fixed;
   inset: 12px;
   z-index: 999;
@@ -60,7 +65,7 @@ body::before {
   position: relative;
 }
 .section-gradient::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -77,16 +82,16 @@ body::before {
 ══════════════════════════════════════════════════════════════════ */
 
 /* ── Google Fonts ── */
-@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Inter:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Inter:wght@300;400;500;600;700&display=swap");
 
 /* ── Brand tokens ── */
 :root {
-  --brand-primary: #1e64e6;
-  --brand-accent: #f6e304;
-  --brand-text: #0f1a2e;
-  --brand-surface: #f5f7fc;
-  --font-display: 'Hedvig Letters Serif', Georgia, serif;
-  --font-body: 'Inter', system-ui, sans-serif;
+  --brand-primary: #3D7A68;
+  --brand-accent: #F2C94C;
+  --brand-text: #2a2a2a;
+  --brand-surface: #FAFAF5;
+  --font-display: "Hedvig Letters Serif", Georgia, serif;
+  --font-body: "Inter", system-ui, sans-serif;
 }
 
 body {
@@ -153,6 +158,9 @@ body {
 .dark-section-wrapper {
   background: var(--brand-text);
   color: #ffffff;
+  /* Override brand vars so nested components render readable text on dark bg */
+  --brand-text: #ffffff;
+  --brand-muted: rgba(255, 255, 255, 0.75);
 }
 
 .dark-section-wrapper .section-heading-xl {
@@ -161,7 +169,11 @@ body {
 
 /* ── Dot pattern background ── */
 .dot-pattern {
-  background-image: radial-gradient(circle, rgba(30, 100, 230, 0.08) 1px, transparent 1px);
+  background-image: radial-gradient(
+    circle,
+    rgba(30, 100, 230, 0.08) 1px,
+    transparent 1px
+  );
   background-size: 24px 24px;
   background-color: #ffffff;
 }
@@ -171,8 +183,8 @@ body {
   background: var(--brand-accent);
   overflow: hidden;
   padding: 0.75rem 0;
-  border-top: 1px solid rgba(0,0,0,0.06);
-  border-bottom: 1px solid rgba(0,0,0,0.06);
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
 }
 
 .marquee-track {
@@ -195,8 +207,12 @@ body {
 }
 
 @keyframes hop-marquee {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 /* ── Accent CTA band ── */
@@ -208,10 +224,14 @@ body {
 }
 
 .accent-cta-band::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
-  background-image: radial-gradient(circle at 80% 50%, rgba(246, 227, 4, 0.12) 0%, transparent 60%);
+  background-image: radial-gradient(
+    circle at 80% 50%,
+    rgba(246, 227, 4, 0.12) 0%,
+    transparent 60%
+  );
   pointer-events: none;
 }
 
@@ -266,7 +286,9 @@ body {
   text-decoration: none;
   white-space: nowrap;
   flex-shrink: 0;
-  transition: background 0.2s, transform 0.2s;
+  transition:
+    background 0.2s,
+    transform 0.2s;
   box-shadow: 0 4px 24px rgba(246, 227, 4, 0.3);
 }
 
@@ -276,7 +298,7 @@ body {
 
 /* ── Film grain overlay ── */
 body::after {
-  content: '';
+  content: "";
   position: fixed;
   inset: 0;
   pointer-events: none;
@@ -288,7 +310,9 @@ body::after {
 }
 
 /* ── Typography polish ── */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: var(--font-display);
   font-weight: 400;
 }
@@ -299,11 +323,15 @@ html {
 }
 
 /* ── Card hover lift ── */
-.service-card, [class*="card"] {
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+.service-card,
+[class*="card"] {
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
 }
 
-.service-card:hover, [class*="card"]:hover {
+.service-card:hover,
+[class*="card"]:hover {
   transform: translateY(-4px);
   box-shadow: 0 16px 40px rgba(30, 100, 230, 0.12);
 }
@@ -324,4 +352,21 @@ html {
 ::selection {
   background: var(--brand-accent);
   color: var(--brand-text);
+}
+
+/* ── WCAG contrast fixes ── */
+/* Reset brand vars inside white cards within dark wrapper so text stays dark */
+.dark-section-wrapper .bg-white {
+  --brand-text: #2a2a2a;
+  --brand-muted: #4b5563;
+}
+/* Stronger eyebrow contrast on dark bg */
+.eyebrow-light {
+  color: #ffffff !important;
+  background: rgba(255, 255, 255, 0.14) !important;
+  border-color: rgba(255, 255, 255, 0.3) !important;
+}
+/* Accent CTA eyebrow (yellow on teal) — use white for contrast */
+.accent-cta-eyebrow {
+  color: #ffffff !important;
 }

@@ -1,14 +1,14 @@
 import type { Metadata } from 'next'
-import { Playfair_Display, Inter, JetBrains_Mono } from 'next/font/google'
+import { Rubik, Inter, JetBrains_Mono } from 'next/font/google'
 import { AnalyticsProvider } from '@/integrations/AnalyticsProvider'
 import { SchemaJsonLd } from '@/components/SchemaJsonLd'
 import './globals.css'
 
-const playfair_display = Playfair_Display({
+const rubik = Rubik({
   subsets: ['latin'],
-  variable: '--font-playfair-display',
+  variable: '--font-rubik',
   display: 'swap',
-  weight: ['400', '500', '600', '700', '800', '900'],
+  weight: ['400', '600', '700'],
 })
 
 const inter = Inter({
@@ -62,7 +62,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${playfair_display.variable} ${inter.variable} ${mono.variable}`}>
+    <html lang="en" className={`${rubik.variable} ${inter.variable} ${mono.variable}`}>
       <head>
         <SchemaJsonLd business={businessData} />
       </head>
@@ -70,7 +70,7 @@ export default function RootLayout({
         className="font-[family-name:var(--font-inter)] antialiased"
         style={
           {
-            '--font-display': 'var(--font-playfair-display)',
+            '--font-display': 'var(--font-rubik)',
           } as React.CSSProperties
         }
       >

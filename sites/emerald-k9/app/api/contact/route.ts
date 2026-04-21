@@ -1,26 +1,26 @@
-import { NextResponse } from 'next/server'
+import { NextResponse } from "next/server";
 
 export async function POST(request: Request) {
   try {
-    const body = await request.json()
-    const { name, email, phone, message } = body
+    const body = await request.json();
+    const { name, email, phone, message } = body;
 
     if (!name || !email || !message) {
       return NextResponse.json(
-        { error: 'Name, email, and message are required' },
-        { status: 400 }
-      )
+        { error: "Name, email, and message are required" },
+        { status: 400 },
+      );
     }
 
     // Log the submission (replace with Resend in production)
-    console.log('Contact form submission:', {
-      business: 'Emerald K9',
+    console.log("Contact form submission:", {
+      business: "Emerald K9",
       name,
       email,
       phone,
       message,
       timestamp: new Date().toISOString(),
-    })
+    });
 
     // TODO: Uncomment when Resend is configured
     // const resend = new Resend(process.env.RESEND_API_KEY)
@@ -31,11 +31,11 @@ export async function POST(request: Request) {
     //   text: `Name: ${name}\nEmail: ${email}\nPhone: ${phone || 'N/A'}\nMessage: ${message}`,
     // })
 
-    return NextResponse.json({ success: true })
+    return NextResponse.json({ success: true });
   } catch {
     return NextResponse.json(
-      { error: 'Failed to submit form' },
-      { status: 500 }
-    )
+      { error: "Failed to submit form" },
+      { status: 500 },
+    );
   }
 }

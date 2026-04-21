@@ -5,12 +5,12 @@
 @source "../../../packages/integrations/**/*.{ts,tsx}";
 
 :root {
-  --brand-primary: #156cc2;
-  --brand-accent: #0ea158;
-  --brand-bg: #f4f1ee;
-  --brand-bg-alt: #dcddde;
+  --brand-primary: #C62828;
+  --brand-accent: #FFB300;
+  --brand-bg: #FFFBF5;
+  --brand-bg-alt: #ffffff;
   --brand-text: #1a1a1a;
-  --brand-muted: #1a1a1a;
+  --brand-muted: #6b7280;
 }
 
 ::selection {
@@ -29,12 +29,17 @@ body {
 
 /* Marquee animation for carousels */
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 /* Smooth section transitions */
-section, [id] > div {
+section,
+[id] > div {
   scroll-margin-top: 80px;
 }
 
@@ -46,7 +51,11 @@ section, [id] > div {
 
 /* Subtle dot pattern background */
 .dot-pattern {
-  background-image: radial-gradient(circle, var(--brand-muted) 0.5px, transparent 0.5px);
+  background-image: radial-gradient(
+    circle,
+    var(--brand-muted) 0.5px,
+    transparent 0.5px
+  );
   background-size: 24px 24px;
 }
 
@@ -55,7 +64,7 @@ section, [id] > div {
   position: relative;
 }
 .section-gradient::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -71,30 +80,35 @@ section, [id] > div {
 ───────────────────────────────────────────────────── */
 
 /* ── Fonts ── */
-@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600&display=swap");
 
 :root {
-  --brand-primary: #156cc2;
-  --brand-accent: #0ea158;
-  --brand-text: #111827;
-  --brand-bg: #f8f7f4;
+  --brand-primary: #C62828;
+  --brand-accent: #FFB300;
+  --brand-text: #1a1a1a;
+  --brand-bg: #FFFBF5;
   --brand-off-white: #f2f0ec;
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background-color: #ffffff;
   color: var(--brand-text);
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Figtree', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Figtree", sans-serif;
   letter-spacing: -0.02em;
 }
 
 /* ── Film grain overlay (subtle warmth) ── */
 body::after {
-  content: '';
+  content: "";
   position: fixed;
   inset: 0;
   pointer-events: none;
@@ -108,7 +122,7 @@ body::after {
 /* ── Section label pill ── */
 .apache-section-label {
   display: inline-block;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 0.7rem;
   font-weight: 600;
   letter-spacing: 0.12em;
@@ -166,10 +180,13 @@ body::after {
 
 /* Dot pattern on dark band */
 .apache-dark-band::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
-  background-image: radial-gradient(rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-image: radial-gradient(
+    rgba(255, 255, 255, 0.04) 1px,
+    transparent 1px
+  );
   background-size: 28px 28px;
   pointer-events: none;
   z-index: 0;
@@ -209,7 +226,7 @@ body::after {
 }
 
 .apache-trust-bar__label {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 0.78rem;
   font-weight: 600;
   color: rgba(255, 255, 255, 0.92);
@@ -228,7 +245,10 @@ body::after {
 
 /* ── Dot pattern utility ── */
 .dot-pattern {
-  background-image: radial-gradient(rgba(21, 108, 194, 0.08) 1px, transparent 1px);
+  background-image: radial-gradient(
+    rgba(21, 108, 194, 0.08) 1px,
+    transparent 1px
+  );
   background-size: 24px 24px;
 }
 
@@ -244,7 +264,9 @@ body::after {
 /* ── Hover scale for cards (applied to child card elements) ── */
 .apache-section [class*="card"],
 .apache-section [class*="Card"] {
-  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.25s ease;
+  transition:
+    transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1),
+    box-shadow 0.25s ease;
 }
 
 .apache-section [class*="card"]:hover,
@@ -304,20 +326,20 @@ a:hover {
 
 /* ── Footer text tweak ── */
 footer {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 /* ── Stat counter number styles ── */
 [class*="stat"] [class*="value"],
 [class*="Stat"] [class*="value"] {
-  font-family: 'Figtree', sans-serif;
+  font-family: "Figtree", sans-serif;
   font-weight: 800;
 }
 
 /* ── Tagline badge in hero (if rendered) ── */
 [class*="rating"],
 [class*="Rating"] {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 /* ── CTA button brand color refinement ── */
@@ -337,9 +359,8 @@ a[class*="primary"]:hover {
   border-color: #1160a8 !important;
 }
 
-        :root {
-          --brand-primary: #156cc2;
-          --brand-accent: #0ea158;
-          --brand-text: #111827;
-        }
-      
+:root {
+  --brand-primary: #C62828;
+  --brand-accent: #FFB300;
+  --brand-text: #1a1a1a;
+}

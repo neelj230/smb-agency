@@ -5,7 +5,7 @@
 @source "../../../packages/integrations/**/*.{ts,tsx}";
 
 :root {
-  --brand-primary: #1C4A96;
+  --brand-primary: #1c4a96;
   --brand-accent: #3400b2;
   --brand-bg: #ffffff;
   --brand-bg-alt: #e6e9ec;
@@ -29,12 +29,17 @@ body {
 
 /* Marquee animation for carousels */
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 /* Smooth section transitions */
-section, [id] > div {
+section,
+[id] > div {
   scroll-margin-top: 80px;
 }
 
@@ -46,7 +51,7 @@ section, [id] > div {
 
 /* Inset border for editorial/gallery feel */
 body::before {
-  content: '';
+  content: "";
   position: fixed;
   inset: 12px;
   z-index: 999;
@@ -60,7 +65,7 @@ body::before {
   position: relative;
 }
 .section-gradient::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -74,10 +79,10 @@ body::before {
 /* ─── Butch's Auto Repair — Custom CSS ───────────────────────────────────────── */
 
 /* Font imports */
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;600;700&display=swap");
 
 :root {
-  --brand-blue: #1C4A96;
+  --brand-blue: #1c4a96;
   --brand-accent: #3400b2;
   --brand-dark: #0d1a33;
   --brand-text: #0d1a33;
@@ -85,13 +90,16 @@ body::before {
 }
 
 body {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   background: var(--brand-off-white);
   color: var(--brand-dark);
 }
 
-h1, h2, h3, h4 {
-  font-family: 'Libre Baskerville', serif;
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Libre Baskerville", serif;
 }
 
 /* ─── Film grain overlay ─────────────────────────────────────────────────────── */
@@ -111,8 +119,8 @@ h1, h2, h3, h4 {
   background: var(--brand-blue);
   overflow: hidden;
   padding: 12px 0;
-  border-top: 1px solid rgba(255,255,255,0.08);
-  border-bottom: 1px solid rgba(255,255,255,0.08);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .butch-marquee-track {
@@ -125,12 +133,12 @@ h1, h2, h3, h4 {
   display: inline-flex;
   align-items: center;
   gap: 0;
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.9);
+  color: rgba(255, 255, 255, 0.9);
   white-space: nowrap;
   padding: 0 24px;
 }
@@ -138,12 +146,16 @@ h1, h2, h3, h4 {
 .butch-marquee-dot {
   margin-left: 24px;
   font-size: 0.5rem;
-  color: rgba(255,255,255,0.4);
+  color: rgba(255, 255, 255, 0.4);
 }
 
 @keyframes butch-scroll {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 /* ─── Trust Badges ────────────────────────────────────────────────────────────── */
@@ -166,10 +178,10 @@ h1, h2, h3, h4 {
   align-items: center;
   gap: 8px;
   background: #fff;
-  border: 1px solid rgba(28,74,150,0.15);
+  border: 1px solid rgba(28, 74, 150, 0.15);
   border-radius: 40px;
   padding: 10px 20px;
-  box-shadow: 0 2px 8px rgba(28,74,150,0.06);
+  box-shadow: 0 2px 8px rgba(28, 74, 150, 0.06);
 }
 
 .butch-trust-icon {
@@ -178,7 +190,7 @@ h1, h2, h3, h4 {
 }
 
 .butch-trust-label {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.06em;
@@ -223,7 +235,7 @@ h1, h2, h3, h4 {
 }
 
 .butch-dark-heading {
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
   font-size: clamp(2rem, 4vw, 3.25rem);
   font-weight: 700;
   color: #fff;
@@ -232,9 +244,9 @@ h1, h2, h3, h4 {
 }
 
 .butch-dark-sub {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   font-size: 1.05rem;
-  color: rgba(255,255,255,0.55);
+  color: rgba(255, 255, 255, 0.55);
   max-width: 480px;
   margin-bottom: 48px;
 }
@@ -242,14 +254,14 @@ h1, h2, h3, h4 {
 /* ─── Section label ───────────────────────────────────────────────────────────── */
 .butch-section-label {
   display: inline-block;
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--brand-blue);
-  background: rgba(28,74,150,0.08);
-  border: 1px solid rgba(28,74,150,0.18);
+  background: rgba(28, 74, 150, 0.08);
+  border: 1px solid rgba(28, 74, 150, 0.18);
   border-radius: 4px;
   padding: 5px 12px;
   margin-bottom: 16px;
@@ -257,14 +269,14 @@ h1, h2, h3, h4 {
 
 .butch-label-dark {
   color: var(--brand-blue);
-  background: rgba(28,74,150,0.06);
+  background: rgba(28, 74, 150, 0.06);
 }
 
 /* In dark context, override */
 .butch-dark-inner .butch-section-label {
-  color: rgba(255,255,255,0.6);
-  background: rgba(255,255,255,0.06);
-  border-color: rgba(255,255,255,0.12);
+  color: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.12);
 }
 
 /* ─── Reviews section ─────────────────────────────────────────────────────────── */
@@ -282,10 +294,14 @@ h1, h2, h3, h4 {
 }
 
 .butch-pullquote-wrap::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse at 30% 50%, rgba(52, 0, 178, 0.35) 0%, transparent 65%);
+  background: radial-gradient(
+    ellipse at 30% 50%,
+    rgba(52, 0, 178, 0.35) 0%,
+    transparent 65%
+  );
   pointer-events: none;
 }
 
@@ -301,16 +317,16 @@ h1, h2, h3, h4 {
 }
 
 .butch-pullquote-mark {
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
   font-size: 7rem;
   line-height: 0.6;
-  color: rgba(255,255,255,0.12);
+  color: rgba(255, 255, 255, 0.12);
   user-select: none;
   margin-bottom: 8px;
 }
 
 .butch-pullquote-text {
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
   font-size: clamp(1.4rem, 3vw, 2.1rem);
   font-weight: 400;
   font-style: italic;
@@ -320,12 +336,12 @@ h1, h2, h3, h4 {
 }
 
 .butch-pullquote-attr {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   font-size: 0.85rem;
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: rgba(255,255,255,0.5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 /* ─── FAQ section ─────────────────────────────────────────────────────────────── */
@@ -343,27 +359,29 @@ h1, h2, h3, h4 {
 /* ─── Card hover effects ──────────────────────────────────────────────────────── */
 [class*="service"] [class*="card"],
 [class*="ServiceCard"] {
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
 }
 
 [class*="service"] [class*="card"]:hover,
 [class*="ServiceCard"]:hover {
   transform: translateY(-4px);
-  box-shadow: 0 16px 40px rgba(28,74,150,0.12);
+  box-shadow: 0 16px 40px rgba(28, 74, 150, 0.12);
 }
 
 /* ─── Dark service cards override ─────────────────────────────────────────────── */
 .butch-dark-inner [class*="card"],
 .butch-dark-inner [class*="Card"] {
-  background: rgba(255,255,255,0.05);
-  border-color: rgba(255,255,255,0.08);
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.08);
   color: #fff;
 }
 
 .butch-dark-inner [class*="card"]:hover,
 .butch-dark-inner [class*="Card"]:hover {
-  background: rgba(255,255,255,0.08);
-  box-shadow: 0 16px 40px rgba(0,0,0,0.3);
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.3);
 }
 
 /* ─── Responsive tweaks ───────────────────────────────────────────────────────── */
@@ -384,7 +402,11 @@ h1, h2, h3, h4 {
 
 /* ─── Dot pattern on FAQ section ─────────────────────────────────────────────── */
 .butch-faq-section {
-  background-image: radial-gradient(circle, rgba(28,74,150,0.06) 1px, transparent 1px);
+  background-image: radial-gradient(
+    circle,
+    rgba(28, 74, 150, 0.06) 1px,
+    transparent 1px
+  );
   background-size: 24px 24px;
   background-color: #fff;
 }

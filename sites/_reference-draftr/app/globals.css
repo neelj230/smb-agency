@@ -1,0 +1,126 @@
+@import "tailwindcss";
+
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+@source "./**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #8b7aff;
+  --brand-accent: #a594ff;
+  --brand-bg: #f0f2f6;
+  --brand-bg-white: #ffffff;
+  --brand-text: #1a1a2e;
+  --brand-text-light: #64648c;
+  --brand-purple-light: #ede9ff;
+  --brand-purple-wash: #f5f3ff;
+  --brand-pink: #ff7eb3;
+  --brand-yellow: #ffd97a;
+  --brand-blue: #7ab8ff;
+  --brand-green: #7affb8;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display);
+}
+
+/* ── LOGO MARQUEE ── */
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  animation: marquee-scroll 30s linear infinite;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+/* ── GRADIENT BACKGROUNDS ── */
+.hero-gradient {
+  background: linear-gradient(
+    135deg,
+    #f5f3ff 0%,
+    #ede9ff 30%,
+    #e8e0ff 60%,
+    #f0f2f6 100%
+  );
+}
+
+.card-pink-gradient {
+  background: linear-gradient(135deg, #fff0f5 0%, #ffe4ee 30%, #f5e6ff 100%);
+}
+
+.card-yellow-gradient {
+  background: linear-gradient(135deg, #fffdf0 0%, #fff8e0 30%, #fff3cc 100%);
+}
+
+.card-blue-gradient {
+  background: linear-gradient(135deg, #f0f5ff 0%, #e4eeff 30%, #e6f0ff 100%);
+}
+
+/* ── MOCKUP SHADOWS ── */
+.mockup-shadow {
+  box-shadow:
+    0 20px 60px rgba(139, 122, 255, 0.15),
+    0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+.card-shadow {
+  box-shadow:
+    0 4px 20px rgba(0, 0, 0, 0.05),
+    0 1px 4px rgba(0, 0, 0, 0.03);
+}
+
+.card-shadow-hover {
+  box-shadow:
+    0 8px 32px rgba(139, 122, 255, 0.12),
+    0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* ── PRICING TOGGLE ── */
+.toggle-bg {
+  background: #e8e4f0;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-knob {
+  transition: transform 0.3s ease;
+}
+
+/* ── SMOOTH TRANSITIONS ── */
+.transition-card {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.transition-card:hover {
+  transform: translateY(-4px);
+}

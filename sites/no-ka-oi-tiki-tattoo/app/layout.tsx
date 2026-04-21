@@ -1,14 +1,14 @@
 import type { Metadata } from 'next'
-import { DM_Sans, Inter, JetBrains_Mono } from 'next/font/google'
+import { Bricolage_Grotesque, Inter, JetBrains_Mono } from 'next/font/google'
 import { AnalyticsProvider } from '@/integrations/AnalyticsProvider'
 import { SchemaJsonLd } from '@/components/SchemaJsonLd'
 import './globals.css'
 
-const dm_sans = DM_Sans({
+const bricolage_grotesque = Bricolage_Grotesque({
   subsets: ['latin'],
-  variable: '--font-dm-sans',
+  variable: '--font-bricolage-grotesque',
   display: 'swap',
-  weight: ['400', '500', '600', '700'],
+  weight: ['200', '300', '400', '500', '600', '700', '800'],
 })
 
 const inter = Inter({
@@ -62,7 +62,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${dm_sans.variable} ${inter.variable} ${mono.variable}`}>
+    <html lang="en" className={`${bricolage_grotesque.variable} ${inter.variable} ${mono.variable}`}>
       <head>
         <SchemaJsonLd business={businessData} />
       </head>
@@ -70,7 +70,7 @@ export default function RootLayout({
         className="font-[family-name:var(--font-inter)] antialiased"
         style={
           {
-            '--font-display': 'var(--font-dm-sans)',
+            '--font-display': 'var(--font-bricolage-grotesque)',
           } as React.CSSProperties
         }
       >

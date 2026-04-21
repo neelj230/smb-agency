@@ -1,179 +1,228 @@
-import { Navbar } from '@/components/Navbar'
-import { Footer } from '@/components/Footer'
-import { ClickToCall } from '@/components/ClickToCall'
-import { HeroSection } from '@/components/HeroSection'
-import { AboutSection } from '@/components/AboutSection'
-import { StatsCounter } from '@/components/StatsCounter'
-import { ServiceCards } from '@/components/ServiceCards'
-import { ImageGallery } from '@/components/ImageGallery'
-import { TestimonialCarousel } from '@/components/TestimonialCarousel'
-import { FounderQuote } from '@/components/FounderQuote'
-import { FAQAccordion } from '@/components/FAQAccordion'
-import { ContactSection } from '@/components/ContactSection'
-import type { Stat, Service, Review, FAQItem, NavLink, Photo, SocialLinks } from '@/components/types'
+import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/Footer";
+import { ClickToCall } from "@/components/ClickToCall";
+import { HeroSection } from "@/components/HeroSection";
+import { AboutSection } from "@/components/AboutSection";
+import { StatsCounter } from "@/components/StatsCounter";
+import { ServiceCards } from "@/components/ServiceCards";
+import { ImageGallery } from "@/components/ImageGallery";
+import { TestimonialCarousel } from "@/components/TestimonialCarousel";
+import { FounderQuote } from "@/components/FounderQuote";
+import { FAQAccordion } from "@/components/FAQAccordion";
+import { ContactSection } from "@/components/ContactSection";
+import type {
+  Stat,
+  Service,
+  Review,
+  FAQItem,
+  NavLink,
+  Photo,
+  SocialLinks,
+} from "@/components/types";
 
 const navLinks: NavLink[] = [
-  { label: 'About', href: '#about' },
-  { label: 'Services', href: '#services' },
-  { label: 'Gallery', href: '#gallery' },
-  { label: 'Reviews', href: '#reviews' },
-  { label: 'FAQ', href: '#faq' },
-  { label: 'Contact', href: '#contact' },
-]
+  { label: "About", href: "#about" },
+  { label: "Services", href: "#services" },
+  { label: "Gallery", href: "#gallery" },
+  { label: "Reviews", href: "#reviews" },
+  { label: "FAQ", href: "#faq" },
+  { label: "Contact", href: "#contact" },
+];
 
 const stats: Stat[] = [
-  {     value: 4.1, suffix: '★', label: 'Average Customer Rating' },
-  {     value: 9, suffix: '+', label: 'Verified Customer Reviews' },
-  {     value: 6, suffix: ' Days', label: 'Early-Morning Weekday Availability' },
-  {     value: 100, suffix: '%', label: 'Of Recent Reviewers Recommend Woodcrest' },
-]
+  { value: 4.1, suffix: "★", label: "Average Customer Rating" },
+  { value: 9, suffix: "+", label: "Verified Customer Reviews" },
+  { value: 6, suffix: " Days", label: "Early-Morning Weekday Availability" },
+  { value: 100, suffix: "%", label: "Of Recent Reviewers Recommend Woodcrest" },
+];
 
 const services: Service[] = [
   {
-    name: 'Custom Bouquet Design',
-    description: 'Handcrafted bouquets tailored to the occasion, from birthday arrangements with fresh red roses and lush greenery to elegant mixed-flower designs.',
-    icon: 'flower-2',
-    image: '/photos/photo-3.webp',
+    name: "Custom Bouquet Design",
+    description:
+      "Handcrafted bouquets tailored to the occasion, from birthday arrangements with fresh red roses and lush greenery to elegant mixed-flower designs.",
+    icon: "flower-2",
+    image: "/photos/photo-3.webp",
   },
   {
-    name: 'Corporate & Bulk Floral Orders',
-    description: 'Elegant floral arrangements for businesses and events, including last-minute multi-bouquet orders for employee appreciation and corporate gifting.',
-    icon: 'briefcase',
-    image: '/photos/photo-4.webp',
+    name: "Corporate & Bulk Floral Orders",
+    description:
+      "Elegant floral arrangements for businesses and events, including last-minute multi-bouquet orders for employee appreciation and corporate gifting.",
+    icon: "briefcase",
+    image: "/photos/photo-4.webp",
   },
   {
-    name: 'Orchid Gardens & Specialty Plants',
-    description: 'Curated orchid arrangements and specialty potted garden gifts, designed to impress even the most discerning plant enthusiasts.',
-    icon: 'leaf',
-    image: '/photos/photo-5.webp',
+    name: "Orchid Gardens & Specialty Plants",
+    description:
+      "Curated orchid arrangements and specialty potted garden gifts, designed to impress even the most discerning plant enthusiasts.",
+    icon: "leaf",
+    image: "/photos/photo-5.webp",
   },
   {
-    name: 'Celebration of Life & Memorial Tributes',
-    description: 'Thoughtful, elegant floral tributes for memorial services and celebrations of life, crafted with care to honor deeply personal moments.',
-    icon: 'heart',
-    image: '/photos/photo-6.webp',
+    name: "Celebration of Life & Memorial Tributes",
+    description:
+      "Thoughtful, elegant floral tributes for memorial services and celebrations of life, crafted with care to honor deeply personal moments.",
+    icon: "heart",
+    image: "/photos/photo-6.webp",
   },
   {
-    name: 'Rose Arrangements',
-    description: 'Signature rose displays ranging from single-stem gifts to grand \'rose spectacular\' centerpieces for milestone occasions.',
-    icon: 'sparkles',
-    image: '/photos/photo-7.webp',
+    name: "Rose Arrangements",
+    description:
+      "Signature rose displays ranging from single-stem gifts to grand 'rose spectacular' centerpieces for milestone occasions.",
+    icon: "sparkles",
+    image: "/photos/photo-7.webp",
   },
   {
-    name: 'Same-Day & Rush Orders',
-    description: 'Last-minute floral arrangements completed with the same quality and elegance as planned orders, for when time is short but the occasion demands beauty.',
-    icon: 'clock',
-    image: '/photos/photo-8.webp',
+    name: "Same-Day & Rush Orders",
+    description:
+      "Last-minute floral arrangements completed with the same quality and elegance as planned orders, for when time is short but the occasion demands beauty.",
+    icon: "clock",
+    image: "/photos/photo-8.webp",
   },
-]
+];
 
 const reviews: Review[] = [
   {
-    text: 'Hey, Woodcrest — thank you so much to everyone at the flower shop! You did such a beautiful job. I needed six elegant bouquets for our employees, and you really came through. Everything was gorgeous, and you helped us out at the last minute — we truly appreciate it. If anyone’s looking for stunning flowers, check out Woodcrest! Wonderful family company and truly great florists.',
-    author: 'Yaithy Blounder',
+    text: "Hey, Woodcrest — thank you so much to everyone at the flower shop! You did such a beautiful job. I needed six elegant bouquets for our employees, and you really came through. Everything was gorgeous, and you helped us out at the last minute — we truly appreciate it. If anyone’s looking for stunning flowers, check out Woodcrest! Wonderful family company and truly great florists.",
+    author: "Yaithy Blounder",
     rating: 5,
-    source: 'google',
-    date: '2025-10-15',
+    source: "google",
+    date: "2025-10-15",
   },
   {
     text: 'I was able to order an Orchid Garden from this florist for my mother, and she is an "Orchid Snob", and wow, she was impressed, well done, good job, great value for money.',
-    author: 'Lauren',
+    author: "Lauren",
     rating: 5,
-    source: 'google',
-    date: '2026-02-19',
+    source: "google",
+    date: "2026-02-19",
   },
   {
-    text: 'Our Mother loved roses, and all 10 of her children got together and wanted a rose spectacular, and Woodcrest came through with the most lovely, spectacular, and elegant tribute to our Mother on her celabration of her amazing and selfless life. We are so very thankfull to you and your wonderfull staff of floral artists- Thank you.',
-    author: 'Toji Kamado',
+    text: "Our Mother loved roses, and all 10 of her children got together and wanted a rose spectacular, and Woodcrest came through with the most lovely, spectacular, and elegant tribute to our Mother on her celabration of her amazing and selfless life. We are so very thankfull to you and your wonderfull staff of floral artists- Thank you.",
+    author: "Toji Kamado",
     rating: 5,
-    source: 'google',
-    date: '2025-08-31',
+    source: "google",
+    date: "2025-08-31",
   },
   {
-    text: 'I ordered flowers from Woodcrest Florist because they were close to my brother\'s home and was apprehensive due to a few bad reviews that are not my experience. I think this is the old location they were talking about because the lady that answered the phone was super nice and accommodating is  a new shop I was told and they did a great job my brother\'s family was supper impressed and beautiful,',
-    author: 'Diego Garcia',
+    text: "I ordered flowers from Woodcrest Florist because they were close to my brother's home and was apprehensive due to a few bad reviews that are not my experience. I think this is the old location they were talking about because the lady that answered the phone was super nice and accommodating is  a new shop I was told and they did a great job my brother's family was supper impressed and beautiful,",
+    author: "Diego Garcia",
     rating: 5,
-    source: 'google',
-    date: '2023-06-30',
+    source: "google",
+    date: "2023-06-30",
   },
   {
-    text: 'I bought this bouquet for a friend’s birthday, and it was perfect! The red roses were fresh and beautifully arranged with lush greenery and little white flowers.',
-    author: 'Susana Peláez Jiménez',
+    text: "I bought this bouquet for a friend’s birthday, and it was perfect! The red roses were fresh and beautifully arranged with lush greenery and little white flowers.",
+    author: "Susana Peláez Jiménez",
     rating: 5,
-    source: 'google',
-    date: '2024-07-30',
+    source: "google",
+    date: "2024-07-30",
   },
-]
+];
 
 const faqItems: FAQItem[] = [
   {
-    question: 'Can Woodcrest Flowers handle last-minute or same-day orders?',
-    answer: 'Yes — and they do it well. One customer needed six elegant bouquets for employees on short notice, and Woodcrest came through with beautiful results. Calling ahead is always recommended, but the team is known for being accommodating even under time pressure.',
+    question: "Can Woodcrest Flowers handle last-minute or same-day orders?",
+    answer:
+      "Yes — and they do it well. One customer needed six elegant bouquets for employees on short notice, and Woodcrest came through with beautiful results. Calling ahead is always recommended, but the team is known for being accommodating even under time pressure.",
   },
   {
-    question: 'What kinds of occasions do you design flowers for?',
-    answer: 'Woodcrest handles everything from birthday bouquets and corporate gifts to celebration-of-life memorial tributes and specialty orchid gardens. If the moment matters to you, they take it seriously.',
+    question: "What kinds of occasions do you design flowers for?",
+    answer:
+      "Woodcrest handles everything from birthday bouquets and corporate gifts to celebration-of-life memorial tributes and specialty orchid gardens. If the moment matters to you, they take it seriously.",
   },
   {
-    question: 'Are the flowers fresh and high quality?',
-    answer: 'Customers consistently describe the flowers as fresh and beautifully arranged. One self-described \'Orchid Snob\' was genuinely impressed by her orchid garden, and another customer praised red roses as fresh with lush, well-selected greenery.',
+    question: "Are the flowers fresh and high quality?",
+    answer:
+      "Customers consistently describe the flowers as fresh and beautifully arranged. One self-described 'Orchid Snob' was genuinely impressed by her orchid garden, and another customer praised red roses as fresh with lush, well-selected greenery.",
   },
   {
-    question: 'Is Woodcrest a family-owned business?',
-    answer: 'Yes — multiple customers have described it as a family company with a warm, personal feel. The staff is noted for being friendly and genuinely invested in getting your order right.',
+    question: "Is Woodcrest a family-owned business?",
+    answer:
+      "Yes — multiple customers have described it as a family company with a warm, personal feel. The staff is noted for being friendly and genuinely invested in getting your order right.",
   },
   {
-    question: 'What are your hours, and are you open on weekends?',
-    answer: 'Woodcrest is open Monday through Friday, 7:00 AM to 3:00 PM. They are closed on Saturdays and Sundays. Calling early in the day is your best bet to discuss custom orders.',
+    question: "What are your hours, and are you open on weekends?",
+    answer:
+      "Woodcrest is open Monday through Friday, 7:00 AM to 3:00 PM. They are closed on Saturdays and Sundays. Calling early in the day is your best bet to discuss custom orders.",
   },
   {
-    question: 'I\'ve seen some older negative reviews online — should I be concerned?',
-    answer: 'At least one recent customer noted that older negative reviews seemed to reference a previous location. The current shop has earned consistent 5-star praise for quality, customer service, and going above and beyond on special orders.',
+    question:
+      "I've seen some older negative reviews online — should I be concerned?",
+    answer:
+      "At least one recent customer noted that older negative reviews seemed to reference a previous location. The current shop has earned consistent 5-star praise for quality, customer service, and going above and beyond on special orders.",
   },
-]
+];
 
 const heroImage: Photo = {
-  src: '/photos/photo-1.webp',
-  alt: 'Woodcrest Flowers photo 1',
-  category: 'exterior',
-}
+  src: "/photos/photo-1.webp",
+  alt: "Woodcrest Flowers photo 1",
+  category: "exterior",
+};
 
 const aboutImage: Photo = {
-  src: '/photos/photo-2.webp',
-  alt: 'Woodcrest Flowers photo 2',
-  category: 'interior',
-}
+  src: "/photos/photo-2.webp",
+  alt: "Woodcrest Flowers photo 2",
+  category: "interior",
+};
 
 const galleryPhotos: Photo[] = [
-  { src: '/photos/photo-3.webp', alt: 'Woodcrest Flowers photo 3', category: 'work' },
-  { src: '/photos/photo-4.webp', alt: 'Woodcrest Flowers photo 4', category: 'work' },
-  { src: '/photos/photo-5.webp', alt: 'Woodcrest Flowers photo 5', category: 'work' },
-  { src: '/photos/photo-6.webp', alt: 'Woodcrest Flowers photo 6', category: 'work' },
-  { src: '/photos/photo-7.webp', alt: 'Woodcrest Flowers photo 7', category: 'work' },
-  { src: '/photos/photo-8.webp', alt: 'Woodcrest Flowers photo 8', category: 'work' },
-  { src: '/photos/photo-9.webp', alt: 'Woodcrest Flowers photo 9', category: 'work' },
-]
+  {
+    src: "/photos/photo-3.webp",
+    alt: "Woodcrest Flowers photo 3",
+    category: "work",
+  },
+  {
+    src: "/photos/photo-4.webp",
+    alt: "Woodcrest Flowers photo 4",
+    category: "work",
+  },
+  {
+    src: "/photos/photo-5.webp",
+    alt: "Woodcrest Flowers photo 5",
+    category: "work",
+  },
+  {
+    src: "/photos/photo-6.webp",
+    alt: "Woodcrest Flowers photo 6",
+    category: "work",
+  },
+  {
+    src: "/photos/photo-7.webp",
+    alt: "Woodcrest Flowers photo 7",
+    category: "work",
+  },
+  {
+    src: "/photos/photo-8.webp",
+    alt: "Woodcrest Flowers photo 8",
+    category: "work",
+  },
+  {
+    src: "/photos/photo-9.webp",
+    alt: "Woodcrest Flowers photo 9",
+    category: "work",
+  },
+];
 
-const socialLinks: SocialLinks = {}
+const socialLinks: SocialLinks = {};
 
 const businessContact = {
-  name: 'Woodcrest Flowers',
-  address: 'N 58th St',
-  city: 'Philadelphia',
-  state: 'PA',
-  zip: '19131',
-  phone: '(267) 323-4549',
-  email: '',
+  name: "Woodcrest Flowers",
+  address: "N 58th St",
+  city: "Philadelphia",
+  state: "PA",
+  zip: "19131",
+  phone: "(267) 323-4549",
+  email: "",
   hours: {
-    Monday: '7:00 AM – 3:00 PM',
-    Tuesday: '7:00 AM – 3:00 PM',
-    Wednesday: '7:00 AM – 3:00 PM',
-    Thursday: '7:00 AM – 3:00 PM',
-    Friday: '7:00 AM – 3:00 PM',
-    Saturday: 'Closed',
-    Sunday: 'Closed',
+    Monday: "7:00 AM – 3:00 PM",
+    Tuesday: "7:00 AM – 3:00 PM",
+    Wednesday: "7:00 AM – 3:00 PM",
+    Thursday: "7:00 AM – 3:00 PM",
+    Friday: "7:00 AM – 3:00 PM",
+    Saturday: "Closed",
+    Sunday: "Closed",
   },
-}
+};
 
 export default function HomePage() {
   return (
@@ -187,16 +236,16 @@ export default function HomePage() {
 
       <main>
         <HeroSection
-            headline="Flowers That Actually Feel Like Love"
-            subheadline="From rose spectaculars to last-minute corporate bouquets, Woodcrest Flowers is the Philadelphia florist that shows up when it matters most — with craft, warmth, and zero compromise."
-            ctaText="Get a Free Quote"
-            ctaHref="#contact"
-            secondaryCtaText="Call (267) 323-4549"
-            secondaryCtaHref="tel:(267) 323-4549"
-            rating={4.1}
-            reviewCount={9}
-            variant="dark-bold"
-          />
+          headline="Flowers That Actually Feel Like Love"
+          subheadline="From rose spectaculars to last-minute corporate bouquets, Woodcrest Flowers is the Philadelphia florist that shows up when it matters most — with craft, warmth, and zero compromise."
+          ctaText="Get a Free Quote"
+          ctaHref="#contact"
+          secondaryCtaText="Call (267) 323-4549"
+          secondaryCtaHref="tel:(267) 323-4549"
+          rating={4.1}
+          reviewCount={9}
+          variant="dark-bold"
+        />
 
         <div id="about">
           <AboutSection
@@ -239,15 +288,19 @@ export default function HomePage() {
         <div id="founder">
           <FounderQuote
             founder={{
-              name: 'Woodcrest Flowers',
-              role: 'Owner',
-              quote: 'No single owner\'s name surfaces in the reviews, but the personality of Woodcrest Flowers comes through unmistakably — warm, skilled, responsive, and deeply community-rooted. Diego Garcia noted this feels like \'a new shop,\' suggesting the business may be in an active growth chapter, yet it\'s already drawing the loyalty of customers who return and refer. The staff member who answered Diego\'s call left such an impression that he mentioned her specifically in his review. That\'s the hallmark of a small family operation where every voice on the phone represents the whole business.\n\nWoodcrest appears to be run by floral artists who take pride in the emotional weight their work carries — from joyful birthday bouquets to deeply personal memorial tributes. Toji Kamado called them \'a wonderful staff of floral artists,\' a phrase that feels earned. This is a shop built on intention: early morning hours, careful sourcing, and the kind of attentiveness that turns a nervous last-minute order into a story worth sharing. Whatever the founding story, the mission is clear — make people feel something beautiful.',
+              name: "Woodcrest Flowers",
+              role: "Owner",
+              quote:
+                "No single owner's name surfaces in the reviews, but the personality of Woodcrest Flowers comes through unmistakably — warm, skilled, responsive, and deeply community-rooted. Diego Garcia noted this feels like 'a new shop,' suggesting the business may be in an active growth chapter, yet it's already drawing the loyalty of customers who return and refer. The staff member who answered Diego's call left such an impression that he mentioned her specifically in his review. That's the hallmark of a small family operation where every voice on the phone represents the whole business.\n\nWoodcrest appears to be run by floral artists who take pride in the emotional weight their work carries — from joyful birthday bouquets to deeply personal memorial tributes. Toji Kamado called them 'a wonderful staff of floral artists,' a phrase that feels earned. This is a shop built on intention: early morning hours, careful sourcing, and the kind of attentiveness that turns a nervous last-minute order into a story worth sharing. Whatever the founding story, the mission is clear — make people feel something beautiful.",
             }}
           />
         </div>
 
         <div id="faq" className="bg-[var(--brand-bg-alt)]">
-          <FAQAccordion heading="Yes, We Can Do That — Even Last Minute" items={faqItems} />
+          <FAQAccordion
+            heading="Yes, We Can Do That — Even Last Minute"
+            items={faqItems}
+          />
         </div>
 
         <div id="contact">
@@ -267,5 +320,5 @@ export default function HomePage() {
 
       <ClickToCall phone="(267) 323-4549" />
     </>
-  )
+  );
 }

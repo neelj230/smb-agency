@@ -1,87 +1,94 @@
-'use client'
+"use client";
 
-import { Navbar } from '@/components/Navbar'
-import { HeroSection } from '@/components/HeroSection'
-import { ServiceCards } from '@/components/ServiceCards'
-import { AboutSection } from '@/components/AboutSection'
-import { TestimonialCarousel } from '@/components/TestimonialCarousel'
-import { StatsCounter } from '@/components/StatsCounter'
-import { ImageGallery } from '@/components/ImageGallery'
-import { FAQAccordion } from '@/components/FAQAccordion'
-import { ContactSection } from '@/components/ContactSection'
-import { Footer } from '@/components/Footer'
-import { ClickToCall } from '@/components/ClickToCall'
-import type { NavLink, Photo, Service, Review, Stat, FAQItem } from '@/components/types'
-import { motion } from 'framer-motion'
+import { Navbar } from "@/components/Navbar";
+import { HeroSection } from "@/components/HeroSection";
+import { ServiceCards } from "@/components/ServiceCards";
+import { AboutSection } from "@/components/AboutSection";
+import { TestimonialCarousel } from "@/components/TestimonialCarousel";
+import { StatsCounter } from "@/components/StatsCounter";
+import { ImageGallery } from "@/components/ImageGallery";
+import { FAQAccordion } from "@/components/FAQAccordion";
+import { ContactSection } from "@/components/ContactSection";
+import { Footer } from "@/components/Footer";
+import { ClickToCall } from "@/components/ClickToCall";
+import type {
+  NavLink,
+  Photo,
+  Service,
+  Review,
+  Stat,
+  FAQItem,
+} from "@/components/types";
+import { motion } from "framer-motion";
 
 // ─── NAV ────────────────────────────────────────────────────────────────────
 const navLinks: NavLink[] = [
-  { label: 'Services', href: '#services' },
-  { label: 'Gallery', href: '#gallery' },
-  { label: 'Reviews', href: '#reviews' },
-  { label: 'FAQ', href: '#faq' },
-  { label: 'Visit Us', href: '#contact' },
-]
+  { label: "Services", href: "#services" },
+  { label: "Gallery", href: "#gallery" },
+  { label: "Reviews", href: "#reviews" },
+  { label: "FAQ", href: "#faq" },
+  { label: "Visit Us", href: "#contact" },
+];
 
 // ─── HERO ────────────────────────────────────────────────────────────────────
 const heroPhoto: Photo = {
-  src: '/photos/photo-1.webp',
+  src: "/photos/photo-1.webp",
   alt: "J R's Tattoo & Body Piercing photo 1",
-  category: 'exterior',
-}
+  category: "exterior",
+};
 
 // ─── ABOUT ───────────────────────────────────────────────────────────────────
 const aboutPhoto: Photo = {
-  src: '/photos/photo-2.webp',
+  src: "/photos/photo-2.webp",
   alt: "J R's Tattoo & Body Piercing photo 2",
-  category: 'interior',
-}
+  category: "interior",
+};
 
 // ─── SERVICES ────────────────────────────────────────────────────────────────
 const services: Service[] = [
   {
-    name: 'Custom Tattoos',
+    name: "Custom Tattoos",
     description:
       "Original tattoo designs created and applied by skilled artists like Spider, tailored to each client's vision with a focus on clean linework and lasting quality.",
-    icon: 'pen-tool',
-    image: '/photos/photo-3.webp',
+    icon: "pen-tool",
+    image: "/photos/photo-3.webp",
   },
   {
-    name: 'Body Piercing',
+    name: "Body Piercing",
     description:
-      'Professional body piercing using fresh, sterile needles opened in front of the client, performed by an experienced piercer who prioritizes comfort and minimal pain.',
-    icon: 'circle',
-    image: '/photos/photo-4.webp',
+      "Professional body piercing using fresh, sterile needles opened in front of the client, performed by an experienced piercer who prioritizes comfort and minimal pain.",
+    icon: "circle",
+    image: "/photos/photo-4.webp",
   },
   {
-    name: 'Piercing Correction & Repair',
+    name: "Piercing Correction & Repair",
     description:
       "Expert assessment and correction of piercings done incorrectly elsewhere, restoring both safety and aesthetics for clients who've had bad experiences at other shops.",
-    icon: 'shield-check',
-    image: '/photos/photo-5.webp',
+    icon: "shield-check",
+    image: "/photos/photo-5.webp",
   },
   {
-    name: 'Walk-In Appointments',
+    name: "Walk-In Appointments",
     description:
-      'No-appointment-needed sessions available during open hours, making professional tattooing and piercing accessible without weeks of waiting.',
-    icon: 'door-open',
-    image: '/photos/photo-6.webp',
+      "No-appointment-needed sessions available during open hours, making professional tattooing and piercing accessible without weeks of waiting.",
+    icon: "door-open",
+    image: "/photos/photo-6.webp",
   },
   {
-    name: 'Aftercare Consultation',
+    name: "Aftercare Consultation",
     description:
-      'Hands-on aftercare guidance provided at the time of every piercing or tattoo to ensure proper healing and long-term results.',
-    icon: 'heart-pulse',
-    image: '/photos/photo-7.webp',
+      "Hands-on aftercare guidance provided at the time of every piercing or tattoo to ensure proper healing and long-term results.",
+    icon: "heart-pulse",
+    image: "/photos/photo-7.webp",
   },
   {
-    name: 'Monroe & Facial Piercings',
+    name: "Monroe & Facial Piercings",
     description:
-      'Specialized facial piercings including Monroe placements, performed with precision and a gentle touch by a piercer experienced in high-visibility facial work.',
-    icon: 'sparkles',
-    image: '/photos/photo-8.webp',
+      "Specialized facial piercings including Monroe placements, performed with precision and a gentle touch by a piercer experienced in high-visibility facial work.",
+    icon: "sparkles",
+    image: "/photos/photo-8.webp",
   },
-]
+];
 
 // ─── REVIEWS ─────────────────────────────────────────────────────────────────
 const reviews: Review[] = [
@@ -89,63 +96,95 @@ const reviews: Review[] = [
     text: "I went to this tattoo shop as a last stop! And honestly it's the best decision I've ever made regarding my piercing. I will NEVER GO ANYWHERE ELSE EVER!!!!! He saved my life and my face! I went to another place first to get my piercing and I came to him to fix what was done to my...",
     author: 'Jae "Kake_Kween" Waiters',
     rating: 5,
-    source: 'google',
+    source: "google",
   },
   {
     text: "Highly recommend this establishment JR's tattoo shop is the best very clean, clean stations ever needle are fresh out of the packaging, atmosphere is off the chain, killer vibe. Yes highly recommend this place. Spider fabulous job again brother I'll be back, I'm felling ...",
-    author: 'Brian W.',
+    author: "Brian W.",
     rating: 5,
-    source: 'google',
+    source: "google",
   },
   {
-    text: 'Just got pierced here, was able to do a walk in which was great! The piercings literally didn\'t hurt and still don\'t hurt only 3 hours later, he gave great after care advice. he did a great job overall and is obviously very educated and experienced. Would 100% recommend and I\'...',
-    author: 'Brandi',
+    text: "Just got pierced here, was able to do a walk in which was great! The piercings literally didn't hurt and still don't hurt only 3 hours later, he gave great after care advice. he did a great job overall and is obviously very educated and experienced. Would 100% recommend and I'...",
+    author: "Brandi",
     rating: 5,
-    source: 'google',
+    source: "google",
   },
   {
-    text: 'Off the chain beautiful staff beautiful atmosphere job on my tattoo beautiful I cannot wait to visit again very soon',
-    author: 'Gwendolyn Dixon',
+    text: "Off the chain beautiful staff beautiful atmosphere job on my tattoo beautiful I cannot wait to visit again very soon",
+    author: "Gwendolyn Dixon",
     rating: 5,
-    source: 'google',
+    source: "google",
   },
   {
-    text: 'I got a monroe piercing and was but he was very friendly. Will definitely be going for some ink.',
-    author: 'Briana Wilk',
+    text: "I got a monroe piercing and was but he was very friendly. Will definitely be going for some ink.",
+    author: "Briana Wilk",
     rating: 5,
-    source: 'google',
+    source: "google",
   },
-]
+];
 
 // ─── STATS ───────────────────────────────────────────────────────────────────
 const stats: Stat[] = [
-  { value: 4.3, suffix: ' Stars', label: 'Average Google Rating' },
-  { value: 161, suffix: '+', label: 'Customer Reviews' },
-  { value: 6, suffix: ' Days', label: 'Open Evenings & Weekends' },
-  { value: 100, suffix: '%', label: 'Fresh Sterile Needles Every Time' },
-]
+  { value: 4.3, suffix: " Stars", label: "Average Google Rating" },
+  { value: 161, suffix: "+", label: "Customer Reviews" },
+  { value: 6, suffix: " Days", label: "Open Evenings & Weekends" },
+  { value: 100, suffix: "%", label: "Fresh Sterile Needles Every Time" },
+];
 
 // ─── GALLERY ─────────────────────────────────────────────────────────────────
 const galleryPhotos: Photo[] = [
-  { src: '/photos/photo-3.webp', alt: "J R's Tattoo & Body Piercing photo 3", category: 'work' },
-  { src: '/photos/photo-4.webp', alt: "J R's Tattoo & Body Piercing photo 4", category: 'work' },
-  { src: '/photos/photo-5.webp', alt: "J R's Tattoo & Body Piercing photo 5", category: 'work' },
-  { src: '/photos/photo-6.webp', alt: "J R's Tattoo & Body Piercing photo 6", category: 'work' },
-  { src: '/photos/photo-7.webp', alt: "J R's Tattoo & Body Piercing photo 7", category: 'work' },
-  { src: '/photos/photo-8.webp', alt: "J R's Tattoo & Body Piercing photo 8", category: 'work' },
-  { src: '/photos/photo-9.webp', alt: "J R's Tattoo & Body Piercing photo 9", category: 'work' },
-  { src: '/photos/photo-10.webp', alt: "J R's Tattoo & Body Piercing photo 10", category: 'work' },
-]
+  {
+    src: "/photos/photo-3.webp",
+    alt: "J R's Tattoo & Body Piercing photo 3",
+    category: "work",
+  },
+  {
+    src: "/photos/photo-4.webp",
+    alt: "J R's Tattoo & Body Piercing photo 4",
+    category: "work",
+  },
+  {
+    src: "/photos/photo-5.webp",
+    alt: "J R's Tattoo & Body Piercing photo 5",
+    category: "work",
+  },
+  {
+    src: "/photos/photo-6.webp",
+    alt: "J R's Tattoo & Body Piercing photo 6",
+    category: "work",
+  },
+  {
+    src: "/photos/photo-7.webp",
+    alt: "J R's Tattoo & Body Piercing photo 7",
+    category: "work",
+  },
+  {
+    src: "/photos/photo-8.webp",
+    alt: "J R's Tattoo & Body Piercing photo 8",
+    category: "work",
+  },
+  {
+    src: "/photos/photo-9.webp",
+    alt: "J R's Tattoo & Body Piercing photo 9",
+    category: "work",
+  },
+  {
+    src: "/photos/photo-10.webp",
+    alt: "J R's Tattoo & Body Piercing photo 10",
+    category: "work",
+  },
+];
 
 // ─── FAQ ─────────────────────────────────────────────────────────────────────
 const faqItems: FAQItem[] = [
   {
-    question: 'Do I need to make an appointment or can I walk in?',
+    question: "Do I need to make an appointment or can I walk in?",
     answer:
       "Walk-ins are welcome at JR's! Multiple customers have come in without appointments and received full service the same day.",
   },
   {
-    question: 'How clean is the shop? Do they use fresh needles?',
+    question: "How clean is the shop? Do they use fresh needles?",
     answer:
       "Cleanliness is a top priority at JR's. Customers consistently note the spotless stations and confirm that needles are opened fresh from the packaging in front of them.",
   },
@@ -155,31 +194,31 @@ const faqItems: FAQItem[] = [
       "Yes — and it's one of the things the shop is known for. Customers have come in specifically to have botched piercings from other shops corrected, with excellent results.",
   },
   {
-    question: 'Will getting pierced here hurt a lot?',
+    question: "Will getting pierced here hurt a lot?",
     answer:
       "Most customers report surprisingly minimal pain. Brandi noted her piercings didn't hurt during the session and were still painless 3 hours later.",
   },
-]
+];
 
 // ─── CONTACT ─────────────────────────────────────────────────────────────────
 const businessContact = {
   name: "J R's Tattoo & Body Piercing",
-  address: '6110 Market St',
-  city: 'Philadelphia',
-  state: 'PA',
-  zip: '19139',
-  phone: '(215) 474-5020',
-  email: '',
+  address: "6110 Market St",
+  city: "Philadelphia",
+  state: "PA",
+  zip: "19139",
+  phone: "(215) 474-5020",
+  email: "",
   hours: {
-    Monday: 'Closed',
-    Tuesday: '4:00 – 10:00 PM',
-    Wednesday: 'Closed',
-    Thursday: '4:00 – 10:00 PM',
-    Friday: '4:00 – 10:00 PM',
-    Saturday: '12:00 – 10:00 PM',
-    Sunday: '12:00 – 8:00 PM',
+    Monday: "Closed",
+    Tuesday: "4:00 – 10:00 PM",
+    Wednesday: "Closed",
+    Thursday: "4:00 – 10:00 PM",
+    Friday: "4:00 – 10:00 PM",
+    Saturday: "12:00 – 10:00 PM",
+    Sunday: "12:00 – 8:00 PM",
   },
-}
+};
 
 // ─── DECORATIVE COMPONENTS ───────────────────────────────────────────────────
 const FloatingShapes = () => (
@@ -190,18 +229,35 @@ const FloatingShapes = () => (
     <div className="jrs-shape jrs-shape-ring" />
     <div className="jrs-shape jrs-shape-dot-cluster" />
   </div>
-)
+);
 
 const SectionDivider = ({ flip = false }: { flip?: boolean }) => (
-  <div className={`jrs-divider ${flip ? 'jrs-divider-flip' : ''}`} aria-hidden="true">
-    <svg viewBox="0 0 1440 48" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+  <div
+    className={`jrs-divider ${flip ? "jrs-divider-flip" : ""}`}
+    aria-hidden="true"
+  >
+    <svg
+      viewBox="0 0 1440 48"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      preserveAspectRatio="none"
+    >
       <path d="M0 48L480 8L960 40L1440 0V48H0Z" fill="currentColor" />
     </svg>
   </div>
-)
+);
 
 // ─── MARQUEE STRIP ─────────────────────────────────────────────────────────
-const words = ['Custom Ink', 'Walk-Ins Welcome', 'Philadelphia', 'Body Piercing', 'Sterile & Clean', 'Spider Artist', 'Killer Vibe', 'Market Street']
+const words = [
+  "Custom Ink",
+  "Walk-Ins Welcome",
+  "Philadelphia",
+  "Body Piercing",
+  "Sterile & Clean",
+  "Spider Artist",
+  "Killer Vibe",
+  "Market Street",
+];
 
 const MarqueeStrip = () => (
   <div className="jrs-marquee-wrapper" aria-hidden="true">
@@ -214,19 +270,21 @@ const MarqueeStrip = () => (
       ))}
     </div>
   </div>
-)
+);
 
 export default function Page() {
   return (
     <>
       {/* CSS Variables */}
       <div
-        style={{
-          '--brand-primary': '#814AC8',
-          '--brand-accent': '#c84abb',
-          '--brand-text': '#0f0a1a',
-          '--brand-surface': '#f5f0ff',
-        } as React.CSSProperties}
+        style={
+          {
+            "--brand-primary": "#814AC8",
+            "--brand-accent": "#c84abb",
+            "--brand-text": "#0f0a1a",
+            "--brand-surface": "#f5f0ff",
+          } as React.CSSProperties
+        }
       />
 
       {/* Navbar */}
@@ -319,10 +377,7 @@ export default function Page() {
         <div className="jrs-section-label">
           <span>Questions</span>
         </div>
-        <FAQAccordion
-          heading="Good To Know"
-          items={faqItems}
-        />
+        <FAQAccordion heading="Good To Know" items={faqItems} />
       </section>
 
       {/* ── CONTACT ───────────────────────────────────────────────── */}
@@ -335,14 +390,10 @@ export default function Page() {
       </div>
 
       {/* ── FOOTER ────────────────────────────────────────────────── */}
-      <Footer
-        business={businessContact}
-        links={navLinks}
-        socialLinks={{}}
-      />
+      <Footer business={businessContact} links={navLinks} socialLinks={{}} />
 
       {/* ── CLICK TO CALL ─────────────────────────────────────────── */}
       <ClickToCall phone="(215) 474-5020" />
     </>
-  )
+  );
 }

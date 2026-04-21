@@ -1,0 +1,154 @@
+@import "tailwindcss";
+
+/* Scan shared packages for Tailwind classes */
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+@source "./**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #5c7a3d;     /* sage garden green */
+  --brand-accent: #d97746;       /* terracotta / baked clay */
+  --brand-bg: #f6f1e7;           /* warm cream */
+  --brand-bg-alt: #ede4d1;       /* deeper oat */
+  --brand-ink: #2a2118;          /* warm near-black */
+  --brand-text: #2a2118;
+  --brand-muted: #7a6e5f;        /* tea brown */
+  --brand-cocoa: #3b2d20;
+}
+
+::selection {
+  background-color: var(--brand-accent);
+  color: var(--brand-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+section, [id] > div {
+  scroll-margin-top: 80px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--brand-accent);
+  outline-offset: 2px;
+}
+
+/* Grainy paper texture for warm editorial feel */
+.paper-grain {
+  position: relative;
+}
+.paper-grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.35;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0.2  0 0 0 0 0.15  0 0 0 0 0.1  0 0 0 0.18 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+}
+
+/* Hand-drawn underline for display copy */
+.hand-underline {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 8' preserveAspectRatio='none'><path d='M2 5 C 40 1, 80 7, 120 3 S 180 6, 198 4' stroke='%23d97746' stroke-width='3' fill='none' stroke-linecap='round'/></svg>");
+  background-repeat: no-repeat;
+  background-position: left 95%;
+  background-size: 100% 0.4em;
+  padding-bottom: 0.15em;
+}
+
+/* Marquee */
+@keyframes marquee-scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.marquee-track {
+  animation: marquee-scroll 40s linear infinite;
+}
+.marquee-track:hover { animation-play-state: paused; }
+
+/* Review marquee */
+@keyframes testimonial-scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.testimonial-marquee {
+  animation: testimonial-scroll 50s linear infinite;
+}
+.testimonial-marquee:hover { animation-play-state: paused; }
+
+/* Tape sticker (polaroid edges) */
+.polaroid {
+  background: #fffaf0;
+  padding: 10px 10px 40px;
+  box-shadow: 0 10px 30px -10px rgba(42, 33, 24, 0.25);
+}
+.polaroid img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Subtle organic dot pattern */
+.dot-soft {
+  background-image: radial-gradient(circle, rgba(92, 122, 61, 0.18) 1px, transparent 1.5px);
+  background-size: 28px 28px;
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--brand-bg); }
+::-webkit-scrollbar-thumb { background: var(--brand-primary); border-radius: 3px; }
+
+/* Stamped / letterpress card for services */
+.letterpress {
+  background: #fffaf0;
+  border: 1px solid rgba(59, 45, 32, 0.08);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.6) inset,
+    0 6px 22px -14px rgba(42, 33, 24, 0.35);
+  transition: transform 0.4s cubic-bezier(.2,.8,.2,1), box-shadow 0.4s;
+}
+.letterpress:hover {
+  transform: translateY(-3px);
+  box-shadow:
+    0 1px 0 rgba(255, 255, 255, 0.6) inset,
+    0 20px 40px -18px rgba(42, 33, 24, 0.35);
+}
+
+/* Ticket-edge divider for service numbers */
+.ticket-stub::before {
+  content: "";
+  display: block;
+  width: 2.5rem;
+  height: 1px;
+  background: var(--brand-accent);
+  margin-bottom: 1rem;
+}
+
+/* Soft circular accent dot behind stats numbers */
+.stat-glow {
+  position: relative;
+}
+.stat-glow::before {
+  content: "";
+  position: absolute;
+  inset: -30% -10%;
+  background: radial-gradient(circle at 30% 40%, rgba(217, 119, 70, 0.18), transparent 60%);
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Accordion chevron animation helper */
+.rotate-on-open[data-open="true"] { transform: rotate(45deg); }
+.rotate-on-open { transition: transform 0.3s ease; }

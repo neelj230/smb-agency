@@ -188,7 +188,7 @@ const promises = [
   {
     num: '01',
     title: 'Diagnose First',
-    desc: 'We tell you exactly what's wrong before any work begins.',
+    desc: "We tell you exactly what's wrong before any work begins.",
   },
   {
     num: '02',
@@ -198,7 +198,7 @@ const promises = [
   {
     num: '03',
     title: 'Fix It Right',
-    desc: 'Done correctly the first time. Customers don't come back for the same problem.',
+    desc: "Done correctly the first time. Customers don't come back for the same problem.",
   },
   {
     num: '04',

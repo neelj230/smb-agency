@@ -1,175 +1,183 @@
-import { Navbar } from '@/components/Navbar'
-import { HeroSection } from '@/components/HeroSection'
-import { ServiceCards } from '@/components/ServiceCards'
-import { AboutSection } from '@/components/AboutSection'
-import { TestimonialCarousel } from '@/components/TestimonialCarousel'
-import { StatsCounter } from '@/components/StatsCounter'
-import { FAQAccordion } from '@/components/FAQAccordion'
-import { ContactSection } from '@/components/ContactSection'
-import { Footer } from '@/components/Footer'
-import { ClickToCall } from '@/components/ClickToCall'
-import type { NavLink, Photo, Service, Review, Stat, FAQItem } from '@/components/types'
-import { motion } from 'framer-motion'
+import { Navbar } from "@/components/Navbar";
+import { HeroSection } from "@/components/HeroSection";
+import { ServiceCards } from "@/components/ServiceCards";
+import { AboutSection } from "@/components/AboutSection";
+import { TestimonialCarousel } from "@/components/TestimonialCarousel";
+import { StatsCounter } from "@/components/StatsCounter";
+import { FAQAccordion } from "@/components/FAQAccordion";
+import { ContactSection } from "@/components/ContactSection";
+import { Footer } from "@/components/Footer";
+import { ClickToCall } from "@/components/ClickToCall";
+import type {
+  NavLink,
+  Photo,
+  Service,
+  Review,
+  Stat,
+  FAQItem,
+} from "@/components/types";
+import { motion } from "framer-motion";
 
 // ─── NAV ───────────────────────────────────────────────────────────────────────
 const navLinks: NavLink[] = [
-  { label: 'Services', href: '#services' },
-  { label: 'About', href: '#about' },
-  { label: 'Reviews', href: '#reviews' },
-  { label: 'FAQ', href: '#faq' },
-  { label: 'Contact', href: '#contact' },
-]
+  { label: "Services", href: "#services" },
+  { label: "About", href: "#about" },
+  { label: "Reviews", href: "#reviews" },
+  { label: "FAQ", href: "#faq" },
+  { label: "Contact", href: "#contact" },
+];
 
 // ─── HERO ──────────────────────────────────────────────────────────────────────
 const heroPhoto: Photo = {
-  src: '/photos/photo-1.webp',
-  alt: 'HVAC technician in work apron inspecting air conditioning unit outside residential home',
-  category: 'work',
-}
+  src: "/photos/photo-1.webp",
+  alt: "HVAC technician in work apron inspecting air conditioning unit outside residential home",
+  category: "work",
+};
 
 // ─── SERVICES ─────────────────────────────────────────────────────────────────
 const services: Service[] = [
   {
-    name: 'Emergency AC Repair',
+    name: "Emergency AC Repair",
     description:
-      'Rapid-response air conditioner repair with technicians on-site in as little as 45 minutes to diagnose and fix breakdowns fast.',
-    icon: 'zap',
+      "Rapid-response air conditioner repair with technicians on-site in as little as 45 minutes to diagnose and fix breakdowns fast.",
+    icon: "zap",
   },
   {
-    name: 'AC Installation',
+    name: "AC Installation",
     description:
-      'Full air conditioning system installation handled efficiently by a professional team, with on-time arrival and a spotless job site on completion.',
-    icon: 'wind',
+      "Full air conditioning system installation handled efficiently by a professional team, with on-time arrival and a spotless job site on completion.",
+    icon: "wind",
   },
   {
-    name: 'Preventive AC Maintenance',
+    name: "Preventive AC Maintenance",
     description:
-      'Thorough tune-up and inspection service that keeps your air conditioner running smoothly and prevents costly breakdowns before they happen.',
-    icon: 'shield-check',
+      "Thorough tune-up and inspection service that keeps your air conditioner running smoothly and prevents costly breakdowns before they happen.",
+    icon: "shield-check",
   },
   {
-    name: 'Ventilated Ceiling Installation & Repair',
+    name: "Ventilated Ceiling Installation & Repair",
     description:
-      'Expert installation and restoration of ventilated ceilings to dramatically improve airflow and indoor comfort throughout your home.',
-    icon: 'layout-panel-top',
+      "Expert installation and restoration of ventilated ceilings to dramatically improve airflow and indoor comfort throughout your home.",
+    icon: "layout-panel-top",
   },
   {
-    name: 'Heating System Service',
+    name: "Heating System Service",
     description:
       "Inspection, maintenance, and repair of residential heating systems to keep your home warm and efficient through Oregon's wet winters.",
-    icon: 'flame',
+    icon: "flame",
   },
   {
-    name: 'Indoor Air Quality Consultation',
+    name: "Indoor Air Quality Consultation",
     description:
       "Assessment of your home's ventilation and air circulation with tailored recommendations to enhance comfort and air quality.",
-    icon: 'airplay',
+    icon: "airplay",
   },
-]
+];
 
 // ─── REVIEWS ──────────────────────────────────────────────────────────────────
 const reviews: Review[] = [
   {
-    text: 'Sweltering afternoons are now a thing of the past thanks to their swift and expert AC installation. The team arrived right on time and worked efficiently, leaving everything spotless. Highly recommend!',
-    author: 'Luciano Jonah',
+    text: "Sweltering afternoons are now a thing of the past thanks to their swift and expert AC installation. The team arrived right on time and worked efficiently, leaving everything spotless. Highly recommend!",
+    author: "Luciano Jonah",
     rating: 5,
-    source: 'google',
+    source: "google",
   },
   {
-    text: 'Our A/C suddenly stopped working, and their technician arrived 45 minutes later. He fixed the issue quickly and explained everything thoroughly. Highly recommend!',
-    author: 'Catalina Kayleigh',
+    text: "Our A/C suddenly stopped working, and their technician arrived 45 minutes later. He fixed the issue quickly and explained everything thoroughly. Highly recommend!",
+    author: "Catalina Kayleigh",
     rating: 5,
-    source: 'google',
+    source: "google",
   },
   {
-    text: 'The team transformed our living room with a stunning ventilated ceiling. They were meticulous and completed everything perfectly in just under two hours. Highly recommended!',
-    author: 'Roderick Bernier',
+    text: "The team transformed our living room with a stunning ventilated ceiling. They were meticulous and completed everything perfectly in just under two hours. Highly recommended!",
+    author: "Roderick Bernier",
     rating: 5,
-    source: 'google',
+    source: "google",
   },
   {
-    text: 'Just 45 minutes, and my A/C is now running smoothly! Truly impressed with their thorough preventive maintenance.',
-    author: 'Samantha Adison',
+    text: "Just 45 minutes, and my A/C is now running smoothly! Truly impressed with their thorough preventive maintenance.",
+    author: "Samantha Adison",
     rating: 5,
-    source: 'google',
+    source: "google",
   },
   {
-    text: 'The team swiftly restored our ventilated ceiling, enhancing airflow and comfort remarkably.',
-    author: 'Cash Ruben',
+    text: "The team swiftly restored our ventilated ceiling, enhancing airflow and comfort remarkably.",
+    author: "Cash Ruben",
     rating: 5,
-    source: 'google',
+    source: "google",
   },
-]
+];
 
 // ─── STATS ────────────────────────────────────────────────────────────────────
 const stats: Stat[] = [
-  { value: 4.9, suffix: '★', label: 'Average Customer Rating' },
-  { value: 17, suffix: '+', label: 'Verified 5-Star Reviews' },
-  { value: 45, suffix: ' min', label: 'Rapid Response Time' },
-  { value: 7, suffix: ' days', label: 'Available Every Day of the Week' },
-]
+  { value: 4.9, suffix: "★", label: "Average Customer Rating" },
+  { value: 17, suffix: "+", label: "Verified 5-Star Reviews" },
+  { value: 45, suffix: " min", label: "Rapid Response Time" },
+  { value: 7, suffix: " days", label: "Available Every Day of the Week" },
+];
 
 // ─── FAQ ──────────────────────────────────────────────────────────────────────
 const faqItems: FAQItem[] = [
   {
-    question: 'How fast can you get a technician to my home for an AC repair?',
+    question: "How fast can you get a technician to my home for an AC repair?",
     answer:
-      'Very fast. Multiple customers have had technicians arrive within 45 minutes of calling. We prioritize urgent AC issues and dispatch the nearest available technician immediately.',
+      "Very fast. Multiple customers have had technicians arrive within 45 minutes of calling. We prioritize urgent AC issues and dispatch the nearest available technician immediately.",
   },
   {
-    question: "Will the technician explain what's wrong before doing the repair?",
+    question:
+      "Will the technician explain what's wrong before doing the repair?",
     answer:
-      'Absolutely. Our technicians are known for walking customers through exactly what failed, why it happened, and what the fix involves — before any work begins.',
+      "Absolutely. Our technicians are known for walking customers through exactly what failed, why it happened, and what the fix involves — before any work begins.",
   },
   {
-    question: 'How long does a typical AC installation or repair take?',
+    question: "How long does a typical AC installation or repair take?",
     answer:
-      'Most repairs are completed in a single visit, often within an hour. Installations and more involved work like ventilated ceiling projects typically wrap up in under two hours.',
+      "Most repairs are completed in a single visit, often within an hour. Installations and more involved work like ventilated ceiling projects typically wrap up in under two hours.",
   },
   {
-    question: 'Do you leave a mess after the job is done?',
+    question: "Do you leave a mess after the job is done?",
     answer:
       "No. Customers consistently note that our team leaves the work area spotless when they're finished. Clean job sites are a standard — not an exception.",
   },
-]
+];
 
 // ─── CONTACT ──────────────────────────────────────────────────────────────────
 const businessContact = {
-  name: 'Eugene Heating and Air Conditioning',
-  address: '2130 W 7th Ave',
-  city: 'Eugene',
-  state: 'OR',
-  zip: '97402',
-  phone: '(541) 234-4801',
-  email: '',
+  name: "Eugene Heating and Air Conditioning",
+  address: "2130 W 7th Ave",
+  city: "Eugene",
+  state: "OR",
+  zip: "97402",
+  phone: "(541) 234-4801",
+  email: "",
   hours: {
-    Monday: '8:00 AM – 8:00 PM',
-    Tuesday: '8:00 AM – 8:00 PM',
-    Wednesday: '8:00 AM – 8:00 PM',
-    Thursday: '8:00 AM – 8:00 PM',
-    Friday: '8:00 AM – 8:00 PM',
-    Saturday: '9:00 AM – 5:00 PM',
-    Sunday: '9:00 AM – 5:00 PM',
+    Monday: "8:00 AM – 8:00 PM",
+    Tuesday: "8:00 AM – 8:00 PM",
+    Wednesday: "8:00 AM – 8:00 PM",
+    Thursday: "8:00 AM – 8:00 PM",
+    Friday: "8:00 AM – 8:00 PM",
+    Saturday: "9:00 AM – 5:00 PM",
+    Sunday: "9:00 AM – 5:00 PM",
   },
-}
+};
 
 const footerLinks: NavLink[] = [
-  { label: 'Services', href: '#services' },
-  { label: 'About', href: '#about' },
-  { label: 'Reviews', href: '#reviews' },
-  { label: 'FAQ', href: '#faq' },
-  { label: 'Contact', href: '#contact' },
-]
+  { label: "Services", href: "#services" },
+  { label: "About", href: "#about" },
+  { label: "Reviews", href: "#reviews" },
+  { label: "FAQ", href: "#faq" },
+  { label: "Contact", href: "#contact" },
+];
 
 // ─── FADE-UP WRAPPER ──────────────────────────────────────────────────────────
 function FadeUp({
   children,
   delay = 0,
-  className = '',
+  className = "",
 }: {
-  children: React.ReactNode
-  delay?: number
-  className?: string
+  children: React.ReactNode;
+  delay?: number;
+  className?: string;
 }) {
   return (
     <motion.div
@@ -181,7 +189,7 @@ function FadeUp({
     >
       {children}
     </motion.div>
-  )
+  );
 }
 
 // ─── PAGE ─────────────────────────────────────────────────────────────────────
@@ -215,11 +223,11 @@ export default function Page() {
         <div className="trust-band">
           <div className="trust-band__inner">
             {[
-              { icon: '⚡', text: '45-Minute Response' },
-              { icon: '✓', text: 'Spotless Job Sites' },
-              { icon: '★', text: '4.9-Star Rated' },
-              { icon: '📅', text: 'Open 7 Days a Week' },
-              { icon: '🛡', text: 'Fully Licensed & Insured' },
+              { icon: "⚡", text: "45-Minute Response" },
+              { icon: "✓", text: "Spotless Job Sites" },
+              { icon: "★", text: "4.9-Star Rated" },
+              { icon: "📅", text: "Open 7 Days a Week" },
+              { icon: "🛡", text: "Fully Licensed & Insured" },
             ].map((item, i) => (
               <span key={i} className="trust-band__item">
                 <span className="trust-band__icon">{item.icon}</span>
@@ -269,19 +277,19 @@ export default function Page() {
             <div className="process-strip__steps">
               {[
                 {
-                  num: '01',
-                  title: 'Call Us',
-                  body: 'Reach us at (541) 234-4801 any day of the week. Describe your issue and we dispatch the nearest technician immediately.',
+                  num: "01",
+                  title: "Call Us",
+                  body: "Reach us at (541) 234-4801 any day of the week. Describe your issue and we dispatch the nearest technician immediately.",
                 },
                 {
-                  num: '02',
-                  title: 'We Diagnose',
-                  body: 'Your tech arrives — often within 45 minutes — walks you through exactly what failed, and presents a clear fix before starting work.',
+                  num: "02",
+                  title: "We Diagnose",
+                  body: "Your tech arrives — often within 45 minutes — walks you through exactly what failed, and presents a clear fix before starting work.",
                 },
                 {
-                  num: '03',
-                  title: 'Problem Solved',
-                  body: 'We fix it, test it, clean up completely, and leave you with a comfortable home. Most jobs done in a single visit.',
+                  num: "03",
+                  title: "Problem Solved",
+                  body: "We fix it, test it, clean up completely, and leave you with a comfortable home. Most jobs done in a single visit.",
                 },
               ].map((step, i) => (
                 <FadeUp key={i} delay={i * 0.12}>
@@ -344,14 +352,10 @@ export default function Page() {
       </main>
 
       {/* ── FOOTER ───────────────────────────────────────────────────── */}
-      <Footer
-        business={businessContact}
-        links={footerLinks}
-        socialLinks={{}}
-      />
+      <Footer business={businessContact} links={footerLinks} socialLinks={{}} />
 
       {/* ── CLICK-TO-CALL ─────────────────────────────────────────── */}
       <ClickToCall phone="(541) 234-4801" />
     </>
-  )
+  );
 }

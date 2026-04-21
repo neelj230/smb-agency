@@ -5,12 +5,12 @@
 @source "../../../packages/integrations/**/*.{ts,tsx}";
 
 :root {
-  --brand-primary: #b87333;
-  --brand-accent: #d4956a;
+  --brand-primary: #8e5920;
+  --brand-accent: #a8682d;
   --brand-bg: #faf5ef;
   --brand-bg-alt: #e9e1d8;
   --brand-text: #2a2a2a;
-  --brand-muted: #2a2a2a;
+  --brand-muted: #4b5563;
 }
 
 ::selection {
@@ -29,12 +29,17 @@ body {
 
 /* Marquee animation for carousels */
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 /* Smooth section transitions */
-section, [id] > div {
+section,
+[id] > div {
   scroll-margin-top: 80px;
 }
 
@@ -46,7 +51,7 @@ section, [id] > div {
 
 /* Film grain overlay for warm analog feel */
 body::after {
-  content: '';
+  content: "";
   position: fixed;
   inset: 0;
   z-index: 9999;
@@ -61,7 +66,7 @@ body::after {
   position: relative;
 }
 .section-gradient::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -73,30 +78,33 @@ body::after {
 
 /* Creative director extras */
 /* ─── Google Fonts ────────────────────────────────────────────────────────── */
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:wght@300;400;500;600;700&display=swap");
 
 /* ─── Brand CSS variables ─────────────────────────────────────────────────── */
 :root {
-  --brand-primary: #b87333;
-  --brand-accent:  #d4956a;
-  --brand-text:    #1c1410;
-  --brand-bg:      #fdf8f3;
+  --brand-primary: #8e5920;
+  --brand-accent: #a8682d;
+  --brand-text: #1c1410;
+  --brand-bg: #fdf8f3;
 }
 
 /* ─── Base typography ─────────────────────────────────────────────────────── */
 body {
-  font-family: 'Source Sans 3', sans-serif;
+  font-family: "Source Sans 3", sans-serif;
   background-color: var(--brand-bg);
   color: var(--brand-text);
 }
 
-h1, h2, h3, h4 {
-  font-family: 'Libre Baskerville', serif;
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Libre Baskerville", serif;
 }
 
 /* ─── Film grain overlay ──────────────────────────────────────────────────── */
 body::after {
-  content: '';
+  content: "";
   position: fixed;
   inset: 0;
   pointer-events: none;
@@ -109,7 +117,11 @@ body::after {
 
 /* ─── Dot pattern background ──────────────────────────────────────────────── */
 .mai-dot-bg {
-  background-image: radial-gradient(circle, rgba(184, 115, 51, 0.12) 1px, transparent 1px);
+  background-image: radial-gradient(
+    circle,
+    rgba(184, 115, 51, 0.12) 1px,
+    transparent 1px
+  );
   background-size: 28px 28px;
 }
 
@@ -137,8 +149,12 @@ body::after {
 }
 
 @keyframes mai-scroll {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 /* ─── Dark section decorative arc ─────────────────────────────────────────── */
@@ -150,14 +166,21 @@ body::after {
   width: 700px;
   height: 300px;
   border-radius: 50%;
-  background: radial-gradient(ellipse at center, rgba(184,115,51,0.08) 0%, transparent 70%);
+  background: radial-gradient(
+    ellipse at center,
+    rgba(184, 115, 51, 0.08) 0%,
+    transparent 70%
+  );
   pointer-events: none;
 }
 
 /* ─── Copper button style ─────────────────────────────────────────────────── */
 a[href^="tel"],
 a[href="#contact"] {
-  transition: background 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+  transition:
+    background 0.2s ease,
+    transform 0.15s ease,
+    box-shadow 0.2s ease;
 }
 
 /* ─── Service card hover elevation ───────────────────────────────────────── */
@@ -165,7 +188,9 @@ a[href="#contact"] {
 .service-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 16px 40px rgba(184, 115, 51, 0.15);
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
 }
 
 /* ─── Testimonial card polish ─────────────────────────────────────────────── */
@@ -187,7 +212,7 @@ html {
 
 /* ─── Picture-frame inset border ──────────────────────────────────────────── */
 body::before {
-  content: '';
+  content: "";
   position: fixed;
   inset: 8px;
   border: 1px solid rgba(184, 115, 51, 0.07);
@@ -201,14 +226,10 @@ body::before {
   color: #1c1410;
 }
 
-/* ─── Link base ───────────────────────────────────────────────────────────── */
-a {
-  color: var(--brand-primary);
-}
-
-a:hover {
-  color: var(--brand-accent);
-}
+/* ─── Link base (scoped — Tailwind color utilities win) ───────────────────── */
+/* Removed global `a { color: var(--brand-primary) }` because it overrode
+   explicit text-white / text-[var(--brand-...)] utilities on dark sections
+   and CTA buttons, causing copper-on-copper and copper-on-dark violations. */
 
 /* ─── Scrollbar subtle styling ────────────────────────────────────────────── */
 ::-webkit-scrollbar {

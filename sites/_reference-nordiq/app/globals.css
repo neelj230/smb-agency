@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+@source "./**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #1a1a1a;
+  --brand-accent: #8b7355;
+  --brand-bg: #f5f1eb;
+  --brand-bg-alt: #ede8e0;
+  --brand-text: #1a1a1a;
+  --brand-muted: #7a7264;
+  --brand-cream: #f5f1eb;
+  --brand-warm: #c4a882;
+  --brand-dark: #2c2824;
+}
+
+::selection {
+  background-color: var(--brand-accent);
+  color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+}
+
+section,
+[id] > div {
+  scroll-margin-top: 80px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--brand-accent);
+  outline-offset: 2px;
+}
+
+/* ── CATEGORY MARQUEE ── */
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  animation: marquee-scroll 20s linear infinite;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+/* ── ROTATING WORDS MARQUEE ── */
+@keyframes words-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.words-marquee {
+  animation: words-scroll 15s linear infinite;
+}
+
+/* ── SCROLLBAR ── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--brand-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--brand-accent);
+  border-radius: 3px;
+}
+
+/* ── THIN DIVIDERS ── */
+.divider {
+  height: 1px;
+  background-color: var(--brand-text);
+  opacity: 0.15;
+}

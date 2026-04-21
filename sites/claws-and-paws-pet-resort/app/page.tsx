@@ -1,394 +1,559 @@
-'use client'
+"use client";
 
-import { Navbar } from '@/components/Navbar'
-import { HeroSection } from '@/components/HeroSection'
-import { ServiceCards } from '@/components/ServiceCards'
-import { AboutSection } from '@/components/AboutSection'
-import { TestimonialCarousel } from '@/components/TestimonialCarousel'
-import { StatsCounter } from '@/components/StatsCounter'
-import { ImageGallery } from '@/components/ImageGallery'
-import { FAQAccordion } from '@/components/FAQAccordion'
-import { ContactSection } from '@/components/ContactSection'
-import { Footer } from '@/components/Footer'
-import { ClickToCall } from '@/components/ClickToCall'
-import type { NavLink, Photo, Service, Review, Stat, FAQItem, SocialLinks } from '@/components/types'
-import { motion, useScroll, useTransform } from 'framer-motion'
-import { useRef } from 'react'
+import { motion } from "framer-motion";
+import { Navbar } from "@/components/Navbar";
+import { Footer } from "@/components/Footer";
+import { ClickToCall } from "@/components/ClickToCall";
+import { BlurredReveal } from "@/components/BlurredReveal";
+import { ZoomOutReveal } from "@/components/ZoomOutReveal";
+import { MarqueeTicker } from "@/components/MarqueeTicker";
+import type { NavLink } from "@/components/types";
+import { Phone, MapPin, ArrowUpRight } from "lucide-react";
 
-// ── Brand Tokens ──────────────────────────────────────────────
-// Primary: #218544  Accent: #ace38f
-
-// ── Data ─────────────────────────────────────────────────────
+// ─── DATA ────────────────────────────────────────────────────────────────────
 
 const navLinks: NavLink[] = [
-  { label: 'Services', href: '#services' },
-  { label: 'Gallery', href: '#gallery' },
-  { label: 'Reviews', href: '#reviews' },
-  { label: 'FAQ', href: '#faq' },
-  { label: 'Contact', href: '#contact' },
-]
+  { label: "The House", href: "#about" },
+  { label: "Care", href: "#services" },
+  { label: "Photos", href: "#gallery" },
+  { label: "Words", href: "#reviews" },
+  { label: "Visit", href: "#contact" },
+];
 
-const heroPhoto: Photo = {
-  src: '/photos/photo-4.webp',
-  alt: 'Young man smiling on couch with black and white husky dog indoors',
-  category: 'team',
-}
-
-const aboutPhoto: Photo = {
-  src: '/photos/photo-7.webp',
-  alt: 'Two people and a dog posing at Multnomah Falls with bridge and waterfall behind them',
-  category: 'team',
-}
-
-const galleryPhotos: Photo[] = [
-  { src: '/photos/photo-1.webp', alt: 'Vibrant pop art style illustration of happy dog wearing blue collar and yellow bell', category: 'product' },
-  { src: '/photos/photo-2.webp', alt: 'Person walking four dogs on a wooden boardwalk trail through natural wetland vegetation.', category: 'work' },
-  { src: '/photos/photo-3.webp', alt: 'Black dog with white chest holding yellow tennis ball on patterned blanket indoors', category: 'product' },
-  { src: '/photos/photo-5.webp', alt: 'Person holding dog treats while three black and tan dogs eagerly reach upward outdoors', category: 'product' },
-  { src: '/photos/photo-6.webp', alt: 'Person caring for multiple dogs in a sunny backyard setting', category: 'work' },
-]
-
-const services: Service[] = [
-  {
-    name: 'Dog Daycare',
-    description: 'Full-day in-home daycare at Nick\'s house with backyard playtime, walks, and social time with other dogs in a comfortable home setting.',
-    icon: 'sun',
-    image: '/photos/photo-1.webp',
-  },
-  {
-    name: 'Overnight Boarding',
-    description: 'Multi-night boarding in a real home environment where dogs sleep, play, and are supervised around the clock by Nick personally.',
-    icon: 'moon',
-    image: '/photos/photo-2.webp',
-  },
-  {
-    name: 'Backyard Play Sessions',
-    description: 'Supervised group play in a securely fenced backyard with toys, other dogs, and plenty of room to run and socialize.',
-    icon: 'trees',
-    image: '/photos/photo-3.webp',
-  },
-  {
-    name: 'Trail Walks & Outdoor Adventures',
-    description: 'On-leash group walks along Corvallis trails, forest paths, and wetland boardwalks to keep dogs active and mentally stimulated.',
-    icon: 'footprints',
-    image: '/photos/photo-5.webp',
-  },
-  {
-    name: 'Photo & Video Updates',
-    description: 'Real-time photos and videos sent directly to pet parents during every stay so you always know your dog is safe and having fun.',
-    icon: 'camera',
-    image: '/photos/photo-6.webp',
-  },
-  {
-    name: 'Cat-Friendly Socialization',
-    description: 'For dogs who need it, gentle introduction to Nick\'s resident kitten helps build calm, confident behavior around cats.',
-    icon: 'cat',
-  },
-]
-
-const reviews: Review[] = [
-  {
-    text: 'Nick loves every dog who comes through his doors. His doggie daycare is ran out of his home which helps the dogs themselves feel more comfortable. He takes them on walks and drives and lots of play time in the backyard too. When Mollie comes home she is worn out and happy.',
-    author: 'Tracy S',
-    rating: 5,
-    source: 'google',
-  },
-  {
-    text: 'I just started taking my young, heeler mix brothers to Nick and they\'ve settled right in! I just picked them up after boarding them for 2 nights, and they were happy, healthy and ready to go home to bed! He\'s even introducing them to his kitten which is fine with me.',
-    author: 'Jennifer Scotti',
-    rating: 5,
-    source: 'google',
-  },
-  {
-    text: 'My mid size (40lbs) retriever mix loves staying here anytime I am out of town. Nick is super friendly and responsive to messages and I am grateful that he is so flexible with my schedule!! He clearly loves dogs and treats them so well. Backyard is securely fenced and a good size.',
-    author: 'Emily Werner',
-    rating: 5,
-    source: 'google',
-  },
-  {
-    text: 'Luna our dwarf German shepherd stayed here for the weekend while we visited friends here on vacation and she had a great time! He sent a video of her running and playing with the other dogs and text us updates. Thank you Nick for taking such good care of our baby.',
-    author: 'Sarah Scar',
-    rating: 5,
-    source: 'google',
-  },
-  {
-    text: 'Nick is a great dog sitter...was very attentive to our boy Maxx and we appreciate how caring he is with him...highly recommend for doggie daycare / boarding',
-    author: 'Judy Jensen',
-    rating: 5,
-    source: 'google',
-  },
-]
-
-const stats: Stat[] = [
-  { value: 5, suffix: '★', label: 'Perfect Rating Across All Reviews' },
-  { value: 18, suffix: '+', label: 'Verified Five-Star Reviews' },
-  { value: 7, suffix: ' days', label: 'Open Every Day of the Week' },
-  { value: 100, suffix: '%', label: 'Reviewers Recommend Claws and Paws' },
-]
-
-const faqItems: FAQItem[] = [
-  {
-    question: 'Is this a commercial kennel or a home-based daycare?',
-    answer: 'Claws and Paws is run out of Nick\'s home in Corvallis, which is intentional. Dogs are far more comfortable in a real home environment than a commercial kennel. They sleep on real furniture, play in a real backyard, and get one-on-one attention — not a kennel run.',
-  },
-  {
-    question: 'Will I get updates while my dog is staying with Nick?',
-    answer: 'Absolutely. Nick is known for sending photos, videos, and text updates throughout every stay. Multiple customers have specifically called out how responsive and communicative he is — you\'ll never be left wondering how your dog is doing.',
-  },
-  {
-    question: 'Do you accept dogs of all sizes?',
-    answer: 'Yes! Past guests have included a 40-pound retriever mix, heeler-mix brothers, a dwarf German shepherd, and a large husky. Nick works with dogs of all sizes and energy levels.',
-  },
-  {
-    question: 'Can my dog board for multiple nights?',
-    answer: 'Yes, overnight and multi-night boarding is available. Jennifer Scotti\'s dogs boarded for two full nights and came home happy, healthy, and ready for bed — exactly how it should be.',
-  },
-]
-
-const businessContact = {
-  name: 'Claws and Paws Pet Resort',
-  address: '862 NW Oak Ave',
-  city: 'Corvallis',
-  state: 'OR',
-  zip: '97330',
-  phone: '(541) 223-3608',
-  email: '',
+const business = {
+  name: "Claws and Paws Pet Resort",
+  address: "862 NW Oak Ave",
+  city: "Corvallis",
+  state: "OR",
+  zip: "97330",
+  phone: "(541) 223-3608",
+  phoneHref: "+15412233608",
+  email: "",
   hours: {
-    Monday: '6:30 AM – 7:00 PM',
-    Tuesday: '6:30 AM – 7:00 PM',
-    Wednesday: '6:30 AM – 7:00 PM',
-    Thursday: '6:30 AM – 7:00 PM',
-    Friday: '6:30 AM – 7:00 PM',
-    Saturday: '8:00 AM – 5:00 PM',
-    Sunday: '8:00 AM – 5:00 PM',
+    Monday: "6:30 AM – 7:00 PM",
+    Tuesday: "6:30 AM – 7:00 PM",
+    Wednesday: "6:30 AM – 7:00 PM",
+    Thursday: "6:30 AM – 7:00 PM",
+    Friday: "6:30 AM – 7:00 PM",
+    Saturday: "8:00 AM – 5:00 PM",
+    Sunday: "8:00 AM – 5:00 PM",
   },
-}
+};
 
-const socialLinks: SocialLinks = {}
+const services = [
+  {
+    title: "Daycare",
+    description:
+      "Days at Nick's house. Backyard play, couch naps, group walks — not a concrete kennel.",
+    image: "/photos/photo-6.webp",
+  },
+  {
+    title: "Overnight Boarding",
+    description:
+      "Multi-night stays in a real home. Dogs sleep where people sleep. Updates come all weekend.",
+    image: "/photos/photo-4.webp",
+  },
+  {
+    title: "Trail Walks",
+    description:
+      "Boardwalks through wetlands, forest paths, the drive across town. Corvallis through a dog's eyes.",
+    image: "/photos/photo-2.webp",
+  },
+  {
+    title: "Backyard Socialization",
+    description:
+      "Fenced yard, other dogs, toys, shade, sun. Careful intros for the ones who need a minute.",
+    image: "/photos/photo-9.webp",
+  },
+  {
+    title: "Photo & Video Updates",
+    description:
+      "Texts from Nick throughout every stay. Video of your dog running. Proof that everyone is fine.",
+    image: "/photos/photo-10.webp",
+  },
+  {
+    title: "Cat-Friendly Intro",
+    description:
+      "Nick's resident kitten helps dogs who need it learn calm, confident cat manners.",
+    image: "/photos/photo-3.webp",
+  },
+];
 
-const footerLinks: NavLink[] = [
-  { label: 'Services', href: '#services' },
-  { label: 'Gallery', href: '#gallery' },
-  { label: 'Reviews', href: '#reviews' },
-  { label: 'FAQ', href: '#faq' },
-  { label: 'Contact', href: '#contact' },
-]
+const galleryPhotos = [
+  { src: "/photos/photo-8.webp", alt: "Forest trail walk with dogs near Corvallis", span: "tall" },
+  { src: "/photos/photo-9.webp", alt: "Dogs playing in fenced backyard with toys", span: "wide" },
+  { src: "/photos/photo-2.webp", alt: "Nick walking four dogs on a wetland boardwalk", span: "normal" },
+  { src: "/photos/photo-10.webp", alt: "Four dogs looking up at the camera", span: "normal" },
+  { src: "/photos/photo-6.webp", alt: "Backyard play session with multiple dogs", span: "wide" },
+  { src: "/photos/photo-5.webp", alt: "Dogs reaching up for treats outdoors", span: "normal" },
+  { src: "/photos/photo-1.webp", alt: "Pop-art style portrait of a happy dog", span: "tall" },
+  { src: "/photos/photo-3.webp", alt: "Black and white dog with a tennis ball", span: "normal" },
+];
 
-// ── Decorative Paw SVG ────────────────────────────────────────
-function PawPrint({ className = '' }: { className?: string }) {
-  return (
-    <svg
-      viewBox="0 0 64 64"
-      className={className}
-      fill="currentColor"
-      aria-hidden="true"
-    >
-      <ellipse cx="20" cy="12" rx="6" ry="8" />
-      <ellipse cx="44" cy="12" rx="6" ry="8" />
-      <ellipse cx="10" cy="28" rx="5" ry="7" />
-      <ellipse cx="54" cy="28" rx="5" ry="7" />
-      <path d="M32 22c-10 0-18 7-18 18 0 8 6 14 18 14s18-6 18-14c0-11-8-18-18-18z" />
-    </svg>
-  )
-}
+const reviews = [
+  {
+    pull: "comes home worn out and happy. Making our evenings together peaceful.",
+    rest:
+      "Nick loves every dog who comes through his doors. His doggie daycare is run out of his home which helps the dogs themselves feel more comfortable. He takes them on walks and drives and lots of play time in the backyard too.",
+    author: "Tracy S.",
+    detail: "Mollie's mom — Corvallis",
+  },
+  {
+    pull: "happy, healthy and ready to go home to bed.",
+    rest:
+      "I just started taking my young heeler-mix brothers to Nick and they've settled right in. I picked them up after boarding them two nights. He's even introducing them to his kitten. Claws and Paws is my new go-to.",
+    author: "Jennifer Scotti",
+    detail: "Two heeler-mix brothers",
+  },
+  {
+    pull: "he clearly loves dogs and treats them so well.",
+    rest:
+      "My 40lb retriever mix loves staying here anytime I'm out of town. Nick is super friendly and responsive and flexible with my schedule. Backyard is securely fenced and a good size. He sends videos and pictures.",
+    author: "Emily Werner",
+    detail: "Retriever mix's person",
+  },
+  {
+    pull: "sent a video of her running and playing with the other dogs.",
+    rest:
+      "Luna our dwarf German shepherd stayed here for the weekend while we visited friends on vacation and she had a great time. Thank you Nick for taking such good care of our baby.",
+    author: "Sarah Scar",
+    detail: "Luna's family, visiting from out of town",
+  },
+];
 
-// ── Marquee Banner ────────────────────────────────────────────
-function TaglineBanner() {
-  const items = Array(8).fill('Where every dog comes home worn out happy.')
-  return (
-    <div className="paws-marquee-wrapper overflow-hidden bg-[#ace38f] py-3 border-y-2 border-[#218544]">
-      <div className="paws-marquee-track flex gap-0 whitespace-nowrap" aria-hidden="true">
-        {[...items, ...items].map((text, i) => (
-          <span
-            key={i}
-            className="paws-marquee-item inline-flex items-center gap-3 text-[#218544] font-semibold text-sm tracking-wide px-6"
-            style={{ fontFamily: 'Inter, sans-serif' }}
-          >
-            <PawPrint className="w-4 h-4 opacity-60 shrink-0" />
-            {text}
-          </span>
-        ))}
-      </div>
-    </div>
-  )
-}
+// ─── ANIMATIONS ──────────────────────────────────────────────────────────────
 
-// ── Floating Badge ────────────────────────────────────────────
-function FloatingBadge() {
-  return (
-    <motion.div
-      className="hidden lg:flex flex-col items-center justify-center w-28 h-28 rounded-full bg-[#ace38f] border-4 border-[#218544] shadow-xl absolute right-8 bottom-[-3rem] z-20 text-center"
-      initial={{ scale: 0, rotate: -20 }}
-      animate={{ scale: 1, rotate: 0 }}
-      transition={{ delay: 0.9, type: 'spring', stiffness: 200 }}
-      whileHover={{ rotate: 6, scale: 1.08 }}
-    >
-      <span className="text-2xl font-black text-[#218544]" style={{ fontFamily: 'Bricolage Grotesque, sans-serif' }}>5★</span>
-      <span className="text-[10px] font-semibold text-[#218544] leading-tight px-1">18 Reviews</span>
-    </motion.div>
-  )
-}
+const fadeUp = {
+  initial: { opacity: 0, y: 36 },
+  whileInView: { opacity: 1, y: 0 },
+  viewport: { once: true, margin: "-80px" },
+  transition: { duration: 0.9, ease: [0.25, 0.46, 0.45, 0.94] },
+};
 
-// ── Geometric Accents ─────────────────────────────────────────
-function GeometricAccents() {
-  return (
-    <div className="pointer-events-none select-none absolute inset-0 overflow-hidden" aria-hidden="true">
-      <div className="paws-geo paws-geo--circle absolute top-16 left-[8%] w-6 h-6 rounded-full bg-[#ace38f] opacity-40" />
-      <div className="paws-geo paws-geo--triangle absolute top-40 left-[15%] w-0 h-0 opacity-30"
-        style={{ borderLeft: '10px solid transparent', borderRight: '10px solid transparent', borderBottom: '17px solid #218544' }} />
-      <div className="paws-geo paws-geo--circle absolute bottom-24 right-[12%] w-10 h-10 rounded-full bg-[#ace38f] opacity-25" />
-      <div className="paws-geo paws-geo--square absolute bottom-40 left-[5%] w-5 h-5 bg-[#218544] opacity-20 rotate-12" />
-      <div className="paws-geo paws-geo--circle absolute top-[35%] right-[6%] w-4 h-4 rounded-full bg-[#218544] opacity-30" />
-    </div>
-  )
-}
+const staggerParent = {
+  initial: {},
+  whileInView: { transition: { staggerChildren: 0.12 } },
+  viewport: { once: true, margin: "-60px" },
+};
 
-// ── Section Wrappers ──────────────────────────────────────────
-function FadeUp({ children, delay = 0, className = '' }: { children: React.ReactNode; delay?: number; className?: string }) {
-  return (
-    <motion.div
-      initial={{ opacity: 0, y: 36 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true }}
-      transition={{ duration: 0.6, delay, ease: 'easeOut' }}
-      className={className}
-    >
-      {children}
-    </motion.div>
-  )
-}
+const staggerChild = {
+  initial: { opacity: 0, y: 24 },
+  whileInView: { opacity: 1, y: 0 },
+  transition: { duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] },
+};
 
-// ── Page ──────────────────────────────────────────────────────
+// ─── PAGE ────────────────────────────────────────────────────────────────────
+
 export default function ClawsAndPawsPage() {
-  const parallaxRef = useRef<HTMLDivElement>(null)
-  const { scrollYProgress } = useScroll({ target: parallaxRef, offset: ['start end', 'end start'] })
-  const parallaxY = useTransform(scrollYProgress, [0, 1], ['-6%', '6%'])
-
   return (
     <>
-      {/* CSS variables */}
-      
-
       <Navbar
         businessName="Claws & Paws"
         links={navLinks}
-        ctaText="Call Now"
-        ctaHref="tel:5412233608"
+        ctaText="Book a Stay"
+        ctaHref="#contact"
+        variant="transparent"
       />
 
-      {/* ── HERO ── */}
-      <div className="relative">
-        <HeroSection
-          headline="Nick's Home for Dogs"
-          subheadline="Home-based daycare and boarding in Corvallis — dogs leave worn out and happy."
-          ctaText="Call (541) 223-3608"
-          ctaHref="tel:5412233608"
-          secondaryCtaText="See Services"
-          secondaryCtaHref="#services"
-          rating={5}
-          reviewCount={18}
-          variant="split"
-          backgroundImage={heroPhoto}
-          foregroundImage={heroPhoto}
-        />
-        <FloatingBadge />
-      </div>
-
-      {/* ── MARQUEE TAGLINE ── */}
-      <TaglineBanner />
-
-      {/* ── STATS — dark ── */}
-      <FadeUp>
-        <div id="stats" className="relative">
-          <StatsCounter stats={stats} variant="dark" />
+      {/* ── HERO ─────────────────────────────────────────────────────────── */}
+      <BlurredReveal
+        src="/photos/photo-8.webp"
+        alt="Forest trail through Corvallis woods with dogs walking"
+        height="140vh"
+      >
+        <div className="text-center px-6 max-w-5xl mx-auto">
+          <motion.p
+            initial={{ opacity: 0, letterSpacing: "0.5em" }}
+            animate={{ opacity: 1, letterSpacing: "0.25em" }}
+            transition={{ duration: 1.2, delay: 0.3 }}
+            className="font-[family-name:var(--font-mono)] text-[11px] uppercase text-white/70 mb-8"
+          >
+            Corvallis, Oregon &nbsp;·&nbsp; Est. in Nick&apos;s home
+          </motion.p>
+          <motion.h1
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 1.1, delay: 0.5 }}
+            className="display-xl text-white text-[18vw] md:text-[13vw] lg:text-[11rem]"
+          >
+            Claws <em className="italic-serif text-[var(--brand-accent)]">&amp;</em> Paws
+          </motion.h1>
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.9, delay: 1 }}
+            className="mt-8 text-white/85 text-xl md:text-2xl max-w-2xl mx-auto font-[family-name:var(--font-display)] italic leading-snug"
+          >
+            A home, not a kennel. Your dog comes home worn out &amp; happy.
+          </motion.p>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 1.3 }}
+            className="mt-12 flex flex-wrap gap-4 justify-center"
+          >
+            <a href="#contact" className="btn-primary">
+              <span>Book a stay</span>
+              <ArrowUpRight className="w-4 h-4" />
+            </a>
+            <a
+              href={`tel:${business.phoneHref}`}
+              className="btn-ghost text-white"
+            >
+              <Phone className="w-4 h-4" />
+              <span>{business.phone}</span>
+            </a>
+          </motion.div>
         </div>
-      </FadeUp>
 
-      {/* ── SERVICES ── */}
-      <section id="services" className="relative dot-pattern-bg py-4">
-        <GeometricAccents />
-        <FadeUp delay={0.05}>
-          <ServiceCards
-            heading="What Nick Offers"
-            subheading="Everything your dog needs — in a real home, with real care."
-            services={services}
-            columns={3}
-            variant="grid"
-          />
-        </FadeUp>
-      </section>
-
-      {/* ── ABOUT — light green tint ── */}
-      <section className="relative overflow-hidden bg-[#f0faf3] py-2" ref={parallaxRef}>
         <motion.div
-          style={{ y: parallaxY }}
-          className="pointer-events-none absolute inset-0 z-0"
-          aria-hidden="true"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 1.6 }}
+          className="absolute bottom-10 left-6 md:left-10 font-[family-name:var(--font-mono)] text-[10px] uppercase tracking-[0.24em] text-white/60 hidden sm:block"
         >
-          <PawPrint className="absolute top-10 right-10 w-48 h-48 text-[#ace38f] opacity-20" />
-          <PawPrint className="absolute bottom-6 left-6 w-32 h-32 text-[#218544] opacity-10" />
+          <span className="block opacity-60">N 44°34&apos;</span>
+          <span className="block opacity-60">W 123°16&apos;</span>
         </motion.div>
-        <FadeUp className="relative z-10">
-          <AboutSection
-            heading="Real Home, Real Care"
-            story="Nick runs Claws and Paws out of his own house on NW Oak Ave — and that's the whole point. Dogs are more comfortable in a real home than a kennel, and it shows. Reviewers consistently say their dogs come home worn out and happy. He sends photos and videos throughout every stay, responds fast to messages, and has a securely fenced backyard where dogs run free every single day."
-            image={aboutPhoto}
-          />
-        </FadeUp>
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1, delay: 1.6 }}
+          className="absolute bottom-10 right-6 md:right-10 text-right font-[family-name:var(--font-mono)] text-[10px] uppercase tracking-[0.24em] text-white/70 hidden sm:block"
+        >
+          <span className="block text-[var(--brand-accent)] text-base tracking-normal">★★★★★</span>
+          <span className="block mt-1">5.0 · 18 reviews</span>
+        </motion.div>
+      </BlurredReveal>
+
+      {/* ── MARQUEE TICKER ──────────────────────────────────────────────── */}
+      <section className="dark-section border-y border-white/10 overflow-hidden">
+        <MarqueeTicker
+          items={[
+            "In-home dog daycare",
+            "Overnight boarding",
+            "Trail walks",
+            "Backyard play",
+            "Photo & video updates",
+            "Flexible scheduling",
+            "Family-run by Nick",
+          ]}
+          separator="✺"
+          speed={45}
+          variant="outline"
+          className="py-8 text-[var(--brand-dark-text)]"
+        />
       </section>
 
-      {/* ── GALLERY ── */}
-      <section id="gallery" className="bg-white py-4">
-        <FadeUp>
-          <ImageGallery
-            heading="Life at the Resort"
-            photos={galleryPhotos}
-            variant="masonry"
-          />
-        </FadeUp>
+      {/* ── STORY / MEET NICK ───────────────────────────────────────────── */}
+      <section id="about" className="py-28 lg:py-44 px-6">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid md:grid-cols-12 gap-12 lg:gap-20 items-start">
+            <motion.div {...fadeUp} className="md:col-span-7 md:pt-12">
+              <p className="eyebrow">(01) The House</p>
+              <div className="editorial-rule mt-5" />
+              <h2 className="display-lg text-4xl md:text-5xl lg:text-6xl mt-2">
+                Nick opened his home <br />
+                to other people&apos;s dogs.
+              </h2>
+              <div className="mt-10 space-y-6 text-[var(--brand-muted)] text-[17px] leading-[1.75] max-w-xl">
+                <p>
+                  Claws and Paws isn&apos;t a commercial facility — it&apos;s Nick&apos;s
+                  house on NW Oak Ave. Dogs lounge on the couch, romp in a
+                  securely fenced backyard, and head out for walks along
+                  wetland boardwalks and forest trails.
+                </p>
+                <p>
+                  Every review mentions Nick by name. Every review says the
+                  same thing: he clearly loves dogs. That&apos;s the whole business
+                  plan.
+                </p>
+              </div>
+
+              <blockquote className="mt-14 pl-6 border-l-2 border-[var(--brand-accent)]">
+                <p className="italic-serif text-2xl md:text-3xl leading-[1.25] text-[var(--brand-text)]">
+                  &ldquo;When Mollie comes home she is worn out and happy.
+                  Making our evenings together peaceful.&rdquo;
+                </p>
+                <footer className="mt-5 font-[family-name:var(--font-mono)] text-[11px] tracking-[0.2em] uppercase text-[var(--brand-muted)]">
+                  — Tracy S., Google review
+                </footer>
+              </blockquote>
+            </motion.div>
+
+            <motion.div
+              {...fadeUp}
+              transition={{ duration: 0.9, delay: 0.15, ease: [0.25, 0.46, 0.45, 0.94] }}
+              className="md:col-span-5"
+            >
+              <ZoomOutReveal startScale={1.12} endScale={1}>
+                <div className="picture-frame aspect-[4/5]">
+                  <img
+                    src="/photos/photo-4.webp"
+                    alt="Nick at home on the couch with a husky"
+                    className="w-full h-full object-cover"
+                    loading="lazy"
+                  />
+                </div>
+              </ZoomOutReveal>
+              <div className="mt-5 flex items-start justify-between font-[family-name:var(--font-mono)] text-[11px] tracking-[0.2em] uppercase text-[var(--brand-muted)]">
+                <span>Nick &nbsp;/&nbsp; Owner</span>
+                <span>Fig. 01</span>
+              </div>
+            </motion.div>
+          </div>
+        </div>
       </section>
 
-      {/* ── REVIEWS — dark bg ── */}
-      <section id="reviews" className="bg-[#1a2e1f] text-white py-4">
-        <FadeUp>
-          <TestimonialCarousel
-            heading="Dog Parents Love It"
-            reviews={reviews}
-            variant="featured"
-          />
-        </FadeUp>
+      {/* ── SERVICES ────────────────────────────────────────────────────── */}
+      <section
+        id="services"
+        className="py-28 lg:py-40 px-6 bg-[var(--brand-bg-alt)]"
+      >
+        <div className="max-w-6xl mx-auto">
+          <motion.div {...fadeUp} className="mb-20 md:mb-28 max-w-3xl">
+            <p className="eyebrow">(02) What a stay looks like</p>
+            <div className="editorial-rule mt-5" />
+            <h2 className="display-lg text-4xl md:text-5xl lg:text-6xl mt-2">
+              Six things <em className="italic-serif text-[var(--brand-primary)]">every</em> stay includes.
+            </h2>
+          </motion.div>
+
+          <motion.div {...staggerParent}>
+            {services.map((svc, i) => (
+              <motion.a
+                key={svc.title}
+                {...staggerChild}
+                href="#contact"
+                className="service-row grid md:grid-cols-12 gap-6 items-center group"
+              >
+                <div className="md:col-span-1 index-number pt-2">
+                  {String(i + 1).padStart(2, "0")}
+                </div>
+                <div className="md:col-span-4">
+                  <h3 className="service-title text-[var(--brand-text)]">
+                    {svc.title}
+                  </h3>
+                </div>
+                <div className="md:col-span-5 text-[var(--brand-muted)] text-[15px] leading-[1.7] max-w-md">
+                  {svc.description}
+                </div>
+                <div className="md:col-span-2 hidden md:block">
+                  <div className="aspect-[4/3] overflow-hidden bg-[var(--brand-bg)]">
+                    <img
+                      src={svc.image}
+                      alt=""
+                      className="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500"
+                      loading="lazy"
+                    />
+                  </div>
+                </div>
+              </motion.a>
+            ))}
+          </motion.div>
+        </div>
       </section>
 
-      {/* ── FAQ ── */}
-      <section id="faq" className="bg-[#f0faf3] py-4">
-        <FadeUp>
-          <FAQAccordion
-            heading="Common Questions"
-            items={faqItems}
-          />
-        </FadeUp>
+      {/* ── GALLERY ─────────────────────────────────────────────────────── */}
+      <section id="gallery" className="py-28 lg:py-40 px-6">
+        <div className="max-w-7xl mx-auto">
+          <motion.div
+            {...fadeUp}
+            className="mb-16 md:mb-24 flex items-end justify-between flex-wrap gap-6"
+          >
+            <div className="max-w-xl">
+              <p className="eyebrow">(03) A week in photos</p>
+              <div className="editorial-rule mt-5" />
+              <h2 className="display-lg text-4xl md:text-5xl lg:text-6xl mt-2">
+                Your dog&apos;s weekend, documented.
+              </h2>
+            </div>
+            <p className="text-[var(--brand-muted)] max-w-sm text-[15px] leading-[1.7]">
+              Photos Nick actually sent to families. The trails, the backyard,
+              the goofy looking-up-at-the-camera moments.
+            </p>
+          </motion.div>
+
+          <motion.div
+            {...staggerParent}
+            className="grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-5"
+          >
+            {galleryPhotos.map((photo, i) => {
+              const cls =
+                photo.span === "tall"
+                  ? "row-span-2 aspect-[3/5]"
+                  : photo.span === "wide"
+                  ? "col-span-2 aspect-[16/10]"
+                  : "aspect-square";
+              return (
+                <motion.div
+                  key={i}
+                  {...staggerChild}
+                  className={`gallery-card ${cls}`}
+                >
+                  <img src={photo.src} alt={photo.alt} loading="lazy" />
+                </motion.div>
+              );
+            })}
+          </motion.div>
+        </div>
       </section>
 
-      {/* ── CONTACT ── */}
-      <section id="contact" className="bg-white py-2">
-        <FadeUp>
-          <ContactSection
-            business={businessContact}
-            heading="Book a Stay"
-            showMap={true}
-          />
-        </FadeUp>
+      {/* ── REVIEWS ─────────────────────────────────────────────────────── */}
+      <section
+        id="reviews"
+        className="dark-section py-28 lg:py-44 px-6 relative overflow-hidden"
+      >
+        <div className="absolute -top-16 left-0 right-0 pointer-events-none opacity-[0.08] overflow-hidden">
+          <div className="display-xl text-[20vw] whitespace-nowrap text-[var(--brand-accent)] leading-none">
+            · loved · loved · loved ·
+          </div>
+        </div>
+
+        <div className="max-w-6xl mx-auto relative">
+          <motion.div {...fadeUp} className="mb-20 md:mb-28 max-w-2xl">
+            <p className="eyebrow">(04) Words from families</p>
+            <div className="editorial-rule mt-5" />
+            <h2 className="display-lg text-4xl md:text-5xl lg:text-6xl mt-2">
+              Every reviewer <em className="italic-serif text-[var(--brand-accent)]">mentions Nick</em> by name.
+            </h2>
+          </motion.div>
+
+          <div className="grid md:grid-cols-2 gap-x-16 gap-y-24">
+            {reviews.map((r, i) => (
+              <motion.blockquote
+                key={i}
+                initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-100px" }}
+                transition={{ duration: 0.9, delay: i * 0.08, ease: [0.25, 0.46, 0.45, 0.94] }}
+                className={i % 2 === 1 ? "md:mt-20" : ""}
+              >
+                <p className="italic-serif text-2xl md:text-[28px] leading-[1.3] text-[var(--brand-dark-text)]">
+                  <span className="text-[var(--brand-accent)] text-3xl leading-none mr-1">&ldquo;</span>
+                  {r.pull}
+                </p>
+                <p className="mt-6 text-[var(--brand-dark-muted)] text-[15px] leading-[1.75]">
+                  {r.rest}
+                </p>
+                <footer className="mt-6 flex items-center gap-3 font-[family-name:var(--font-mono)] text-[11px] tracking-[0.2em] uppercase">
+                  <span className="text-[var(--brand-accent)] tracking-normal text-sm">
+                    ★★★★★
+                  </span>
+                  <span className="text-[var(--brand-dark-text)]">{r.author}</span>
+                  <span className="text-[var(--brand-dark-muted)]">/ {r.detail}</span>
+                </footer>
+              </motion.blockquote>
+            ))}
+          </div>
+        </div>
       </section>
 
-      {/* ── FOOTER ── */}
-      <Footer
-        business={businessContact}
-        links={footerLinks}
-        socialLinks={socialLinks}
-      />
+      {/* ── CONTACT ─────────────────────────────────────────────────────── */}
+      <section id="contact" className="py-28 lg:py-44 px-6 bg-[var(--brand-bg-alt)]">
+        <div className="max-w-7xl mx-auto">
+          <motion.div {...fadeUp} className="mb-16 max-w-3xl">
+            <p className="eyebrow">(05) Come over</p>
+            <div className="editorial-rule mt-5" />
+            <h2 className="display-lg text-4xl md:text-6xl lg:text-7xl mt-2">
+              Bring your dog <br />
+              to <em className="italic-serif text-[var(--brand-primary)]">NW Oak Ave.</em>
+            </h2>
+          </motion.div>
 
-      {/* ── CLICK TO CALL ── */}
-      <ClickToCall phone="(541) 223-3608" />
+          <div className="grid md:grid-cols-12 gap-10 lg:gap-16 items-start">
+            <motion.div {...fadeUp} className="md:col-span-5 space-y-12">
+              <div>
+                <p className="eyebrow mb-5">Address</p>
+                <a
+                  href="https://maps.google.com/?q=862+NW+Oak+Ave+Corvallis+OR+97330"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group block"
+                >
+                  <p className="display-lg text-2xl md:text-3xl text-[var(--brand-text)] flex items-start gap-3 group-hover:text-[var(--brand-primary)] transition-colors">
+                    862 NW Oak Ave
+                    <ArrowUpRight className="w-5 h-5 mt-2 opacity-40 group-hover:opacity-100 group-hover:translate-x-1 group-hover:-translate-y-1 transition-all" />
+                  </p>
+                  <p className="mt-1 font-[family-name:var(--font-mono)] text-sm text-[var(--brand-muted)]">
+                    Corvallis, OR 97330
+                  </p>
+                </a>
+              </div>
+
+              <div>
+                <p className="eyebrow mb-5">Phone</p>
+                <a
+                  href={`tel:${business.phoneHref}`}
+                  className="display-lg text-2xl md:text-3xl text-[var(--brand-text)] hover:text-[var(--brand-primary)] transition-colors inline-flex items-center gap-3"
+                >
+                  <Phone className="w-5 h-5 opacity-50" />
+                  {business.phone}
+                </a>
+                <p className="mt-2 text-[var(--brand-muted)] text-sm">
+                  Text preferred — Nick replies fast, even on weekends.
+                </p>
+              </div>
+
+              <div>
+                <p className="eyebrow mb-5">Hours</p>
+                <dl className="space-y-2 font-[family-name:var(--font-mono)] text-sm">
+                  {Object.entries(business.hours).map(([day, time]) => (
+                    <div
+                      key={day}
+                      className="flex justify-between items-baseline border-b border-[var(--brand-text)]/10 pb-2"
+                    >
+                      <dt className="uppercase tracking-[0.18em] text-xs text-[var(--brand-muted)]">
+                        {day}
+                      </dt>
+                      <dd className="text-[var(--brand-text)]">{time}</dd>
+                    </div>
+                  ))}
+                </dl>
+              </div>
+
+              <a href={`tel:${business.phoneHref}`} className="btn-primary mt-6">
+                <span>Text Nick to book</span>
+                <ArrowUpRight className="w-4 h-4" />
+              </a>
+            </motion.div>
+
+            <motion.div
+              {...fadeUp}
+              transition={{ duration: 0.9, delay: 0.15, ease: [0.25, 0.46, 0.45, 0.94] }}
+              className="md:col-span-7"
+            >
+              <a
+                href="https://maps.google.com/?q=862+NW+Oak+Ave+Corvallis+OR+97330"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block picture-frame aspect-[4/3] group relative"
+              >
+                <iframe
+                  title="Map to Claws and Paws"
+                  src="https://www.google.com/maps?q=862+NW+Oak+Ave+Corvallis+OR+97330&output=embed"
+                  className="w-full h-full grayscale-[0.3] contrast-[1.05]"
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                />
+                <div className="absolute bottom-6 left-6 right-6 flex justify-between items-end pointer-events-none z-10">
+                  <div className="font-[family-name:var(--font-mono)] text-[11px] tracking-[0.2em] uppercase text-[var(--brand-text)] bg-[var(--brand-bg)]/90 backdrop-blur px-3 py-2">
+                    N 44.5709° &nbsp;·&nbsp; W 123.2731°
+                  </div>
+                  <div className="font-[family-name:var(--font-mono)] text-[11px] tracking-[0.2em] uppercase text-[var(--brand-bg)] bg-[var(--brand-primary)] px-3 py-2 flex items-center gap-2">
+                    <MapPin className="w-3 h-3" />
+                    Open in Maps
+                  </div>
+                </div>
+              </a>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      <Footer business={business} links={navLinks} />
+
+      <ClickToCall phone={business.phone} />
     </>
-  )
+  );
 }

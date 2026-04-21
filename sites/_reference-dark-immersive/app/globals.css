@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #d4a574;
+  --brand-accent: #8b6f47;
+  --brand-bg: #0a0a0a;
+  --brand-bg-alt: #141414;
+  --brand-text: #f5f0eb;
+  --brand-muted: #777;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: var(--brand-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+}
+
+section,
+[id] > div {
+  scroll-margin-top: 80px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* ── FILM GRAIN (heavier for dark sites) ── */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  mix-blend-mode: soft-light;
+  opacity: 0.06;
+}
+
+/* ── SECTION BORDERS ── */
+.section-line {
+  border-top: 1px solid rgba(245, 240, 235, 0.06);
+}
+
+/* ── HORIZONTAL RULE ── */
+.brand-hr {
+  width: 40px;
+  height: 2px;
+  background: var(--brand-primary);
+}
+
+/* ── IMAGE TREATMENT ── */
+.image-warm {
+  filter: saturate(0.85) brightness(0.9) contrast(1.05);
+  transition: filter 0.6s ease;
+}
+.image-warm:hover {
+  filter: saturate(1) brightness(1) contrast(1);
+}
+
+/* ── SCROLLBAR ── */
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-track {
+  background: var(--brand-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--brand-primary);
+  border-radius: 2px;
+}
+
+/* ── STICKY STACK OFFSET ── */
+.sticky-stack > * + * {
+  margin-top: -1px;
+}

@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+@source "./**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #004a90;
+  --brand-accent: #c9a84c;
+  --brand-dark: #0a1628;
+  --brand-bg: #f8f8f8;
+  --brand-bg-alt: #ffffff;
+  --brand-text: #1a1a2e;
+  --brand-muted: #6b7280;
+  --brand-light: #e8edf3;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+}
+
+section,
+[id] > div {
+  scroll-margin-top: 80px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* ── REVIEW CAROUSEL ── */
+@keyframes review-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.review-marquee {
+  animation: review-scroll 40s linear infinite;
+}
+
+.review-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* ── BOAT SPEC PILL ── */
+.spec-pill {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* ── VIDEO OVERLAY ── */
+.video-overlay {
+  position: relative;
+  overflow: hidden;
+}
+
+.video-overlay video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-overlay::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    120deg,
+    rgba(0, 74, 144, 0.85) 0%,
+    rgba(10, 22, 40, 0.7) 50%,
+    rgba(0, 0, 0, 0.3) 100%
+  );
+  z-index: 1;
+}
+
+/* ── SCROLLBAR ── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--brand-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--brand-primary);
+  border-radius: 3px;
+}
+
+/* ── GLASS CARD ── */
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}

@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+/* Scan shared packages for Tailwind classes */
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+@source "./**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #2E4057;
+  --brand-accent: #4ECDC4;
+  --brand-bg: #FFFFFF;
+  --brand-bg-alt: #F5F8FA;
+  --brand-text: #2E4057;
+  --brand-muted: #6b7280;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: var(--brand-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+/* Marquee animation for carousels */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Smooth section transitions */
+section, [id] > div {
+  scroll-margin-top: 80px;
+}
+
+/* Focus-visible outlines for accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Subtle dot pattern background */
+.dot-pattern {
+  background-image: radial-gradient(circle, var(--brand-muted) 0.5px, transparent 0.5px);
+  background-size: 24px 24px;
+}
+
+/* Gradient transitions between sections */
+.section-gradient {
+  position: relative;
+}
+.section-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--brand-bg));
+  pointer-events: none;
+}
+
+/* Creative director extras */
+/* ── TICKER SCROLL ── */
+@keyframes ticker-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+@keyframes ticker-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.ticker-left {
+  animation: ticker-left 25s linear infinite;
+}
+.ticker-right {
+  animation: ticker-right 25s linear infinite;
+}
+.ticker-left:hover,
+.ticker-right:hover {
+  animation-play-state: paused;
+}
+
+/* ── SCROLLBAR ── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--brand-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--brand-primary);
+  border-radius: 3px;
+}
+
+/* ── GLOBE GLOW ── */
+.globe-glow {
+  box-shadow:
+    0 0 80px 20px rgba(130, 255, 40, 0.15),
+    0 0 160px 60px rgba(130, 255, 40, 0.05);
+}

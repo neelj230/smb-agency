@@ -5,7 +5,7 @@
 @source "../../../packages/integrations/**/*.{ts,tsx}";
 
 :root {
-  --brand-primary: #1B3A2D;
+  --brand-primary: #1b3a2d;
   --brand-accent: #004055;
   --brand-bg: #f5f5f0;
   --brand-bg-alt: #ddded9;
@@ -29,12 +29,17 @@ body {
 
 /* Marquee animation for carousels */
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 /* Smooth section transitions */
-section, [id] > div {
+section,
+[id] > div {
   scroll-margin-top: 80px;
 }
 
@@ -50,7 +55,7 @@ section, [id] > div {
   overflow: hidden;
 }
 .card-hover::after {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   background: var(--brand-primary);
@@ -67,7 +72,7 @@ section, [id] > div {
   position: relative;
 }
 .section-gradient::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -79,14 +84,14 @@ section, [id] > div {
 
 /* Creative director extras */
 /* ─── Brand font import ─────────────────────────────────────────────── */
-@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Inter:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pinyon+Script&family=Inter:wght@300;400;500;600;700&display=swap");
 
 /* ─── Root tokens ────────────────────────────────────────────────────── */
 :root {
-  --brand-primary: #1B3A2D;
+  --brand-primary: #1b3a2d;
   --brand-accent: #004055;
-  --font-display: 'Pinyon Script', cursive;
-  --font-body: 'Inter', sans-serif;
+  --font-display: "Pinyon Script", cursive;
+  --font-body: "Inter", sans-serif;
 }
 
 body {
@@ -96,7 +101,7 @@ body {
 
 /* ─── Film grain overlay ─────────────────────────────────────────────── */
 body::after {
-  content: '';
+  content: "";
   position: fixed;
   inset: 0;
   pointer-events: none;
@@ -120,7 +125,7 @@ body::after {
 /* ─── Dot pattern background ─────────────────────────────────────────── */
 .dot-pattern-section {
   background-color: #ffffff;
-  background-image: radial-gradient(circle, #1B3A2D18 1px, transparent 1px);
+  background-image: radial-gradient(circle, #1b3a2d18 1px, transparent 1px);
   background-size: 24px 24px;
 }
 
@@ -227,7 +232,8 @@ body::after {
 }
 
 /* ─── Headings — display font treatment ──────────────────────────────── */
-h1, h2 {
+h1,
+h2 {
   font-family: var(--font-body);
 }
 
@@ -242,7 +248,9 @@ h1, h2 {
 /* ─── Card hover polish ──────────────────────────────────────────────── */
 .service-card,
 [class*="card"] {
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
 }
 
 .service-card:hover,
@@ -294,9 +302,8 @@ html {
   }
 }
 
-        :root {
-          --brand-primary: ${PRIMARY};
-          --brand-accent: ${ACCENT};
-          --brand-text: ${PRIMARY};
-        }
-      
+:root {
+  --brand-primary: ${PRIMARY};
+  --brand-accent: ${ACCENT};
+  --brand-text: ${PRIMARY};
+}

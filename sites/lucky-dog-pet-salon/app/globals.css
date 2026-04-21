@@ -5,12 +5,12 @@
 @source "../../../packages/integrations/**/*.{ts,tsx}";
 
 :root {
-  --brand-primary: #1B3A2D;
-  --brand-accent: #004055;
-  --brand-bg: #f5f5f0;
-  --brand-bg-alt: #ddded9;
-  --brand-text: #1a1a1a;
-  --brand-muted: #666666;
+  --brand-primary: #5C4A8A;
+  --brand-accent: #E8B84D;
+  --brand-bg: #F9F7FC;
+  --brand-bg-alt: #ffffff;
+  --brand-text: #2a2a2a;
+  --brand-muted: #6b7280;
 }
 
 ::selection {
@@ -29,12 +29,17 @@ body {
 
 /* Marquee animation for carousels */
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 /* Smooth section transitions */
-section, [id] > div {
+section,
+[id] > div {
   scroll-margin-top: 80px;
 }
 
@@ -46,7 +51,11 @@ section, [id] > div {
 
 /* Subtle dot pattern background */
 .dot-pattern {
-  background-image: radial-gradient(circle, var(--brand-muted) 0.5px, transparent 0.5px);
+  background-image: radial-gradient(
+    circle,
+    var(--brand-muted) 0.5px,
+    transparent 0.5px
+  );
   background-size: 24px 24px;
 }
 
@@ -55,7 +64,7 @@ section, [id] > div {
   position: relative;
 }
 .section-gradient::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -73,16 +82,16 @@ section, [id] > div {
 
 /* ── Brand Variables ── */
 :root {
-  --brand-primary: #1B3A2D;
-  --brand-accent: #004055;
-  --brand-text: #1B3A2D;
-  --brand-cream: #F5F0E8;
-  --brand-gold: #C9A84C;
+  --brand-primary: #5C4A8A;
+  --brand-accent: #E8B84D;
+  --brand-text: #2a2a2a;
+  --brand-cream: #f5f0e8;
+  --brand-gold: #E8B84D;
 }
 
 /* ── Film-Grain Overlay ── */
 body::after {
-  content: '';
+  content: "";
   position: fixed;
   inset: 0;
   pointer-events: none;
@@ -95,16 +104,26 @@ body::after {
 }
 
 /* ── Font Imports ── */
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Inter:wght@300;400;500;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Inter:wght@300;400;500;600&display=swap");
 
 /* ── Typography ── */
-h1, h2, h3, h4, h5 {
-  font-family: 'Bricolage Grotesque', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bricolage Grotesque", sans-serif;
   font-optical-sizing: auto;
 }
 
-body, p, li, a, button, input, textarea {
-  font-family: 'Inter', sans-serif;
+body,
+p,
+li,
+a,
+button,
+input,
+textarea {
+  font-family: "Inter", sans-serif;
 }
 
 /* ── Dark Band (Stats + Reviews) ── */
@@ -116,11 +135,20 @@ body, p, li, a, button, input, textarea {
 }
 
 .lucky-dark-band::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse at 20% 50%, rgba(0, 64, 85, 0.5) 0%, transparent 70%),
-              radial-gradient(ellipse at 80% 50%, rgba(201, 168, 76, 0.08) 0%, transparent 70%);
+  background:
+    radial-gradient(
+      ellipse at 20% 50%,
+      rgba(0, 64, 85, 0.5) 0%,
+      transparent 70%
+    ),
+    radial-gradient(
+      ellipse at 80% 50%,
+      rgba(201, 168, 76, 0.08) 0%,
+      transparent 70%
+    );
   pointer-events: none;
 }
 
@@ -134,10 +162,14 @@ body, p, li, a, button, input, textarea {
 }
 
 .lucky-reviews-band::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse at 50% 0%, rgba(27, 58, 45, 0.6) 0%, transparent 70%);
+  background: radial-gradient(
+    ellipse at 50% 0%,
+    rgba(27, 58, 45, 0.6) 0%,
+    transparent 70%
+  );
   pointer-events: none;
 }
 
@@ -148,10 +180,14 @@ body, p, li, a, button, input, textarea {
 }
 
 .lucky-services-wrapper::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
-  background-image: radial-gradient(circle, rgba(27, 58, 45, 0.07) 1px, transparent 1px);
+  background-image: radial-gradient(
+    circle,
+    rgba(27, 58, 45, 0.07) 1px,
+    transparent 1px
+  );
   background-size: 28px 28px;
   pointer-events: none;
   z-index: 0;
@@ -188,7 +224,11 @@ body, p, li, a, button, input, textarea {
 
 /* ── Dot Pattern Utility ── */
 .dot-pattern {
-  background-image: radial-gradient(circle, rgba(27, 58, 45, 0.12) 1.5px, transparent 1.5px);
+  background-image: radial-gradient(
+    circle,
+    rgba(27, 58, 45, 0.12) 1.5px,
+    transparent 1.5px
+  );
   background-size: 24px 24px;
 }
 
@@ -203,7 +243,7 @@ body, p, li, a, button, input, textarea {
 
 /* ── Picture Frame (editorial border) ── */
 .picture-frame::before {
-  content: '';
+  content: "";
   position: fixed;
   inset: 12px;
   border: 1px solid rgba(27, 58, 45, 0.07);
@@ -232,15 +272,19 @@ html {
 
 /* ── Service Card Hover Enhancement ── */
 @keyframes lucky-card-glow {
-  0% { box-shadow: 0 0 0 0 rgba(27, 58, 45, 0); }
-  100% { box-shadow: 0 8px 40px -8px rgba(27, 58, 45, 0.25); }
+  0% {
+    box-shadow: 0 0 0 0 rgba(27, 58, 45, 0);
+  }
+  100% {
+    box-shadow: 0 8px 40px -8px rgba(27, 58, 45, 0.25);
+  }
 }
 
 /* ── CTA Button Override ── */
 a[href^="tel"],
 button[class*="cta"],
 a[class*="cta"] {
-  font-family: 'Bricolage Grotesque', sans-serif;
+  font-family: "Bricolage Grotesque", sans-serif;
   font-weight: 600;
   letter-spacing: -0.01em;
 }
@@ -257,7 +301,7 @@ a[class*="cta"] {
   padding: 6px 16px;
   font-size: 0.8125rem;
   font-weight: 500;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }

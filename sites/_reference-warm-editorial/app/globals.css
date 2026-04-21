@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #c8102e;
+  --brand-accent: #d4a574;
+  --brand-bg: #1a1a1a;
+  --brand-bg-alt: #242424;
+  --brand-text: #f5f0eb;
+  --brand-muted: #999;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: var(--brand-text);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+}
+
+section,
+[id] > div {
+  scroll-margin-top: 80px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* ── PICTURE FRAME BORDER ── */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 10px;
+  z-index: 999;
+  border: 1px solid rgba(245, 240, 235, 0.08);
+  pointer-events: none;
+}
+
+/* ── FILM GRAIN ── */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  mix-blend-mode: soft-light;
+  opacity: 0.04;
+}
+
+/* ── CUSTOM SCROLLBAR ── */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--brand-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--brand-primary);
+  border-radius: 2px;
+}
+
+/* ── EDITORIAL SEPARATOR ── */
+.editorial-rule {
+  width: 60px;
+  height: 1px;
+  background: var(--brand-primary);
+  margin: 2rem 0;
+}
+
+/* ── GALLERY HOVER ── */
+.gallery-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.gallery-card img {
+  transition:
+    transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+    filter 0.7s ease;
+}
+.gallery-card:hover img {
+  transform: scale(1.06);
+  filter: brightness(1.1) saturate(1.1);
+}
+.gallery-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(26, 26, 26, 0.5), transparent 50%);
+  pointer-events: none;
+}

@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+/* Scan shared packages for Tailwind classes */
+@source "../components/**/*.{ts,tsx}";
+@source "../integrations/**/*.{ts,tsx}";
+@source "./**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #184FA1;
+  --brand-primary-bright: #1D65D1;
+  --brand-accent: #F4A261;
+  --brand-bg: #ffffff;
+  --brand-bg-alt: #e6eefa;
+  --brand-text: #0f172a;
+  --brand-muted: #475569;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: var(--brand-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+/* Marquee animation for carousels */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* Smooth section transitions */
+section, [id] > div {
+  scroll-margin-top: 80px;
+}
+
+/* Focus-visible outlines for accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Subtle dot pattern background */
+.dot-pattern {
+  background-image: radial-gradient(circle, var(--brand-muted) 0.5px, transparent 0.5px);
+  background-size: 24px 24px;
+}
+
+/* Gradient transitions between sections */
+.section-gradient {
+  position: relative;
+}
+.section-gradient::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--brand-bg));
+  pointer-events: none;
+}
+
+/* Creative director extras */
+/* ── TESTIMONIAL MARQUEE ── */
+@keyframes testimonial-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.testimonial-marquee {
+  animation: testimonial-scroll 40s linear infinite;
+}
+
+.testimonial-marquee:hover {
+  animation-play-state: paused;
+}
+
+.cc-marquee-track {
+  animation: testimonial-scroll 28s linear infinite;
+}
+
+.cc-marquee-track:hover {
+  animation-play-state: paused;
+}
+
+/* ── SCROLLBAR ── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--brand-bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--brand-primary);
+  border-radius: 3px;
+}

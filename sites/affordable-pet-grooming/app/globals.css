@@ -5,7 +5,7 @@
 @source "../../../packages/integrations/**/*.{ts,tsx}";
 
 :root {
-  --brand-primary: #00A64C;
+  --brand-primary: #00a64c;
   --brand-accent: #0091a6;
   --brand-bg: #ffffff;
   --brand-bg-alt: #e5ede9;
@@ -29,12 +29,17 @@ body {
 
 /* Marquee animation for carousels */
 @keyframes marquee {
-  from { transform: translateX(0); }
-  to { transform: translateX(-50%); }
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 /* Smooth section transitions */
-section, [id] > div {
+section,
+[id] > div {
   scroll-margin-top: 80px;
 }
 
@@ -46,7 +51,11 @@ section, [id] > div {
 
 /* Subtle dot pattern background */
 .dot-pattern {
-  background-image: radial-gradient(circle, var(--brand-muted) 0.5px, transparent 0.5px);
+  background-image: radial-gradient(
+    circle,
+    var(--brand-muted) 0.5px,
+    transparent 0.5px
+  );
   background-size: 24px 24px;
 }
 
@@ -55,7 +64,7 @@ section, [id] > div {
   position: relative;
 }
 .section-gradient::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -68,14 +77,14 @@ section, [id] > div {
 /* Creative director extras */
 /* ── Brand tokens ─────────────────────────────────────────────────── */
 :root {
-  --brand-primary: #00A64C;
+  --brand-primary: #00a64c;
   --brand-accent: #0091a6;
   --brand-text: #0f1f14;
 }
 
 /* ── Film-grain overlay — subtle warmth ───────────────────────────── */
 body::after {
-  content: '';
+  content: "";
   position: fixed;
   inset: 0;
   pointer-events: none;
@@ -89,7 +98,7 @@ body::after {
 /* ── Dot pattern background ────────────────────────────────────────── */
 .dot-pattern-bg {
   background-color: #ffffff;
-  background-image: radial-gradient(circle, #00A64C22 1px, transparent 1px);
+  background-image: radial-gradient(circle, #00a64c22 1px, transparent 1px);
   background-size: 22px 22px;
 }
 
@@ -114,7 +123,7 @@ body::after {
   gap: 0.4rem;
   background: rgba(255, 255, 255, 0.18);
   color: #ffffff;
-  font-family: 'Figtree', sans-serif;
+  font-family: "Figtree", sans-serif;
   font-size: 0.78rem;
   font-weight: 600;
   letter-spacing: 0.06em;
@@ -158,7 +167,11 @@ body::after {
   top: 0;
   bottom: 0;
   width: 6px;
-  background: linear-gradient(180deg, var(--brand-primary) 0%, var(--brand-accent) 100%);
+  background: linear-gradient(
+    180deg,
+    var(--brand-primary) 0%,
+    var(--brand-accent) 100%
+  );
   border-radius: 0 4px 4px 0;
 }
 
@@ -178,7 +191,9 @@ body::after {
 
 /* ── Hover scale on cards ───────────────────────────────────────────── */
 .hover-scale-card {
-  transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.28s ease;
+  transition:
+    transform 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.28s ease;
 }
 .hover-scale-card:hover {
   transform: scale(1.025) translateY(-4px);
@@ -201,12 +216,15 @@ html {
 }
 
 /* ── Figtree display font accents ───────────────────────────────────── */
-h1, h2, h3, h4 {
-  font-family: 'Figtree', sans-serif;
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Figtree", sans-serif;
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 /* ── Stats counter accent color in dark variant ─────────────────────── */
@@ -217,7 +235,7 @@ body {
 
 /* ── Picture-frame editorial border ────────────────────────────────── */
 body::before {
-  content: '';
+  content: "";
   position: fixed;
   inset: 10px;
   pointer-events: none;
@@ -226,9 +244,8 @@ body::before {
   border-radius: 4px;
 }
 
-        :root {
-          --brand-primary: #00A64C;
-          --brand-accent: #0091a6;
-          --brand-text: #0f1f14;
-        }
-      
+:root {
+  --brand-primary: #00a64c;
+  --brand-accent: #0091a6;
+  --brand-text: #0f1f14;
+}
