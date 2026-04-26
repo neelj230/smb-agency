@@ -155,7 +155,7 @@ const faqs = [
 
 const businessContact = {
   name: "Laugh & Learn Childcare",
-  address: "23445 NE Glisan St",
+  address: "23445 NW Glisan St",
   city: "Wood Village",
   state: "OR",
   zip: "97060",
@@ -803,7 +803,7 @@ export default function BusinessPage() {
                   <MapPin className="w-5 h-5 mt-1 text-[var(--brand-accent)] shrink-0" />
                   <div>
                     <p className="font-[family-name:var(--font-display)] text-[var(--brand-cocoa)] text-base">
-                      Just off NE Glisan, 20 minutes from downtown Portland.
+                      Just off NW Glisan, 20 minutes from downtown Portland.
                     </p>
                     <p className="text-[var(--brand-muted)] text-xs font-[family-name:var(--font-mono)] tracking-wide mt-1">
                       Easy drop-off · quiet residential street
@@ -832,7 +832,7 @@ export default function BusinessPage() {
               (503) 317-3811
             </a>
             <span className="text-xs opacity-70 font-[family-name:var(--font-mono)]">
-              23445 NE Glisan St · Wood Village, OR
+              23445 NW Glisan St · Wood Village, OR
             </span>
           </div>
           <div className="text-xs font-[family-name:var(--font-mono)] opacity-70 tracking-wider">

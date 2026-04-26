@@ -33,7 +33,7 @@ const caveat = Caveat({
 
 const businessData = {
   name: 'Laugh & Learn Childcare',
-  address: '23445 NE Glisan St',
+  address: '23445 NW Glisan St',
   city: 'Wood Village',
   state: 'OR',
   zip: '97060',
