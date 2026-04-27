@@ -298,7 +298,7 @@ export default function BusinessPage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.3 }}
             >
-              Fifteen years of reading, gardening, and growing up with Rabecca. Infants through kindergarten, five days a week.
+              Engaging learning since 1989. Infants through kindergarten, five days a week.
             </motion.p>
 
             <motion.div
