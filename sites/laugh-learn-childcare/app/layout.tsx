@@ -37,7 +37,7 @@ const businessData = {
   city: 'Wood Village',
   state: 'OR',
   zip: '97060',
-  phone: '(503) 317-3811',
+  phone: '971-347-7778',
   email: '',
   rating: 5,
   reviewCount: 13,
