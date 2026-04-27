@@ -145,7 +145,7 @@ const faqs = [
   },
   {
     q: "Hours and ages?",
-    a: "Open Monday through Friday, 6:30 AM to 6:00 PM, closed weekends. We welcome children starting as young as 4 months old through kindergarten age.",
+    a: "Open Monday through Friday, 10:00 AM to 8:00 PM, closed weekends. We welcome children starting as young as 4 months old through kindergarten age.",
   },
   {
     q: "How do I secure a spot?",
@@ -764,7 +764,7 @@ export default function BusinessPage() {
                   Hours
                 </p>
                 <p className="text-[var(--brand-cocoa)] text-base">
-                  Monday – Friday · 6:30 AM – 6:00 PM
+                  Monday – Friday · 10:00 AM – 8:00 PM
                 </p>
                 <p className="text-[var(--brand-muted)] text-xs mt-1">
                   Closed weekends
