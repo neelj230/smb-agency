@@ -149,7 +149,7 @@ const faqs = [
   },
   {
     q: "How do I secure a spot?",
-    a: "Spots here are genuinely in high demand — longtime families advise prospective parents not to lose their slot if offered one. Call (503) 317-3811 as early as possible to ask about availability and the waitlist.",
+    a: "Spots here are genuinely in high demand — longtime families advise prospective parents not to lose their slot if offered one. Call 971-347-7778 as early as possible to ask about availability and the waitlist.",
   },
 ];
 
@@ -159,7 +159,7 @@ const businessContact = {
   city: "Wood Village",
   state: "OR",
   zip: "97060",
-  phone: "(503) 317-3811",
+  phone: "971-347-7778",
 };
 
 // ─── SMALL COMPONENTS ────────────────────────────────────────────────────────
@@ -262,7 +262,7 @@ export default function BusinessPage() {
               href="tel:+15033173811"
               className="inline-flex items-center gap-2 border-b border-[var(--brand-cocoa)] text-[var(--brand-cocoa)] pb-1 text-sm font-[family-name:var(--font-mono)] hover:text-[var(--brand-accent)] hover:border-[var(--brand-accent)] transition-colors"
             >
-              (503) 317-3811
+              971-347-7778
             </a>
           </div>
         </nav>
@@ -733,7 +733,7 @@ export default function BusinessPage() {
                   href="tel:+15033173811"
                   className="text-3xl md:text-4xl text-[var(--brand-cocoa)] hover:text-[var(--brand-accent)] transition-colors font-[family-name:var(--font-display)]"
                 >
-                  (503) 317-3811
+                  971-347-7778
                 </a>
                 <p className="mt-2 text-[var(--brand-muted)]">
                   Rabecca answers — even from storytime.
@@ -829,7 +829,7 @@ export default function BusinessPage() {
           </div>
           <div className="flex flex-col md:items-end gap-1 text-sm">
             <a href="tel:+15033173811" className="hover:text-[var(--brand-accent)] transition-colors font-[family-name:var(--font-mono)]">
-              (503) 317-3811
+              971-347-7778
             </a>
             <span className="text-xs opacity-70 font-[family-name:var(--font-mono)]">
               23445 NE Glisan St · Wood Village, OR
@@ -841,7 +841,7 @@ export default function BusinessPage() {
         </div>
       </footer>
 
-      <ClickToCall phone="(503) 317-3811" />
+      <ClickToCall phone="971-347-7778" />
     </>
   );
 }
