@@ -132,7 +132,7 @@ const faqs = [
     a: "Relationships that last years — sometimes decades. One family has enrolled five grandchildren here over 15.5 years. Rabecca learns how each child thinks, sends constant photo updates, and creates an environment kids don't want to leave at pickup.",
   },
   {
-    q: "My child has speech or developmental delays. Can you help?",
+    q: "My child has speech delays. Can you help?",
     a: "Yes. Rabecca and her team have a strong track record with speech delays, developmental differences, and unique learning needs. One parent shared that her son's speech, listening, and social engagement improved dramatically because the team took time to figure out how he learns best.",
   },
   {
