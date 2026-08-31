@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #340f19;
+  --brand-accent: #e9c564;
+  --brand-bg: #f4eddf;
+  --brand-bg-alt: #e6d7c1;
+  --brand-text: #2b1520;
+  --brand-muted: #765d5a;
+}
+
+::selection { background: var(--brand-accent); color: var(--brand-text); }
+html { scroll-behavior: smooth; }
+body { background: var(--brand-bg); color: var(--brand-text); }
+:focus-visible { outline: 3px solid var(--brand-accent); outline-offset: 3px; }
+
+.rgs-ticker {
+  overflow: hidden;
+  color: var(--brand-accent);
+  background: var(--brand-primary);
+  border-top: 1px solid rgba(233, 197, 100, 0.5);
+  border-bottom: 1px solid rgba(233, 197, 100, 0.5);
+}
+
+.rgs-story { background: var(--brand-bg); }
+.rgs-mix { background: var(--brand-bg-alt); position: relative; }
+.rgs-mix::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.24;
+  background-image: linear-gradient(45deg, transparent 48%, rgba(52, 15, 25, 0.18) 49%, rgba(52, 15, 25, 0.18) 51%, transparent 52%);
+  background-size: 22px 22px;
+  mask-image: linear-gradient(to bottom, black, transparent 80%);
+}
+.rgs-mix > * { position: relative; }
+.rgs-gallery { background: #201016; }
+.rgs-gallery h2, .rgs-gallery p { color: #f4eddf !important; }
+.rgs-reviews { background: var(--brand-bg); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; }
+}

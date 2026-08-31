@@ -1,0 +1,75 @@
+{
+  "name": "Really Good Stuff",
+  "slug": "really-good-stuff",
+  "category": "antique store",
+  "address": "3629 SE Division St",
+  "city": "Portland",
+  "state": "OR",
+  "zip": "97202",
+  "phone": "(503) 238-1838",
+  "email": "",
+  "website": null,
+  "rating": 4.5,
+  "reviewCount": 215,
+  "tagline": "The good kind of strange.",
+  "brandNarrative": "Really Good Stuff is a Portland antique and vintage shop founded by Evan Shlaes in 1993. The shop reopened on SE Division in 2022 after its former Hawthorne location was destroyed by fire in 2021. Public listings describe an overflowing assortment of vintage clothing, musical instruments, furniture, records, collectibles, and tchotchkes.",
+  "ownerStory": "Owner Evan Shlaes opened Really Good Stuff in Portland in 1993 and reopened the shop at its current SE Division address in 2022.",
+  "hours": {
+    "Monday": "11:00 AM - 6:00 PM",
+    "Tuesday": "11:00 AM - 6:00 PM",
+    "Wednesday": "11:00 AM - 6:00 PM",
+    "Thursday": "11:00 AM - 6:00 PM",
+    "Friday": "11:00 AM - 6:00 PM",
+    "Saturday": "11:00 AM - 6:00 PM",
+    "Sunday": "11:00 AM - 6:00 PM"
+  },
+  "services": [
+    { "name": "Vintage Clothing", "description": "A changing selection of vintage clothing and one-off garments.", "icon": "shirt" },
+    { "name": "Records & Music", "description": "Vinyl records, musical instruments, and music-adjacent finds.", "icon": "music" },
+    { "name": "Furniture & Home", "description": "Vintage furniture, décor, and home objects.", "icon": "lamp" },
+    { "name": "Collectibles", "description": "Eclectic collectibles, tchotchkes, and unexpected small treasures.", "icon": "sparkles" }
+  ],
+  "reviews": [
+    { "text": "10/10 would recommend this spot if you’re in Portland. My husband and I both found some great gems here, and the owner helped me for several days after I returned to Seattle.", "author": "Colleen Constant", "rating": 5, "source": "google" },
+    { "text": "This is one of the most eclectic shops I’ve ever seen. It is absolutely wonderful and the staff are A+. I found things here I hadn’t seen since I was young, and it’s so cool!", "author": "brent freedman", "rating": 5, "source": "google" },
+    { "text": "New location is pretty nice with a good selection of a bit of everything.", "author": "Google reviewer", "rating": 5, "source": "google" }
+  ],
+  "team": [],
+  "photos": [
+    { "src": "/photos/photo-1.webp", "alt": "Vintage items inside Really Good Stuff in Portland", "category": "interior" },
+    { "src": "/photos/photo-2.webp", "alt": "Eclectic vintage display at Really Good Stuff", "category": "interior" },
+    { "src": "/photos/photo-3.webp", "alt": "Vintage items in the Portland shop", "category": "product" },
+    { "src": "/photos/photo-4.webp", "alt": "Really Good Stuff shop display", "category": "interior" },
+    { "src": "/photos/photo-5.webp", "alt": "Collectibles and vintage finds", "category": "product" },
+    { "src": "/photos/photo-6.webp", "alt": "Merchandise inside Really Good Stuff", "category": "interior" }
+  ],
+  "stats": [
+    { "value": 4.5, "suffix": " stars", "label": "Google rating" },
+    { "value": 215, "suffix": "", "label": "Google reviews" },
+    { "value": 7, "suffix": " days", "label": "Open weekly" }
+  ],
+  "faq": [
+    { "question": "Where is Really Good Stuff located?", "answer": "Really Good Stuff is at 3629 SE Division St in Portland, OR 97202." },
+    { "question": "What is in the store?", "answer": "Listings describe vintage clothing, musical instruments, furniture, records, collectibles, and tchotchkes." },
+    { "question": "Do you offer pickup or delivery?", "answer": "The Google listing shows in-store shopping, in-store pickup for online orders, and delivery." }
+  ],
+  "socialLinks": { "facebook": "https://www.facebook.com/ReallyGoodStuffPDX/" },
+  "brandColors": {
+    "primary": "#340F19",
+    "accent": "#E9C564",
+    "note": "Oxblood and antique gold create a dense, collectible-shop atmosphere while retaining high contrast."
+  },
+  "analysis": {
+    "top_3_strengths": ["Long-running Portland vintage store with a documented 1993 origin.", "Public listings identify a broad, eclectic assortment across apparel, furniture, music, and collectibles.", "Recent Google reviews emphasize unique finds, helpful ownership, and an eclectic selection."],
+    "common_complaints": [],
+    "suggested_tagline": "The good kind of strange.",
+    "photo_quality": "good",
+    "personality_keywords": ["eccentric", "nostalgic", "curious", "independent", "collectible"]
+  },
+  "dataSources": [
+    "https://www.google.com/maps/search/Really+Good+Stuff+Portland+Oregon",
+    "https://www.southeastexaminer.com/2022/02/really-good-stuff-vintage-and-collectibles-reopens/",
+    "https://localvintagestores.com/oregon/portland/store/really-good-stuff/",
+    "https://www.facebook.com/ReallyGoodStuffPDX/"
+  ]
+}
