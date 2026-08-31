@@ -1,0 +1,71 @@
+{
+  "name": "Hidden Spring Cleaners",
+  "slug": "hidden-spring-cleaners",
+  "category": "dry cleaner",
+  "address": "19383 Willamette Dr",
+  "city": "West Linn",
+  "state": "OR",
+  "zip": "97068",
+  "phone": "(503) 635-1112",
+  "email": "",
+  "website": null,
+  "rating": 4.7,
+  "reviewCount": 25,
+  "tagline": "Garment care, done right.",
+  "brandNarrative": "Hidden Spring Cleaners is a family-owned dry cleaner at the West Linn Retail Center. Recent Google reviews mention consistent quality, careful handling of delicate fabric, professional pressing, successful stain removal, and mending on a beaded silk blouse.",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "9:00 AM - 6:30 PM",
+    "Tuesday": "9:00 AM - 6:30 PM",
+    "Wednesday": "9:00 AM - 6:30 PM",
+    "Thursday": "9:00 AM - 6:30 PM",
+    "Friday": "9:00 AM - 6:30 PM",
+    "Saturday": "9:00 AM - 4:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [
+    { "name": "Dry Cleaning", "description": "Careful dry cleaning for garments that need professional fabric handling.", "icon": "shirt" },
+    { "name": "Stain Care", "description": "Customer reviews describe tough stains being removed without harming the fabric.", "icon": "sparkles" },
+    { "name": "Mending", "description": "Public reviews mention mending requests completed alongside garment care.", "icon": "scissors" },
+    { "name": "Pressing", "description": "Recent customers note clothes returned fresh, clean, and professionally ironed.", "icon": "check" }
+  ],
+  "reviews": [
+    { "text": "Excellent dry cleaning service with consistent quality and care. My clothes always come back fresh, clean, and perfectly ironed. Even tough stains are removed without harming the fabric.", "author": "Joan Swanson", "rating": 5, "source": "google", "date": "2026-04" },
+    { "text": "I brought in a valuable beaded silk blouse with decorative stitching and another blouse that needed mending. The charge was $31. I paid a small tip because the job was so well done on a difficult task.", "author": "Jennifer Phillips", "rating": 5, "source": "google", "date": "2026-07" },
+    { "text": "Family owned small business, I highly recommend them!", "author": "Google reviewer", "rating": 5, "source": "google" }
+  ],
+  "team": [],
+  "photos": [
+    { "src": "/photos/photo-1.webp", "alt": "Hidden Spring Cleaners in West Linn", "category": "exterior" },
+    { "src": "/photos/photo-2.webp", "alt": "Hidden Spring Cleaners garment-care shop", "category": "interior" },
+    { "src": "/photos/photo-3.webp", "alt": "Hidden Spring Cleaners service detail", "category": "work" }
+  ],
+  "stats": [
+    { "value": 4.7, "suffix": " stars", "label": "Google rating" },
+    { "value": 25, "suffix": "", "label": "Google reviews" },
+    { "value": 6, "suffix": " days", "label": "Open weekly" }
+  ],
+  "faq": [
+    { "question": "Where is Hidden Spring Cleaners located?", "answer": "Hidden Spring Cleaners is at 19383 Willamette Dr in the West Linn Retail Center, West Linn, OR 97068." },
+    { "question": "What services are listed?", "answer": "The public listing identifies a dry cleaner. Customer reviews mention stain care, careful cleaning, ironing, and mending requests." },
+    { "question": "When is the business open?", "answer": "Monday through Friday 9:00 AM–6:30 PM, Saturday 9:00 AM–4:00 PM, and closed Sunday." }
+  ],
+  "socialLinks": {},
+  "brandColors": {
+    "primary": "#1D3D38",
+    "accent": "#D7A952",
+    "note": "Forest green and warm brass create a calm, established neighborhood feel while retaining clear, accessible contrast."
+  },
+  "analysis": {
+    "top_3_strengths": ["Recent reviews praise consistent cleaning quality and professionally ironed garments.", "Reviewers cite careful treatment of delicate fabrics and difficult stain removal.", "Public feedback identifies the business as family owned."],
+    "common_complaints": [],
+    "suggested_tagline": "Garment care, done right.",
+    "photo_quality": "limited",
+    "personality_keywords": ["careful", "local", "reliable", "practical", "family-owned"]
+  },
+  "dataSources": [
+    "https://www.google.com/maps/search/Hidden+Spring+Cleaners+West+Linn+Oregon",
+    "https://local.yahoo.com/info-28586445-hidden-spring-cleaners-west-linn",
+    "https://www.dexknows.com/west-linn-or/bp/hidden-spring-cleaners-4055157"
+  ]
+}

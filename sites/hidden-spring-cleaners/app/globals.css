@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #1d3d38;
+  --brand-accent: #d7a952;
+  --brand-bg: #f7f4ed;
+  --brand-bg-alt: #ebe5d8;
+  --brand-text: #17302c;
+  --brand-muted: #5b6a65;
+}
+
+::selection {
+  background: var(--brand-accent);
+  color: var(--brand-text);
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+:focus-visible {
+  outline: 3px solid var(--brand-accent);
+  outline-offset: 3px;
+}
+
+.hs-ticker {
+  background: var(--brand-accent);
+  color: var(--brand-text);
+  border-top: 1px solid color-mix(in srgb, var(--brand-text) 18%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, var(--brand-text) 18%, transparent);
+}
+
+.hs-about { background: var(--brand-bg); }
+
+.hs-services {
+  background: var(--brand-bg-alt);
+  position: relative;
+}
+
+.hs-services::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.24;
+  background-image: radial-gradient(var(--brand-primary) 0.6px, transparent 0.6px);
+  background-size: 18px 18px;
+  mask-image: linear-gradient(to bottom, black, transparent 76%);
+}
+
+.hs-services > * { position: relative; }
+.hs-process { background: var(--brand-bg); }
+.hs-reviews { background: #17302c; }
+.hs-reviews h2, .hs-reviews p { color: #f7f4ed !important; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; }
+}
