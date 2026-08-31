@@ -131,18 +131,20 @@ export default function Page() {
         variant="light"
       />
 
-      <HeroSection
-        headline="The good kind of strange"
-        subheadline="Vintage treasures, records, furniture, and more."
-        ctaText="Plan your visit"
-        ctaHref="#contact"
-        secondaryCtaText="See the mix"
-        secondaryCtaHref="#mix"
-        rating={4.5}
-        reviewCount={215}
-        variant="split"
-        foregroundImage={heroPhoto}
-      />
+      <div className="rgs-hero">
+        <HeroSection
+          headline="The good kind of strange"
+          subheadline="Vintage treasures, records, furniture, and more."
+          ctaText="Plan your visit"
+          ctaHref="#contact"
+          secondaryCtaText="See the mix"
+          secondaryCtaHref="#mix"
+          rating={4.5}
+          reviewCount={215}
+          variant="split"
+          foregroundImage={heroPhoto}
+        />
+      </div>
 
       <div className="rgs-ticker" aria-label="Shop specialties">
         <MarqueeTicker

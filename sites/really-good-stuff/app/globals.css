@@ -17,6 +17,15 @@ html { scroll-behavior: smooth; }
 body { background: var(--brand-bg); color: var(--brand-text); }
 :focus-visible { outline: 3px solid var(--brand-accent); outline-offset: 3px; }
 
+.rgs-hero section { background: #201016; }
+.rgs-hero h1 { color: #f4eddf !important; }
+.rgs-hero p { color: rgba(244, 237, 223, 0.72) !important; }
+.rgs-hero a.border-2 {
+  color: #f4eddf;
+  border-color: rgba(244, 237, 223, 0.35);
+}
+.rgs-hero a.border-2:hover { background: rgba(244, 237, 223, 0.12); }
+
 .rgs-ticker {
   overflow: hidden;
   color: var(--brand-accent);
