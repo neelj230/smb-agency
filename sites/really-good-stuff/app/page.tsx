@@ -48,9 +48,9 @@ const heroPhoto: Photo = {
 };
 
 const aboutPhoto: Photo = {
-  src: "/photos/photo-9.webp",
-  alt: "Historical Really Good Stuff storefront in Portland",
-  category: "exterior",
+  src: "/photos/photo-4.webp",
+  alt: "Musical instruments and vintage finds inside Really Good Stuff",
+  category: "interior",
 };
 
 const collections: Service[] = [
