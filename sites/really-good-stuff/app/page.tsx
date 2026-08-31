@@ -128,7 +128,7 @@ export default function Page() {
         links={navLinks}
         ctaText="Find us"
         ctaHref="#contact"
-        variant="dark"
+        variant="light"
       />
 
       <HeroSection
@@ -140,8 +140,8 @@ export default function Page() {
         secondaryCtaHref="#mix"
         rating={4.5}
         reviewCount={215}
-        variant="photo-bg"
-        backgroundImage={heroPhoto}
+        variant="split"
+        foregroundImage={heroPhoto}
       />
 
       <div className="rgs-ticker" aria-label="Shop specialties">
@@ -182,7 +182,7 @@ export default function Page() {
           heading="What turns up"
           subheading="There is no formula here—just a lot of genuinely interesting things to sift through."
           services={collections}
-          columns={4}
+          columns={3}
           variant="grid"
         />
       </motion.section>

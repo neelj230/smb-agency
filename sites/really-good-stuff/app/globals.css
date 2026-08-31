@@ -26,7 +26,12 @@ body { background: var(--brand-bg); color: var(--brand-text); }
 }
 
 .rgs-story { background: var(--brand-bg); }
-.rgs-mix { background: var(--brand-bg-alt); position: relative; }
+.rgs-mix {
+  background: var(--brand-bg-alt);
+  position: relative;
+  border-top: 1px solid rgba(52, 15, 25, 0.14);
+  border-bottom: 1px solid rgba(52, 15, 25, 0.14);
+}
 .rgs-mix::before {
   content: "";
   position: absolute;
@@ -38,8 +43,12 @@ body { background: var(--brand-bg); color: var(--brand-text); }
   mask-image: linear-gradient(to bottom, black, transparent 80%);
 }
 .rgs-mix > * { position: relative; }
-.rgs-gallery { background: #201016; }
-.rgs-gallery h2, .rgs-gallery p { color: #f4eddf !important; }
+.rgs-mix .group {
+  border-radius: 0.75rem;
+  border-color: rgba(52, 15, 25, 0.16);
+  box-shadow: 0 16px 38px rgba(52, 15, 25, 0.1);
+}
+.rgs-mix .group:hover { box-shadow: 0 22px 48px rgba(52, 15, 25, 0.17); }
 .rgs-reviews { background: var(--brand-bg); }
 
 @media (prefers-reduced-motion: reduce) {
