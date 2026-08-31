@@ -48,31 +48,26 @@ const heroPhoto: Photo = {
 };
 
 const aboutPhoto: Photo = {
-  src: "/photos/photo-2.webp",
-  alt: "Eclectic vintage display at Really Good Stuff",
-  category: "interior",
+  src: "/photos/photo-9.webp",
+  alt: "Historical Really Good Stuff storefront in Portland",
+  category: "exterior",
 };
 
 const collections: Service[] = [
   {
     name: "Vintage Clothing",
     description: "Clothing with history, character, and no chance of seeing it everywhere else.",
-    image: "/photos/photo-2.webp",
+    image: "/photos/photo-7.webp",
   },
   {
     name: "Records & Music",
     description: "Vinyl, musical instruments, and finds for people who still stop for the good stuff.",
-    image: "/photos/photo-3.webp",
+    image: "/photos/photo-8.webp",
   },
   {
     name: "Furniture & Home",
     description: "Furniture, décor, and useful oddities pulled from a perpetually changing assortment.",
     image: "/photos/photo-5.webp",
-  },
-  {
-    name: "Tchotchkes",
-    description: "The small, strange, memorable objects that make a room—or a gift—more interesting.",
-    image: "/photos/photo-6.webp",
   },
 ];
 
