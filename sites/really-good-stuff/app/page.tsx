@@ -5,7 +5,6 @@ import { ClickToCall } from "@/components/ClickToCall";
 import { ContactSection } from "@/components/ContactSection";
 import { Footer } from "@/components/Footer";
 import { HeroSection } from "@/components/HeroSection";
-import { ImageGallery } from "@/components/ImageGallery";
 import { MarqueeTicker } from "@/components/MarqueeTicker";
 import { Navbar } from "@/components/Navbar";
 import { ServiceCards } from "@/components/ServiceCards";
@@ -39,7 +38,6 @@ const businessContact = {
 const navLinks: NavLink[] = [
   { label: "Story", href: "#story" },
   { label: "The mix", href: "#mix" },
-  { label: "Photos", href: "#photos" },
   { label: "Visit", href: "#contact" },
 ];
 
@@ -54,15 +52,6 @@ const aboutPhoto: Photo = {
   alt: "Eclectic vintage display at Really Good Stuff",
   category: "interior",
 };
-
-const galleryPhotos: Photo[] = [
-  { src: "/photos/photo-1.webp", alt: "Vintage display at Really Good Stuff", category: "interior" },
-  { src: "/photos/photo-2.webp", alt: "Collectibles at Really Good Stuff", category: "product" },
-  { src: "/photos/photo-3.webp", alt: "Vintage items in the Portland shop", category: "product" },
-  { src: "/photos/photo-4.webp", alt: "Really Good Stuff shop display", category: "interior" },
-  { src: "/photos/photo-5.webp", alt: "Collectibles and vintage finds", category: "product" },
-  { src: "/photos/photo-6.webp", alt: "Merchandise inside Really Good Stuff", category: "interior" },
-];
 
 const collections: Service[] = [
   {
@@ -117,7 +106,6 @@ const stats: Stat[] = [
 const footerLinks: NavLink[] = [
   { label: "Story", href: "#story" },
   { label: "The mix", href: "#mix" },
-  { label: "Photos", href: "#photos" },
   { label: "Visit", href: "#contact" },
 ];
 
@@ -150,7 +138,7 @@ export default function Page() {
 
       <HeroSection
         headline="The good kind of strange"
-        subheadline="Vintage treasures, records, furniture, and more on SE Division."
+        subheadline="Vintage treasures, records, furniture, and more."
         ctaText="Plan your visit"
         ctaHref="#contact"
         secondaryCtaText="See the mix"
@@ -180,7 +168,7 @@ export default function Page() {
       >
         <AboutSection
           heading="Since 1993"
-          story="Really Good Stuff opened in Portland in 1993 and now lives on SE Division. After a 2021 fire destroyed the Hawthorne shop, owner Evan Shlaes reopened nearby in 2022. The shelves are still packed with vintage clothing, musical instruments, furniture, records, and the sort of thing you will not see twice."
+          story="Really Good Stuff opened in Portland in 1993 and now lives at 3629 SE Division St. After a 2021 fire destroyed the Hawthorne shop, owner Evan Shlaes reopened nearby in 2022. The shelves are still packed with vintage clothing, musical instruments, furniture, records, and the sort of thing you will not see twice."
           image={aboutPhoto}
         />
       </motion.div>
@@ -202,17 +190,6 @@ export default function Page() {
           columns={4}
           variant="grid"
         />
-      </motion.section>
-
-      <motion.section
-        id="photos"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.15 }}
-        variants={fadeUp}
-        className="rgs-gallery"
-      >
-        <ImageGallery heading="Take a look" photos={galleryPhotos} variant="masonry" />
       </motion.section>
 
       <motion.section
