@@ -81,7 +81,7 @@ const services: Service[] = [
     name: "Mending",
     description:
       "Bring in clothing that needs a repair or adjustment alongside its cleaning.",
-    image: "/photos/photo-2.webp",
+    image: "/photos/photo-4.webp",
   },
 ];
 
@@ -139,7 +139,7 @@ const faqItems: FAQItem[] = [
   {
     question: "What can I bring in?",
     answer:
-      "The business is listed as a dry cleaner. Public customer reviews also mention stain care, careful cleaning, ironing, and mending requests.",
+      "Bring in the garments you would like us to dry clean, press, spot-treat, or mend. Let us know about stains, fabric concerns, or repairs when you drop them off.",
   },
   {
     question: "When are you open?",

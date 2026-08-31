@@ -57,7 +57,7 @@ body {
 .hs-services > * { position: relative; }
 .hs-process { background: var(--brand-bg); }
 .hs-reviews { background: #17302c; }
-.hs-reviews h2, .hs-reviews p { color: #f7f4ed !important; }
+.hs-reviews h2 { color: #f7f4ed !important; }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; }

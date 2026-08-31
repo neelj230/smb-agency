@@ -38,7 +38,8 @@
   "photos": [
     { "src": "/photos/photo-1.webp", "alt": "Hidden Spring Cleaners in West Linn", "category": "exterior" },
     { "src": "/photos/photo-2.webp", "alt": "Hidden Spring Cleaners garment-care shop", "category": "interior" },
-    { "src": "/photos/photo-3.webp", "alt": "Hidden Spring Cleaners service detail", "category": "work" }
+    { "src": "/photos/photo-3.webp", "alt": "Hidden Spring Cleaners service detail", "category": "work" },
+    { "src": "/photos/photo-4.webp", "alt": "Clothes on a rack used for the mending service card", "category": "product" }
   ],
   "stats": [
     { "value": 4.7, "suffix": " stars", "label": "Google rating" },
@@ -47,7 +48,7 @@
   ],
   "faq": [
     { "question": "Where is Hidden Spring Cleaners located?", "answer": "Hidden Spring Cleaners is at 19383 Willamette Dr in the West Linn Retail Center, West Linn, OR 97068." },
-    { "question": "What services are listed?", "answer": "The public listing identifies a dry cleaner. Customer reviews mention stain care, careful cleaning, ironing, and mending requests." },
+    { "question": "What can I bring in?", "answer": "Bring in the garments you would like us to dry clean, press, spot-treat, or mend. Let us know about stains, fabric concerns, or repairs when you drop them off." },
     { "question": "When is the business open?", "answer": "Monday through Friday 9:00 AM–6:30 PM, Saturday 9:00 AM–4:00 PM, and closed Sunday." }
   ],
   "socialLinks": {},
@@ -66,6 +67,7 @@
   "dataSources": [
     "https://www.google.com/maps/search/Hidden+Spring+Cleaners+West+Linn+Oregon",
     "https://local.yahoo.com/info-28586445-hidden-spring-cleaners-west-linn",
-    "https://www.dexknows.com/west-linn-or/bp/hidden-spring-cleaners-4055157"
+    "https://www.dexknows.com/west-linn-or/bp/hidden-spring-cleaners-4055157",
+    "https://unsplash.com/photos/clothes-hanged-on-clothes-rack-fERtc6SsLVs"
   ]
 }
