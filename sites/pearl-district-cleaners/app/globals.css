@@ -1,0 +1,325 @@
+@import "tailwindcss";
+
+/* Scan shared packages for Tailwind classes */
+@source "../../../packages/components/**/*.{ts,tsx}";
+@source "../../../packages/integrations/**/*.{ts,tsx}";
+
+:root {
+  --brand-primary: #172A3A;
+  --brand-accent: #73D2DE;
+  --brand-bg: #f8fafc;
+  --brand-bg-alt: #eef2f7;
+  --brand-text: #172A3A;
+  --brand-muted: #5c6678;
+}
+
+::selection {
+  background-color: var(--brand-primary);
+  color: var(--brand-bg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--brand-bg);
+  color: var(--brand-text);
+}
+
+/* Marquee animation for carousels */
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* Smooth section transitions */
+section,
+[id] > div {
+  scroll-margin-top: 80px;
+}
+
+/* Focus-visible outlines for accessibility */
+:focus-visible {
+  outline: 2px solid var(--brand-primary);
+  outline-offset: 2px;
+}
+
+/* Subtle dot pattern background */
+.dot-pattern {
+  background-image: radial-gradient(
+    circle,
+    var(--brand-muted) 0.5px,
+    transparent 0.5px
+  );
+  background-size: 24px 24px;
+}
+
+/* Gradient transitions between sections */
+.section-gradient {
+  position: relative;
+}
+.section-gradient::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, transparent, var(--brand-bg));
+  pointer-events: none;
+}
+
+/* Creative director extras */
+/* ═══════════════════════════════════════════════════
+   Pearl District Cleaners — Custom CSS
+   ═══════════════════════════════════════════════════ */
+
+/* ── Brand tokens ────────────────────────────────── */
+:root {
+  --kc-blue: #2C3E50;
+  --kc-yellow: #E74C3C;
+  --kc-dark: #0f1623;
+  --kc-dark-mid: #1a2236;
+  --kc-light: #f7f8fc;
+  --kc-text: #1a1d23;
+  --kc-muted: #6b7280;
+}
+
+/* ── Film-grain overlay ──────────────────────────── */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
+  mix-blend-mode: overlay;
+  opacity: 0.025;
+}
+
+/* ── Marquee strip ───────────────────────────────── */
+.kc-marquee-strip {
+  background-color: var(--kc-blue);
+  overflow: hidden;
+  padding: 12px 0;
+  border-top: 3px solid var(--kc-yellow);
+  border-bottom: 3px solid var(--kc-yellow);
+}
+
+.kc-marquee-track {
+  display: flex;
+  gap: 0;
+  width: max-content;
+  animation: kc-marquee-scroll 34s linear infinite;
+}
+
+@keyframes kc-marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.kc-marquee-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  padding: 0 28px;
+}
+
+.kc-marquee-dot {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: var(--kc-yellow);
+  flex-shrink: 0;
+}
+
+/* ── About wrapper ───────────────────────────────── */
+.kc-about-wrapper {
+  background-color: var(--kc-light);
+  padding: 80px 0;
+}
+
+/* ── Section padding helper ──────────────────────── */
+.kc-section-pad {
+  padding: 88px 0;
+}
+
+/* ── Reviews background ──────────────────────────── */
+.kc-reviews-bg {
+  background-color: var(--kc-light);
+  position: relative;
+}
+
+.kc-reviews-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse at 70% 50%,
+    rgba(30, 100, 230, 0.05) 0%,
+    transparent 70%
+  );
+  pointer-events: none;
+}
+
+/* ── Dark section ────────────────────────────────── */
+.kc-dark-section {
+  background-color: var(--kc-dark);
+  color: #ffffff;
+  padding: 80px 0;
+}
+
+.kc-dark-section h2,
+.kc-dark-section h3,
+.kc-dark-section p {
+  color: #ffffff !important;
+}
+
+/* ── Diagonal accent divider ─────────────────────── */
+.kc-diagonal-divider {
+  height: 64px;
+  background: linear-gradient(
+    to bottom right,
+    var(--kc-light) 49.9%,
+    var(--kc-dark) 50%
+  );
+}
+
+/* ── Quote band ──────────────────────────────────── */
+.kc-quote-band {
+  background-color: var(--kc-yellow);
+  padding: 48px 24px;
+  overflow: hidden;
+  position: relative;
+}
+
+.kc-quote-band::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 18px,
+    rgba(30, 100, 230, 0.05) 18px,
+    rgba(30, 100, 230, 0.05) 19px
+  );
+}
+
+.kc-quote-band-inner {
+  position: relative;
+  max-width: 860px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+}
+
+.kc-quote-mark {
+  font-family: "Pinyon Script", cursive;
+  font-size: 5rem;
+  line-height: 1;
+  color: var(--kc-blue);
+  opacity: 0.55;
+  user-select: none;
+  flex-shrink: 0;
+  margin-top: -12px;
+}
+
+.kc-quote-mark--right {
+  margin-top: 12px;
+}
+
+.kc-quote-text {
+  font-family: "Pinyon Script", cursive;
+  font-size: clamp(1.6rem, 4vw, 2.8rem);
+  color: var(--kc-dark);
+  text-align: center;
+  line-height: 1.35;
+  margin: 0;
+}
+
+/* ── Hover scale for cards ───────────────────────── */
+[class*="service-card"],
+[class*="ServiceCard"],
+[class*="card"] {
+  transition:
+    transform 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+    box-shadow 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+[class*="service-card"]:hover,
+[class*="ServiceCard"]:hover,
+[class*="card"]:hover {
+  transform: translateY(-4px) scale(1.012);
+  box-shadow: 0 16px 48px rgba(30, 100, 230, 0.12);
+}
+
+/* ── Gallery image hover ─────────────────────────── */
+.kc-dark-section img {
+  transition:
+    transform 0.4s cubic-bezier(0.22, 1, 0.36, 1),
+    filter 0.4s ease;
+}
+
+.kc-dark-section img:hover {
+  transform: scale(1.03);
+  filter: brightness(1.08);
+}
+
+/* ── FAQ accordion styling ───────────────────────── */
+[class*="accordion"],
+[class*="Accordion"],
+[class*="faq"],
+[class*="FAQ"] {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ── Dot pattern utility ─────────────────────────── */
+.dot-pattern {
+  background-image: radial-gradient(
+    circle,
+    rgba(30, 100, 230, 0.12) 1px,
+    transparent 1px
+  );
+  background-size: 22px 22px;
+}
+
+/* ── Google font import ──────────────────────────── */
+
+/* ── Responsive tweaks ───────────────────────────── */
+@media (max-width: 640px) {
+  .kc-quote-mark {
+    font-size: 3.2rem;
+  }
+  .kc-section-pad {
+    padding: 56px 0;
+  }
+  .kc-about-wrapper {
+    padding: 56px 0;
+  }
+  .kc-dark-section {
+    padding: 56px 0;
+  }
+}

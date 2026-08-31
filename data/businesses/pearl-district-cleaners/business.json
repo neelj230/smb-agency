@@ -1,0 +1,219 @@
+{
+  "name": "Pearl District Cleaners",
+  "slug": "pearl-district-cleaners",
+  "category": "dry cleaner",
+  "address": "1427B NW Flanders St",
+  "city": "Portland",
+  "state": "OR",
+  "zip": "97209",
+  "phone": "(503) 224-7733",
+  "email": "",
+  "website": null,
+  "rating": 4.6,
+  "reviewCount": 57,
+  "tagline": "Cleaner garments, handled with care.",
+  "brandNarrative": "Pearl District Cleaners serves Portland's Pearl District from NW Flanders with dry cleaning, alterations, wash and fold, and careful garment care. Recent customers call out friendly service, fast turnaround, stain removal that saved favorite suits, and clothes returned fresh, spotless, and pressed. The shop is open early on weekdays and stays open until 6:30 PM, making it practical for neighborhood residents and working professionals.",
+  "ownerStory": "",
+  "hours": {
+    "Monday": "7:00 AM - 6:30 PM",
+    "Tuesday": "7:00 AM - 6:30 PM",
+    "Wednesday": "7:00 AM - 6:30 PM",
+    "Thursday": "7:00 AM - 6:30 PM",
+    "Friday": "7:00 AM - 6:30 PM",
+    "Saturday": "9:00 AM - 5:00 PM",
+    "Sunday": "Closed"
+  },
+  "services": [
+    {
+      "name": "Dry Cleaning",
+      "description": "Professional dry cleaning for suits, shirts, dresses, and delicate pieces, with customers noting fresh, spotless, well-pressed results.",
+      "icon": "shirt"
+    },
+    {
+      "name": "Stain Removal",
+      "description": "Careful spot treatment for hard-to-clean garments, including customer-reported success removing old stains from high-value suit fabric.",
+      "icon": "sparkles"
+    },
+    {
+      "name": "Alterations",
+      "description": "Neighborhood sewing and alterations for fit adjustments, repairs, and garment upkeep.",
+      "icon": "scissors"
+    },
+    {
+      "name": "Wash and Fold",
+      "description": "Convenient wash and fold service for everyday laundry handled by the shop's local team.",
+      "icon": "wind"
+    },
+    {
+      "name": "Pressing",
+      "description": "Garments returned clean, pressed, and ready to wear for work, events, and regular wardrobe care.",
+      "icon": "check"
+    },
+    {
+      "name": "Garment Repairs",
+      "description": "Helpful repairs and clothing care support for customers who want favorite pieces kept in rotation longer.",
+      "icon": "needle"
+    }
+  ],
+  "reviews": [
+    {
+      "text": "Very impressed by these cleaners. I had a velvet light grey YSL suit with stains from years ago on it after partying a little too hard. I took it to another dry cleaner and they could not get it out. I then took it here and they got it all the way out.",
+      "author": "BestProsInTown reviewer",
+      "rating": 5,
+      "source": "BestProsInTown",
+      "date": "2026-04"
+    },
+    {
+      "text": "I had a great experience with this dry cleaning service. The staff was friendly and professional, and they handled my clothes with care. Everything came back looking fresh, spotless, and perfectly pressed. The service was quick and dependable.",
+      "author": "BestProsInTown reviewer",
+      "rating": 5,
+      "source": "BestProsInTown",
+      "date": "2026-03"
+    },
+    {
+      "text": "I had stained my Canali suit pants with a vinyl protectant while stepping out of a car. PDC was able to remove the two quarter-sized stains completely two days later. Friendly customer service and very reasonable prices.",
+      "author": "BestProsInTown reviewer",
+      "rating": 5,
+      "source": "BestProsInTown",
+      "date": "2026-03"
+    }
+  ],
+  "team": [],
+  "photos": [
+    {
+      "src": "/photos/photo-1.jpg",
+      "alt": "Pearl District Cleaners storefront and counter area",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-2.jpg",
+      "alt": "Pearl District Cleaners garment care workspace",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-3.jpg",
+      "alt": "Clothing and dry cleaning services at Pearl District Cleaners",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-4.jpg",
+      "alt": "Pressed garments handled by Pearl District Cleaners",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-5.jpg",
+      "alt": "Garment cleaning and pressing at Pearl District Cleaners",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-6.jpg",
+      "alt": "Pearl District Cleaners service detail photo",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-7.jpg",
+      "alt": "Pearl District Cleaners shop photo",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-8.jpg",
+      "alt": "Pearl District Cleaners garment rack and store area",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-9.jpg",
+      "alt": "Cleaned garments ready for pickup",
+      "category": "product"
+    },
+    {
+      "src": "/photos/photo-10.jpg",
+      "alt": "Dry cleaning and clothing care from Pearl District Cleaners",
+      "category": "work"
+    },
+    {
+      "src": "/photos/photo-11.jpg",
+      "alt": "Pearl District Cleaners customer service area",
+      "category": "interior"
+    },
+    {
+      "src": "/photos/photo-12.jpg",
+      "alt": "Pearl District Cleaners clothing care photo",
+      "category": "work"
+    }
+  ],
+  "stats": [
+    {
+      "value": 57,
+      "suffix": "+",
+      "label": "Listed Reviews"
+    },
+    {
+      "value": 4.6,
+      "suffix": " stars",
+      "label": "Average Rating"
+    },
+    {
+      "value": 17,
+      "suffix": "",
+      "label": "Listing Photos"
+    },
+    {
+      "value": 6,
+      "suffix": " days",
+      "label": "Open Weekly"
+    }
+  ],
+  "faq": [
+    {
+      "question": "Where is Pearl District Cleaners located?",
+      "answer": "Pearl District Cleaners is located at 1427B NW Flanders St in Portland, OR 97209."
+    },
+    {
+      "question": "What services are listed for Pearl District Cleaners?",
+      "answer": "The public listing identifies the shop for dry cleaning and sewing or alterations. Review text also mentions wash and fold, stain removal, pressing, and garment care."
+    },
+    {
+      "question": "What payment and parking details are listed?",
+      "answer": "The listing notes credit cards, Apple Pay, street parking, private lot parking, and bike parking."
+    },
+    {
+      "question": "Is Pearl District Cleaners open on Sundays?",
+      "answer": "No. The public listing shows Pearl District Cleaners as closed on Sundays."
+    }
+  ],
+  "socialLinks": {
+    "instagram": "https://www.instagram.com/pearldistrictdrycleaners/"
+  },
+  "competitors": [
+    "Willamette Dry Clean & Alterations",
+    "Perfecto Tailoring",
+    "Plaza Cleaners"
+  ],
+  "brandColors": {
+    "primary": "#172A3A",
+    "accent": "#73D2DE",
+    "note": "Deep blue conveys garment-care precision and professionalism; the clean aqua accent gives the site a fresh, laundered feel without leaning on stock imagery."
+  },
+  "analysis": {
+    "top_3_strengths": [
+      "Customers praise stain removal on difficult or high-value garments.",
+      "Recent reviews describe friendly, professional service and quick turnaround.",
+      "The shop has practical hours for Pearl District residents and working professionals."
+    ],
+    "common_complaints": [],
+    "suggested_tagline": "Cleaner garments, handled with care.",
+    "photo_quality": "good",
+    "personality_keywords": [
+      "practical",
+      "friendly",
+      "precise",
+      "neighborhood",
+      "reliable"
+    ]
+  },
+  "dataSources": [
+    "https://www.bestprosintown.com/or/portland/pearl-district-cleaners-/",
+    "https://www.bestprosintown.com/or/portland/pearl-district-cleaners-/photos/",
+    "https://laundryarchive.com/laundromats/or/portland/16140/pearl-district-cleaners"
+  ]
+}
