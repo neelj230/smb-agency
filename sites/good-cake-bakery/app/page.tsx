@@ -7,6 +7,8 @@ import { ClickToCall } from "@/components/ClickToCall";
 import { Footer } from "@/components/Footer";
 import { MarqueeTicker } from "@/components/MarqueeTicker";
 import { Navbar } from "@/components/Navbar";
+import { ParallaxImage } from "@/components/ParallaxImage";
+import { ZoomOutReveal } from "@/components/ZoomOutReveal";
 import type { NavLink, Review } from "@/components/types";
 
 const business = {
@@ -57,22 +59,22 @@ const reviews: Review[] = [
 
 const treats = [
   {
-    title: "Custom occasions",
+    title: "Celebration cakes",
     text: "Birthday, wedding, and celebration cakes made for the moments you are marking.",
     src: "/photos/photo-3.webp",
     alt: "Decorated cake from Good Cake Bakery",
   },
   {
-    title: "Pan dulce",
+    title: "Pan dulce & pastries",
     text: "Traditional Mexican breads and pastries are part of the everyday case.",
-    src: "/photos/photo-4.webp",
+    src: "/photos/photo-6.webp",
     alt: "Mexican bakery pastries from Good Cake Bakery",
   },
   {
-    title: "One more treat",
-    text: "Cakes, cookies, cheesecakes, and small surprises for a visit without a big occasion.",
-    src: "/photos/photo-5.webp",
-    alt: "Dessert from Good Cake Bakery",
+    title: "Dessert case",
+    text: "Eclairs, tarts, cheesecakes, cookies, and plenty of reasons to bring something home.",
+    src: "/photos/photo-7.webp",
+    alt: "Assorted desserts from Good Cake Bakery",
   },
 ];
 
@@ -86,10 +88,12 @@ const fadeUp = {
 export default function Page() {
   return (
     <main>
-      <Navbar businessName="Good Cake" links={navLinks} ctaText="Call to order" ctaHref="tel:+15038109369" variant="transparent" />
+      <Navbar businessName="Good Cake Bakery" links={navLinks} ctaText="Call to order" ctaHref="tel:+15038109369" variant="transparent" />
 
       <section className="cake-hero">
         <div className="cake-hero__dots" aria-hidden="true" />
+        <div className="cake-hero__orbit cake-hero__orbit--one" aria-hidden="true" />
+        <div className="cake-hero__orbit cake-hero__orbit--two" aria-hidden="true" />
         <div className="cake-hero__grid">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -117,6 +121,7 @@ export default function Page() {
           >
             <Image src="/photos/photo-1.webp" alt="Dessert display at Good Cake Bakery" fill priority sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" />
             <div className="cake-hero__label">Something sweet<br />for every table</div>
+            <div className="cake-hero__ribbon" aria-hidden="true">Good Cake · Good Day · Good Cake · Good Day · </div>
           </motion.div>
         </div>
       </section>
@@ -141,16 +146,18 @@ export default function Page() {
           <p className="cake-kicker">Pick your favorite</p>
           <h2>Worth saving room for.</h2>
         </motion.div>
-        <div className="cake-treats__grid">
+        <ZoomOutReveal className="cake-treats__reveal" startScale={1.12}>
+          <div className="cake-treats__grid">
           {treats.map((treat, index) => (
-            <motion.article key={treat.title} {...fadeUp} transition={{ ...fadeUp.transition, delay: index * 0.1 }} className="cake-treat">
+            <motion.article key={treat.title} {...fadeUp} whileHover={{ y: -12, rotate: index === 1 ? 1 : -1 }} transition={{ ...fadeUp.transition, delay: index * 0.1 }} className="cake-treat">
               <div className="cake-treat__image"><Image src={treat.src} alt={treat.alt} fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover" /></div>
               <p className="cake-treat__number">0{index + 1}</p>
               <h3>{treat.title}</h3>
               <p>{treat.text}</p>
             </motion.article>
           ))}
-        </div>
+          </div>
+        </ZoomOutReveal>
       </section>
 
       <section className="cake-reviews">
@@ -172,7 +179,7 @@ export default function Page() {
       </section>
 
       <section id="visit" className="cake-visit">
-        <motion.div {...fadeUp} className="cake-visit__image"><Image src="/photos/photo-2.webp" alt="Baked goods at Good Cake Bakery" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover" /></motion.div>
+        <ParallaxImage src="/photos/photo-2.webp" alt="Baked goods at Good Cake Bakery" speed={0.12} containerClassName="cake-visit__image" className="cake-visit__photo" />
         <motion.div {...fadeUp} className="cake-visit__content">
           <p className="cake-kicker">Come by</p>
           <h2>Your next<br /><em>good day.</em></h2>
