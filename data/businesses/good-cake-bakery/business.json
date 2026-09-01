@@ -1,0 +1,27 @@
+{
+  "name": "Good Cake Bakery",
+  "slug": "good-cake-bakery",
+  "category": "Bakery",
+  "address": "12085 SW Hall Blvd #130",
+  "city": "Tigard",
+  "state": "OR",
+  "zip": "97223",
+  "phone": "(503) 810-9369",
+  "rating": 4.6,
+  "reviewCount": 216,
+  "hours": { "Monday": "11 AM – 3 PM", "Tuesday": "9 AM – 8 PM", "Wednesday": "9 AM – 8 PM", "Thursday": "9 AM – 8 PM", "Friday": "9 AM – 8 PM", "Saturday": "10 AM – 5 PM", "Sunday": "Closed" },
+  "description": "A Tigard bakery offering traditional Mexican breads and pastries, custom cakes, and dessert creations.",
+  "socialLinks": { "instagram": "https://www.instagram.com/good.cake.bakery/" },
+  "sources": [
+    "https://www.engage.tigard-or.gov/CARES/stories/good-cake-bakery",
+    "https://restaurantguru.com/Good-Cake-Bakery-Tigard",
+    "https://www.restaurantji.com/or/tigard/good-cake-bakery-/"
+  ],
+  "photos": [
+    { "src": "/photos/photo-1.webp", "alt": "Dessert display at Good Cake Bakery", "category": "food" },
+    { "src": "/photos/photo-2.webp", "alt": "Baked goods at Good Cake Bakery", "category": "food" },
+    { "src": "/photos/photo-3.webp", "alt": "Decorated cake from Good Cake Bakery", "category": "food" },
+    { "src": "/photos/photo-4.webp", "alt": "Mexican bakery pastries from Good Cake Bakery", "category": "food" },
+    { "src": "/photos/photo-5.webp", "alt": "Dessert from Good Cake Bakery", "category": "food" }
+  ]
+}
